@@ -1,6 +1,6 @@
 # Unified editions build report
 
-Built: 2026-07-14T17:06:48.878495Z
+Built: 2026-07-14T19:11:20.718772Z
 
 ## Sources
 - AhmedBaset spine: `db/by_book` (structure, arabic, english narrator/text, chapters)
