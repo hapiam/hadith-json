@@ -12,6 +12,13 @@ interface Hadith {
 	};
 	chapterId: number;
 	bookId: number;
+	/** Optional authenticity grade (ported from muallimai/hadith-json). */
+	grade?: string | null;
+	/** Optional sunnah.com-style reference (ported from muallimai/hadith-json). */
+	reference?: {
+		text?: string;
+		url?: string;
+	};
 }
 
 interface Introduction {
@@ -70,5 +77,21 @@ interface ScrapedBook {
 	route: {
 		base: string;
 		chapters: string[];
+	};
+}
+
+/** Per-locale draft translations (see db/by_locale; Indonesian ported from sagad/hadith-json). */
+type Locale = "ar" | "en" | "id";
+type TranslationStatus = "source" | "missing" | "draft" | "verified";
+
+interface LocalizedHadith {
+	id: number;
+	idInBook: number;
+	chapterId: number;
+	bookId: number;
+	translation: {
+		text: string;
+		narrator?: string;
+		status: TranslationStatus;
 	};
 }

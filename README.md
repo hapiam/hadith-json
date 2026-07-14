@@ -1,36 +1,50 @@
-# hadith-json
+# hadith-json (hapi merge)
 
-A comprehensive JSON database of **50,884 hadiths** — the sayings and actions of Prophet Muhammad ﷺ — in both Arabic and English, scraped from [Sunnah.com](https://sunnah.com/) and covering 17 canonical books.
+A comprehensive JSON database of hadiths in Arabic and English (plus optional Indonesian drafts), based on [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) **`main`**, with carefully ported additions from community forks.
+
+Scraped primarily from [Sunnah.com](https://sunnah.com/).
+
+## Provenance
+
+| Layer | Source | What we took |
+|-------|--------|----------------|
+| **Base** | [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) `main` | Full bilingual `db/by_book` + `db/by_chapter`, scraper, types. Includes the `id: null` chapter-id fix and latest data corrections. |
+| **Grades / references / Hisn** | [muallimai/hadith-json](https://github.com/muallimai/hadith-json) | `grade` + `reference` fields merged **by hadith `id`** without overwriting Arabic/English text from AhmedBaset. Added **Hisn al-Muslim** (`db/by_book/other_books/hisn_almuslim.json`). |
+| **Indonesian locale tree** | [sagad/hadith-json](https://github.com/sagad/hadith-json) | Additive `db/by_locale/id/` only. Primary `db/` bilingual files are **not** replaced. |
+
+Git history of this repo starts from AhmedBaset's history for provenance.
+
+### Merge method
+
+Surgical content merge (not a blind git merge of diverged histories):
+
+1. Start from AhmedBaset `main`.
+2. Run `tool/merge_muallimai_enrichments.dart` to attach `grade` / `reference` onto matching ids in `db/by_book` and `db/by_chapter`.
+3. Copy Hisn al-Muslim JSON from muallimai.
+4. Copy `db/by_locale/id` from sagad.
 
 ## Books
 
-| # | English | Arabic |
-|---|---------|--------|
-| 1 | Sahih al-Bukhari | صحيح البخاري |
-| 2 | Sahih Muslim | صحيح مسلم |
-| 3 | Sunan Abi Dawud | سنن أبي داود |
-| 4 | Jami` at-Tirmidhi | جامع الترمذي |
-| 5 | Sunan an-Nasa'i | سنن النسائي |
-| 6 | Sunan Ibn Majah | سنن ابن ماجه |
-| 7 | Muwatta Malik | موطأ مالك |
-| 8 | Musnad Ahmad | مسند أحمد |
-| 9 | Sunan ad-Darimi | سنن الدارمي |
-| 10 | Riyad as-Salihin | رياض الصالحين |
-| 11 | Shamail al-Muhammadiyah | الشمائل المحمدية |
-| 12 | Bulugh al-Maram | بلوغ المرام |
-| 13 | Al-Adab Al-Mufrad | الأدب المفرد |
-| 14 | Mishkat al-Masabih | مشكاة المصابيح |
-| 15 | The Forty Hadith of al-Nawawi | الأربعون النووية |
-| 16 | The Forty Hadith Qudsi | الأربعون القدسية |
-| 17 | The Forty Hadith of Shah Waliullah | أربعون الشاه ولي الله |
+| # | English | Notes |
+|---|---------|-------|
+| 1 | Sahih al-Bukhari | |
+| 2 | Sahih Muslim | |
+| 3 | Sunan Abi Dawud | grades/refs enriched |
+| 4 | Jami\` at-Tirmidhi | grades/refs enriched |
+| 5 | Sunan an-Nasa'i | grades/refs enriched |
+| 6 | Sunan Ibn Majah | grades/refs enriched |
+| 7 | Muwatta Malik | |
+| 8 | Musnad Ahmad | **chapters 8–30 still missing** (upstream Sunnah.com gap) |
+| 9 | Sunan ad-Darimi | |
+| 10–17 | Forties + other books | as in AhmedBaset |
+| 18 | Hisn al-Muslim | from muallimai |
 
-## Data Format
-
-Each hadith follows this TypeScript interface:
+## Data format (primary bilingual files)
 
 ```typescript
 interface Hadith {
   id: number;
+  idInBook: number;
   chapterId: number;
   bookId: number;
   arabic: string;
@@ -38,57 +52,44 @@ interface Hadith {
     narrator: string;
     text: string;
   };
+  grade?: string | null;
+  reference?: {
+    text?: string;
+    url?: string;
+  };
 }
 ```
 
-The database is available in two layouts under the `db/` folder:
+Layouts:
 
-- **`db/by_book/`** — one JSON file per book
-- **`db/by_chapter/`** — one JSON file per chapter within each book
+- `db/by_book/` — one JSON file per book
+- `db/by_chapter/` — one JSON file per chapter
+- `db/by_locale/id/` — Indonesian **draft** translations (see below)
 
-See [`types/index.d.ts`](./types/index.d.ts) for all type definitions.
+## Indonesian locale (`db/by_locale/id`) — DRAFT
 
-> [!WARNING]
-> Pin to a specific tag when fetching files directly from GitHub — the data format may change on `main`.
->
-> ✅ `https://github.com/AhmedBaset/hadith-json/blob/v1.2.0/db/by_chapter/the_9_books/bukhari/1.json`  
-> ❌ `https://github.com/AhmedBaset/hadith-json/blob/main/db/by_chapter/the_9_books/bukhari/1.json`
+Ported from sagad/hadith-json. Structure:
 
-## Projects Using This Data
+- `db/by_locale/id/by_book/...`
+- `db/by_locale/id/by_chapter/...`
 
-<!-- - [App Name](https://github.com/username/app-name) — description of app. [GitHub](https://github.com/username/app-name) | [Website](https://app-name.com) | [App Store](https://apps.apple.com/app-name) -->
+Each hadith uses a localized shape with `translation.status`. **All Indonesian entries are `status: "draft"`** — machine / AI-assisted translation from English, **not** editorial-quality. Do not treat as verified for formal publication without human review.
 
-> Using this dataset in your project? [Open a pull request](https://github.com/AhmedBaset/hadith-json/edit/main/README.md) to add it to the list!
+Note: sagad's README describes planned `ar` / `en` locale mirrors; this merge only includes the committed **`id`** tree present in that fork.
 
-## Project Structure
+## Known limitations
 
-```
-.
-├── db/
-│   ├── by_book/
-│   │   ├── the_9_books/        # bukhari.json, muslim.json, ...
-│   │   ├── forties/            # nawawi40.json, ...
-│   │   └── other_books/
-│   └── by_chapter/
-│       ├── the_9_books/        # bukhari/1.json, muslim/1.json, ...
-│       ├── forties/            # nawawi40/1.json, ...
-│       └── other_books/        # RyadSalihin/1.json, ...
-├── src/
-│   ├── index.ts
-│   ├── types/
-│   └── helpers/
-└── types/
-    └── index.d.ts
-```
+- **Musnad Ahmad chapters 8–30** are missing from Sunnah.com source data. No fork fixed this; the gap remains. Existing Ahmad chapters (1–7, 31) from AhmedBaset are preserved.
+- Grades are sparse or null for some books (e.g. Bukhari, Muslim) depending on Sunnah.com source fields in the muallimai scrape.
+- Indonesian drafts may include imperfect MT output.
 
-## Known Limitations
+## Attribution & license
 
-- **Musnad Ahmad**: Chapters 8–30 are missing from the source data on Sunnah.com. If you know of a better source, please open an issue.
-- The scraping code in `src/` was written as a learning exercise and could use some refactoring — though it works fine as-is.
+Upstream data and code remain attributed to [Ahmed Abdelbaset / AhmedBaset](https://github.com/AhmedBaset/hadith-json) and contributors. Additional fields and Hisn from [muallimai](https://github.com/muallimai/hadith-json); Indonesian locale drafts from [sagad](https://github.com/sagad/hadith-json). Follow upstream licensing / attribution expectations when redistributing.
 
 ## Contributing
 
-Contributions are welcome! Feel free to open an issue or pull request for data corrections, new formats, or code improvements.
+Issues and PRs welcome for data corrections, additional locales (with clear draft/verified labeling), or grade/reference improvements.
 
 ---
 

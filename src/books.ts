@@ -903,4 +903,23 @@ export const books: ScrapedBook[] = [
 		},
 		length: 1432,
 	},
+
+	//* Hisn al-Muslim (ported from muallimai/hadith-json)
+	{
+		id: 18,
+		arabic: {
+			title: "حصن المسلم",
+			author: "سعيد بن علي بن وهف القحطاني",
+		},
+		english: {
+			title: "Hisn al-Muslim",
+			author: "Said bin Ali bin Wahf al-Qahtani",
+		},
+		path: ["other_books", "hisn_almuslim"],
+		route: {
+			base: "hisn",
+			chapters: [""],
+		},
+		length: 268,
+	},
 ];
