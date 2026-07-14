@@ -1,4 +1,4 @@
-﻿# hadith-json (hapi merge)
+# hadith-json (hapi merge)
 
 A comprehensive JSON database of hadiths in Arabic and English (plus optional Indonesian drafts), based on [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) **`main`**, with carefully ported additions from community forks.
 
@@ -104,7 +104,7 @@ Languages available in fawaz editions: Arabic, Bengali, English, French, Indones
 
 ## Attribution & license
 
-Upstream data and code remain attributed to [Ahmed Abdelbaset / AhmedBaset](https://github.com/AhmedBaset/hadith-json) and contributors. Additional fields and Hisn from [muallimai](https://github.com/muallimai/hadith-json); Indonesian locale drafts from [sagad](https://github.com/sagad/hadith-json). Follow upstream licensing / attribution expectations when redistributing.
+Upstream data and code remain attributed to [Ahmed Abdelbaset / AhmedBaset](https://github.com/AhmedBaset/hadith-json) and contributors. Additional fields and Hisn from [muallimai](https://github.com/muallimai/hadith-json); Indonesian locale drafts from [sagad](https://github.com/sagad/hadith-json); multi-language editions catalog from [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) under `db/editions` (additive, schema-separate). Follow upstream licensing / attribution expectations when redistributing.
 
 ## Contributing
 

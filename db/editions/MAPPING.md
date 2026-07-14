@@ -1,4 +1,4 @@
-﻿# Fawazahmed0 editions mapping (`db/editions`)
+# Fawazahmed0 editions mapping (`db/editions`)
 
 Additive mirror of [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) whole-edition JSON, for offline multi-language translations. **Does not merge into** `db/by_book`, `db/by_chapter`, or `db/by_locale`.
 
@@ -6,7 +6,7 @@ CDN (still authoritative for per-hadith / section shards):
 
 `https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/`
 
-## Schema: incompatible — coexist only
+## Schema: incompatible - coexist only
 
 | | Fawaz editions | AhmedBaset / hapi bilingual |
 |--|----------------|-----------------------------|
@@ -19,7 +19,7 @@ CDN (still authoritative for per-hadith / section shards):
 
 **Do not field-merge** these shapes. Keep both layouts side by side.
 
-## Book key mapping (fawaz → hapi `src/books.ts`)
+## Book key mapping (fawaz to hapi `src/books.ts`)
 
 Where collections overlap:
 
@@ -38,10 +38,10 @@ Where collections overlap:
 
 ### Present in hapi, missing from fawaz
 
-- **ahmad** (8) — Musnad Ahmad
-- **darimi** (9) — Sunan ad-Darimi
+- **ahmad** (8) - Musnad Ahmad
+- **darimi** (9) - Sunan ad-Darimi
 - **riyad_assalihin** (13), **mishkat** (14), **adab** (15), **shamail** (16), **bulugh** (17)
-- **hisn_almuslim** (18) — Hisn al-Muslim (muallimai port)
+- **hisn_almuslim** (18) - Hisn al-Muslim (muallimai port)
 
 ## Languages in fawaz (9)
 
@@ -52,7 +52,7 @@ Edition file names look like `{lang}-{book}.min.json` (e.g. `eng-bukhari`, `ara-
 ## ID alignment notes
 
 - For many Kutub as-Sitta hadiths, `hadithnumber` / `arabicnumber` often align with sunnah.com numbering and hapi `idInBook` (e.g. Bukhari Arabic #1 matches).
-- **Do not assume perfect 1:1** across all books — Muslim numbering especially can differ between editions and schemes.
+- **Do not assume perfect 1:1** across all books - Muslim numbering especially can differ between editions and schemes.
 - Fawaz English is one `text` string; AhmedBaset splits narrator vs text.
 - Grades: keep fawaz multi-grader `grades[]` and hapi optional `grade` separately; never overwrite one with the other.
 
