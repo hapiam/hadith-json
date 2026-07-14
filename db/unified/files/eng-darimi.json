@@ -5,10 +5,11 @@
 		"language": "en",
 		"arabic": {
 			"title": "سنن الدارمي",
-			"author": "الإمام أبو محمد عبد الرحمن بن عبد الله بن الدارمي"
+			"author": "الإمام أبو محمد عبد الرحمن بن عبد الله بن الدارمي",
+			"introduction": ""
 		},
 		"translation": {
-			"title": "Sunan al-Darimi (English)",
+			"title": "Sunan al-Darimi",
 			"author": "Imam Abu Muhammad Abd al-Rahman ibn Abd Allah ibn al-Darimi",
 			"language": "en"
 		},

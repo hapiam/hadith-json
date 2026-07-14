@@ -5,10 +5,11 @@
 		"language": "en",
 		"arabic": {
 			"title": "الشمائل المحمدية",
-			"author": "الإمام الترمذي"
+			"author": "الإمام الترمذي",
+			"introduction": ""
 		},
 		"translation": {
-			"title": "Shama'il Muhammadiyah (English)",
+			"title": "Shama'il Muhammadiyah",
 			"author": "Imam Tirmidhi",
 			"language": "en"
 		},

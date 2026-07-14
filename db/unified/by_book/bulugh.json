@@ -94,17 +94,11 @@
 				"english": "The Comprehensive Book"
 			}
 		],
-		"languages": [
-			"ar",
-			"en",
-			"id"
-		],
 		"sources": [
 			"ahmedbaset",
 			"muallimai",
 			"sagad"
-		],
-		"translationStatus": "draft"
+		]
 	},
 	"hadiths": [
 		{
@@ -11175,8 +11169,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11203,8 +11197,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11231,8 +11225,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11259,8 +11253,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11287,8 +11281,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11315,8 +11309,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11343,8 +11337,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11371,8 +11365,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11399,8 +11393,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11427,8 +11421,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11455,8 +11449,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11483,8 +11477,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11511,8 +11505,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11539,8 +11533,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sanad Da'if Jiddan"
+					"name": "muallimai",
+					"grade": "Sanad Da'if Jiddan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11567,8 +11561,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11595,8 +11589,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11623,8 +11617,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11651,8 +11645,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11679,8 +11673,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11707,8 +11701,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11735,8 +11729,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11763,8 +11757,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11791,8 +11785,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11819,8 +11813,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11847,8 +11841,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11875,8 +11869,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11903,8 +11897,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11931,8 +11925,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11959,8 +11953,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -11987,8 +11981,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12015,8 +12009,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12043,8 +12037,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12071,8 +12065,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12099,8 +12093,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12127,8 +12121,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12155,8 +12149,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12183,8 +12177,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12211,8 +12205,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12239,8 +12233,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12267,8 +12261,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12295,8 +12289,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12323,8 +12317,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12351,8 +12345,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12379,8 +12373,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12407,8 +12401,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12435,8 +12429,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12463,8 +12457,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12514,8 +12508,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12542,8 +12536,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12570,8 +12564,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12598,8 +12592,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12626,8 +12620,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12654,8 +12648,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12682,8 +12676,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12710,8 +12704,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12738,8 +12732,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12766,8 +12760,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12794,8 +12788,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12822,8 +12816,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12850,8 +12844,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12878,8 +12872,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12906,8 +12900,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12934,8 +12928,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12962,8 +12956,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -12990,8 +12984,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13018,8 +13012,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13046,8 +13040,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13074,8 +13068,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13102,8 +13096,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13130,8 +13124,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13158,8 +13152,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13186,8 +13180,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13214,8 +13208,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13242,8 +13236,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13270,8 +13264,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13298,8 +13292,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13326,8 +13320,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13354,8 +13348,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13382,8 +13376,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13410,8 +13404,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13438,8 +13432,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13466,8 +13460,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13494,8 +13488,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sanad Da'if Jiddan"
+					"name": "muallimai",
+					"grade": "Sanad Da'if Jiddan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13522,8 +13516,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13550,8 +13544,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13578,8 +13572,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13606,8 +13600,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13634,8 +13628,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13662,8 +13656,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13690,8 +13684,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13718,8 +13712,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13746,8 +13740,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13774,8 +13768,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13802,8 +13796,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13830,8 +13824,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13858,8 +13852,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13886,8 +13880,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13914,8 +13908,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13942,8 +13936,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sanad Da'if wal-Hadīth Sahih"
+					"name": "muallimai",
+					"grade": "Sanad Da'if wal-Hadīth Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13970,8 +13964,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -13998,8 +13992,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14026,8 +14020,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14054,8 +14048,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14082,8 +14076,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14110,8 +14104,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14138,8 +14132,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14166,8 +14160,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14194,8 +14188,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Muttafaq 'alay"
+					"name": "muallimai",
+					"grade": "Sahih Muttafaq 'alay (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14222,8 +14216,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14250,8 +14244,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14278,8 +14272,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14306,8 +14300,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14334,8 +14328,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14362,8 +14356,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14390,8 +14384,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14418,8 +14412,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14446,8 +14440,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14474,8 +14468,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14502,8 +14496,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14530,8 +14524,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14558,8 +14552,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14586,8 +14580,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14614,8 +14608,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14642,8 +14636,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sanad Da'if Jiddan"
+					"name": "muallimai",
+					"grade": "Sanad Da'if Jiddan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14670,8 +14664,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14698,8 +14692,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14726,8 +14720,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14777,8 +14771,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14805,8 +14799,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14833,8 +14827,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14861,8 +14855,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14889,8 +14883,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14917,8 +14911,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14945,8 +14939,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -14973,8 +14967,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15001,8 +14995,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15029,8 +15023,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15057,8 +15051,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15085,8 +15079,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15113,8 +15107,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15141,8 +15135,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15169,8 +15163,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15197,8 +15191,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15225,8 +15219,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15253,8 +15247,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15281,8 +15275,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15309,8 +15303,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15337,8 +15331,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15365,8 +15359,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15393,8 +15387,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15421,8 +15415,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15472,8 +15466,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15500,8 +15494,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15528,8 +15522,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15556,8 +15550,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15584,8 +15578,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15612,8 +15606,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15640,8 +15634,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15668,8 +15662,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15696,8 +15690,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15724,8 +15718,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sanad Da'if wal-Hadīth Hasan"
+					"name": "muallimai",
+					"grade": "Sanad Da'if wal-Hadīth Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15752,8 +15746,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15780,8 +15774,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15808,8 +15802,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15836,8 +15830,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15864,8 +15858,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15892,8 +15886,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15920,8 +15914,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15948,8 +15942,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -15976,8 +15970,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16004,8 +15998,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16032,8 +16026,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16060,8 +16054,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16088,8 +16082,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16116,8 +16110,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16144,8 +16138,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16172,8 +16166,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16200,8 +16194,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16228,8 +16222,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16256,8 +16250,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16284,8 +16278,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16312,8 +16306,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16340,8 +16334,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16368,8 +16362,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16396,8 +16390,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16424,8 +16418,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16452,8 +16446,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16480,8 +16474,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16508,8 +16502,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16536,8 +16530,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16564,8 +16558,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16592,8 +16586,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16620,8 +16614,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16648,8 +16642,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16676,8 +16670,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16704,8 +16698,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16732,8 +16726,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16760,8 +16754,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16788,8 +16782,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16816,8 +16810,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16844,8 +16838,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16872,8 +16866,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16900,8 +16894,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16928,8 +16922,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16956,8 +16950,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -16984,8 +16978,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17012,8 +17006,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17040,8 +17034,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17068,8 +17062,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17096,8 +17090,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17124,8 +17118,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17152,8 +17146,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17180,8 +17174,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sanad Da'if Jiddan"
+					"name": "muallimai",
+					"grade": "Sanad Da'if Jiddan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17208,8 +17202,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17236,8 +17230,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17264,8 +17258,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17292,8 +17286,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17320,8 +17314,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17348,8 +17342,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17376,8 +17370,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17404,8 +17398,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17432,8 +17426,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17460,8 +17454,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17488,8 +17482,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17516,8 +17510,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17544,8 +17538,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17572,8 +17566,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17600,8 +17594,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17628,8 +17622,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17656,8 +17650,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17684,8 +17678,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17712,8 +17706,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17740,8 +17734,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17768,8 +17762,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17796,8 +17790,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17824,8 +17818,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17852,8 +17846,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17880,8 +17874,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17908,8 +17902,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17936,8 +17930,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17964,8 +17958,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -17992,8 +17986,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18020,8 +18014,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18048,8 +18042,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18076,8 +18070,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18104,8 +18098,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18132,8 +18126,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18160,8 +18154,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18188,8 +18182,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18216,8 +18210,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18244,8 +18238,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18272,8 +18266,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18300,8 +18294,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18328,8 +18322,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18356,8 +18350,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18384,8 +18378,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18412,8 +18406,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18440,8 +18434,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18468,8 +18462,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18519,8 +18513,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18547,8 +18541,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18575,8 +18569,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18603,8 +18597,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18631,8 +18625,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18659,8 +18653,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18687,8 +18681,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18715,8 +18709,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18743,8 +18737,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18771,8 +18765,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18799,8 +18793,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18827,8 +18821,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18855,8 +18849,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18883,8 +18877,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18911,8 +18905,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18939,8 +18933,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18967,8 +18961,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -18995,8 +18989,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19023,8 +19017,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19051,8 +19045,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19079,8 +19073,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19107,8 +19101,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19135,8 +19129,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19163,8 +19157,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19191,8 +19185,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19219,8 +19213,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19247,8 +19241,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19275,8 +19269,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19303,8 +19297,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19331,8 +19325,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19359,8 +19353,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19387,8 +19381,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19415,8 +19409,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19443,8 +19437,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19471,8 +19465,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19499,8 +19493,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19527,8 +19521,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19555,8 +19549,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19583,8 +19577,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19611,8 +19605,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19639,8 +19633,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sanad Da'if wal-Hadīth Hasan"
+					"name": "muallimai",
+					"grade": "Sanad Da'if wal-Hadīth Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19667,8 +19661,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19695,8 +19689,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19723,8 +19717,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19751,8 +19745,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19779,8 +19773,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19807,8 +19801,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19835,8 +19829,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19863,8 +19857,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19891,8 +19885,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19919,8 +19913,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19947,8 +19941,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -19975,8 +19969,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20003,8 +19997,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sanad Da'if Jiddan"
+					"name": "muallimai",
+					"grade": "Sanad Da'if Jiddan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20031,8 +20025,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20059,8 +20053,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20087,8 +20081,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20115,8 +20109,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20143,8 +20137,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20171,8 +20165,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20199,8 +20193,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20227,8 +20221,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20255,8 +20249,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20283,8 +20277,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20311,8 +20305,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20339,8 +20333,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20367,8 +20361,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20395,8 +20389,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20423,8 +20417,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20451,8 +20445,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20479,8 +20473,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20507,8 +20501,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20535,8 +20529,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20563,8 +20557,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20591,8 +20585,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20619,8 +20613,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20647,8 +20641,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20675,8 +20669,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20703,8 +20697,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20731,8 +20725,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20759,8 +20753,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20787,8 +20781,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20815,8 +20809,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20843,8 +20837,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20871,8 +20865,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20899,8 +20893,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20927,8 +20921,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20955,8 +20949,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -20983,8 +20977,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21011,8 +21005,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21039,8 +21033,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21067,8 +21061,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21095,8 +21089,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21123,8 +21117,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21151,8 +21145,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21179,8 +21173,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21207,8 +21201,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sanad Da'if Jiddan"
+					"name": "muallimai",
+					"grade": "Sanad Da'if Jiddan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21235,8 +21229,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21263,8 +21257,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21291,8 +21285,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21319,8 +21313,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21347,8 +21341,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21375,8 +21369,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21403,8 +21397,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21431,8 +21425,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21459,8 +21453,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21487,8 +21481,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21515,8 +21509,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21543,8 +21537,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21571,8 +21565,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21599,8 +21593,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21627,8 +21621,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sanad Da'if wal-Hadīth Hasan"
+					"name": "muallimai",
+					"grade": "Sanad Da'if wal-Hadīth Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21655,8 +21649,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21683,8 +21677,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21711,8 +21705,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21739,8 +21733,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21767,8 +21761,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21795,8 +21789,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Da'if Isnād"
+					"name": "muallimai",
+					"grade": "Da'if Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21823,8 +21817,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21851,8 +21845,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21879,8 +21873,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21907,8 +21901,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21935,8 +21929,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21963,8 +21957,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan"
+					"name": "muallimai",
+					"grade": "Hasan (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -21991,8 +21985,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22019,8 +22013,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22047,8 +22041,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22075,8 +22069,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22103,8 +22097,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22131,8 +22125,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22159,8 +22153,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22210,8 +22204,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22238,8 +22232,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Hasan Isnād"
+					"name": "muallimai",
+					"grade": "Hasan Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22289,8 +22283,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih"
+					"name": "muallimai",
+					"grade": "Sahih (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22317,8 +22311,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22345,8 +22339,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {
@@ -22373,8 +22367,8 @@
 			},
 			"grades": [
 				{
-					"name": "Zubair `Aliza'i",
-					"grade": "Sahih Isnād"
+					"name": "muallimai",
+					"grade": "Sahih Isnād (Zubair `Aliza'i)"
 				}
 			],
 			"reference": {

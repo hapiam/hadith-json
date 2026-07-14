@@ -1,151 +1,114 @@
 # hadith-json (hapi merge)
 
-A comprehensive JSON database of hadiths based on [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) **`main`**, with grades/references from [muallimai](https://github.com/muallimai/hadith-json), multi-language translations from [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api), and Indonesian drafts from [sagad](https://github.com/sagad/hadith-json).
+A comprehensive JSON database of hadiths across Arabic and multiple translation languages, based on [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) **`main`**, with enrichments from community forks.
 
 Scraped primarily from [Sunnah.com](https://sunnah.com/).
 
-## Canonical layout: `db/unified/` (v1.5+)
+## Canonical data: `db/unified/`
 
-**This is the recommended consumption path.** One complete option per **(language × book)**, plus master multi-language files.
-
-```
-db/unified/
-  catalog.json              # all editions + features
-  catalog.min.json
-  REPORT.md                 # match rates, matrix, notes
-  files/{lang}-{book}.json  # e.g. eng-bukhari.json (+ .min.json)
-  by_book/{bookKey}.json    # master: arabic + translations{} + grades + reference
-```
-
-Rebuild anytime:
+**Preferred layout for new consumers.** Rebuild with:
 
 ```bash
 dart run tool/build_unified_editions.dart
 ```
 
-### Catalog entry
+### Layout
+
+| Path | Purpose |
+|------|---------|
+| `db/unified/catalog.json` | Index of every language × book edition |
+| `db/unified/files/{lang}-{book}.json` (+ `.min.json`) | One complete edition per language × book |
+| `db/unified/by_book/{bookKey}.json` (+ `.min.json`) | Master files with all `translations` on each hadith |
+| `db/unified/REPORT.md` | Build provenance, discarded duplicates, fawaz↔spine match rates |
+| `db/unified/MATRIX.md` | Language × book coverage matrix |
+
+### Edition schema
 
 ```json
 {
-  "id": "eng-bukhari",
-  "bookKey": "bukhari",
-  "bookId": 1,
-  "language": "en",
-  "languageName": "English",
-  "name": "Sahih al-Bukhari (English)",
-  "hadithCount": 7277,
-  "features": ["arabic", "chapters", "grades", "reference", "translation"],
-  "path": "files/eng-bukhari.json",
-  "sources": ["ahmedbaset", "fawaz", "muallimai", "sagad"]
+  "metadata": {
+    "bookId": 1,
+    "bookKey": "bukhari",
+    "language": "en",
+    "arabic": { "title": "...", "author": "..." },
+    "translation": { "title": "...", "author": "...", "language": "en" },
+    "chapters": [{ "id": 1, "arabic": "...", "english": "..." }]
+  },
+  "hadiths": [
+    {
+      "id": 1,
+      "idInBook": 1,
+      "chapterId": 1,
+      "bookId": 1,
+      "arabic": "...",
+      "translation": { "narrator": "...", "text": "..." },
+      "grades": [{ "name": "Darussalam", "grade": "Sahih" }],
+      "reference": { "text": "Sahih al-Bukhari 1", "url": "https://sunnah.com/bukhari:1" }
+    }
+  ]
 }
 ```
 
-### Edition hadith shape
+Rules used by the builder:
 
-```json
-{
-  "id": 1,
-  "idInBook": 1,
-  "chapterId": 1,
-  "bookId": 1,
-  "arabic": "...",
-  "translation": { "narrator": "...", "text": "..." },
-  "grades": [{ "name": "Darussalam", "grade": "Sahih" }],
-  "reference": { "text": "Sahih al-Bukhari 1", "url": "https://sunnah.com/bukhari:1" }
-}
-```
+1. **Structural spine** = AhmedBaset `db/by_book` (ids, chapters, Arabic, English narrator/text). Books like Ahmad / Darimi / Hisn are never dropped when fawaz lacks them.
+2. **English** prefers AhmedBaset `english.{narrator,text}`; grades/reference from muallimai + fawaz multi-grader `grades[]`.
+3. **Other languages** (bn, fr, id, ru, ta, tr, ur) join fawaz rows by `idInBook == hadithnumber` (fallback `arabicnumber`). Unmatched fawaz rows are skipped (no invented ids). Spine rows without a translation keep `translation: null`.
+4. **`ara-{book}`** Arabic-only editions (`translation: null`) still carry grades, reference, chapters. Optional **`ara1-{book}`** = undiacritized Arabic (`language: ar-undiacritized`).
+5. **Indonesian**: fawaz `ind-*` when available; otherwise sagad `db/by_locale/id` drafts with `translationStatus: "draft"`.
 
-- Arabic-only editions (`ara-*`): `translation` is `null`.
-- Undiacritized Arabic option: `ara1-{book}` / language `ar-undiacritized`.
-- Indonesian drafts (sagad-only books): `translationStatus: "draft"` on metadata/hadith.
-
-### Master `by_book/{bookKey}.json`
-
-Each hadith carries all languages under `translations`:
-
-```json
-{
-  "arabic": "...",
-  "translations": { "en": { "narrator": "...", "text": "..." }, "ur": { "narrator": "", "text": "..." } },
-  "grades": [...],
-  "reference": { "text": "...", "url": "..." }
-}
-```
-
-Per-language files are views derived from these masters.
-
-### Merge rules (summary)
-
-1. **Spine** = AhmedBaset `db/by_book` (ids, chapters, Arabic, English narrator/text). Spine-only books (Ahmad, Darimi, Riyad, …) are kept.
-2. **English** prefers AhmedBaset `english.{narrator,text}`; grades/reference from muallimai (`grade` → `grades[]`) and fawaz multi-grader `grades[]` when richer.
-3. **Other languages** (bn, fr, id, ru, ta, tr, ur) from fawaz `db/editions/files/{lang}-{book}.min.json`, joined by `idInBook == hadithnumber` (fallback `arabicnumber`). Unmatched fawaz rows are skipped and counted in `REPORT.md`.
-4. **Indonesian**: fawaz `ind-*` preferred; sagad drafts fill spine-only / gaps and are marked `draft`.
-5. **One edition per language per book** (primary fawaz names only; `ara1-*` kept as separate undiacritized option).
-
-### Book keys
-
-| bookKey | bookId | Spine file |
-|---------|--------|------------|
-| bukhari | 1 | the_9_books/bukhari |
-| muslim | 2 | the_9_books/muslim |
-| nasai | 3 | the_9_books/nasai |
-| abudawud | 4 | the_9_books/abudawud |
-| tirmidhi | 5 | the_9_books/tirmidhi |
-| ibnmajah | 6 | the_9_books/ibnmajah |
-| malik | 7 | the_9_books/malik |
-| ahmad | 8 | the_9_books/ahmed |
-| darimi | 9 | the_9_books/darimi |
-| nawawi | 10 | forties/nawawi40 |
-| qudsi | 11 | forties/qudsi40 |
-| dehlawi | 12 | forties/shahwaliullah40 |
-| riyad | 13 | other_books/riyad_assalihin |
-| mishkat | 14 | other_books/mishkat_almasabih |
-| adab | 15 | other_books/aladab_almufrad |
-| shamail | 16 | other_books/shamail_muhammadiyah |
-| bulugh | 17 | other_books/bulugh_almaram |
-| hisn | 18 | other_books/hisn_almuslim |
-
-See `db/unified/REPORT.md` for the full language × book matrix and fawaz match rates (especially Muslim).
+Edition ids use fawaz-style prefixes (`eng-bukhari`, `urd-muslim`, `ara-ahmad`). Catalog `language` uses short codes (`en`, `ur`, `ar`, …).
 
 ## Provenance
 
-| Layer | Source | What we took |
-|-------|--------|----------------|
-| **Base / spine** | [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) `main` | Full bilingual `db/by_book` + `db/by_chapter`, scraper, types. |
-| **Grades / references / Hisn** | [muallimai/hadith-json](https://github.com/muallimai/hadith-json) | `grade` + `reference` merged by hadith `id`; Hisn al-Muslim. |
-| **Indonesian locale tree** | [sagad/hadith-json](https://github.com/sagad/hadith-json) | Additive `db/by_locale/id/` (draft). |
-| **Multi-language editions** | [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) | `db/editions/` raw mirror + unified merge into `db/unified/`. |
+| Layer | Source | Role |
+|-------|--------|------|
+| **Spine** | [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) | Structure, Arabic, English narrator/text, chapters |
+| **Grades / refs / Hisn** | [muallimai/hadith-json](https://github.com/muallimai/hadith-json) | `grade` + `reference` merged by hadith `id`; Hisn al-Muslim |
+| **Multi-language** | [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) | Translations + multi-grader `grades[]` under `db/editions` |
+| **Indonesian drafts** | [sagad/hadith-json](https://github.com/sagad/hadith-json) | `db/by_locale/id` for books without fawaz `ind-*` |
 
-### Legacy merge scripts
+## Legacy layouts (kept)
 
-1. `tool/merge_muallimai_enrichments.dart` — attach grades/refs onto legacy `db/by_book`.
-2. `tool/fetch_fawaz_editions.ps1` — refresh raw fawaz whole-edition files.
-3. `tool/build_unified_editions.dart` — build canonical `db/unified/`.
+These remain for compatibility; prefer `db/unified/` for new work:
 
-## Legacy paths (still present)
+| Path | Notes |
+|------|-------|
+| `db/by_book/` | Original bilingual AhmedBaset + muallimai enrichments |
+| `db/by_chapter/` | Chapter-split bilingual trees |
+| `db/by_locale/id/` | Sagad Indonesian drafts (status: draft) |
+| `db/editions/` | Raw fawaz whole-edition files (schema-incompatible side store) |
 
-Kept for compatibility; **prefer `db/unified/`**:
+Merge helpers:
 
-- `db/by_book/` — original AhmedBaset bilingual JSON (+ muallimai fields)
-- `db/by_chapter/` — per-chapter shards
-- `db/by_locale/id/` — sagad Indonesian drafts
-- `db/editions/` — raw fawaz mirror (schema-incompatible; see `db/editions/MAPPING.md`)
+- `tool/merge_muallimai_enrichments.dart` — attach grade/reference onto spine
+- `tool/fetch_fawaz_editions.ps1` — refresh `db/editions`
+- `tool/build_unified_editions.dart` — regenerate `db/unified/`
+
+## Books
+
+| # | Key | Notes |
+|---|-----|-------|
+| 1 | bukhari | Full multi-language via fawaz |
+| 2 | muslim | Spine↔fawaz `hadithnumber` match ~100%; a few dozen extra fawaz rows skipped |
+| 3–7 | nasai, abudawud, tirmidhi, ibnmajah, malik | Grades enriched; multi-lang where fawaz has them |
+| 8 | ahmad | Spine-only (+ sagad ID draft). Chapters 8–30 still missing upstream |
+| 9 | darimi | Spine ara/eng (+ ID when sagad matches) |
+| 10–12 | nawawi40, qudsi40, shahwaliullah40 | Forties; fawaz keys nawawi/qudsi/dehlawi |
+| 13–17 | riyadussalihin, mishkat, adab, shamail, bulugh | Spine + sagad ID drafts |
+| 18 | hisn | From muallimai; ara + eng |
 
 ## Known limitations
 
-- **Musnad Ahmad chapters 8–30** missing upstream (Sunnah.com gap).
-- **Muslim numbering**: fawaz has extra rows (~81 unmatched); spine coverage via `hadithnumber` is complete for all 7459 spine hadiths; ~23 extra matches via `arabicnumber`. Details in `db/unified/REPORT.md`.
-- **Bukhari / Muslim grades** often empty (Sunnah.com / fawaz) even when `grades[]` is present on the schema.
-- **Darimi** sagad Indonesian drafts are mostly empty text — no `ind-darimi` in unified until filled.
-- Indonesian sagad entries remain **draft** (machine-assisted).
+- **Sunan ad-Darimi English/Indonesian**: AhmedBaset spine English texts and sagad ID texts are currently empty for Darimi; unified still emits `eng-darimi` (blank translations) + `ara-darimi` for structure.
+- **Musnad Ahmad chapters 8–30** missing from Sunnah.com (unchanged).
+- Some language editions have `translation: null` on a subset of spine rows when fawaz lacks that `hadithnumber` (see `translationCount` in catalog + `REPORT.md`).
+- Indonesian sagad entries remain **draft** quality.
+- Raw `db/editions` schemas stay separate; do not field-merge them by hand — use the unified builder.
 
 ## Attribution & license
 
-Upstream data and code remain attributed to [Ahmed Abdelbaset / AhmedBaset](https://github.com/AhmedBaset/hadith-json) and contributors. Additional fields and Hisn from [muallimai](https://github.com/muallimai/hadith-json); Indonesian locale drafts from [sagad](https://github.com/sagad/hadith-json); multi-language editions from [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api). Follow upstream licensing / attribution expectations when redistributing.
-
-## Contributing
-
-Issues and PRs welcome for data corrections, locale improvements (with clear draft/verified labeling), or grade/reference improvements.
+Upstream data remains attributed to [Ahmed Abdelbaset / AhmedBaset](https://github.com/AhmedBaset/hadith-json) and contributors; enrichments from [muallimai](https://github.com/muallimai/hadith-json), [sagad](https://github.com/sagad/hadith-json), and [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api). Follow upstream licensing when redistributing.
 
 ---
 

@@ -11,16 +11,15 @@
 			"hadithCount": 7277,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-bukhari.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -30,42 +29,18 @@
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
 			"name": "Sahih al-Bukhari (Arabic (undiacritized))",
-			"hadithCount": 7277,
+			"hadithCount": 7268,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara1-bukhari.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
-			]
-		},
-		{
-			"id": "eng-bukhari",
-			"bookKey": "bukhari",
-			"bookId": 1,
-			"language": "en",
-			"languageName": "English",
-			"name": "Sahih al-Bukhari (English)",
-			"hadithCount": 7277,
-			"features": [
-				"arabic",
-				"chapters",
-				"grades",
-				"reference",
-				"translation"
-			],
-			"path": "files/eng-bukhari.json",
-			"sources": [
-				"ahmedbaset",
-				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -76,19 +51,42 @@
 			"languageName": "Bengali",
 			"name": "Sahih al-Bukhari (Bengali)",
 			"hadithCount": 7277,
+			"translationCount": 7243,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ben-bukhari.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
+			]
+		},
+		{
+			"id": "eng-bukhari",
+			"bookKey": "bukhari",
+			"bookId": 1,
+			"language": "en",
+			"languageName": "English",
+			"name": "Sahih al-Bukhari (English)",
+			"hadithCount": 7277,
+			"translationCount": 7276,
+			"features": [
+				"arabic",
+				"translation",
+				"grades",
+				"reference",
+				"chapters"
+			],
+			"path": "files/eng-bukhari.json",
+			"sources": [
+				"ahmedbaset",
+				"fawaz",
+				"muallimai"
 			]
 		},
 		{
@@ -99,19 +97,19 @@
 			"languageName": "French",
 			"name": "Sahih al-Bukhari (French)",
 			"hadithCount": 7277,
+			"translationCount": 7277,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/fra-bukhari.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -122,19 +120,19 @@
 			"languageName": "Indonesian",
 			"name": "Sahih al-Bukhari (Indonesian)",
 			"hadithCount": 7277,
+			"translationCount": 6613,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-bukhari.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -145,19 +143,19 @@
 			"languageName": "Russian",
 			"name": "Sahih al-Bukhari (Russian)",
 			"hadithCount": 7277,
+			"translationCount": 7213,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/rus-bukhari.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -168,19 +166,19 @@
 			"languageName": "Tamil",
 			"name": "Sahih al-Bukhari (Tamil)",
 			"hadithCount": 7277,
+			"translationCount": 6988,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/tam-bukhari.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -191,19 +189,19 @@
 			"languageName": "Turkish",
 			"name": "Sahih al-Bukhari (Turkish)",
 			"hadithCount": 7277,
+			"translationCount": 7224,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/tur-bukhari.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -214,19 +212,19 @@
 			"languageName": "Urdu",
 			"name": "Sahih al-Bukhari (Urdu)",
 			"hadithCount": 7277,
+			"translationCount": 6760,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/urd-bukhari.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -239,16 +237,15 @@
 			"hadithCount": 7459,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-muslim.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -258,42 +255,18 @@
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
 			"name": "Sahih Muslim (Arabic (undiacritized))",
-			"hadithCount": 7459,
+			"hadithCount": 7269,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara1-muslim.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
-			]
-		},
-		{
-			"id": "eng-muslim",
-			"bookKey": "muslim",
-			"bookId": 2,
-			"language": "en",
-			"languageName": "English",
-			"name": "Sahih Muslim (English)",
-			"hadithCount": 7459,
-			"features": [
-				"arabic",
-				"chapters",
-				"grades",
-				"reference",
-				"translation"
-			],
-			"path": "files/eng-muslim.json",
-			"sources": [
-				"ahmedbaset",
-				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -304,19 +277,42 @@
 			"languageName": "Bengali",
 			"name": "Sahih Muslim (Bengali)",
 			"hadithCount": 7459,
+			"translationCount": 7265,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ben-muslim.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
+			]
+		},
+		{
+			"id": "eng-muslim",
+			"bookKey": "muslim",
+			"bookId": 2,
+			"language": "en",
+			"languageName": "English",
+			"name": "Sahih Muslim (English)",
+			"hadithCount": 7459,
+			"translationCount": 7458,
+			"features": [
+				"arabic",
+				"translation",
+				"grades",
+				"reference",
+				"chapters"
+			],
+			"path": "files/eng-muslim.json",
+			"sources": [
+				"ahmedbaset",
+				"fawaz",
+				"muallimai"
 			]
 		},
 		{
@@ -327,19 +323,19 @@
 			"languageName": "French",
 			"name": "Sahih Muslim (French)",
 			"hadithCount": 7459,
+			"translationCount": 7220,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/fra-muslim.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -350,19 +346,19 @@
 			"languageName": "Indonesian",
 			"name": "Sahih Muslim (Indonesian)",
 			"hadithCount": 7459,
+			"translationCount": 4873,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-muslim.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -373,19 +369,19 @@
 			"languageName": "Russian",
 			"name": "Sahih Muslim (Russian)",
 			"hadithCount": 7459,
+			"translationCount": 2714,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/rus-muslim.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -396,19 +392,19 @@
 			"languageName": "Tamil",
 			"name": "Sahih Muslim (Tamil)",
 			"hadithCount": 7459,
+			"translationCount": 2642,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/tam-muslim.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -419,19 +415,19 @@
 			"languageName": "Turkish",
 			"name": "Sahih Muslim (Turkish)",
 			"hadithCount": 7459,
+			"translationCount": 7284,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/tur-muslim.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -442,19 +438,19 @@
 			"languageName": "Urdu",
 			"name": "Sahih Muslim (Urdu)",
 			"hadithCount": 7459,
+			"translationCount": 7358,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/urd-muslim.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -463,20 +459,19 @@
 			"bookId": 3,
 			"language": "ar",
 			"languageName": "Arabic",
-			"name": "Sunan al-Nasa'i (Arabic)",
+			"name": "Sunan an-Nasa'i (Arabic)",
 			"hadithCount": 5768,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-nasai.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -485,43 +480,19 @@
 			"bookId": 3,
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
-			"name": "Sunan al-Nasa'i (Arabic (undiacritized))",
-			"hadithCount": 5768,
+			"name": "Sunan an-Nasa'i (Arabic (undiacritized))",
+			"hadithCount": 5672,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara1-nasai.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
-			]
-		},
-		{
-			"id": "eng-nasai",
-			"bookKey": "nasai",
-			"bookId": 3,
-			"language": "en",
-			"languageName": "English",
-			"name": "Sunan al-Nasa'i (English)",
-			"hadithCount": 5768,
-			"features": [
-				"arabic",
-				"chapters",
-				"grades",
-				"reference",
-				"translation"
-			],
-			"path": "files/eng-nasai.json",
-			"sources": [
-				"ahmedbaset",
-				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -530,21 +501,44 @@
 			"bookId": 3,
 			"language": "bn",
 			"languageName": "Bengali",
-			"name": "Sunan al-Nasa'i (Bengali)",
+			"name": "Sunan an-Nasa'i (Bengali)",
 			"hadithCount": 5768,
+			"translationCount": 5656,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ben-nasai.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
+			]
+		},
+		{
+			"id": "eng-nasai",
+			"bookKey": "nasai",
+			"bookId": 3,
+			"language": "en",
+			"languageName": "English",
+			"name": "Sunan an-Nasa'i (English)",
+			"hadithCount": 5768,
+			"translationCount": 5768,
+			"features": [
+				"arabic",
+				"translation",
+				"grades",
+				"reference",
+				"chapters"
+			],
+			"path": "files/eng-nasai.json",
+			"sources": [
+				"ahmedbaset",
+				"fawaz",
+				"muallimai"
 			]
 		},
 		{
@@ -553,21 +547,21 @@
 			"bookId": 3,
 			"language": "fr",
 			"languageName": "French",
-			"name": "Sunan al-Nasa'i (French)",
+			"name": "Sunan an-Nasa'i (French)",
 			"hadithCount": 5768,
+			"translationCount": 5672,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/fra-nasai.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -576,21 +570,21 @@
 			"bookId": 3,
 			"language": "id",
 			"languageName": "Indonesian",
-			"name": "Sunan al-Nasa'i (Indonesian)",
+			"name": "Sunan an-Nasa'i (Indonesian)",
 			"hadithCount": 5768,
+			"translationCount": 5331,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-nasai.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -599,21 +593,21 @@
 			"bookId": 3,
 			"language": "tr",
 			"languageName": "Turkish",
-			"name": "Sunan al-Nasa'i (Turkish)",
+			"name": "Sunan an-Nasa'i (Turkish)",
 			"hadithCount": 5768,
+			"translationCount": 629,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/tur-nasai.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -622,21 +616,21 @@
 			"bookId": 3,
 			"language": "ur",
 			"languageName": "Urdu",
-			"name": "Sunan al-Nasa'i (Urdu)",
+			"name": "Sunan an-Nasa'i (Urdu)",
 			"hadithCount": 5768,
+			"translationCount": 3870,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/urd-nasai.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -649,16 +643,15 @@
 			"hadithCount": 5276,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-abudawud.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -668,42 +661,18 @@
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
 			"name": "Sunan Abi Dawud (Arabic (undiacritized))",
-			"hadithCount": 5276,
+			"hadithCount": 5272,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara1-abudawud.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
-			]
-		},
-		{
-			"id": "eng-abudawud",
-			"bookKey": "abudawud",
-			"bookId": 4,
-			"language": "en",
-			"languageName": "English",
-			"name": "Sunan Abi Dawud (English)",
-			"hadithCount": 5276,
-			"features": [
-				"arabic",
-				"chapters",
-				"grades",
-				"reference",
-				"translation"
-			],
-			"path": "files/eng-abudawud.json",
-			"sources": [
-				"ahmedbaset",
-				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -714,19 +683,42 @@
 			"languageName": "Bengali",
 			"name": "Sunan Abi Dawud (Bengali)",
 			"hadithCount": 5276,
+			"translationCount": 5270,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ben-abudawud.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
+			]
+		},
+		{
+			"id": "eng-abudawud",
+			"bookKey": "abudawud",
+			"bookId": 4,
+			"language": "en",
+			"languageName": "English",
+			"name": "Sunan Abi Dawud (English)",
+			"hadithCount": 5276,
+			"translationCount": 5276,
+			"features": [
+				"arabic",
+				"translation",
+				"grades",
+				"reference",
+				"chapters"
+			],
+			"path": "files/eng-abudawud.json",
+			"sources": [
+				"ahmedbaset",
+				"fawaz",
+				"muallimai"
 			]
 		},
 		{
@@ -737,19 +729,19 @@
 			"languageName": "French",
 			"name": "Sunan Abi Dawud (French)",
 			"hadithCount": 5276,
+			"translationCount": 5274,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/fra-abudawud.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -760,19 +752,19 @@
 			"languageName": "Indonesian",
 			"name": "Sunan Abi Dawud (Indonesian)",
 			"hadithCount": 5276,
+			"translationCount": 4406,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-abudawud.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -783,19 +775,19 @@
 			"languageName": "Russian",
 			"name": "Sunan Abi Dawud (Russian)",
 			"hadithCount": 5276,
+			"translationCount": 4602,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/rus-abudawud.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -806,19 +798,19 @@
 			"languageName": "Turkish",
 			"name": "Sunan Abi Dawud (Turkish)",
 			"hadithCount": 5276,
+			"translationCount": 5266,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/tur-abudawud.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -829,19 +821,19 @@
 			"languageName": "Urdu",
 			"name": "Sunan Abi Dawud (Urdu)",
 			"hadithCount": 5276,
+			"translationCount": 5273,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/urd-abudawud.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -850,20 +842,19 @@
 			"bookId": 5,
 			"language": "ar",
 			"languageName": "Arabic",
-			"name": "Jami' al-Tirmidhi (Arabic)",
+			"name": "Jami' at-Tirmidhi (Arabic)",
 			"hadithCount": 4053,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-tirmidhi.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -872,43 +863,19 @@
 			"bookId": 5,
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
-			"name": "Jami' al-Tirmidhi (Arabic (undiacritized))",
-			"hadithCount": 4053,
+			"name": "Jami' at-Tirmidhi (Arabic (undiacritized))",
+			"hadithCount": 3889,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara1-tirmidhi.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
-			]
-		},
-		{
-			"id": "eng-tirmidhi",
-			"bookKey": "tirmidhi",
-			"bookId": 5,
-			"language": "en",
-			"languageName": "English",
-			"name": "Jami' al-Tirmidhi (English)",
-			"hadithCount": 4053,
-			"features": [
-				"arabic",
-				"chapters",
-				"grades",
-				"reference",
-				"translation"
-			],
-			"path": "files/eng-tirmidhi.json",
-			"sources": [
-				"ahmedbaset",
-				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -917,21 +884,44 @@
 			"bookId": 5,
 			"language": "bn",
 			"languageName": "Bengali",
-			"name": "Jami' al-Tirmidhi (Bengali)",
+			"name": "Jami' at-Tirmidhi (Bengali)",
 			"hadithCount": 4053,
+			"translationCount": 3891,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ben-tirmidhi.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
+			]
+		},
+		{
+			"id": "eng-tirmidhi",
+			"bookKey": "tirmidhi",
+			"bookId": 5,
+			"language": "en",
+			"languageName": "English",
+			"name": "Jami' at-Tirmidhi (English)",
+			"hadithCount": 4053,
+			"translationCount": 4052,
+			"features": [
+				"arabic",
+				"translation",
+				"grades",
+				"reference",
+				"chapters"
+			],
+			"path": "files/eng-tirmidhi.json",
+			"sources": [
+				"ahmedbaset",
+				"fawaz",
+				"muallimai"
 			]
 		},
 		{
@@ -940,21 +930,21 @@
 			"bookId": 5,
 			"language": "id",
 			"languageName": "Indonesian",
-			"name": "Jami' al-Tirmidhi (Indonesian)",
+			"name": "Jami' at-Tirmidhi (Indonesian)",
 			"hadithCount": 4053,
+			"translationCount": 3521,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-tirmidhi.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -963,21 +953,21 @@
 			"bookId": 5,
 			"language": "tr",
 			"languageName": "Turkish",
-			"name": "Jami' al-Tirmidhi (Turkish)",
+			"name": "Jami' at-Tirmidhi (Turkish)",
 			"hadithCount": 4053,
+			"translationCount": 3755,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/tur-tirmidhi.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -986,21 +976,21 @@
 			"bookId": 5,
 			"language": "ur",
 			"languageName": "Urdu",
-			"name": "Jami' al-Tirmidhi (Urdu)",
+			"name": "Jami' at-Tirmidhi (Urdu)",
 			"hadithCount": 4053,
+			"translationCount": 3926,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/urd-tirmidhi.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1013,16 +1003,15 @@
 			"hadithCount": 4345,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-ibnmajah.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1032,42 +1021,18 @@
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
 			"name": "Sunan Ibn Majah (Arabic (undiacritized))",
-			"hadithCount": 4345,
+			"hadithCount": 4336,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara1-ibnmajah.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
-			]
-		},
-		{
-			"id": "eng-ibnmajah",
-			"bookKey": "ibnmajah",
-			"bookId": 6,
-			"language": "en",
-			"languageName": "English",
-			"name": "Sunan Ibn Majah (English)",
-			"hadithCount": 4345,
-			"features": [
-				"arabic",
-				"chapters",
-				"grades",
-				"reference",
-				"translation"
-			],
-			"path": "files/eng-ibnmajah.json",
-			"sources": [
-				"ahmedbaset",
-				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1078,19 +1043,42 @@
 			"languageName": "Bengali",
 			"name": "Sunan Ibn Majah (Bengali)",
 			"hadithCount": 4345,
+			"translationCount": 4336,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ben-ibnmajah.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
+			]
+		},
+		{
+			"id": "eng-ibnmajah",
+			"bookKey": "ibnmajah",
+			"bookId": 6,
+			"language": "en",
+			"languageName": "English",
+			"name": "Sunan Ibn Majah (English)",
+			"hadithCount": 4345,
+			"translationCount": 4345,
+			"features": [
+				"arabic",
+				"translation",
+				"grades",
+				"reference",
+				"chapters"
+			],
+			"path": "files/eng-ibnmajah.json",
+			"sources": [
+				"ahmedbaset",
+				"fawaz",
+				"muallimai"
 			]
 		},
 		{
@@ -1101,19 +1089,19 @@
 			"languageName": "French",
 			"name": "Sunan Ibn Majah (French)",
 			"hadithCount": 4345,
+			"translationCount": 4338,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/fra-ibnmajah.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1124,19 +1112,19 @@
 			"languageName": "Indonesian",
 			"name": "Sunan Ibn Majah (Indonesian)",
 			"hadithCount": 4345,
+			"translationCount": 4269,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-ibnmajah.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1147,19 +1135,19 @@
 			"languageName": "Turkish",
 			"name": "Sunan Ibn Majah (Turkish)",
 			"hadithCount": 4345,
+			"translationCount": 4318,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/tur-ibnmajah.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1170,19 +1158,19 @@
 			"languageName": "Urdu",
 			"name": "Sunan Ibn Majah (Urdu)",
 			"hadithCount": 4345,
+			"translationCount": 4329,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/urd-ibnmajah.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1195,16 +1183,15 @@
 			"hadithCount": 1985,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-malik.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1214,42 +1201,18 @@
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
 			"name": "Muwatta Malik (Arabic (undiacritized))",
-			"hadithCount": 1985,
+			"hadithCount": 1829,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara1-malik.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
-			]
-		},
-		{
-			"id": "eng-malik",
-			"bookKey": "malik",
-			"bookId": 7,
-			"language": "en",
-			"languageName": "English",
-			"name": "Muwatta Malik (English)",
-			"hadithCount": 1985,
-			"features": [
-				"arabic",
-				"chapters",
-				"grades",
-				"reference",
-				"translation"
-			],
-			"path": "files/eng-malik.json",
-			"sources": [
-				"ahmedbaset",
-				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1260,19 +1223,42 @@
 			"languageName": "Bengali",
 			"name": "Muwatta Malik (Bengali)",
 			"hadithCount": 1985,
+			"translationCount": 1749,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ben-malik.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
+			]
+		},
+		{
+			"id": "eng-malik",
+			"bookKey": "malik",
+			"bookId": 7,
+			"language": "en",
+			"languageName": "English",
+			"name": "Muwatta Malik (English)",
+			"hadithCount": 1985,
+			"translationCount": 1973,
+			"features": [
+				"arabic",
+				"translation",
+				"grades",
+				"reference",
+				"chapters"
+			],
+			"path": "files/eng-malik.json",
+			"sources": [
+				"ahmedbaset",
+				"fawaz",
+				"muallimai"
 			]
 		},
 		{
@@ -1283,19 +1269,19 @@
 			"languageName": "French",
 			"name": "Muwatta Malik (French)",
 			"hadithCount": 1985,
+			"translationCount": 1505,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/fra-malik.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1306,19 +1292,19 @@
 			"languageName": "Indonesian",
 			"name": "Muwatta Malik (Indonesian)",
 			"hadithCount": 1985,
+			"translationCount": 1552,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-malik.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1329,19 +1315,19 @@
 			"languageName": "Turkish",
 			"name": "Muwatta Malik (Turkish)",
 			"hadithCount": 1985,
+			"translationCount": 1558,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/tur-malik.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1352,19 +1338,19 @@
 			"languageName": "Urdu",
 			"name": "Muwatta Malik (Urdu)",
 			"hadithCount": 1985,
+			"translationCount": 1583,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/urd-malik.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
-				"muallimai",
-				"sagad"
+				"muallimai"
 			]
 		},
 		{
@@ -1373,13 +1359,13 @@
 			"bookId": 8,
 			"language": "ar",
 			"languageName": "Arabic",
-			"name": "Musnad Ahmad ibn Hanbal (Arabic)",
+			"name": "Musnad Ahmad (Arabic)",
 			"hadithCount": 1374,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-ahmad.json",
 			"sources": [
@@ -1394,14 +1380,15 @@
 			"bookId": 8,
 			"language": "en",
 			"languageName": "English",
-			"name": "Musnad Ahmad ibn Hanbal (English)",
+			"name": "Musnad Ahmad (English)",
 			"hadithCount": 1374,
+			"translationCount": 1359,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/eng-ahmad.json",
 			"sources": [
@@ -1416,14 +1403,15 @@
 			"bookId": 8,
 			"language": "id",
 			"languageName": "Indonesian",
-			"name": "Musnad Ahmad ibn Hanbal (Indonesian)",
+			"name": "Musnad Ahmad (Indonesian)",
 			"hadithCount": 1374,
+			"translationCount": 1359,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-ahmad.json",
 			"sources": [
@@ -1439,13 +1427,13 @@
 			"bookId": 9,
 			"language": "ar",
 			"languageName": "Arabic",
-			"name": "Sunan al-Darimi (Arabic)",
+			"name": "Sunan ad-Darimi (Arabic)",
 			"hadithCount": 3406,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-darimi.json",
 			"sources": [
@@ -1459,14 +1447,15 @@
 			"bookId": 9,
 			"language": "en",
 			"languageName": "English",
-			"name": "Sunan al-Darimi (English)",
+			"name": "Sunan ad-Darimi (English)",
 			"hadithCount": 3406,
+			"translationCount": 0,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/eng-darimi.json",
 			"sources": [
@@ -1475,20 +1464,20 @@
 			]
 		},
 		{
-			"id": "ara-nawawi",
-			"bookKey": "nawawi",
+			"id": "ara-nawawi40",
+			"bookKey": "nawawi40",
 			"bookId": 10,
 			"language": "ar",
 			"languageName": "Arabic",
-			"name": "The Forty Hadith of Imam Nawawi (Arabic)",
+			"name": "Forty Hadith of Nawawi (Arabic)",
 			"hadithCount": 42,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
-			"path": "files/ara-nawawi.json",
+			"path": "files/ara-nawawi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1497,43 +1486,20 @@
 			]
 		},
 		{
-			"id": "ara1-nawawi",
-			"bookKey": "nawawi",
+			"id": "ara1-nawawi40",
+			"bookKey": "nawawi40",
 			"bookId": 10,
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
-			"name": "The Forty Hadith of Imam Nawawi (Arabic (undiacritized))",
+			"name": "Forty Hadith of Nawawi (Arabic (undiacritized))",
 			"hadithCount": 42,
 			"features": [
 				"arabic",
-				"chapters",
-				"grades",
-				"reference"
-			],
-			"path": "files/ara1-nawawi.json",
-			"sources": [
-				"ahmedbaset",
-				"fawaz",
-				"muallimai",
-				"sagad"
-			]
-		},
-		{
-			"id": "eng-nawawi",
-			"bookKey": "nawawi",
-			"bookId": 10,
-			"language": "en",
-			"languageName": "English",
-			"name": "The Forty Hadith of Imam Nawawi (English)",
-			"hadithCount": 42,
-			"features": [
-				"arabic",
-				"chapters",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/eng-nawawi.json",
+			"path": "files/ara1-nawawi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1542,21 +1508,22 @@
 			]
 		},
 		{
-			"id": "ben-nawawi",
-			"bookKey": "nawawi",
+			"id": "ben-nawawi40",
+			"bookKey": "nawawi40",
 			"bookId": 10,
 			"language": "bn",
 			"languageName": "Bengali",
-			"name": "The Forty Hadith of Imam Nawawi (Bengali)",
+			"name": "Forty Hadith of Nawawi (Bengali)",
 			"hadithCount": 42,
+			"translationCount": 42,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/ben-nawawi.json",
+			"path": "files/ben-nawawi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1565,21 +1532,46 @@
 			]
 		},
 		{
-			"id": "fra-nawawi",
-			"bookKey": "nawawi",
+			"id": "eng-nawawi40",
+			"bookKey": "nawawi40",
+			"bookId": 10,
+			"language": "en",
+			"languageName": "English",
+			"name": "Forty Hadith of Nawawi (English)",
+			"hadithCount": 42,
+			"translationCount": 42,
+			"features": [
+				"arabic",
+				"translation",
+				"grades",
+				"reference",
+				"chapters"
+			],
+			"path": "files/eng-nawawi40.json",
+			"sources": [
+				"ahmedbaset",
+				"fawaz",
+				"muallimai",
+				"sagad"
+			]
+		},
+		{
+			"id": "fra-nawawi40",
+			"bookKey": "nawawi40",
 			"bookId": 10,
 			"language": "fr",
 			"languageName": "French",
-			"name": "The Forty Hadith of Imam Nawawi (French)",
+			"name": "Forty Hadith of Nawawi (French)",
 			"hadithCount": 42,
+			"translationCount": 42,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/fra-nawawi.json",
+			"path": "files/fra-nawawi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1588,21 +1580,22 @@
 			]
 		},
 		{
-			"id": "ind-nawawi",
-			"bookKey": "nawawi",
+			"id": "ind-nawawi40",
+			"bookKey": "nawawi40",
 			"bookId": 10,
 			"language": "id",
 			"languageName": "Indonesian",
-			"name": "The Forty Hadith of Imam Nawawi (Indonesian)",
+			"name": "Forty Hadith of Nawawi (Indonesian)",
 			"hadithCount": 42,
+			"translationCount": 42,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/ind-nawawi.json",
+			"path": "files/ind-nawawi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1612,21 +1605,22 @@
 			"translationStatus": "draft"
 		},
 		{
-			"id": "tur-nawawi",
-			"bookKey": "nawawi",
+			"id": "tur-nawawi40",
+			"bookKey": "nawawi40",
 			"bookId": 10,
 			"language": "tr",
 			"languageName": "Turkish",
-			"name": "The Forty Hadith of Imam Nawawi (Turkish)",
+			"name": "Forty Hadith of Nawawi (Turkish)",
 			"hadithCount": 42,
+			"translationCount": 42,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/tur-nawawi.json",
+			"path": "files/tur-nawawi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1635,20 +1629,20 @@
 			]
 		},
 		{
-			"id": "ara-qudsi",
-			"bookKey": "qudsi",
+			"id": "ara-qudsi40",
+			"bookKey": "qudsi40",
 			"bookId": 11,
 			"language": "ar",
 			"languageName": "Arabic",
-			"name": "The Forty Hadith Qudsi (Arabic)",
+			"name": "Forty Hadith Qudsi (Arabic)",
 			"hadithCount": 40,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
-			"path": "files/ara-qudsi.json",
+			"path": "files/ara-qudsi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1657,20 +1651,20 @@
 			]
 		},
 		{
-			"id": "ara1-qudsi",
-			"bookKey": "qudsi",
+			"id": "ara1-qudsi40",
+			"bookKey": "qudsi40",
 			"bookId": 11,
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
-			"name": "The Forty Hadith Qudsi (Arabic (undiacritized))",
+			"name": "Forty Hadith Qudsi (Arabic (undiacritized))",
 			"hadithCount": 40,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
-			"path": "files/ara1-qudsi.json",
+			"path": "files/ara1-qudsi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1679,21 +1673,22 @@
 			]
 		},
 		{
-			"id": "eng-qudsi",
-			"bookKey": "qudsi",
+			"id": "eng-qudsi40",
+			"bookKey": "qudsi40",
 			"bookId": 11,
 			"language": "en",
 			"languageName": "English",
-			"name": "The Forty Hadith Qudsi (English)",
+			"name": "Forty Hadith Qudsi (English)",
 			"hadithCount": 40,
+			"translationCount": 40,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/eng-qudsi.json",
+			"path": "files/eng-qudsi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1702,21 +1697,22 @@
 			]
 		},
 		{
-			"id": "fra-qudsi",
-			"bookKey": "qudsi",
+			"id": "fra-qudsi40",
+			"bookKey": "qudsi40",
 			"bookId": 11,
 			"language": "fr",
 			"languageName": "French",
-			"name": "The Forty Hadith Qudsi (French)",
+			"name": "Forty Hadith Qudsi (French)",
 			"hadithCount": 40,
+			"translationCount": 40,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/fra-qudsi.json",
+			"path": "files/fra-qudsi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1725,21 +1721,22 @@
 			]
 		},
 		{
-			"id": "ind-qudsi",
-			"bookKey": "qudsi",
+			"id": "ind-qudsi40",
+			"bookKey": "qudsi40",
 			"bookId": 11,
 			"language": "id",
 			"languageName": "Indonesian",
-			"name": "The Forty Hadith Qudsi (Indonesian)",
+			"name": "Forty Hadith Qudsi (Indonesian)",
 			"hadithCount": 40,
+			"translationCount": 40,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/ind-qudsi.json",
+			"path": "files/ind-qudsi40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1749,20 +1746,20 @@
 			"translationStatus": "draft"
 		},
 		{
-			"id": "ara-dehlawi",
-			"bookKey": "dehlawi",
+			"id": "ara-shahwaliullah40",
+			"bookKey": "shahwaliullah40",
 			"bookId": 12,
 			"language": "ar",
 			"languageName": "Arabic",
-			"name": "The Forty Hadith of Shah Waliullah (Arabic)",
+			"name": "Forty Hadith of Shah Waliullah (Arabic)",
 			"hadithCount": 40,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
-			"path": "files/ara-dehlawi.json",
+			"path": "files/ara-shahwaliullah40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1771,20 +1768,20 @@
 			]
 		},
 		{
-			"id": "ara1-dehlawi",
-			"bookKey": "dehlawi",
+			"id": "ara1-shahwaliullah40",
+			"bookKey": "shahwaliullah40",
 			"bookId": 12,
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
-			"name": "The Forty Hadith of Shah Waliullah (Arabic (undiacritized))",
+			"name": "Forty Hadith of Shah Waliullah (Arabic (undiacritized))",
 			"hadithCount": 40,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
-			"path": "files/ara1-dehlawi.json",
+			"path": "files/ara1-shahwaliullah40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1793,21 +1790,22 @@
 			]
 		},
 		{
-			"id": "eng-dehlawi",
-			"bookKey": "dehlawi",
+			"id": "eng-shahwaliullah40",
+			"bookKey": "shahwaliullah40",
 			"bookId": 12,
 			"language": "en",
 			"languageName": "English",
-			"name": "The Forty Hadith of Shah Waliullah (English)",
+			"name": "Forty Hadith of Shah Waliullah (English)",
 			"hadithCount": 40,
+			"translationCount": 40,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/eng-dehlawi.json",
+			"path": "files/eng-shahwaliullah40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1816,21 +1814,22 @@
 			]
 		},
 		{
-			"id": "fra-dehlawi",
-			"bookKey": "dehlawi",
+			"id": "fra-shahwaliullah40",
+			"bookKey": "shahwaliullah40",
 			"bookId": 12,
 			"language": "fr",
 			"languageName": "French",
-			"name": "The Forty Hadith of Shah Waliullah (French)",
+			"name": "Forty Hadith of Shah Waliullah (French)",
 			"hadithCount": 40,
+			"translationCount": 40,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/fra-dehlawi.json",
+			"path": "files/fra-shahwaliullah40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1839,21 +1838,22 @@
 			]
 		},
 		{
-			"id": "ind-dehlawi",
-			"bookKey": "dehlawi",
+			"id": "ind-shahwaliullah40",
+			"bookKey": "shahwaliullah40",
 			"bookId": 12,
 			"language": "id",
 			"languageName": "Indonesian",
-			"name": "The Forty Hadith of Shah Waliullah (Indonesian)",
+			"name": "Forty Hadith of Shah Waliullah (Indonesian)",
 			"hadithCount": 40,
+			"translationCount": 40,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/ind-dehlawi.json",
+			"path": "files/ind-shahwaliullah40.json",
 			"sources": [
 				"ahmedbaset",
 				"fawaz",
@@ -1863,8 +1863,8 @@
 			"translationStatus": "draft"
 		},
 		{
-			"id": "ara-riyad",
-			"bookKey": "riyad",
+			"id": "ara-riyadussalihin",
+			"bookKey": "riyadussalihin",
 			"bookId": 13,
 			"language": "ar",
 			"languageName": "Arabic",
@@ -1872,11 +1872,11 @@
 			"hadithCount": 1896,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
-			"path": "files/ara-riyad.json",
+			"path": "files/ara-riyadussalihin.json",
 			"sources": [
 				"ahmedbaset",
 				"muallimai",
@@ -1884,21 +1884,22 @@
 			]
 		},
 		{
-			"id": "eng-riyad",
-			"bookKey": "riyad",
+			"id": "eng-riyadussalihin",
+			"bookKey": "riyadussalihin",
 			"bookId": 13,
 			"language": "en",
 			"languageName": "English",
 			"name": "Riyad as-Salihin (English)",
 			"hadithCount": 1896,
+			"translationCount": 1896,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/eng-riyad.json",
+			"path": "files/eng-riyadussalihin.json",
 			"sources": [
 				"ahmedbaset",
 				"muallimai",
@@ -1906,21 +1907,22 @@
 			]
 		},
 		{
-			"id": "ind-riyad",
-			"bookKey": "riyad",
+			"id": "ind-riyadussalihin",
+			"bookKey": "riyadussalihin",
 			"bookId": 13,
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Riyad as-Salihin (Indonesian)",
 			"hadithCount": 1896,
+			"translationCount": 1896,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
-			"path": "files/ind-riyad.json",
+			"path": "files/ind-riyadussalihin.json",
 			"sources": [
 				"ahmedbaset",
 				"muallimai",
@@ -1938,9 +1940,9 @@
 			"hadithCount": 4428,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-mishkat.json",
 			"sources": [
@@ -1957,12 +1959,13 @@
 			"languageName": "English",
 			"name": "Mishkat al-Masabih (English)",
 			"hadithCount": 4428,
+			"translationCount": 4428,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/eng-mishkat.json",
 			"sources": [
@@ -1979,12 +1982,13 @@
 			"languageName": "Indonesian",
 			"name": "Mishkat al-Masabih (Indonesian)",
 			"hadithCount": 4428,
+			"translationCount": 4428,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-mishkat.json",
 			"sources": [
@@ -2004,9 +2008,9 @@
 			"hadithCount": 1326,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-adab.json",
 			"sources": [
@@ -2023,12 +2027,13 @@
 			"languageName": "English",
 			"name": "Al-Adab Al-Mufrad (English)",
 			"hadithCount": 1326,
+			"translationCount": 1320,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/eng-adab.json",
 			"sources": [
@@ -2045,12 +2050,13 @@
 			"languageName": "Indonesian",
 			"name": "Al-Adab Al-Mufrad (Indonesian)",
 			"hadithCount": 1326,
+			"translationCount": 1320,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-adab.json",
 			"sources": [
@@ -2070,9 +2076,9 @@
 			"hadithCount": 402,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-shamail.json",
 			"sources": [
@@ -2089,12 +2095,13 @@
 			"languageName": "English",
 			"name": "Shama'il Muhammadiyah (English)",
 			"hadithCount": 402,
+			"translationCount": 402,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/eng-shamail.json",
 			"sources": [
@@ -2111,12 +2118,13 @@
 			"languageName": "Indonesian",
 			"name": "Shama'il Muhammadiyah (Indonesian)",
 			"hadithCount": 402,
+			"translationCount": 402,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-shamail.json",
 			"sources": [
@@ -2136,9 +2144,9 @@
 			"hadithCount": 1767,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-bulugh.json",
 			"sources": [
@@ -2155,12 +2163,13 @@
 			"languageName": "English",
 			"name": "Bulugh al-Maram (English)",
 			"hadithCount": 1767,
+			"translationCount": 1767,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/eng-bulugh.json",
 			"sources": [
@@ -2177,12 +2186,13 @@
 			"languageName": "Indonesian",
 			"name": "Bulugh al-Maram (Indonesian)",
 			"hadithCount": 1767,
+			"translationCount": 1767,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/ind-bulugh.json",
 			"sources": [
@@ -2202,9 +2212,9 @@
 			"hadithCount": 268,
 			"features": [
 				"arabic",
-				"chapters",
 				"grades",
-				"reference"
+				"reference",
+				"chapters"
 			],
 			"path": "files/ara-hisn.json",
 			"sources": [
@@ -2220,12 +2230,13 @@
 			"languageName": "English",
 			"name": "Hisn al-Muslim (English)",
 			"hadithCount": 268,
+			"translationCount": 268,
 			"features": [
 				"arabic",
-				"chapters",
+				"translation",
 				"grades",
 				"reference",
-				"translation"
+				"chapters"
 			],
 			"path": "files/eng-hisn.json",
 			"sources": [
