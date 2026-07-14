@@ -1,4 +1,4 @@
-# hadith-json (hapi merge)
+﻿# hadith-json (hapi merge)
 
 A comprehensive JSON database of hadiths in Arabic and English (plus optional Indonesian drafts), based on [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) **`main`**, with carefully ported additions from community forks.
 
@@ -82,6 +82,25 @@ Note: sagad's README describes planned `ar` / `en` locale mirrors; this merge on
 - **Musnad Ahmad chapters 8–30** are missing from Sunnah.com source data. No fork fixed this; the gap remains. Existing Ahmad chapters (1–7, 31) from AhmedBaset are preserved.
 - Grades are sparse or null for some books (e.g. Bukhari, Muslim) depending on Sunnah.com source fields in the muallimai scrape.
 - Indonesian drafts may include imperfect MT output.
+
+## Fawazahmed0 multi-language editions (`db/editions`)
+
+Additive **side-by-side** port from [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) (CDN tag `@1`). Schemas are **incompatible** with the bilingual AhmedBaset layout — content is **not** field-merged into `db/by_book`, `db/by_chapter`, or `db/by_locale`. Primary bilingual data, muallimai grades/references, Hisn al-Muslim, and the Indonesian locale tree are untouched.
+
+**Ported:**
+
+- Catalog: `db/editions/editions.json`, `editions.min.json`, `info.json`
+- Whole-edition minified files: `db/editions/files/{name}.min.json` (~74 editions)
+- Mapping notes: `db/editions/MAPPING.md`
+- Refresh script: `tool/fetch_fawaz_editions.ps1`
+
+**Not ported:**
+
+- No Ahmad / Darimi (fawaz has no those books); no hapi-only books (Riyad, Mishkat, Adab, Shamail, Bulugh, Hisn)
+- No per-hadith or section shards (`editions/{name}/{n}.json`) — use the CDN for those: `https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/`
+
+Languages available in fawaz editions: Arabic, Bengali, English, French, Indonesian, Russian, Tamil, Turkish, Urdu.
+
 
 ## Attribution & license
 
