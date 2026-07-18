@@ -2,3 +2,8 @@ node_modules
 package-lock.json
 dist
 .env
+
+# Local staging output for the hapiam/mirror/hadith archival mirror upload —
+# regenerated on demand from db/unified/, not source. See README.md's Layout
+# table.
+hapiam_mirror_hadith/

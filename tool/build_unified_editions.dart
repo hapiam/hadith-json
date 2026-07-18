@@ -61,6 +61,12 @@ class UnifiedBuilder {
   final matchStats = <MatchStat>[];
   final catalogEditions = <Map<String, dynamic>>[];
 
+  /// Chapter names, once per book (language-keyed `names` maps), written to
+  /// `catalog.json` instead of being duplicated into every language edition
+  /// file. See each book's own `by_book` spine for the source shape:
+  /// `{id, parentId, names: {ar, en, ur, ...}, needsTranslation?: [...]}`.
+  final catalogBookChapters = <String, List<Map<String, dynamic>>>{};
+
   static const fawazLangs = <LangInfo>[
     LangInfo('ben', 'bn', 'Bengali', 'ben'),
     LangInfo('eng', 'en', 'English', 'eng'),
@@ -134,6 +140,13 @@ class UnifiedBuilder {
       bookKey: 'ahmad',
       spineRelative: 'the_9_books/ahmed.json',
       englishTitle: 'Musnad Ahmad',
+      // Set so _joinFawazLanguage() picks up db/editions/files/urd-ahmad
+      // .min.json (built from the al-hadees.com scrape's own Urdu
+      // translation, keyed to this book's new idInBook numbering -- see
+      // MUSNAD_AHMAD_MIGRATION.md). No other fawazLangs file exists for
+      // 'ahmad' so every other language here is a no-op (file-not-found,
+      // gracefully skipped) until re-attached via arabic_match.dart.
+      fawazBook: 'ahmad',
       sunnahSlug: 'ahmad',
     ),
     BookDef(
@@ -244,11 +257,54 @@ class UnifiedBuilder {
     _writeCatalog();
     _writeReport();
     _writeMatrix();
+    _writeMirrorZips();
 
     final elapsed = DateTime.now().difference(started);
     stdout.writeln(
       'Done: ${catalogEditions.length} editions in ${elapsed.inSeconds}s → ${unifiedDir.path}',
     );
+  }
+
+  /// Zips every edition's already-minified JSON into `hapiam_mirror_hadith/`
+  /// — the exact, ready-to-upload artifact set for the app's CDN mirror
+  /// (matches the Quran pipeline's `.min.json.zip` download convention,
+  /// instead of shipping plain unzipped `.min.json` like this app used to).
+  /// Nothing else in this repo needs to be zipped — only what an end user's
+  /// device actually downloads.
+  void _writeMirrorZips() {
+    final mirrorDir = Directory(p(root.path, 'hapiam_mirror_hadith'));
+    if (mirrorDir.existsSync()) {
+      mirrorDir.deleteSync(recursive: true);
+    }
+    mirrorDir.createSync(recursive: true);
+
+    stdout.writeln('Zipping ${catalogEditions.length} editions into hapiam_mirror_hadith/...');
+    final zipBytes = <String, int>{};
+    for (final e in catalogEditions) {
+      final id = e['id'] as String;
+      final minJsonFile = File(p(filesDir.path, '$id.min.json'));
+      if (!minJsonFile.existsSync()) {
+        stderr.writeln('  WARNING: missing $id.min.json, skipping zip');
+        continue;
+      }
+      final zipFile = File(p(mirrorDir.path, '$id.min.json.zip'));
+      final result = Process.runSync('powershell', [
+        '-NoProfile',
+        '-Command',
+        'Compress-Archive -Path \'${minJsonFile.path}\' -DestinationPath \'${zipFile.path}\' -Force -CompressionLevel Optimal',
+      ]);
+      if (result.exitCode != 0) {
+        stderr.writeln('  FAILED to zip $id: ${result.stderr}');
+        continue;
+      }
+      zipBytes[id] = zipFile.lengthSync();
+    }
+    for (final e in catalogEditions) {
+      final bytes = zipBytes[e['id']];
+      if (bytes != null) e['mirrorZipBytes'] = bytes;
+    }
+    _writeCatalog(); // re-write now that mirrorZipBytes is populated
+    stdout.writeln('Zipped ${zipBytes.length}/${catalogEditions.length} editions.');
   }
 
   void _scanDiscardedDuplicates() {
@@ -316,6 +372,9 @@ class UnifiedBuilder {
     final chapters = (spine['chapters'] as List<dynamic>? ?? const [])
         .map((c) => Map<String, dynamic>.from(c as Map))
         .toList();
+    // Chapter names live once in the catalog (language-keyed `names` maps),
+    // not duplicated into every edition file below.
+    catalogBookChapters[book.bookKey] = chapters;
     final spineHadiths = (spine['hadiths'] as List<dynamic>? ?? const [])
         .map((h) => Map<String, dynamic>.from(h as Map))
         .toList();
@@ -354,6 +413,25 @@ class UnifiedBuilder {
         },
         'grades': grades,
         'reference': reference,
+        // Real content whose text didn't confidently content-match any
+        // canonical citation slot -- kept (not dropped) and excluded from
+        // the catalog's headline hadithCount (see DATA_QUALITY_REPORT.md in
+        // this repo for the full named list).
+        'isAddendum': h['appendedOriginal'] == true,
+        // Display-order override for isAddendum rows, set by
+        // tool/reposition_addenda.dart from the hadith's own old citation
+        // (e.g. "690b" -> 690.01) so it sorts right after the canonically
+        // numbered sibling it was originally printed next to, instead of
+        // trailing every real hadith in the book. `idInBook` itself is left
+        // alone -- it stays each addendum's stable identity for citation.
+        // Absent (falls back to idInBook) for every canonically numbered
+        // hadith.
+        if (h['sortKey'] != null) 'sortKey': h['sortKey'],
+        // Optional per-hadith scraped metadata (currently only Musnad Ahmad
+        // carries these): isnad classification (marfu'/mawquf/maqtu') and
+        // the scholar's own authentication conclusion text.
+        if (h['classification'] != null) 'classification': h['classification'],
+        if (h['conclusion'] != null) 'conclusion': h['conclusion'],
       };
       masters.add(row);
       if (idInBook != null) byIdInBook[idInBook] = row;
@@ -399,20 +477,15 @@ class UnifiedBuilder {
       _absorbSagadIndonesian(book, byId, masters, sources);
     }
 
-    // Write master by_book file.
+    // Write master by_book file. Chapter names live once in catalog.json's
+    // `bookChapters[bookKey]` (see `catalogBookChapters` above), not
+    // duplicated here.
     final masterOut = {
       'metadata': {
         'bookId': book.bookId,
         'bookKey': book.bookKey,
         'arabic': meta['arabic'],
         'english': meta['english'],
-        'chapters': chapters
-            .map((c) => {
-                  'id': c['id'],
-                  'arabic': c['arabic'],
-                  'english': c['english'],
-                })
-            .toList(),
         'sources': sources.toList()..sort(),
       },
       'hadiths': masters,
@@ -429,6 +502,15 @@ class UnifiedBuilder {
       _emitArabicEdition(book, meta, chapters, masters, sources, undiacritized: true);
     }
 
+    // Force-emit English for books whose spine actually carries it (all 17
+    // AhmedBaset-sourced books) -- but NOT for a book like the new Ahmad
+    // scaffold, which has no English source at all yet. Shipping a
+    // "Musnad Ahmad (English)" edition with zero actual English text would
+    // be actively misleading, worse than not offering the edition.
+    final hasAnyEnglish = masters.any((m) {
+      final tr = (m['translations'] as Map<String, dynamic>)['en'];
+      return tr is Map && (tr['text'] ?? '').toString().trim().isNotEmpty;
+    });
     _emitLanguageEdition(
       book: book,
       meta: meta,
@@ -439,7 +521,7 @@ class UnifiedBuilder {
       langIso: 'en',
       langName: 'English',
       preferNarratorSplit: true,
-      forceEmit: true,
+      forceEmit: hasAnyEnglish,
     );
 
     final presentLangs = <String>{};
@@ -698,6 +780,9 @@ class UnifiedBuilder {
         'translation': null,
         'grades': row['grades'],
         'reference': row['reference'],
+        'isAddendum': row['isAddendum'] == true,
+        if (row['classification'] != null) 'classification': row['classification'],
+        if (row['conclusion'] != null) 'conclusion': row['conclusion'],
       });
     }
     if (hadiths.isEmpty) return;
@@ -711,17 +796,11 @@ class UnifiedBuilder {
         'language': langIso,
         'arabic': meta['arabic'],
         'translation': null,
-        'chapters': chapters
-            .map((c) => {
-                  'id': c['id'],
-                  'arabic': c['arabic'],
-                  'english': c['english'],
-                })
-            .toList(),
       },
       'hadiths': hadiths,
     };
     _writeEditionFiles(editionId, out);
+    final addendumCount = hadiths.where((h) => h['isAddendum'] == true).length;
     catalogEditions.add({
       'id': editionId,
       'bookKey': book.bookKey,
@@ -729,7 +808,8 @@ class UnifiedBuilder {
       'language': langIso,
       'languageName': langName,
       'name': '${book.englishTitle} ($langName)',
-      'hadithCount': hadiths.length,
+      'hadithCount': hadiths.length - addendumCount,
+      if (addendumCount > 0) 'addendumCount': addendumCount,
       'features': features,
       'path': 'files/$editionId.json',
       'sources': sources.toList()..sort(),
@@ -790,6 +870,9 @@ class UnifiedBuilder {
         'translation': translation,
         'grades': row['grades'],
         'reference': row['reference'],
+        'isAddendum': row['isAddendum'] == true,
+        if (row['classification'] != null) 'classification': row['classification'],
+        if (row['conclusion'] != null) 'conclusion': row['conclusion'],
       });
     }
     // Skip emitting a language edition if no hadith has that translation
@@ -825,17 +908,11 @@ class UnifiedBuilder {
         'arabic': meta['arabic'],
         'translation': translationMeta,
         if (draftCount > 0) 'translationStatus': 'draft',
-        'chapters': chapters
-            .map((c) => {
-                  'id': c['id'],
-                  'arabic': c['arabic'],
-                  'english': c['english'],
-                })
-            .toList(),
       },
       'hadiths': hadiths,
     };
     _writeEditionFiles(editionId, out);
+    final addendumCount = hadiths.where((h) => h['isAddendum'] == true).length;
     catalogEditions.add({
       'id': editionId,
       'bookKey': book.bookKey,
@@ -843,7 +920,8 @@ class UnifiedBuilder {
       'language': langIso,
       'languageName': langName,
       'name': '${book.englishTitle} ($langName)',
-      'hadithCount': hadiths.length,
+      'hadithCount': hadiths.length - addendumCount,
+      if (addendumCount > 0) 'addendumCount': addendumCount,
       'translationCount': withTranslation,
       'features': features,
       'path': 'files/$editionId.json',
@@ -864,8 +942,12 @@ class UnifiedBuilder {
       return (a['id'] as String).compareTo(b['id'] as String);
     });
     final catalog = {
-      'schemaVersion': 1,
+      // v2: chapter names moved here (once per book, language-keyed `names`
+      // maps under `bookChapters`) instead of being duplicated inside every
+      // edition file's own metadata.
+      'schemaVersion': 2,
       'editions': catalogEditions,
+      'bookChapters': catalogBookChapters,
     };
     _writeJson(File(p(unifiedDir.path, 'catalog.json')), catalog);
     _writeMinJson(File(p(unifiedDir.path, 'catalog.min.json')), catalog);

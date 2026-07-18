@@ -18,8 +18,11 @@
 		{
 			"id": 0,
 			"bookId": 11,
-			"arabic": "الحديث القدسي",
-			"english": "Forty Hadith Qudsi"
+			"parentId": null,
+			"names": {
+				"ar": "الحديث القدسي",
+				"en": "Forty Hadith Qudsi"
+			}
 		}
 	],
 	"hadiths": [

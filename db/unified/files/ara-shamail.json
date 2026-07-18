@@ -8,294 +8,7 @@
 			"author": "الإمام الترمذي",
 			"introduction": ""
 		},
-		"translation": null,
-		"chapters": [
-			{
-				"id": 1,
-				"arabic": "باب ما جاء في خلق رسول الله صلى الله عليه وسلم",
-				"english": "The Noble Features Of Rasoolullah"
-			},
-			{
-				"id": 2,
-				"arabic": "باب ما جاء في خاتم النبوة",
-				"english": "Seal Of Nubuwwah (Prophethood) Of Rasoolullah"
-			},
-			{
-				"id": 3,
-				"arabic": "-باب ما جاء في شعر رسول الله صلى الله عليه وسلم",
-				"english": "The Mubarak Hair Of Rasoolullah"
-			},
-			{
-				"id": 4,
-				"arabic": "باب ما جاء في ترجل رسول الله صلى الله عليه وسلم",
-				"english": "The Combing Of The Hair Of Rasoolullah"
-			},
-			{
-				"id": 5,
-				"arabic": "باب ما جاء في شيب رسول الله صلى الله عليه وسلم",
-				"english": "Appearing Of The White Hair Of Rasoolullah"
-			},
-			{
-				"id": 6,
-				"arabic": "باب ما جاء في خضاب رسول الله صلى الله عليه وسلم",
-				"english": "Rasoolullah Using a Dye"
-			},
-			{
-				"id": 7,
-				"arabic": "باب ما جاء في كُحل رسول الله صلى الله عليه وسلم",
-				"english": "Kuhl Of Rasoolullah"
-			},
-			{
-				"id": 8,
-				"arabic": "باب ما جاء في لباس رسول الله صلى الله عليه وسلم",
-				"english": "The Dressing Of Rasoolullah"
-			},
-			{
-				"id": 8.2,
-				"arabic": "باب ماجاء في عيش رسول الله صلى الله عليه وسلم",
-				"english": "The Standard of Living of Rasoolullah"
-			},
-			{
-				"id": 9,
-				"arabic": "باب ما جاء في خف رسول الله صلى الله عليه وسلم",
-				"english": "The Khuff (Leather Socks) Of Rasoolullah"
-			},
-			{
-				"id": 10,
-				"arabic": "باب ماجاء في نعل رسول الله صلى الله عليه وسلم",
-				"english": "The Shoes Of Rasoolullah"
-			},
-			{
-				"id": 11,
-				"arabic": "باب ما جاء في ذكر خاتم رسول الله صلى الله عليه وسلم",
-				"english": "The Mubarak Ring Of Rasoolullah"
-			},
-			{
-				"id": 12,
-				"arabic": "باب ماجاء في تختم رسول الله صلى الله عليه وسلم",
-				"english": "Stating That Rasoolullah Wore The Ring On His Right Hand"
-			},
-			{
-				"id": 13,
-				"arabic": "باب ماجاء في صفة سَيْفِ رَسُولِ اللهِ صلى الله عليه وسلم",
-				"english": "The Sword Of Rasoolullah"
-			},
-			{
-				"id": 14,
-				"arabic": "باب ماجاء في صفة درع رَسُولِ اللهِصلى الله عليه وسلم",
-				"english": "The Armor Of Rasoolullah"
-			},
-			{
-				"id": 15,
-				"arabic": "باب ما جاء في صفة مغفر رسول الله صلى الله عليه وسلم",
-				"english": "The Helmet Of Rasoolullah"
-			},
-			{
-				"id": 16,
-				"arabic": "باب ما جاء في عمامة رسول الله صلى الله عليه وسلم",
-				"english": "The Turban Of Rasoolullah"
-			},
-			{
-				"id": 17,
-				"arabic": "باب ما جاء في صفة إزار رسول الله صلى الله عليه وسلم",
-				"english": "The Lungi Of Rasoolullah"
-			},
-			{
-				"id": 18,
-				"arabic": "باب ما جاء في مشية رسول الله صلى الله عليه وسلم",
-				"english": "The Walking Of Rasoolullah"
-			},
-			{
-				"id": 19,
-				"arabic": "باب ما جاء في تقنع رسول الله صلى الله عليه وسلم",
-				"english": "The Qinaa Of Rasoolullah"
-			},
-			{
-				"id": 20,
-				"arabic": "باب ما جاء في جلسته صلى الله عليه وسلم",
-				"english": "The Sitting Of Rasoolullah"
-			},
-			{
-				"id": 21,
-				"arabic": "باب ما جاء في تكأة رسول الله صلى الله عليه وسلم",
-				"english": "The Pillow Of Rasoolullah"
-			},
-			{
-				"id": 22,
-				"arabic": "باب ما جاء في اتكاء رسول الله صلى الله عليه وسلم",
-				"english": "Rasoolullah Leaning On Something Other Than a Pillow"
-			},
-			{
-				"id": 23,
-				"arabic": "باب ما جاء في أكل رسول الله صلى الله عليه وسلم",
-				"english": "Description Of The Eating Of Rasoolullah"
-			},
-			{
-				"id": 24,
-				"arabic": "باب ما جاء في صفة خبز رسول الله صلى الله عليه وسلم",
-				"english": "The Bread Of Rasoolullah"
-			},
-			{
-				"id": 25,
-				"arabic": "ما جاء في إدام رسول الله صلى الله عليه وسلم",
-				"english": "What Rasoolullah Would Eat with Bread"
-			},
-			{
-				"id": 26,
-				"arabic": "باب ما جاء في صفة وضوء رسول الله صلى الله عليه وسلم عند الطعام",
-				"english": "Rasoolullah Performing Wudu At The Time Of Eating"
-			},
-			{
-				"id": 27,
-				"arabic": "باب ما جاء في قول رسول الله صلى الله عليه وسلم قبل الطعام وعند الفراغ منه",
-				"english": "The Words That Of Rasoolullah Said Before and After Eating"
-			},
-			{
-				"id": 28,
-				"arabic": "باب ما جاء في قدح رسول الله صلى الله عليه وسلم",
-				"english": "The Cup Of Rasoolullah"
-			},
-			{
-				"id": 29,
-				"arabic": "باب ما جاء في صفة فاكهة رسول الله صلى الله عليه وسلم",
-				"english": "The Fruits Eaten By Rasoolullah"
-			},
-			{
-				"id": 30,
-				"arabic": "باب ما جاء في صفة شراب رسول الله صلى الله عليه وسلم",
-				"english": "Description Of The Things Rasoolullah Drank"
-			},
-			{
-				"id": 31,
-				"arabic": "باب ما جاء في شرب رسول الله صلى الله عليه وسلم",
-				"english": "Hadith Describing The Manner Rasoolullah Drank"
-			},
-			{
-				"id": 32,
-				"arabic": "باب ما جاء في تعطررسول الله صلى الله عليه وسلم",
-				"english": "Rasoolullah Using 'Itr"
-			},
-			{
-				"id": 33,
-				"arabic": "باب كيف كان كلام رسول الله صلى الله عليه وسلم",
-				"english": "The Speech Of rasoolullah"
-			},
-			{
-				"id": 34,
-				"arabic": "باب ما جاء في ضحك رسول الله صلى الله عليه وسلم",
-				"english": "The Laughing Of Rasoolullah"
-			},
-			{
-				"id": 35,
-				"arabic": "باب ما جاء في صفة مزاح رسول الله صلى الله عليه وسلم",
-				"english": "Description Of The Joking Of Rasoolullah"
-			},
-			{
-				"id": 36,
-				"arabic": "باب ما جاء في صفة كلام رسول الله صلى الله عليه وسلم في الشعر",
-				"english": "Description Of The Saying Of Rasoolullah On Poetry"
-			},
-			{
-				"id": 37,
-				"arabic": "باب ما جاء في كلام رسول الله صلى الله عليه وسلم في السمر",
-				"english": "Story Telling Of Rasoolullah At Night"
-			},
-			{
-				"id": 38,
-				"arabic": "حديث أم زرع",
-				"english": "Hadith of Umm Zar`"
-			},
-			{
-				"id": 39,
-				"arabic": "باب في صفة نوم رسول الله صلى الله عليه وسلم في السمر",
-				"english": "The Sleeping Of Rasoolullah"
-			},
-			{
-				"id": 40,
-				"arabic": "باب ما جاء في عبادة النبي صلى الله عليه وسلم",
-				"english": "Worship And Devotion Of Rasoolullah"
-			},
-			{
-				"id": 41,
-				"arabic": "باب صلاة الضحى",
-				"english": "Salaatut Duha (Chaast Prayers)"
-			},
-			{
-				"id": 42,
-				"arabic": "باب صلاة التطوع في البيت",
-				"english": "Sayyidina Rasoolullah Performing Nawaafil At Home"
-			},
-			{
-				"id": 43,
-				"arabic": "باب ماجاء في صوم رسول الله صلى الله عليه وسلم",
-				"english": "The Fasting Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 44,
-				"arabic": "باب ماجاء في قراءة رسول الله صلى الله عليه وسلم",
-				"english": "The Recital Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 45,
-				"arabic": "باب ماجاء في بكاء رسول الله صلى الله عليه وسلم",
-				"english": "The Weeping Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 46,
-				"arabic": "باب ماجاء في فراش رسول الله صلى الله عليه وسلم",
-				"english": "Narrations Of The Bed Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 47,
-				"arabic": "باب ماجاء في تواضع رسول الله صلى الله عليه وسلم",
-				"english": "The Humbleness Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 48,
-				"arabic": "باب ماجاء في خلق رسول الله صلى الله عليه وسلم",
-				"english": "Noble Character And Habits Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 49,
-				"arabic": "باب ماجاء في حياء رسول الله صلى الله عليه وسلم",
-				"english": "Modesty Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 50,
-				"arabic": "باب ماجاء في حجامة رسول الله صلى الله عليه وسلم",
-				"english": "Hajaamah (Cupping-Cautering) Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 51,
-				"arabic": "باب ماجاء في أسماء رسول الله صلى الله عليه وسلم",
-				"english": "The Names Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 52,
-				"arabic": "باب ماجاء في عيش رسول الله صلى الله عليه وسلم",
-				"english": "The Living Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 53,
-				"arabic": "باب ماجاء في سن رسول الله صلى الله عليه وسلم",
-				"english": "The Noble Age Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 54,
-				"arabic": "باب ماجاء في وفاة رسول الله صلى الله عليه وسلم",
-				"english": "The Death Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 55,
-				"arabic": "باب ماجاء في ميراث رسول الله صلى الله عليه وسلم",
-				"english": "The Legacy Of Sayyidina Rasoolullah"
-			},
-			{
-				"id": 56,
-				"arabic": "باب ماجاء في رؤية رسول الله صلى الله عليه وسلم",
-				"english": "The Seeing Of Rasoolullah In a Dream"
-			}
-		]
+		"translation": null
 	},
 	"hadiths": [
 		{
@@ -309,7 +22,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 439",
 				"url": "https://sunnah.com/adab:439"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48717,
@@ -322,7 +36,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 440",
 				"url": "https://sunnah.com/adab:440"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48718,
@@ -335,7 +50,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 441",
 				"url": "https://sunnah.com/adab:441"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48719,
@@ -348,7 +64,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 442",
 				"url": "https://sunnah.com/adab:442"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48720,
@@ -361,7 +78,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 443",
 				"url": "https://sunnah.com/adab:443"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48721,
@@ -374,7 +92,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 444",
 				"url": "https://sunnah.com/adab:444"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48722,
@@ -387,7 +106,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 445",
 				"url": "https://sunnah.com/adab:445"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48723,
@@ -400,7 +120,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 446",
 				"url": "https://sunnah.com/adab:446"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48724,
@@ -413,7 +134,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 447",
 				"url": "https://sunnah.com/adab:447"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48725,
@@ -426,7 +148,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 448",
 				"url": "https://sunnah.com/adab:448"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48726,
@@ -439,7 +162,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 449",
 				"url": "https://sunnah.com/adab:449"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48727,
@@ -452,7 +176,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 450",
 				"url": "https://sunnah.com/adab:450"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48728,
@@ -465,7 +190,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 451",
 				"url": "https://sunnah.com/adab:451"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48729,
@@ -478,7 +204,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 452",
 				"url": "https://sunnah.com/adab:452"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48730,
@@ -491,7 +218,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 453",
 				"url": "https://sunnah.com/adab:453"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48731,
@@ -504,7 +232,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 454",
 				"url": "https://sunnah.com/adab:454"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48732,
@@ -517,7 +246,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 455",
 				"url": "https://sunnah.com/adab:455"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48733,
@@ -530,7 +260,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 456",
 				"url": "https://sunnah.com/adab:456"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48734,
@@ -543,7 +274,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 457",
 				"url": "https://sunnah.com/adab:457"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48735,
@@ -556,7 +288,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 458",
 				"url": "https://sunnah.com/adab:458"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48736,
@@ -569,7 +302,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 459",
 				"url": "https://sunnah.com/adab:459"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48737,
@@ -582,7 +316,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 460",
 				"url": "https://sunnah.com/adab:460"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48738,
@@ -595,7 +330,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 461",
 				"url": "https://sunnah.com/adab:461"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48739,
@@ -608,7 +344,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 462",
 				"url": "https://sunnah.com/adab:462"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48740,
@@ -621,7 +358,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 463",
 				"url": "https://sunnah.com/adab:463"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48741,
@@ -634,7 +372,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 464",
 				"url": "https://sunnah.com/adab:464"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48742,
@@ -647,7 +386,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 465",
 				"url": "https://sunnah.com/adab:465"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48743,
@@ -660,7 +400,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 466",
 				"url": "https://sunnah.com/adab:466"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48744,
@@ -673,7 +414,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 467",
 				"url": "https://sunnah.com/adab:467"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48745,
@@ -686,7 +428,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 468",
 				"url": "https://sunnah.com/adab:468"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48746,
@@ -699,7 +442,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 469",
 				"url": "https://sunnah.com/adab:469"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48747,
@@ -712,7 +456,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 470",
 				"url": "https://sunnah.com/adab:470"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48748,
@@ -725,7 +470,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 471",
 				"url": "https://sunnah.com/adab:471"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48749,
@@ -738,7 +484,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 472",
 				"url": "https://sunnah.com/adab:472"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48750,
@@ -751,7 +498,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 473",
 				"url": "https://sunnah.com/adab:473"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48751,
@@ -764,7 +512,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 474",
 				"url": "https://sunnah.com/adab:474"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48752,
@@ -776,7 +525,8 @@
 			"grades": [],
 			"reference": {
 				"url": "https://sunnah.com/adab/27/14"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48753,
@@ -788,7 +538,8 @@
 			"grades": [],
 			"reference": {
 				"url": "https://sunnah.com/adab/27/1"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48754,
@@ -800,7 +551,8 @@
 			"grades": [],
 			"reference": {
 				"url": "https://sunnah.com/adab/27/2"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48755,
@@ -812,7 +564,8 @@
 			"grades": [],
 			"reference": {
 				"url": "https://sunnah.com/adab/27/3"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48756,
@@ -824,7 +577,8 @@
 			"grades": [],
 			"reference": {
 				"url": "https://sunnah.com/adab/27/4"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48757,
@@ -836,7 +590,8 @@
 			"grades": [],
 			"reference": {
 				"url": "https://sunnah.com/adab/27/5"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48758,
@@ -848,7 +603,8 @@
 			"grades": [],
 			"reference": {
 				"url": "https://sunnah.com/adab/27/6"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48759,
@@ -860,7 +616,8 @@
 			"grades": [],
 			"reference": {
 				"url": "https://sunnah.com/adab/27/7"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48760,
@@ -873,7 +630,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 483",
 				"url": "https://sunnah.com/adab:483"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48761,
@@ -886,7 +644,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 484",
 				"url": "https://sunnah.com/adab:484"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48762,
@@ -899,7 +658,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 485",
 				"url": "https://sunnah.com/adab:485"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48763,
@@ -912,7 +672,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 486",
 				"url": "https://sunnah.com/adab:486"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48764,
@@ -925,7 +686,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 487",
 				"url": "https://sunnah.com/adab:487"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48765,
@@ -938,7 +700,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 488",
 				"url": "https://sunnah.com/adab:488"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48766,
@@ -951,7 +714,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 489",
 				"url": "https://sunnah.com/adab:489"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48767,
@@ -964,7 +728,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 490",
 				"url": "https://sunnah.com/adab:490"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48768,
@@ -977,7 +742,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 491",
 				"url": "https://sunnah.com/adab:491"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48769,
@@ -990,7 +756,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 492",
 				"url": "https://sunnah.com/adab:492"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48770,
@@ -1003,7 +770,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 493",
 				"url": "https://sunnah.com/adab:493"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48771,
@@ -1016,7 +784,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 494",
 				"url": "https://sunnah.com/adab:494"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48772,
@@ -1029,7 +798,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 495",
 				"url": "https://sunnah.com/adab:495"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48773,
@@ -1042,7 +812,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 496",
 				"url": "https://sunnah.com/adab:496"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48774,
@@ -1055,7 +826,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 497",
 				"url": "https://sunnah.com/adab:497"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48775,
@@ -1068,7 +840,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 498",
 				"url": "https://sunnah.com/adab:498"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48776,
@@ -1081,7 +854,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 499",
 				"url": "https://sunnah.com/adab:499"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48777,
@@ -1094,7 +868,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 500",
 				"url": "https://sunnah.com/adab:500"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48778,
@@ -1107,7 +882,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 501",
 				"url": "https://sunnah.com/adab:501"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48779,
@@ -1120,7 +896,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 502",
 				"url": "https://sunnah.com/adab:502"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48780,
@@ -1133,7 +910,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 503",
 				"url": "https://sunnah.com/adab:503"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48781,
@@ -1146,7 +924,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 504",
 				"url": "https://sunnah.com/adab:504"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48782,
@@ -1159,7 +938,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 505",
 				"url": "https://sunnah.com/adab:505"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48783,
@@ -1172,7 +952,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 506",
 				"url": "https://sunnah.com/adab:506"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48784,
@@ -1185,7 +966,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 507",
 				"url": "https://sunnah.com/adab:507"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48785,
@@ -1198,7 +980,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 508",
 				"url": "https://sunnah.com/adab:508"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48786,
@@ -1211,7 +994,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 509",
 				"url": "https://sunnah.com/adab:509"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48787,
@@ -1224,7 +1008,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 510",
 				"url": "https://sunnah.com/adab:510"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48788,
@@ -1237,7 +1022,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 511",
 				"url": "https://sunnah.com/adab:511"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48789,
@@ -1250,7 +1036,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 512",
 				"url": "https://sunnah.com/adab:512"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48790,
@@ -1263,7 +1050,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 513",
 				"url": "https://sunnah.com/adab:513"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48791,
@@ -1276,7 +1064,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 514",
 				"url": "https://sunnah.com/adab:514"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48792,
@@ -1289,7 +1078,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 515",
 				"url": "https://sunnah.com/adab:515"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48793,
@@ -1302,7 +1092,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 516",
 				"url": "https://sunnah.com/adab:516"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48794,
@@ -1315,7 +1106,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 517",
 				"url": "https://sunnah.com/adab:517"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48795,
@@ -1328,7 +1120,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 518",
 				"url": "https://sunnah.com/adab:518"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48796,
@@ -1341,7 +1134,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 519",
 				"url": "https://sunnah.com/adab:519"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48797,
@@ -1354,7 +1148,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 520",
 				"url": "https://sunnah.com/adab:520"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48798,
@@ -1367,7 +1162,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 521",
 				"url": "https://sunnah.com/adab:521"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48799,
@@ -1380,7 +1176,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 522",
 				"url": "https://sunnah.com/adab:522"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48800,
@@ -1393,7 +1190,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 523",
 				"url": "https://sunnah.com/adab:523"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48801,
@@ -1406,7 +1204,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 524",
 				"url": "https://sunnah.com/adab:524"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48802,
@@ -1419,7 +1218,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 525",
 				"url": "https://sunnah.com/adab:525"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48803,
@@ -1432,7 +1232,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 526",
 				"url": "https://sunnah.com/adab:526"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48804,
@@ -1445,7 +1246,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 527",
 				"url": "https://sunnah.com/adab:527"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48805,
@@ -1458,7 +1260,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 528",
 				"url": "https://sunnah.com/adab:528"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48806,
@@ -1471,7 +1274,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 529",
 				"url": "https://sunnah.com/adab:529"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48807,
@@ -1484,7 +1288,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 530",
 				"url": "https://sunnah.com/adab:530"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48808,
@@ -1497,7 +1302,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 531",
 				"url": "https://sunnah.com/adab:531"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48809,
@@ -1510,7 +1316,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 532",
 				"url": "https://sunnah.com/adab:532"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48810,
@@ -1523,7 +1330,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 533",
 				"url": "https://sunnah.com/adab:533"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48811,
@@ -1536,7 +1344,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 534",
 				"url": "https://sunnah.com/adab:534"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48812,
@@ -1549,7 +1358,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 535",
 				"url": "https://sunnah.com/adab:535"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48813,
@@ -1562,7 +1372,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 536",
 				"url": "https://sunnah.com/adab:536"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48814,
@@ -1575,7 +1386,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 537",
 				"url": "https://sunnah.com/adab:537"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48815,
@@ -1588,7 +1400,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 538",
 				"url": "https://sunnah.com/adab:538"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48816,
@@ -1601,7 +1414,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 539",
 				"url": "https://sunnah.com/adab:539"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48817,
@@ -1614,7 +1428,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 540",
 				"url": "https://sunnah.com/adab:540"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48818,
@@ -1627,7 +1442,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 541",
 				"url": "https://sunnah.com/adab:541"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48819,
@@ -1640,7 +1456,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 542",
 				"url": "https://sunnah.com/adab:542"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48820,
@@ -1653,7 +1470,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 543",
 				"url": "https://sunnah.com/adab:543"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48821,
@@ -1666,7 +1484,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 544",
 				"url": "https://sunnah.com/adab:544"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48822,
@@ -1679,7 +1498,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 545",
 				"url": "https://sunnah.com/adab:545"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48823,
@@ -1692,7 +1512,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 546",
 				"url": "https://sunnah.com/adab:546"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48824,
@@ -1705,7 +1526,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 547",
 				"url": "https://sunnah.com/adab:547"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48825,
@@ -1718,7 +1540,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 548",
 				"url": "https://sunnah.com/adab:548"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48826,
@@ -1731,7 +1554,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 549",
 				"url": "https://sunnah.com/adab:549"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48827,
@@ -1744,7 +1568,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 550",
 				"url": "https://sunnah.com/adab:550"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48828,
@@ -1757,7 +1582,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 551",
 				"url": "https://sunnah.com/adab:551"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48829,
@@ -1770,7 +1596,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 552",
 				"url": "https://sunnah.com/adab:552"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48830,
@@ -1783,7 +1610,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 553",
 				"url": "https://sunnah.com/adab:553"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48831,
@@ -1796,7 +1624,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 554",
 				"url": "https://sunnah.com/adab:554"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48832,
@@ -1809,7 +1638,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 555",
 				"url": "https://sunnah.com/adab:555"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48833,
@@ -1822,7 +1652,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 556",
 				"url": "https://sunnah.com/adab:556"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48834,
@@ -1835,7 +1666,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 557",
 				"url": "https://sunnah.com/adab:557"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48835,
@@ -1848,7 +1680,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 558",
 				"url": "https://sunnah.com/adab:558"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48836,
@@ -1861,7 +1694,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 559",
 				"url": "https://sunnah.com/adab:559"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48837,
@@ -1874,7 +1708,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 560",
 				"url": "https://sunnah.com/adab:560"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48838,
@@ -1887,7 +1722,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 561",
 				"url": "https://sunnah.com/adab:561"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48839,
@@ -1900,7 +1736,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 562",
 				"url": "https://sunnah.com/adab:562"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48840,
@@ -1913,7 +1750,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 563",
 				"url": "https://sunnah.com/adab:563"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48841,
@@ -1926,7 +1764,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 564",
 				"url": "https://sunnah.com/adab:564"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48842,
@@ -1939,7 +1778,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 565",
 				"url": "https://sunnah.com/adab:565"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48843,
@@ -1952,7 +1792,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 566",
 				"url": "https://sunnah.com/adab:566"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48844,
@@ -1965,7 +1806,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 567",
 				"url": "https://sunnah.com/adab:567"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48845,
@@ -1978,7 +1820,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 568",
 				"url": "https://sunnah.com/adab:568"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48846,
@@ -1991,7 +1834,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 569",
 				"url": "https://sunnah.com/adab:569"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48847,
@@ -2004,7 +1848,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 570",
 				"url": "https://sunnah.com/adab:570"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48848,
@@ -2017,7 +1862,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 571",
 				"url": "https://sunnah.com/adab:571"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48849,
@@ -2030,7 +1876,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 572",
 				"url": "https://sunnah.com/adab:572"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48850,
@@ -2043,7 +1890,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 573",
 				"url": "https://sunnah.com/adab:573"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48851,
@@ -2056,7 +1904,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 574",
 				"url": "https://sunnah.com/adab:574"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48852,
@@ -2069,7 +1918,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 575",
 				"url": "https://sunnah.com/adab:575"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48853,
@@ -2082,7 +1932,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 576",
 				"url": "https://sunnah.com/adab:576"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48854,
@@ -2095,7 +1946,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 577",
 				"url": "https://sunnah.com/adab:577"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48855,
@@ -2108,7 +1960,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 578",
 				"url": "https://sunnah.com/adab:578"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48856,
@@ -2121,7 +1974,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 579",
 				"url": "https://sunnah.com/adab:579"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48857,
@@ -2134,7 +1988,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 580",
 				"url": "https://sunnah.com/adab:580"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48858,
@@ -2147,7 +2002,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 581",
 				"url": "https://sunnah.com/adab:581"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48859,
@@ -2160,7 +2016,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 582",
 				"url": "https://sunnah.com/adab:582"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48860,
@@ -2173,7 +2030,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 583",
 				"url": "https://sunnah.com/adab:583"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48861,
@@ -2186,7 +2044,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 584",
 				"url": "https://sunnah.com/adab:584"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48862,
@@ -2199,7 +2058,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 585",
 				"url": "https://sunnah.com/adab:585"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48863,
@@ -2212,7 +2072,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 586",
 				"url": "https://sunnah.com/adab:586"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48864,
@@ -2225,7 +2086,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 587",
 				"url": "https://sunnah.com/adab:587"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48865,
@@ -2238,7 +2100,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 588",
 				"url": "https://sunnah.com/adab:588"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48866,
@@ -2251,7 +2114,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 589",
 				"url": "https://sunnah.com/adab:589"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48867,
@@ -2264,7 +2128,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 590",
 				"url": "https://sunnah.com/adab:590"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48868,
@@ -2277,7 +2142,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 591",
 				"url": "https://sunnah.com/adab:591"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48869,
@@ -2290,7 +2156,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 592",
 				"url": "https://sunnah.com/adab:592"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48870,
@@ -2303,7 +2170,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 593",
 				"url": "https://sunnah.com/adab:593"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48871,
@@ -2316,7 +2184,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 594",
 				"url": "https://sunnah.com/adab:594"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48872,
@@ -2329,7 +2198,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 595",
 				"url": "https://sunnah.com/adab:595"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48873,
@@ -2342,7 +2212,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 596",
 				"url": "https://sunnah.com/adab:596"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48874,
@@ -2355,7 +2226,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 597",
 				"url": "https://sunnah.com/adab:597"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48875,
@@ -2368,7 +2240,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 598",
 				"url": "https://sunnah.com/adab:598"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48876,
@@ -2381,7 +2254,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 599",
 				"url": "https://sunnah.com/adab:599"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48877,
@@ -2394,7 +2268,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 600",
 				"url": "https://sunnah.com/adab:600"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48878,
@@ -2407,7 +2282,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 601",
 				"url": "https://sunnah.com/adab:601"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48879,
@@ -2420,7 +2296,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 602",
 				"url": "https://sunnah.com/adab:602"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48880,
@@ -2433,7 +2310,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 603",
 				"url": "https://sunnah.com/adab:603"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48881,
@@ -2446,7 +2324,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 604",
 				"url": "https://sunnah.com/adab:604"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48882,
@@ -2459,7 +2338,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 605",
 				"url": "https://sunnah.com/adab:605"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48883,
@@ -2472,7 +2352,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 606",
 				"url": "https://sunnah.com/adab:606"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48884,
@@ -2485,7 +2366,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 607",
 				"url": "https://sunnah.com/adab:607"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48885,
@@ -2498,7 +2380,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 608",
 				"url": "https://sunnah.com/adab:608"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48886,
@@ -2511,7 +2394,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 609",
 				"url": "https://sunnah.com/adab:609"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48887,
@@ -2524,7 +2408,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 610",
 				"url": "https://sunnah.com/adab:610"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48888,
@@ -2537,7 +2422,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 611",
 				"url": "https://sunnah.com/adab:611"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48889,
@@ -2550,7 +2436,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 612",
 				"url": "https://sunnah.com/adab:612"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48890,
@@ -2563,7 +2450,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 613",
 				"url": "https://sunnah.com/adab:613"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48891,
@@ -2576,7 +2464,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 614",
 				"url": "https://sunnah.com/adab:614"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48892,
@@ -2589,7 +2478,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 615",
 				"url": "https://sunnah.com/adab:615"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48893,
@@ -2602,7 +2492,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 616",
 				"url": "https://sunnah.com/adab:616"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48894,
@@ -2615,7 +2506,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 617",
 				"url": "https://sunnah.com/adab:617"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48895,
@@ -2628,7 +2520,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 618",
 				"url": "https://sunnah.com/adab:618"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48896,
@@ -2641,7 +2534,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 619",
 				"url": "https://sunnah.com/adab:619"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48897,
@@ -2654,7 +2548,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 620",
 				"url": "https://sunnah.com/adab:620"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48898,
@@ -2667,7 +2562,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 621",
 				"url": "https://sunnah.com/adab:621"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48899,
@@ -2680,7 +2576,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 622",
 				"url": "https://sunnah.com/adab:622"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48900,
@@ -2693,7 +2590,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 623",
 				"url": "https://sunnah.com/adab:623"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48901,
@@ -2706,7 +2604,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 624",
 				"url": "https://sunnah.com/adab:624"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48902,
@@ -2719,7 +2618,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 625",
 				"url": "https://sunnah.com/adab:625"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48903,
@@ -2732,7 +2632,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 626",
 				"url": "https://sunnah.com/adab:626"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48904,
@@ -2745,7 +2646,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 627",
 				"url": "https://sunnah.com/adab:627"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48905,
@@ -2758,7 +2660,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 628",
 				"url": "https://sunnah.com/adab:628"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48906,
@@ -2771,7 +2674,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 629",
 				"url": "https://sunnah.com/adab:629"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48907,
@@ -2784,7 +2688,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 630",
 				"url": "https://sunnah.com/adab:630"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48908,
@@ -2797,7 +2702,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 631",
 				"url": "https://sunnah.com/adab:631"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48909,
@@ -2810,7 +2716,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 632",
 				"url": "https://sunnah.com/adab:632"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48910,
@@ -2823,7 +2730,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 633",
 				"url": "https://sunnah.com/adab:633"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48911,
@@ -2836,7 +2744,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 634",
 				"url": "https://sunnah.com/adab:634"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48912,
@@ -2849,7 +2758,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 635",
 				"url": "https://sunnah.com/adab:635"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48913,
@@ -2862,7 +2772,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 636",
 				"url": "https://sunnah.com/adab:636"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48914,
@@ -2875,7 +2786,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 637",
 				"url": "https://sunnah.com/adab:637"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48915,
@@ -2888,7 +2800,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 638",
 				"url": "https://sunnah.com/adab:638"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48916,
@@ -2901,7 +2814,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 639",
 				"url": "https://sunnah.com/adab:639"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48917,
@@ -2914,7 +2828,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 640",
 				"url": "https://sunnah.com/adab:640"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48918,
@@ -2927,7 +2842,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 641",
 				"url": "https://sunnah.com/adab:641"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48919,
@@ -2940,7 +2856,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 642",
 				"url": "https://sunnah.com/adab:642"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48920,
@@ -2953,7 +2870,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 643",
 				"url": "https://sunnah.com/adab:643"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48921,
@@ -2966,7 +2884,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 644",
 				"url": "https://sunnah.com/adab:644"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48922,
@@ -2979,7 +2898,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 645",
 				"url": "https://sunnah.com/adab:645"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48923,
@@ -2992,7 +2912,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 646",
 				"url": "https://sunnah.com/adab:646"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48924,
@@ -3005,7 +2926,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 647",
 				"url": "https://sunnah.com/adab:647"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48925,
@@ -3018,7 +2940,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 648",
 				"url": "https://sunnah.com/adab:648"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48926,
@@ -3031,7 +2954,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 649",
 				"url": "https://sunnah.com/adab:649"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48927,
@@ -3044,7 +2968,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 650",
 				"url": "https://sunnah.com/adab:650"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48928,
@@ -3057,7 +2982,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 651",
 				"url": "https://sunnah.com/adab:651"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48929,
@@ -3070,7 +2996,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 652",
 				"url": "https://sunnah.com/adab:652"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48930,
@@ -3083,7 +3010,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 653",
 				"url": "https://sunnah.com/adab:653"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48931,
@@ -3096,7 +3024,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 654",
 				"url": "https://sunnah.com/adab:654"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48932,
@@ -3109,7 +3038,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 655",
 				"url": "https://sunnah.com/adab:655"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48933,
@@ -3122,7 +3052,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 656",
 				"url": "https://sunnah.com/adab:656"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48934,
@@ -3135,7 +3066,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 657",
 				"url": "https://sunnah.com/adab:657"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48935,
@@ -3148,7 +3080,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 658",
 				"url": "https://sunnah.com/adab:658"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48936,
@@ -3161,7 +3094,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 659",
 				"url": "https://sunnah.com/adab:659"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48937,
@@ -3174,7 +3108,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 660",
 				"url": "https://sunnah.com/adab:660"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48938,
@@ -3187,7 +3122,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 661",
 				"url": "https://sunnah.com/adab:661"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48939,
@@ -3200,7 +3136,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 662",
 				"url": "https://sunnah.com/adab:662"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48940,
@@ -3213,7 +3150,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 663",
 				"url": "https://sunnah.com/adab:663"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48941,
@@ -3226,7 +3164,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 664",
 				"url": "https://sunnah.com/adab:664"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48942,
@@ -3239,7 +3178,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 665",
 				"url": "https://sunnah.com/adab:665"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48943,
@@ -3252,7 +3192,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 666",
 				"url": "https://sunnah.com/adab:666"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48944,
@@ -3265,7 +3206,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 667",
 				"url": "https://sunnah.com/adab:667"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48945,
@@ -3278,7 +3220,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 668",
 				"url": "https://sunnah.com/adab:668"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48946,
@@ -3291,7 +3234,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 669",
 				"url": "https://sunnah.com/adab:669"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48947,
@@ -3304,7 +3248,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 670",
 				"url": "https://sunnah.com/adab:670"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48948,
@@ -3317,7 +3262,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 671",
 				"url": "https://sunnah.com/adab:671"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48949,
@@ -3330,7 +3276,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 672",
 				"url": "https://sunnah.com/adab:672"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48950,
@@ -3343,7 +3290,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 673",
 				"url": "https://sunnah.com/adab:673"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48951,
@@ -3356,7 +3304,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 674",
 				"url": "https://sunnah.com/adab:674"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48952,
@@ -3369,7 +3318,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 675",
 				"url": "https://sunnah.com/adab:675"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48953,
@@ -3382,7 +3332,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 676",
 				"url": "https://sunnah.com/adab:676"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48954,
@@ -3395,7 +3346,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 677",
 				"url": "https://sunnah.com/adab:677"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48955,
@@ -3408,7 +3360,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 678",
 				"url": "https://sunnah.com/adab:678"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48956,
@@ -3421,7 +3374,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 679",
 				"url": "https://sunnah.com/adab:679"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48957,
@@ -3434,7 +3388,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 680",
 				"url": "https://sunnah.com/adab:680"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48958,
@@ -3447,7 +3402,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 681",
 				"url": "https://sunnah.com/adab:681"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48959,
@@ -3460,7 +3416,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 682",
 				"url": "https://sunnah.com/adab:682"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48960,
@@ -3473,7 +3430,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 683",
 				"url": "https://sunnah.com/adab:683"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48961,
@@ -3486,7 +3444,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 684",
 				"url": "https://sunnah.com/adab:684"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48962,
@@ -3499,7 +3458,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 685",
 				"url": "https://sunnah.com/adab:685"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48963,
@@ -3512,7 +3472,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 686",
 				"url": "https://sunnah.com/adab:686"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48964,
@@ -3525,7 +3486,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 687",
 				"url": "https://sunnah.com/adab:687"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48965,
@@ -3538,7 +3500,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 688",
 				"url": "https://sunnah.com/adab:688"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48966,
@@ -3551,7 +3514,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 689",
 				"url": "https://sunnah.com/adab:689"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48967,
@@ -3564,7 +3528,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 690",
 				"url": "https://sunnah.com/adab:690"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48968,
@@ -3577,7 +3542,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 691",
 				"url": "https://sunnah.com/adab:691"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48969,
@@ -3590,7 +3556,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 692",
 				"url": "https://sunnah.com/adab:692"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48970,
@@ -3603,7 +3570,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 693",
 				"url": "https://sunnah.com/adab:693"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48971,
@@ -3616,7 +3584,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 694",
 				"url": "https://sunnah.com/adab:694"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48972,
@@ -3629,7 +3598,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 695",
 				"url": "https://sunnah.com/adab:695"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48973,
@@ -3642,7 +3612,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 696",
 				"url": "https://sunnah.com/adab:696"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48974,
@@ -3655,7 +3626,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 697",
 				"url": "https://sunnah.com/adab:697"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48975,
@@ -3668,7 +3640,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 698",
 				"url": "https://sunnah.com/adab:698"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48976,
@@ -3681,7 +3654,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 699",
 				"url": "https://sunnah.com/adab:699"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48977,
@@ -3694,7 +3668,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 700",
 				"url": "https://sunnah.com/adab:700"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48978,
@@ -3707,7 +3682,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 701",
 				"url": "https://sunnah.com/adab:701"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48979,
@@ -3720,7 +3696,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 702",
 				"url": "https://sunnah.com/adab:702"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48980,
@@ -3733,7 +3710,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 703",
 				"url": "https://sunnah.com/adab:703"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48981,
@@ -3746,7 +3724,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 704",
 				"url": "https://sunnah.com/adab:704"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48982,
@@ -3759,7 +3738,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 705",
 				"url": "https://sunnah.com/adab:705"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48983,
@@ -3772,7 +3752,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 706",
 				"url": "https://sunnah.com/adab:706"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48984,
@@ -3785,7 +3766,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 707",
 				"url": "https://sunnah.com/adab:707"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48985,
@@ -3798,7 +3780,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 708",
 				"url": "https://sunnah.com/adab:708"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48986,
@@ -3811,7 +3794,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 709",
 				"url": "https://sunnah.com/adab:709"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48987,
@@ -3824,7 +3808,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 710",
 				"url": "https://sunnah.com/adab:710"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48988,
@@ -3837,7 +3822,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 711",
 				"url": "https://sunnah.com/adab:711"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48989,
@@ -3850,7 +3836,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 712",
 				"url": "https://sunnah.com/adab:712"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48990,
@@ -3863,7 +3850,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 713",
 				"url": "https://sunnah.com/adab:713"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48991,
@@ -3876,7 +3864,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 714",
 				"url": "https://sunnah.com/adab:714"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48992,
@@ -3889,7 +3878,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 715",
 				"url": "https://sunnah.com/adab:715"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48993,
@@ -3902,7 +3892,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 716",
 				"url": "https://sunnah.com/adab:716"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48994,
@@ -3915,7 +3906,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 717",
 				"url": "https://sunnah.com/adab:717"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48995,
@@ -3928,7 +3920,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 718",
 				"url": "https://sunnah.com/adab:718"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48996,
@@ -3941,7 +3934,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 719",
 				"url": "https://sunnah.com/adab:719"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48997,
@@ -3954,7 +3948,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 720",
 				"url": "https://sunnah.com/adab:720"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48998,
@@ -3967,7 +3962,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 721",
 				"url": "https://sunnah.com/adab:721"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 48999,
@@ -3980,7 +3976,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 722",
 				"url": "https://sunnah.com/adab:722"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49000,
@@ -3993,7 +3990,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 723",
 				"url": "https://sunnah.com/adab:723"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49001,
@@ -4006,7 +4004,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 724",
 				"url": "https://sunnah.com/adab:724"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49002,
@@ -4019,7 +4018,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 725",
 				"url": "https://sunnah.com/adab:725"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49003,
@@ -4032,7 +4032,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 726",
 				"url": "https://sunnah.com/adab:726"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49004,
@@ -4045,7 +4046,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 727",
 				"url": "https://sunnah.com/adab:727"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49005,
@@ -4058,7 +4060,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 728",
 				"url": "https://sunnah.com/adab:728"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49006,
@@ -4071,7 +4074,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 729",
 				"url": "https://sunnah.com/adab:729"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49007,
@@ -4084,7 +4088,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 730",
 				"url": "https://sunnah.com/adab:730"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49008,
@@ -4097,7 +4102,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 731",
 				"url": "https://sunnah.com/adab:731"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49009,
@@ -4110,7 +4116,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 732",
 				"url": "https://sunnah.com/adab:732"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49010,
@@ -4123,7 +4130,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 733",
 				"url": "https://sunnah.com/adab:733"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49011,
@@ -4136,7 +4144,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 734",
 				"url": "https://sunnah.com/adab:734"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49012,
@@ -4149,7 +4158,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 735",
 				"url": "https://sunnah.com/adab:735"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49013,
@@ -4162,7 +4172,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 736",
 				"url": "https://sunnah.com/adab:736"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49014,
@@ -4175,7 +4186,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 737",
 				"url": "https://sunnah.com/adab:737"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49015,
@@ -4188,7 +4200,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 738",
 				"url": "https://sunnah.com/adab:738"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49016,
@@ -4201,7 +4214,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 739",
 				"url": "https://sunnah.com/adab:739"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49017,
@@ -4214,7 +4228,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 740",
 				"url": "https://sunnah.com/adab:740"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49018,
@@ -4227,7 +4242,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 741",
 				"url": "https://sunnah.com/adab:741"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49019,
@@ -4240,7 +4256,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 742",
 				"url": "https://sunnah.com/adab:742"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49020,
@@ -4253,7 +4270,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 743",
 				"url": "https://sunnah.com/adab:743"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49021,
@@ -4266,7 +4284,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 744",
 				"url": "https://sunnah.com/adab:744"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49022,
@@ -4279,7 +4298,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 745",
 				"url": "https://sunnah.com/adab:745"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49023,
@@ -4292,7 +4312,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 746",
 				"url": "https://sunnah.com/adab:746"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49024,
@@ -4305,7 +4326,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 747",
 				"url": "https://sunnah.com/adab:747"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49025,
@@ -4318,7 +4340,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 748",
 				"url": "https://sunnah.com/adab:748"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49026,
@@ -4331,7 +4354,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 749",
 				"url": "https://sunnah.com/adab:749"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49027,
@@ -4344,7 +4368,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 750",
 				"url": "https://sunnah.com/adab:750"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49028,
@@ -4357,7 +4382,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 751",
 				"url": "https://sunnah.com/adab:751"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49029,
@@ -4370,7 +4396,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 752",
 				"url": "https://sunnah.com/adab:752"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49030,
@@ -4383,7 +4410,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 753",
 				"url": "https://sunnah.com/adab:753"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49031,
@@ -4396,7 +4424,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 754",
 				"url": "https://sunnah.com/adab:754"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49032,
@@ -4409,7 +4438,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 755",
 				"url": "https://sunnah.com/adab:755"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49033,
@@ -4422,7 +4452,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 756",
 				"url": "https://sunnah.com/adab:756"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49034,
@@ -4435,7 +4466,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 757",
 				"url": "https://sunnah.com/adab:757"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49035,
@@ -4448,7 +4480,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 758",
 				"url": "https://sunnah.com/adab:758"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49036,
@@ -4461,7 +4494,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 759",
 				"url": "https://sunnah.com/adab:759"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49037,
@@ -4474,7 +4508,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 760",
 				"url": "https://sunnah.com/adab:760"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49038,
@@ -4487,7 +4522,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 761",
 				"url": "https://sunnah.com/adab:761"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49039,
@@ -4500,7 +4536,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 762",
 				"url": "https://sunnah.com/adab:762"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49040,
@@ -4513,7 +4550,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 763",
 				"url": "https://sunnah.com/adab:763"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49041,
@@ -4526,7 +4564,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 764",
 				"url": "https://sunnah.com/adab:764"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49042,
@@ -4539,7 +4578,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 765",
 				"url": "https://sunnah.com/adab:765"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49043,
@@ -4552,7 +4592,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 766",
 				"url": "https://sunnah.com/adab:766"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49044,
@@ -4565,7 +4606,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 767",
 				"url": "https://sunnah.com/adab:767"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49045,
@@ -4578,7 +4620,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 768",
 				"url": "https://sunnah.com/adab:768"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49046,
@@ -4591,7 +4634,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 769",
 				"url": "https://sunnah.com/adab:769"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49047,
@@ -4604,7 +4648,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 770",
 				"url": "https://sunnah.com/adab:770"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49048,
@@ -4617,7 +4662,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 771",
 				"url": "https://sunnah.com/adab:771"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49049,
@@ -4630,7 +4676,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 772",
 				"url": "https://sunnah.com/adab:772"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49050,
@@ -4643,7 +4690,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 773",
 				"url": "https://sunnah.com/adab:773"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49051,
@@ -4656,7 +4704,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 774",
 				"url": "https://sunnah.com/adab:774"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49052,
@@ -4669,7 +4718,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 775",
 				"url": "https://sunnah.com/adab:775"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49053,
@@ -4682,7 +4732,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 776",
 				"url": "https://sunnah.com/adab:776"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49054,
@@ -4695,7 +4746,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 777",
 				"url": "https://sunnah.com/adab:777"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49055,
@@ -4708,7 +4760,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 778",
 				"url": "https://sunnah.com/adab:778"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49056,
@@ -4721,7 +4774,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 779",
 				"url": "https://sunnah.com/adab:779"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49057,
@@ -4734,7 +4788,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 780",
 				"url": "https://sunnah.com/adab:780"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49058,
@@ -4747,7 +4802,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 781",
 				"url": "https://sunnah.com/adab:781"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49059,
@@ -4760,7 +4816,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 782",
 				"url": "https://sunnah.com/adab:782"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49060,
@@ -4773,7 +4830,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 783",
 				"url": "https://sunnah.com/adab:783"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49061,
@@ -4786,7 +4844,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 784",
 				"url": "https://sunnah.com/adab:784"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49062,
@@ -4799,7 +4858,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 785",
 				"url": "https://sunnah.com/adab:785"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49063,
@@ -4812,7 +4872,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 786",
 				"url": "https://sunnah.com/adab:786"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49064,
@@ -4825,7 +4886,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 787",
 				"url": "https://sunnah.com/adab:787"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49065,
@@ -4838,7 +4900,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 788",
 				"url": "https://sunnah.com/adab:788"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49066,
@@ -4851,7 +4914,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 789",
 				"url": "https://sunnah.com/adab:789"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49067,
@@ -4864,7 +4928,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 790",
 				"url": "https://sunnah.com/adab:790"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49068,
@@ -4877,7 +4942,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 791",
 				"url": "https://sunnah.com/adab:791"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49069,
@@ -4890,7 +4956,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 792",
 				"url": "https://sunnah.com/adab:792"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49070,
@@ -4903,7 +4970,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 793",
 				"url": "https://sunnah.com/adab:793"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49071,
@@ -4916,7 +4984,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 794",
 				"url": "https://sunnah.com/adab:794"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49072,
@@ -4929,7 +4998,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 795",
 				"url": "https://sunnah.com/adab:795"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49073,
@@ -4942,7 +5012,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 796",
 				"url": "https://sunnah.com/adab:796"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49074,
@@ -4955,7 +5026,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 797",
 				"url": "https://sunnah.com/adab:797"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49075,
@@ -4968,7 +5040,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 798",
 				"url": "https://sunnah.com/adab:798"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49076,
@@ -4981,7 +5054,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 799",
 				"url": "https://sunnah.com/adab:799"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49077,
@@ -4994,7 +5068,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 800",
 				"url": "https://sunnah.com/adab:800"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49078,
@@ -5007,7 +5082,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 801",
 				"url": "https://sunnah.com/adab:801"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49079,
@@ -5020,7 +5096,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 802",
 				"url": "https://sunnah.com/adab:802"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49080,
@@ -5033,7 +5110,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 803",
 				"url": "https://sunnah.com/adab:803"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49081,
@@ -5046,7 +5124,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 804",
 				"url": "https://sunnah.com/adab:804"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49082,
@@ -5059,7 +5138,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 805",
 				"url": "https://sunnah.com/adab:805"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49083,
@@ -5072,7 +5152,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 806",
 				"url": "https://sunnah.com/adab:806"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49084,
@@ -5085,7 +5166,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 807",
 				"url": "https://sunnah.com/adab:807"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49085,
@@ -5098,7 +5180,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 808",
 				"url": "https://sunnah.com/adab:808"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49086,
@@ -5111,7 +5194,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 809",
 				"url": "https://sunnah.com/adab:809"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49087,
@@ -5124,7 +5208,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 810",
 				"url": "https://sunnah.com/adab:810"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49088,
@@ -5137,7 +5222,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 811",
 				"url": "https://sunnah.com/adab:811"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49089,
@@ -5150,7 +5236,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 812",
 				"url": "https://sunnah.com/adab:812"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49090,
@@ -5163,7 +5250,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 813",
 				"url": "https://sunnah.com/adab:813"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49091,
@@ -5176,7 +5264,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 814",
 				"url": "https://sunnah.com/adab:814"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49092,
@@ -5189,7 +5278,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 815",
 				"url": "https://sunnah.com/adab:815"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49093,
@@ -5202,7 +5292,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 816",
 				"url": "https://sunnah.com/adab:816"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49094,
@@ -5215,7 +5306,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 817",
 				"url": "https://sunnah.com/adab:817"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49095,
@@ -5228,7 +5320,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 818",
 				"url": "https://sunnah.com/adab:818"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49096,
@@ -5241,7 +5334,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 819",
 				"url": "https://sunnah.com/adab:819"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49097,
@@ -5254,7 +5348,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 820",
 				"url": "https://sunnah.com/adab:820"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49098,
@@ -5267,7 +5362,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 821",
 				"url": "https://sunnah.com/adab:821"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49099,
@@ -5280,7 +5376,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 822",
 				"url": "https://sunnah.com/adab:822"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49100,
@@ -5293,7 +5390,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 823",
 				"url": "https://sunnah.com/adab:823"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49101,
@@ -5306,7 +5404,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 824",
 				"url": "https://sunnah.com/adab:824"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49102,
@@ -5319,7 +5418,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 825",
 				"url": "https://sunnah.com/adab:825"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49103,
@@ -5332,7 +5432,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 826",
 				"url": "https://sunnah.com/adab:826"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49104,
@@ -5345,7 +5446,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 827",
 				"url": "https://sunnah.com/adab:827"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49105,
@@ -5358,7 +5460,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 828",
 				"url": "https://sunnah.com/adab:828"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49106,
@@ -5371,7 +5474,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 829",
 				"url": "https://sunnah.com/adab:829"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49107,
@@ -5384,7 +5488,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 830",
 				"url": "https://sunnah.com/adab:830"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49108,
@@ -5397,7 +5502,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 831",
 				"url": "https://sunnah.com/adab:831"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49109,
@@ -5410,7 +5516,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 832",
 				"url": "https://sunnah.com/adab:832"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49110,
@@ -5423,7 +5530,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 833",
 				"url": "https://sunnah.com/adab:833"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49111,
@@ -5436,7 +5544,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 834",
 				"url": "https://sunnah.com/adab:834"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49112,
@@ -5449,7 +5558,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 835",
 				"url": "https://sunnah.com/adab:835"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49113,
@@ -5462,7 +5572,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 836",
 				"url": "https://sunnah.com/adab:836"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49114,
@@ -5475,7 +5586,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 837",
 				"url": "https://sunnah.com/adab:837"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49115,
@@ -5488,7 +5600,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 838",
 				"url": "https://sunnah.com/adab:838"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49116,
@@ -5501,7 +5614,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 839",
 				"url": "https://sunnah.com/adab:839"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 49117,
@@ -5514,7 +5628,8 @@
 			"reference": {
 				"text": "Al-Adab Al-Mufrad 840",
 				"url": "https://sunnah.com/adab:840"
-			}
+			},
+			"isAddendum": false
 		}
 	]
 }

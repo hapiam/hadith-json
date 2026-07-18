@@ -18,8 +18,11 @@
 		{
 			"id": 0,
 			"bookId": 10,
-			"arabic": "الأربعون النووية",
-			"english": "Forty Hadith of an-Nawawi"
+			"parentId": null,
+			"names": {
+				"ar": "الأربعون النووية",
+				"en": "Forty Hadith of an-Nawawi"
+			}
 		}
 	],
 	"hadiths": [

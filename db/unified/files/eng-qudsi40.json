@@ -12,14 +12,7 @@
 			"title": "The Forty Hadith Qudsi",
 			"author": "",
 			"language": "en"
-		},
-		"chapters": [
-			{
-				"id": 0,
-				"arabic": "الحديث القدسي",
-				"english": "Forty Hadith Qudsi"
-			}
-		]
+		}
 	},
 	"hadiths": [
 		{
@@ -36,7 +29,8 @@
 			"reference": {
 				"text": "Hadith 1, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:1"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40987,
@@ -52,7 +46,8 @@
 			"reference": {
 				"text": "Hadith 2, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:2"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40988,
@@ -68,7 +63,8 @@
 			"reference": {
 				"text": "Hadith 3, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:3"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40989,
@@ -84,7 +80,8 @@
 			"reference": {
 				"text": "Hadith 4, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:4"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40990,
@@ -100,7 +97,8 @@
 			"reference": {
 				"text": "Hadith 5, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:5"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40991,
@@ -116,7 +114,8 @@
 			"reference": {
 				"text": "Hadith 6, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:6"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40992,
@@ -132,7 +131,8 @@
 			"reference": {
 				"text": "Hadith 7, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:7"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40993,
@@ -148,7 +148,8 @@
 			"reference": {
 				"text": "Hadith 8, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:8"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40994,
@@ -164,7 +165,8 @@
 			"reference": {
 				"text": "Hadith 9, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:9"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40995,
@@ -180,7 +182,8 @@
 			"reference": {
 				"text": "Hadith 10, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:10"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40996,
@@ -196,7 +199,8 @@
 			"reference": {
 				"text": "Hadith 11, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:11"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40997,
@@ -212,7 +216,8 @@
 			"reference": {
 				"text": "Hadith 12, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:12"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40998,
@@ -228,7 +233,8 @@
 			"reference": {
 				"text": "Hadith 13, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:13"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 40999,
@@ -244,7 +250,8 @@
 			"reference": {
 				"text": "Hadith 14, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:14"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41000,
@@ -260,7 +267,8 @@
 			"reference": {
 				"text": "Hadith 15, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:15"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41001,
@@ -276,7 +284,8 @@
 			"reference": {
 				"text": "Hadith 16, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:16"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41002,
@@ -292,7 +301,8 @@
 			"reference": {
 				"text": "Hadith 17, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:17"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41003,
@@ -308,7 +318,8 @@
 			"reference": {
 				"text": "Hadith 18, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:18"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41004,
@@ -324,7 +335,8 @@
 			"reference": {
 				"text": "Hadith 19, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:19"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41005,
@@ -340,7 +352,8 @@
 			"reference": {
 				"text": "Hadith 20, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:20"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41006,
@@ -356,7 +369,8 @@
 			"reference": {
 				"text": "Hadith 21, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:21"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41007,
@@ -372,7 +386,8 @@
 			"reference": {
 				"text": "Hadith 22, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:22"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41008,
@@ -388,7 +403,8 @@
 			"reference": {
 				"text": "Hadith 23, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:23"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41009,
@@ -404,7 +420,8 @@
 			"reference": {
 				"text": "Hadith 24, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:24"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41010,
@@ -420,7 +437,8 @@
 			"reference": {
 				"text": "Hadith 25, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:25"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41011,
@@ -436,7 +454,8 @@
 			"reference": {
 				"text": "Hadith 26, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:26"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41012,
@@ -452,7 +471,8 @@
 			"reference": {
 				"text": "Hadith 27, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:27"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41013,
@@ -468,7 +488,8 @@
 			"reference": {
 				"text": "Hadith 28, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:28"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41014,
@@ -484,7 +505,8 @@
 			"reference": {
 				"text": "Hadith 29, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:29"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41015,
@@ -500,7 +522,8 @@
 			"reference": {
 				"text": "Hadith 30, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:30"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41016,
@@ -516,7 +539,8 @@
 			"reference": {
 				"text": "Hadith 31, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:31"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41017,
@@ -532,7 +556,8 @@
 			"reference": {
 				"text": "Hadith 32, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:32"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41018,
@@ -548,7 +573,8 @@
 			"reference": {
 				"text": "Hadith 33, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:33"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41019,
@@ -564,7 +590,8 @@
 			"reference": {
 				"text": "Hadith 34, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:34"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41020,
@@ -580,7 +607,8 @@
 			"reference": {
 				"text": "Hadith 35, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:35"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41021,
@@ -596,7 +624,8 @@
 			"reference": {
 				"text": "Hadith 36, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:36"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41022,
@@ -612,7 +641,8 @@
 			"reference": {
 				"text": "Hadith 37, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:37"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41023,
@@ -628,7 +658,8 @@
 			"reference": {
 				"text": "Hadith 38, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:38"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41024,
@@ -644,7 +675,8 @@
 			"reference": {
 				"text": "Hadith 39, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:39"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 41025,
@@ -660,7 +692,8 @@
 			"reference": {
 				"text": "Hadith 40, 40 Hadith Qudsi",
 				"url": "https://sunnah.com/qudsi40:40"
-			}
+			},
+			"isAddendum": false
 		}
 	]
 }

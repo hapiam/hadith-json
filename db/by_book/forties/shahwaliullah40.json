@@ -18,8 +18,11 @@
 		{
 			"id": 0,
 			"bookId": 12,
-			"arabic": "أربعون شاه ولي الله الدهلوي",
-			"english": "Forty Hadith of Shah Waliullah Dehlawi"
+			"parentId": null,
+			"names": {
+				"ar": "أربعون شاه ولي الله الدهلوي",
+				"en": "Forty Hadith of Shah Waliullah Dehlawi"
+			}
 		}
 	],
 	"hadiths": [

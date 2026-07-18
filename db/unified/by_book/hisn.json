@@ -12,13 +12,6 @@
 			"author": "Said bin Ali bin Wahf al-Qahtani",
 			"introduction": ""
 		},
-		"chapters": [
-			{
-				"id": 0,
-				"arabic": "حصن المسلم",
-				"english": "Fortress of the Muslim (Hisn al-Muslim)"
-			}
-		],
 		"sources": [
 			"ahmedbaset",
 			"muallimai"
@@ -41,7 +34,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 1",
 				"url": "https://sunnah.com/hisn:1"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51772,
@@ -59,7 +53,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 2",
 				"url": "https://sunnah.com/hisn:2"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51773,
@@ -77,7 +72,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 3",
 				"url": "https://sunnah.com/hisn:3"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51774,
@@ -95,7 +91,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 4",
 				"url": "https://sunnah.com/hisn:4"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51775,
@@ -113,7 +110,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 5",
 				"url": "https://sunnah.com/hisn:5"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51776,
@@ -131,7 +129,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 6",
 				"url": "https://sunnah.com/hisn:6"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51777,
@@ -149,7 +148,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 7",
 				"url": "https://sunnah.com/hisn:7"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51778,
@@ -167,7 +167,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 8",
 				"url": "https://sunnah.com/hisn:8"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51779,
@@ -185,7 +186,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 9",
 				"url": "https://sunnah.com/hisn:9"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51780,
@@ -203,7 +205,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 10",
 				"url": "https://sunnah.com/hisn:10"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51781,
@@ -221,7 +224,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 11",
 				"url": "https://sunnah.com/hisn:11"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51782,
@@ -239,7 +243,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 12",
 				"url": "https://sunnah.com/hisn:12"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51783,
@@ -257,7 +262,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 13",
 				"url": "https://sunnah.com/hisn:13"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51784,
@@ -275,7 +281,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 14",
 				"url": "https://sunnah.com/hisn:14"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51785,
@@ -293,7 +300,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 15",
 				"url": "https://sunnah.com/hisn:15"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51786,
@@ -311,7 +319,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 16",
 				"url": "https://sunnah.com/hisn:16"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51787,
@@ -329,7 +338,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 17",
 				"url": "https://sunnah.com/hisn:17"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51788,
@@ -347,7 +357,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 18",
 				"url": "https://sunnah.com/hisn:18"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51789,
@@ -365,7 +376,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 19",
 				"url": "https://sunnah.com/hisn:19"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51790,
@@ -383,7 +395,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 20",
 				"url": "https://sunnah.com/hisn:20"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51791,
@@ -401,7 +414,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 21",
 				"url": "https://sunnah.com/hisn:21"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51792,
@@ -419,7 +433,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 22",
 				"url": "https://sunnah.com/hisn:22"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51793,
@@ -437,7 +452,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 23",
 				"url": "https://sunnah.com/hisn:23"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51794,
@@ -455,7 +471,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 24",
 				"url": "https://sunnah.com/hisn:24"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51795,
@@ -473,7 +490,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 25",
 				"url": "https://sunnah.com/hisn:25"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51796,
@@ -491,7 +509,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 26",
 				"url": "https://sunnah.com/hisn:26"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51797,
@@ -509,7 +528,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 27",
 				"url": "https://sunnah.com/hisn:27"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51798,
@@ -527,7 +547,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 28",
 				"url": "https://sunnah.com/hisn:28"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51799,
@@ -545,7 +566,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 29",
 				"url": "https://sunnah.com/hisn:29"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51800,
@@ -563,7 +585,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 30",
 				"url": "https://sunnah.com/hisn:30"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51801,
@@ -581,7 +604,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 31",
 				"url": "https://sunnah.com/hisn:31"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51802,
@@ -599,7 +623,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 32",
 				"url": "https://sunnah.com/hisn:32"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51803,
@@ -617,7 +642,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 33",
 				"url": "https://sunnah.com/hisn:33"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51804,
@@ -635,7 +661,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 34",
 				"url": "https://sunnah.com/hisn:34"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51805,
@@ -653,7 +680,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 35",
 				"url": "https://sunnah.com/hisn:35"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51806,
@@ -671,7 +699,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 36",
 				"url": "https://sunnah.com/hisn:36"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51807,
@@ -689,7 +718,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 37",
 				"url": "https://sunnah.com/hisn:37"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51808,
@@ -707,7 +737,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 38",
 				"url": "https://sunnah.com/hisn:38"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51809,
@@ -725,7 +756,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 39",
 				"url": "https://sunnah.com/hisn:39"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51810,
@@ -743,7 +775,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 40",
 				"url": "https://sunnah.com/hisn:40"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51811,
@@ -761,7 +794,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 41",
 				"url": "https://sunnah.com/hisn:41"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51812,
@@ -779,7 +813,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 42",
 				"url": "https://sunnah.com/hisn:42"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51813,
@@ -797,7 +832,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 43",
 				"url": "https://sunnah.com/hisn:43"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51814,
@@ -815,7 +851,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 44",
 				"url": "https://sunnah.com/hisn:44"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51815,
@@ -833,7 +870,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 45",
 				"url": "https://sunnah.com/hisn:45"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51816,
@@ -851,7 +889,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 46",
 				"url": "https://sunnah.com/hisn:46"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51817,
@@ -869,7 +908,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 47",
 				"url": "https://sunnah.com/hisn:47"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51818,
@@ -887,7 +927,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 48",
 				"url": "https://sunnah.com/hisn:48"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51819,
@@ -905,7 +946,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 49",
 				"url": "https://sunnah.com/hisn:49"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51820,
@@ -923,7 +965,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 50",
 				"url": "https://sunnah.com/hisn:50"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51821,
@@ -941,7 +984,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 51",
 				"url": "https://sunnah.com/hisn:51"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51822,
@@ -959,7 +1003,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 52",
 				"url": "https://sunnah.com/hisn:52"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51823,
@@ -977,7 +1022,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 53",
 				"url": "https://sunnah.com/hisn:53"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51824,
@@ -995,7 +1041,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 54",
 				"url": "https://sunnah.com/hisn:54"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51825,
@@ -1013,7 +1060,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 55",
 				"url": "https://sunnah.com/hisn:55"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51826,
@@ -1031,7 +1079,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 56",
 				"url": "https://sunnah.com/hisn:56"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51827,
@@ -1049,7 +1098,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 57",
 				"url": "https://sunnah.com/hisn:57"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51828,
@@ -1067,7 +1117,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 58",
 				"url": "https://sunnah.com/hisn:58"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51829,
@@ -1085,7 +1136,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 59",
 				"url": "https://sunnah.com/hisn:59"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51830,
@@ -1103,7 +1155,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 60",
 				"url": "https://sunnah.com/hisn:60"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51831,
@@ -1121,7 +1174,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 61",
 				"url": "https://sunnah.com/hisn:61"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51832,
@@ -1139,7 +1193,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 62",
 				"url": "https://sunnah.com/hisn:62"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51833,
@@ -1157,7 +1212,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 63",
 				"url": "https://sunnah.com/hisn:63"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51834,
@@ -1175,7 +1231,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 64",
 				"url": "https://sunnah.com/hisn:64"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51835,
@@ -1193,7 +1250,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 65",
 				"url": "https://sunnah.com/hisn:65"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51836,
@@ -1211,7 +1269,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 66",
 				"url": "https://sunnah.com/hisn:66"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51837,
@@ -1229,7 +1288,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 67",
 				"url": "https://sunnah.com/hisn:67"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51838,
@@ -1247,7 +1307,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 68",
 				"url": "https://sunnah.com/hisn:68"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51839,
@@ -1265,7 +1326,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 69",
 				"url": "https://sunnah.com/hisn:69"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51840,
@@ -1283,7 +1345,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 70",
 				"url": "https://sunnah.com/hisn:70"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51841,
@@ -1301,7 +1364,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 71",
 				"url": "https://sunnah.com/hisn:71"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51842,
@@ -1319,7 +1383,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 72",
 				"url": "https://sunnah.com/hisn:72"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51843,
@@ -1337,7 +1402,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 73",
 				"url": "https://sunnah.com/hisn:73"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51844,
@@ -1355,7 +1421,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 74",
 				"url": "https://sunnah.com/hisn:74"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51845,
@@ -1373,7 +1440,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 75a",
 				"url": "https://sunnah.com/hisn:75a"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51846,
@@ -1391,7 +1459,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 75",
 				"url": "https://sunnah.com/hisn:75"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51847,
@@ -1409,7 +1478,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 76",
 				"url": "https://sunnah.com/hisn:76"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51848,
@@ -1427,7 +1497,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 77",
 				"url": "https://sunnah.com/hisn:77"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51849,
@@ -1445,7 +1516,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 78",
 				"url": "https://sunnah.com/hisn:78"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51850,
@@ -1463,7 +1535,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 79",
 				"url": "https://sunnah.com/hisn:79"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51851,
@@ -1481,7 +1554,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 80",
 				"url": "https://sunnah.com/hisn:80"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51852,
@@ -1499,7 +1573,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 81",
 				"url": "https://sunnah.com/hisn:81"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51853,
@@ -1517,7 +1592,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 82",
 				"url": "https://sunnah.com/hisn:82"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51854,
@@ -1535,7 +1611,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 83",
 				"url": "https://sunnah.com/hisn:83"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51855,
@@ -1553,7 +1630,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 84",
 				"url": "https://sunnah.com/hisn:84"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51856,
@@ -1571,7 +1649,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 85",
 				"url": "https://sunnah.com/hisn:85"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51857,
@@ -1589,7 +1668,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 86",
 				"url": "https://sunnah.com/hisn:86"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51858,
@@ -1607,7 +1687,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 87",
 				"url": "https://sunnah.com/hisn:87"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51859,
@@ -1625,7 +1706,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 88",
 				"url": "https://sunnah.com/hisn:88"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51860,
@@ -1643,7 +1725,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 89",
 				"url": "https://sunnah.com/hisn:89"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51861,
@@ -1661,7 +1744,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 90",
 				"url": "https://sunnah.com/hisn:90"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51862,
@@ -1679,7 +1763,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 91",
 				"url": "https://sunnah.com/hisn:91"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51863,
@@ -1697,7 +1782,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 92",
 				"url": "https://sunnah.com/hisn:92"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51864,
@@ -1715,7 +1801,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 93",
 				"url": "https://sunnah.com/hisn:93"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51865,
@@ -1733,7 +1820,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 94",
 				"url": "https://sunnah.com/hisn:94"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51866,
@@ -1751,7 +1839,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 95",
 				"url": "https://sunnah.com/hisn:95"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51867,
@@ -1769,7 +1858,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 96",
 				"url": "https://sunnah.com/hisn:96"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51868,
@@ -1787,7 +1877,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 97",
 				"url": "https://sunnah.com/hisn:97"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51869,
@@ -1805,7 +1896,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 98",
 				"url": "https://sunnah.com/hisn:98"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51870,
@@ -1823,7 +1915,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 99",
 				"url": "https://sunnah.com/hisn:99"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51871,
@@ -1841,7 +1934,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 100",
 				"url": "https://sunnah.com/hisn:100"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51872,
@@ -1859,7 +1953,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 101",
 				"url": "https://sunnah.com/hisn:101"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51873,
@@ -1877,7 +1972,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 102",
 				"url": "https://sunnah.com/hisn:102"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51874,
@@ -1895,7 +1991,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 103",
 				"url": "https://sunnah.com/hisn:103"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51875,
@@ -1913,7 +2010,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 104",
 				"url": "https://sunnah.com/hisn:104"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51876,
@@ -1931,7 +2029,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 105",
 				"url": "https://sunnah.com/hisn:105"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51877,
@@ -1949,7 +2048,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 106",
 				"url": "https://sunnah.com/hisn:106"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51878,
@@ -1967,7 +2067,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 107",
 				"url": "https://sunnah.com/hisn:107"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51879,
@@ -1985,7 +2086,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 108",
 				"url": "https://sunnah.com/hisn:108"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51880,
@@ -2003,7 +2105,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 109",
 				"url": "https://sunnah.com/hisn:109"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51881,
@@ -2021,7 +2124,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 110",
 				"url": "https://sunnah.com/hisn:110"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51882,
@@ -2039,7 +2143,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 111",
 				"url": "https://sunnah.com/hisn:111"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51883,
@@ -2057,7 +2162,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 112",
 				"url": "https://sunnah.com/hisn:112"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51884,
@@ -2075,7 +2181,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 113",
 				"url": "https://sunnah.com/hisn:113"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51885,
@@ -2093,7 +2200,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 114",
 				"url": "https://sunnah.com/hisn:114"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51886,
@@ -2111,7 +2219,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 115",
 				"url": "https://sunnah.com/hisn:115"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51887,
@@ -2129,7 +2238,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 116",
 				"url": "https://sunnah.com/hisn:116"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51888,
@@ -2147,7 +2257,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 117",
 				"url": "https://sunnah.com/hisn:117"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51889,
@@ -2165,7 +2276,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 118",
 				"url": "https://sunnah.com/hisn:118"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51890,
@@ -2183,7 +2295,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 119",
 				"url": "https://sunnah.com/hisn:119"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51891,
@@ -2201,7 +2314,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 120",
 				"url": "https://sunnah.com/hisn:120"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51892,
@@ -2219,7 +2333,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 121",
 				"url": "https://sunnah.com/hisn:121"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51893,
@@ -2237,7 +2352,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 122",
 				"url": "https://sunnah.com/hisn:122"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51894,
@@ -2255,7 +2371,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 123",
 				"url": "https://sunnah.com/hisn:123"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51895,
@@ -2273,7 +2390,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 124",
 				"url": "https://sunnah.com/hisn:124"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51896,
@@ -2291,7 +2409,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 125",
 				"url": "https://sunnah.com/hisn:125"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51897,
@@ -2309,7 +2428,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 126",
 				"url": "https://sunnah.com/hisn:126"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51898,
@@ -2327,7 +2447,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 127",
 				"url": "https://sunnah.com/hisn:127"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51899,
@@ -2345,7 +2466,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 128",
 				"url": "https://sunnah.com/hisn:128"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51900,
@@ -2363,7 +2485,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 129",
 				"url": "https://sunnah.com/hisn:129"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51901,
@@ -2381,7 +2504,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 130",
 				"url": "https://sunnah.com/hisn:130"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51902,
@@ -2399,7 +2523,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 131",
 				"url": "https://sunnah.com/hisn:131"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51903,
@@ -2417,7 +2542,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 132",
 				"url": "https://sunnah.com/hisn:132"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51904,
@@ -2435,7 +2561,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 133",
 				"url": "https://sunnah.com/hisn:133"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51905,
@@ -2453,7 +2580,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 134",
 				"url": "https://sunnah.com/hisn:134"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51906,
@@ -2471,7 +2599,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 135",
 				"url": "https://sunnah.com/hisn:135"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51907,
@@ -2489,7 +2618,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 136",
 				"url": "https://sunnah.com/hisn:136"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51908,
@@ -2507,7 +2637,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 137",
 				"url": "https://sunnah.com/hisn:137"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51909,
@@ -2525,7 +2656,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 138",
 				"url": "https://sunnah.com/hisn:138"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51910,
@@ -2543,7 +2675,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 139",
 				"url": "https://sunnah.com/hisn:139"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51911,
@@ -2561,7 +2694,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 140",
 				"url": "https://sunnah.com/hisn:140"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51912,
@@ -2579,7 +2713,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 141",
 				"url": "https://sunnah.com/hisn:141"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51913,
@@ -2597,7 +2732,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 142",
 				"url": "https://sunnah.com/hisn:142"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51914,
@@ -2615,7 +2751,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 143",
 				"url": "https://sunnah.com/hisn:143"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51915,
@@ -2633,7 +2770,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 144",
 				"url": "https://sunnah.com/hisn:144"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51916,
@@ -2651,7 +2789,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 145",
 				"url": "https://sunnah.com/hisn:145"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51917,
@@ -2669,7 +2808,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 146",
 				"url": "https://sunnah.com/hisn:146"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51918,
@@ -2687,7 +2827,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 147",
 				"url": "https://sunnah.com/hisn:147"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51919,
@@ -2705,7 +2846,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 148",
 				"url": "https://sunnah.com/hisn:148"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51920,
@@ -2723,7 +2865,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 149",
 				"url": "https://sunnah.com/hisn:149"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51921,
@@ -2741,7 +2884,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 150",
 				"url": "https://sunnah.com/hisn:150"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51922,
@@ -2759,7 +2903,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 151",
 				"url": "https://sunnah.com/hisn:151"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51923,
@@ -2777,7 +2922,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 152",
 				"url": "https://sunnah.com/hisn:152"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51924,
@@ -2795,7 +2941,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 153",
 				"url": "https://sunnah.com/hisn:153"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51925,
@@ -2813,7 +2960,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 154",
 				"url": "https://sunnah.com/hisn:154"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51926,
@@ -2831,7 +2979,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 155",
 				"url": "https://sunnah.com/hisn:155"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51927,
@@ -2849,7 +2998,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 156",
 				"url": "https://sunnah.com/hisn:156"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51928,
@@ -2867,7 +3017,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 157",
 				"url": "https://sunnah.com/hisn:157"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51929,
@@ -2885,7 +3036,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 158",
 				"url": "https://sunnah.com/hisn:158"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51930,
@@ -2903,7 +3055,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 159",
 				"url": "https://sunnah.com/hisn:159"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51931,
@@ -2921,7 +3074,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 160",
 				"url": "https://sunnah.com/hisn:160"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51932,
@@ -2939,7 +3093,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 161",
 				"url": "https://sunnah.com/hisn:161"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51933,
@@ -2957,7 +3112,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 162",
 				"url": "https://sunnah.com/hisn:162"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51934,
@@ -2975,7 +3131,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 163",
 				"url": "https://sunnah.com/hisn:163"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51935,
@@ -2993,7 +3150,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 164",
 				"url": "https://sunnah.com/hisn:164"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51936,
@@ -3011,7 +3169,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 165",
 				"url": "https://sunnah.com/hisn:165"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51937,
@@ -3029,7 +3188,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 166",
 				"url": "https://sunnah.com/hisn:166"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51938,
@@ -3047,7 +3207,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 167",
 				"url": "https://sunnah.com/hisn:167"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51939,
@@ -3065,7 +3226,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 168",
 				"url": "https://sunnah.com/hisn:168"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51940,
@@ -3083,7 +3245,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 169",
 				"url": "https://sunnah.com/hisn:169"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51941,
@@ -3101,7 +3264,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 170",
 				"url": "https://sunnah.com/hisn:170"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51942,
@@ -3119,7 +3283,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 171",
 				"url": "https://sunnah.com/hisn:171"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51943,
@@ -3137,7 +3302,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 172",
 				"url": "https://sunnah.com/hisn:172"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51944,
@@ -3155,7 +3321,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 173",
 				"url": "https://sunnah.com/hisn:173"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51945,
@@ -3173,7 +3340,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 174",
 				"url": "https://sunnah.com/hisn:174"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51946,
@@ -3191,7 +3359,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 175",
 				"url": "https://sunnah.com/hisn:175"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51947,
@@ -3209,7 +3378,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 176",
 				"url": "https://sunnah.com/hisn:176"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51948,
@@ -3227,7 +3397,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 177",
 				"url": "https://sunnah.com/hisn:177"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51949,
@@ -3245,7 +3416,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 178",
 				"url": "https://sunnah.com/hisn:178"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51950,
@@ -3263,7 +3435,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 179",
 				"url": "https://sunnah.com/hisn:179"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51951,
@@ -3281,7 +3454,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 180",
 				"url": "https://sunnah.com/hisn:180"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51952,
@@ -3299,7 +3473,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 181",
 				"url": "https://sunnah.com/hisn:181"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51953,
@@ -3317,7 +3492,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 182",
 				"url": "https://sunnah.com/hisn:182"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51954,
@@ -3335,7 +3511,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 183",
 				"url": "https://sunnah.com/hisn:183"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51955,
@@ -3353,7 +3530,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 184",
 				"url": "https://sunnah.com/hisn:184"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51956,
@@ -3371,7 +3549,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 185",
 				"url": "https://sunnah.com/hisn:185"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51957,
@@ -3389,7 +3568,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 186",
 				"url": "https://sunnah.com/hisn:186"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51958,
@@ -3407,7 +3587,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 187",
 				"url": "https://sunnah.com/hisn:187"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51959,
@@ -3425,7 +3606,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 188",
 				"url": "https://sunnah.com/hisn:188"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51960,
@@ -3443,7 +3625,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 189",
 				"url": "https://sunnah.com/hisn:189"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51961,
@@ -3461,7 +3644,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 190",
 				"url": "https://sunnah.com/hisn:190"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51962,
@@ -3479,7 +3663,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 191",
 				"url": "https://sunnah.com/hisn:191"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51963,
@@ -3497,7 +3682,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 192",
 				"url": "https://sunnah.com/hisn:192"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51964,
@@ -3515,7 +3701,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 193",
 				"url": "https://sunnah.com/hisn:193"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51965,
@@ -3533,7 +3720,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 194",
 				"url": "https://sunnah.com/hisn:194"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51966,
@@ -3551,7 +3739,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 195",
 				"url": "https://sunnah.com/hisn:195"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51967,
@@ -3569,7 +3758,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 196",
 				"url": "https://sunnah.com/hisn:196"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51968,
@@ -3587,7 +3777,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 197",
 				"url": "https://sunnah.com/hisn:197"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51969,
@@ -3605,7 +3796,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 198",
 				"url": "https://sunnah.com/hisn:198"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51970,
@@ -3623,7 +3815,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 199",
 				"url": "https://sunnah.com/hisn:199"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51971,
@@ -3641,7 +3834,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 200",
 				"url": "https://sunnah.com/hisn:200"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51972,
@@ -3659,7 +3853,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 201",
 				"url": "https://sunnah.com/hisn:201"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51973,
@@ -3677,7 +3872,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 202",
 				"url": "https://sunnah.com/hisn:202"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51974,
@@ -3695,7 +3891,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 203",
 				"url": "https://sunnah.com/hisn:203"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51975,
@@ -3713,7 +3910,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 204",
 				"url": "https://sunnah.com/hisn:204"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51976,
@@ -3731,7 +3929,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 205",
 				"url": "https://sunnah.com/hisn:205"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51977,
@@ -3749,7 +3948,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 206",
 				"url": "https://sunnah.com/hisn:206"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51978,
@@ -3767,7 +3967,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 207",
 				"url": "https://sunnah.com/hisn:207"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51979,
@@ -3785,7 +3986,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 208",
 				"url": "https://sunnah.com/hisn:208"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51980,
@@ -3803,7 +4005,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 209",
 				"url": "https://sunnah.com/hisn:209"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51981,
@@ -3821,7 +4024,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 210",
 				"url": "https://sunnah.com/hisn:210"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51982,
@@ -3839,7 +4043,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 211",
 				"url": "https://sunnah.com/hisn:211"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51983,
@@ -3857,7 +4062,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 212",
 				"url": "https://sunnah.com/hisn:212"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51984,
@@ -3875,7 +4081,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 213",
 				"url": "https://sunnah.com/hisn:213"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51985,
@@ -3893,7 +4100,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 214",
 				"url": "https://sunnah.com/hisn:214"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51986,
@@ -3911,7 +4119,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 215",
 				"url": "https://sunnah.com/hisn:215"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51987,
@@ -3929,7 +4138,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 216",
 				"url": "https://sunnah.com/hisn:216"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51988,
@@ -3947,7 +4157,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 217",
 				"url": "https://sunnah.com/hisn:217"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51989,
@@ -3965,7 +4176,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 218",
 				"url": "https://sunnah.com/hisn:218"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51990,
@@ -3983,7 +4195,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 219",
 				"url": "https://sunnah.com/hisn:219"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51991,
@@ -4001,7 +4214,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 220",
 				"url": "https://sunnah.com/hisn:220"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51992,
@@ -4019,7 +4233,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 221",
 				"url": "https://sunnah.com/hisn:221"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51993,
@@ -4037,7 +4252,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 222",
 				"url": "https://sunnah.com/hisn:222"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51994,
@@ -4055,7 +4271,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 223",
 				"url": "https://sunnah.com/hisn:223"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51995,
@@ -4073,7 +4290,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 224",
 				"url": "https://sunnah.com/hisn:224"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51996,
@@ -4091,7 +4309,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 225",
 				"url": "https://sunnah.com/hisn:225"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51997,
@@ -4109,7 +4328,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 226",
 				"url": "https://sunnah.com/hisn:226"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51998,
@@ -4127,7 +4347,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 227",
 				"url": "https://sunnah.com/hisn:227"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 51999,
@@ -4145,7 +4366,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 228",
 				"url": "https://sunnah.com/hisn:228"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52000,
@@ -4163,7 +4385,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 229",
 				"url": "https://sunnah.com/hisn:229"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52001,
@@ -4181,7 +4404,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 230",
 				"url": "https://sunnah.com/hisn:230"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52002,
@@ -4199,7 +4423,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 231",
 				"url": "https://sunnah.com/hisn:231"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52003,
@@ -4217,7 +4442,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 232",
 				"url": "https://sunnah.com/hisn:232"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52004,
@@ -4235,7 +4461,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 233",
 				"url": "https://sunnah.com/hisn:233"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52005,
@@ -4253,7 +4480,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 234",
 				"url": "https://sunnah.com/hisn:234"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52006,
@@ -4271,7 +4499,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 235",
 				"url": "https://sunnah.com/hisn:235"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52007,
@@ -4289,7 +4518,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 236",
 				"url": "https://sunnah.com/hisn:236"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52008,
@@ -4307,7 +4537,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 237",
 				"url": "https://sunnah.com/hisn:237"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52009,
@@ -4325,7 +4556,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 238",
 				"url": "https://sunnah.com/hisn:238"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52010,
@@ -4343,7 +4575,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 239",
 				"url": "https://sunnah.com/hisn:239"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52011,
@@ -4361,7 +4594,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 240",
 				"url": "https://sunnah.com/hisn:240"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52012,
@@ -4379,7 +4613,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 241",
 				"url": "https://sunnah.com/hisn:241"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52013,
@@ -4397,7 +4632,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 242",
 				"url": "https://sunnah.com/hisn:242"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52014,
@@ -4415,7 +4651,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 243",
 				"url": "https://sunnah.com/hisn:243"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52015,
@@ -4433,7 +4670,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 244",
 				"url": "https://sunnah.com/hisn:244"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52016,
@@ -4451,7 +4689,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 245",
 				"url": "https://sunnah.com/hisn:245"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52017,
@@ -4469,7 +4708,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 246",
 				"url": "https://sunnah.com/hisn:246"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52018,
@@ -4487,7 +4727,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 247",
 				"url": "https://sunnah.com/hisn:247"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52019,
@@ -4505,7 +4746,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 248",
 				"url": "https://sunnah.com/hisn:248"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52020,
@@ -4523,7 +4765,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 249",
 				"url": "https://sunnah.com/hisn:249"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52021,
@@ -4541,7 +4784,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 250",
 				"url": "https://sunnah.com/hisn:250"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52022,
@@ -4559,7 +4803,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 251",
 				"url": "https://sunnah.com/hisn:251"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52023,
@@ -4577,7 +4822,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 252",
 				"url": "https://sunnah.com/hisn:252"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52024,
@@ -4595,7 +4841,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 253",
 				"url": "https://sunnah.com/hisn:253"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52025,
@@ -4613,7 +4860,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 254",
 				"url": "https://sunnah.com/hisn:254"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52026,
@@ -4631,7 +4879,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 255",
 				"url": "https://sunnah.com/hisn:255"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52027,
@@ -4649,7 +4898,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 256",
 				"url": "https://sunnah.com/hisn:256"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52028,
@@ -4667,7 +4917,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 257",
 				"url": "https://sunnah.com/hisn:257"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52029,
@@ -4685,7 +4936,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 258",
 				"url": "https://sunnah.com/hisn:258"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52030,
@@ -4703,7 +4955,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 259",
 				"url": "https://sunnah.com/hisn:259"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52031,
@@ -4721,7 +4974,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 260",
 				"url": "https://sunnah.com/hisn:260"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52032,
@@ -4739,7 +4993,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 261",
 				"url": "https://sunnah.com/hisn:261"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52033,
@@ -4757,7 +5012,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 262",
 				"url": "https://sunnah.com/hisn:262"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52034,
@@ -4775,7 +5031,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 263",
 				"url": "https://sunnah.com/hisn:263"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52035,
@@ -4793,7 +5050,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 264",
 				"url": "https://sunnah.com/hisn:264"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52036,
@@ -4811,7 +5069,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 265",
 				"url": "https://sunnah.com/hisn:265"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52037,
@@ -4829,7 +5088,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 266",
 				"url": "https://sunnah.com/hisn:266"
-			}
+			},
+			"isAddendum": false
 		},
 		{
 			"id": 52038,
@@ -4847,7 +5107,8 @@
 			"reference": {
 				"text": "Hisn al-Muslim 267",
 				"url": "https://sunnah.com/hisn:267"
-			}
+			},
+			"isAddendum": false
 		}
 	]
 }
