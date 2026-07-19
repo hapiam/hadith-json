@@ -58,6 +58,20 @@ dart run tool/build_unified_editions.dart
 
 ## Why this repo was rebuilt around content-matching (not position)
 
+**Superseded for bukhari/muslim/abudawud/tirmidhi/nasai/ibnmajah** (2026-07-19):
+the content-matching approach described in this section only ever re-matched
+the *Arabic* field onto fawaz's numbering — English stayed sourced from the
+old spine's own field and turned out to be unreliable at scale, and the
+citation/reference field conflated two different numbering schemes. These 6
+books are now rebuilt directly from fawaz's own paired ara/eng edition via
+`tool/rebuild_from_fawaz.dart` instead — see `NUMBERING_CORRUPTION_AUDIT.md`'s
+"RESOLUTION" section for the full root-cause writeup and fix. `isAddendum`/
+`sortKey` no longer exist for these 6 books (fawaz's sequential numbering
+has no gaps to work around). The rest of this section (Darimi, Malik, Ahmad,
+and the general content-matching approach itself) is still current — it's
+only these 6 books' own English/reference/chapterId fields that moved off
+this path.
+
 The original builder joined every non-English translation (Bengali, French, Indonesian, Russian, Tamil, Turkish, Urdu — English was always sourced from the spine's own `english` field, never through this path) onto the Arabic spine by comparing **fawaz's `hadithnumber` directly against the spine's `idInBook` position** — i.e. "fawaz row 1000 must be the same hadith as spine's 1000th row." That assumption is false whenever the spine itself doesn't advance one-for-one with the citation numbering it claims in its own `reference.text` — which happens constantly, because classical hadith collections routinely group multiple citation numbers (repeated or lightly-varied narrations of the same report) under one consolidated physical entry.
 
 This was caught by direct text comparison, not inference: Bukhari's spine entry at `idInBook=7277` (the very last entry) carries `reference.text: "Sahih al-Bukhari 7563"` — its *own* citation number is 7563 — while the old positional join was attaching it fawaz row **7277's** translation, which is a completely different, unrelated hadith. The drift is cumulative and grows across the book (checked at `idInBook` 100/1000/3000/5000/6000/7000/7277 — text diverged from 1000 onward), meaning a large fraction of every non-English Bukhari/Muslim/Abi Dawud/Tirmidhi/Nasa'i/Ibn Majah translation was silently paired with the wrong Arabic hadith, growing worse toward the end of each book.
@@ -69,6 +83,13 @@ This was caught by direct text comparison, not inference: Bukhari's spine entry 
 Layered, in order of confidence: exact 60-character normalized-prefix anchor → word-overlap Dice coefficient (≥0.5) → plain containment → space-insensitive containment (transcription gaps) → honorific/Qur'an-citation-stripped comparison → character-bigram Dice similarity (≥0.85, small spelling variants) → sliding fuzzy-substring window (short fragments merged into a longer neighbor). Anchor matches are the trustworthy majority; anything that only clears a fuzzy layer is listed individually in `DATA_QUALITY_REPORT.md` for a human glance, not silently accepted.
 
 ### Verified match rates (this rebuild)
+
+**Bukhari/Muslim/Abi Dawud/Tirmidhi/Nasa'i/Ibn Majah counts below are stale**
+— superseded by the direct fawaz rebuild (see callout above). Current counts,
+by construction equal to fawaz's own `hadithnumber` max per book, no
+appended entries: Bukhari 7,589; Muslim 7,563; Abi Dawud 5,274; Tirmidhi
+3,998; Nasa'i 5,765; Ibn Majah 4,343. Table kept below for historical
+record of the superseded approach.
 
 | Book | Old spine → fawaz canonical match | Final count | vs. commonly-cited target |
 |---|---|---|---|

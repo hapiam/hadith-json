@@ -8,8 +8,7 @@
 			"language": "ar",
 			"languageName": "Arabic",
 			"name": "Sahih al-Bukhari (Arabic)",
-			"hadithCount": 7563,
-			"addendumCount": 16,
+			"hadithCount": 7589,
 			"features": [
 				"arabic",
 				"grades",
@@ -22,7 +21,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1610418
+			"mirrorZipBytes": 1610413
 		},
 		{
 			"id": "ara1-bukhari",
@@ -44,7 +43,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1185921
+			"mirrorZipBytes": 1185983
 		},
 		{
 			"id": "ben-bukhari",
@@ -53,8 +52,7 @@
 			"language": "bn",
 			"languageName": "Bengali",
 			"name": "Sahih al-Bukhari (Bengali)",
-			"hadithCount": 7563,
-			"addendumCount": 16,
+			"hadithCount": 7589,
 			"translationCount": 7529,
 			"features": [
 				"arabic",
@@ -69,7 +67,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 4149837
+			"mirrorZipBytes": 4150010
 		},
 		{
 			"id": "eng-bukhari",
@@ -78,9 +76,8 @@
 			"language": "en",
 			"languageName": "English",
 			"name": "Sahih al-Bukhari (English)",
-			"hadithCount": 7563,
-			"addendumCount": 16,
-			"translationCount": 7570,
+			"hadithCount": 7589,
+			"translationCount": 7580,
 			"features": [
 				"arabic",
 				"translation",
@@ -94,7 +91,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3212253
+			"mirrorZipBytes": 3134323
 		},
 		{
 			"id": "fra-bukhari",
@@ -103,8 +100,7 @@
 			"language": "fr",
 			"languageName": "French",
 			"name": "Sahih al-Bukhari (French)",
-			"hadithCount": 7563,
-			"addendumCount": 16,
+			"hadithCount": 7589,
 			"translationCount": 7563,
 			"features": [
 				"arabic",
@@ -119,7 +115,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3182426
+			"mirrorZipBytes": 3182914
 		},
 		{
 			"id": "ind-bukhari",
@@ -128,8 +124,7 @@
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Sahih al-Bukhari (Indonesian)",
-			"hadithCount": 7563,
-			"addendumCount": 16,
+			"hadithCount": 7589,
 			"translationCount": 6856,
 			"features": [
 				"arabic",
@@ -144,7 +139,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3315095
+			"mirrorZipBytes": 3315472
 		},
 		{
 			"id": "rus-bukhari",
@@ -153,8 +148,7 @@
 			"language": "ru",
 			"languageName": "Russian",
 			"name": "Sahih al-Bukhari (Russian)",
-			"hadithCount": 7563,
-			"addendumCount": 16,
+			"hadithCount": 7589,
 			"translationCount": 7499,
 			"features": [
 				"arabic",
@@ -169,7 +163,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3502925
+			"mirrorZipBytes": 3503113
 		},
 		{
 			"id": "tam-bukhari",
@@ -178,8 +172,7 @@
 			"language": "ta",
 			"languageName": "Tamil",
 			"name": "Sahih al-Bukhari (Tamil)",
-			"hadithCount": 7563,
-			"addendumCount": 16,
+			"hadithCount": 7589,
 			"translationCount": 7261,
 			"features": [
 				"arabic",
@@ -194,7 +187,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 4127699
+			"mirrorZipBytes": 4127950
 		},
 		{
 			"id": "tur-bukhari",
@@ -203,8 +196,7 @@
 			"language": "tr",
 			"languageName": "Turkish",
 			"name": "Sahih al-Bukhari (Turkish)",
-			"hadithCount": 7563,
-			"addendumCount": 16,
+			"hadithCount": 7589,
 			"translationCount": 7510,
 			"features": [
 				"arabic",
@@ -219,7 +211,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 4929955
+			"mirrorZipBytes": 4930464
 		},
 		{
 			"id": "urd-bukhari",
@@ -228,8 +220,7 @@
 			"language": "ur",
 			"languageName": "Urdu",
 			"name": "Sahih al-Bukhari (Urdu)",
-			"hadithCount": 7563,
-			"addendumCount": 16,
+			"hadithCount": 7589,
 			"translationCount": 7019,
 			"features": [
 				"arabic",
@@ -244,7 +235,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3692133
+			"mirrorZipBytes": 3692230
 		},
 		{
 			"id": "ara-muslim",
@@ -254,7 +245,6 @@
 			"languageName": "Arabic",
 			"name": "Sahih Muslim (Arabic)",
 			"hadithCount": 7563,
-			"addendumCount": 106,
 			"features": [
 				"arabic",
 				"grades",
@@ -267,7 +257,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1314643
+			"mirrorZipBytes": 1292573
 		},
 		{
 			"id": "ara1-muslim",
@@ -289,7 +279,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 973417
+			"mirrorZipBytes": 973614
 		},
 		{
 			"id": "ben-muslim",
@@ -299,7 +289,6 @@
 			"languageName": "Bengali",
 			"name": "Sahih Muslim (Bengali)",
 			"hadithCount": 7563,
-			"addendumCount": 106,
 			"translationCount": 7360,
 			"features": [
 				"arabic",
@@ -314,7 +303,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2943540
+			"mirrorZipBytes": 2921009
 		},
 		{
 			"id": "eng-muslim",
@@ -324,8 +313,7 @@
 			"languageName": "English",
 			"name": "Sahih Muslim (English)",
 			"hadithCount": 7563,
-			"addendumCount": 106,
-			"translationCount": 7466,
+			"translationCount": 7360,
 			"features": [
 				"arabic",
 				"translation",
@@ -339,7 +327,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2452192
+			"mirrorZipBytes": 2404913
 		},
 		{
 			"id": "fra-muslim",
@@ -349,7 +337,6 @@
 			"languageName": "French",
 			"name": "Sahih Muslim (French)",
 			"hadithCount": 7563,
-			"addendumCount": 106,
 			"translationCount": 7307,
 			"features": [
 				"arabic",
@@ -364,7 +351,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2376087
+			"mirrorZipBytes": 2351693
 		},
 		{
 			"id": "ind-muslim",
@@ -374,7 +361,6 @@
 			"languageName": "Indonesian",
 			"name": "Sahih Muslim (Indonesian)",
 			"hadithCount": 7563,
-			"addendumCount": 106,
 			"translationCount": 4927,
 			"features": [
 				"arabic",
@@ -389,7 +375,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2648360
+			"mirrorZipBytes": 2624525
 		},
 		{
 			"id": "rus-muslim",
@@ -399,7 +385,6 @@
 			"languageName": "Russian",
 			"name": "Sahih Muslim (Russian)",
 			"hadithCount": 7563,
-			"addendumCount": 106,
 			"translationCount": 2719,
 			"features": [
 				"arabic",
@@ -414,7 +399,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1866080
+			"mirrorZipBytes": 1843248
 		},
 		{
 			"id": "tam-muslim",
@@ -424,7 +409,6 @@
 			"languageName": "Tamil",
 			"name": "Sahih Muslim (Tamil)",
 			"hadithCount": 7563,
-			"addendumCount": 106,
 			"translationCount": 2665,
 			"features": [
 				"arabic",
@@ -439,7 +423,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2285867
+			"mirrorZipBytes": 2263914
 		},
 		{
 			"id": "tur-muslim",
@@ -449,7 +433,6 @@
 			"languageName": "Turkish",
 			"name": "Sahih Muslim (Turkish)",
 			"hadithCount": 7563,
-			"addendumCount": 106,
 			"translationCount": 7380,
 			"features": [
 				"arabic",
@@ -464,7 +447,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3330200
+			"mirrorZipBytes": 3304950
 		},
 		{
 			"id": "urd-muslim",
@@ -474,7 +457,6 @@
 			"languageName": "Urdu",
 			"name": "Sahih Muslim (Urdu)",
 			"hadithCount": 7563,
-			"addendumCount": 106,
 			"translationCount": 7458,
 			"features": [
 				"arabic",
@@ -489,7 +471,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2804086
+			"mirrorZipBytes": 2781583
 		},
 		{
 			"id": "ara-nasai",
@@ -498,8 +480,7 @@
 			"language": "ar",
 			"languageName": "Arabic",
 			"name": "Sunan an-Nasa'i (Arabic)",
-			"hadithCount": 5758,
-			"addendumCount": 51,
+			"hadithCount": 5765,
 			"features": [
 				"arabic",
 				"grades",
@@ -512,7 +493,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 915297
+			"mirrorZipBytes": 896802
 		},
 		{
 			"id": "ara1-nasai",
@@ -534,7 +515,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 687155
+			"mirrorZipBytes": 679408
 		},
 		{
 			"id": "ben-nasai",
@@ -543,8 +524,7 @@
 			"language": "bn",
 			"languageName": "Bengali",
 			"name": "Sunan an-Nasa'i (Bengali)",
-			"hadithCount": 5758,
-			"addendumCount": 51,
+			"hadithCount": 5765,
 			"translationCount": 5656,
 			"features": [
 				"arabic",
@@ -559,7 +539,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1864469
+			"mirrorZipBytes": 1843144
 		},
 		{
 			"id": "eng-nasai",
@@ -568,9 +548,8 @@
 			"language": "en",
 			"languageName": "English",
 			"name": "Sunan an-Nasa'i (English)",
-			"hadithCount": 5758,
-			"addendumCount": 51,
-			"translationCount": 5723,
+			"hadithCount": 5765,
+			"translationCount": 5679,
 			"features": [
 				"arabic",
 				"translation",
@@ -584,7 +563,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1581687
+			"mirrorZipBytes": 1555673
 		},
 		{
 			"id": "fra-nasai",
@@ -593,8 +572,7 @@
 			"language": "fr",
 			"languageName": "French",
 			"name": "Sunan an-Nasa'i (French)",
-			"hadithCount": 5758,
-			"addendumCount": 51,
+			"hadithCount": 5765,
 			"translationCount": 5672,
 			"features": [
 				"arabic",
@@ -609,7 +587,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1609637
+			"mirrorZipBytes": 1587597
 		},
 		{
 			"id": "ind-nasai",
@@ -618,8 +596,7 @@
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Sunan an-Nasa'i (Indonesian)",
-			"hadithCount": 5758,
-			"addendumCount": 51,
+			"hadithCount": 5765,
 			"translationCount": 5331,
 			"features": [
 				"arabic",
@@ -634,7 +611,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1776277
+			"mirrorZipBytes": 1753867
 		},
 		{
 			"id": "tur-nasai",
@@ -643,8 +620,7 @@
 			"language": "tr",
 			"languageName": "Turkish",
 			"name": "Sunan an-Nasa'i (Turkish)",
-			"hadithCount": 5758,
-			"addendumCount": 51,
+			"hadithCount": 5765,
 			"translationCount": 629,
 			"features": [
 				"arabic",
@@ -659,7 +635,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1008206
+			"mirrorZipBytes": 989221
 		},
 		{
 			"id": "urd-nasai",
@@ -668,8 +644,7 @@
 			"language": "ur",
 			"languageName": "Urdu",
 			"name": "Sunan an-Nasa'i (Urdu)",
-			"hadithCount": 5758,
-			"addendumCount": 51,
+			"hadithCount": 5765,
 			"translationCount": 3870,
 			"features": [
 				"arabic",
@@ -684,7 +659,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1519454
+			"mirrorZipBytes": 1498817
 		},
 		{
 			"id": "ara-abudawud",
@@ -694,7 +669,6 @@
 			"languageName": "Arabic",
 			"name": "Sunan Abi Dawud (Arabic)",
 			"hadithCount": 5274,
-			"addendumCount": 4,
 			"features": [
 				"arabic",
 				"grades",
@@ -707,7 +681,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1066848
+			"mirrorZipBytes": 1045304
 		},
 		{
 			"id": "ara1-abudawud",
@@ -729,7 +703,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 812208
+			"mirrorZipBytes": 797593
 		},
 		{
 			"id": "ben-abudawud",
@@ -739,7 +713,6 @@
 			"languageName": "Bengali",
 			"name": "Sunan Abi Dawud (Bengali)",
 			"hadithCount": 5274,
-			"addendumCount": 4,
 			"translationCount": 5270,
 			"features": [
 				"arabic",
@@ -754,7 +727,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2188122
+			"mirrorZipBytes": 2161974
 		},
 		{
 			"id": "eng-abudawud",
@@ -764,8 +737,7 @@
 			"languageName": "English",
 			"name": "Sunan Abi Dawud (English)",
 			"hadithCount": 5274,
-			"addendumCount": 4,
-			"translationCount": 5276,
+			"translationCount": 5272,
 			"features": [
 				"arabic",
 				"translation",
@@ -779,7 +751,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1916851
+			"mirrorZipBytes": 1881206
 		},
 		{
 			"id": "fra-abudawud",
@@ -789,7 +761,6 @@
 			"languageName": "French",
 			"name": "Sunan Abi Dawud (French)",
 			"hadithCount": 5274,
-			"addendumCount": 4,
 			"translationCount": 5274,
 			"features": [
 				"arabic",
@@ -804,7 +775,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1954513
+			"mirrorZipBytes": 1928145
 		},
 		{
 			"id": "ind-abudawud",
@@ -814,7 +785,6 @@
 			"languageName": "Indonesian",
 			"name": "Sunan Abi Dawud (Indonesian)",
 			"hadithCount": 5274,
-			"addendumCount": 4,
 			"translationCount": 4406,
 			"features": [
 				"arabic",
@@ -829,7 +799,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2099814
+			"mirrorZipBytes": 2072948
 		},
 		{
 			"id": "rus-abudawud",
@@ -839,7 +809,6 @@
 			"languageName": "Russian",
 			"name": "Sunan Abi Dawud (Russian)",
 			"hadithCount": 5274,
-			"addendumCount": 4,
 			"translationCount": 4602,
 			"features": [
 				"arabic",
@@ -854,7 +823,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1979471
+			"mirrorZipBytes": 1952890
 		},
 		{
 			"id": "tur-abudawud",
@@ -864,7 +833,6 @@
 			"languageName": "Turkish",
 			"name": "Sunan Abi Dawud (Turkish)",
 			"hadithCount": 5274,
-			"addendumCount": 4,
 			"translationCount": 5266,
 			"features": [
 				"arabic",
@@ -879,7 +847,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2224904
+			"mirrorZipBytes": 2197879
 		},
 		{
 			"id": "urd-abudawud",
@@ -889,7 +857,6 @@
 			"languageName": "Urdu",
 			"name": "Sunan Abi Dawud (Urdu)",
 			"hadithCount": 5274,
-			"addendumCount": 4,
 			"translationCount": 5273,
 			"features": [
 				"arabic",
@@ -904,7 +871,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2064680
+			"mirrorZipBytes": 2040305
 		},
 		{
 			"id": "ara-tirmidhi",
@@ -913,8 +880,7 @@
 			"language": "ar",
 			"languageName": "Arabic",
 			"name": "Jami' at-Tirmidhi (Arabic)",
-			"hadithCount": 3956,
-			"addendumCount": 85,
+			"hadithCount": 3998,
 			"features": [
 				"arabic",
 				"grades",
@@ -927,7 +893,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1013838
+			"mirrorZipBytes": 992931
 		},
 		{
 			"id": "ara1-tirmidhi",
@@ -949,7 +915,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 734546
+			"mirrorZipBytes": 727723
 		},
 		{
 			"id": "ben-tirmidhi",
@@ -958,8 +924,7 @@
 			"language": "bn",
 			"languageName": "Bengali",
 			"name": "Jami' at-Tirmidhi (Bengali)",
-			"hadithCount": 3956,
-			"addendumCount": 85,
+			"hadithCount": 3998,
 			"translationCount": 3891,
 			"features": [
 				"arabic",
@@ -974,7 +939,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2303775
+			"mirrorZipBytes": 2278687
 		},
 		{
 			"id": "eng-tirmidhi",
@@ -983,9 +948,8 @@
 			"language": "en",
 			"languageName": "English",
 			"name": "Jami' at-Tirmidhi (English)",
-			"hadithCount": 3956,
-			"addendumCount": 85,
-			"translationCount": 3974,
+			"hadithCount": 3998,
+			"translationCount": 3924,
 			"features": [
 				"arabic",
 				"translation",
@@ -999,7 +963,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1646755
+			"mirrorZipBytes": 1615518
 		},
 		{
 			"id": "ind-tirmidhi",
@@ -1008,8 +972,7 @@
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Jami' at-Tirmidhi (Indonesian)",
-			"hadithCount": 3956,
-			"addendumCount": 85,
+			"hadithCount": 3998,
 			"translationCount": 3521,
 			"features": [
 				"arabic",
@@ -1024,7 +987,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1978819
+			"mirrorZipBytes": 1954599
 		},
 		{
 			"id": "tur-tirmidhi",
@@ -1033,8 +996,7 @@
 			"language": "tr",
 			"languageName": "Turkish",
 			"name": "Jami' at-Tirmidhi (Turkish)",
-			"hadithCount": 3956,
-			"addendumCount": 85,
+			"hadithCount": 3998,
 			"translationCount": 3755,
 			"features": [
 				"arabic",
@@ -1049,7 +1011,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1942421
+			"mirrorZipBytes": 1917486
 		},
 		{
 			"id": "urd-tirmidhi",
@@ -1058,8 +1020,7 @@
 			"language": "ur",
 			"languageName": "Urdu",
 			"name": "Jami' at-Tirmidhi (Urdu)",
-			"hadithCount": 3956,
-			"addendumCount": 85,
+			"hadithCount": 3998,
 			"translationCount": 3926,
 			"features": [
 				"arabic",
@@ -1074,7 +1035,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 2036897
+			"mirrorZipBytes": 2011878
 		},
 		{
 			"id": "ara-ibnmajah",
@@ -1083,8 +1044,7 @@
 			"language": "ar",
 			"languageName": "Arabic",
 			"name": "Sunan Ibn Majah (Arabic)",
-			"hadithCount": 4341,
-			"addendumCount": 3,
+			"hadithCount": 4343,
 			"features": [
 				"arabic",
 				"grades",
@@ -1097,7 +1057,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 743135
+			"mirrorZipBytes": 735403
 		},
 		{
 			"id": "ara1-ibnmajah",
@@ -1119,7 +1079,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 561856
+			"mirrorZipBytes": 554716
 		},
 		{
 			"id": "ben-ibnmajah",
@@ -1128,8 +1088,7 @@
 			"language": "bn",
 			"languageName": "Bengali",
 			"name": "Sunan Ibn Majah (Bengali)",
-			"hadithCount": 4341,
-			"addendumCount": 3,
+			"hadithCount": 4343,
 			"translationCount": 4336,
 			"features": [
 				"arabic",
@@ -1144,7 +1103,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1451748
+			"mirrorZipBytes": 1441454
 		},
 		{
 			"id": "eng-ibnmajah",
@@ -1153,9 +1112,8 @@
 			"language": "en",
 			"languageName": "English",
 			"name": "Sunan Ibn Majah (English)",
-			"hadithCount": 4341,
-			"addendumCount": 3,
-			"translationCount": 4341,
+			"hadithCount": 4343,
+			"translationCount": 4340,
 			"features": [
 				"arabic",
 				"translation",
@@ -1169,7 +1127,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1313258
+			"mirrorZipBytes": 1272457
 		},
 		{
 			"id": "fra-ibnmajah",
@@ -1178,8 +1136,7 @@
 			"language": "fr",
 			"languageName": "French",
 			"name": "Sunan Ibn Majah (French)",
-			"hadithCount": 4341,
-			"addendumCount": 3,
+			"hadithCount": 4343,
 			"translationCount": 4338,
 			"features": [
 				"arabic",
@@ -1194,7 +1151,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1309120
+			"mirrorZipBytes": 1299262
 		},
 		{
 			"id": "ind-ibnmajah",
@@ -1203,8 +1160,7 @@
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Sunan Ibn Majah (Indonesian)",
-			"hadithCount": 4341,
-			"addendumCount": 3,
+			"hadithCount": 4343,
 			"translationCount": 4269,
 			"features": [
 				"arabic",
@@ -1219,7 +1175,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1466800
+			"mirrorZipBytes": 1455741
 		},
 		{
 			"id": "tur-ibnmajah",
@@ -1228,8 +1184,7 @@
 			"language": "tr",
 			"languageName": "Turkish",
 			"name": "Sunan Ibn Majah (Turkish)",
-			"hadithCount": 4341,
-			"addendumCount": 3,
+			"hadithCount": 4343,
 			"translationCount": 4318,
 			"features": [
 				"arabic",
@@ -1244,7 +1199,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1959848
+			"mirrorZipBytes": 1947937
 		},
 		{
 			"id": "urd-ibnmajah",
@@ -1253,8 +1208,7 @@
 			"language": "ur",
 			"languageName": "Urdu",
 			"name": "Sunan Ibn Majah (Urdu)",
-			"hadithCount": 4341,
-			"addendumCount": 3,
+			"hadithCount": 4343,
 			"translationCount": 4329,
 			"features": [
 				"arabic",
@@ -1269,7 +1223,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1375379
+			"mirrorZipBytes": 1364785
 		},
 		{
 			"id": "ara-malik",
@@ -3220,6 +3174,15 @@
 		],
 		"muslim": [
 			{
+				"id": 0,
+				"bookId": 2,
+				"parentId": null,
+				"names": {
+					"ar": "المقدمة",
+					"en": "Introduction"
+				}
+			},
+			{
 				"id": 1,
 				"bookId": 2,
 				"parentId": null,
@@ -3722,15 +3685,6 @@
 					"ar": "كتاب التفسير",
 					"en": "The Book of Commentary on the Qur'an"
 				}
-			},
-			{
-				"id": 0,
-				"bookId": 2,
-				"parentId": null,
-				"names": {
-					"ar": "المقدمة",
-					"en": "Introduction"
-				}
 			}
 		],
 		"nasai": [
@@ -4045,16 +3999,6 @@
 				"bookId": 3,
 				"parentId": null,
 				"names": {
-					"ar": "كتاب الأيمان والنذور",
-					"en": "The Book of Oaths and Vows"
-				}
-			},
-			{
-				"id": 35.2,
-				"bookId": 3,
-				"parentId": null,
-				"names": {
-					"ar": "كتاب المزارعة",
 					"en": "The Book of Agriculture"
 				}
 			},
@@ -5037,6 +4981,15 @@
 		],
 		"ibnmajah": [
 			{
+				"id": 0,
+				"bookId": 6,
+				"parentId": null,
+				"names": {
+					"ar": "كتاب المقدمة",
+					"en": "The Book of the Sunnah"
+				}
+			},
+			{
 				"id": 1,
 				"bookId": 6,
 				"parentId": null,
@@ -5367,15 +5320,6 @@
 				"names": {
 					"ar": "كتاب الزهد",
 					"en": "Zuhd"
-				}
-			},
-			{
-				"id": 0,
-				"bookId": 6,
-				"parentId": null,
-				"names": {
-					"ar": "كتاب المقدمة",
-					"en": "The Book of the Sunnah"
 				}
 			}
 		],
