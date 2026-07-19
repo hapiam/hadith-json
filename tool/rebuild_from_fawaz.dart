@@ -62,6 +62,16 @@ void main(List<String> args) {
       2795: 43, // Chapters on Manners (fawaz wrongly said 39)
       3723: 49, // Chapters on Virtues (fawaz wrongly said 47)
     },
+    // chapterUnknown placeholders (fawaz reference.book=0/hadith=0, arabicnumber
+    // null) that neighbor-inference couldn't resolve because the two sides
+    // disagree (5111=book 35, 5114=book 36). Confirmed on sunnah.com: these two
+    // are actually 1975c/1975d (sunnah.com merges them onto one page), same
+    // book-35 "Sacrifices" citation family as neighbor 5111 (1975b) -- fawaz's
+    // own arabicnumber parser just failed on this specific pair.
+    'muslim': {
+      5112: 35, // The Book of Sacrifices (= sunnah.com 1975c)
+      5113: 35, // The Book of Sacrifices (= sunnah.com 1975d)
+    },
   };
 
   const bookIdPrefix = {
