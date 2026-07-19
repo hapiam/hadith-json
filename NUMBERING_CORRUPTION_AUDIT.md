@@ -446,3 +446,110 @@ sufficient** — every entry needs its `arabic`/`translation`/`reference`
 triple cross-checked against sunnah.com, not just its chapter tag.
 **Paused here pending direction — this needs a different, much larger-scope
 remediation plan than "retag chapterId for N outliers.".**
+
+## On-device range-gap log (2026-07-20)
+
+The app now has a live diagnostic (`computeHadithChapterRangeInfo` in
+`hapi_app_v2/lib/hadith/hadith_chapter_range_info.dart`) that walks every
+leaf chapter's hadith numbers in reading order and `debugPrint`s a
+`[HadithRangeGap]` line the first time it finds a place where one hadith
+number doesn't hand off cleanly to the next (`ends at N -> starts at M`,
+or `internally splits: ends at N, resumes at M`, always with `(expected
+N+1)`), deduped per session. The user ran the app and pasted a full session's
+worth of these lines. Findings below, categorized.
+
+### Sahih Muslim
+
+- **384 / 388** (ch1 "Faith" holes, landing under ch43 "Virtues" / ch16
+  "Marriage" respectively): **not a bug** — already verified earlier this
+  session against sunnah.com's real page content (not just titles); Imam
+  Muslim genuinely interleaves these two hadith outside their numeric
+  neighborhood. Catalog is correct as rebuilt.
+- **5112–5115** (ch35 "Sacrifices" hole, stray piece landing under ch36
+  "Drinks"): **already fixed in this repo** (`manualOverrides` in
+  `tool/rebuild_from_fawaz.dart`, commit `4ecc35b`, tag `v1.11.3-hapi`) —
+  but the log shows the *full* 4-wide hole with 5112/5113 present nowhere
+  at all, which is the pre-fix shape (post-fix would only leave a 2-wide
+  5114–5115 hole). **The device that produced this log has a stale,
+  pre-fix install of Sahih Muslim** — app-side action (delete/re-download
+  the book), not a data bug. Flagging here only so a future "why is this
+  still broken" report isn't mistaken for a regression.
+- **4968–4971** (ch33 "Government" → ch34 "Hunting"): new, unexplained —
+  4 consecutive idInBook values claimed by no chapter at all. Needs a
+  sunnah.com check using the `arabicnumber`-derived citation (not
+  `idInBook`) for this range.
+- **5384** (ch36 "Drinks" → ch37 "Clothes"): new, unexplained single-hadith
+  gap. Same check needed.
+- **5885–5886** (ch40 "Correct Words" → ch41 "Poetry"): new, unexplained
+  2-hadith gap. Same check needed.
+
+### Sunan an-Nasa'i
+
+- **3857–3938** (ch35 "Agriculture" → ch36 "Kind Treatment of Women"): **not
+  a new bug** — this is the already-documented upstream fawaz gap (blank
+  `ara-nasai`/`eng-nasai` for this exact range, see "RESOLUTION" section
+  above). No pipeline fix needed; the outstanding work is app-side
+  (`noSourceContent` tagging so the reader shows "not available" instead of
+  a silent hole — not yet done).
+
+### Jami` at-Tirmidhi
+
+- **2735** (stray single hadith under ch38 "Description of Paradise"; ch42
+  "Seeking Permission" ends at 2734, ch43 "Manners" starts at 2736): new,
+  but well-isolated and likely a simple `reference.book` mistag — 2735's
+  real reading-order position sits between chapters 42 and 43 (2736 = ch43's
+  real start), the same shape as the Muslim 5112/5113 fix. Needs a
+  sunnah.com check on hadith 2735's real citation, then a
+  `manualOverrides` entry in `tool/rebuild_from_fawaz.dart` once confirmed.
+
+### Sunan Ibn Majah
+
+Chapters 10 "Divorce," 11 "Expiation," 15 "Charity," 16 "Pawning," 19
+"Manumission" (idInBook roughly 2089–2529) show hadith numbers jumping
+non-monotonically across the cluster (ch10 walks 2089 → 2435 → 2464 → 2476 →
+2477, then hands to ch11 which starts back down at 2090). Unlike the other
+findings above, this isn't a clean missing-range or single-hadith mistag —
+either the catalog's chapter *order* doesn't match Ibn Majah's physical
+reading order for this stretch, or several individual hadith are mistagged,
+and I can't tell which without re-deriving it from fawaz's own
+`reference.book`/section data for Ibn Majah specifically. **Needs its own
+investigation pass**, scoped to idInBook ~2089–2529 and catalog chapters
+10/11/15/16/19.
+
+### Musnad Ahmad ibn Hanbal
+
+~90 findings, all falling under the already-known, already-scoped companion/
+chapter-catalog problem (see the "Musnad Ahmad — a second, separate
+problem in the companion/chapter layer" section of the working plan from
+earlier this session — not reproduced here). Confirmed patterns present in
+this log:
+- "Karam (RA)" reused as a fake person across unrelated anonymous-narrator
+  clusters (chapterIds 1309, 1432, 1917 all show this) — it's a garbled
+  reading of كِرَام ("Kiram," an honorific), not a name.
+- Duplicate companions split across two catalog ids breaking an otherwise-
+  contiguous run (Anas ibn Malik 1034/1035, Ibn Abbas 1073/1074, and
+  several more visible in this log).
+- Garbled/generic labels ("Hadyth (RA)," "Ahadyth (RA)," "Hadith of an
+  Unnamed Companion") appearing as many distinct catalog ids from the
+  Urdu-label-extraction step failing.
+- Catalog order not matching physical book position for large stretches
+  (e.g. chapterId 1608 handing off to 1764, then to 1642 — nowhere near
+  each other in the book).
+
+This log is a much more complete enumeration of affected companion ids than
+anything sampled before — worth using directly as the starting census for
+the dedicated fix pass (merge duplicates, re-derive order from actual
+`idInBook` position, honest "unnamed narrator" labels instead of
+label-string grouping) rather than fixing any of these individually here.
+
+### Summary / next actions
+
+1. Muslim 4968–4971, 5384, 5885–5886 — sunnah.com verification needed.
+2. Tirmidhi 2735 — sunnah.com verification, likely a one-line
+   `manualOverrides` fix once confirmed.
+3. Ibn Majah 2089–2529 cluster — needs its own investigation (order vs.
+   mistag, undetermined).
+4. Musnad Ahmad — feed this log's companion-id list into the existing
+   planned fix pass; not a new problem.
+5. Nothing here changes Muslim's 5112/5115 or Nasa'i's 3857–3938 status —
+   both already understood, no repo-side action.
