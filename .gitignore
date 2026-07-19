@@ -7,3 +7,7 @@ dist
 # regenerated on demand from db/unified/, not source. See README.md's Layout
 # table.
 hapiam_mirror_hadith/
+
+# Raw scrape output from tool/scrape_amrayn.dart -- intermediate research data,
+# not source. Once converted into db/by_book/other_books/*.json it's discardable.
+db/scrape_cache/

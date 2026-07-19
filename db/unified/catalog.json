@@ -5885,132 +5885,6 @@
 				}
 			},
 			{
-				"id": 3,
-				"parentId": null,
-				"names": {
-					"ar": "مُسْنَدُ بَاقِي الْعَشَرَةِ الْمُبَشَّرِينَ بِالْجَنَّةِ",
-					"en": "Musnad of the Remaining of the Ten Promised Paradise",
-					"ur": "خلفاء راشدین کے علاوہ باقی عشرہ مبشرہ صحابہ کی روایات"
-				}
-			},
-			{
-				"id": 4,
-				"parentId": null,
-				"names": {
-					"ar": "مسند الصحابة بعد العشرة",
-					"en": "Musnad of the Companions After the Ten",
-					"ur": "عشرہ مبشرہ اصحاب کے بعد صحابہ کی روایات"
-				}
-			},
-			{
-				"id": 5,
-				"parentId": null,
-				"names": {
-					"ar": "مسنَد اَهلِ البَیتِ رِضوَان اللَّهِ عَلَیهِم اَجمَعِینَ",
-					"en": "Musnad of the People of the House (Ahl al-Bayt)",
-					"ur": "اہلبیت رضوان اللہ علیہم اجمعین کی روایات"
-				}
-			},
-			{
-				"id": 7,
-				"parentId": null,
-				"names": {
-					"ar": "وَمِن مسنَدِ بَنِی هَاشِم",
-					"en": "From the Musnad of Banu Hashim",
-					"ur": "بنو ہاشم سے روایات"
-				}
-			},
-			{
-				"id": 8,
-				"parentId": null,
-				"names": {
-					"ar": "مسنَد المكثِرِینَ مِنَ الصَّحَابَةِ",
-					"en": "Musnad of the Companions Who Narrated Most",
-					"ur": "صحابہ کرام رضی اللہ عنہم کی روایات"
-				}
-			},
-			{
-				"id": 10,
-				"parentId": null,
-				"names": {
-					"ar": "مسنَد المَكِّیِّینَ",
-					"en": "Musnad of the Meccans",
-					"ur": "مکہ والوں کی روایات"
-				}
-			},
-			{
-				"id": 11,
-				"parentId": null,
-				"names": {
-					"ar": "مسنَدِ المَدَنِیِّینَ رَضِیَ اللَّه عَنهم اَجمَعِینَ",
-					"en": "Musnad of the Medinans",
-					"ur": "مدینہ والوں کی روایات"
-				}
-			},
-			{
-				"id": 12,
-				"parentId": null,
-				"names": {
-					"ar": "مسنَد الشَّامِیِّینَ",
-					"en": "Musnad of the Levantines (Ahl al-Sham)",
-					"ur": "اہل شام کی روایات"
-				}
-			},
-			{
-				"id": 14,
-				"parentId": null,
-				"names": {
-					"ar": "أَوَّلُ مُسْنَدِ الْكُوفِيِّينَ",
-					"en": "The Beginning of the Musnad of the Kufans",
-					"ur": "کوفہ والوں کی روایات"
-				}
-			},
-			{
-				"id": 15,
-				"parentId": null,
-				"names": {
-					"ar": "تتمہ مُسْنَدِ الْكُوفِيِّينَ",
-					"en": "Continuation of the Musnad of the Kufans",
-					"ur": "کوفہ والوں کی بقیہ روایات"
-				}
-			},
-			{
-				"id": 16,
-				"parentId": null,
-				"names": {
-					"ar": "أَوَّلُ مُسْنَدِ الْبَصْرِيِّينَ",
-					"en": "The Beginning of the Musnad of the Basrans",
-					"ur": "بصرہ کی روایات"
-				}
-			},
-			{
-				"id": 17,
-				"parentId": null,
-				"names": {
-					"ar": "مُسْنَدُ الْأَنْصَارِ رَضِيَ اللَّهُ عَنْهُمْ",
-					"en": "Musnad of the Ansar",
-					"ur": "انصار صحابہ کی روایات"
-				}
-			},
-			{
-				"id": 19,
-				"parentId": null,
-				"names": {
-					"ar": "مسند النساء",
-					"en": "Musnad of the Women",
-					"ur": "صحابیات سے روایات"
-				}
-			},
-			{
-				"id": 20,
-				"parentId": null,
-				"names": {
-					"ar": "مِنْ مُسْنَدِ الْقَبَائِلِ",
-					"en": "From the Musnad of the Tribes",
-					"ur": "قبائل سے روایات"
-				}
-			},
-			{
 				"id": 1000,
 				"parentId": 1,
 				"names": {
@@ -6049,6 +5923,15 @@
 					"en": "Ali ibn Abi Talib (RA)"
 				},
 				"transliterated": true
+			},
+			{
+				"id": 3,
+				"parentId": null,
+				"names": {
+					"ar": "مُسْنَدُ بَاقِي الْعَشَرَةِ الْمُبَشَّرِينَ بِالْجَنَّةِ",
+					"en": "Musnad of the Remaining of the Ten Promised Paradise",
+					"ur": "خلفاء راشدین کے علاوہ باقی عشرہ مبشرہ صحابہ کی روایات"
+				}
 			},
 			{
 				"id": 1006,
@@ -6111,6 +5994,15 @@
 				"transliterated": true
 			},
 			{
+				"id": 4,
+				"parentId": null,
+				"names": {
+					"ar": "مسند الصحابة بعد العشرة",
+					"en": "Musnad of the Companions After the Ten",
+					"ur": "عشرہ مبشرہ اصحاب کے بعد صحابہ کی روایات"
+				}
+			},
+			{
 				"id": 1012,
 				"parentId": 4,
 				"names": {
@@ -6151,6 +6043,15 @@
 				"transliterated": true
 			},
 			{
+				"id": 5,
+				"parentId": null,
+				"names": {
+					"ar": "مسنَد اَهلِ البَیتِ رِضوَان اللَّهِ عَلَیهِم اَجمَعِینَ",
+					"en": "Musnad of the People of the House (Ahl al-Bayt)",
+					"ur": "اہلبیت رضوان اللہ علیہم اجمعین کی روایات"
+				}
+			},
+			{
 				"id": 1016,
 				"parentId": 5,
 				"names": {
@@ -6189,6 +6090,15 @@
 					"en": "Abd ibn Ja'afar ibn Abi Talib (RA)"
 				},
 				"transliterated": true
+			},
+			{
+				"id": 7,
+				"parentId": null,
+				"names": {
+					"ar": "وَمِن مسنَدِ بَنِی هَاشِم",
+					"en": "From the Musnad of Banu Hashim",
+					"ur": "بنو ہاشم سے روایات"
+				}
 			},
 			{
 				"id": 1021,
@@ -6239,6 +6149,15 @@
 					"en": "Abd ibn Abbas ibn Abd al-Muttalib (RA)"
 				},
 				"transliterated": true
+			},
+			{
+				"id": 8,
+				"parentId": null,
+				"names": {
+					"ar": "مسنَد المكثِرِینَ مِنَ الصَّحَابَةِ",
+					"en": "Musnad of the Companions Who Narrated Most",
+					"ur": "صحابہ کرام رضی اللہ عنہم کی روایات"
+				}
 			},
 			{
 				"id": 1026,
@@ -6319,6 +6238,15 @@
 					"en": "Jabir ibn Abd (RA)"
 				},
 				"transliterated": true
+			},
+			{
+				"id": 10,
+				"parentId": null,
+				"names": {
+					"ar": "مسنَد المَكِّیِّینَ",
+					"en": "Musnad of the Meccans",
+					"ur": "مکہ والوں کی روایات"
+				}
 			},
 			{
 				"id": 1036,
@@ -8787,6 +8715,15 @@
 				"transliterated": true
 			},
 			{
+				"id": 11,
+				"parentId": null,
+				"names": {
+					"ar": "مسنَدِ المَدَنِیِّینَ رَضِیَ اللَّه عَنهم اَجمَعِینَ",
+					"en": "Musnad of the Medinans",
+					"ur": "مدینہ والوں کی روایات"
+				}
+			},
+			{
 				"id": 1278,
 				"parentId": 11,
 				"names": {
@@ -10265,6 +10202,15 @@
 					"en": "Abdur Rahman ibn Azahar"
 				},
 				"transliterated": true
+			},
+			{
+				"id": 12,
+				"parentId": null,
+				"names": {
+					"ar": "مسنَد الشَّامِیِّینَ",
+					"en": "Musnad of the Levantines (Ahl al-Sham)",
+					"ur": "اہل شام کی روایات"
+				}
 			},
 			{
 				"id": 1422,
@@ -12143,340 +12089,21 @@
 				"transliterated": true
 			},
 			{
-				"id": 1609,
-				"parentId": 14,
+				"id": 15,
+				"parentId": null,
 				"names": {
-					"ar": "صفوان بن عسال مرادی رضی اللہ تعالی",
-					"ur": "حضرت صفوان بن عسال مرادی رضی اللہ تعالی کی حدیثیں",
-					"en": "Safwan ibn 'asal Marady (RA)"
-				},
-				"transliterated": true
+					"ar": "تتمہ مُسْنَدِ الْكُوفِيِّينَ",
+					"en": "Continuation of the Musnad of the Kufans",
+					"ur": "کوفہ والوں کی بقیہ روایات"
+				}
 			},
 			{
-				"id": 1610,
-				"parentId": 14,
+				"id": 1764,
+				"parentId": 15,
 				"names": {
-					"ar": "کعب بن عجرہ رضی اللہ تعالی",
-					"ur": "حضرت کعب بن عجرہ رضی اللہ تعالی کی حدیثیں",
-					"en": "Ka'b ibn 'ajarah (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1611,
-				"parentId": 14,
-				"names": {
-					"ar": "مغیرہ بن شعبہ رضی اللہ تعالی",
-					"ur": "حضرت مغیرہ بن شعبہ رضی اللہ تعالی کی حدیثیں",
-					"en": "Maghyrah ibn Sha'abah (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1612,
-				"parentId": 14,
-				"names": {
-					"ar": "عدی بن حاتم طائی رضی اللہ تعالی",
-					"ur": "حضرت عدی بن حاتم طائی رضی اللہ تعالی کی حدیثیں",
-					"en": "Adi ibn Hatam Tay (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1613,
-				"parentId": 14,
-				"names": {
-					"ar": "معن بن یزیدسلمی رضی اللہ تعالی",
-					"ur": "حضرت معن بن یزیدسلمی رضی اللہ تعالی کی حدیث",
-					"en": "Ma'an ibn Yzydasalamy (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1614,
-				"parentId": 14,
-				"names": {
-					"ar": "محمد بن حاطب رضی اللہ تعالی",
-					"ur": "حضرت محمد بن حاطب رضی اللہ تعالی کی حدیثیں",
-					"en": "Muhammad ibn Hatab (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1615,
-				"parentId": 14,
-				"names": {
-					"ur": "ایک شخص کی حدیث",
-					"en": "Hadith of an Unnamed Companion"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"anonymousNarrator": true
-			},
-			{
-				"id": 1616,
-				"parentId": 14,
-				"names": {
-					"ar": "ایک اور شخص",
-					"ur": "ایک اور شخص کی حدیث",
-					"en": "Hadith of an Unnamed Companion"
-				},
-				"anonymousNarrator": true
-			},
-			{
-				"id": 1617,
-				"parentId": 14,
-				"names": {
-					"ar": "سلمہ بن نعیم رضی اللہ تعالی",
-					"ur": "حضرت سلمہ بن نعیم رضی اللہ تعالی کی حدیث",
-					"en": "Salama ibn Nu'aym (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1618,
-				"parentId": 14,
-				"names": {
-					"ar": "عامربن شہر رضی اللہ تعالی",
-					"ur": "حضرت عامربن شہر رضی اللہ تعالی کی حدیثیں",
-					"en": "'amaraban Shahar (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1619,
-				"parentId": 14,
-				"names": {
-					"ur": "بنو سلیم کے ایک شخص کی حدیث",
-					"en": "Banw Sulaym"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1620,
-				"parentId": 14,
-				"names": {
-					"ar": "ابوجبیرہ بن ضحاک رضی اللہ تعالی",
-					"ur": "حضرت ابوجبیرہ بن ضحاک رضی اللہ تعالی کی حدیث",
-					"en": "Abu Jabyrah ibn Dahhak (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1621,
-				"parentId": 14,
-				"names": {
-					"ur": "بنواشجع کی ایک صحابی رضی اللہ تعالی کی روایت",
-					"en": "Banwashaja' (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1622,
-				"parentId": 14,
-				"names": {
-					"ar": "اغرمزنی رضی اللہ تعالی",
-					"ur": "حضرت اغرمزنی رضی اللہ تعالی کی حدیثیں",
-					"en": "Agharamazany (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1623,
-				"parentId": 14,
-				"names": {
-					"ar": "ایک مہاجر صحابی",
-					"ur": "ایک مہاجر صحابی کی روایت۔",
-					"en": "Mahajar"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1624,
-				"parentId": 14,
-				"names": {
-					"ar": "عرفجہ رضی اللہ تعالی",
-					"ur": "حضرت عرفجہ رضی اللہ تعالی کی حدیث",
-					"en": "Urfuja (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1625,
-				"parentId": 14,
-				"names": {
-					"ar": "عمارہ بن رویبہ رضی اللہ عنہ",
-					"ur": "عمارہ بن رویبہ رضی اللہ عنہ کی حدیث",
-					"en": "Umara ibn Rwybah (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1626,
-				"parentId": 14,
-				"names": {
-					"ar": "عروہ بن مضرس طائی رضی اللہ تعالی",
-					"ur": "حضرت عروہ بن مضرس طائی رضی اللہ تعالی کی حدیثیں",
-					"en": "Urwa ibn Madaras Tay (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1627,
-				"parentId": 14,
-				"names": {
-					"ar": "ابوحازم رضی اللہ تعالی",
-					"ur": "حضرت ابوحازم رضی اللہ تعالی کی حدیث",
-					"en": "Abu Hazam (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1628,
-				"parentId": 14,
-				"names": {
-					"ar": "صفوان زہری رضی اللہ تعالی",
-					"ur": "حضرت صفوان زہری رضی اللہ تعالی کی حدیثیں",
-					"en": "Safwan Zahary (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1629,
-				"parentId": 14,
-				"names": {
-					"ar": "سلیمان بن صرد رضی اللہ تعالی",
-					"ur": "حضرت سلیمان بن صرد رضی اللہ تعالی کی حدیثیں",
-					"en": "Sulayman ibn Surad (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1630,
-				"parentId": 14,
-				"names": {
-					"ur": "حضرت سلیمان بن صرد رضی اللہ تعالی اور خالد بن عرفطہ رضی اللہ تعالی کی اجتماعی حدیثیں",
-					"en": "Sulayman ibn Surad Khalid ibn 'arafatah Ajatama'y Hadythyn (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1631,
-				"parentId": 14,
-				"names": {
-					"ar": "عماربن یاسر رضی اللہ تعالی",
-					"ur": "حضرت عماربن یاسر رضی اللہ تعالی کی مرویات",
-					"en": "'amaraban Yasar (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1632,
-				"parentId": 14,
-				"names": {
-					"ar": "عبداللہ بن ثابت رضی اللہ تعالی",
-					"ur": "حضرت عبداللہ بن ثابت رضی اللہ تعالی کی حدیث",
-					"en": "Abdullah ibn Thabit (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1633,
-				"parentId": 14,
-				"names": {
-					"ar": "عیاض بن حمار رضی اللہ تعالی",
-					"ur": "حضرت عیاض بن حمار رضی اللہ تعالی کی حدیثیں",
-					"en": "'yad ibn Hamar (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1634,
-				"parentId": 14,
-				"names": {
-					"ar": "حنظلہ کاتب اسیدی رضی اللہ تعالی",
-					"ur": "حضرت حنظلہ کاتب اسیدی رضی اللہ تعالی کی حدیث",
-					"en": "Hanzala Katab Asydy (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1635,
-				"parentId": 14,
-				"names": {
-					"ar": "نعمان بن بشیر رضی اللہ تعالی",
-					"ur": "حضرت نعمان بن بشیر رضی اللہ تعالی کی مرویات",
-					"en": "Nu'man ibn Bashir (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1636,
-				"parentId": 14,
-				"names": {
-					"ar": "اسامہ بن شریک رضی اللہ تعالی",
-					"ur": "حضرت اسامہ بن شریک رضی اللہ تعالی کی حدیثیں",
-					"en": "Asamah ibn Sharyk (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1637,
-				"parentId": 14,
-				"names": {
-					"ar": "عمروبن حارث بن مصطق رضی اللہ تعالی",
-					"ur": "حضرت عمروبن حارث بن مصطق رضی اللہ تعالی کی حدیثیں",
-					"en": "Amr ibn Harith ibn Masataq (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1638,
-				"parentId": 14,
-				"names": {
-					"ar": "بن ضرارخزاعی رضی اللہ تعالی",
-					"ur": "حضرت بن ضرارخزاعی رضی اللہ تعالی کی حدیث",
-					"en": "ibn Dararakhaza'y (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1639,
-				"parentId": 14,
-				"names": {
-					"ar": "جراح اور ابوسنان اشجعی رضی اللہ تعالی",
-					"ur": "حضرت جراح اور ابوسنان اشجعی رضی اللہ تعالی کی حدیثیں",
-					"en": "Jarah Abu Sinan Ashja'i (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1640,
-				"parentId": 14,
-				"names": {
-					"ar": "قیس بن ابی غرزہرضی اللہ عنہ",
-					"ur": "حضرت قیس بن ابی غرزہرضی اللہ عنہ کی حدیث",
-					"en": "Qais ibn Abi Gharazaharady (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1641,
-				"parentId": 14,
-				"names": {
-					"ar": "براء بن عازب رضی اللہ تعالی",
-					"ur": "حضرت براء بن عازب رضی اللہ تعالی کی مرویات",
-					"en": "Bara ibn 'azab (RA)"
+					"ar": "شرید بن سوید ثقفی رضی اللہ تعالی",
+					"ur": "حضرت شرید بن سوید ثقفی رضی اللہ تعالی کی مرویات",
+					"en": "Sharyd ibn Suwayd Thaqafi (RA)"
 				},
 				"transliterated": true
 			},
@@ -13697,16 +13324,6 @@
 				"transliterated": true
 			},
 			{
-				"id": 1764,
-				"parentId": 15,
-				"names": {
-					"ar": "شرید بن سوید ثقفی رضی اللہ تعالی",
-					"ur": "حضرت شرید بن سوید ثقفی رضی اللہ تعالی کی مرویات",
-					"en": "Sharyd ibn Suwayd Thaqafi (RA)"
-				},
-				"transliterated": true
-			},
-			{
 				"id": 1765,
 				"parentId": 15,
 				"names": {
@@ -13735,6 +13352,2277 @@
 					"en": "Abu Mwsy Ash'ari (RA)"
 				},
 				"transliterated": true
+			},
+			{
+				"id": 14,
+				"parentId": null,
+				"names": {
+					"ar": "أَوَّلُ مُسْنَدِ الْكُوفِيِّينَ",
+					"en": "The Beginning of the Musnad of the Kufans",
+					"ur": "کوفہ والوں کی روایات"
+				}
+			},
+			{
+				"id": 1609,
+				"parentId": 14,
+				"names": {
+					"ar": "صفوان بن عسال مرادی رضی اللہ تعالی",
+					"ur": "حضرت صفوان بن عسال مرادی رضی اللہ تعالی کی حدیثیں",
+					"en": "Safwan ibn 'asal Marady (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1610,
+				"parentId": 14,
+				"names": {
+					"ar": "کعب بن عجرہ رضی اللہ تعالی",
+					"ur": "حضرت کعب بن عجرہ رضی اللہ تعالی کی حدیثیں",
+					"en": "Ka'b ibn 'ajarah (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1611,
+				"parentId": 14,
+				"names": {
+					"ar": "مغیرہ بن شعبہ رضی اللہ تعالی",
+					"ur": "حضرت مغیرہ بن شعبہ رضی اللہ تعالی کی حدیثیں",
+					"en": "Maghyrah ibn Sha'abah (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1612,
+				"parentId": 14,
+				"names": {
+					"ar": "عدی بن حاتم طائی رضی اللہ تعالی",
+					"ur": "حضرت عدی بن حاتم طائی رضی اللہ تعالی کی حدیثیں",
+					"en": "Adi ibn Hatam Tay (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1613,
+				"parentId": 14,
+				"names": {
+					"ar": "معن بن یزیدسلمی رضی اللہ تعالی",
+					"ur": "حضرت معن بن یزیدسلمی رضی اللہ تعالی کی حدیث",
+					"en": "Ma'an ibn Yzydasalamy (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1614,
+				"parentId": 14,
+				"names": {
+					"ar": "محمد بن حاطب رضی اللہ تعالی",
+					"ur": "حضرت محمد بن حاطب رضی اللہ تعالی کی حدیثیں",
+					"en": "Muhammad ibn Hatab (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1615,
+				"parentId": 14,
+				"names": {
+					"ur": "ایک شخص کی حدیث",
+					"en": "Hadith of an Unnamed Companion"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"anonymousNarrator": true
+			},
+			{
+				"id": 1616,
+				"parentId": 14,
+				"names": {
+					"ar": "ایک اور شخص",
+					"ur": "ایک اور شخص کی حدیث",
+					"en": "Hadith of an Unnamed Companion"
+				},
+				"anonymousNarrator": true
+			},
+			{
+				"id": 1617,
+				"parentId": 14,
+				"names": {
+					"ar": "سلمہ بن نعیم رضی اللہ تعالی",
+					"ur": "حضرت سلمہ بن نعیم رضی اللہ تعالی کی حدیث",
+					"en": "Salama ibn Nu'aym (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1618,
+				"parentId": 14,
+				"names": {
+					"ar": "عامربن شہر رضی اللہ تعالی",
+					"ur": "حضرت عامربن شہر رضی اللہ تعالی کی حدیثیں",
+					"en": "'amaraban Shahar (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1619,
+				"parentId": 14,
+				"names": {
+					"ur": "بنو سلیم کے ایک شخص کی حدیث",
+					"en": "Banw Sulaym"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1620,
+				"parentId": 14,
+				"names": {
+					"ar": "ابوجبیرہ بن ضحاک رضی اللہ تعالی",
+					"ur": "حضرت ابوجبیرہ بن ضحاک رضی اللہ تعالی کی حدیث",
+					"en": "Abu Jabyrah ibn Dahhak (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1621,
+				"parentId": 14,
+				"names": {
+					"ur": "بنواشجع کی ایک صحابی رضی اللہ تعالی کی روایت",
+					"en": "Banwashaja' (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1622,
+				"parentId": 14,
+				"names": {
+					"ar": "اغرمزنی رضی اللہ تعالی",
+					"ur": "حضرت اغرمزنی رضی اللہ تعالی کی حدیثیں",
+					"en": "Agharamazany (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1623,
+				"parentId": 14,
+				"names": {
+					"ar": "ایک مہاجر صحابی",
+					"ur": "ایک مہاجر صحابی کی روایت۔",
+					"en": "Mahajar"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1624,
+				"parentId": 14,
+				"names": {
+					"ar": "عرفجہ رضی اللہ تعالی",
+					"ur": "حضرت عرفجہ رضی اللہ تعالی کی حدیث",
+					"en": "Urfuja (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1625,
+				"parentId": 14,
+				"names": {
+					"ar": "عمارہ بن رویبہ رضی اللہ عنہ",
+					"ur": "عمارہ بن رویبہ رضی اللہ عنہ کی حدیث",
+					"en": "Umara ibn Rwybah (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1626,
+				"parentId": 14,
+				"names": {
+					"ar": "عروہ بن مضرس طائی رضی اللہ تعالی",
+					"ur": "حضرت عروہ بن مضرس طائی رضی اللہ تعالی کی حدیثیں",
+					"en": "Urwa ibn Madaras Tay (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1627,
+				"parentId": 14,
+				"names": {
+					"ar": "ابوحازم رضی اللہ تعالی",
+					"ur": "حضرت ابوحازم رضی اللہ تعالی کی حدیث",
+					"en": "Abu Hazam (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1628,
+				"parentId": 14,
+				"names": {
+					"ar": "صفوان زہری رضی اللہ تعالی",
+					"ur": "حضرت صفوان زہری رضی اللہ تعالی کی حدیثیں",
+					"en": "Safwan Zahary (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1629,
+				"parentId": 14,
+				"names": {
+					"ar": "سلیمان بن صرد رضی اللہ تعالی",
+					"ur": "حضرت سلیمان بن صرد رضی اللہ تعالی کی حدیثیں",
+					"en": "Sulayman ibn Surad (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1630,
+				"parentId": 14,
+				"names": {
+					"ur": "حضرت سلیمان بن صرد رضی اللہ تعالی اور خالد بن عرفطہ رضی اللہ تعالی کی اجتماعی حدیثیں",
+					"en": "Sulayman ibn Surad Khalid ibn 'arafatah Ajatama'y Hadythyn (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1631,
+				"parentId": 14,
+				"names": {
+					"ar": "عماربن یاسر رضی اللہ تعالی",
+					"ur": "حضرت عماربن یاسر رضی اللہ تعالی کی مرویات",
+					"en": "'amaraban Yasar (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1632,
+				"parentId": 14,
+				"names": {
+					"ar": "عبداللہ بن ثابت رضی اللہ تعالی",
+					"ur": "حضرت عبداللہ بن ثابت رضی اللہ تعالی کی حدیث",
+					"en": "Abdullah ibn Thabit (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1633,
+				"parentId": 14,
+				"names": {
+					"ar": "عیاض بن حمار رضی اللہ تعالی",
+					"ur": "حضرت عیاض بن حمار رضی اللہ تعالی کی حدیثیں",
+					"en": "'yad ibn Hamar (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1634,
+				"parentId": 14,
+				"names": {
+					"ar": "حنظلہ کاتب اسیدی رضی اللہ تعالی",
+					"ur": "حضرت حنظلہ کاتب اسیدی رضی اللہ تعالی کی حدیث",
+					"en": "Hanzala Katab Asydy (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1635,
+				"parentId": 14,
+				"names": {
+					"ar": "نعمان بن بشیر رضی اللہ تعالی",
+					"ur": "حضرت نعمان بن بشیر رضی اللہ تعالی کی مرویات",
+					"en": "Nu'man ibn Bashir (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1636,
+				"parentId": 14,
+				"names": {
+					"ar": "اسامہ بن شریک رضی اللہ تعالی",
+					"ur": "حضرت اسامہ بن شریک رضی اللہ تعالی کی حدیثیں",
+					"en": "Asamah ibn Sharyk (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1637,
+				"parentId": 14,
+				"names": {
+					"ar": "عمروبن حارث بن مصطق رضی اللہ تعالی",
+					"ur": "حضرت عمروبن حارث بن مصطق رضی اللہ تعالی کی حدیثیں",
+					"en": "Amr ibn Harith ibn Masataq (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1638,
+				"parentId": 14,
+				"names": {
+					"ar": "بن ضرارخزاعی رضی اللہ تعالی",
+					"ur": "حضرت بن ضرارخزاعی رضی اللہ تعالی کی حدیث",
+					"en": "ibn Dararakhaza'y (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1639,
+				"parentId": 14,
+				"names": {
+					"ar": "جراح اور ابوسنان اشجعی رضی اللہ تعالی",
+					"ur": "حضرت جراح اور ابوسنان اشجعی رضی اللہ تعالی کی حدیثیں",
+					"en": "Jarah Abu Sinan Ashja'i (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1640,
+				"parentId": 14,
+				"names": {
+					"ar": "قیس بن ابی غرزہرضی اللہ عنہ",
+					"ur": "حضرت قیس بن ابی غرزہرضی اللہ عنہ کی حدیث",
+					"en": "Qais ibn Abi Gharazaharady (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1641,
+				"parentId": 14,
+				"names": {
+					"ar": "براء بن عازب رضی اللہ تعالی",
+					"ur": "حضرت براء بن عازب رضی اللہ تعالی کی مرویات",
+					"en": "Bara ibn 'azab (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 17,
+				"parentId": null,
+				"names": {
+					"ar": "مُسْنَدُ الْأَنْصَارِ رَضِيَ اللَّهُ عَنْهُمْ",
+					"en": "Musnad of the Ansar",
+					"ur": "انصار صحابہ کی روایات"
+				}
+			},
+			{
+				"id": 1968,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو قتادہ الانصاری رضی اللہ عنہ",
+					"ur": "ابو قتادہ الانصاری رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Qatada al-Ansari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1873,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو المنذر، ابی بن کعب رضی اللہ عنہ",
+					"ur": "ابو المنذر، ابی بن کعب رضی اللہ عنہ کی روایات",
+					"en": "Abu Alamanadhar Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1874,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو ایوب الانصاری رضی اللہ عنہ",
+					"ur": "حضرت ابو ایوب الانصاری رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Ayyub al-Ansari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1875,
+				"parentId": 17,
+				"names": {
+					"ar": "عبادہ بن الصامت کی احادیث ابی بن کعب سے مروی",
+					"ur": "عبادہ بن الصامت کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
+					"en": "Hadiths of Ubada ibn Alasamat, narrated from Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1876,
+				"parentId": 17,
+				"names": {
+					"ar": "ابوہریرہ الدوسی کی احادیث ابی بن کعب سے مروی",
+					"ur": "ابوہریرہ الدوسی کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
+					"en": "Hadiths of Abu Hurayrah al-Dawsi, narrated from Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1877,
+				"parentId": 17,
+				"names": {
+					"ar": "رافع بن رفاعہ کی احادیث ابی بن کعب سے مروی",
+					"ur": "رافع بن رفاعہ کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
+					"en": "Hadiths of Rafi ibn Rifa'a, narrated from Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1878,
+				"parentId": 17,
+				"names": {
+					"ar": "جابر بن عبداللہ کی احادیث ابی بن کعب سے مروی",
+					"ur": "جابر بن عبداللہ کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
+					"en": "Hadiths of Jabir ibn Abdullah, narrated from Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1879,
+				"parentId": 17,
+				"names": {
+					"ar": "سہل بن سعد کی احادیث ابی بن کعب سے مروی",
+					"ur": "سہل بن سعد کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
+					"en": "Hadiths of Sahl ibn Sa'd, narrated from Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1880,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن عمرو بن العاص کی احادیث ابی بن کعب سے مروی",
+					"ur": "عبداللہ بن عمرو بن العاص کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
+					"en": "Hadiths of Abdullah ibn Amr ibn al-As, narrated from Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1881,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن عباس کی احادیث ابی بن کعب سے مروی",
+					"ur": "عبداللہ بن عباس کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
+					"en": "Hadiths of Abdullah ibn Abbas, narrated from Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1882,
+				"parentId": 17,
+				"names": {
+					"ar": "انس بن مالک کی احادیث ابی بن کعب رضی اللہ عنہ",
+					"ur": "انس بن مالک کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
+					"en": "Anas ibn Malik Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1883,
+				"parentId": 17,
+				"names": {
+					"ar": "عبد الرحمن بن ابزی کی احادیث ابی بن کعب رضی اللہ عنہ",
+					"ur": "عبد الرحمن بن ابزی کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
+					"en": "Abd al-Rahman ibn Abazy Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1884,
+				"parentId": 17,
+				"names": {
+					"ar": "سلیمان بن صرد کی احادیث ابی بن کعب سے مروی",
+					"ur": "سلیمان بن صرد کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
+					"en": "Hadiths of Sulayman ibn Surad, narrated from Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1885,
+				"parentId": 17,
+				"names": {
+					"ar": "عبد الرحمن بن اسود کی احادیث ابی بن کعب سے مروی",
+					"ur": "عبد الرحمن بن اسود کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
+					"en": "Hadiths of Abd al-Rahman ibn Aswad, narrated from Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1886,
+				"parentId": 17,
+				"names": {
+					"ar": "سوید بن غفلہ کی احادیث ابی بن کعب سے مروی",
+					"ur": "سوید بن غفلہ کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
+					"en": "Hadiths of Suwayd ibn Ghafalah, narrated from Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1887,
+				"parentId": 17,
+				"names": {
+					"ar": "عبد الرحمن بن ابی لیلیٰ کی ابی بن کعب رضی اللہ عنہ",
+					"ur": "عبد الرحمن بن ابی لیلیٰ کی ابی بن کعب رضی اللہ عنہ سے مرویات",
+					"en": "Abd al-Rahman ibn Abi Lyly Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1888,
+				"parentId": 17,
+				"names": {
+					"ar": "انس بن مالک کی بقیہ حدیث ابی بن کعب رضی اللہ عنہ",
+					"ur": "انس بن مالک کی بقیہ حدیث ابی بن کعب رضی اللہ عنہ سے مرویات",
+					"en": "Anas ibn Malik Baqyh Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1889,
+				"parentId": 17,
+				"names": {
+					"ar": "زر بن حبیش کی احادیث ابی بن کعب رضی اللہ عنہ",
+					"ur": "زر بن حبیش کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
+					"en": "Zar ibn Habysh Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1890,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو عثمان النہدی کی احادیث ابی بن کعب رضی اللہ عنہ",
+					"ur": "ابو عثمان النہدی کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
+					"en": "Abu Uthman Alanahady Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1891,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو العالیہ الریحی کی احادیث ابی بن کعب رضی اللہ عنہ",
+					"ur": "ابو العالیہ الریحی کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
+					"en": "Abu Ala'alyh Alaryhy Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1892,
+				"parentId": 17,
+				"names": {
+					"ar": "عطی بن دمرہ السعدی کی احادیث ابی بن کعب کی سند سے",
+					"ur": "عطی بن دمرہ السعدی کی احادیث ابی بن کعب کی سند سے رضی اللہ عنہما",
+					"en": "'aty ibn Damarah al-Sa'di Ubay ibn Ka'b Sanad"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1893,
+				"parentId": 17,
+				"names": {
+					"ar": "طفیل بن ابی بن کعب کی اپنے والد سے روایت ہے کہ",
+					"ur": "طفیل بن ابی بن کعب کی اپنے والد سے روایت ہے کہ رضی اللہ عنہ",
+					"en": "Tufayl ibn Ubay ibn Ka'b"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1894,
+				"parentId": 17,
+				"names": {
+					"ur": "محمد بن ابی بن کعب رضی اللہ عنہ اپنے والد سے روایت کرتے ہیں کہ اللہ ان سے راضی ہے۔",
+					"en": "Muhammad ibn Ubay ibn Ka'b Karaty Rady Hy (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1895,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن حارث کی احادیث ابی بن کعب رضی اللہ عنہ",
+					"ur": "عبداللہ بن حارث کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
+					"en": "Abdullah ibn Harith Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1896,
+				"parentId": 17,
+				"names": {
+					"ar": "قیس بن عباد کی احادیث ابی بن کعب رضی اللہ عنہ",
+					"ur": "قیس بن عباد کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
+					"en": "Qais ibn Abbad Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1897,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو بصیر العابدی اور ان کے بیٹے عبداللہ بن ابی بصیر کی احادیث ابی بن کعب رضی اللہ عنہ",
+					"ur": "ابو بصیر العابدی اور ان کے بیٹے عبداللہ بن ابی بصیر کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات۔",
+					"en": "Abu Basyr Ala'abady Byty Abdullah ibn Abi Basyr Ubay ibn Ka'b (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1898,
+				"parentId": 17,
+				"names": {
+					"ur": "وہ روایات جو دیگرمشائخ نے ان سے نقل کی ہیں۔",
+					"en": "Wh Dygaramashakh Naqal Hyn"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1899,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو ذر غفاری رضی اللہ عنہ",
+					"ur": "حضرت ابو ذر غفاری رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Dharr Ghifari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1900,
+				"parentId": 17,
+				"names": {
+					"ur": "زید بن ثابت رضی اللہ عنہ سے روایات",
+					"en": "Zayd ibn Thabit (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1901,
+				"parentId": 17,
+				"names": {
+					"ar": "زید بن خالد الجہنی رضی اللہ عنہ",
+					"ur": "زید بن خالد الجہنی رضی اللہ عنہ کی روایات۔",
+					"en": "Zayd ibn Khalid al-Juhani (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1902,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو درداء رضی اللہ عنہ",
+					"ur": "حضرت ابو درداء رضی اللہ عنہ کی بقیہ احادیث",
+					"en": "Abu Darda (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1903,
+				"parentId": 17,
+				"names": {
+					"ur": "اسامہ بن زید رضی اللہ عنہ کی احادیث رسول اللہ صلی اللہ علیہ وسلم کی محبت کے بارے میں ہے۔",
+					"en": "Asamah ibn Zayd Mahabat Bary Hy (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1904,
+				"parentId": 17,
+				"names": {
+					"ur": "خارجہ بن الصلت کی احادیث اپنے چچا سے مرویات کہ خدا ان سے راضی ہو",
+					"en": "Hadiths of Kharajah ibn Alasalat, narrated from Chacha"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1905,
+				"parentId": 17,
+				"names": {
+					"ar": "اشعث بن قیس الکندی رحمہ اللہ",
+					"ur": "اشعث بن قیس الکندی رحمہ اللہ کی روایات۔",
+					"en": "Asha'ath ibn Qais al-Kindi Rahamah (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1906,
+				"parentId": 17,
+				"names": {
+					"ar": "خزیمہ بن ثابت رضی اللہ عنہ",
+					"ur": "خزیمہ بن ثابت رضی اللہ عنہ کی روایات۔",
+					"en": "Khazymah ibn Thabit (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1907,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو بشیر الانصاری رضی اللہ عنہ",
+					"ur": "ابو بشیر الانصاری رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Bashir al-Ansari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1908,
+				"parentId": 17,
+				"names": {
+					"ar": "ہزارہ کی روایات",
+					"ur": "ہزارہ کی روایات، رضی اللہ عنہ",
+					"en": "Narrations of Hazarah"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1909,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو واقد لیثی رضی اللہ عنہ",
+					"ur": "ابو واقد لیثی رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Waqad Lythy (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1910,
+				"parentId": 17,
+				"names": {
+					"ar": "سفیان بن ابی زہیر رضی اللہ عنہ",
+					"ur": "سفیان بن ابی زہیر رضی اللہ عنہ کی روایات۔",
+					"en": "Sufyan ibn Abi Zahyr (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1911,
+				"parentId": 17,
+				"names": {
+					"ar": "ابوعبدالرحمن سفینہ",
+					"ur": "حضرت ابوعبدالرحمن سفینہ (رض) کی احادیث",
+					"en": "Abu Abdur Rahman Safynah"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1912,
+				"parentId": 17,
+				"names": {
+					"ar": "سعید بن سعد بن عبادہ رضی اللہ عنہ",
+					"ur": "سعید بن سعد بن عبادہ رضی اللہ عنہ کی روایات۔",
+					"en": "Sa'eed ibn Sa'd ibn Ubada (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1913,
+				"parentId": 17,
+				"names": {
+					"ar": "حسن بن ثابت رضی اللہ عنہ",
+					"ur": "حسن بن ثابت رضی اللہ عنہ کی روایات۔",
+					"en": "Hasan ibn Thabit (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1914,
+				"parentId": 17,
+				"names": {
+					"ar": "حدیث ابی لحم کے آزاد کردہ غلام عمیر رضی اللہ عنہ",
+					"ur": "حدیث ابی لحم کے آزاد کردہ غلام عمیر رضی اللہ عنہ سے مرویات",
+					"en": "Abi Laham Aazad Karadah Ghalam 'amyr (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1915,
+				"parentId": 17,
+				"names": {
+					"ur": "محمد بن زید کہتے ہیں: میں نے اسے پاگلوں کو اس کے ساتھ شراب پلاتے ہوئے پکڑا۔",
+					"en": "Muhammad ibn Zayd Kahaty Hyn Asy Pagalwn As Satah Sharab Palaty Hwy Pakara"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1916,
+				"parentId": 17,
+				"names": {
+					"ar": "عمرو بن الحمق الخزاعی رضی اللہ عنہ",
+					"ur": "عمرو بن الحمق الخزاعی رضی اللہ عنہ کی احادیث",
+					"en": "Amr ibn Alahamaq al-Khuza'i (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1917,
+				"parentId": 17,
+				"names": {
+					"ur": "صحابہ کرام رضی اللہ عنہ میں سے ایک شخص کی احادیث",
+					"en": "Karam (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1918,
+				"parentId": 17,
+				"names": {
+					"ar": "حدیث بشیر ابن الخصاصی السدوسی",
+					"ur": "حدیث بشیر ابن الخصاصی السدوسی رضی اللہ عنہ",
+					"en": "Bashir ibn Alakhasasy Alasadwsy"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1919,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن حنظلہ",
+					"ur": "عبداللہ بن حنظلہ کی احادیث",
+					"en": "Abdullah ibn Hanzala"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1920,
+				"parentId": 17,
+				"names": {
+					"ar": "مالک بن عبداللہ الخثمی رضی اللہ عنہ",
+					"ur": "مالک بن عبداللہ الخثمی رضی اللہ عنہ کی روایات۔",
+					"en": "Malik ibn Abdullah Alakhathamy (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1921,
+				"parentId": 17,
+				"names": {
+					"ar": "حدیث حلب الطائی",
+					"ur": "حدیث حلب الطائی رضی اللہ عنہ",
+					"en": "Halab Alatay"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1922,
+				"parentId": 17,
+				"names": {
+					"ar": "مطر بن اوخمس کی روایات",
+					"ur": "مطر بن اوخمس کی روایات، رضی اللہ عنہ",
+					"en": "Narrations of Matar ibn Awkhamas"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1923,
+				"parentId": 17,
+				"names": {
+					"ar": "میمون بن سنباد کی روایات",
+					"ur": "میمون بن سنباد کی روایات، رضی اللہ عنہ",
+					"en": "Narrations of Mymwn ibn Sanabad"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1924,
+				"parentId": 17,
+				"names": {
+					"ar": "معاذ بن جبل رضی اللہ عنہ",
+					"ur": "معاذ بن جبل رضی اللہ عنہ کی روایات۔",
+					"en": "Mu'adh ibn Jabal (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1925,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو امامہ باہلی",
+					"ur": "ابو امامہ باہلی کی احادیث",
+					"en": "Abu Umm Umm H Bahaly"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1926,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو ہند الداری رضی اللہ عنہ",
+					"ur": "ابو ہند الداری رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Hanad Aladary (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1927,
+				"parentId": 17,
+				"names": {
+					"ur": "جبیر بن نفیر کی احادیث صحابہ میں سے ایک شخص سے مرویات۔",
+					"en": "Hadiths of Jabyr ibn Nafyr, narrated from an unnamed narrator"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1928,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن السعدی رضی اللہ عنہ",
+					"ur": "عبداللہ بن السعدی رضی اللہ عنہ کی روایات۔",
+					"en": "Abdullah ibn al-Sa'di (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1929,
+				"parentId": 17,
+				"names": {
+					"ur": "بنو نمیر کی ایک بوڑھی عورت کی روایات  رضی اللہ عنہ",
+					"en": "Banw Namyr Bwrahy 'wrat (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1930,
+				"parentId": 17,
+				"names": {
+					"ar": "ایک انصاری عورت کی روایات",
+					"ur": "ایک انصاری عورت کی روایات رضی اللہ عنہا",
+					"en": "Narrations of al-Ansari 'wrat"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1931,
+				"parentId": 17,
+				"names": {
+					"ar": "سلیمان بن عمرو بن الاحواس",
+					"ur": "سلیمان بن عمرو بن الاحواس کی اپنی والدہ سے روایت",
+					"en": "Sulayman ibn Amr ibn Alahwas"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1932,
+				"parentId": 17,
+				"names": {
+					"ur": "ایک عورت کی احادیث جو رسول اللہ صلی اللہ علیہ وسلم کی پڑوسی تھی۔",
+					"en": "'wrat Parwsy Tahy (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1933,
+				"parentId": 17,
+				"names": {
+					"ur": "سعدی کی احادیث اپنے والد سے اور اپنے چچا کی روایت سے کہ خدا ان سے راضی ہو",
+					"en": "Sa'ady Chacha Khada Rady"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1934,
+				"parentId": 17,
+				"names": {
+					"ur": "ازواج مطہرات کی روایات، اللہ تعالیٰ آپ پر رحم فرمائے",
+					"en": "Azwaj Mataharat Rwayat Ta'aly Aap Raham Faramay (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1935,
+				"parentId": 17,
+				"names": {
+					"ur": "ایک عورت کی احادیث، رضی اللہ عنہ",
+					"en": "'wrat Ahadyth (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1936,
+				"parentId": 17,
+				"names": {
+					"ar": "رسول اللہ صلی اللہ علیہ وسلم کے بعض صحابہ",
+					"ur": "رسول اللہ صلی اللہ علیہ وسلم کے بعض صحابہ کی احادیث",
+					"en": "Hadith of an Unnamed Companion"
+				},
+				"anonymousNarrator": true
+			},
+			{
+				"id": 1937,
+				"parentId": 17,
+				"names": {
+					"ur": "رسول اللہ صلی اللہ علیہ وسلم کی بعض ازواج مطہرات کی احادیث",
+					"en": "Azwaj Mataharat (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1938,
+				"parentId": 17,
+				"names": {
+					"ur": "خثعم کے ایک آدمی کی احادیث، رضی اللہ عنہ",
+					"en": "Khatha'am Ahadyth (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1939,
+				"parentId": 17,
+				"names": {
+					"ur": "ایک آدمی کی احادیث، رضی اللہ عنہ",
+					"en": "Ahadyth (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1940,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن مغفل المزنی رضی اللہ عنہ",
+					"ur": "عبداللہ بن مغفل المزنی رضی اللہ عنہ کی روایات۔",
+					"en": "Abdullah ibn Mughaffal al-Muzani (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1941,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو مسعود عقبہ بن عمرو الانصاری رضی اللہ عنہ",
+					"ur": "ابو مسعود عقبہ بن عمرو الانصاری رضی اللہ عنہ کی احادیث",
+					"en": "Abu Mas'ud Uqba ibn Amr al-Ansari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1942,
+				"parentId": 17,
+				"names": {
+					"ur": "اور ثوبان رضی اللہ عنہ کی احادیث میں ہے:",
+					"en": "Thwban Hy (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1943,
+				"parentId": 17,
+				"names": {
+					"ar": "سعد بن عبادہ رضی اللہ عنہ",
+					"ur": "سعد بن عبادہ رضی اللہ عنہ کی روایات۔",
+					"en": "Sa'd ibn Ubada (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1944,
+				"parentId": 17,
+				"names": {
+					"ar": "سلمہ بن نعیم رضی اللہ عنہ",
+					"ur": "سلمہ بن نعیم رضی اللہ عنہ کی روایات۔",
+					"en": "Salama ibn Nu'aym (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1945,
+				"parentId": 17,
+				"names": {
+					"ar": "رایا کی احادیث",
+					"ur": "رایا کی احادیث، رضی اللہ عنہ",
+					"en": "Raya"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1946,
+				"parentId": 17,
+				"names": {
+					"ar": "ابوعبدالرحمٰن فہری رضی اللہ عنہ",
+					"ur": "ابوعبدالرحمٰن فہری رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Abdur Rahman Fahary (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1947,
+				"parentId": 17,
+				"names": {
+					"ar": "نعیم بن حمار الغطفانی رضی اللہ عنہ",
+					"ur": "نعیم بن حمار الغطفانی رضی اللہ عنہ کی روایات",
+					"en": "Nu'aym ibn Hamar Alaghatafany (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1948,
+				"parentId": 17,
+				"names": {
+					"ar": "عمرو بن امیہ الدمری رضی اللہ عنہ",
+					"ur": "عمرو بن امیہ الدمری رضی اللہ عنہ کی روایات۔",
+					"en": "Amr ibn Umayya Aladamary (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1949,
+				"parentId": 17,
+				"names": {
+					"ar": "ابن ہوالہ رضی اللہ عنہ",
+					"ur": "ابن ہوالہ رضی اللہ عنہ کی روایات۔",
+					"en": "ibn Hwalah (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1950,
+				"parentId": 17,
+				"names": {
+					"ar": "عقبہ بن مالک رضی اللہ عنہ",
+					"ur": "عقبہ بن مالک رضی اللہ عنہ کی روایات۔",
+					"en": "Uqba ibn Malik (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1951,
+				"parentId": 17,
+				"names": {
+					"ar": "سہل بن حنظلیہ رضی اللہ عنہ",
+					"ur": "سہل بن حنظلیہ رضی اللہ عنہ کی احادیث",
+					"en": "Sahl ibn Hanazalyh (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1952,
+				"parentId": 17,
+				"names": {
+					"ar": "عمرو بن الفضاء رضی اللہ عنہ",
+					"ur": "عمرو بن الفضاء رضی اللہ عنہ کی روایات۔",
+					"en": "Amr ibn Alafada (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1953,
+				"parentId": 17,
+				"names": {
+					"ar": "محمد بن عبداللہ بن جحش رضی اللہ عنہ",
+					"ur": "محمد بن عبداللہ بن جحش رضی اللہ عنہ کی روایات۔",
+					"en": "Muhammad ibn Abdullah ibn Jahash (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1954,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو ہاشم بن عتبہ رضی اللہ عنہ",
+					"ur": "ابو ہاشم بن عتبہ رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Hasham ibn Utba (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1955,
+				"parentId": 17,
+				"names": {
+					"ar": "غطیف بن حارث رضی اللہ عنہ",
+					"ur": "غطیف بن حارث رضی اللہ عنہ کی روایات۔",
+					"en": "Ghatyf ibn Harith (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1956,
+				"parentId": 17,
+				"names": {
+					"ar": "جعفر بن ابی طالب کی احادیث جو رسول اللہ صلی اللہ علیہ وسلم کی زوجہ ام سلمہ رضی اللہ عنہا",
+					"ur": "جعفر بن ابی طالب کی احادیث جو رسول اللہ صلی اللہ علیہ وسلم کی زوجہ ام سلمہ رضی اللہ عنہا کی روایات۔",
+					"en": "Ja'afar ibn Abi Talib Umm Salama (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1957,
+				"parentId": 17,
+				"names": {
+					"ar": "خالد بن عرفات رضی اللہ عنہ",
+					"ur": "خالد بن عرفات رضی اللہ عنہ کی روایات۔",
+					"en": "Khalid ibn 'arafat (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1958,
+				"parentId": 17,
+				"names": {
+					"ar": "طارق بن سوید رضی اللہ عنہ",
+					"ur": "طارق بن سوید رضی اللہ عنہ کی روایات۔",
+					"en": "Tariq ibn Suwayd (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1959,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن ہشام رضی اللہ عنہ",
+					"ur": "عبداللہ بن ہشام رضی اللہ عنہ کی روایات۔",
+					"en": "Abdullah ibn Hisham (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1960,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن سعد رضی اللہ عنہ",
+					"ur": "عبداللہ بن سعد رضی اللہ عنہ کی روایات۔",
+					"en": "Abdullah ibn Sa'd (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1961,
+				"parentId": 17,
+				"names": {
+					"ur": "ایک آدمی کی احادیث، اللہ تعالیٰ اس سے راضی ہو۔",
+					"en": "Ahadyth Ta'aly As Rady Hw (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1962,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو امیہ رضی اللہ عنہ",
+					"ur": "حضرت ابو امیہ رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Umayya (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1963,
+				"parentId": 17,
+				"names": {
+					"ur": "ابو الصوار کی اپنے چچا سے روایت ہے کہ اللہ تعالیٰ ان سے راضی ہوں",
+					"en": "Abu Alaswar Chacha Ta'aly Rady Hwn (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1964,
+				"parentId": 17,
+				"names": {
+					"ar": "ابوشہم کی روایات",
+					"ur": "ابوشہم کی روایات، رضی اللہ عنہ",
+					"en": "Narrations of Abu Shaham"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1965,
+				"parentId": 17,
+				"names": {
+					"ur": "ایک انوکھی حدیث، اللہ اس سے راضی ہو۔",
+					"en": "Anwkahy Hadyth As Rady Hw (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1966,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو عقبہ رضی اللہ عنہ",
+					"ur": "حضرت ابو عقبہ رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Uqba (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1967,
+				"parentId": 17,
+				"names": {
+					"ar": "ایک بے نام شخص کی احادیث",
+					"ur": "ایک بے نام شخص کی احادیث، رضی اللہ عنہ",
+					"en": "By"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1969,
+				"parentId": 17,
+				"names": {
+					"ar": "عطیہ القرازی رضی اللہ عنہ",
+					"ur": "عطیہ القرازی رضی اللہ عنہ کی احادیث",
+					"en": "Atiyya Alaqarazy (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1970,
+				"parentId": 17,
+				"names": {
+					"ar": "صفوان بن المطلع السلمی رضی اللہ عنہ",
+					"ur": "صفوان بن المطلع السلمی رضی اللہ عنہ کی احادیث",
+					"en": "Safwan ibn Alamatala' al-Sulami (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1971,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن خبیب رضی اللہ عنہ",
+					"ur": "عبداللہ بن خبیب رضی اللہ عنہ کی روایات۔",
+					"en": "Abdullah ibn Khubayb (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1972,
+				"parentId": 17,
+				"names": {
+					"ar": "حارث بن عقیش رضی اللہ عنہ",
+					"ur": "حارث بن عقیش رضی اللہ عنہ کی روایات۔",
+					"en": "Harith ibn 'aqysh (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1973,
+				"parentId": 17,
+				"names": {
+					"ar": "عبادہ بن صامت رضی اللہ عنہ",
+					"ur": "عبادہ بن صامت رضی اللہ عنہ کی روایات۔",
+					"en": "Ubada ibn Samat (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1974,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو مالک سہل بن سعد السعدی رضی اللہ عنہ",
+					"ur": "ابو مالک سہل بن سعد السعدی رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Malik Sahl ibn Sa'd al-Sa'di (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1976,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو زید عمرو بن اخطب رضی اللہ عنہ",
+					"ur": "ابو زید عمرو بن اخطب رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Zayd Amr ibn Akhatab (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1977,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو مالک اشعری رضی اللہ عنہ",
+					"ur": "ابو مالک اشعری رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Malik Ash'ari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1978,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن مالک ابن بوہینہ رضی اللہ عنہ",
+					"ur": "عبداللہ بن مالک ابن بوہینہ رضی اللہ عنہ کی روایات۔",
+					"en": "Abdullah ibn Malik ibn Bwhynah (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1979,
+				"parentId": 17,
+				"names": {
+					"ar": "بریدہ الاسلمی رضی اللہ عنہ",
+					"ur": "بریدہ الاسلمی رضی اللہ عنہ کی احادیث",
+					"en": "Barydah al-Aslami (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1980,
+				"parentId": 17,
+				"names": {
+					"ur": "رسول اللہ صلی اللہ علیہ وسلم کے صحابہ سے مردوں کی احادیث",
+					"en": "Maradwn (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1981,
+				"parentId": 17,
+				"names": {
+					"ur": "ابی الحکم الغفاری کی بیٹی کی احادیث، خدا ان سے راضی ہو",
+					"en": "Abi al-Hakam al-Ghifari Byty Ahadyth Khada Rady"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1982,
+				"parentId": 17,
+				"names": {
+					"ur": "بنو سلط کے ایک شیخ کی روایات کہ خدا ان سے راضی ہے۔",
+					"en": "Banw Salat Shaykh Khada Rady Hy"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1983,
+				"parentId": 17,
+				"names": {
+					"ar": "سلیمان بن عمرو بن الاحواس کی اپنی والدہ سے روایت",
+					"ur": "سلیمان بن عمرو بن الاحواس کی اپنی والدہ سے روایت رضی اللہ عنہما",
+					"en": "Narration of Sulayman ibn Amr ibn Alahwas from his/her mother"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1984,
+				"parentId": 17,
+				"names": {
+					"ur": "بنو سلیم کی ایک عورت کی روایات  رضی اللہ عنہ",
+					"en": "Banw Sulaym 'wrat (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1985,
+				"parentId": 17,
+				"names": {
+					"ur": "رسول اللہ صلی اللہ علیہ وسلم کی بعض ازواج مطہرات کی احادیث، اللہ تعالیٰ ان سے راضی ہو",
+					"en": "Azwaj Mataharat Ahadyth Ta'aly Rady (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1986,
+				"parentId": 17,
+				"names": {
+					"ur": "ایک عورت کی روایات  رضی اللہ عنہ",
+					"en": "'wrat (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1987,
+				"parentId": 17,
+				"names": {
+					"ur": "خزاعہ کے ایک آدمی کی روایات، اللہ تعالیٰ اس سے راضی ہوں۔",
+					"en": "Khaza'ah Rwayat Ta'aly As Rady Hwn (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1988,
+				"parentId": 17,
+				"names": {
+					"ur": "ثقیف کے ایک آدمی کی اپنے والد سے روایت رضی اللہ عنہما",
+					"en": "Thaqyf (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1989,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو جبیرۃ الضحاک بن الضحاک کی اپنے جرنیل سے روایت ہے کہ",
+					"ur": "ابو جبیرۃ الضحاک بن الضحاک کی اپنے جرنیل سے روایت ہے کہ رضی اللہ عنہ",
+					"en": "Abu Jabyr al-Dahhak ibn al-Dahhak Jaranyl"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1990,
+				"parentId": 17,
+				"names": {
+					"ar": "یحییٰ بن حسین بن عروہ کی اپنی نانی سے روایت",
+					"ur": "یحییٰ بن حسین بن عروہ کی اپنی نانی سے روایت رضی اللہ عنہما",
+					"en": "Narration of Yhyy ibn Hasyn ibn Urwa from his/her maternal grandmother"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1991,
+				"parentId": 17,
+				"names": {
+					"ar": "یحییٰ بن حسین کی اپنی والدہ سے روایت",
+					"ur": "یحییٰ بن حسین کی اپنی والدہ سے روایت رضی اللہ عنہما",
+					"en": "Narration of Yhyy ibn Hasyn from his/her mother"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1992,
+				"parentId": 17,
+				"names": {
+					"ur": "حذیفہ بن الیمان رضی اللہ عنہ سے روایات",
+					"en": "Hudhayfa ibn Alyman (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1993,
+				"parentId": 17,
+				"names": {
+					"ur": "رسول اللہ صلی اللہ علیہ وسلم کے اصحاب میں سے ایک آدمی کی روایات۔",
+					"en": "Rwayat (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1994,
+				"parentId": 17,
+				"names": {
+					"ar": "الحکم بن سفیان یا سفیان بن الحکم رضی اللہ عنہ",
+					"ur": "الحکم بن سفیان یا سفیان بن الحکم رضی اللہ عنہ کی احادیث",
+					"en": "al-Hakam ibn Sufyan Sufyan ibn al-Hakam (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1995,
+				"parentId": 17,
+				"names": {
+					"ur": "انصار میں سے ایک شخص کی روایات، اللہ تعالیٰ اس سے راضی ہوں۔",
+					"en": "Anasar Rwayat Ta'aly As Rady Hwn (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1996,
+				"parentId": 17,
+				"names": {
+					"ur": "ذی مخمر کی روایات جو کہ رسول اللہ صلی اللہ علیہ وسلم کے صحابہ میں سے ایک شخص ہے۔",
+					"en": "Dhi Makhamar Hy (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1997,
+				"parentId": 17,
+				"names": {
+					"ar": "مسعود ابن الجمعہ کی بہن کی احادیث، ان کے والد سے",
+					"ur": "مسعود ابن الجمعہ کی بہن کی احادیث، ان کے والد سے، رضی اللہ عنہ",
+					"en": "Mas'ud ibn Alajama'ah Bahan Ahadyth"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 1998,
+				"parentId": 17,
+				"names": {
+					"ur": "بنو غفار کے ایک شخص کی روایات کہ اللہ اس سے راضی ہے۔",
+					"en": "Banw Ghafar As Rady Hy (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 1999,
+				"parentId": 17,
+				"names": {
+					"ar": "ایک شکست خوردہ شخص کی روایات",
+					"ur": "ایک شکست خوردہ شخص کی روایات  رضی اللہ عنہ",
+					"en": "Narrations of Shakasat Khwradah"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2000,
+				"parentId": 17,
+				"names": {
+					"ar": "ایک شیخ کی احادیث اصحاب رسول اللہ صلی اللہ علیہ وسلم",
+					"ur": "ایک شیخ کی احادیث اصحاب رسول اللہ صلی اللہ علیہ وسلم سے مرویات۔",
+					"en": "Shaykh (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2001,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو حامد السعدی رضی اللہ عنہ",
+					"ur": "ابو حامد السعدی رضی اللہ عنہ کی احادیث",
+					"en": "Abu Hamad al-Sa'di (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2002,
+				"parentId": 17,
+				"names": {
+					"ur": "مواقب کی روایات، اللہ تعالیٰ ان سے خوش ہوں۔",
+					"en": "Mwaqab Rwayat Ta'aly Khwsh Hwn (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 2003,
+				"parentId": 17,
+				"names": {
+					"ar": "بنو سلمہ کے ایک گروہ کی روایات کہ",
+					"ur": "بنو سلمہ کے ایک گروہ کی روایات کہ رضی اللہ عنہ",
+					"en": "Banw Salama Garwh"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2004,
+				"parentId": 17,
+				"names": {
+					"ar": "تحفۃ الغفاری کی احادیث",
+					"ur": "تحفۃ الغفاری کی احادیث، رضی اللہ عنہ",
+					"en": "Tahaf al-Ghifari"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2005,
+				"parentId": 17,
+				"names": {
+					"ar": "محمود بن لبید رضی اللہ عنہ",
+					"ur": "محمود بن لبید رضی اللہ عنہ کی روایات۔",
+					"en": "Mahamwd ibn Labyd (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2006,
+				"parentId": 17,
+				"names": {
+					"ur": "انصار میں سے ایک شخص کی روایات کہ اللہ تعالیٰ اس سے راضی ہیں۔",
+					"en": "Anasar Ta'aly As Rady Hyn (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 2007,
+				"parentId": 17,
+				"names": {
+					"ur": "محمود بن لبید یا محمود بن ربیع کی احادیث، خدا ان سے راضی ہو۔",
+					"en": "Mahamwd ibn Labyd Mahamwd ibn Raby' Ahadyth Khada Rady Hw"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 2008,
+				"parentId": 17,
+				"names": {
+					"ar": "نوفل بن معاویہ رضی اللہ عنہ",
+					"ur": "نوفل بن معاویہ رضی اللہ عنہ کی روایات۔",
+					"en": "Nwfal ibn Muawiya (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2009,
+				"parentId": 17,
+				"names": {
+					"ur": "بنو ضمرہ کے ایک آدمی کی احادیث اس کی قوم کے ایک آدمی سے ہے، اللہ تعالیٰ اس سے راضی ہے۔",
+					"en": "Banw Damarah As Qwm Hy Ta'aly As Rady Hy (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 2010,
+				"parentId": 17,
+				"names": {
+					"ur": "بنو سلیم کے ایک آدمی کی روایات کہ خدا اس سے راضی ہے۔",
+					"en": "Banw Sulaym Khada As Rady Hy"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 2011,
+				"parentId": 17,
+				"names": {
+					"ur": "بنو حارثہ کے ایک آدمی کی روایات کہ اللہ تعالیٰ اس سے راضی ہیں۔",
+					"en": "Banw Haritha Ta'aly As Rady Hyn (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 2012,
+				"parentId": 17,
+				"names": {
+					"ur": "بنو اسد کے ایک شخص کی روایات کہ اللہ تعالیٰ اس سے راضی ہیں۔",
+					"en": "Banw Asad Ta'aly As Rady Hyn (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 2013,
+				"parentId": 17,
+				"names": {
+					"ur": "ایک شخص کی احادیث جس نے اسلام قبول کیا، اللہ تعالیٰ اس سے راضی ہو۔",
+					"en": "Jas Asalam Qabwl Kya Ta'aly As Rady Hw (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 2014,
+				"parentId": 17,
+				"names": {
+					"ar": "رسول اللہ صلی اللہ علیہ وسلم کے خادم عبید رضی اللہ عنہ",
+					"ur": "رسول اللہ صلی اللہ علیہ وسلم کے خادم عبید رضی اللہ عنہ کی روایات۔",
+					"en": "Ubayd (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2015,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن ثعلبہ بن سویر رضی اللہ عنہ",
+					"ur": "عبداللہ بن ثعلبہ بن سویر رضی اللہ عنہ کی روایات۔",
+					"en": "Abdullah ibn Tha'laba ibn Swyr (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2016,
+				"parentId": 17,
+				"names": {
+					"ar": "عبید اللہ بن عدی الانصاری رضی اللہ عنہ",
+					"ur": "عبید اللہ بن عدی الانصاری رضی اللہ عنہ کی روایات۔",
+					"en": "Ubayd ibn Adi al-Ansari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2017,
+				"parentId": 17,
+				"names": {
+					"ar": "عمر بن ثابت الانصاری رضی اللہ عنہ کی احادیث بعض صحابہ کرام رضی اللہ عنہم",
+					"ur": "عمر بن ثابت الانصاری رضی اللہ عنہ کی احادیث بعض صحابہ کرام رضی اللہ عنہم سے مرویات۔",
+					"en": "Umar ibn Thabit al-Ansari Karam (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2018,
+				"parentId": 17,
+				"names": {
+					"ar": "مسیب بن حزن رضی اللہ عنہ",
+					"ur": "مسیب بن حزن رضی اللہ عنہ کی روایات۔",
+					"en": "Masyb ibn Hazan (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2019,
+				"parentId": 17,
+				"names": {
+					"ar": "حارثہ بن النعمان رضی اللہ عنہ",
+					"ur": "حارثہ بن النعمان رضی اللہ عنہ کی روایات۔",
+					"en": "Haritha ibn al-Nu'man (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2020,
+				"parentId": 17,
+				"names": {
+					"ar": "کعب بن عاصم اشعری رضی اللہ عنہ",
+					"ur": "کعب بن عاصم اشعری رضی اللہ عنہ کی روایات",
+					"en": "Ka'b ibn Asim Ash'ari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2021,
+				"parentId": 17,
+				"names": {
+					"ur": "بنو غفار کے ایک شخص کی روایات کہ اللہ تعالیٰ اس سے راضی ہوں گے۔",
+					"en": "Banw Ghafar Ta'aly As Rady Hwn Gy (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 2022,
+				"parentId": 17,
+				"names": {
+					"ar": "محیصہ بن مسعود رضی اللہ عنہ",
+					"ur": "محیصہ بن مسعود رضی اللہ عنہ کی روایات۔",
+					"en": "Mahysah ibn Mas'ud (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2023,
+				"parentId": 17,
+				"names": {
+					"ar": "سلمہ بن صخر البیضی رضی اللہ عنہ",
+					"ur": "سلمہ بن صخر البیضی رضی اللہ عنہ کی روایات",
+					"en": "Salama ibn Sakhr Alabydy (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2024,
+				"parentId": 17,
+				"names": {
+					"ar": "رفاعہ بن شداد کی احادیث عمرو بن الحمق رضی اللہ عنہ",
+					"ur": "رفاعہ بن شداد کی احادیث عمرو بن الحمق رضی اللہ عنہ سے مرویات",
+					"en": "Rifa'a ibn Shaddad Amr ibn Alahamaq (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2025,
+				"parentId": 17,
+				"names": {
+					"ar": "سلمان فارسی رضی اللہ عنہ",
+					"ur": "حضرت سلمان فارسی رضی اللہ عنہ کی روایات۔",
+					"en": "Salman Farasy (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2026,
+				"parentId": 17,
+				"names": {
+					"ar": "سوید بن مقرن رضی اللہ عنہ",
+					"ur": "سوید بن مقرن رضی اللہ عنہ کی روایات۔",
+					"en": "Suwayd ibn Maqaran (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2027,
+				"parentId": 17,
+				"names": {
+					"ar": "نعمان بن مقرن رضی اللہ عنہ",
+					"ur": "نعمان بن مقرن رضی اللہ عنہ کی روایات۔",
+					"en": "Nu'man ibn Maqaran (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2028,
+				"parentId": 17,
+				"names": {
+					"ar": "جابر بن عتیک رضی اللہ عنہ",
+					"ur": "جابر بن عتیک رضی اللہ عنہ کی روایات۔",
+					"en": "Jabir ibn 'atyk (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2029,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو سلمہ الانصاری رضی اللہ عنہ",
+					"ur": "ابو سلمہ الانصاری رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Salama al-Ansari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2030,
+				"parentId": 17,
+				"names": {
+					"ar": "قیس بن عمرو رضی اللہ عنہ",
+					"ur": "قیس بن عمرو رضی اللہ عنہ کی روایات۔",
+					"en": "Qais ibn Amr (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2031,
+				"parentId": 17,
+				"names": {
+					"ar": "معاویہ بن الحکم السلمی رضی اللہ عنہ",
+					"ur": "معاویہ بن الحکم السلمی رضی اللہ عنہ کی احادیث",
+					"en": "Muawiya ibn al-Hakam al-Sulami (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2032,
+				"parentId": 17,
+				"names": {
+					"ar": "عتبان بن مالک رضی اللہ عنہ",
+					"ur": "عتبان بن مالک رضی اللہ عنہ کی روایات۔",
+					"en": "'ataban ibn Malik (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2033,
+				"parentId": 17,
+				"names": {
+					"ar": "عاصم بن عدی رضی اللہ عنہ",
+					"ur": "عاصم بن عدی رضی اللہ عنہ کی روایات۔",
+					"en": "Asim ibn Adi (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2034,
+				"parentId": 17,
+				"names": {
+					"ar": "ابوداؤد المزنی رضی اللہ عنہ",
+					"ur": "ابوداؤد المزنی رضی اللہ عنہ کی احادیث",
+					"en": "Abu Dad al-Muzani (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2035,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن سلام رضی اللہ عنہ",
+					"ur": "عبداللہ بن سلام رضی اللہ عنہ کی روایات۔",
+					"en": "Abdullah ibn Salam (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2036,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو طفیل عامر بن واثلہ رضی اللہ عنہ",
+					"ur": "ابو طفیل عامر بن واثلہ رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Tufayl Amir ibn Wathila (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2037,
+				"parentId": 17,
+				"names": {
+					"ar": "حدیث نوفل اشجعی",
+					"ur": "حدیث نوفل اشجعی رضی اللہ عنہ",
+					"en": "Nwfal Ashja'i"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2038,
+				"parentId": 17,
+				"names": {
+					"ar": "مقداد بن اسود رضی اللہ عنہ",
+					"ur": "مقداد بن اسود رضی اللہ عنہ کی روایات۔",
+					"en": "Maqadad ibn Aswad (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2039,
+				"parentId": 17,
+				"names": {
+					"ar": "محمد بن عبداللہ بن سلام رضی اللہ عنہ",
+					"ur": "محمد بن عبداللہ بن سلام رضی اللہ عنہ کی روایات۔",
+					"en": "Muhammad ibn Abdullah ibn Salam (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2040,
+				"parentId": 17,
+				"names": {
+					"ar": "یوسف بن عبداللہ بن سلام رضی اللہ عنہ",
+					"ur": "یوسف بن عبداللہ بن سلام رضی اللہ عنہ کی روایات۔",
+					"en": "Yusuf ibn Abdullah ibn Salam (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2041,
+				"parentId": 17,
+				"names": {
+					"ar": "حدیث الولید بن الولید",
+					"ur": "حدیث الولید بن الولید رضی اللہ عنہ",
+					"en": "Alwlyd ibn Alwlyd"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2042,
+				"parentId": 17,
+				"names": {
+					"ar": "قیس بن سعد بن عبادہ رضی اللہ عنہ",
+					"ur": "قیس بن سعد بن عبادہ رضی اللہ عنہ کی روایات۔",
+					"en": "Qais ibn Sa'd ibn Ubada (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2043,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو بصرہ غفاری رضی اللہ عنہ",
+					"ur": "حضرت ابو بصرہ غفاری رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Basarah Ghifari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2044,
+				"parentId": 17,
+				"names": {
+					"ar": "عبادہ کی بیوی کے بیٹے ابو ابی رضی اللہ عنہ",
+					"ur": "عبادہ کی بیوی کے بیٹے ابو ابی رضی اللہ عنہ کی روایات۔",
+					"en": "Ubada Bywy Byty Abu Abi (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2045,
+				"parentId": 17,
+				"names": {
+					"ar": "سالم بن عبید رضی اللہ عنہ",
+					"ur": "سالم بن عبید رضی اللہ عنہ کی روایات۔",
+					"en": "Salam ibn Ubayd (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2046,
+				"parentId": 17,
+				"names": {
+					"ar": "مقداد بن الاسود رضی اللہ عنہ",
+					"ur": "مقداد بن الاسود رضی اللہ عنہ کی بقیہ حدیث",
+					"en": "Maqadad ibn al-Aswad (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2047,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو رافع رضی اللہ عنہ",
+					"ur": "ابو رافع رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Rafi (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2048,
+				"parentId": 17,
+				"names": {
+					"ur": "حضرت دمرہ بن سعید کی روایات کہ اللہ تعالیٰ ان سے راضی ہیں۔",
+					"en": "Damarah ibn Sa'eed Ta'aly Rady Hyn (RA)"
+				},
+				"needsTranslation": [
+					"ar"
+				],
+				"transliterated": true
+			},
+			{
+				"id": 2049,
+				"parentId": 17,
+				"names": {
+					"ar": "ابو بردہ الغفری رضی اللہ عنہ",
+					"ur": "ابو بردہ الغفری رضی اللہ عنہ کی روایات۔",
+					"en": "Abu Baradah Alaghafary (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2050,
+				"parentId": 17,
+				"names": {
+					"ar": "عبداللہ بن ابی حدرد رضی اللہ عنہ",
+					"ur": "عبداللہ بن ابی حدرد رضی اللہ عنہ کی روایات۔",
+					"en": "Abdullah ibn Abi Hadarad (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2051,
+				"parentId": 17,
+				"names": {
+					"ar": "بلال رضی اللہ عنہ",
+					"ur": "حضرت بلال رضی اللہ عنہ کی روایات۔",
+					"en": "Balal (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2052,
+				"parentId": 17,
+				"names": {
+					"ar": "صہیب رضی اللہ عنہ",
+					"ur": "صہیب رضی اللہ عنہ کی روایات۔",
+					"en": "Sahyb (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2053,
+				"parentId": 17,
+				"names": {
+					"ar": "کعب بن مالک کی بیوی کی روایات",
+					"ur": "کعب بن مالک کی بیوی کی روایات رضی اللہ عنہ",
+					"en": "Narrations of Ka'b ibn Malik Bywy"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2054,
+				"parentId": 17,
+				"names": {
+					"ar": "مسند فضلہ بن عبید الانصاری",
+					"ur": "مسند فضلہ بن عبید الانصاری رضی اللہ عنہ",
+					"en": "Masanad Fadalah ibn Ubayd al-Ansari"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 2055,
+				"parentId": 17,
+				"names": {
+					"ar": "عوف بن مالک اشجعی الانصاری رضی اللہ عنہ",
+					"ur": "عوف بن مالک اشجعی الانصاری رضی اللہ عنہ کی روایات",
+					"en": "'wf ibn Malik Ashja'i al-Ansari (RA)"
+				},
+				"transliterated": true
+			},
+			{
+				"id": 16,
+				"parentId": null,
+				"names": {
+					"ar": "أَوَّلُ مُسْنَدِ الْبَصْرِيِّينَ",
+					"en": "The Beginning of the Musnad of the Basrans",
+					"ur": "بصرہ کی روایات"
+				}
 			},
 			{
 				"id": 1768,
@@ -14817,1910 +16705,13 @@
 				"transliterated": true
 			},
 			{
-				"id": 1873,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو المنذر، ابی بن کعب رضی اللہ عنہ",
-					"ur": "ابو المنذر، ابی بن کعب رضی اللہ عنہ کی روایات",
-					"en": "Abu Alamanadhar Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1874,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو ایوب الانصاری رضی اللہ عنہ",
-					"ur": "حضرت ابو ایوب الانصاری رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Ayyub al-Ansari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1875,
-				"parentId": 17,
-				"names": {
-					"ar": "عبادہ بن الصامت کی احادیث ابی بن کعب سے مروی",
-					"ur": "عبادہ بن الصامت کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
-					"en": "Hadiths of Ubada ibn Alasamat, narrated from Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1876,
-				"parentId": 17,
-				"names": {
-					"ar": "ابوہریرہ الدوسی کی احادیث ابی بن کعب سے مروی",
-					"ur": "ابوہریرہ الدوسی کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
-					"en": "Hadiths of Abu Hurayrah al-Dawsi, narrated from Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1877,
-				"parentId": 17,
-				"names": {
-					"ar": "رافع بن رفاعہ کی احادیث ابی بن کعب سے مروی",
-					"ur": "رافع بن رفاعہ کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
-					"en": "Hadiths of Rafi ibn Rifa'a, narrated from Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1878,
-				"parentId": 17,
-				"names": {
-					"ar": "جابر بن عبداللہ کی احادیث ابی بن کعب سے مروی",
-					"ur": "جابر بن عبداللہ کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
-					"en": "Hadiths of Jabir ibn Abdullah, narrated from Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1879,
-				"parentId": 17,
-				"names": {
-					"ar": "سہل بن سعد کی احادیث ابی بن کعب سے مروی",
-					"ur": "سہل بن سعد کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
-					"en": "Hadiths of Sahl ibn Sa'd, narrated from Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1880,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن عمرو بن العاص کی احادیث ابی بن کعب سے مروی",
-					"ur": "عبداللہ بن عمرو بن العاص کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
-					"en": "Hadiths of Abdullah ibn Amr ibn al-As, narrated from Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1881,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن عباس کی احادیث ابی بن کعب سے مروی",
-					"ur": "عبداللہ بن عباس کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
-					"en": "Hadiths of Abdullah ibn Abbas, narrated from Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1882,
-				"parentId": 17,
-				"names": {
-					"ar": "انس بن مالک کی احادیث ابی بن کعب رضی اللہ عنہ",
-					"ur": "انس بن مالک کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
-					"en": "Anas ibn Malik Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1883,
-				"parentId": 17,
-				"names": {
-					"ar": "عبد الرحمن بن ابزی کی احادیث ابی بن کعب رضی اللہ عنہ",
-					"ur": "عبد الرحمن بن ابزی کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
-					"en": "Abd al-Rahman ibn Abazy Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1884,
-				"parentId": 17,
-				"names": {
-					"ar": "سلیمان بن صرد کی احادیث ابی بن کعب سے مروی",
-					"ur": "سلیمان بن صرد کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
-					"en": "Hadiths of Sulayman ibn Surad, narrated from Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1885,
-				"parentId": 17,
-				"names": {
-					"ar": "عبد الرحمن بن اسود کی احادیث ابی بن کعب سے مروی",
-					"ur": "عبد الرحمن بن اسود کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
-					"en": "Hadiths of Abd al-Rahman ibn Aswad, narrated from Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1886,
-				"parentId": 17,
-				"names": {
-					"ar": "سوید بن غفلہ کی احادیث ابی بن کعب سے مروی",
-					"ur": "سوید بن غفلہ کی احادیث ابی بن کعب سے مروی رضی اللہ عنہما",
-					"en": "Hadiths of Suwayd ibn Ghafalah, narrated from Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1887,
-				"parentId": 17,
-				"names": {
-					"ar": "عبد الرحمن بن ابی لیلیٰ کی ابی بن کعب رضی اللہ عنہ",
-					"ur": "عبد الرحمن بن ابی لیلیٰ کی ابی بن کعب رضی اللہ عنہ سے مرویات",
-					"en": "Abd al-Rahman ibn Abi Lyly Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1888,
-				"parentId": 17,
-				"names": {
-					"ar": "انس بن مالک کی بقیہ حدیث ابی بن کعب رضی اللہ عنہ",
-					"ur": "انس بن مالک کی بقیہ حدیث ابی بن کعب رضی اللہ عنہ سے مرویات",
-					"en": "Anas ibn Malik Baqyh Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1889,
-				"parentId": 17,
-				"names": {
-					"ar": "زر بن حبیش کی احادیث ابی بن کعب رضی اللہ عنہ",
-					"ur": "زر بن حبیش کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
-					"en": "Zar ibn Habysh Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1890,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو عثمان النہدی کی احادیث ابی بن کعب رضی اللہ عنہ",
-					"ur": "ابو عثمان النہدی کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
-					"en": "Abu Uthman Alanahady Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1891,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو العالیہ الریحی کی احادیث ابی بن کعب رضی اللہ عنہ",
-					"ur": "ابو العالیہ الریحی کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
-					"en": "Abu Ala'alyh Alaryhy Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1892,
-				"parentId": 17,
-				"names": {
-					"ar": "عطی بن دمرہ السعدی کی احادیث ابی بن کعب کی سند سے",
-					"ur": "عطی بن دمرہ السعدی کی احادیث ابی بن کعب کی سند سے رضی اللہ عنہما",
-					"en": "'aty ibn Damarah al-Sa'di Ubay ibn Ka'b Sanad"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1893,
-				"parentId": 17,
-				"names": {
-					"ar": "طفیل بن ابی بن کعب کی اپنے والد سے روایت ہے کہ",
-					"ur": "طفیل بن ابی بن کعب کی اپنے والد سے روایت ہے کہ رضی اللہ عنہ",
-					"en": "Tufayl ibn Ubay ibn Ka'b"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1894,
-				"parentId": 17,
-				"names": {
-					"ur": "محمد بن ابی بن کعب رضی اللہ عنہ اپنے والد سے روایت کرتے ہیں کہ اللہ ان سے راضی ہے۔",
-					"en": "Muhammad ibn Ubay ibn Ka'b Karaty Rady Hy (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1895,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن حارث کی احادیث ابی بن کعب رضی اللہ عنہ",
-					"ur": "عبداللہ بن حارث کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
-					"en": "Abdullah ibn Harith Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1896,
-				"parentId": 17,
-				"names": {
-					"ar": "قیس بن عباد کی احادیث ابی بن کعب رضی اللہ عنہ",
-					"ur": "قیس بن عباد کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات",
-					"en": "Qais ibn Abbad Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1897,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو بصیر العابدی اور ان کے بیٹے عبداللہ بن ابی بصیر کی احادیث ابی بن کعب رضی اللہ عنہ",
-					"ur": "ابو بصیر العابدی اور ان کے بیٹے عبداللہ بن ابی بصیر کی احادیث ابی بن کعب رضی اللہ عنہ سے مرویات۔",
-					"en": "Abu Basyr Ala'abady Byty Abdullah ibn Abi Basyr Ubay ibn Ka'b (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1898,
-				"parentId": 17,
-				"names": {
-					"ur": "وہ روایات جو دیگرمشائخ نے ان سے نقل کی ہیں۔",
-					"en": "Wh Dygaramashakh Naqal Hyn"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1899,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو ذر غفاری رضی اللہ عنہ",
-					"ur": "حضرت ابو ذر غفاری رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Dharr Ghifari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1900,
-				"parentId": 17,
-				"names": {
-					"ur": "زید بن ثابت رضی اللہ عنہ سے روایات",
-					"en": "Zayd ibn Thabit (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1901,
-				"parentId": 17,
-				"names": {
-					"ar": "زید بن خالد الجہنی رضی اللہ عنہ",
-					"ur": "زید بن خالد الجہنی رضی اللہ عنہ کی روایات۔",
-					"en": "Zayd ibn Khalid al-Juhani (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1902,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو درداء رضی اللہ عنہ",
-					"ur": "حضرت ابو درداء رضی اللہ عنہ کی بقیہ احادیث",
-					"en": "Abu Darda (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1903,
-				"parentId": 17,
-				"names": {
-					"ur": "اسامہ بن زید رضی اللہ عنہ کی احادیث رسول اللہ صلی اللہ علیہ وسلم کی محبت کے بارے میں ہے۔",
-					"en": "Asamah ibn Zayd Mahabat Bary Hy (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1904,
-				"parentId": 17,
-				"names": {
-					"ur": "خارجہ بن الصلت کی احادیث اپنے چچا سے مرویات کہ خدا ان سے راضی ہو",
-					"en": "Hadiths of Kharajah ibn Alasalat, narrated from Chacha"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1905,
-				"parentId": 17,
-				"names": {
-					"ar": "اشعث بن قیس الکندی رحمہ اللہ",
-					"ur": "اشعث بن قیس الکندی رحمہ اللہ کی روایات۔",
-					"en": "Asha'ath ibn Qais al-Kindi Rahamah (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1906,
-				"parentId": 17,
-				"names": {
-					"ar": "خزیمہ بن ثابت رضی اللہ عنہ",
-					"ur": "خزیمہ بن ثابت رضی اللہ عنہ کی روایات۔",
-					"en": "Khazymah ibn Thabit (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1907,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو بشیر الانصاری رضی اللہ عنہ",
-					"ur": "ابو بشیر الانصاری رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Bashir al-Ansari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1908,
-				"parentId": 17,
-				"names": {
-					"ar": "ہزارہ کی روایات",
-					"ur": "ہزارہ کی روایات، رضی اللہ عنہ",
-					"en": "Narrations of Hazarah"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1909,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو واقد لیثی رضی اللہ عنہ",
-					"ur": "ابو واقد لیثی رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Waqad Lythy (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1910,
-				"parentId": 17,
-				"names": {
-					"ar": "سفیان بن ابی زہیر رضی اللہ عنہ",
-					"ur": "سفیان بن ابی زہیر رضی اللہ عنہ کی روایات۔",
-					"en": "Sufyan ibn Abi Zahyr (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1911,
-				"parentId": 17,
-				"names": {
-					"ar": "ابوعبدالرحمن سفینہ",
-					"ur": "حضرت ابوعبدالرحمن سفینہ (رض) کی احادیث",
-					"en": "Abu Abdur Rahman Safynah"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1912,
-				"parentId": 17,
-				"names": {
-					"ar": "سعید بن سعد بن عبادہ رضی اللہ عنہ",
-					"ur": "سعید بن سعد بن عبادہ رضی اللہ عنہ کی روایات۔",
-					"en": "Sa'eed ibn Sa'd ibn Ubada (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1913,
-				"parentId": 17,
-				"names": {
-					"ar": "حسن بن ثابت رضی اللہ عنہ",
-					"ur": "حسن بن ثابت رضی اللہ عنہ کی روایات۔",
-					"en": "Hasan ibn Thabit (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1914,
-				"parentId": 17,
-				"names": {
-					"ar": "حدیث ابی لحم کے آزاد کردہ غلام عمیر رضی اللہ عنہ",
-					"ur": "حدیث ابی لحم کے آزاد کردہ غلام عمیر رضی اللہ عنہ سے مرویات",
-					"en": "Abi Laham Aazad Karadah Ghalam 'amyr (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1915,
-				"parentId": 17,
-				"names": {
-					"ur": "محمد بن زید کہتے ہیں: میں نے اسے پاگلوں کو اس کے ساتھ شراب پلاتے ہوئے پکڑا۔",
-					"en": "Muhammad ibn Zayd Kahaty Hyn Asy Pagalwn As Satah Sharab Palaty Hwy Pakara"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1916,
-				"parentId": 17,
-				"names": {
-					"ar": "عمرو بن الحمق الخزاعی رضی اللہ عنہ",
-					"ur": "عمرو بن الحمق الخزاعی رضی اللہ عنہ کی احادیث",
-					"en": "Amr ibn Alahamaq al-Khuza'i (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1917,
-				"parentId": 17,
-				"names": {
-					"ur": "صحابہ کرام رضی اللہ عنہ میں سے ایک شخص کی احادیث",
-					"en": "Karam (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1918,
-				"parentId": 17,
-				"names": {
-					"ar": "حدیث بشیر ابن الخصاصی السدوسی",
-					"ur": "حدیث بشیر ابن الخصاصی السدوسی رضی اللہ عنہ",
-					"en": "Bashir ibn Alakhasasy Alasadwsy"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1919,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن حنظلہ",
-					"ur": "عبداللہ بن حنظلہ کی احادیث",
-					"en": "Abdullah ibn Hanzala"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1920,
-				"parentId": 17,
-				"names": {
-					"ar": "مالک بن عبداللہ الخثمی رضی اللہ عنہ",
-					"ur": "مالک بن عبداللہ الخثمی رضی اللہ عنہ کی روایات۔",
-					"en": "Malik ibn Abdullah Alakhathamy (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1921,
-				"parentId": 17,
-				"names": {
-					"ar": "حدیث حلب الطائی",
-					"ur": "حدیث حلب الطائی رضی اللہ عنہ",
-					"en": "Halab Alatay"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1922,
-				"parentId": 17,
-				"names": {
-					"ar": "مطر بن اوخمس کی روایات",
-					"ur": "مطر بن اوخمس کی روایات، رضی اللہ عنہ",
-					"en": "Narrations of Matar ibn Awkhamas"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1923,
-				"parentId": 17,
-				"names": {
-					"ar": "میمون بن سنباد کی روایات",
-					"ur": "میمون بن سنباد کی روایات، رضی اللہ عنہ",
-					"en": "Narrations of Mymwn ibn Sanabad"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1924,
-				"parentId": 17,
-				"names": {
-					"ar": "معاذ بن جبل رضی اللہ عنہ",
-					"ur": "معاذ بن جبل رضی اللہ عنہ کی روایات۔",
-					"en": "Mu'adh ibn Jabal (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1925,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو امامہ باہلی",
-					"ur": "ابو امامہ باہلی کی احادیث",
-					"en": "Abu Umm Umm H Bahaly"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1926,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو ہند الداری رضی اللہ عنہ",
-					"ur": "ابو ہند الداری رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Hanad Aladary (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1927,
-				"parentId": 17,
-				"names": {
-					"ur": "جبیر بن نفیر کی احادیث صحابہ میں سے ایک شخص سے مرویات۔",
-					"en": "Hadiths of Jabyr ibn Nafyr, narrated from an unnamed narrator"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1928,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن السعدی رضی اللہ عنہ",
-					"ur": "عبداللہ بن السعدی رضی اللہ عنہ کی روایات۔",
-					"en": "Abdullah ibn al-Sa'di (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1929,
-				"parentId": 17,
-				"names": {
-					"ur": "بنو نمیر کی ایک بوڑھی عورت کی روایات  رضی اللہ عنہ",
-					"en": "Banw Namyr Bwrahy 'wrat (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1930,
-				"parentId": 17,
-				"names": {
-					"ar": "ایک انصاری عورت کی روایات",
-					"ur": "ایک انصاری عورت کی روایات رضی اللہ عنہا",
-					"en": "Narrations of al-Ansari 'wrat"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1931,
-				"parentId": 17,
-				"names": {
-					"ar": "سلیمان بن عمرو بن الاحواس",
-					"ur": "سلیمان بن عمرو بن الاحواس کی اپنی والدہ سے روایت",
-					"en": "Sulayman ibn Amr ibn Alahwas"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1932,
-				"parentId": 17,
-				"names": {
-					"ur": "ایک عورت کی احادیث جو رسول اللہ صلی اللہ علیہ وسلم کی پڑوسی تھی۔",
-					"en": "'wrat Parwsy Tahy (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1933,
-				"parentId": 17,
-				"names": {
-					"ur": "سعدی کی احادیث اپنے والد سے اور اپنے چچا کی روایت سے کہ خدا ان سے راضی ہو",
-					"en": "Sa'ady Chacha Khada Rady"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1934,
-				"parentId": 17,
-				"names": {
-					"ur": "ازواج مطہرات کی روایات، اللہ تعالیٰ آپ پر رحم فرمائے",
-					"en": "Azwaj Mataharat Rwayat Ta'aly Aap Raham Faramay (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1935,
-				"parentId": 17,
-				"names": {
-					"ur": "ایک عورت کی احادیث، رضی اللہ عنہ",
-					"en": "'wrat Ahadyth (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1936,
-				"parentId": 17,
-				"names": {
-					"ar": "رسول اللہ صلی اللہ علیہ وسلم کے بعض صحابہ",
-					"ur": "رسول اللہ صلی اللہ علیہ وسلم کے بعض صحابہ کی احادیث",
-					"en": "Hadith of an Unnamed Companion"
-				},
-				"anonymousNarrator": true
-			},
-			{
-				"id": 1937,
-				"parentId": 17,
-				"names": {
-					"ur": "رسول اللہ صلی اللہ علیہ وسلم کی بعض ازواج مطہرات کی احادیث",
-					"en": "Azwaj Mataharat (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1938,
-				"parentId": 17,
-				"names": {
-					"ur": "خثعم کے ایک آدمی کی احادیث، رضی اللہ عنہ",
-					"en": "Khatha'am Ahadyth (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1939,
-				"parentId": 17,
-				"names": {
-					"ur": "ایک آدمی کی احادیث، رضی اللہ عنہ",
-					"en": "Ahadyth (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1940,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن مغفل المزنی رضی اللہ عنہ",
-					"ur": "عبداللہ بن مغفل المزنی رضی اللہ عنہ کی روایات۔",
-					"en": "Abdullah ibn Mughaffal al-Muzani (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1941,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو مسعود عقبہ بن عمرو الانصاری رضی اللہ عنہ",
-					"ur": "ابو مسعود عقبہ بن عمرو الانصاری رضی اللہ عنہ کی احادیث",
-					"en": "Abu Mas'ud Uqba ibn Amr al-Ansari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1942,
-				"parentId": 17,
-				"names": {
-					"ur": "اور ثوبان رضی اللہ عنہ کی احادیث میں ہے:",
-					"en": "Thwban Hy (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1943,
-				"parentId": 17,
-				"names": {
-					"ar": "سعد بن عبادہ رضی اللہ عنہ",
-					"ur": "سعد بن عبادہ رضی اللہ عنہ کی روایات۔",
-					"en": "Sa'd ibn Ubada (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1944,
-				"parentId": 17,
-				"names": {
-					"ar": "سلمہ بن نعیم رضی اللہ عنہ",
-					"ur": "سلمہ بن نعیم رضی اللہ عنہ کی روایات۔",
-					"en": "Salama ibn Nu'aym (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1945,
-				"parentId": 17,
-				"names": {
-					"ar": "رایا کی احادیث",
-					"ur": "رایا کی احادیث، رضی اللہ عنہ",
-					"en": "Raya"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1946,
-				"parentId": 17,
-				"names": {
-					"ar": "ابوعبدالرحمٰن فہری رضی اللہ عنہ",
-					"ur": "ابوعبدالرحمٰن فہری رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Abdur Rahman Fahary (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1947,
-				"parentId": 17,
-				"names": {
-					"ar": "نعیم بن حمار الغطفانی رضی اللہ عنہ",
-					"ur": "نعیم بن حمار الغطفانی رضی اللہ عنہ کی روایات",
-					"en": "Nu'aym ibn Hamar Alaghatafany (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1948,
-				"parentId": 17,
-				"names": {
-					"ar": "عمرو بن امیہ الدمری رضی اللہ عنہ",
-					"ur": "عمرو بن امیہ الدمری رضی اللہ عنہ کی روایات۔",
-					"en": "Amr ibn Umayya Aladamary (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1949,
-				"parentId": 17,
-				"names": {
-					"ar": "ابن ہوالہ رضی اللہ عنہ",
-					"ur": "ابن ہوالہ رضی اللہ عنہ کی روایات۔",
-					"en": "ibn Hwalah (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1950,
-				"parentId": 17,
-				"names": {
-					"ar": "عقبہ بن مالک رضی اللہ عنہ",
-					"ur": "عقبہ بن مالک رضی اللہ عنہ کی روایات۔",
-					"en": "Uqba ibn Malik (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1951,
-				"parentId": 17,
-				"names": {
-					"ar": "سہل بن حنظلیہ رضی اللہ عنہ",
-					"ur": "سہل بن حنظلیہ رضی اللہ عنہ کی احادیث",
-					"en": "Sahl ibn Hanazalyh (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1952,
-				"parentId": 17,
-				"names": {
-					"ar": "عمرو بن الفضاء رضی اللہ عنہ",
-					"ur": "عمرو بن الفضاء رضی اللہ عنہ کی روایات۔",
-					"en": "Amr ibn Alafada (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1953,
-				"parentId": 17,
-				"names": {
-					"ar": "محمد بن عبداللہ بن جحش رضی اللہ عنہ",
-					"ur": "محمد بن عبداللہ بن جحش رضی اللہ عنہ کی روایات۔",
-					"en": "Muhammad ibn Abdullah ibn Jahash (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1954,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو ہاشم بن عتبہ رضی اللہ عنہ",
-					"ur": "ابو ہاشم بن عتبہ رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Hasham ibn Utba (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1955,
-				"parentId": 17,
-				"names": {
-					"ar": "غطیف بن حارث رضی اللہ عنہ",
-					"ur": "غطیف بن حارث رضی اللہ عنہ کی روایات۔",
-					"en": "Ghatyf ibn Harith (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1956,
-				"parentId": 17,
-				"names": {
-					"ar": "جعفر بن ابی طالب کی احادیث جو رسول اللہ صلی اللہ علیہ وسلم کی زوجہ ام سلمہ رضی اللہ عنہا",
-					"ur": "جعفر بن ابی طالب کی احادیث جو رسول اللہ صلی اللہ علیہ وسلم کی زوجہ ام سلمہ رضی اللہ عنہا کی روایات۔",
-					"en": "Ja'afar ibn Abi Talib Umm Salama (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1957,
-				"parentId": 17,
-				"names": {
-					"ar": "خالد بن عرفات رضی اللہ عنہ",
-					"ur": "خالد بن عرفات رضی اللہ عنہ کی روایات۔",
-					"en": "Khalid ibn 'arafat (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1958,
-				"parentId": 17,
-				"names": {
-					"ar": "طارق بن سوید رضی اللہ عنہ",
-					"ur": "طارق بن سوید رضی اللہ عنہ کی روایات۔",
-					"en": "Tariq ibn Suwayd (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1959,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن ہشام رضی اللہ عنہ",
-					"ur": "عبداللہ بن ہشام رضی اللہ عنہ کی روایات۔",
-					"en": "Abdullah ibn Hisham (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1960,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن سعد رضی اللہ عنہ",
-					"ur": "عبداللہ بن سعد رضی اللہ عنہ کی روایات۔",
-					"en": "Abdullah ibn Sa'd (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1961,
-				"parentId": 17,
-				"names": {
-					"ur": "ایک آدمی کی احادیث، اللہ تعالیٰ اس سے راضی ہو۔",
-					"en": "Ahadyth Ta'aly As Rady Hw (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1962,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو امیہ رضی اللہ عنہ",
-					"ur": "حضرت ابو امیہ رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Umayya (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1963,
-				"parentId": 17,
-				"names": {
-					"ur": "ابو الصوار کی اپنے چچا سے روایت ہے کہ اللہ تعالیٰ ان سے راضی ہوں",
-					"en": "Abu Alaswar Chacha Ta'aly Rady Hwn (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1964,
-				"parentId": 17,
-				"names": {
-					"ar": "ابوشہم کی روایات",
-					"ur": "ابوشہم کی روایات، رضی اللہ عنہ",
-					"en": "Narrations of Abu Shaham"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1965,
-				"parentId": 17,
-				"names": {
-					"ur": "ایک انوکھی حدیث، اللہ اس سے راضی ہو۔",
-					"en": "Anwkahy Hadyth As Rady Hw (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1966,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو عقبہ رضی اللہ عنہ",
-					"ur": "حضرت ابو عقبہ رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Uqba (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1967,
-				"parentId": 17,
-				"names": {
-					"ar": "ایک بے نام شخص کی احادیث",
-					"ur": "ایک بے نام شخص کی احادیث، رضی اللہ عنہ",
-					"en": "By"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1968,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو قتادہ الانصاری رضی اللہ عنہ",
-					"ur": "ابو قتادہ الانصاری رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Qatada al-Ansari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1969,
-				"parentId": 17,
-				"names": {
-					"ar": "عطیہ القرازی رضی اللہ عنہ",
-					"ur": "عطیہ القرازی رضی اللہ عنہ کی احادیث",
-					"en": "Atiyya Alaqarazy (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1970,
-				"parentId": 17,
-				"names": {
-					"ar": "صفوان بن المطلع السلمی رضی اللہ عنہ",
-					"ur": "صفوان بن المطلع السلمی رضی اللہ عنہ کی احادیث",
-					"en": "Safwan ibn Alamatala' al-Sulami (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1971,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن خبیب رضی اللہ عنہ",
-					"ur": "عبداللہ بن خبیب رضی اللہ عنہ کی روایات۔",
-					"en": "Abdullah ibn Khubayb (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1972,
-				"parentId": 17,
-				"names": {
-					"ar": "حارث بن عقیش رضی اللہ عنہ",
-					"ur": "حارث بن عقیش رضی اللہ عنہ کی روایات۔",
-					"en": "Harith ibn 'aqysh (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1973,
-				"parentId": 17,
-				"names": {
-					"ar": "عبادہ بن صامت رضی اللہ عنہ",
-					"ur": "عبادہ بن صامت رضی اللہ عنہ کی روایات۔",
-					"en": "Ubada ibn Samat (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1974,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو مالک سہل بن سعد السعدی رضی اللہ عنہ",
-					"ur": "ابو مالک سہل بن سعد السعدی رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Malik Sahl ibn Sa'd al-Sa'di (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1976,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو زید عمرو بن اخطب رضی اللہ عنہ",
-					"ur": "ابو زید عمرو بن اخطب رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Zayd Amr ibn Akhatab (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1977,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو مالک اشعری رضی اللہ عنہ",
-					"ur": "ابو مالک اشعری رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Malik Ash'ari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1978,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن مالک ابن بوہینہ رضی اللہ عنہ",
-					"ur": "عبداللہ بن مالک ابن بوہینہ رضی اللہ عنہ کی روایات۔",
-					"en": "Abdullah ibn Malik ibn Bwhynah (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1979,
-				"parentId": 17,
-				"names": {
-					"ar": "بریدہ الاسلمی رضی اللہ عنہ",
-					"ur": "بریدہ الاسلمی رضی اللہ عنہ کی احادیث",
-					"en": "Barydah al-Aslami (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1980,
-				"parentId": 17,
-				"names": {
-					"ur": "رسول اللہ صلی اللہ علیہ وسلم کے صحابہ سے مردوں کی احادیث",
-					"en": "Maradwn (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1981,
-				"parentId": 17,
-				"names": {
-					"ur": "ابی الحکم الغفاری کی بیٹی کی احادیث، خدا ان سے راضی ہو",
-					"en": "Abi al-Hakam al-Ghifari Byty Ahadyth Khada Rady"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1982,
-				"parentId": 17,
-				"names": {
-					"ur": "بنو سلط کے ایک شیخ کی روایات کہ خدا ان سے راضی ہے۔",
-					"en": "Banw Salat Shaykh Khada Rady Hy"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1983,
-				"parentId": 17,
-				"names": {
-					"ar": "سلیمان بن عمرو بن الاحواس کی اپنی والدہ سے روایت",
-					"ur": "سلیمان بن عمرو بن الاحواس کی اپنی والدہ سے روایت رضی اللہ عنہما",
-					"en": "Narration of Sulayman ibn Amr ibn Alahwas from his/her mother"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1984,
-				"parentId": 17,
-				"names": {
-					"ur": "بنو سلیم کی ایک عورت کی روایات  رضی اللہ عنہ",
-					"en": "Banw Sulaym 'wrat (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1985,
-				"parentId": 17,
-				"names": {
-					"ur": "رسول اللہ صلی اللہ علیہ وسلم کی بعض ازواج مطہرات کی احادیث، اللہ تعالیٰ ان سے راضی ہو",
-					"en": "Azwaj Mataharat Ahadyth Ta'aly Rady (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1986,
-				"parentId": 17,
-				"names": {
-					"ur": "ایک عورت کی روایات  رضی اللہ عنہ",
-					"en": "'wrat (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1987,
-				"parentId": 17,
-				"names": {
-					"ur": "خزاعہ کے ایک آدمی کی روایات، اللہ تعالیٰ اس سے راضی ہوں۔",
-					"en": "Khaza'ah Rwayat Ta'aly As Rady Hwn (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1988,
-				"parentId": 17,
-				"names": {
-					"ur": "ثقیف کے ایک آدمی کی اپنے والد سے روایت رضی اللہ عنہما",
-					"en": "Thaqyf (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1989,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو جبیرۃ الضحاک بن الضحاک کی اپنے جرنیل سے روایت ہے کہ",
-					"ur": "ابو جبیرۃ الضحاک بن الضحاک کی اپنے جرنیل سے روایت ہے کہ رضی اللہ عنہ",
-					"en": "Abu Jabyr al-Dahhak ibn al-Dahhak Jaranyl"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1990,
-				"parentId": 17,
-				"names": {
-					"ar": "یحییٰ بن حسین بن عروہ کی اپنی نانی سے روایت",
-					"ur": "یحییٰ بن حسین بن عروہ کی اپنی نانی سے روایت رضی اللہ عنہما",
-					"en": "Narration of Yhyy ibn Hasyn ibn Urwa from his/her maternal grandmother"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1991,
-				"parentId": 17,
-				"names": {
-					"ar": "یحییٰ بن حسین کی اپنی والدہ سے روایت",
-					"ur": "یحییٰ بن حسین کی اپنی والدہ سے روایت رضی اللہ عنہما",
-					"en": "Narration of Yhyy ibn Hasyn from his/her mother"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1992,
-				"parentId": 17,
-				"names": {
-					"ur": "حذیفہ بن الیمان رضی اللہ عنہ سے روایات",
-					"en": "Hudhayfa ibn Alyman (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1993,
-				"parentId": 17,
-				"names": {
-					"ur": "رسول اللہ صلی اللہ علیہ وسلم کے اصحاب میں سے ایک آدمی کی روایات۔",
-					"en": "Rwayat (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1994,
-				"parentId": 17,
-				"names": {
-					"ar": "الحکم بن سفیان یا سفیان بن الحکم رضی اللہ عنہ",
-					"ur": "الحکم بن سفیان یا سفیان بن الحکم رضی اللہ عنہ کی احادیث",
-					"en": "al-Hakam ibn Sufyan Sufyan ibn al-Hakam (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1995,
-				"parentId": 17,
-				"names": {
-					"ur": "انصار میں سے ایک شخص کی روایات، اللہ تعالیٰ اس سے راضی ہوں۔",
-					"en": "Anasar Rwayat Ta'aly As Rady Hwn (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1996,
-				"parentId": 17,
-				"names": {
-					"ur": "ذی مخمر کی روایات جو کہ رسول اللہ صلی اللہ علیہ وسلم کے صحابہ میں سے ایک شخص ہے۔",
-					"en": "Dhi Makhamar Hy (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1997,
-				"parentId": 17,
-				"names": {
-					"ar": "مسعود ابن الجمعہ کی بہن کی احادیث، ان کے والد سے",
-					"ur": "مسعود ابن الجمعہ کی بہن کی احادیث، ان کے والد سے، رضی اللہ عنہ",
-					"en": "Mas'ud ibn Alajama'ah Bahan Ahadyth"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1998,
-				"parentId": 17,
-				"names": {
-					"ur": "بنو غفار کے ایک شخص کی روایات کہ اللہ اس سے راضی ہے۔",
-					"en": "Banw Ghafar As Rady Hy (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 1999,
-				"parentId": 17,
-				"names": {
-					"ar": "ایک شکست خوردہ شخص کی روایات",
-					"ur": "ایک شکست خوردہ شخص کی روایات  رضی اللہ عنہ",
-					"en": "Narrations of Shakasat Khwradah"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2000,
-				"parentId": 17,
-				"names": {
-					"ar": "ایک شیخ کی احادیث اصحاب رسول اللہ صلی اللہ علیہ وسلم",
-					"ur": "ایک شیخ کی احادیث اصحاب رسول اللہ صلی اللہ علیہ وسلم سے مرویات۔",
-					"en": "Shaykh (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2001,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو حامد السعدی رضی اللہ عنہ",
-					"ur": "ابو حامد السعدی رضی اللہ عنہ کی احادیث",
-					"en": "Abu Hamad al-Sa'di (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2002,
-				"parentId": 17,
-				"names": {
-					"ur": "مواقب کی روایات، اللہ تعالیٰ ان سے خوش ہوں۔",
-					"en": "Mwaqab Rwayat Ta'aly Khwsh Hwn (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 2003,
-				"parentId": 17,
-				"names": {
-					"ar": "بنو سلمہ کے ایک گروہ کی روایات کہ",
-					"ur": "بنو سلمہ کے ایک گروہ کی روایات کہ رضی اللہ عنہ",
-					"en": "Banw Salama Garwh"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2004,
-				"parentId": 17,
-				"names": {
-					"ar": "تحفۃ الغفاری کی احادیث",
-					"ur": "تحفۃ الغفاری کی احادیث، رضی اللہ عنہ",
-					"en": "Tahaf al-Ghifari"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2005,
-				"parentId": 17,
-				"names": {
-					"ar": "محمود بن لبید رضی اللہ عنہ",
-					"ur": "محمود بن لبید رضی اللہ عنہ کی روایات۔",
-					"en": "Mahamwd ibn Labyd (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2006,
-				"parentId": 17,
-				"names": {
-					"ur": "انصار میں سے ایک شخص کی روایات کہ اللہ تعالیٰ اس سے راضی ہیں۔",
-					"en": "Anasar Ta'aly As Rady Hyn (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 2007,
-				"parentId": 17,
-				"names": {
-					"ur": "محمود بن لبید یا محمود بن ربیع کی احادیث، خدا ان سے راضی ہو۔",
-					"en": "Mahamwd ibn Labyd Mahamwd ibn Raby' Ahadyth Khada Rady Hw"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 2008,
-				"parentId": 17,
-				"names": {
-					"ar": "نوفل بن معاویہ رضی اللہ عنہ",
-					"ur": "نوفل بن معاویہ رضی اللہ عنہ کی روایات۔",
-					"en": "Nwfal ibn Muawiya (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2009,
-				"parentId": 17,
-				"names": {
-					"ur": "بنو ضمرہ کے ایک آدمی کی احادیث اس کی قوم کے ایک آدمی سے ہے، اللہ تعالیٰ اس سے راضی ہے۔",
-					"en": "Banw Damarah As Qwm Hy Ta'aly As Rady Hy (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 2010,
-				"parentId": 17,
-				"names": {
-					"ur": "بنو سلیم کے ایک آدمی کی روایات کہ خدا اس سے راضی ہے۔",
-					"en": "Banw Sulaym Khada As Rady Hy"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 2011,
-				"parentId": 17,
-				"names": {
-					"ur": "بنو حارثہ کے ایک آدمی کی روایات کہ اللہ تعالیٰ اس سے راضی ہیں۔",
-					"en": "Banw Haritha Ta'aly As Rady Hyn (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 2012,
-				"parentId": 17,
-				"names": {
-					"ur": "بنو اسد کے ایک شخص کی روایات کہ اللہ تعالیٰ اس سے راضی ہیں۔",
-					"en": "Banw Asad Ta'aly As Rady Hyn (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 2013,
-				"parentId": 17,
-				"names": {
-					"ur": "ایک شخص کی احادیث جس نے اسلام قبول کیا، اللہ تعالیٰ اس سے راضی ہو۔",
-					"en": "Jas Asalam Qabwl Kya Ta'aly As Rady Hw (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 2014,
-				"parentId": 17,
-				"names": {
-					"ar": "رسول اللہ صلی اللہ علیہ وسلم کے خادم عبید رضی اللہ عنہ",
-					"ur": "رسول اللہ صلی اللہ علیہ وسلم کے خادم عبید رضی اللہ عنہ کی روایات۔",
-					"en": "Ubayd (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2015,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن ثعلبہ بن سویر رضی اللہ عنہ",
-					"ur": "عبداللہ بن ثعلبہ بن سویر رضی اللہ عنہ کی روایات۔",
-					"en": "Abdullah ibn Tha'laba ibn Swyr (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2016,
-				"parentId": 17,
-				"names": {
-					"ar": "عبید اللہ بن عدی الانصاری رضی اللہ عنہ",
-					"ur": "عبید اللہ بن عدی الانصاری رضی اللہ عنہ کی روایات۔",
-					"en": "Ubayd ibn Adi al-Ansari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2017,
-				"parentId": 17,
-				"names": {
-					"ar": "عمر بن ثابت الانصاری رضی اللہ عنہ کی احادیث بعض صحابہ کرام رضی اللہ عنہم",
-					"ur": "عمر بن ثابت الانصاری رضی اللہ عنہ کی احادیث بعض صحابہ کرام رضی اللہ عنہم سے مرویات۔",
-					"en": "Umar ibn Thabit al-Ansari Karam (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2018,
-				"parentId": 17,
-				"names": {
-					"ar": "مسیب بن حزن رضی اللہ عنہ",
-					"ur": "مسیب بن حزن رضی اللہ عنہ کی روایات۔",
-					"en": "Masyb ibn Hazan (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2019,
-				"parentId": 17,
-				"names": {
-					"ar": "حارثہ بن النعمان رضی اللہ عنہ",
-					"ur": "حارثہ بن النعمان رضی اللہ عنہ کی روایات۔",
-					"en": "Haritha ibn al-Nu'man (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2020,
-				"parentId": 17,
-				"names": {
-					"ar": "کعب بن عاصم اشعری رضی اللہ عنہ",
-					"ur": "کعب بن عاصم اشعری رضی اللہ عنہ کی روایات",
-					"en": "Ka'b ibn Asim Ash'ari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2021,
-				"parentId": 17,
-				"names": {
-					"ur": "بنو غفار کے ایک شخص کی روایات کہ اللہ تعالیٰ اس سے راضی ہوں گے۔",
-					"en": "Banw Ghafar Ta'aly As Rady Hwn Gy (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 2022,
-				"parentId": 17,
-				"names": {
-					"ar": "محیصہ بن مسعود رضی اللہ عنہ",
-					"ur": "محیصہ بن مسعود رضی اللہ عنہ کی روایات۔",
-					"en": "Mahysah ibn Mas'ud (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2023,
-				"parentId": 17,
-				"names": {
-					"ar": "سلمہ بن صخر البیضی رضی اللہ عنہ",
-					"ur": "سلمہ بن صخر البیضی رضی اللہ عنہ کی روایات",
-					"en": "Salama ibn Sakhr Alabydy (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2024,
-				"parentId": 17,
-				"names": {
-					"ar": "رفاعہ بن شداد کی احادیث عمرو بن الحمق رضی اللہ عنہ",
-					"ur": "رفاعہ بن شداد کی احادیث عمرو بن الحمق رضی اللہ عنہ سے مرویات",
-					"en": "Rifa'a ibn Shaddad Amr ibn Alahamaq (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2025,
-				"parentId": 17,
-				"names": {
-					"ar": "سلمان فارسی رضی اللہ عنہ",
-					"ur": "حضرت سلمان فارسی رضی اللہ عنہ کی روایات۔",
-					"en": "Salman Farasy (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2026,
-				"parentId": 17,
-				"names": {
-					"ar": "سوید بن مقرن رضی اللہ عنہ",
-					"ur": "سوید بن مقرن رضی اللہ عنہ کی روایات۔",
-					"en": "Suwayd ibn Maqaran (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2027,
-				"parentId": 17,
-				"names": {
-					"ar": "نعمان بن مقرن رضی اللہ عنہ",
-					"ur": "نعمان بن مقرن رضی اللہ عنہ کی روایات۔",
-					"en": "Nu'man ibn Maqaran (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2028,
-				"parentId": 17,
-				"names": {
-					"ar": "جابر بن عتیک رضی اللہ عنہ",
-					"ur": "جابر بن عتیک رضی اللہ عنہ کی روایات۔",
-					"en": "Jabir ibn 'atyk (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2029,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو سلمہ الانصاری رضی اللہ عنہ",
-					"ur": "ابو سلمہ الانصاری رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Salama al-Ansari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2030,
-				"parentId": 17,
-				"names": {
-					"ar": "قیس بن عمرو رضی اللہ عنہ",
-					"ur": "قیس بن عمرو رضی اللہ عنہ کی روایات۔",
-					"en": "Qais ibn Amr (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2031,
-				"parentId": 17,
-				"names": {
-					"ar": "معاویہ بن الحکم السلمی رضی اللہ عنہ",
-					"ur": "معاویہ بن الحکم السلمی رضی اللہ عنہ کی احادیث",
-					"en": "Muawiya ibn al-Hakam al-Sulami (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2032,
-				"parentId": 17,
-				"names": {
-					"ar": "عتبان بن مالک رضی اللہ عنہ",
-					"ur": "عتبان بن مالک رضی اللہ عنہ کی روایات۔",
-					"en": "'ataban ibn Malik (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2033,
-				"parentId": 17,
-				"names": {
-					"ar": "عاصم بن عدی رضی اللہ عنہ",
-					"ur": "عاصم بن عدی رضی اللہ عنہ کی روایات۔",
-					"en": "Asim ibn Adi (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2034,
-				"parentId": 17,
-				"names": {
-					"ar": "ابوداؤد المزنی رضی اللہ عنہ",
-					"ur": "ابوداؤد المزنی رضی اللہ عنہ کی احادیث",
-					"en": "Abu Dad al-Muzani (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2035,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن سلام رضی اللہ عنہ",
-					"ur": "عبداللہ بن سلام رضی اللہ عنہ کی روایات۔",
-					"en": "Abdullah ibn Salam (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2036,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو طفیل عامر بن واثلہ رضی اللہ عنہ",
-					"ur": "ابو طفیل عامر بن واثلہ رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Tufayl Amir ibn Wathila (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2037,
-				"parentId": 17,
-				"names": {
-					"ar": "حدیث نوفل اشجعی",
-					"ur": "حدیث نوفل اشجعی رضی اللہ عنہ",
-					"en": "Nwfal Ashja'i"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2038,
-				"parentId": 17,
-				"names": {
-					"ar": "مقداد بن اسود رضی اللہ عنہ",
-					"ur": "مقداد بن اسود رضی اللہ عنہ کی روایات۔",
-					"en": "Maqadad ibn Aswad (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2039,
-				"parentId": 17,
-				"names": {
-					"ar": "محمد بن عبداللہ بن سلام رضی اللہ عنہ",
-					"ur": "محمد بن عبداللہ بن سلام رضی اللہ عنہ کی روایات۔",
-					"en": "Muhammad ibn Abdullah ibn Salam (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2040,
-				"parentId": 17,
-				"names": {
-					"ar": "یوسف بن عبداللہ بن سلام رضی اللہ عنہ",
-					"ur": "یوسف بن عبداللہ بن سلام رضی اللہ عنہ کی روایات۔",
-					"en": "Yusuf ibn Abdullah ibn Salam (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2041,
-				"parentId": 17,
-				"names": {
-					"ar": "حدیث الولید بن الولید",
-					"ur": "حدیث الولید بن الولید رضی اللہ عنہ",
-					"en": "Alwlyd ibn Alwlyd"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2042,
-				"parentId": 17,
-				"names": {
-					"ar": "قیس بن سعد بن عبادہ رضی اللہ عنہ",
-					"ur": "قیس بن سعد بن عبادہ رضی اللہ عنہ کی روایات۔",
-					"en": "Qais ibn Sa'd ibn Ubada (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2043,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو بصرہ غفاری رضی اللہ عنہ",
-					"ur": "حضرت ابو بصرہ غفاری رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Basarah Ghifari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2044,
-				"parentId": 17,
-				"names": {
-					"ar": "عبادہ کی بیوی کے بیٹے ابو ابی رضی اللہ عنہ",
-					"ur": "عبادہ کی بیوی کے بیٹے ابو ابی رضی اللہ عنہ کی روایات۔",
-					"en": "Ubada Bywy Byty Abu Abi (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2045,
-				"parentId": 17,
-				"names": {
-					"ar": "سالم بن عبید رضی اللہ عنہ",
-					"ur": "سالم بن عبید رضی اللہ عنہ کی روایات۔",
-					"en": "Salam ibn Ubayd (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2046,
-				"parentId": 17,
-				"names": {
-					"ar": "مقداد بن الاسود رضی اللہ عنہ",
-					"ur": "مقداد بن الاسود رضی اللہ عنہ کی بقیہ حدیث",
-					"en": "Maqadad ibn al-Aswad (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2047,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو رافع رضی اللہ عنہ",
-					"ur": "ابو رافع رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Rafi (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2048,
-				"parentId": 17,
-				"names": {
-					"ur": "حضرت دمرہ بن سعید کی روایات کہ اللہ تعالیٰ ان سے راضی ہیں۔",
-					"en": "Damarah ibn Sa'eed Ta'aly Rady Hyn (RA)"
-				},
-				"needsTranslation": [
-					"ar"
-				],
-				"transliterated": true
-			},
-			{
-				"id": 2049,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو بردہ الغفری رضی اللہ عنہ",
-					"ur": "ابو بردہ الغفری رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Baradah Alaghafary (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2050,
-				"parentId": 17,
-				"names": {
-					"ar": "عبداللہ بن ابی حدرد رضی اللہ عنہ",
-					"ur": "عبداللہ بن ابی حدرد رضی اللہ عنہ کی روایات۔",
-					"en": "Abdullah ibn Abi Hadarad (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2051,
-				"parentId": 17,
-				"names": {
-					"ar": "بلال رضی اللہ عنہ",
-					"ur": "حضرت بلال رضی اللہ عنہ کی روایات۔",
-					"en": "Balal (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2052,
-				"parentId": 17,
-				"names": {
-					"ar": "صہیب رضی اللہ عنہ",
-					"ur": "صہیب رضی اللہ عنہ کی روایات۔",
-					"en": "Sahyb (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2053,
-				"parentId": 17,
-				"names": {
-					"ar": "کعب بن مالک کی بیوی کی روایات",
-					"ur": "کعب بن مالک کی بیوی کی روایات رضی اللہ عنہ",
-					"en": "Narrations of Ka'b ibn Malik Bywy"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2054,
-				"parentId": 17,
-				"names": {
-					"ar": "مسند فضلہ بن عبید الانصاری",
-					"ur": "مسند فضلہ بن عبید الانصاری رضی اللہ عنہ",
-					"en": "Masanad Fadalah ibn Ubayd al-Ansari"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2055,
-				"parentId": 17,
-				"names": {
-					"ar": "عوف بن مالک اشجعی الانصاری رضی اللہ عنہ",
-					"ur": "عوف بن مالک اشجعی الانصاری رضی اللہ عنہ کی روایات",
-					"en": "'wf ibn Malik Ashja'i al-Ansari (RA)"
-				},
-				"transliterated": true
+				"id": 19,
+				"parentId": null,
+				"names": {
+					"ar": "مسند النساء",
+					"en": "Musnad of the Women",
+					"ur": "صحابیات سے روایات"
+				}
 			},
 			{
 				"id": 2056,
@@ -17475,6 +17466,15 @@
 					"en": "Umm Bajyd"
 				},
 				"transliterated": true
+			},
+			{
+				"id": 20,
+				"parentId": null,
+				"names": {
+					"ar": "مِنْ مُسْنَدِ الْقَبَائِلِ",
+					"en": "From the Musnad of the Tribes",
+					"ur": "قبائل سے روایات"
+				}
 			},
 			{
 				"id": 2130,
