@@ -97,12 +97,70 @@ citations resolve correctly on sunnah.com.
 The three forties (42/40/40 hadith): fawaz coverage is 1:1 with the
 existing counts, no gaps, no outliers possible (single chapter each).
 
-Musnad Ahmad and Darimi were never part of this pipeline (separate,
-already-validated rebuilds) and are untouched. Riyad as-Salihin, Mishkat
-al-Masabih, Al-Adab al-Mufrad, Ash-Shama'il al-Muhammadiyyah, Bulugh
-al-Maram, and Hisn al-Muslim have no cached independent canonical source at
-all (per this plan's original inventory) — still open, needs its own
-research pass before any rebuild can start there.
+Musnad Ahmad's hadith text (Arabic/Urdu, from the al-hadees.com scrape) was
+never part of this pipeline and is untouched. Darimi likewise untouched.
+Riyad as-Salihin, Mishkat al-Masabih, Al-Adab al-Mufrad, Ash-Shama'il
+al-Muhammadiyyah, Bulugh al-Maram, and Hisn al-Muslim have no cached
+independent canonical source at all (per this plan's original inventory) —
+still open, needs its own research pass before any rebuild can start there.
+
+## Musnad Ahmad — companion/chapter duplicate-id merge (separate issue, same day)
+
+Unrelated to the fawaz work above: user-reported bugs in `bookChapters.ahmad`
+(87 duplicate-name catalog entries, e.g. Ali ibn Abi Talib split across ids
+1004/1005 with idInBook 1294 wrongly routed to the spurious 1005 mid-run —
+see conversation history for the full root-cause writeup, including the
+"Karam"/"Hadyth" generic-fallback-label discovery).
+
+Classified the 80 genuine-person duplicate-name groups (7 more were
+generic-label collisions like "Karam"/"Hadyth", not handled here) by how
+their two-or-three ids' `idInBook` ranges relate:
+
+- **11 adjacent-range groups** (e.g. Abu Darda: id 2201 range 27479-27513
+  immediately followed by id 2202's 27514-27558, zero gap) — almost
+  certainly one continuous physical section arbitrarily split into two
+  catalog entries. Merged into the earliest id.
+- **4 tiny-stray groups** (a large contiguous block + a 1-3-hadith orphan
+  elsewhere, e.g. Ali 1004 n=818 + 1005 n=1, Abu Hurairah 1030 n=3865 +
+  1031 n=1, Abu Sa'eed al-Khudri 1032 n=955 + 1033 n=1) — the stray almost
+  certainly belongs with the dominant block. Merged, absorbing into the
+  larger id.
+- **65 groups left untouched** — both sides have substantial, physically
+  separate hadith counts (not a small-stray pattern) sharing an identical
+  translated name. Many of these names are tribal/group labels ("Abd
+  al-Qays" is a tribe, not a person) or visibly garbled transliterations
+  ("Sahar Abd Y", "Jadaywb ibn Mwsy") rather than clean personal names —
+  strong evidence these are genuinely separate physical sections that
+  happen to share an incomplete/generic label from the original
+  Urdu-label-extraction step, not duplicate ids of the same person.
+  Blindly merging these risks misattributing real hadith to the wrong
+  narrator, which is worse than leaving the duplicate label alone. Fixing
+  this properly requires going back to the raw 1,203 Urdu labels and
+  re-deriving cleaner names per physically-contiguous block — not
+  attempted here; flagged as follow-up requiring its own research pass.
+
+Executed via a one-off script (not committed as a tool — this was a data
+correction, not a repeatable pipeline step): 15 groups merged, 227 hadith
+reassigned, 15 redundant catalog entries removed (1,229 → 1,214 chapters),
+total hadith count unchanged (27,648). Verified: idInBook 1294 (the
+originally-reported bug) now correctly resolves to Ali's main chapter (id
+1004); all 15 merged names confirmed no longer duplicated in the catalog.
+
+**Not done in this pass** (left as follow-up, in priority order):
+1. The 65 ambiguous duplicate-name groups above — needs real research per
+   name, not mechanical merging.
+2. The 32 garbled/generic-label chapters ("Karam" x3, "Hadyth", "Ahadyth",
+   etc.) — needs the raw Urdu-label re-extraction described above; these
+   were already characterized in detail but not fixed.
+3. Catalog ordering — 34 companion sub-chapters across 10 parent groups
+   still sit out of chronological order relative to their hadith's actual
+   position in the book; re-deriving order from data (sort each parent's
+   children by min `idInBook`) is cheap but wasn't run this pass since
+   the underlying duplicate/garbled-name issues above should be resolved
+   first.
+4. The 42 hadith tagged directly to a top-level group id with no companion
+   sub-chapter (the source of the 27,648 vs 27,606-in-chapter-list
+   discrepancy) — still uncategorized.
 
 ## Method
 
