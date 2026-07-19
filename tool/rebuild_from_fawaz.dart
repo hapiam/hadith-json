@@ -15,13 +15,31 @@ import 'dart:io';
 /// record -- no cross-source join.
 ///
 /// Usage: dart run tool/rebuild_from_fawaz.dart <book>
-/// book is one of: bukhari muslim abudawud tirmidhi nasai ibnmajah
+/// book is one of: bukhari muslim abudawud tirmidhi nasai ibnmajah malik
+/// nawawi40 qudsi40 shahwaliullah40
 void main(List<String> args) {
   if (args.isEmpty) {
     stderr.writeln('Usage: dart run tool/rebuild_from_fawaz.dart <book>');
     exit(1);
   }
   final book = args.first;
+
+  // fawaz's own edition key, where it differs from our catalog's book key.
+  const fawazKey = {
+    'nawawi40': 'nawawi',
+    'qudsi40': 'qudsi',
+    'shahwaliullah40': 'dehlawi',
+  };
+  final sourceKey = fawazKey[book] ?? book;
+
+  // 'citation' (default): "{title} N[letter]", url "sunnah.com/{urlKey}:N[letter]"
+  // (bukhari/muslim/etc., and the flat forties -- arabicnumber is always a
+  // plain integer for the forties so the letter-suffix logic is a no-op).
+  // 'malik': no text, url is "sunnah.com/{urlKey}/{book}/{hadith}" (Malik's
+  // own citation convention -- verified directly against sunnah.com).
+  const referenceStyle = {'malik': 'malik'};
+  // Forties cite as "Hadith N, {title}" rather than "{title} N".
+  const fortyHadithBooks = {'nawawi40', 'qudsi40', 'shahwaliullah40'};
 
   // Hand-verified against sunnah.com (chapter-boundary hadith the neighbor-
   // inference pass below couldn't resolve on its own -- both neighbors sit
@@ -61,6 +79,10 @@ void main(List<String> args) {
     'tirmidhi': "Jami` at-Tirmidhi",
     'nasai': "Sunan an-Nasa'i",
     'ibnmajah': 'Sunan Ibn Majah',
+    'malik': 'Muwatta Malik',
+    'nawawi40': '40 Hadith an-Nawawi',
+    'qudsi40': '40 Hadith Qudsi',
+    'shahwaliullah40': '40 Hadith Shah Waliullah',
   };
   const urlKey = {
     'bukhari': 'bukhari',
@@ -69,22 +91,36 @@ void main(List<String> args) {
     'tirmidhi': 'tirmidhi',
     'nasai': 'nasai',
     'ibnmajah': 'ibnmajah',
+    'malik': 'malik',
+    'nawawi40': 'nawawi40',
+    'qudsi40': 'qudsi40',
+    'shahwaliullah40': 'shahwaliullah40',
   };
 
-  final prefix = bookIdPrefix[book];
-  if (prefix == null) {
-    stderr.writeln('Unknown book "$book". Expected one of ${bookIdPrefix.keys}');
-    exit(1);
-  }
-
   final root = Directory.current.path;
-  final araFile = File('$root/db/editions/files/ara-$book.min.json');
-  final engFile = File('$root/db/editions/files/eng-$book.min.json');
-  final existingFile = File('$root/db/by_book/the_9_books/$book.json');
+  final araFile = File('$root/db/editions/files/ara-$sourceKey.min.json');
+  final engFile = File('$root/db/editions/files/eng-$sourceKey.min.json');
+  final existingPath = fortyHadithBooks.contains(book)
+      ? '$root/db/by_book/forties/$book.json'
+      : '$root/db/by_book/the_9_books/$book.json';
+  final existingFile = File(existingPath);
 
   final ara = jsonDecode(araFile.readAsStringSync()) as Map<String, dynamic>;
   final eng = jsonDecode(engFile.readAsStringSync()) as Map<String, dynamic>;
   final existing = jsonDecode(existingFile.readAsStringSync()) as Map<String, dynamic>;
+
+  // Book-id prefix for the `id = prefix * 1_000_000 + idInBook` scheme (the
+  // 6 main books) doesn't apply to malik/the forties -- their existing `id`
+  // values are `globalOffset + idInBook` instead (a single incrementing
+  // counter across every book in the old spine, not per-book). Detected
+  // from the existing data's own first entry rather than hardcoded, so it
+  // stays correct even if upstream ordering ever shifts.
+  final existingHadiths = (existing['hadiths'] as List).cast<Map<String, dynamic>>();
+  final firstExisting = existingHadiths.first;
+  final globalIdOffset =
+      (firstExisting['id'] as num).toInt() - (firstExisting['idInBook'] as num).toInt();
+  final prefix = bookIdPrefix[book];
+  final bookIdField = (firstExisting['bookId'] as num).toInt();
 
   final araHadiths = (ara['hadiths'] as List).cast<Map<String, dynamic>>();
   final engByNum = <int, Map<String, dynamic>>{
@@ -115,7 +151,7 @@ void main(List<String> args) {
     if (arName == null) unmatchedChapterNames++;
     newChapters.add({
       'id': id,
-      'bookId': prefix,
+      'bookId': bookIdField,
       'parentId': null,
       'names': {
         if (arName != null) 'ar': arName,
@@ -161,24 +197,58 @@ void main(List<String> args) {
     if (isBlank) blankContent++;
 
     final citation = citationSuffix(h['arabicnumber']);
+    final Map<String, dynamic> reference;
+    if (referenceStyle[book] == 'malik') {
+      // Malik cites by book/in-book-hadith position, not a bare running
+      // number -- verified directly against sunnah.com/malik/{book}/{hadith}.
+      // No separate citation text; the old data never had one either.
+      reference = {'url': 'https://sunnah.com/${urlKey[book]}/$refBook/$refHadith'};
+    } else if (fortyHadithBooks.contains(book)) {
+      reference = {
+        'text': 'Hadith $citation, ${englishTitle[book]}',
+        'url': 'https://sunnah.com/${urlKey[book]}:$citation',
+      };
+    } else {
+      reference = {
+        'text': '${englishTitle[book]} $citation',
+        'url': 'https://sunnah.com/${urlKey[book]}:$citation',
+      };
+    }
 
     newHadiths.add({
-      'id': prefix * 1000000 + hadithNum,
+      'id': globalIdOffset + hadithNum,
       'idInBook': hadithNum,
       'chapterId': chapterId,
-      'bookId': prefix,
+      'bookId': bookIdField,
       'arabic': arabicText,
       'english': {
         'narrator': '',
         'text': englishText,
       },
       if (isUnknownChapter) 'chapterUnknown': true,
-      'reference': {
-        'text': '${englishTitle[book]} $citation',
-        'url': 'https://sunnah.com/${urlKey[book]}:$citation',
-      },
+      'reference': reference,
       if (isBlank) 'noSourceContent': true,
     });
+  }
+
+  // Malik only: fawaz's own edition caps at 1,858 hadith (independently
+  // verified across 6 languages, see README's "Muwatta Malik: 1,858, not
+  // 1,942" section) -- 127 more real hadith exist in the old spine beyond
+  // that with no fawaz coverage at all. Unlike the 6 main books, Malik's
+  // spine was never subject to this session's content-matching bug (its
+  // Arabic was "unchanged" per README, arabic/english always came from the
+  // same original pairing) -- so these are carried forward unchanged rather
+  // than dropped, using the same idInBook/id numbering they already have.
+  var appendedFromSpine = 0;
+  if (book == 'malik') {
+    final fawazMaxNum = araHadiths
+        .map((h) => (h['hadithnumber'] as num).toInt())
+        .reduce((a, b) => a > b ? a : b);
+    for (final h in existingHadiths) {
+      if ((h['idInBook'] as num).toInt() <= fawazMaxNum) continue;
+      newHadiths.add(Map<String, dynamic>.from(h));
+      appendedFromSpine++;
+    }
   }
 
   // Second pass: for chapterUnknown entries, infer chapterId from the
@@ -250,4 +320,7 @@ void main(List<String> args) {
   stdout.writeln('    fixed via hand-verified override: $overridden');
   stdout.writeln('    still genuinely unresolved (chapterId left null): ${chapterUnknown - inferred - overridden}');
   stdout.writeln('  chapters with no backfilled Arabic name: $unmatchedChapterNames / ${newChapters.length}');
+  if (appendedFromSpine > 0) {
+    stdout.writeln('  appended unchanged from old spine (beyond fawaz coverage): $appendedFromSpine');
+  }
 }

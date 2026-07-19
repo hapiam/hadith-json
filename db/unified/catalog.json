@@ -1245,7 +1245,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 337427
+			"mirrorZipBytes": 343298
 		},
 		{
 			"id": "ara1-malik",
@@ -1267,7 +1267,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 240496
+			"mirrorZipBytes": 240119
 		},
 		{
 			"id": "ben-malik",
@@ -1291,7 +1291,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 809403
+			"mirrorZipBytes": 813364
 		},
 		{
 			"id": "eng-malik",
@@ -1301,7 +1301,7 @@
 			"languageName": "English",
 			"name": "Muwatta Malik (English)",
 			"hadithCount": 1985,
-			"translationCount": 1973,
+			"translationCount": 1945,
 			"features": [
 				"arabic",
 				"translation",
@@ -1315,7 +1315,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 769505
+			"mirrorZipBytes": 746592
 		},
 		{
 			"id": "fra-malik",
@@ -1339,7 +1339,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 715851
+			"mirrorZipBytes": 722730
 		},
 		{
 			"id": "ind-malik",
@@ -1363,7 +1363,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 590420
+			"mirrorZipBytes": 596749
 		},
 		{
 			"id": "tur-malik",
@@ -1387,7 +1387,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 603388
+			"mirrorZipBytes": 609725
 		},
 		{
 			"id": "urd-malik",
@@ -1411,7 +1411,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 604548
+			"mirrorZipBytes": 610937
 		},
 		{
 			"id": "ara-ahmad",
@@ -1501,7 +1501,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 10315
+			"mirrorZipBytes": 10628
 		},
 		{
 			"id": "ara1-nawawi40",
@@ -1524,7 +1524,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 8043
+			"mirrorZipBytes": 8042
 		},
 		{
 			"id": "ben-nawawi40",
@@ -1549,7 +1549,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 23442
+			"mirrorZipBytes": 23817
 		},
 		{
 			"id": "eng-nawawi40",
@@ -1574,7 +1574,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 19284
+			"mirrorZipBytes": 21141
 		},
 		{
 			"id": "fra-nawawi40",
@@ -1599,7 +1599,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 20084
+			"mirrorZipBytes": 20437
 		},
 		{
 			"id": "ind-nawawi40",
@@ -1625,7 +1625,7 @@
 				"sagad"
 			],
 			"translationStatus": "draft",
-			"mirrorZipBytes": 19131
+			"mirrorZipBytes": 19496
 		},
 		{
 			"id": "tur-nawawi40",
@@ -1650,7 +1650,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 18988
+			"mirrorZipBytes": 19342
 		},
 		{
 			"id": "ara-qudsi40",
@@ -1673,7 +1673,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 11524
+			"mirrorZipBytes": 11394
 		},
 		{
 			"id": "ara1-qudsi40",
@@ -1696,7 +1696,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 8559
+			"mirrorZipBytes": 8558
 		},
 		{
 			"id": "eng-qudsi40",
@@ -1721,7 +1721,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 21272
+			"mirrorZipBytes": 22936
 		},
 		{
 			"id": "fra-qudsi40",
@@ -1746,7 +1746,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 21755
+			"mirrorZipBytes": 21625
 		},
 		{
 			"id": "ind-qudsi40",
@@ -1772,7 +1772,7 @@
 				"sagad"
 			],
 			"translationStatus": "draft",
-			"mirrorZipBytes": 21561
+			"mirrorZipBytes": 21429
 		},
 		{
 			"id": "ara-shahwaliullah40",
@@ -1795,7 +1795,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 2283
+			"mirrorZipBytes": 2282
 		},
 		{
 			"id": "ara1-shahwaliullah40",
@@ -1818,7 +1818,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 1881
+			"mirrorZipBytes": 1880
 		},
 		{
 			"id": "eng-shahwaliullah40",
@@ -1843,7 +1843,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 3535
+			"mirrorZipBytes": 3529
 		},
 		{
 			"id": "fra-shahwaliullah40",
@@ -1868,7 +1868,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 3648
+			"mirrorZipBytes": 3647
 		},
 		{
 			"id": "ind-shahwaliullah40",
@@ -1894,7 +1894,7 @@
 				"sagad"
 			],
 			"translationStatus": "draft",
-			"mirrorZipBytes": 3627
+			"mirrorZipBytes": 3626
 		},
 		{
 			"id": "ara-riyadussalihin",
@@ -18681,33 +18681,30 @@
 		],
 		"nawawi40": [
 			{
-				"id": 0,
+				"id": 1,
 				"bookId": 10,
 				"parentId": null,
 				"names": {
-					"ar": "الأربعون النووية",
 					"en": "Forty Hadith of an-Nawawi"
 				}
 			}
 		],
 		"qudsi40": [
 			{
-				"id": 0,
+				"id": 1,
 				"bookId": 11,
 				"parentId": null,
 				"names": {
-					"ar": "الحديث القدسي",
 					"en": "Forty Hadith Qudsi"
 				}
 			}
 		],
 		"shahwaliullah40": [
 			{
-				"id": 0,
+				"id": 1,
 				"bookId": 12,
 				"parentId": null,
 				"names": {
-					"ar": "أربعون شاه ولي الله الدهلوي",
 					"en": "Forty Hadith of Shah Waliullah Dehlawi"
 				}
 			}

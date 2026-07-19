@@ -70,10 +70,39 @@ upstream-in-fawaz-too "Agriculture" content gap already known from this
 audit). `tool/build_unified_editions.dart` and
 `tool/gen_data_quality_report.dart` re-run clean against the rebuilt data.
 
-Malik/Nawawi40/Qudsi40/Shahwaliullah40 have the same architecture (fawaz
-coverage exists) but were **not** rebuilt this round — same risk profile,
-flagged as follow-up. Musnad Ahmad and Darimi were never part of this
-pipeline (separate, already-validated rebuilds) and are untouched.
+**Phase 2 (same day, follow-up round)**: malik, nawawi40, qudsi40,
+shahwaliullah40 rebuilt the same way. `tool/rebuild_from_fawaz.dart`
+generalized to handle their different `id` numbering (a single incrementing
+counter across the whole old spine, `globalOffset + idInBook`, auto-detected
+from the existing data rather than hardcoded) and citation conventions:
+Malik cites by book/in-book-hadith path (`sunnah.com/malik/{book}/{hadith}`,
+no separate citation number — verified directly), the three "forties" cite
+as "Hadith N, {title}" and use a single flat chapter (fawaz section 1) since
+they have no real subdivisions.
+
+Malik: fawaz's own edition caps at 1,858 hadith (independently corroborates
+this repo's earlier README finding, "Muwatta Malik: 1,858, not 1,942"); the
+127 additional real hadith in the old spine beyond that (idInBook
+1859-1985) have no fawaz coverage at all and were carried forward
+**unchanged** rather than dropped — Malik's spine was never subject to this
+session's content-matching bug in the first place (its Arabic was
+"unchanged" per this repo's README, so its Arabic/English pairing was never
+re-shuffled the way the 6 main books' was). Verified: 1,985 total hadith
+(1,858 rebuilt + 127 preserved, matching the pre-existing count exactly),
+0/61 chapters missing an Arabic name, 0 genuine isolated-outlier bugs (16
+flagged by the scan all turned out to be pre-existing blank/`noSourceContent`
+entries with nothing to mis-categorize, not real errors), spot-checked
+citations resolve correctly on sunnah.com.
+
+The three forties (42/40/40 hadith): fawaz coverage is 1:1 with the
+existing counts, no gaps, no outliers possible (single chapter each).
+
+Musnad Ahmad and Darimi were never part of this pipeline (separate,
+already-validated rebuilds) and are untouched. Riyad as-Salihin, Mishkat
+al-Masabih, Al-Adab al-Mufrad, Ash-Shama'il al-Muhammadiyyah, Bulugh
+al-Maram, and Hisn al-Muslim have no cached independent canonical source at
+all (per this plan's original inventory) — still open, needs its own
+research pass before any rebuild can start there.
 
 ## Method
 

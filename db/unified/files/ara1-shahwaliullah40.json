@@ -14,7 +14,7 @@
 		{
 			"id": 41026,
 			"idInBook": 1,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "لیس الخبر کالمعاینة",
 			"translation": null,
@@ -28,7 +28,7 @@
 		{
 			"id": 41027,
 			"idInBook": 2,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الحرب خدعة",
 			"translation": null,
@@ -42,7 +42,7 @@
 		{
 			"id": 41028,
 			"idInBook": 3,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "المسلم مراة المسلم",
 			"translation": null,
@@ -56,7 +56,7 @@
 		{
 			"id": 41029,
 			"idInBook": 4,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "المستشار موتمن",
 			"translation": null,
@@ -70,7 +70,7 @@
 		{
 			"id": 41030,
 			"idInBook": 5,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الدال علی الخیر کفاعله",
 			"translation": null,
@@ -84,7 +84,7 @@
 		{
 			"id": 41031,
 			"idInBook": 6,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "استعینوا علی الحوايج بالکتمان",
 			"translation": null,
@@ -98,7 +98,7 @@
 		{
 			"id": 41032,
 			"idInBook": 7,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "اتقوا النار ولو بشق تمرة",
 			"translation": null,
@@ -112,7 +112,7 @@
 		{
 			"id": 41033,
 			"idInBook": 8,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الدنیا سجن المومن و جنة الکافر",
 			"translation": null,
@@ -126,7 +126,7 @@
 		{
 			"id": 41034,
 			"idInBook": 9,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الحیاء خیر کله",
 			"translation": null,
@@ -140,7 +140,7 @@
 		{
 			"id": 41035,
 			"idInBook": 10,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "عدة المومن کاخذ الکف",
 			"translation": null,
@@ -154,7 +154,7 @@
 		{
 			"id": 41036,
 			"idInBook": 11,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "لا یحل لمومن ان یجهر اخاه فوق ثلاثة ایام",
 			"translation": null,
@@ -168,7 +168,7 @@
 		{
 			"id": 41037,
 			"idInBook": 12,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "لیس منا من غشنا",
 			"translation": null,
@@ -182,7 +182,7 @@
 		{
 			"id": 41038,
 			"idInBook": 13,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "ما قل وكفى خير مما كثر والهى",
 			"translation": null,
@@ -196,7 +196,7 @@
 		{
 			"id": 41039,
 			"idInBook": 14,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الراجع في هبته کالراجع في قیيه",
 			"translation": null,
@@ -210,7 +210,7 @@
 		{
 			"id": 41040,
 			"idInBook": 15,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "البلاء موکل بالمنطق",
 			"translation": null,
@@ -224,7 +224,7 @@
 		{
 			"id": 41041,
 			"idInBook": 16,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الناس کاسنان المشط",
 			"translation": null,
@@ -238,7 +238,7 @@
 		{
 			"id": 41042,
 			"idInBook": 17,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الغنى غنى النفس",
 			"translation": null,
@@ -252,7 +252,7 @@
 		{
 			"id": 41043,
 			"idInBook": 18,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "السعید من وعظ بغیره",
 			"translation": null,
@@ -266,7 +266,7 @@
 		{
 			"id": 41044,
 			"idInBook": 19,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "و ان من الشعر لحکمة وان من البیان لسحرا",
 			"translation": null,
@@ -280,7 +280,7 @@
 		{
 			"id": 41045,
 			"idInBook": 20,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "عفو الملوك ابقاء للملك",
 			"translation": null,
@@ -294,7 +294,7 @@
 		{
 			"id": 41046,
 			"idInBook": 21,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "المرء مع من احب",
 			"translation": null,
@@ -308,7 +308,7 @@
 		{
 			"id": 41047,
 			"idInBook": 22,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "ما هلك امرو عرف قدره",
 			"translation": null,
@@ -322,7 +322,7 @@
 		{
 			"id": 41048,
 			"idInBook": 23,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الولد للفراش و للعاهر الحجر",
 			"translation": null,
@@ -336,7 +336,7 @@
 		{
 			"id": 41049,
 			"idInBook": 24,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الید العلیا خیر من الید السفلی",
 			"translation": null,
@@ -350,7 +350,7 @@
 		{
 			"id": 41050,
 			"idInBook": 25,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "لا شکر الله من لا یشکر الناس",
 			"translation": null,
@@ -364,7 +364,7 @@
 		{
 			"id": 41051,
 			"idInBook": 26,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "حبك الشيء یعمي و یصم",
 			"translation": null,
@@ -378,7 +378,7 @@
 		{
 			"id": 41052,
 			"idInBook": 27,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "جبلت القلوب علی حب من احسن الیها و بغض من اساء الیها",
 			"translation": null,
@@ -392,7 +392,7 @@
 		{
 			"id": 41053,
 			"idInBook": 28,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "التايب من الذنب کمن لا ذنب له",
 			"translation": null,
@@ -406,7 +406,7 @@
 		{
 			"id": 41054,
 			"idInBook": 29,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الشاهد یری ما لا یراه الغايب",
 			"translation": null,
@@ -420,7 +420,7 @@
 		{
 			"id": 41055,
 			"idInBook": 30,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "اذا جاءکم کریم قوم فاکرموه",
 			"translation": null,
@@ -434,7 +434,7 @@
 		{
 			"id": 41056,
 			"idInBook": 31,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الیمین الفاجرة تدع الدیار البلاقع",
 			"translation": null,
@@ -448,7 +448,7 @@
 		{
 			"id": 41057,
 			"idInBook": 32,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "من قتل دون ماله فهو شهید",
 			"translation": null,
@@ -462,7 +462,7 @@
 		{
 			"id": 41058,
 			"idInBook": 33,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "الاعمال بالنیة",
 			"translation": null,
@@ -476,7 +476,7 @@
 		{
 			"id": 41059,
 			"idInBook": 34,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "سید القوم خادمهم",
 			"translation": null,
@@ -490,7 +490,7 @@
 		{
 			"id": 41060,
 			"idInBook": 35,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "خیر الامور اوسطها",
 			"translation": null,
@@ -504,7 +504,7 @@
 		{
 			"id": 41061,
 			"idInBook": 36,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "اللهم بارك فی امتی فی بکورها یوم الخمیس",
 			"translation": null,
@@ -518,7 +518,7 @@
 		{
 			"id": 41062,
 			"idInBook": 37,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "کاد الفقر ان یکون کفرا",
 			"translation": null,
@@ -532,7 +532,7 @@
 		{
 			"id": 41063,
 			"idInBook": 38,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "السفر قطعة من العذاب",
 			"translation": null,
@@ -546,7 +546,7 @@
 		{
 			"id": 41064,
 			"idInBook": 39,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "خیر زاد التقوی",
 			"translation": null,
@@ -560,7 +560,7 @@
 		{
 			"id": 41065,
 			"idInBook": 40,
-			"chapterId": 0,
+			"chapterId": 1,
 			"bookId": 12,
 			"arabic": "المجالس بالامانة",
 			"translation": null,
