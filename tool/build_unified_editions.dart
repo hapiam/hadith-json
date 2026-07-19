@@ -781,6 +781,7 @@ class UnifiedBuilder {
         'grades': row['grades'],
         'reference': row['reference'],
         'isAddendum': row['isAddendum'] == true,
+        if (row['sortKey'] != null) 'sortKey': row['sortKey'],
         if (row['classification'] != null) 'classification': row['classification'],
         if (row['conclusion'] != null) 'conclusion': row['conclusion'],
       });
@@ -871,6 +872,7 @@ class UnifiedBuilder {
         'grades': row['grades'],
         'reference': row['reference'],
         'isAddendum': row['isAddendum'] == true,
+        if (row['sortKey'] != null) 'sortKey': row['sortKey'],
         if (row['classification'] != null) 'classification': row['classification'],
         if (row['conclusion'] != null) 'conclusion': row['conclusion'],
       });
