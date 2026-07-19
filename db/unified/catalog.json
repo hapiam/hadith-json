@@ -6041,27 +6041,7 @@
 				"transliterated": true
 			},
 			{
-				"id": 1003,
-				"parentId": 1,
-				"names": {
-					"ar": "عثمان بن عفان رضي الله عنه",
-					"ur": "عثمان بن عفان رضي الله عنه سے مرویات",
-					"en": "Uthman ibn 'afan (RA)"
-				},
-				"transliterated": true
-			},
-			{
 				"id": 1004,
-				"parentId": 1,
-				"names": {
-					"ar": "علی ابن ابی طالب رضی اللہ عنہ",
-					"ur": "علی ابن ابی طالب رضی اللہ عنہ کی روایات",
-					"en": "Ali ibn Abi Talib (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1005,
 				"parentId": 1,
 				"names": {
 					"ar": "علی ابن ابی طالب رضی اللہ عنہ",
@@ -6211,16 +6191,6 @@
 				"transliterated": true
 			},
 			{
-				"id": 1020,
-				"parentId": 5,
-				"names": {
-					"ar": "عبد اللہ بن جعفر بن ابی طالب رضی اللہ عنہ",
-					"ur": "عبد اللہ بن جعفر بن ابی طالب رضی اللہ عنہ کی روایات",
-					"en": "Abd ibn Ja'afar ibn Abi Talib (RA)"
-				},
-				"transliterated": true
-			},
-			{
 				"id": 1021,
 				"parentId": 7,
 				"names": {
@@ -6321,27 +6291,7 @@
 				"transliterated": true
 			},
 			{
-				"id": 1031,
-				"parentId": 8,
-				"names": {
-					"ar": "ابو ھریرہ رضی اللہ عنہ",
-					"ur": "ابو ھریرہ رضی اللہ عنہ کی روایات",
-					"en": "Abu Haryrah (RA)"
-				},
-				"transliterated": true
-			},
-			{
 				"id": 1032,
-				"parentId": 8,
-				"names": {
-					"ar": "ابو سعید خدری رضی اللہ عنہ",
-					"ur": "ابو سعید خدری رضی اللہ عنہ کی روایات",
-					"en": "Abu Sa'eed Khadary (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1033,
 				"parentId": 8,
 				"names": {
 					"ar": "ابو سعید خدری رضی اللہ عنہ",
@@ -9367,16 +9317,6 @@
 				"transliterated": true
 			},
 			{
-				"id": 1330,
-				"parentId": 11,
-				"names": {
-					"ar": "ابن اکوع",
-					"ur": "ابن اکوع کی بقیہ حدیث",
-					"en": "ibn Akw'"
-				},
-				"transliterated": true
-			},
-			{
 				"id": 1331,
 				"parentId": 11,
 				"names": {
@@ -10015,16 +9955,6 @@
 				"transliterated": true
 			},
 			{
-				"id": 1390,
-				"parentId": 11,
-				"names": {
-					"ar": "یحیی بن حصین",
-					"ur": "یحیی بن حصین کی اپنی والدہ سے روایت",
-					"en": "Yhyy ibn Husayn"
-				},
-				"transliterated": true
-			},
-			{
 				"id": 1391,
 				"parentId": 11,
 				"names": {
@@ -10502,16 +10432,6 @@
 			},
 			{
 				"id": 1438,
-				"parentId": 12,
-				"names": {
-					"ar": "رویفع بن ثاب انصاری رضِی اللہ عنہ",
-					"ur": "حضرت رویفع بن ثاب انصاری رضِی اللہ عنہ کی حدیثیں",
-					"en": "Rwyfa' ibn Thab al-Ansari (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1439,
 				"parentId": 12,
 				"names": {
 					"ar": "رویفع بن ثاب انصاری رضِی اللہ عنہ",
@@ -11869,16 +11789,6 @@
 					"ar": "عبداللہ بن ابی حبیبہ رضِی اللہ عنہ",
 					"ur": "حضرت عبداللہ بن ابی حبیبہ رضِی اللہ عنہ کی حدیث",
 					"en": "Abdullah ibn Abi Habiba (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1574,
-				"parentId": 12,
-				"names": {
-					"ar": "شرید بن سوید ثقفی رضِی اللہ عنہ",
-					"ur": "حضرت شرید بن سوید ثقفی رضِی اللہ عنہ کی حدیثیں",
-					"en": "Sharyd ibn Suwayd Thaqafi (RA)"
 				},
 				"transliterated": true
 			},
@@ -13507,16 +13417,6 @@
 				"transliterated": true
 			},
 			{
-				"id": 1734,
-				"parentId": 15,
-				"names": {
-					"ar": "انس بن مالک رضی اللہ تعالی نام کے ایک اور صحابی",
-					"ur": "حضرت انس بن مالک رضی اللہ تعالی نام کے ایک اور صحابی کی حدیثیں",
-					"en": "Anas ibn Malik (RA)"
-				},
-				"transliterated": true
-			},
-			{
 				"id": 1735,
 				"parentId": 15,
 				"names": {
@@ -13727,16 +13627,6 @@
 				"transliterated": true
 			},
 			{
-				"id": 1756,
-				"parentId": 15,
-				"names": {
-					"ar": "ابوقتادہ انصاری رضی اللہ تعالی",
-					"ur": "حضرت ابوقتادہ انصاری رضی اللہ تعالی کی حدیثیں",
-					"en": "Abu Qatada al-Ansari (RA)"
-				},
-				"transliterated": true
-			},
-			{
 				"id": 1757,
 				"parentId": 15,
 				"names": {
@@ -13915,16 +13805,6 @@
 					"ar": "سلمہ بن محبق رضی اللہ تعالی",
 					"ur": "حضرت سلمہ بن محبق رضی اللہ تعالی کی مرویات",
 					"en": "Salama ibn Mahabaq (RA)"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 1775,
-				"parentId": 16,
-				"names": {
-					"ar": "بہز بن حکیم",
-					"ur": "بہز بن حکیم کی بقیہ حدیث",
-					"en": "Bahaz ibn Hakim"
 				},
 				"transliterated": true
 			},
@@ -15997,16 +15877,6 @@
 				"transliterated": true
 			},
 			{
-				"id": 1975,
-				"parentId": 17,
-				"names": {
-					"ar": "ابو مالک سہل بن سعد السعدی رضی اللہ عنہ",
-					"ur": "ابو مالک سہل بن سعد السعدی رضی اللہ عنہ کی روایات۔",
-					"en": "Abu Malik Sahl ibn Sa'd al-Sa'di (RA)"
-				},
-				"transliterated": true
-			},
-			{
 				"id": 1976,
 				"parentId": 17,
 				"names": {
@@ -17365,16 +17235,6 @@
 				"transliterated": true
 			},
 			{
-				"id": 2105,
-				"parentId": 19,
-				"names": {
-					"ar": "قتیلہ بنت صیفی",
-					"ur": "قتیلہ بنت صیفی کی روایات",
-					"en": "Qatylah bint Sayfi"
-				},
-				"transliterated": true
-			},
-			{
 				"id": 2106,
 				"parentId": 19,
 				"names": {
@@ -18336,16 +18196,6 @@
 				"names": {
 					"ar": "ابودرداء",
 					"ur": "حضرت ابودرداء کی حدیثیں",
-					"en": "Abu Darda"
-				},
-				"transliterated": true
-			},
-			{
-				"id": 2202,
-				"parentId": 20,
-				"names": {
-					"ar": "ابودرداء",
-					"ur": "حضرت ابودرداء کی بقیہ حدیثیں",
 					"en": "Abu Darda"
 				},
 				"transliterated": true
