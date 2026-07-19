@@ -64,13 +64,47 @@ void main(List<String> args) {
     },
     // chapterUnknown placeholders (fawaz reference.book=0/hadith=0, arabicnumber
     // null) that neighbor-inference couldn't resolve because the two sides
-    // disagree (5111=book 35, 5114=book 36). Confirmed on sunnah.com: these two
-    // are actually 1975c/1975d (sunnah.com merges them onto one page), same
-    // book-35 "Sacrifices" citation family as neighbor 5111 (1975b) -- fawaz's
-    // own arabicnumber parser just failed on this specific pair.
+    // disagree. Each pair/run below resolved by direct content match against
+    // one specific neighbor (not "either side agrees" -- the generic
+    // inference pass never even tries that), so these are stronger than a
+    // coin-flip: same topic AND same narrator chain as the neighbor picked.
     'muslim': {
+      // Confirmed on sunnah.com: 5112/5113 are actually 1975c/1975d
+      // (sunnah.com merges them onto one page), same book-35 "Sacrifices"
+      // citation family as neighbor 5111 (1975b) -- fawaz's own
+      // arabicnumber parser just failed on this specific pair.
       5112: 35, // The Book of Sacrifices (= sunnah.com 1975c)
       5113: 35, // The Book of Sacrifices (= sunnah.com 1975d)
+      // idInBook 4967 (arabicnumber 715.26, book 33) and 4968-4971 (no
+      // arabicnumber at all) are word-for-word the same report -- "the
+      // Prophet ﷺ forbade a man who has been long away from returning to
+      // his family at night without warning" -- via different chains, i.e.
+      // more citation variants of hadith 715 that fawaz's own numbering
+      // just never assigned a ".27"/".28"/etc suffix to. Book 34 (the
+      // *next* resolved neighbor, Hunting/Slaughter) shares no topic or
+      // chain with any of the four. idInBook 4968 has no chain of its own
+      // ("بهذا الإسناد" -- "with this chain", referring back to 4967's), so
+      // it's unambiguously part of the same run.
+      4968: 33,
+      4969: 33,
+      4970: 33,
+      4971: 33,
+      // idInBook 5885/5886 share the exact narrator chain opening ("عَنْ
+      // إِبْرَاهِيمَ بْنِ مَيْسَرَةَ") and topic (reciting Umayya ibn Abi
+      // as-Salt's poetry to the Prophet ﷺ) with 5887 (arabicnumber
+      // 2255.03, book 41) -- 5887 even says explicitly "بِمِثْلِ حَدِيثِ
+      // إِبْرَاهِيمَ بْنِ مَيْسَرَةَ" ("similar to Ibrahim ibn Maisarah's
+      // report"), naming the same narrator 5885/5886 report through. Book
+      // 40 (the *previous* resolved neighbor, 5884) is about incense/
+      // fragrance -- unrelated topic and chain.
+      5885: 41,
+      5886: 41,
+      // idInBook 5384: fawaz's own `text` is empty for both Arabic and
+      // English -- unlike the entries above, there's no content here to
+      // match against anything. Left unresolved (chapterId null,
+      // noSourceContent) -- same as the Nasa'i Agriculture gap, a genuine
+      // upstream hole, not something inference or content-matching can
+      // recover.
     },
   };
 
@@ -117,7 +151,8 @@ void main(List<String> args) {
 
   final ara = jsonDecode(araFile.readAsStringSync()) as Map<String, dynamic>;
   final eng = jsonDecode(engFile.readAsStringSync()) as Map<String, dynamic>;
-  final existing = jsonDecode(existingFile.readAsStringSync()) as Map<String, dynamic>;
+  final existing =
+      jsonDecode(existingFile.readAsStringSync()) as Map<String, dynamic>;
 
   // Book-id prefix for the `id = prefix * 1_000_000 + idInBook` scheme (the
   // 6 main books) doesn't apply to malik/the forties -- their existing `id`
@@ -125,10 +160,12 @@ void main(List<String> args) {
   // counter across every book in the old spine, not per-book). Detected
   // from the existing data's own first entry rather than hardcoded, so it
   // stays correct even if upstream ordering ever shifts.
-  final existingHadiths = (existing['hadiths'] as List).cast<Map<String, dynamic>>();
+  final existingHadiths = (existing['hadiths'] as List)
+      .cast<Map<String, dynamic>>();
   final firstExisting = existingHadiths.first;
   final globalIdOffset =
-      (firstExisting['id'] as num).toInt() - (firstExisting['idInBook'] as num).toInt();
+      (firstExisting['id'] as num).toInt() -
+      (firstExisting['idInBook'] as num).toInt();
   final prefix = bookIdPrefix[book];
   final bookIdField = (firstExisting['bookId'] as num).toInt();
 
@@ -142,10 +179,12 @@ void main(List<String> args) {
   // backfill Arabic names for chapters whose id+name still line up with
   // fawaz's own numbering. Anything that doesn't match gets a null Arabic
   // name -- flagged for manual follow-up rather than guessed.
-  final existingChapters = (existing['chapters'] as List).cast<Map<String, dynamic>>();
+  final existingChapters = (existing['chapters'] as List)
+      .cast<Map<String, dynamic>>();
   final existingByIdAndName = <String, Map<String, dynamic>>{
     for (final c in existingChapters)
-      '${c['id']}|${((c['names'] as Map)['en'] as String).trim().toLowerCase()}': c,
+      '${c['id']}|${((c['names'] as Map)['en'] as String).trim().toLowerCase()}':
+          c,
   };
 
   final sections = ((ara['metadata'] as Map)['sections'] as Map);
@@ -154,19 +193,19 @@ void main(List<String> args) {
   for (final entry in sections.entries) {
     final id = int.parse(entry.key.toString());
     final enName = (entry.value as String).trim();
-    if (enName.isEmpty) continue; // section 0 ("Introduction") has no title in some editions
+    if (enName.isEmpty)
+      continue; // section 0 ("Introduction") has no title in some editions
     final key = '$id|${enName.toLowerCase()}';
     final match = existingByIdAndName[key];
-    final arName = match != null ? (match['names'] as Map)['ar'] as String? : null;
+    final arName = match != null
+        ? (match['names'] as Map)['ar'] as String?
+        : null;
     if (arName == null) unmatchedChapterNames++;
     newChapters.add({
       'id': id,
       'bookId': bookIdField,
       'parentId': null,
-      'names': {
-        if (arName != null) 'ar': arName,
-        'en': enName,
-      },
+      'names': {if (arName != null) 'ar': arName, 'en': enName},
     });
   }
 
@@ -212,7 +251,9 @@ void main(List<String> args) {
       // Malik cites by book/in-book-hadith position, not a bare running
       // number -- verified directly against sunnah.com/malik/{book}/{hadith}.
       // No separate citation text; the old data never had one either.
-      reference = {'url': 'https://sunnah.com/${urlKey[book]}/$refBook/$refHadith'};
+      reference = {
+        'url': 'https://sunnah.com/${urlKey[book]}/$refBook/$refHadith',
+      };
     } else if (fortyHadithBooks.contains(book)) {
       reference = {
         'text': 'Hadith $citation, ${englishTitle[book]}',
@@ -231,10 +272,7 @@ void main(List<String> args) {
       'chapterId': chapterId,
       'bookId': bookIdField,
       'arabic': arabicText,
-      'english': {
-        'narrator': '',
-        'text': englishText,
-      },
+      'english': {'narrator': '', 'text': englishText},
       if (isUnknownChapter) 'chapterUnknown': true,
       'reference': reference,
       if (isBlank) 'noSourceContent': true,
@@ -322,15 +360,29 @@ void main(List<String> args) {
   const encoder = JsonEncoder.withIndent('\t');
   existingFile.writeAsStringSync('${encoder.convert(rebuilt)}\n');
 
-  stdout.writeln('$book: rebuilt ${newHadiths.length} hadith, ${newChapters.length} chapters');
+  stdout.writeln(
+    '$book: rebuilt ${newHadiths.length} hadith, ${newChapters.length} chapters',
+  );
   stdout.writeln('  missing fawaz English entry: $missingEnglish');
-  stdout.writeln('  blank arabic+english (tagged noSourceContent): $blankContent');
-  stdout.writeln('  chapterId unknown (fawaz book=0/hadith=0 placeholder, tagged chapterUnknown): $chapterUnknown');
-  stdout.writeln('    of which inferred from matching neighbors (chapterIdInferred): $inferred');
+  stdout.writeln(
+    '  blank arabic+english (tagged noSourceContent): $blankContent',
+  );
+  stdout.writeln(
+    '  chapterId unknown (fawaz book=0/hadith=0 placeholder, tagged chapterUnknown): $chapterUnknown',
+  );
+  stdout.writeln(
+    '    of which inferred from matching neighbors (chapterIdInferred): $inferred',
+  );
   stdout.writeln('    fixed via hand-verified override: $overridden');
-  stdout.writeln('    still genuinely unresolved (chapterId left null): ${chapterUnknown - inferred - overridden}');
-  stdout.writeln('  chapters with no backfilled Arabic name: $unmatchedChapterNames / ${newChapters.length}');
+  stdout.writeln(
+    '    still genuinely unresolved (chapterId left null): ${chapterUnknown - inferred - overridden}',
+  );
+  stdout.writeln(
+    '  chapters with no backfilled Arabic name: $unmatchedChapterNames / ${newChapters.length}',
+  );
   if (appendedFromSpine > 0) {
-    stdout.writeln('  appended unchanged from old spine (beyond fawaz coverage): $appendedFromSpine');
+    stdout.writeln(
+      '  appended unchanged from old spine (beyond fawaz coverage): $appendedFromSpine',
+    );
   }
 }

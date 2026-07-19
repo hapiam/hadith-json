@@ -489,14 +489,42 @@ worth of these lines. Findings below, categorized.
   pre-fix install of Sahih Muslim** — app-side action (delete/re-download
   the book), not a data bug. Flagging here only so a future "why is this
   still broken" report isn't mistaken for a regression.
-- **4968–4971** (ch33 "Government" → ch34 "Hunting"): new, unexplained —
-  4 consecutive idInBook values claimed by no chapter at all. Needs a
-  sunnah.com check using the `arabicnumber`-derived citation (not
-  `idInBook`) for this range.
-- **5384** (ch36 "Drinks" → ch37 "Clothes"): new, unexplained single-hadith
-  gap. Same check needed.
-- **5885–5886** (ch40 "Correct Words" → ch41 "Poetry"): new, unexplained
-  2-hadith gap. Same check needed.
+- **4968–4971** and **5885–5886**: **fixed** (`manualOverrides` in
+  `tool/rebuild_from_fawaz.dart`). Turned out to need no external source at
+  all — sunnah.com wasn't even reachable directly (403s a plain `curl`) but
+  wasn't necessary either, since fawaz's own raw data already answers it:
+  all 6 idInBook carry fawaz's `reference.book=0, hadith=0` "couldn't
+  determine the chapter" placeholder, i.e. the *same already-documented*
+  fawaz-upstream limitation as 5112/5113, not a new phenomenon. The
+  automated neighbor-inference pass in `rebuild_from_fawaz.dart` correctly
+  refused to guess for these (each one's two resolved neighbors disagree —
+  4967=book 33 vs 4972=book 34; 5884=book 40 vs 5887=book 41), but direct
+  content comparison against *one specific* neighbor settles it with more
+  than a coin-flip's confidence:
+  - 4968–4971: word-for-word the same report as neighbor 4967 (book 33,
+    "the Prophet ﷺ forbade returning to family at night after a long
+    absence without warning") via different chains — more citation variants
+    of hadith 715 that fawaz's numbering never assigned a letter-suffix to.
+    4968 even opens "بِهَذَا الإِسْنَادِ" ("with this chain"), referring
+    back to 4967's own chain. Book 34 (Hunting/Slaughter) shares no topic
+    or chain with any of the four.
+  - 5885–5886: same narrator-chain opening ("عَنْ إِبْرَاهِيمَ بْنِ
+    مَيْسَرَةَ") and topic (reciting Umayya ibn Abi as-Salt's poetry to the
+    Prophet ﷺ) as neighbor 5887 (book 41) — 5887 even says explicitly
+    "بِمِثْلِ حَدِيثِ إِبْرَاهِيمَ بْنِ مَيْسَرَةَ" ("similar to Ibrahim ibn
+    Maisarah's report"), naming the same narrator. Book 40 (incense/
+    fragrance, neighbor 5884) shares nothing with either.
+
+  Rebuilt, verified in both `db/by_book/the_9_books/muslim.json` and the
+  propagated `db/unified/files/ara-muslim.min.json` (4968-4971 → chapterId
+  33, 5885-5886 → chapterId 41). `gen_data_quality_report.dart` re-run
+  clean; `git diff` confirms only Muslim's own output changed (a few bytes
+  in zip sizes), no other book touched. Not yet tagged/pushed.
+- **5384**: genuinely unrecoverable, left as-is. Same `reference.book=0/
+  hadith=0` placeholder, but unlike the six above, fawaz's own `text` field
+  is *empty* here (both Arabic and English) — there's no content to match
+  against anything, so this stays `chapterId: null` / `noSourceContent`,
+  same treatment as the Nasa'i Agriculture gap below.
 
 ### Sunan an-Nasa'i
 
@@ -563,7 +591,8 @@ label-string grouping) rather than fixing any of these individually here.
    source, or a check for whether it's actually the same class of bug as
    #2/#3 below (a `reference.book` mistag never actually checked for these
    two).
-2. Muslim 4968–4971, 5384, 5885–5886 — sunnah.com verification needed.
+2. Muslim 4968–4971, 5885–5886 — **fixed**, see above (5384 stays
+   genuinely unrecoverable — blank source content). Not yet tagged/pushed.
 3. Tirmidhi 2735 — sunnah.com verification, likely a one-line
    `manualOverrides` fix once confirmed.
 4. Ibn Majah 2089–2529 cluster — needs its own investigation (order vs.
