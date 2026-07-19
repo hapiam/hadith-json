@@ -19,9 +19,22 @@ import 'dart:io';
 ///
 /// Respects robots.txt's `Crawl-delay: 5` for `User-agent: *` (amrayn.com/hadith
 /// itself is not disallowed) -- do not lower this without re-checking robots.txt.
-/// Output is append-only JSONL per book, keyed by idInBook, so the scrape is
-/// resumable after interruption -- re-running skips ids already present in the
-/// output file. List order below is priority order (earlier = scraped first).
+///
+/// Designed to survive lost internet / a killed process / a machine restart
+/// with zero manual cleanup -- recovery is always just re-running the same
+/// command:
+/// - Output is append-only JSONL per book, keyed by idInBook. Every write is
+///   flushed to disk immediately (not just at end-of-book), so a hard kill
+///   loses at most the one in-flight record, never previously-written ones.
+/// - On startup each book's file is rescanned; only rows that parsed as valid
+///   JSON *and* have no `error` key count as done. Transient-failure rows
+///   (network blip, timeout) are retried automatically on the next run rather
+///   than being permanently skipped.
+/// - Each hadith fetch gets up to 3 attempts with backoff before being logged
+///   as an error, so a few-second internet hiccup doesn't even need a restart.
+/// - One book failing outright doesn't stop the others in the same run.
+///
+/// List order below is priority order (earlier = scraped first).
 ///
 /// Usage: dart run tool/scrape_amrayn.dart [bookKey ...]   (default: all)
 
@@ -81,8 +94,16 @@ Future<void> main(List<String> args) async {
   aboutDir.createSync(recursive: true);
 
   for (final book in wanted) {
-    await scrapeAbout(client, book, aboutDir);
-    await scrapeBook(client, book, outDir);
+    try {
+      await scrapeAbout(client, book, aboutDir);
+      await scrapeBook(client, book, outDir);
+    } catch (e) {
+      // A failure here means something escaped the per-request try/catch
+      // inside scrapeBook (e.g. disk full, file-handle error) -- log and
+      // move on to the next book rather than losing the rest of the run.
+      // Re-running the command later will resume this book correctly.
+      stderr.writeln('${book.outKey}: book-level failure, skipping for now: $e');
+    }
   }
   client.close(force: true);
   print('All done.');
@@ -96,7 +117,7 @@ Future<void> scrapeAbout(HttpClient client, BookConfig book, Directory aboutDir)
   }
   final url = 'https://amrayn.com/${book.urlKey}/about';
   try {
-    final html = await fetchHtml(client, url);
+    final html = await fetchHtmlWithRetry(client, url);
     final record = parseAboutPage(html, book);
     outFile.writeAsStringSync(const JsonEncoder.withIndent('\t').convert(record));
     print('${book.outKey}: about page saved.');
@@ -108,13 +129,19 @@ Future<void> scrapeAbout(HttpClient client, BookConfig book, Directory aboutDir)
 
 Future<void> scrapeBook(HttpClient client, BookConfig book, Directory outDir) async {
   final outFile = File('${outDir.path}/${book.outKey}.jsonl');
+  // Only rows that parsed cleanly *and* succeeded count as done -- a row
+  // written after exhausting retries (see fetchHtmlWithRetry) carries an
+  // `error` key and is deliberately left out, so it gets retried on the very
+  // next run instead of being silently skipped forever. A truncated final
+  // line (process killed mid-write, extremely unlikely now that every write
+  // is flushed) fails jsonDecode and is likewise just treated as not-done.
   final done = <int>{};
   if (outFile.existsSync()) {
     for (final line in outFile.readAsLinesSync()) {
       if (line.trim().isEmpty) continue;
       try {
         final obj = jsonDecode(line) as Map<String, dynamic>;
-        done.add(obj['idInBook'] as int);
+        if (!obj.containsKey('error')) done.add(obj['idInBook'] as int);
       } catch (_) {}
     }
   }
@@ -127,7 +154,7 @@ Future<void> scrapeBook(HttpClient client, BookConfig book, Directory outDir) as
     final url = 'https://amrayn.com/${book.urlKey}:$n';
     Map<String, dynamic> record;
     try {
-      final html = await fetchHtml(client, url);
+      final html = await fetchHtmlWithRetry(client, url);
       record = parseHadith(html, book, n);
       okCount++;
     } catch (e) {
@@ -136,14 +163,35 @@ Future<void> scrapeBook(HttpClient client, BookConfig book, Directory outDir) as
       stderr.writeln('${book.outKey} $n ERROR: $e');
     }
     sink.writeln(jsonEncode(record));
+    // Flush every write, not just at end-of-book: a killed process or crash
+    // should lose at most the one record currently in flight.
+    await sink.flush();
     if (n % 25 == 0 || n == book.count) {
       print('${book.outKey}: $n/${book.count} (ok=$okCount err=$errCount)');
     }
     await Future.delayed(delayBetweenRequests);
   }
-  await sink.flush();
   await sink.close();
   print('${book.outKey}: finished. ok=$okCount err=$errCount');
+}
+
+/// Up to 3 attempts with backoff (5s, 10s) before giving up -- absorbs brief
+/// internet drops/timeouts without needing a full restart. A real 404 (page
+/// genuinely doesn't exist) is not worth retrying, so it fails fast.
+Future<String> fetchHtmlWithRetry(HttpClient client, String url, {int maxAttempts = 3}) async {
+  Object? lastError;
+  for (var attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      return await fetchHtml(client, url);
+    } catch (e) {
+      lastError = e;
+      if (e.toString().contains('HTTP 404')) break;
+      if (attempt < maxAttempts) {
+        await Future.delayed(Duration(seconds: 5 * attempt));
+      }
+    }
+  }
+  throw lastError!;
 }
 
 Future<String> fetchHtml(HttpClient client, String url) async {
