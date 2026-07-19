@@ -461,10 +461,25 @@ worth of these lines. Findings below, categorized.
 ### Sahih Muslim
 
 - **384 / 388** (ch1 "Faith" holes, landing under ch43 "Virtues" / ch16
-  "Marriage" respectively): **not a bug** — already verified earlier this
-  session against sunnah.com's real page content (not just titles); Imam
-  Muslim genuinely interleaves these two hadith outside their numeric
-  neighborhood. Catalog is correct as rebuilt.
+  "Marriage" respectively): **disputed — reopened, not resolved.** Earlier
+  this session I called this "not a bug" on the strength of sunnah.com's own
+  page content (both the chapter it files 384/388 under and their topical
+  subject matter matching "Virtues"/"Marriage" rather than "Faith"). Pushed
+  on directly: that only proves sunnah.com's own editorial choice, not that
+  it's more correct than amrayn.com's, which apparently keeps both hadith
+  in their numeric neighborhood (i.e. doesn't interleave them). Sahih
+  Muslim has multiple widely-used, mutually-disagreeing numbering/chapter-
+  boundary schemes across different print editions — two independent
+  digitization projects disagreeing here is itself evidence of real
+  ambiguity, not proof either one is wrong. Topical content-matching is
+  suggestive of compiler intent but doesn't settle it (a compiler can place
+  a topically-adjacent hadith for reasons unrelated to subject-matter
+  tagging — isnad grouping, cross-reference, etc.). **Needs**: a third
+  independent source (ideally a scholarly reference on Sahih Muslim's
+  actual chapter boundaries, not just another hadith website), or ruling
+  out that this is the same class of bug as the 5112/5113 and Tirmidhi 2735
+  findings below — a `reference.book` mistag in fawaz's own data — which
+  was never actually checked for 384/388 specifically.
 - **5112–5115** (ch35 "Sacrifices" hole, stray piece landing under ch36
   "Drinks"): **already fixed in this repo** (`manualOverrides` in
   `tool/rebuild_from_fawaz.dart`, commit `4ecc35b`, tag `v1.11.3-hapi`) —
@@ -544,12 +559,25 @@ label-string grouping) rather than fixing any of these individually here.
 
 ### Summary / next actions
 
-1. Muslim 4968–4971, 5384, 5885–5886 — sunnah.com verification needed.
-2. Tirmidhi 2735 — sunnah.com verification, likely a one-line
+1. **Muslim 384/388 — reopened, disputed.** Needs a third independent
+   source, or a check for whether it's actually the same class of bug as
+   #2/#3 below (a `reference.book` mistag never actually checked for these
+   two).
+2. Muslim 4968–4971, 5384, 5885–5886 — sunnah.com verification needed.
+3. Tirmidhi 2735 — sunnah.com verification, likely a one-line
    `manualOverrides` fix once confirmed.
-3. Ibn Majah 2089–2529 cluster — needs its own investigation (order vs.
+4. Ibn Majah 2089–2529 cluster — needs its own investigation (order vs.
    mistag, undetermined).
-4. Musnad Ahmad — feed this log's companion-id list into the existing
+5. Musnad Ahmad — feed this log's companion-id list into the existing
    planned fix pass; not a new problem.
-5. Nothing here changes Muslim's 5112/5115 or Nasa'i's 3857–3938 status —
-   both already understood, no repo-side action.
+6. Muslim 5112/5113 — **directly confirmed fixed and live**, not just
+   inferred from the commit/tag existing: fetched `ara-muslim.min.json` at
+   `v1.11.3-hapi` from both `raw.githubusercontent.com` and the app's
+   primary `cdn.jsdelivr.net` URL, both show `chapterId: 35` for idInBook
+   5112 and 5113. The stale result in this log is confirmed device-side
+   (the test device's installed copy of Sahih Muslim predates the fix);
+   no repo-side action, but the fix only reaches an already-installed book
+   via delete + re-download, and only if the app build itself was refreshed
+   past the point the local catalog's `sourceTag` was bumped to
+   `v1.11.3-hapi`.
+7. Nasa'i 3857–3938 — unchanged, already understood, no repo-side action.
