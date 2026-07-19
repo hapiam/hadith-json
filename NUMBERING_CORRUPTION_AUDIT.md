@@ -461,25 +461,32 @@ worth of these lines. Findings below, categorized.
 ### Sahih Muslim
 
 - **384 / 388** (ch1 "Faith" holes, landing under ch43 "Virtues" / ch16
-  "Marriage" respectively): **disputed — reopened, not resolved.** Earlier
-  this session I called this "not a bug" on the strength of sunnah.com's own
-  page content (both the chapter it files 384/388 under and their topical
-  subject matter matching "Virtues"/"Marriage" rather than "Faith"). Pushed
-  on directly: that only proves sunnah.com's own editorial choice, not that
-  it's more correct than amrayn.com's, which apparently keeps both hadith
-  in their numeric neighborhood (i.e. doesn't interleave them). Sahih
-  Muslim has multiple widely-used, mutually-disagreeing numbering/chapter-
-  boundary schemes across different print editions — two independent
-  digitization projects disagreeing here is itself evidence of real
-  ambiguity, not proof either one is wrong. Topical content-matching is
-  suggestive of compiler intent but doesn't settle it (a compiler can place
-  a topically-adjacent hadith for reasons unrelated to subject-matter
-  tagging — isnad grouping, cross-reference, etc.). **Needs**: a third
-  independent source (ideally a scholarly reference on Sahih Muslim's
-  actual chapter boundaries, not just another hadith website), or ruling
-  out that this is the same class of bug as the 5112/5113 and Tirmidhi 2735
-  findings below — a `reference.book` mistag in fawaz's own data — which
-  was never actually checked for 384/388 specifically.
+  "Marriage" respectively): **still disputed — not resolved.** Earlier this
+  session I called this "not a bug" on sunnah.com's page content; that was
+  reopened when pushed on (sunnah.com's editorial choice doesn't prove it's
+  more correct than amrayn.com's non-interleaved numbering). A later attempt
+  to "confirm" it by checking that our `chapterId` matches fawaz's own
+  `reference.book` field was **also invalid** — circular, since
+  `rebuild_from_fawaz.dart` sets `chapterId` directly *from*
+  `reference.book`; matching proves the pipeline copied the field
+  correctly, not that the field is itself right (this same mistake is what
+  had Tirmidhi 2735 and the Ibn Majah cluster below wrongly marked "not a
+  bug" until re-checked against actual content).
+  Tried the same content-check that resolved those two: **inconclusive**,
+  not resolved either way — fawaz's own `text` field (Arabic *and* English)
+  is completely blank for both 384 and 388, so there's no content to read.
+  What *is* new: both carry lettered-variant `arabicnumber`s immediately
+  following a real-content sibling in ch1 "Faith" itself — 384 is `151.03`
+  right after 383's `151.02`, 388 is `154.02` right after 387's `154.01` —
+  the same "same base citation, different chain" pattern as the Muslim
+  5112/5113 fix. That's suggestive of a possible mistag (a blank "b/c"
+  variant of a Faith-chapter hadith shouldn't obviously jump to an unrelated
+  book), but it's not proof: some lettered variants genuinely do carry
+  different content placed elsewhere by the compiler, and there's no text
+  here to confirm which case this is. **Still needs**: a third independent
+  source that can speak to content sunnah.com/amrayn/fawaz all fail to
+  provide (fawaz has none), or manuscript-level confirmation of where
+  151.03/154.02 actually belong.
 - **5112–5115** (ch35 "Sacrifices" hole, stray piece landing under ch36
   "Drinks"): **already fixed in this repo** (`manualOverrides` in
   `tool/rebuild_from_fawaz.dart`, commit `4ecc35b`, tag `v1.11.3-hapi`) —
@@ -537,27 +544,53 @@ worth of these lines. Findings below, categorized.
 
 ### Jami` at-Tirmidhi
 
-- **2735** (stray single hadith under ch38 "Description of Paradise"; ch42
-  "Seeking Permission" ends at 2734, ch43 "Manners" starts at 2736): new,
-  but well-isolated and likely a simple `reference.book` mistag — 2735's
-  real reading-order position sits between chapters 42 and 43 (2736 = ch43's
-  real start), the same shape as the Muslim 5112/5113 fix. Needs a
-  sunnah.com check on hadith 2735's real citation, then a
-  `manualOverrides` entry in `tool/rebuild_from_fawaz.dart` once confirmed.
+- **2735 — fixed.** Confirmed a genuine `reference.book` mistag in fawaz's
+  own data, not legitimate interleaving (see the methodology note below).
+  fawaz says book 38 ("Description of Paradise"), but that book's other 51
+  hadith (idInBook 2523–2572) are a single tight, contiguous, unmistakably
+  Paradise-themed run — nothing else anywhere near 2735. 2735's actual text
+  ('Ikrimah bin Abi Jahl being welcomed back as a returning emigrant) has
+  nothing to do with Paradise; its real neighbors 2732 (Zaid bin Harithah's
+  arrival) and 2734 (Umm Hani's arrival) are the exact same "welcoming
+  someone on arrival" theme, immediately followed by ch43 "Manners"
+  starting at 2736. Fixed via `manualOverrides` in
+  `tool/rebuild_from_fawaz.dart` (chapterId 38 → 42, "Seeking Permission").
+  Rebuilt and verified in `db/by_book/the_9_books/tirmidhi.json`. Not yet
+  tagged/pushed.
 
 ### Sunan Ibn Majah
 
-Chapters 10 "Divorce," 11 "Expiation," 15 "Charity," 16 "Pawning," 19
-"Manumission" (idInBook roughly 2089–2529) show hadith numbers jumping
-non-monotonically across the cluster (ch10 walks 2089 → 2435 → 2464 → 2476 →
-2477, then hands to ch11 which starts back down at 2090). Unlike the other
-findings above, this isn't a clean missing-range or single-hadith mistag —
-either the catalog's chapter *order* doesn't match Ibn Majah's physical
-reading order for this stretch, or several individual hadith are mistagged,
-and I can't tell which without re-deriving it from fawaz's own
-`reference.book`/section data for Ibn Majah specifically. **Needs its own
-investigation pass**, scoped to idInBook ~2089–2529 and catalog chapters
-10/11/15/16/19.
+- **2435, 2464, 2476–2477, 2528 — fixed.** Same class of bug as Tirmidhi
+  2735 above: chapters 10 "Divorce," 15 "Charity" reused as 1–2-hadith
+  blips sandwiched inside unrelated, already-established chapter runs
+  (16 "Pawning," 19 "Manumission"). Every one's actual content matches its
+  physical neighbors, not the book number fawaz assigned:
+  - 2435 (fawaz: book 10 "Divorce"): content is debt-settlement-on-
+    Judgment-Day; sits between 2434/2436, both squarely in the debt/loan
+    run (book 15) spanning 2390 onward. → chapterId 15.
+  - 2464 (fawaz: book 10 "Divorce"): content is land-leasing (Muzara'ah);
+    neighbors 2460–2463/2465–2467 are the same topic under book 16. →
+    chapterId 16.
+  - 2476–2477 (fawaz: book 10 "Divorce"): both about withholding/selling
+    surplus water; neighbors 2473–2475/2478–2480 are the same topic under
+    book 16. → chapterId 16.
+  - 2528 (fawaz: book 15 "Charity"): content is freeing a co-owned slave's
+    share; neighbors 2524–2527/2529–2531 are the same manumission topic
+    under book 19. → chapterId 19.
+
+  Fixed via `manualOverrides` in `tool/rebuild_from_fawaz.dart`. Rebuilt
+  and verified in `db/by_book/the_9_books/ibnmajah.json`. Not yet
+  tagged/pushed.
+
+  **Methodology note** (applies to both fixes above): the first pass at
+  checking these compared our own `chapterId` against fawaz's own
+  `reference.book` field and found them equal — but that's circular,
+  since `chapterId` is set directly *from* `reference.book` by
+  `rebuild_from_fawaz.dart` for every non-placeholder hadith. Matching
+  proves nothing about whether fawaz's citation is itself correct. What
+  actually settled it was reading the hadith's real text against its
+  immediate physical neighbors' text — the same technique already used
+  successfully for Muslim 4968–4971/5885–5886 above.
 
 ### Musnad Ahmad ibn Hanbal
 
@@ -587,16 +620,17 @@ label-string grouping) rather than fixing any of these individually here.
 
 ### Summary / next actions
 
-1. **Muslim 384/388 — reopened, disputed.** Needs a third independent
-   source, or a check for whether it's actually the same class of bug as
-   #2/#3 below (a `reference.book` mistag never actually checked for these
-   two).
+1. **Muslim 384/388 — still disputed, still unresolved.** Both checked
+   against actual content (the technique that resolved #3/#4 below) —
+   inconclusive, since fawaz's own text is blank for both. Needs a third
+   independent source; fawaz's data can't settle this one.
 2. Muslim 4968–4971, 5885–5886 — **fixed**, see above (5384 stays
    genuinely unrecoverable — blank source content). Not yet tagged/pushed.
-3. Tirmidhi 2735 — sunnah.com verification, likely a one-line
-   `manualOverrides` fix once confirmed.
-4. Ibn Majah 2089–2529 cluster — needs its own investigation (order vs.
-   mistag, undetermined).
+3. Tirmidhi 2735 — **fixed** (was a genuine `reference.book` mistag,
+   confirmed via content, not the circular chapterId-vs-reference.book
+   check that first looked like a match). Not yet tagged/pushed.
+4. Ibn Majah 2435, 2464, 2476–2477, 2528 — **fixed**, same mistag class as
+   #3, all confirmed via content. Not yet tagged/pushed.
 5. Musnad Ahmad — feed this log's companion-id list into the existing
    planned fix pass; not a new problem.
 6. Muslim 5112/5113 — **directly confirmed fixed and live**, not just

@@ -61,6 +61,43 @@ void main(List<String> args) {
       2298: 35, // Chapters On Witnesses (fawaz wrongly said 32, Al-Qadar)
       2795: 43, // Chapters on Manners (fawaz wrongly said 39)
       3723: 49, // Chapters on Virtues (fawaz wrongly said 47)
+      // fawaz says book 38 (Description of Paradise), which is where the
+      // isolated-outlier scan flagged it -- but book 38's own 51 hadith
+      // (2523-2572) are a single contiguous run entirely about Paradise's
+      // trees/gardens/levels, with no other member anywhere near 2735.
+      // Content settles it independent of that circular chapterId check:
+      // 2735 narrates 'Ikrimah bin Abi Jahl being welcomed back by the
+      // Prophet ﷺ as a returning emigrant, and its real neighbors 2732/2734
+      // (ch42, "Seeking Permission") are the same "welcoming someone on
+      // arrival" theme -- Zaid bin Harithah's arrival (2732), Umm Hani's
+      // arrival (2734), then 2735 slots in as a third arrival narration
+      // right before ch43 ("Manners") begins at 2736.
+      2735: 42, // Chapters on Seeking Permission (fawaz wrongly said 38)
+    },
+    // Confirmed the same class of fawaz reference.book error as tirmidhi's
+    // 3 above, not chapterUnknown placeholders -- every one is a 1-2-hadith
+    // blip sandwiched inside an unrelated, already-established chapter run,
+    // and every one's actual content matches its physical neighbors, not
+    // the book number fawaz assigned it. Checking our own chapterId against
+    // fawaz's reference.book here would be circular (chapterId is *set from*
+    // reference.book by this same script) -- these were confirmed by reading
+    // the actual Arabic/English text instead.
+    'ibnmajah': {
+      // Content is debt-settlement-on-Judgment-Day, not divorce; sits
+      // between 2434 and 2436, both squarely in the debt/loan run (book 15)
+      // that starts at 2390 and continues either side of this one entry.
+      2435: 15, // Chapters on Loans (fawaz wrongly said 10, Divorce)
+      // Content is about lending land for cultivation (Muzara'ah); its
+      // neighbors 2460-2463/2465-2467 are the same land-leasing topic under
+      // book 16.
+      2464: 16, // Chapters on Pawning (fawaz wrongly said 10, Divorce)
+      // Both about withholding/selling surplus water; neighbors 2473-2475/
+      // 2478-2480 are the same surplus-water topic under book 16.
+      2476: 16, // Chapters on Pawning (fawaz wrongly said 10, Divorce)
+      2477: 16, // Chapters on Pawning (fawaz wrongly said 10, Divorce)
+      // Content is freeing a slave's co-owned share; neighbors 2524-2527/
+      // 2529-2531 are the same manumission topic under book 19.
+      2528: 19, // Chapters on Manumission (fawaz wrongly said 15, Charity)
     },
     // chapterUnknown placeholders (fawaz reference.book=0/hadith=0, arabicnumber
     // null) that neighbor-inference couldn't resolve because the two sides
