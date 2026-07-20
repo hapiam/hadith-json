@@ -1,6 +1,26 @@
 import 'dart:convert';
 import 'dart:io';
 
+/// STAGE: verification/second-source-gathering tool -- long-running (tens of
+/// thousands of rate-limited requests), run standalone, independent of the
+/// rebuild/build/report cycle. Its output is not currently consumed by
+/// `rebuild_from_fawaz.dart`, `build_unified_editions.dart`, or any other
+/// script in this repo -- it exists purely to accumulate an independent
+/// second (or, for 3 books, *only*) source of Arabic/English/chapter/grade
+/// data to manually or semi-automatically diff against what's already in
+/// `db/by_book/` and `db/unified/`, the same role amrayn already served for
+/// the fawaz-rebuild cross-checks documented in NUMBERING_CORRUPTION_AUDIT.md
+/// (e.g. confirming Tirmidhi 2735 and the Ibn Majah cluster by direct content
+/// comparison). Re-run any time to resume/extend the scrape; safe to run
+/// concurrently with unrelated pipeline scripts since it never touches
+/// `db/by_book/` or `db/unified/`.
+///
+/// INPUT: none from this repo -- fetches live HTML from amrayn.com.
+///
+/// OUTPUT: `db/scrape_cache/amrayn/{outKey}.jsonl` (one line per hadith,
+/// append-only, resumable) and `db/scrape_cache/amrayn/about/{outKey}.json`
+/// (one-shot per book, not re-fetched once cached).
+///
 /// Scrapes amrayn.com's full hadith catalog for cross-comparison against our
 /// own by_book data. amrayn covers 15 of our books (all but mishkat_almasabih,
 /// bulugh_almaram, hisn_almuslim, and shahwaliullah40/dehlawi) using the same
@@ -102,14 +122,20 @@ Future<void> main(List<String> args) async {
       // inside scrapeBook (e.g. disk full, file-handle error) -- log and
       // move on to the next book rather than losing the rest of the run.
       // Re-running the command later will resume this book correctly.
-      stderr.writeln('${book.outKey}: book-level failure, skipping for now: $e');
+      stderr.writeln(
+        '${book.outKey}: book-level failure, skipping for now: $e',
+      );
     }
   }
   client.close(force: true);
   print('All done.');
 }
 
-Future<void> scrapeAbout(HttpClient client, BookConfig book, Directory aboutDir) async {
+Future<void> scrapeAbout(
+  HttpClient client,
+  BookConfig book,
+  Directory aboutDir,
+) async {
   final outFile = File('${aboutDir.path}/${book.outKey}.json');
   if (outFile.existsSync()) {
     print('${book.outKey}: about page already cached.');
@@ -119,7 +145,9 @@ Future<void> scrapeAbout(HttpClient client, BookConfig book, Directory aboutDir)
   try {
     final html = await fetchHtmlWithRetry(client, url);
     final record = parseAboutPage(html, book);
-    outFile.writeAsStringSync(const JsonEncoder.withIndent('\t').convert(record));
+    outFile.writeAsStringSync(
+      const JsonEncoder.withIndent('\t').convert(record),
+    );
     print('${book.outKey}: about page saved.');
   } catch (e) {
     stderr.writeln('${book.outKey} about ERROR: $e');
@@ -127,7 +155,11 @@ Future<void> scrapeAbout(HttpClient client, BookConfig book, Directory aboutDir)
   await Future.delayed(delayBetweenRequests);
 }
 
-Future<void> scrapeBook(HttpClient client, BookConfig book, Directory outDir) async {
+Future<void> scrapeBook(
+  HttpClient client,
+  BookConfig book,
+  Directory outDir,
+) async {
   final outFile = File('${outDir.path}/${book.outKey}.jsonl');
   // Only rows that parsed cleanly *and* succeeded count as done -- a row
   // written after exhausting retries (see fetchHtmlWithRetry) carries an
@@ -178,7 +210,11 @@ Future<void> scrapeBook(HttpClient client, BookConfig book, Directory outDir) as
 /// Up to 3 attempts with backoff (5s, 10s) before giving up -- absorbs brief
 /// internet drops/timeouts without needing a full restart. A real 404 (page
 /// genuinely doesn't exist) is not worth retrying, so it fails fast.
-Future<String> fetchHtmlWithRetry(HttpClient client, String url, {int maxAttempts = 3}) async {
+Future<String> fetchHtmlWithRetry(
+  HttpClient client,
+  String url, {
+  int maxAttempts = 3,
+}) async {
   Object? lastError;
   for (var attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
@@ -206,7 +242,10 @@ Future<String> fetchHtml(HttpClient client, String url) async {
     await resp.drain<void>();
     throw Exception('HTTP ${resp.statusCode}');
   }
-  final bytes = await resp.fold<List<int>>(<int>[], (acc, chunk) => acc..addAll(chunk));
+  final bytes = await resp.fold<List<int>>(
+    <int>[],
+    (acc, chunk) => acc..addAll(chunk),
+  );
   return utf8.decode(bytes, allowMalformed: true);
 }
 
@@ -217,8 +256,12 @@ final _gradeRe = RegExp(r'co-hadith__grade ([a-zA-Z-]+)">([^<]*)</span>');
 final _chapterRe = RegExp(
   r'pa-hadith__chapter" id="ch-(\d+)"[\s\S]*?class="arabic">\(<span class="pa-hadith__chapter-title-container-contents-arabic-numb">\d+</span>\) [–-] <!-- -->([\s\S]*?)</div><div>\(<!-- -->\d+<!-- -->\) [–-] <!-- -->([\s\S]*?)</div></div><a[^>]*class="pa-hadith__chapter-link" href="/([a-z]+)/(\d+)/ch-\d+"',
 );
-final _englishRe = RegExp(r'<p class="co-hadith__english-text">([\s\S]*?)</p></div>');
-final _arabicRe = RegExp(r'<p class="co-hadith__arabic-text arabic">([\s\S]*?)</p></div>');
+final _englishRe = RegExp(
+  r'<p class="co-hadith__english-text">([\s\S]*?)</p></div>',
+);
+final _arabicRe = RegExp(
+  r'<p class="co-hadith__arabic-text arabic">([\s\S]*?)</p></div>',
+);
 final _domIdRe = RegExp(r'"co-hadith" id="h(\d+)-(\d+)"');
 final _boldRe = RegExp(r'<b>([\s\S]*?)</b>');
 
@@ -233,7 +276,9 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, int n) {
 
   final grades = _gradeRe
       .allMatches(flat)
-      .map((m) => {'class': m.group(1), 'text': unescapeHtml(m.group(2)!.trim())})
+      .map(
+        (m) => {'class': m.group(1), 'text': unescapeHtml(m.group(2)!.trim())},
+      )
       .toList();
 
   final chapterMatch = _chapterRe.firstMatch(flat);
@@ -273,8 +318,12 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, int n) {
   final narratorSplit = splitNarratorBody(englishRaw);
 
   final domIdMatch = _domIdRe.firstMatch(flat);
-  final amraynSectionNum = domIdMatch != null ? int.tryParse(domIdMatch.group(1)!) : null;
-  final amraynId = domIdMatch != null ? int.tryParse(domIdMatch.group(2)!) : null;
+  final amraynSectionNum = domIdMatch != null
+      ? int.tryParse(domIdMatch.group(1)!)
+      : null;
+  final amraynId = domIdMatch != null
+      ? int.tryParse(domIdMatch.group(2)!)
+      : null;
 
   final extra = extractEmbeddedFields(flat, n);
 
@@ -335,7 +384,10 @@ Map<String, dynamic> extractEmbeddedFields(String flat, int n) {
       'links': const [],
     };
   }
-  final scoped = flat.substring(anchor.start, (anchor.start + 4000).clamp(0, flat.length));
+  final scoped = flat.substring(
+    anchor.start,
+    (anchor.start + 4000).clamp(0, flat.length),
+  );
 
   final linksRe = RegExp('\\\\*"links\\\\*"\\s*:\\s*\\[(.*?)\\]');
   final linkItemRe = RegExp(
@@ -358,8 +410,12 @@ Map<String, dynamic> extractEmbeddedFields(String flat, int n) {
     'notes': parseRawToken(extractRawField(scoped, 'notes')),
     'notesArabic': parseRawToken(extractRawField(scoped, 'notesArabic')),
     'postscript': parseRawToken(extractRawField(scoped, 'postscript')),
-    'postscriptArabic': parseRawToken(extractRawField(scoped, 'postscriptArabic')),
-    'hasExplanationAvailable': parseRawToken(extractRawField(scoped, 'hasExplanationAvailable')),
+    'postscriptArabic': parseRawToken(
+      extractRawField(scoped, 'postscriptArabic'),
+    ),
+    'hasExplanationAvailable': parseRawToken(
+      extractRawField(scoped, 'hasExplanationAvailable'),
+    ),
     'chain': parseRawToken(extractRawField(scoped, 'chain')),
     'chainArabic': parseRawToken(extractRawField(scoped, 'chainArabic')),
     'references': extractStringArrayField(scoped, 'references'),
@@ -384,7 +440,10 @@ List<String> extractStringArrayField(String s, String key) {
   final m = re.firstMatch(s);
   if (m == null || m.group(1)!.trim().isEmpty) return [];
   final itemRe = RegExp('\\\\*"((?:[^"\\\\]|\\\\.)*?)\\\\*"');
-  return itemRe.allMatches(m.group(1)!).map((im) => unescapeJsonEscapes(im.group(1)!)).toList();
+  return itemRe
+      .allMatches(m.group(1)!)
+      .map((im) => unescapeJsonEscapes(im.group(1)!))
+      .toList();
 }
 
 /// Converts a raw matched token (from [extractRawField]) into a real Dart
@@ -397,7 +456,9 @@ dynamic parseRawToken(String? raw) {
   final numVal = num.tryParse(raw);
   if (numVal != null) return numVal;
   // Quoted string: strip the (possibly multi-backslash) leading/trailing quote envelope.
-  final stripped = raw.replaceFirst(RegExp(r'^\\*"'), '').replaceFirst(RegExp(r'\\*"$'), '');
+  final stripped = raw
+      .replaceFirst(RegExp(r'^\\*"'), '')
+      .replaceFirst(RegExp(r'\\*"$'), '');
   final unescaped = unescapeJsonEscapes(stripped);
   return unescaped.isEmpty ? null : unescaped;
 }
@@ -422,7 +483,9 @@ String unescapeJsonEscapes(String s) {
 // ---- Book "about" pages (book + author info combined on one page) ----
 
 final _aboutTitleRe = RegExp(r'<title>([^<]*)</title>');
-final _aboutBodyRe = RegExp(r'pa-article__post-contents-body">([\s\S]*?)footer__contents');
+final _aboutBodyRe = RegExp(
+  r'pa-article__post-contents-body">([\s\S]*?)footer__contents',
+);
 
 Map<String, dynamic> parseAboutPage(String html, BookConfig book) {
   final flat = html.replaceAll('\r', '').replaceAll('\n', '');
@@ -431,7 +494,9 @@ Map<String, dynamic> parseAboutPage(String html, BookConfig book) {
   return {
     'urlKey': book.urlKey,
     'outKey': book.outKey,
-    'pageTitle': titleMatch != null ? unescapeHtml(titleMatch.group(1)!.trim()) : null,
+    'pageTitle': titleMatch != null
+        ? unescapeHtml(titleMatch.group(1)!.trim())
+        : null,
     'bodyText': bodyMatch != null ? cleanInlineHtml(bodyMatch.group(1)!) : null,
   };
 }
@@ -478,5 +543,8 @@ String unescapeHtml(String s) {
         : int.tryParse(code);
     return value != null ? String.fromCharCode(value) : m.group(0)!;
   });
-  return out.replaceAll('&amp;', '&').replaceAll('&lt;', '<').replaceAll('&gt;', '>');
+  return out
+      .replaceAll('&amp;', '&')
+      .replaceAll('&lt;', '<')
+      .replaceAll('&gt;', '>');
 }

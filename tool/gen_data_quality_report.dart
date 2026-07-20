@@ -1,14 +1,35 @@
-// Ad-hoc generator for db/unified/DATA_QUALITY_REPORT.md — referenced by
-// README.md and tool/build_unified_editions.dart's comments but never
-// actually produced. Scans db/unified/by_book/*.json (language-independent
-// master files) for every hadith flagged `isAddendum` (real content that
-// didn't confidently content-match any slot in the target canonical
-// numbering, so it was appended past the end rather than forced into the
-// wrong slot or discarded — see README.md's "Why this repo was rebuilt
-// around content-matching" section) or missing an English translation
-// entirely (`translations.en` empty — English is the spine's own always-
-// populated field, so an empty one here is a genuine gap in the underlying
-// source, not a cross-language join artifact).
+// STAGE: verification/report tool, repeatable -- run after every
+// `build_unified_editions.dart` build to refresh the human-audit doc, never
+// modifies any data itself (read-only over db/unified/by_book/*.json, writes
+// only DATA_QUALITY_REPORT.md).
+//
+// INPUT: db/unified/by_book/{book}.json for all 18 books (the language-
+// independent master files build_unified_editions.dart writes, each hadith
+// carrying every language's `translations` map on one row).
+//
+// OUTPUT: db/unified/DATA_QUALITY_REPORT.md -- referenced by README.md and
+// tool/build_unified_editions.dart's comments but never actually produced
+// until this script runs. Scans db/unified/by_book/*.json (language-
+// independent master files) for every hadith flagged `isAddendum` (real
+// content that didn't confidently content-match any slot in the target
+// canonical numbering, so it was appended past the end rather than forced
+// into the wrong slot or discarded — see README.md's "Why this repo was
+// rebuilt around content-matching" section) or missing an English
+// translation entirely (`translations.en` empty — English is the spine's
+// own always-populated field, so an empty one here is a genuine gap in the
+// underlying source, not a cross-language join artifact).
+//
+// TODO: this only checks the English translation and the `isAddendum` flag.
+// It does not check any other language's `translations` map, and it can't
+// see `noSourceContent` (genuinely blank Arabic+English) or `chapterUnknown`
+// at all, because `build_unified_editions.dart` never copies those two
+// flags from the spine into the unified by_book rows in the first place
+// (see the TODO on that script's `_buildBook` row-construction code) — so
+// even fixing this script alone wouldn't be enough to surface them; the
+// upstream field-loss has to be fixed too. README's "Edition schema"
+// section documents `untranslated`/`noSourceContent` as first-class
+// per-hadith flags that neither this script nor build_unified_editions.dart
+// currently produces under those exact names.
 import 'dart:convert';
 import 'dart:io';
 
@@ -56,13 +77,19 @@ void main() {
   buf.writeln();
   buf.writeln('## Summary');
   buf.writeln();
-  buf.writeln('| Book | Total hadiths | Addenda (`isAddendum`) | No English translation |');
+  buf.writeln(
+    '| Book | Total hadiths | Addenda (`isAddendum`) | No English translation |',
+  );
   buf.writeln('|---|---:|---:|---:|');
 
   final perBookAddenda = <String, List<Map<String, dynamic>>>{};
   final perBookUntranslated = <String, List<Map<String, dynamic>>>{};
   final perBookTotal = <String, int>{};
 
+  // Pass 1: scan every book, tally addenda/untranslated counts, and emit the
+  // top-level summary table row for each. `perBook*` maps are kept so the
+  // second pass below (the per-book detail sections) doesn't have to
+  // re-parse the JSON files.
   for (final bookKey in _books.keys) {
     final file = File('db/unified/by_book/$bookKey.json');
     if (!file.existsSync()) {
@@ -88,6 +115,14 @@ void main() {
     );
   }
 
+  // Pass 2: per-book detail sections, naming every individual flagged
+  // hadith (not just a count) so a human can glance at exactly which
+  // entries carry an honesty flag and why -- this is what makes the report
+  // useful for spot-checking rather than just a dashboard number. The
+  // untranslated list is capped at 200 rows per book (Nasa'i alone can have
+  // dozens from the Agriculture gap) to keep the file from becoming an
+  // unreadable wall of near-identical rows; the summary table above still
+  // has the true count regardless of the cap.
   for (final bookKey in _books.keys) {
     final addenda = perBookAddenda[bookKey] ?? const [];
     final untranslated = perBookUntranslated[bookKey] ?? const [];
@@ -133,7 +168,15 @@ void main() {
   }
 
   File('db/unified/DATA_QUALITY_REPORT.md').writeAsStringSync(buf.toString());
-  final totalAddenda = perBookAddenda.values.fold<int>(0, (a, l) => a + l.length);
-  final totalUntranslated = perBookUntranslated.values.fold<int>(0, (a, l) => a + l.length);
-  print('Wrote db/unified/DATA_QUALITY_REPORT.md — $totalAddenda addenda, $totalUntranslated untranslated-in-English across ${_books.length} books.');
+  final totalAddenda = perBookAddenda.values.fold<int>(
+    0,
+    (a, l) => a + l.length,
+  );
+  final totalUntranslated = perBookUntranslated.values.fold<int>(
+    0,
+    (a, l) => a + l.length,
+  );
+  print(
+    'Wrote db/unified/DATA_QUALITY_REPORT.md — $totalAddenda addenda, $totalUntranslated untranslated-in-English across ${_books.length} books.',
+  );
 }

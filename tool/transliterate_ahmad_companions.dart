@@ -1,3 +1,15 @@
+// STAGE: one-time (or rare, if new un-transliterated companion entries ever
+// get added) data-repair script, run directly against the spine, not part
+// of the regular rebuild/build/report loop.
+//
+// INPUT/OUTPUT: reads and rewrites `db/by_book/the_9_books/ahmed.json` in
+// place -- specifically its `chapters` list's sub-chapter (`parentId !=
+// null`) entries, i.e. Musnad Ahmad's companion/Sahabah-level catalog nodes
+// (see README's "Two-level chapters (Ahmad only, so far)" section for what
+// `parentId` means here). Top-level Musnad-group chapters are skipped
+// entirely (`m['parentId'] == null`) since those already have real English
+// names from the original scrape.
+//
 // Fills the `en` field for every Musnad Ahmad companion/chapter entry that
 // is still missing one, using:
 //  1. A curated dictionary of the ~150 recurring Arabic name components
@@ -19,24 +31,97 @@
 // value is written; anonymousNarrator entries still lack `ar`, so their
 // "ar" needsTranslation tag is left untouched (out of scope here — see
 // hapi_app_v2 task #254).
+//
+// TODO: the comment above (and the dictionary-derivation methodology it
+// describes) references `tool/dump_ahmad_companion_tokens.dart` as the
+// script that produced the token-frequency count `_nameDict` was built
+// from -- that file does not exist anywhere in this repo's `tool/`
+// directory or (as far as a quick check shows) git history. Same class of
+// issue as `arabic_match.dart`'s missing caller script noted in
+// NUMBERING_CORRUPTION_AUDIT.md: the dictionary itself is trustworthy and
+// checked-in, but the tool that derived it is not reproducible from this
+// repo alone. Worth either recovering/recommitting it or removing the dead
+// reference.
 import 'dart:convert';
 import 'dart:io';
 
 const _honorificStrip = <String>{
-  'رضی', 'رضِی', 'رضى', 'رضي', 'اللہ', 'الله', 'عنہ', 'عنه', 'عنہا', 'عنها',
-  'عنہما', 'عنهما', 'عنہم', 'عنهم', 'تعالی', 'تعالى', 'علیہ', 'عليه', 'صلی',
-  'صلى', 'وسلم', 'ﷺ',
+  'رضی',
+  'رضِی',
+  'رضى',
+  'رضي',
+  'اللہ',
+  'الله',
+  'عنہ',
+  'عنه',
+  'عنہا',
+  'عنها',
+  'عنہما',
+  'عنهما',
+  'عنہم',
+  'عنهم',
+  'تعالی',
+  'تعالى',
+  'علیہ',
+  'عليه',
+  'صلی',
+  'صلى',
+  'وسلم',
+  'ﷺ',
 };
 
 // Urdu grammar/connective words + generic hadith-metadata nouns that show up
 // mixed into the `ar` field but aren't part of the person's name.
 const _noiseStrip = <String>{
-  'کی', 'کے', 'کا', 'سے', 'اور', 'ایک', 'حدیث', 'احادیث', 'صحابی', 'صحابہ',
-  'صحابیہ', 'بعض', 'مروی', 'روایات', 'روایت', 'رسول', 'والد', 'زوجہ',
-  'خاتون', 'نام', 'نامی', 'کہ', 'چند', 'شخص', 'آدمی', 'جد',
-  'اصحاب', 'وفد', 'خادم', 'اپنے', 'اپنی', 'دیہاتی', 'صاحب', 'جو', 'ہیں',
-  'ہے', 'میں', 'پر', 'نے', 'کو', 'تھا', 'تھی', 'تھے', 'ہو', 'گیا', 'گئی',
-  'ان', 'حضرت', 'یا',
+  'کی',
+  'کے',
+  'کا',
+  'سے',
+  'اور',
+  'ایک',
+  'حدیث',
+  'احادیث',
+  'صحابی',
+  'صحابہ',
+  'صحابیہ',
+  'بعض',
+  'مروی',
+  'روایات',
+  'روایت',
+  'رسول',
+  'والد',
+  'زوجہ',
+  'خاتون',
+  'نام',
+  'نامی',
+  'کہ',
+  'چند',
+  'شخص',
+  'آدمی',
+  'جد',
+  'اصحاب',
+  'وفد',
+  'خادم',
+  'اپنے',
+  'اپنی',
+  'دیہاتی',
+  'صاحب',
+  'جو',
+  'ہیں',
+  'ہے',
+  'میں',
+  'پر',
+  'نے',
+  'کو',
+  'تھا',
+  'تھی',
+  'تھے',
+  'ہو',
+  'گیا',
+  'گئی',
+  'ان',
+  'حضرت',
+  'یا',
 };
 
 const Map<String, String> _nameDict = {
@@ -99,13 +184,29 @@ const Map<String, String> _nameDict = {
 // in this dataset — listed bare here since the article is stripped and
 // re-added generically (see `_lookupToken`).
 const Map<String, String> _nisbaDict = {
-  'انصاری': 'Ansari', 'خزاعی': "Khuza'i", 'ثقفی': 'Thaqafi',
-  'اسلمی': 'Aslami', 'اسدی': 'Asadi', 'حضرمی': 'Hadrami',
-  'حبشی': 'Habashi', 'سلمی': 'Sulami', 'دوسی': 'Dawsi',
-  'قرشی': 'Qurashi', 'مخزومی': 'Makhzumi', 'زہری': 'Zuhri',
-  'تیمی': 'Taymi', 'عدوی': 'Adawi', 'کندی': 'Kindi', 'اشعری': "Ash'ari",
-  'جہنی': 'Juhani', 'ازدی': 'Azdi', 'بصری': 'Basri', 'کوفی': 'Kufi',
-  'مدنی': 'Madani', 'مکی': 'Makki', 'شامی': 'Shami',
+  'انصاری': 'Ansari',
+  'خزاعی': "Khuza'i",
+  'ثقفی': 'Thaqafi',
+  'اسلمی': 'Aslami',
+  'اسدی': 'Asadi',
+  'حضرمی': 'Hadrami',
+  'حبشی': 'Habashi',
+  'سلمی': 'Sulami',
+  'دوسی': 'Dawsi',
+  'قرشی': 'Qurashi',
+  'مخزومی': 'Makhzumi',
+  'زہری': 'Zuhri',
+  'تیمی': 'Taymi',
+  'عدوی': 'Adawi',
+  'کندی': 'Kindi',
+  'اشعری': "Ash'ari",
+  'جہنی': 'Juhani',
+  'ازدی': 'Azdi',
+  'بصری': 'Basri',
+  'کوفی': 'Kufi',
+  'مدنی': 'Madani',
+  'مکی': 'Makki',
+  'شامی': 'Shami',
 };
 
 // Relative words for the "X's narration from his/her ___" template.
@@ -127,7 +228,13 @@ const Map<String, String> _relativeWords = {
 // before the fallback letter transliteration (the `ar` field in this
 // dataset is Urdu-keyboard Arabic script, mixing in Urdu-only letterforms).
 const Map<String, String> _letterformNormalize = {
-  'ک': 'ك', 'ی': 'ي', 'ے': 'ي', 'ہ': 'ه', 'ھ': 'ه', 'ں': 'ن', 'ﷲ': 'الله',
+  'ک': 'ك',
+  'ی': 'ي',
+  'ے': 'ي',
+  'ہ': 'ه',
+  'ھ': 'ه',
+  'ں': 'ن',
+  'ﷲ': 'الله',
 };
 
 // Deterministic Arabic-letter -> Latin fallback (used only for tokens not
@@ -154,8 +261,30 @@ String _normalizeLetterforms(String s) {
 }
 
 const _consonantFallbackLetters = <String>{
-  'b', 't', 'th', 'j', 'h', 'kh', 'd', 'dh', 'r', 'z', 's', 'sh', "'", 'gh',
-  'f', 'q', 'k', 'l', 'm', 'n', 'g', 'p', 'ch', 'zh',
+  'b',
+  't',
+  'th',
+  'j',
+  'h',
+  'kh',
+  'd',
+  'dh',
+  'r',
+  'z',
+  's',
+  'sh',
+  "'",
+  'gh',
+  'f',
+  'q',
+  'k',
+  'l',
+  'm',
+  'n',
+  'g',
+  'p',
+  'ch',
+  'zh',
 };
 
 String _fallbackTransliterateToken(String token) {
@@ -322,11 +451,7 @@ _Result? _tryRelationalTemplate(String ar) {
   if (m3 != null) {
     final x = _transliterateName(m3.group(1)!);
     if (x.hasContent) {
-      return _Result(
-        'Narrations of ${x.en}',
-        x.usedFallback,
-        hasContent: true,
-      );
+      return _Result('Narrations of ${x.en}', x.usedFallback, hasContent: true);
     }
   }
   return null;
@@ -421,9 +546,7 @@ void main() {
     }
   }
 
-  file.writeAsStringSync(
-    const JsonEncoder.withIndent('\t').convert(data),
-  );
+  file.writeAsStringSync(const JsonEncoder.withIndent('\t').convert(data));
 
   print(
     'filled: $filled (dict-only: $dictOnly, used fallback: $usedFallback, anonymous: $anonymous)',

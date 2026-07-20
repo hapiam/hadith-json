@@ -15,6 +15,17 @@
 /// old-source rows): **100.00% matched** on both, every remaining edge case
 /// traced to a real, understood cause (see the layer table in each
 /// `_bestMatchInRange` branch) rather than guessed at or force-fit.
+///
+/// STAGE: shared library, not a standalone pipeline step. This file is
+/// `library;` with no `main()` -- it's imported by whichever script needs
+/// content-based reconciliation (currently `build_unified_editions.dart`'s
+/// history and the original bukhari/muslim/.../ibnmajah content-match
+/// rebuild). Historical note (see NUMBERING_CORRUPTION_AUDIT.md): the actual
+/// one-off script that called `matchToCanonical` to produce the *current*
+/// checked-in spine data for those 6 books is not present anywhere in this
+/// repo or its git history -- almost certainly run locally and never
+/// committed. Treat this file as the trustworthy, reproducible part of that
+/// rebuild; the collision-resolution step that consumed its output is not.
 library;
 
 final _tashkeelAndQuranicMarks = RegExp('[ً-ٰٕۖ-ۭ࣓-ࣿ]');
@@ -84,7 +95,8 @@ double _bigramDice(String a, String b) {
   return 2 * ba.intersection(bb).length / (ba.length + bb.length);
 }
 
-List<String> _words(String normalized) => normalized.split(' ').where((w) => w.isNotEmpty).toList();
+List<String> _words(String normalized) =>
+    normalized.split(' ').where((w) => w.isNotEmpty).toList();
 
 double _wordOverlap(List<String> a, List<String> b) {
   if (a.isEmpty || b.isEmpty) return 0;
@@ -141,8 +153,12 @@ int? _bestMatchInRange(
     if (oldStripped.length > 20 && newStripped.contains(oldStripped)) return k;
     if (newStripped.length > 20 && oldStripped.contains(newStripped)) return k;
     final newStrippedNoSpace = newStripped.replaceAll(' ', '');
-    if (oldStrippedNoSpace.length > 20 && newStrippedNoSpace.contains(oldStrippedNoSpace)) return k;
-    if (newStrippedNoSpace.length > 20 && oldStrippedNoSpace.contains(newStrippedNoSpace)) return k;
+    if (oldStrippedNoSpace.length > 20 &&
+        newStrippedNoSpace.contains(oldStrippedNoSpace))
+      return k;
+    if (newStrippedNoSpace.length > 20 &&
+        oldStrippedNoSpace.contains(newStrippedNoSpace))
+      return k;
     final score = _wordOverlap(oldStrippedWords, _words(newStripped));
     if (score > bestScore) {
       bestScore = score;
@@ -184,6 +200,14 @@ int? _bestMatchInRange(
   return null;
 }
 
+/// Tally of how `matchToCanonical` resolved its input: `anchorMatches` (exact
+/// 60-char prefix, the trustworthy majority), `fuzzyMatches` (only cleared
+/// one of the softer layers -- word-overlap, containment, bigram, or the
+/// sliding-window fallback), and `unmatched` (nothing cleared any threshold).
+/// The README's per-book match-rate table and `DATA_QUALITY_REPORT.md`'s
+/// per-entry fuzzy-match listing are both driven off this, so a caller that
+/// discards `stats` loses the only audit trail of *which* matches were
+/// anchor-solid vs. merely plausible.
 class MatchStats {
   int anchorMatches = 0;
   int fuzzyMatches = 0;
@@ -200,6 +224,19 @@ class MatchStats {
 /// [oldLabels] (same length as [oldArabic], e.g. `idInBook` values as
 /// strings) is used only to make [stats].unmatchedSamples readable -- pass
 /// an empty list to skip labeling.
+///
+// TODO: this function has no collision detection -- nothing stops two
+// distinct entries in [oldArabic] from both matching the same canonical
+// index (expected whenever a base hadith and its lettered citation sibling,
+// e.g. "690a"/"690b", share almost all of their text). NUMBERING_CORRUPTION_
+// AUDIT.md's "Pattern A" traces several confirmed production bugs (Sahih
+// Muslim idInBook 3772/374/4153, likely all of Tirmidhi's 20 outliers) to
+// exactly this: whatever downstream step decided "this one gets the
+// canonical slot, that one becomes an addendum" on collision handled it
+// correctly most of the time but not always, and that step isn't even
+// present in this repo to fix (see the library-level doc comment above). A
+// caller of this function MUST post-process [result] for duplicate indices
+// and decide addendum placement explicitly -- don't assume a 1:1 mapping.
 List<int?> matchToCanonical({
   required List<String> oldArabic,
   required List<String> canonicalArabic,
@@ -213,7 +250,9 @@ List<int?> matchToCanonical({
   // occurrence wins on collision).
   final prefixIndex = <String, int>{};
   for (var i = 0; i < canonNorm.length; i++) {
-    final prefix = canonNorm[i].length <= 60 ? canonNorm[i] : canonNorm[i].substring(0, 60);
+    final prefix = canonNorm[i].length <= 60
+        ? canonNorm[i]
+        : canonNorm[i].substring(0, 60);
     prefixIndex.putIfAbsent(prefix, () => i);
   }
 
@@ -223,7 +262,9 @@ List<int?> matchToCanonical({
 
   // Pass 1: anchor matches (exact 60-char normalized prefix).
   for (var i = 0; i < oldArabic.length; i++) {
-    final prefix = oldNorm[i].length <= 60 ? oldNorm[i] : oldNorm[i].substring(0, 60);
+    final prefix = oldNorm[i].length <= 60
+        ? oldNorm[i]
+        : oldNorm[i].substring(0, 60);
     final match = prefixIndex[prefix];
     if (match != null) {
       result[i] = match;
@@ -259,14 +300,30 @@ List<int?> matchToCanonical({
     final searchLo = (lo - 5).clamp(0, canonNorm.length - 1);
     final searchHi = (hi + 5).clamp(0, canonNorm.length - 1);
 
-    var match = _bestMatchInRange(i, searchLo, searchHi, oldNorm, oldWords, canonNorm, canonWords);
+    var match = _bestMatchInRange(
+      i,
+      searchLo,
+      searchHi,
+      oldNorm,
+      oldWords,
+      canonNorm,
+      canonWords,
+    );
     if (match == null) {
       // Retry once with a much wider window before giving up -- verified
       // cases exist where the true match (>0.97 similarity) sat only ~55
       // rows outside the original anchor-bounded window.
       final wideLo = (lo - 300).clamp(0, canonNorm.length - 1);
       final wideHi = (hi + 300).clamp(0, canonNorm.length - 1);
-      match = _bestMatchInRange(i, wideLo, wideHi, oldNorm, oldWords, canonNorm, canonWords);
+      match = _bestMatchInRange(
+        i,
+        wideLo,
+        wideHi,
+        oldNorm,
+        oldWords,
+        canonNorm,
+        canonWords,
+      );
     }
 
     if (match != null) {
@@ -276,7 +333,9 @@ List<int?> matchToCanonical({
       stats?.unmatched++;
       if (stats != null && stats.unmatchedSamples.length < 15) {
         final label = i < oldLabels.length ? oldLabels[i] : '$i';
-        final snippet = oldNorm[i].length > 50 ? oldNorm[i].substring(0, 50) : oldNorm[i];
+        final snippet = oldNorm[i].length > 50
+            ? oldNorm[i].substring(0, 50)
+            : oldNorm[i];
         stats.unmatchedSamples.add('$label: $snippet');
       }
     }

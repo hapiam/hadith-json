@@ -1,6 +1,23 @@
 import 'dart:convert';
 import 'dart:io';
 
+/// STAGE: one-time-per-book migration (re-run only if fawaz republishes an
+/// edition or a new manual override/content fix is confirmed) -- this is the
+/// script that actually produces the corrected data, not a routine rebuild
+/// step. Run it, then re-run `build_unified_editions.dart` to propagate the
+/// change into `db/unified/`.
+///
+/// INPUTS: `db/editions/files/ara-{fawazKey}.min.json` +
+/// `eng-{fawazKey}.min.json` (fawaz's own cached paired edition -- the sole
+/// source of truth for this rebuild, see below) and the existing
+/// `db/by_book/{the_9_books|forties}/{book}.json` (read only for its
+/// pre-existing `id`-numbering scheme, chapter Arabic names to backfill, and
+/// -- Malik only -- the 127 hadith beyond fawaz's own coverage that get
+/// carried forward unchanged).
+///
+/// OUTPUT: overwrites `db/by_book/{the_9_books|forties}/{book}.json` in
+/// place with the rebuilt hadith list + chapter list.
+///
 /// Rebuilds `db/by_book/the_9_books/{book}.json` directly from the cached
 /// fawazahmed0/hadith-api canonical edition (`db/editions/files/ara-{book}.min.json`
 /// + `eng-{book}.min.json`), replacing the old AhmedBaset-spine-plus-content-
@@ -12,7 +29,13 @@ import 'dart:io';
 /// letter, e.g. `1618.02` = "1618b") is used to reconstruct the real
 /// sunnah.com citation instead of naively concatenating the book name with
 /// idInBook. Arabic and English come straight from fawaz's own paired
-/// record -- no cross-source join.
+/// record -- no cross-source join. This is the whole point of the rebuild:
+/// a single internally-consistent source per book, so `idInBook` (fawaz's
+/// own sequence number), `chapterId`, and the Arabic/English text can never
+/// drift apart the way they did when Arabic was content-matched onto one
+/// numbering while English stayed pinned to another (see
+/// NUMBERING_CORRUPTION_AUDIT.md's "RESOLUTION" section for the Bukhari
+/// idInBook=7277 example that first proved the old approach broken).
 ///
 /// Usage: dart run tool/rebuild_from_fawaz.dart <book>
 /// book is one of: bukhari muslim abudawud tirmidhi nasai ibnmajah malik
@@ -203,9 +226,23 @@ void main(List<String> args) {
   final globalIdOffset =
       (firstExisting['id'] as num).toInt() -
       (firstExisting['idInBook'] as num).toInt();
+  // TODO: `prefix` is computed but never read below -- `id` is actually
+  // assigned via `globalIdOffset + hadithNum` (detected from the existing
+  // data, see comment above), not via this `bookIdPrefix` scheme. Both
+  // `prefix` and the `bookIdPrefix` const map it comes from look like
+  // leftover cruft from an earlier version of this script; safe to delete
+  // if `globalIdOffset` continues to check out against the pre-existing
+  // `id` values for all 6 main books (bukhari/muslim/abudawud/tirmidhi/
+  // nasai/ibnmajah all use `prefix * 1_000_000 + idInBook`, which is what
+  // `globalIdOffset` recovers anyway when the existing file's first row's
+  // `idInBook` is 1).
   final prefix = bookIdPrefix[book];
   final bookIdField = (firstExisting['bookId'] as num).toInt();
 
+  // Arabic drives iteration (below); English is looked up by fawaz's own
+  // `hadithnumber` per entry rather than assumed to be at the same list
+  // index -- the two files are usually 1:1 but this stays correct even if
+  // fawaz ever ships a partial/reordered English export for a book.
   final araHadiths = (ara['hadiths'] as List).cast<Map<String, dynamic>>();
   final engByNum = <int, Map<String, dynamic>>{
     for (final h in (eng['hadiths'] as List).cast<Map<String, dynamic>>())
@@ -224,6 +261,13 @@ void main(List<String> args) {
           c,
   };
 
+  // fawaz's `metadata.sections` is the authoritative id->English-name chapter
+  // map for this edition; walk it (not the old spine's chapter list) so the
+  // rebuilt chapter set exactly matches the `chapterId`s the hadith loop
+  // below will actually assign from `reference.book`. Arabic names aren't in
+  // fawaz's data at all, so they're backfilled from the old spine by
+  // (id, English name) match where possible -- see `existingByIdAndName`
+  // above -- and left null otherwise, never guessed.
   final sections = ((ara['metadata'] as Map)['sections'] as Map);
   final newChapters = <Map<String, dynamic>>[];
   var unmatchedChapterNames = 0;
@@ -246,6 +290,15 @@ void main(List<String> args) {
     });
   }
 
+  // Converts fawaz's `arabicnumber` (a decimal encoding where the fractional
+  // part is a 1-based letter-variant index, e.g. "1618.02") into the real
+  // sunnah.com citation suffix ("1618b"). This is the fix for the bug
+  // documented in NUMBERING_CORRUPTION_AUDIT.md's RESOLUTION section: the
+  // *old* pipeline built citations by concatenating the book title with
+  // `idInBook` directly, silently conflating fawaz's gapless sequential
+  // numbering with sunnah.com's own lettered citation scheme -- two
+  // genuinely different numbering systems that happen to agree for
+  // un-lettered hadith and diverge for every lettered variant thereafter.
   String citationSuffix(dynamic arabicnumber) {
     final s = arabicnumber.toString();
     if (!s.contains('.')) return s;
@@ -256,6 +309,10 @@ void main(List<String> args) {
     return '$base$letter';
   }
 
+  // First pass: build every hadith straight from fawaz's paired ara/eng
+  // record, one row per fawaz `hadithnumber` -- no matching, no joining by
+  // position, nothing borrowed from the old spine except (later) the
+  // Malik-only tail and the manual/inferred chapterId fixes below.
   final newHadiths = <Map<String, dynamic>>[];
   var missingEnglish = 0;
   var blankContent = 0;
