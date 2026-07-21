@@ -8,6 +8,10 @@ dist
 # table.
 hapiam_mirror_hadith/
 
-# Raw scrape output from tool/scrape_amrayn.dart -- intermediate research data,
-# not source. Once converted into db/by_book/other_books/*.json it's discardable.
+# Live working copy for sources/amrayn.com/scripts/scrape_amrayn.dart -- a
+# run appends here so its own resume/retry logic can tell "already done" from
+# "not yet attempted". Disposable: periodically snapshotted (copied, not
+# moved) into a dated, git-tracked sources/amrayn.com/runs/ folder instead.
+# See sources/README.md for the full archive convention (applies to every
+# scrape source in this repo, not just amrayn.com).
 db/scrape_cache/
