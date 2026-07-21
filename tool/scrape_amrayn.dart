@@ -251,7 +251,10 @@ Future<String> fetchHtml(HttpClient client, String url) async {
 
 // ---- Server-rendered HTML fields (reliable, always present) ----
 
-final _titleRe = RegExp(r'co-hadith__title-text-head">([^<]*)</h2>');
+// Most books wrap this in <h2>, but shamail_muhammadiyah's page layout uses
+// <h1> for the same element -- matched via a class-tag-neutral `[^<]*<` so
+// this doesn't care which heading level a given book happens to use.
+final _titleRe = RegExp(r'co-hadith__title-text-head">([^<]*)<');
 final _gradeRe = RegExp(r'co-hadith__grade ([a-zA-Z-]+)">([^<]*)</span>');
 final _chapterRe = RegExp(
   r'pa-hadith__chapter" id="ch-(\d+)"[\s\S]*?class="arabic">\(<span class="pa-hadith__chapter-title-container-contents-arabic-numb">\d+</span>\) [–-] <!-- -->([\s\S]*?)</div><div>\(<!-- -->\d+<!-- -->\) [–-] <!-- -->([\s\S]*?)</div></div><a[^>]*class="pa-hadith__chapter-link" href="/([a-z]+)/(\d+)/ch-\d+"',

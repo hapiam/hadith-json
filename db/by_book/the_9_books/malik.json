@@ -2893,7 +2893,7 @@
 		{
 			"id": 34345,
 			"idInBook": 167,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -10136,7 +10136,7 @@
 		{
 			"id": 34862,
 			"idInBook": 684,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -13540,7 +13540,7 @@
 		{
 			"id": 35105,
 			"idInBook": 927,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -13877,7 +13877,7 @@
 		{
 			"id": 35129,
 			"idInBook": 951,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -14748,7 +14748,7 @@
 		{
 			"id": 35191,
 			"idInBook": 1013,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -15127,7 +15127,7 @@
 		{
 			"id": 35218,
 			"idInBook": 1040,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -16965,7 +16965,7 @@
 		{
 			"id": 35349,
 			"idInBook": 1171,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -17036,7 +17036,7 @@
 		{
 			"id": 35354,
 			"idInBook": 1176,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -17247,7 +17247,7 @@
 		{
 			"id": 35369,
 			"idInBook": 1191,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -17416,7 +17416,7 @@
 		{
 			"id": 35381,
 			"idInBook": 1203,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -19307,7 +19307,7 @@
 		{
 			"id": 35516,
 			"idInBook": 1338,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -21465,7 +21465,7 @@
 		{
 			"id": 35670,
 			"idInBook": 1492,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -21844,7 +21844,7 @@
 		{
 			"id": 35697,
 			"idInBook": 1519,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -21971,7 +21971,7 @@
 		{
 			"id": 35706,
 			"idInBook": 1528,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -22742,7 +22742,7 @@
 		{
 			"id": 35761,
 			"idInBook": 1583,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
@@ -25054,7 +25054,7 @@
 		{
 			"id": 35926,
 			"idInBook": 1748,
-			"chapterId": 0,
+			"chapterId": null,
 			"bookId": 7,
 			"arabic": "",
 			"english": {
