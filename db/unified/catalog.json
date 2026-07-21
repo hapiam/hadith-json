@@ -1974,7 +1974,7 @@
 			"language": "ar",
 			"languageName": "Arabic",
 			"name": "Mishkat al-Masabih (Arabic)",
-			"hadithCount": 4428,
+			"hadithCount": 5009,
 			"features": [
 				"arabic",
 				"grades",
@@ -1987,7 +1987,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 650945
+			"mirrorZipBytes": 787892
 		},
 		{
 			"id": "eng-mishkat",
@@ -1996,8 +1996,8 @@
 			"language": "en",
 			"languageName": "English",
 			"name": "Mishkat al-Masabih (English)",
-			"hadithCount": 4428,
-			"translationCount": 4428,
+			"hadithCount": 5009,
+			"translationCount": 5009,
 			"features": [
 				"arabic",
 				"translation",
@@ -2011,7 +2011,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 1322101
+			"mirrorZipBytes": 1605286
 		},
 		{
 			"id": "ind-mishkat",
@@ -2020,7 +2020,7 @@
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Mishkat al-Masabih (Indonesian)",
-			"hadithCount": 4428,
+			"hadithCount": 5009,
 			"translationCount": 4428,
 			"features": [
 				"arabic",
@@ -2036,7 +2036,7 @@
 				"sagad"
 			],
 			"translationStatus": "draft",
-			"mirrorZipBytes": 1332310
+			"mirrorZipBytes": 1469609
 		},
 		{
 			"id": "ara-adab",
@@ -18959,12 +18959,30 @@
 				}
 			},
 			{
-				"id": 0,
+				"id": 27,
 				"bookId": 14,
 				"parentId": null,
 				"names": {
-					"ar": "مقدمة المؤلف",
-					"en": "Author's Introduction"
+					"ar": "كتاب الفتن",
+					"en": "Fitan"
+				}
+			},
+			{
+				"id": 28,
+				"bookId": 14,
+				"parentId": null,
+				"names": {
+					"ar": "كتاب أحوال القيامة وبدء الخلق",
+					"en": "Events of the Day of Resurrection and the Beginning of Creation"
+				}
+			},
+			{
+				"id": 29,
+				"bookId": 14,
+				"parentId": null,
+				"names": {
+					"ar": "كتاب الفضائل والشمائل",
+					"en": "Excellent Qualities and Description of the Prophet"
 				}
 			}
 		],
