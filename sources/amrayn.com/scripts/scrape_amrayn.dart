@@ -58,6 +58,15 @@ import 'dart:io';
 /// - Each hadith fetch gets up to 3 attempts with backoff before being logged
 ///   as an error, so a few-second internet hiccup doesn't even need a restart.
 /// - One book failing outright doesn't stop the others in the same run.
+/// - A book whose real citations aren't a flat `1..count` sequence (letter
+///   variants, e.g. Muslim's `8a`/`8b`/`8d`/`8e`) sets `citationDiscovery:
+///   true` on its [BookConfig]; [discoverCitations] crawls that book's
+///   chapter-listing pages once (cached to `{outKey}.citations.json`
+///   thereafter) to build the real fetch list instead of guessing integers.
+/// - If [maxConsecutiveErrors] fetches in a row fail for any reason, the
+///   process stops itself (`exit(3)`) rather than grinding through the rest
+///   of the book logging the same failure -- surfaces for a human decision
+///   instead of running unattended into a wall.
 ///
 /// List order below is priority order (earlier = scraped first).
 ///
@@ -67,22 +76,44 @@ class BookConfig {
   final String urlKey;
   final String outKey;
   final int count;
-  const BookConfig(this.urlKey, this.outKey, this.count);
+  // True when the book's real per-hadith URLs aren't a flat `1..count`
+  // sequence -- e.g. Muslim uses letter-suffixed variants (`muslim:8a`,
+  // `muslim:8b`, `muslim:8d`, `muslim:8e`, with no `8c`) that only appear as
+  // real hrefs on that hadith's chapter-listing page, never as a citation you
+  // can derive by incrementing an integer. When true, [discoverCitations] is
+  // used to build the real fetch list instead of `1..count`.
+  final bool citationDiscovery;
+  const BookConfig(
+    this.urlKey,
+    this.outKey,
+    this.count, {
+    this.citationDiscovery = false,
+  });
 }
 
 const books = [
+  // citationDiscovery is set on every book whose flat 1..count sweep left
+  // gaps: the flat sweep can neither reach letter-suffixed citations
+  // (muslim:8a) nor distinguish "number doesn't exist in amrayn's edition"
+  // from "failure". Discovery enumerates the site's actual citation list, so
+  // a completed discovery-mode run == 100% of what amrayn really has.
+  // Books already at 100% from the flat sweep keep the cheap flat mode.
+  //
   // Phase-3 books with no other independent source -- highest priority.
   BookConfig('riyadussaliheen', 'riyad_assalihin', 1896),
   BookConfig('adab', 'aladab_almufrad', 1322),
-  BookConfig('shamail', 'shamail_muhammadiyah', 398),
+  BookConfig('shamail', 'shamail_muhammadiyah', 398, citationDiscovery: true),
   // The 6 AhmedBaset-spine books already rebuilt from fawaz -- scrape as a
   // second, independent source to cross-check the rebuild against.
-  BookConfig('bukhari', 'bukhari', 7076),
-  BookConfig('muslim', 'muslim', 7190),
-  BookConfig('nasai', 'nasai', 5758),
+  BookConfig('bukhari', 'bukhari', 7076, citationDiscovery: true),
+  // Confirmed via live probe: amrayn's real Muslim citations include letter
+  // variants (8a/8b/8d/8e, skipping 8c) not derivable by incrementing an
+  // int -- this is why a plain 1..7190 sweep only ever reached ~40%.
+  BookConfig('muslim', 'muslim', 7190, citationDiscovery: true),
+  BookConfig('nasai', 'nasai', 5758, citationDiscovery: true),
   BookConfig('abudawood', 'abudawud', 5274),
-  BookConfig('tirmidhi', 'tirmidhi', 3956),
-  BookConfig('ibnmajah', 'ibnmajah', 4340),
+  BookConfig('tirmidhi', 'tirmidhi', 3956, citationDiscovery: true),
+  BookConfig('ibnmajah', 'ibnmajah', 4340, citationDiscovery: true),
   // Phase-2 books, also fawaz-rebuilt -- same cross-check purpose.
   BookConfig('malik', 'malik', 1973),
   BookConfig('nawawi', 'nawawi40', 42),
@@ -92,8 +123,8 @@ const books = [
   BookConfig('darimi', 'darimi', 3546),
   // Not part of our current 18-book catalog -- amrayn-only bonus collections,
   // scraped last in case they're worth adding later.
-  BookConfig('nasaikubra', 'nasai_kubra_bonus', 11949),
-  BookConfig('hakim', 'mustadrak_alhakim_bonus', 8803),
+  BookConfig('nasaikubra', 'nasai_kubra_bonus', 11949, citationDiscovery: true),
+  BookConfig('hakim', 'mustadrak_alhakim_bonus', 8803, citationDiscovery: true),
 ];
 
 /// amrayn.com's robots.txt states `Crawl-delay: 5` for `User-agent: *` -- this
@@ -160,11 +191,23 @@ Future<void> scrapeAbout(
   await Future.delayed(delayBetweenRequests);
 }
 
+/// Consecutive-error safety valve: if this many fetches in a row fail (any
+/// error -- 404, timeout, layout change...), something is systemically wrong
+/// (site block, dead citation scheme, structural change) and grinding through
+/// the rest of the book would just log thousands more identical failures.
+/// Stops this book's process and surfaces it for a human decision rather than
+/// continuing silently -- a successful fetch resets the counter to 0.
+const maxConsecutiveErrors = 10;
+
 Future<void> scrapeBook(
   HttpClient client,
   BookConfig book,
   Directory outDir,
 ) async {
+  final citations = book.citationDiscovery
+      ? await discoverCitations(client, book, outDir)
+      : List.generate(book.count, (i) => '${i + 1}');
+
   final outFile = File('${outDir.path}/${book.outKey}.jsonl');
   // Only rows that parsed cleanly *and* succeeded count as done -- a row
   // written after exhausting retries (see fetchHtmlWithRetry) carries an
@@ -172,44 +215,224 @@ Future<void> scrapeBook(
   // next run instead of being silently skipped forever. A truncated final
   // line (process killed mid-write, extremely unlikely now that every write
   // is flushed) fails jsonDecode and is likewise just treated as not-done.
-  final done = <int>{};
+  // Keyed by the `citation` string (not the numeric idInBook, which is not
+  // unique for letter-suffixed books) -- old rows from before this field
+  // existed fall back to their idInBook so prior progress isn't lost.
+  final done = <String>{};
   if (outFile.existsSync()) {
     for (final line in outFile.readAsLinesSync()) {
       if (line.trim().isEmpty) continue;
       try {
         final obj = jsonDecode(line) as Map<String, dynamic>;
-        if (!obj.containsKey('error')) done.add(obj['idInBook'] as int);
+        if (obj.containsKey('error')) continue;
+        final citation =
+            obj['citation'] as String? ?? (obj['idInBook'] as int?)?.toString();
+        if (citation != null) done.add(citation);
       } catch (_) {}
     }
   }
-  print('${book.outKey}: ${done.length}/${book.count} already done, resuming.');
+  print(
+    '${book.outKey}: ${done.length}/${citations.length} already done, resuming.',
+  );
 
   final sink = outFile.openWrite(mode: FileMode.append);
-  int okCount = 0, errCount = 0;
-  for (var n = 1; n <= book.count; n++) {
-    if (done.contains(n)) continue;
-    final url = 'https://amrayn.com/${book.urlKey}:$n';
+  int okCount = 0, errCount = 0, consecutiveErrors = 0;
+  for (var i = 0; i < citations.length; i++) {
+    final citation = citations[i];
+    if (done.contains(citation)) continue;
+    final url = 'https://amrayn.com/${book.urlKey}:$citation';
     Map<String, dynamic> record;
     try {
       final html = await fetchHtmlWithRetry(client, url);
-      record = parseHadith(html, book, n);
+      record = parseHadith(html, book, citation);
       okCount++;
+      consecutiveErrors = 0;
     } catch (e) {
-      record = {'idInBook': n, 'error': e.toString()};
+      record = {
+        'idInBook': leadingInt(citation),
+        'citation': citation,
+        'error': e.toString(),
+      };
       errCount++;
-      stderr.writeln('${book.outKey} $n ERROR: $e');
+      consecutiveErrors++;
+      stderr.writeln('${book.outKey} $citation ERROR: $e');
     }
     sink.writeln(jsonEncode(record));
     // Flush every write, not just at end-of-book: a killed process or crash
     // should lose at most the one record currently in flight.
     await sink.flush();
-    if (n % 25 == 0 || n == book.count) {
-      print('${book.outKey}: $n/${book.count} (ok=$okCount err=$errCount)');
+    if ((i + 1) % 25 == 0 || i == citations.length - 1) {
+      print(
+        '${book.outKey}: ${i + 1}/${citations.length} (ok=$okCount err=$errCount)',
+      );
+    }
+    if (consecutiveErrors >= maxConsecutiveErrors) {
+      await sink.close();
+      stderr.writeln(
+        '${book.outKey}: STOPPING -- $consecutiveErrors consecutive errors '
+        '(last: "$citation" -> ${record['error']}). This needs a human look '
+        '(site block, layout change, or a citation-scheme gap this script '
+        "doesn't know about yet) -- not continuing automatically.",
+      );
+      exit(3);
     }
     await Future.delayed(delayBetweenRequests);
   }
   await sink.close();
   print('${book.outKey}: finished. ok=$okCount err=$errCount');
+}
+
+/// Extracts the leading integer from a citation like `"172"` or `"8a"` -- used
+/// as the (non-unique, for letter-suffixed books) `idInBook` field, kept for
+/// sort order and backward compatibility with rows written before citation
+/// discovery existed.
+int leadingInt(String citation) =>
+    int.parse(RegExp(r'^\d+').firstMatch(citation)!.group(0)!);
+
+/// Discovers the book's real per-hadith citation strings by crawling its
+/// chapter-listing pages (`/{urlKey}/1`, `/{urlKey}/2`, ...) AND each
+/// chapter's sub-chapter pages (`/{urlKey}/{ch}/ch-N`), harvesting every
+/// `/{urlKey}:CITATION` href found on them, instead of assuming `1..count`
+/// is a valid, complete sequence. The sub-chapter level is essential:
+/// verified live (muslim chapter 1), a chapter's base page only
+/// server-renders its FIRST sub-chapter's hadith links -- the rest of the
+/// chapter's hadith are only linked from the individual `ch-*` pages, so a
+/// single-level crawl silently finds only ~a quarter of the book. Cached to
+/// `db/scrape_cache/amrayn/{outKey}.citations.json` after the first run --
+/// the chapter structure doesn't change, so this never needs re-discovery.
+Future<List<String>> discoverCitations(
+  HttpClient client,
+  BookConfig book,
+  Directory outDir,
+) async {
+  final cacheFile = File('${outDir.path}/${book.outKey}.citations.json');
+  if (cacheFile.existsSync()) {
+    final citations = (jsonDecode(cacheFile.readAsStringSync()) as List)
+        .cast<String>();
+    print(
+      '${book.outKey}: using cached citation list (${citations.length}).',
+    );
+    return citations;
+  }
+
+  print('${book.outKey}: discovering citations from chapter pages...');
+  final mainHtml = await fetchHtmlWithRetry(
+    client,
+    'https://amrayn.com/${book.urlKey}',
+  );
+  await Future.delayed(delayBetweenRequests);
+  final chapterRe = RegExp('href="/${book.urlKey}/(\\d+)"');
+  final chapterNums = chapterRe
+      .allMatches(mainHtml)
+      .map((m) => int.parse(m.group(1)!))
+      .toSet()
+      .toList()
+    ..sort();
+  if (chapterNums.isEmpty) {
+    throw Exception(
+      'no chapter links found on /${book.urlKey} -- layout may have changed',
+    );
+  }
+
+  final citationRe = RegExp('href="/${book.urlKey}:([0-9]+[a-z]?)"');
+  final citations = <String>{};
+  for (var ci = 0; ci < chapterNums.length; ci++) {
+    final ch = chapterNums[ci];
+    final html = await fetchHtmlWithRetry(
+      client,
+      'https://amrayn.com/${book.urlKey}/$ch',
+    );
+    citations.addAll(citationRe.allMatches(html).map((m) => m.group(1)!));
+    await Future.delayed(delayBetweenRequests);
+
+    // Second level: WALK this chapter's sub-chapter pages (`ch-1`, `ch-1b`,
+    // `ch-2`, ...) with natural-404 termination, mirroring the dedicated
+    // Malik script's chapter walk. The base page's own `ch-*` hrefs can't be
+    // used as the list: only the first ~10 sub-chapters are server-rendered
+    // there (the rest are client-side), which is exactly the truncation that
+    // made the first Muslim discovery find 1,692 of the book. Sub-chapter
+    // base numbers are contiguous, with occasional letter variants
+    // (`ch-1b`, `ch-1c`) between them; a couple of consecutive missing base
+    // numbers means past-the-end.
+    var subCount = 0;
+    var missesInARow = 0;
+    for (var n = 1; n <= 500 && missesInARow < 3; n++) {
+      final found = await _harvestSubPage(
+        client,
+        book,
+        ch,
+        'ch-$n',
+        citationRe,
+        citations,
+      );
+      if (!found) {
+        missesInARow++;
+        continue;
+      }
+      missesInARow = 0;
+      subCount++;
+      // Letter variants: `ch-{n}b`, `ch-{n}c`, ... (the bare `ch-{n}` is the
+      // implicit "a"); stop at the first missing letter.
+      for (var l = 'b'.codeUnitAt(0); l <= 'z'.codeUnitAt(0); l++) {
+        final okL = await _harvestSubPage(
+          client,
+          book,
+          ch,
+          'ch-$n${String.fromCharCode(l)}',
+          citationRe,
+          citations,
+        );
+        if (!okL) break;
+        subCount++;
+      }
+    }
+    print(
+      '${book.outKey}: chapter ${ci + 1}/${chapterNums.length} (#$ch, '
+      '$subCount sub-chapters) -> ${citations.length} citations so far',
+    );
+  }
+
+  final sorted = citations.toList()
+    ..sort((a, b) {
+      final cmp = leadingInt(a).compareTo(leadingInt(b));
+      return cmp != 0 ? cmp : a.compareTo(b);
+    });
+  cacheFile.writeAsStringSync(
+    const JsonEncoder.withIndent('\t').convert(sorted),
+  );
+  print('${book.outKey}: discovered ${sorted.length} citations, cached.');
+  return sorted;
+}
+
+/// Fetches one sub-chapter page during [discoverCitations]' walk and adds
+/// its hadith citations to [citations]. Returns false on a genuine 404
+/// (the walk's past-the-end signal). A persistent non-404 failure (network
+/// outage outlasting fetchHtmlWithRetry's attempts) is rethrown rather than
+/// silently treated as end-of-chapter -- truncating discovery there would
+/// bake an incomplete citation list into the cache.
+Future<bool> _harvestSubPage(
+  HttpClient client,
+  BookConfig book,
+  int chapter,
+  String sub,
+  RegExp citationRe,
+  Set<String> citations,
+) async {
+  try {
+    final html = await fetchHtmlWithRetry(
+      client,
+      'https://amrayn.com/${book.urlKey}/$chapter/$sub',
+    );
+    citations.addAll(citationRe.allMatches(html).map((m) => m.group(1)!));
+    await Future.delayed(delayBetweenRequests);
+    return true;
+  } catch (e) {
+    if (e.toString().contains('HTTP 404')) {
+      await Future.delayed(delayBetweenRequests);
+      return false;
+    }
+    rethrow;
+  }
 }
 
 /// Up to 3 attempts with backoff (5s, 10s) before giving up -- absorbs brief
@@ -273,7 +496,8 @@ final _arabicRe = RegExp(
 final _domIdRe = RegExp(r'"co-hadith" id="h(\d+)-(\d+)"');
 final _boldRe = RegExp(r'<b>([\s\S]*?)</b>');
 
-Map<String, dynamic> parseHadith(String html, BookConfig book, int n) {
+Map<String, dynamic> parseHadith(String html, BookConfig book, String citation) {
+  final n = leadingInt(citation);
   final flat = html.replaceAll('\r', '').replaceAll('\n', '');
 
   final titleMatch = _titleRe.firstMatch(flat);
@@ -302,11 +526,18 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, int n) {
 
   final englishMatch = _englishRe.firstMatch(flat);
   final arabicMatch = _arabicRe.firstMatch(flat);
-  if (englishMatch == null || arabicMatch == null) {
-    throw Exception('english/arabic text block not found');
+  // Confirmed directly against a live page (malik ch5/13): some hadith on
+  // amrayn genuinely only have one of the two languages, not both -- e.g. an
+  // English-only entry with zero Arabic paragraphs anywhere on the page, not
+  // a parsing failure. Only a page with *neither* block is a real problem
+  // (title matched above, so this isn't a 404 -- more likely a layout this
+  // script hasn't seen yet), worth still throwing on so it surfaces instead
+  // of silently writing an empty record.
+  if (englishMatch == null && arabicMatch == null) {
+    throw Exception('neither english nor arabic text block found');
   }
-  final englishHtml = englishMatch.group(1)!;
-  final arabicHtml = arabicMatch.group(1)!;
+  final englishHtml = englishMatch?.group(1);
+  final arabicHtml = arabicMatch?.group(1);
 
   // Checked directly against live pages (riyadussaliheen, adab, bukhari):
   // amrayn does not embed inline <a>/<span>/<em> markup for narrator names,
@@ -316,14 +547,18 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, int n) {
   // "[Al-Bukhari and Muslim]"-style source note, but not always present and
   // not always last) -- captured here as its own list rather than assumed
   // to be a fixed trailing segment.
-  final boldSegments = _boldRe
-      .allMatches(englishHtml)
-      .map((m) => cleanInlineHtml(m.group(1)!))
-      .where((s) => s.isNotEmpty)
-      .toList();
+  final boldSegments = englishHtml == null
+      ? const <String>[]
+      : _boldRe
+            .allMatches(englishHtml)
+            .map((m) => cleanInlineHtml(m.group(1)!))
+            .where((s) => s.isNotEmpty)
+            .toList();
 
-  final englishRaw = cleanInlineHtml(englishHtml);
-  final narratorSplit = splitNarratorBody(englishRaw);
+  final englishRaw = englishHtml == null ? null : cleanInlineHtml(englishHtml);
+  final narratorSplit = englishRaw == null
+      ? (null, null)
+      : splitNarratorBody(englishRaw);
 
   final domIdMatch = _domIdRe.firstMatch(flat);
   final amraynSectionNum = domIdMatch != null
@@ -337,6 +572,7 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, int n) {
 
   return {
     'idInBook': n,
+    'citation': citation,
     'title': title,
     'chapter': chapter,
     'grades': grades,
@@ -344,7 +580,7 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, int n) {
     'narrator': narratorSplit.$1,
     'body': narratorSplit.$2,
     'boldSegments': boldSegments,
-    'arabic': cleanInlineHtml(arabicHtml),
+    'arabic': arabicHtml == null ? null : cleanInlineHtml(arabicHtml),
     'amraynSectionNum': amraynSectionNum,
     'amraynId': amraynId,
     ...extra,
@@ -356,7 +592,7 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, int n) {
 /// ends with a colon, matching the site's own "Narrated X (...):\n<body>"
 /// convention. Returns (null, fullText) when no such lead-in is present
 /// (some hadith open directly with the report, no separate attribution line).
-(String?, String) splitNarratorBody(String text) {
+(String?, String?) splitNarratorBody(String text) {
   final idx = text.indexOf('\n');
   if (idx == -1) return (null, text);
   final firstLine = text.substring(0, idx).trimRight();

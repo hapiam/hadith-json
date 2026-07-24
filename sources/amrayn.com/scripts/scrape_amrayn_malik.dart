@@ -70,7 +70,7 @@ Future<void> main() async {
   final book = core.BookConfig(_urlKey, _outKey, _totalCount);
   final sink = outFile.openWrite(mode: FileMode.append);
   var idInBook = 0;
-  var okCount = 0, errCount = 0;
+  var okCount = 0, errCount = 0, consecutiveErrors = 0;
   for (var ch = 1; ch <= _chapterCount; ch++) {
     for (var localN = 1; localN <= _maxLocalPerChapter; localN++) {
       idInBook++;
@@ -80,10 +80,11 @@ Future<void> main() async {
       Map<String, dynamic> record;
       try {
         final html = await core.fetchHtmlWithRetry(client, url);
-        record = core.parseHadith(html, book, idInBook);
+        record = core.parseHadith(html, book, '$idInBook');
         record['malikChapterNum'] = ch;
         record['malikLocalHadithNum'] = localN;
         okCount++;
+        consecutiveErrors = 0;
       } catch (e) {
         final is404 = e.toString().contains('HTTP 404');
         if (is404) {
@@ -101,9 +102,19 @@ Future<void> main() async {
           'error': e.toString(),
         };
         errCount++;
+        consecutiveErrors++;
         stderr.writeln('malik ch$ch/$localN (idInBook=$idInBook) ERROR: $e');
         sink.writeln(jsonEncode(record));
         await sink.flush();
+        if (consecutiveErrors >= core.maxConsecutiveErrors) {
+          await sink.close();
+          stderr.writeln(
+            'malik: STOPPING -- $consecutiveErrors consecutive errors '
+            '(last: ch$ch/$localN). This needs a human look -- not '
+            'continuing automatically.',
+          );
+          exit(3);
+        }
         await Future.delayed(core.delayBetweenRequests);
         continue;
       }
