@@ -1,5 +1,71 @@
 # amrayn.com raw-scrape field inventory
 
+## ⚠ DATA INTEGRITY WARNING — 2026-07-25 — read before trusting anything below
+
+**The scraper that produced `runs/2026-07-24_full-catalog/` had a bug that
+silently corrupted its own output, and I (the agent that wrote and ran it)
+did not catch it before reporting results as fact. This is a record of
+that failure, not just a fix note.**
+
+What happened: `scrape_amrayn.dart` matched each hadith's extra fields by
+searching the page for its own citation number
+(`hadithNumber":"$citation"`). amrayn.com's *own* internal numbering can
+drift from its URL citation (confirmed live: `bukhari:300`'s own page
+title reads "Sahih al-Bukhari 299", its embedded `hadithNumber` is
+`"298"` — neither matches the `300` in the URL). Whenever that drift
+happened, the match silently failed and returned nulls for every field it
+was responsible for — no error, no warning, nothing visibly wrong in the
+output. I built a per-book "feature coverage" table (below) from this
+data and reported real-looking percentages (e.g. "cross-collection links:
+0.2% for Bukhari") without checking whether "0.2%" meant *the feature is
+rare* or *the extraction is broken*. It was almost entirely the latter.
+
+**Measured scope of the corruption** — for these fields:
+`bookNumber`, `bookName`, `bookNameArabic`, `gradeFlag`, `notes`,
+`notesArabic`, `chain`, `chainArabic`, `references`, `intlRef`, `tags`,
+`links`, `rawPayload` — across `runs/2026-07-24_full-catalog/`:
+
+| Book | Records affected (unreliable) | Total |
+|---|---:|---:|
+| Bukhari | 6,645 | 6,791 (97.9%) |
+| Muslim | 8,895 | 8,898 (100.0%) |
+| Nasa'i | 5,326 | 5,728 (93.0%) |
+| Abu Dawud | 4,518 | 5,274 (85.7%) |
+| Malik | 1,374 | 1,405 (97.8%) |
+| **Total** | **26,758** | — |
+
+Exact citation lists are saved at
+`runs/2026-07-24_full-catalog/{book}.needs-rescrape.json` for each of the
+5 books above — generated straight from the corrupted data itself (no
+guessing), so this is a precise, re-runnable list, not an estimate.
+
+**Do not treat any of the 13 fields listed above as ground truth for
+these 26,758 records** — including anywhere they appear to have a
+value, since the corruption is a false-negative failure (returns null),
+not a false-positive one, so a present value for those specific records
+is trustworthy but an absent one is not distinguishable from "amrayn
+genuinely has nothing here" without re-checking. The rest of amrayn's
+data for these records (arabic/englishRaw/grades[]/chapter — all sourced
+from separate, unaffected server-rendered-HTML regexes) is unaffected.
+
+**Fixed in `scrape_amrayn.dart`** (anchors on `pageType":"single"` now,
+independent of citation number — see that file's doc comments), verified
+against live samples. **Not yet applied to the already-scraped data** —
+that requires re-fetching the 26,758 citations above, ~37 hours at
+amrayn's own 5-second crawl-delay. Not run without explicit go-ahead,
+given the runtime.
+
+**The lesson, stated plainly**: I extracted a large, precise-looking
+table of statistics from data I hadn't verified was extracted correctly,
+and presented it as a finding about amrayn.com rather than checking
+whether it was actually a finding about my own scraper. The per-book
+"feature coverage" table further down this file was built before this
+bug was found and should be read with that caveat for Bukhari, Muslim,
+Nasa'i, Abu Dawud, and Malik specifically — its numbers for those 5 books
+understate real coverage for the corrupted fields, in some cases severely.
+
+---
+
 What amrayn.com's site actually gives us per hadith, verified two ways:
 (1) directly reading raw records from
 `sources/amrayn.com/runs/2026-07-24_full-catalog/*.jsonl` and counting
@@ -43,6 +109,16 @@ than the `chapter` sub-chapter we do capture — see below), and three
 boolean flags `special`/`trending`/`popular` per hadith.
 
 ## Feature coverage by book/collection
+
+⚠ **Bukhari/Muslim/Nasa'i/Abu Dawud/Malik rows below are contaminated by
+the extraction bug described in the warning at the top of this file.**
+"Isnad chain" and "Cross-collection links" for those 5 books are
+UNDERSTATES-AT-BEST — up to 100% of each book's records were affected,
+so a low percentage there could mean "amrayn rarely has this" or "our
+extractor silently failed," and this table can't currently tell you
+which. Trust these 5 rows' numbers only after the re-scrape described in
+that warning has run. The other 10 books/collections were not affected
+(0-0.3% anchor-failure rate, verified) — their rows are reliable.
 
 Percentages are `(raw records with the field populated) / (that book's
 deduplicated total from COMPARISON_REPORT.md)`, so they're approximate
