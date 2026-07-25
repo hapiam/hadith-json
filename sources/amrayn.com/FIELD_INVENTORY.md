@@ -113,13 +113,42 @@ separate site locale. So `bookName`/`bookNameArabic` is the complete set
 of languages this field will ever have here — there's no third-language
 version being missed.
 
-**Not yet re-scraped.** This only takes effect on hadith fetched *after*
-this code change — the 61,540 hadith already sitting in
-`sources/amrayn.com/runs/2026-07-24_full-catalog/` don't have
-`bookName`/`bookNameArabic` yet. Re-running the full scrape to backfill
-it is a ~61,540-request, multi-day operation at the site's own 5-second
-crawl-delay (robots.txt) — not run as part of this investigation; needs
-its own explicit go-ahead.
+## The real fix: raw payload is now captured, not just curated fields
+
+Every "field we found but the scraper never captured" this session
+(`bookName`/`bookNameArabic`, `special`/`trending`/`popular`) was only
+found by re-fetching a *live* page and reading past what the extractor
+already knew to look for — the scraper had discarded the raw HTML for
+all 61,540 already-scraped hadith, keeping only a curated field subset.
+That's the actual bug: "capture everything" was never true at the
+architecture level, only at the level of "everything we'd already
+thought to extract." Every future field-discovery would have required
+going back to the live site again, indefinitely.
+
+**Fixed properly, not just patched around**: `parseHadith` now also
+saves a `rawPayload` field — the hadith's full embedded-JSON window,
+still escaped exactly as it appears on the page, essentially unprocessed
+(see `capturePayloadWindow`'s doc comment in `scrape_amrayn.dart`).
+Verified directly against both live-fetched sample pages: it's ~2.3–2.5KB
+per hadith and contains `bookName`, `special`, `singleRef`, and every
+other field seen in this investigation, not just the ones already being
+extracted into named fields. From now on, discovering a field nobody
+thought to pull out yet is a re-parse of this saved text — never another
+live fetch. `build_processed.dart` already keeps every raw field
+verbatim, so `rawPayload` flows straight through to `processed/*.json`
+with no further change needed there.
+
+**What this does and doesn't fix**: it prevents this exact problem from
+recurring on any *future* scrape. It does **not** retroactively add
+`bookName`/`rawPayload`/etc. to the 61,540 hadith already sitting in
+`sources/amrayn.com/runs/2026-07-24_full-catalog/` — those were fetched
+before this fix existed, so the raw payload was never saved for them.
+Backfilling those specific fields for the existing corpus still requires
+one more full re-scrape (~61,540 requests at the site's own 5-second
+crawl-delay per robots.txt, a multi-day operation) — not run as part of
+this investigation, needs its own explicit go-ahead. But it would be the
+**last** time: with `rawPayload` now saved, no future field-discovery
+on this source should ever require hitting amrayn.com again.
 
 ## `gradeFlag` decoded — it's a real bitwise-OR bitmask
 

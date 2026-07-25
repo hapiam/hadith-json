@@ -38,9 +38,13 @@ import 'dart:io';
 /// Captures everything available per hadith page without executing JS: the
 /// server-rendered text (Arabic, English, chapter, grade) plus every field in
 /// the page's embedded React data payload (isnad chain, notes, postscript,
-/// tags, cross-collection reference links, raw grade flag, etc). Also scrapes
-/// each book's /about page (book + author info, combined on one page on this
-/// site -- there is no separate author page).
+/// tags, cross-collection reference links, raw grade flag, etc) -- AND, as of
+/// this revision, the raw unprocessed payload window itself in a `rawPayload`
+/// field (see [capturePayloadWindow]'s own doc comment), so a field nobody
+/// thought to extract yet never requires a re-scrape to recover -- only a
+/// re-parse of what's already saved. Also scrapes each book's /about page
+/// (book + author info, combined on one page on this site -- there is no
+/// separate author page).
 ///
 /// Respects robots.txt's `Crawl-delay: 5` for `User-agent: *` (amrayn.com/hadith
 /// itself is not disallowed) -- do not lower this without re-checking robots.txt.
@@ -584,7 +588,39 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, String citation) 
     'amraynSectionNum': amraynSectionNum,
     'amraynId': amraynId,
     ...extra,
+    'rawPayload': capturePayloadWindow(flat, n),
   };
+}
+
+/// Raw, unprocessed capture of this hadith's full embedded-JSON window --
+/// still backslash-escaped exactly as it appears in the page's JS string
+/// literal, kept verbatim rather than reduced to the specific fields
+/// [extractEmbeddedFields] already knows to pull out. This is the actual
+/// fix for "capture everything so we never have to re-scrape": every field
+/// this scraper has EVER found this way (bookName/bookNameArabic,
+/// special/trending/popular -- see FIELD_INVENTORY.md) was only found by
+/// re-fetching a live page and reading past what the extractor already
+/// knew about. Saving this window means the next such discovery is a
+/// re-parse of already-saved text, not another live fetch.
+///
+/// Bounded at the `bookList` marker (the point where whole-book navigation
+/// data starts -- real content, but not hadith-specific, and the single
+/// biggest source of page bulk) or a generous 12,000-char cap, whichever
+/// comes first. This is a size/completeness tradeoff, not exactness: a
+/// fixed window can't guarantee it never truncates a very long hadith's
+/// trailing fields, but it comfortably covers everything seen in samples
+/// so far and stays far short of the 100KB+ of pure page chrome (nav
+/// menus, unrelated JS bundles) that a full-page save would carry.
+String? capturePayloadWindow(String flat, int n) {
+  final anchorRe = RegExp('\\\\*"hadithNumber\\\\*"\\s*:\\s*\\\\*"$n\\\\*"');
+  final anchor = anchorRe.firstMatch(flat);
+  if (anchor == null) return null;
+  final rest = flat.substring(anchor.start);
+  final bookListMatch = RegExp(
+    '\\\\*"bookList\\\\*"\\s*:\\s*\\[',
+  ).firstMatch(rest);
+  final end = (bookListMatch?.start ?? 12000).clamp(0, rest.length);
+  return rest.substring(0, end);
 }
 
 /// Splits amrayn's English text into (narrator, body) when the first line
