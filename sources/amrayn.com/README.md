@@ -38,6 +38,8 @@ against `db/by_book/`, not to feed the pipeline directly.
 amrayn.com/
   scripts/              every tool ever run against this source
   runs/<date>_<label>/  dated, git-tracked snapshots of scrape_cache/amrayn
+  processed/            one clean, deduplicated, book-ordered JSON per
+                         book — "scrape 1.0" results, see processed/README.md
   discovery-notes/      raw HTML/text samples used to figure out the
                          citation-discovery scheme (see below)
 ```
@@ -112,6 +114,18 @@ would have used, with two extra fields: `malikChapterNum`/
 `malikLocalHadithNum`.
 
 Usage: `dart run scripts/scrape_amrayn_malik.dart`.
+
+### `scripts/build_processed.dart` — clean, deduplicated, book-ordered output
+
+Post-processing step: turns the raw, mixed success/error `.jsonl` output
+above into one clean JSON file per book under `processed/` — the "scrape
+1.0" results meant to be maintained going forward (re-run any time the raw
+scrape gains new data) and loaded straight into the app or diffed against
+`db/by_book/`. See [`processed/README.md`](processed/README.md) for the
+exact shape and ordering rules.
+
+Usage: `dart run scripts/build_processed.dart [bookKey ...]` (default:
+every book).
 
 ## Gap-checking / status scripts
 
