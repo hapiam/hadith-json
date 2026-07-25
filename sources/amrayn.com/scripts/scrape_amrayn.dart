@@ -614,6 +614,8 @@ Map<String, dynamic> extractEmbeddedFields(String flat, int n) {
   if (anchor == null) {
     return {
       'bookNumber': null,
+      'bookName': null,
+      'bookNameArabic': null,
       'gradeFlag': null,
       'notes': null,
       'notesArabic': null,
@@ -650,6 +652,15 @@ Map<String, dynamic> extractEmbeddedFields(String flat, int n) {
 
   return {
     'bookNumber': parseRawToken(extractRawField(scoped, 'bookNumber')),
+    // Top-level "Book of X" grouping (e.g. Bukhari's ~97-book division:
+    // "Revelation", "Belief", ...) -- coarser than, and distinct from, the
+    // `chapter` sub-chapter block parsed from server-rendered HTML above.
+    // Confirmed live-only in English + Arabic: the site has no other-locale
+    // pages (checked `<html lang>` and hreflang tags -- English-only site,
+    // Arabic is per-hadith embedded content, not a site locale), so these
+    // two are the complete set, not a partial list.
+    'bookName': parseRawToken(extractRawField(scoped, 'bookName')),
+    'bookNameArabic': parseRawToken(extractRawField(scoped, 'bookNameArabic')),
     'gradeFlag': parseRawToken(extractRawField(scoped, 'gradeFlag')),
     'notes': parseRawToken(extractRawField(scoped, 'notes')),
     'notesArabic': parseRawToken(extractRawField(scoped, 'notesArabic')),

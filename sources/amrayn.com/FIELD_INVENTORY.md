@@ -92,41 +92,85 @@ doesn't exist in the other 12 books/collections because those are
 Bukhari" tag) — this isn't a scraper gap, it's a real structural
 difference between compilation books and primary books.
 
-## Newly-found, never-captured fields
+## `bookName`/`bookNameArabic` — now captured going forward
 
-Found by reading the raw embedded JSON on a live page directly, past
-what `scrape_amrayn.dart` already extracts:
+**Scraper updated** (`scrape_amrayn.dart`'s `extractEmbeddedFields`) to
+extract `bookName`/`bookNameArabic` alongside the fields it already
+captures — a top-level "Book of X" grouping distinct from (and coarser
+than) the `chapter` sub-chapter field we already capture. Example,
+live-verified on `bukhari:1`: `chapter` gives the fine-grained "How the
+Divine Revelation started..." sub-chapter, while
+`bookName`/`bookNameArabic` give the coarse "Revelation" / "كتاب بدء
+الوحى" — this is Bukhari's well-known ~97-book division (Book 1:
+Revelation, Book 2: Belief, ...), which our own `db/unified/` chapter
+schema does not currently distinguish from sub-chapters at all.
 
-- **`bookName` / `bookNameArabic`** — a top-level "Book of X" grouping
-  distinct from (and coarser than) the `chapter` sub-chapter field we
-  already capture. Example, live-verified on `bukhari:1`: `chapter` gives
-  the fine-grained "How the Divine Revelation started..." sub-chapter,
-  while `bookName`/`bookNameArabic` give the coarse "Revelation" /
-  "كتاب بدء الوحى" — this is Bukhari's well-known ~97-book division
-  (Book 1: Revelation, Book 2: Belief, ...), which our own `db/unified/`
-  chapter schema does not currently distinguish from sub-chapters at all.
-  Worth extending the scraper to capture, if a two-level book/chapter
-  structure (already built for Musnad Ahmad, see main `README.md`'s
-  "Two-level chapters" section) is wanted for the other books too.
-- **`special` / `trending` / `popular`** — three per-hadith booleans.
-  Both live samples checked (`bukhari:1`, `darimi:1`) had all three
-  `false`, including Bukhari's famous opening "actions are by
-  intentions" hadith — so `popular` is likely a site-engagement metric,
-  not a religious-significance flag, or is simply unused/unpopulated
-  right now like `tags`/`postscript`. Only 2 samples checked; not enough
-  to characterize, and not worth a broader live crawl unless there's a
-  concrete use for it.
+**Only English + Arabic exist — checked, not assumed.** amrayn.com is an
+English-only site: `<html lang="en">`, no `hreflang` alternates, no
+locale switcher found on either fetched page. Arabic is per-hadith
+embedded content (like `arabic`/`chainArabic`/`notesArabic`), not a
+separate site locale. So `bookName`/`bookNameArabic` is the complete set
+of languages this field will ever have here — there's no third-language
+version being missed.
+
+**Not yet re-scraped.** This only takes effect on hadith fetched *after*
+this code change — the 61,540 hadith already sitting in
+`sources/amrayn.com/runs/2026-07-24_full-catalog/` don't have
+`bookName`/`bookNameArabic` yet. Re-running the full scrape to backfill
+it is a ~61,540-request, multi-day operation at the site's own 5-second
+crawl-delay (robots.txt) — not run as part of this investigation; needs
+its own explicit go-ahead.
+
+## `gradeFlag` decoded — it's a real bitwise-OR bitmask
+
+Verified by cross-checking every distinct `gradeFlag` value seen against
+the `grades[].class` combination it always co-occurs with, across the
+full 61,390-hadith corpus that carries `grades[]` (39 distinct flag
+values observed):
+
+- **Single-grade hadith get a pure power-of-2 flag.** `class:"sahih"` →
+  `1` (bit 0), `"hasan"` → `2` (bit 1), `"daeef"` → `4` (bit 2),
+  `"moudu"` → `8` (bit 3), `"hasansahih"` → `16` (bit 4), `"munkar"` →
+  `32` (bit 5), `"shadhdh"` → `64` (bit 6), and so on up through at least
+  bit 30 (`daeef` again, a different bit — see below).
+- **Multi-grade hadith get the bitwise OR of their component grades.**
+  Verified directly: `gradeFlag=257` (`0b100000001` = bit 8 + bit 0)
+  co-occurs only with `class` combination `maqtu+sahih`; `gradeFlag=8196`
+  (bit 13 + bit 2) only with `daeef+marfu`; `gradeFlag=2359297` (bit 21 +
+  bit 18 + bit 0) only with the three-grade combination
+  `daeef+sahih+sahih` — the two different bits both decoding to `class:
+  "sahih"` is itself confirmation this is a real OR, not a coincidence.
+- **The same coarse `class` string maps to *multiple* different bits**
+  (e.g. `"sahih"` alone was seen at bit 0, bit 9, bit 21, bit 25, and bit
+  26). `class` is a coarse display bucket; `gradeFlag`'s bit is more
+  granular — almost certainly one bit per (grading authority, verdict)
+  pair internal to amrayn's backend (e.g. Darussalam's "Sahih (Authentic)"
+  vs. Al-Albani's "Sahih (Authentic) [Al-Albani]" vs. an isnad-only
+  "Sahih ul-Isnaad (Authentic Chain)" all show `class:"sahih"` but are
+  textually distinct grades and get distinct bits).
+- **What's NOT decoded**: which specific authority each individual bit
+  belongs to. That mapping isn't recoverable from `class`+`text` alone
+  when two different authorities produce identical text (e.g. two sources
+  both saying plain "Sahih (Authentic)" with no bracketed name) — would
+  need amrayn's own internal enum or UI (e.g. a tooltip) to fully resolve,
+  and hasn't been pursued since nothing currently needs it.
+
+**Full `grades[].class` value set found** (21 distinct values across the
+corpus): `daeef`, `daeefjiddan`, `gharib`, `hasan`, `hasansahih`,
+`hasanulisnaad`, `lighairih`, `maqtu`, `marfu`, `mauquf`, `moudu`,
+`munkar`, `munqati`, `mursal`, `mutawatir`, `nochainfoundalalbani`,
+`qudsi`, `sahih`, `sahihlighirih`, `shadhdh`, `unknown` — a real
+traditional hadith-grading taxonomy (authentic/good/weak/fabricated/
+mursal/mawquf/etc.), not amrayn-invented categories.
 
 ## Not yet done
 
 - Broader live-page sampling of `special`/`trending`/`popular` (2 samples
   isn't enough to say whether these are ever true anywhere on the site).
-- Enumerate the full `grades[].class` value set (currently only seen:
-  `sahih`, `unknown` — there are almost certainly more, e.g. daif/hasan).
-- Decode `gradeFlag`'s bit meaning, if it turns out to matter (e.g. does
-  it distinguish which authority issued the grade).
 - Decide whether `bookName`/`bookNameArabic` (top-level Book grouping)
-  is worth adding to the scraper and, eventually, `db/unified/`'s schema.
-- Decide, once the above is answered, whether `grades[]`/`links[]`
-  become new fields in `db/unified/`'s schema — not decided yet,
-  deliberately.
+  is worth carrying into `db/unified/`'s schema, and whether/when to run
+  the multi-day re-scrape needed to backfill it for already-scraped
+  hadith.
+- Decide whether `grades[]` (rich multi-authority grading) and `links[]`
+  (cross-collection citation graph) become new fields in `db/unified/`'s
+  schema — not decided yet, deliberately.
