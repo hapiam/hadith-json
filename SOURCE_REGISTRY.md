@@ -163,28 +163,24 @@ against its real records for this specific book yet.
   position-vs-claimed-citation screen against any new source before
   trusting its numbering at all.
 
-## Source reliability summary (ranked)
+## Source reliability ranking — deferred
 
-The one-glance answer to "which source do I trust more." Ranked by how
-well each has held up under direct verification (content-matching,
-duplicate checks, independent cross-referencing) — not by reputation or
-how official-looking a source is. "Mistakes found" only counts things
-this repo has actually confirmed by inspection, per this file's own rule
-of not guessing; a source with fewer listed mistakes may just be less
-inspected, not more correct — check its own row's `Status` column above
-before treating a blank as clean.
+An earlier version of this file tried to rank every source, including
+amrayn.com, on a single reliability scale. That was premature and got
+pulled back out: amrayn.com hasn't finished being *processed* yet — its
+raw scrape carries fields (isnad chain, structured grading, cross-
+collection links — see `sources/amrayn.com/FIELD_INVENTORY.md`) this repo
+hasn't inventoried or decided whether to standardize on, and grading a
+source's "reliability" before knowing what it actually contains isn't
+meaningful. A source with unprocessed data isn't more or less reliable
+than one that's been fully mined — it's just not understood yet, which is
+a different axis entirely.
 
-| Rank | Source | Link | What it contains | Mistakes found (type — count) | Reliability |
-|---|---|---|---|---|---|
-| 1 | fawazahmed0/hadith-api | [github.com/fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) | Arabic + translations (Bengali/English/French/Indonesian/Russian/Tamil/Turkish/Urdu) for Bukhari/Muslim/Abu Dawud/Tirmidhi/Nasa'i/Ibn Majah/Malik/the Forties; Type 1 flat sequential numbering, no letters, split storage (Type 4 opposite) | None confirmed. 1 open question: unexplained `arabicnumber` field (e.g. `"11.02"`), not yet investigated | **Highest** — used as the ground-truth numbering target for 6 books; the source whose content-matching exposed the AhmedBaset drift bug in the first place (§ above) |
-| 2 | mhashim6/Open-Hadith-Data | [github.com/mhashim6/Open-Hadith-Data](https://github.com/mhashim6/Open-Hadith-Data) (mirrors ceefour/hadith-islamware) | Darimi Arabic-only scaffold, 3,367 rows | None — verified duplicate-free before adoption | **High** — 100% of the old spine's entries content-matched onto it (README §"Sunan ad-Darimi: 3,367, exact match"); now the canonical Arabic source for this book |
-| 3 | al-hadees.com | [al-hadees.com](https://al-hadees.com) — scraping script itself was never preserved, only the merged result | Musnad Ahmad full scrape, 27,632 raw records (classification/conclusion/statusReference fields also recovered) | 1 confirmed genuine numbering gap (citation #24424, independently cross-checked against islamweb.net's text — nothing to recover). 14 of the other 14 flagged gaps were recoverable (13 confirmed + 1 strong candidate), not mistakes in the source itself. Process gap: script loss means this scrape can't be re-run or spot-audited against the live site anymore | **Medium-High** — recovered ~20x more content than the prior 1,374-hadith stub (final: 27,648), gap-checked against an independent second source (islamweb.net), but unreproducible and its translations (English/Urdu-Indonesian) haven't been re-attached post-rebuild yet |
-| 4 | amrayn.com | [amrayn.com](https://amrayn.com) (mirrors [sunnah.com](https://sunnah.com)) | Full lettered-citation catalog, self-contained Arabic+English, 13 core books + 2 amrayn-only bonus books (61,540 hadith total) | Scrape gaps vs. canonical (dead links / uncrawled ranges), per `COMPARISON_REPORT.md`: Bukhari 798, Muslim 466, Malik 372, Tirmidhi 47, Nasa'i 37, Ibn Majah 15 hadith missing. Also holds ~3,600 "amrayn-only" entries (Muslim 1,854, Adab Mufrad 580, Shama'il 389, Darimi 179, Malik 123) not yet confirmed as real recoverable content vs. citation-numbering mismatches — content-match verification pending (`tool/content_match_amrayn_vs_known.dart`, written, not yet run) | **Medium** — broad, safe-to-match coverage (self-contained Arabic, Type 4), but real documented per-book gaps and a large pile of unresolved "amrayn-only" entries |
-| 5 | AhmedBaset/hadith-json (original spine) | [github.com/AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) | Original bilingual (Arabic+English) structure, numbering, and chapters for all 18 books — this repo's own historical foundation | 1 systemic bug, Type 3 ⚠: row-position used as citation number, confirmed on Bukhari (row 7277 claims citation "Sahih al-Bukhari 7563"; divergence starts ~row 1000, grows monotonically to the end) — corrupted every non-English translation joined positionally across Bukhari/Muslim/Abu Dawud/Tirmidhi/Nasa'i/Ibn Majah until the 2026-07-19 content-match rebuild. Also: Musnad Ahmad's original spine was only 4% complete (1,374 of the eventual 27,648 hadith) | **Medium-Low** — structure/chapters/Arabic are largely usable, but its own row-position numbering was actively misleading for 6 of 18 books; numbering fully superseded there, retained elsewhere |
-| 6 | muallimai/hadith-json | [github.com/muallimai/hadith-json](https://github.com/muallimai/hadith-json) | `grade` + `reference` fields merged by hadith id; sole source for Hisn al-Muslim | Not yet run through the 4-type checklist — no confirmed mistakes, but also no confirmed correctness | **Unknown** — genuinely un-inspected, not a clean bill of health; treat with the same caution as an unverified source until checked |
-| 7 | sagad/hadith-json | [github.com/sagad/hadith-json](https://github.com/sagad/hadith-json) | Indonesian translation drafts, `db/by_locale/id/`, for books fawaz has no `ind-*` edition for | Self-flagged "draft" quality by the source's own README (per this repo's `README.md` "Known limitations") — not individually audited beyond that | **Low** — lowest-confidence source in the whole pipeline, by its own admission |
-
-Update this table whenever a "Not yet inspected" row above gets verified,
-or whenever `content_match_amrayn_vs_known.dart` (or its future
-equivalents for other sources) actually runs and turns an "unconfirmed"
-count into a real one.
+**Go one source at a time.** Before any source gets a reliability grade,
+finish its own inventory/processing pass first (methodology + raw-field
+census, ideally its own doc like `FIELD_INVENTORY.md`). Only sources that
+have actually been mined end-to-end — right now that's fawaz, mhashim6,
+and (partially) al-hadees.com, all folded into the rebuilt `db/unified/`
+pipeline and documented in `README.md` — are candidates for a reliability
+verdict at all. A ranked summary table can come back once amrayn.com (and
+any future sources) reach that same point, not before.
