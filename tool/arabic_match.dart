@@ -325,6 +325,28 @@ List<int?> matchToCanonical({
         canonWords,
       );
     }
+    if (match == null) {
+      // Last resort: search the ENTIRE canonical corpus, no window at all.
+      // Verified necessary (not just theoretical) against amrayn's Tirmidhi
+      // cross-check: 129 of 175 entries the windowed passes above called
+      // "unmatched" turned out to have a real, high-confidence match
+      // (median distance 1,733 rows from the nearest anchor, some past
+      // 3,700) once searched unboundedly -- amrayn's own citation order
+      // drifts from fawaz's canonical order far more, in some stretches,
+      // than the anchor±300 retry above ever accounted for. Only reached
+      // for the (typically small) residual still unmatched after both
+      // windowed passes, so the extra full-corpus scan's cost stays
+      // bounded regardless of how large canonicalArabic is overall.
+      match = _bestMatchInRange(
+        i,
+        0,
+        canonNorm.length - 1,
+        oldNorm,
+        oldWords,
+        canonNorm,
+        canonWords,
+      );
+    }
 
     if (match != null) {
       result[i] = match;

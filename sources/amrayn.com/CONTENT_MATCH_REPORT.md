@@ -18,11 +18,11 @@ Amrayn total: 8898
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-muslim.min.json) | 8837 | 24 | 37 |
+| fawaz raw (ara-muslim.min.json) | 8837 | 35 | 26 |
 
-**Content found in at least one known source: 8861 / 8898. Genuinely absent from every known source: 37** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
+**Content found in at least one known source: 8872 / 8898. Genuinely absent from every known source: 26** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
-Sample citations genuinely absent from every known source: 189c, 275, 387, 564b, 630, 1030, 1256, 1428h, 1697, 1698, 1698a, 1733e, 1772c, 1807b, 1977f, 1977g, 2110b, 2154b, 2267b, 2303c, …
+Sample citations genuinely absent from every known source: 189c, 387, 630, 1030, 1256, 1428h, 1697, 1698, 1698a, 1733e, 1807b, 1977g, 2110b, 2154b, 2303c, 2303d, 2304, 2304a, 2305, 2305a, …
 
 ## nasai
 
@@ -30,11 +30,11 @@ Amrayn total: 5728
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-nasai.min.json) | 5640 | 34 | 54 |
+| fawaz raw (ara-nasai.min.json) | 5640 | 36 | 52 |
 
-**Content found in at least one known source: 5674 / 5728. Genuinely absent from every known source: 54** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
+**Content found in at least one known source: 5676 / 5728. Genuinely absent from every known source: 52** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
-Sample citations genuinely absent from every known source: 125, 1368, 1369, 1372, 3858, 3859, 3860, 3862, 3865, 3866, 3867, 3868, 3869, 3871, 3872, 3873, 3874, 3876, 3877, 3878, …
+Sample citations genuinely absent from every known source: 125, 1368, 1369, 1372, 3859, 3860, 3862, 3865, 3866, 3867, 3868, 3869, 3871, 3872, 3873, 3874, 3876, 3877, 3878, 3881, …
 
 ## abudawud
 
@@ -54,11 +54,11 @@ Amrayn total: 3951
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-tirmidhi.min.json) | 3498 | 278 | 175 |
+| fawaz raw (ara-tirmidhi.min.json) | 3498 | 407 | 46 |
 
-**Content found in at least one known source: 3776 / 3951. Genuinely absent from every known source: 175** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
+**Content found in at least one known source: 3905 / 3951. Genuinely absent from every known source: 46** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
-Sample citations genuinely absent from every known source: 391, 455, 457, 458, 945, 1205, 1208, 1209, 1225, 1255, 1258, 1301, 1317, 1322, 1395, 1420, 1438, 1465, 1471, 1477, …
+Sample citations genuinely absent from every known source: 391, 455, 457, 458, 945, 1205, 1208, 1225, 1255, 1258, 1301, 1317, 1322, 1395, 1420, 1438, 1465, 1471, 1477, 1480, …
 
 ## ibnmajah
 
@@ -78,9 +78,9 @@ Amrayn total: 1405
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-malik.min.json) | 1253 | 131 | 21 |
+| fawaz raw (ara-malik.min.json) | 1253 | 136 | 16 |
 
-**Content found in at least one known source: 1384 / 1405. Genuinely absent from every known source: 21** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
+**Content found in at least one known source: 1389 / 1405. Genuinely absent from every known source: 16** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
-Sample citations genuinely absent from every known source: 35, 433, 444, 470, 471, 648, 649, 720, 776, 777, 780, 781, 936, 1006, 1007, 1107, 1192, 1344, 1345, 1399, …
+Sample citations genuinely absent from every known source: 35, 433, 470, 471, 648, 649, 720, 776, 777, 780, 781, 1006, 1007, 1192, 1344, 1345
 
