@@ -272,6 +272,85 @@ class UnifiedBuilder {
       englishTitle: 'Hisn al-Muslim',
       sunnahSlug: 'hisn',
     ),
+    // hadithunlocked.com imports (tool/import_hadithunlocked.dart). None
+    // have a cached fawaz edition (fawazBook: null) or a sunnah.com slug --
+    // unlike every book above, their `reference` field is already fully
+    // populated by the importer itself (a real hadithunlocked.com URL, not
+    // a sunnah.com guess), so `_normalizeReference`'s first branch (pass
+    // the spine's own text/url straight through) is what actually fires for
+    // all twelve, and `sunnahSlug` would never be consulted anyway.
+    BookDef(
+      bookId: 19,
+      bookKey: 'nasai-kubra',
+      spineRelative: 'hadithunlocked/nasai-kubra.json',
+      englishTitle: "al-Sunan al-Kubra, Nasa'i",
+    ),
+    BookDef(
+      bookId: 20,
+      bookKey: 'lulu-marjan',
+      spineRelative: 'hadithunlocked/lulu-marjan.json',
+      englishTitle: 'al-Lulu wa-al-Marjan (Muttafaq Alayh)',
+    ),
+    BookDef(
+      bookId: 21,
+      bookKey: 'ibnrajab50',
+      spineRelative: 'hadithunlocked/ibnrajab50.json',
+      englishTitle: 'Jami al-Ulum wa-al-Hikam',
+    ),
+    BookDef(
+      bookId: 22,
+      bookKey: 'ibnhibban',
+      spineRelative: 'hadithunlocked/ibnhibban.json',
+      englishTitle: 'Sahih Ibn Hibban',
+    ),
+    BookDef(
+      bookId: 23,
+      bookKey: 'bayhaqi',
+      spineRelative: 'hadithunlocked/bayhaqi.json',
+      englishTitle: 'al-Sunan al-Kabir, Bayhaqi',
+    ),
+    BookDef(
+      bookId: 24,
+      bookKey: 'tabarani',
+      spineRelative: 'hadithunlocked/tabarani.json',
+      englishTitle: "al-Mu'jam al-Kabir, Tabarani",
+    ),
+    BookDef(
+      bookId: 25,
+      bookKey: 'hakim',
+      spineRelative: 'hadithunlocked/hakim.json',
+      englishTitle: 'Mustadrak al-Hakim',
+    ),
+    BookDef(
+      bookId: 26,
+      bookKey: 'ahmad-zuhd',
+      spineRelative: 'hadithunlocked/ahmad-zuhd.json',
+      englishTitle: 'al-Zuhd, Ahmad',
+    ),
+    BookDef(
+      bookId: 27,
+      bookKey: 'daraqutni',
+      spineRelative: 'hadithunlocked/daraqutni.json',
+      englishTitle: 'Sunan al-Daraqutni',
+    ),
+    BookDef(
+      bookId: 28,
+      bookKey: 'bazzar',
+      spineRelative: 'hadithunlocked/bazzar.json',
+      englishTitle: 'Musnad al-Bazzar',
+    ),
+    BookDef(
+      bookId: 29,
+      bookKey: 'suyuti',
+      spineRelative: 'hadithunlocked/suyuti.json',
+      englishTitle: 'Jam al-Jawami, Suyuti',
+    ),
+    BookDef(
+      bookId: 30,
+      bookKey: 'ibnkhuzaymah',
+      spineRelative: 'hadithunlocked/ibnkhuzaymah.json',
+      englishTitle: 'Sahih Ibn Khuzaymah',
+    ),
   ];
 
   void run() {
@@ -505,6 +584,14 @@ class UnifiedBuilder {
         // the scholar's own authentication conclusion text.
         if (h['classification'] != null) 'classification': h['classification'],
         if (h['conclusion'] != null) 'conclusion': h['conclusion'],
+        // Self-disclosed machine-translation flag (currently only the
+        // hadithunlocked.com-sourced books carry this -- see
+        // `tool/import_hadithunlocked.dart`): the source itself prefixed
+        // the English text with "[AI]"/"[Machine]" rather than silently
+        // passing off a machine translation as scholarly; that prefix is
+        // stripped from the stored text and preserved here instead so the
+        // UI can show its own honest badge.
+        if (h['isAiTranslated'] == true) 'isAiTranslated': true,
         // TODO: `rebuild_from_fawaz.dart` sets `noSourceContent: true` on
         // spine rows with genuinely blank Arabic+English (see its
         // `isBlank` handling) and `chapterUnknown: true` on fawaz's
@@ -1071,6 +1158,7 @@ class UnifiedBuilder {
         if (row['classification'] != null)
           'classification': row['classification'],
         if (row['conclusion'] != null) 'conclusion': row['conclusion'],
+        if (row['isAiTranslated'] == true) 'isAiTranslated': true,
       });
     }
     // Skip emitting a language edition if no hadith has that translation

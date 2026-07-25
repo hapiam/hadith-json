@@ -1,6 +1,6 @@
 # Unified editions build report
 
-Built: 2026-07-25T21:32:45.991422Z
+Built: 2026-07-25T21:53:59.432468Z
 
 ## Sources
 - AhmedBaset spine: `db/by_book` (structure, arabic, english narrator/text, chapters)
@@ -47,6 +47,18 @@ Built: 2026-07-25T21:32:45.991422Z
 - shamail: Indonesian draft from sagad on 402 hadiths (unmatched sagad rows: 0; no fawaz ind-* for this book)
 - bulugh: Indonesian draft from sagad on 1767 hadiths (unmatched sagad rows: 0; no fawaz ind-* for this book)
 - hisn: no sagad Indonesian by_book file
+- nasai-kubra: no sagad Indonesian by_book file
+- lulu-marjan: no sagad Indonesian by_book file
+- ibnrajab50: no sagad Indonesian by_book file
+- ibnhibban: no sagad Indonesian by_book file
+- bayhaqi: no sagad Indonesian by_book file
+- tabarani: no sagad Indonesian by_book file
+- hakim: no sagad Indonesian by_book file
+- ahmad-zuhd: no sagad Indonesian by_book file
+- daraqutni: no sagad Indonesian by_book file
+- bazzar: no sagad Indonesian by_book file
+- suyuti: no sagad Indonesian by_book file
+- ibnkhuzaymah: no sagad Indonesian by_book file
 ## Fawaz ↔ spine match rates
 
 | Edition | Fawaz rows | Matched hn | Matched an-only | Unmatched fawaz | Spine covered | Spine total | Coverage |
@@ -120,5 +132,5 @@ Built: 2026-07-25T21:32:45.991422Z
 
 ## Catalog summary
 
-Total unified editions: 97
+Total unified editions: 120
 

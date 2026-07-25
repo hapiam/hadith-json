@@ -20,4 +20,16 @@
 | shamail | ✓ | | | ✓ | | ✓ | | | | |
 | bulugh | ✓ | | | ✓ | | ✓ | | | | |
 | hisn | ✓ | | | ✓ | | | | | | |
+| nasai-kubra | ✓ | | | ✓ | | | | | | |
+| lulu-marjan | ✓ | | | ✓ | | | | | | |
+| ibnrajab50 | ✓ | | | ✓ | | | | | | |
+| ibnhibban | ✓ | | | ✓ | | | | | | |
+| bayhaqi | ✓ | | | ✓ | | | | | | |
+| tabarani | ✓ | | | ✓ | | | | | | |
+| hakim | ✓ | | | ✓ | | | | | | |
+| ahmad-zuhd | ✓ | | | ✓ | | | | | | |
+| daraqutni | ✓ | | | | | | | | | |
+| bazzar | ✓ | | | ✓ | | | | | | |
+| suyuti | ✓ | | | ✓ | | | | | | |
+| ibnkhuzaymah | ✓ | | | ✓ | | | | | | |
 

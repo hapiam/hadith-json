@@ -1,0 +1,2383 @@
+{
+  "id": 21,
+  "metadata": {
+    "id": 21,
+    "length": 91,
+    "arabic": {
+      "title": "جَامِعُ العُلُومِ وَالحِكَم",
+      "author": "عَبْدُ الرَّحْمَنِ بْنُ أَحْمَدَ بْنِ رَجَبٍ الحَنْبَلِيّ",
+      "introduction": ""
+    },
+    "english": {
+      "title": "Jami al-Ulum wa-al-Hikam",
+      "author": "Abd al-Rahman b. Rajab al-Hanbali",
+      "introduction": ""
+    }
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "bookId": 21,
+      "parentId": null,
+      "names": {
+        "ar": "اربعون النووية",
+        "en": "Forty Ḥadīth of Nawawī"
+      }
+    },
+    {
+      "id": 2,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "الأعمال بالنيات",
+        "en": "Deeds are by Intentions"
+      }
+    },
+    {
+      "id": 3,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "مراتب الدين: الإسلام والإيمان والإحسان",
+        "en": "Levels of Religion: Islam, Faith, and Excellence"
+      }
+    },
+    {
+      "id": 4,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "أركان الإسلام",
+        "en": "Pillars of Islam"
+      }
+    },
+    {
+      "id": 5,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "مراحل خلق الإنسان وتقدير رزقه وأجله وعمله",
+        "en": "Stages of Human Creation and Apportioning of Provision, Lifespan, and Deeds"
+      }
+    },
+    {
+      "id": 6,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "إنكار البدع المذمومة",
+        "en": "Rejection of Blameworthy Innovation"
+      }
+    },
+    {
+      "id": 7,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "الابتعاد عن الشبهات",
+        "en": "Distancing Oneself from Dubious Matters"
+      }
+    },
+    {
+      "id": 8,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "النصيحة عماد الدين",
+        "en": "Sincerity is a Pillar of Religion"
+      }
+    },
+    {
+      "id": 9,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "حرمة دم المسلم وماله",
+        "en": "Sanctity of Blood and Property of the Muslim"
+      }
+    },
+    {
+      "id": 10,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "النهي عن كثرة السؤال والتنطّع",
+        "en": "Prohibition of Asking Too Many Questions and Fastidiousness"
+      }
+    },
+    {
+      "id": 11,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "الحلال سبب لإجابة الدعاء , وأكل الحرام يمنعها",
+        "en": "Permissible Matters Cause Supplications to be Accepted While Prohibited Matters Prevent Them"
+      }
+    },
+    {
+      "id": 12,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "من الورع توقي الشبه",
+        "en": "Staying Away from Doubtful Matters"
+      }
+    },
+    {
+      "id": 13,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "ترك ما لا يعني , والاشتغال بما يفيد",
+        "en": "Leaving What Does Not Concern You for Matters of Benefit"
+      }
+    },
+    {
+      "id": 14,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "من علامات كمال الإيمان حبك الخير للمسلمين",
+        "en": "From the Signs of Perfection of Faith is the Love for Good for the Muslims"
+      }
+    },
+    {
+      "id": 15,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "حرمة دم المسلم ومتى تهدر",
+        "en": "Sanctity of the Blood of a Muslim"
+      }
+    },
+    {
+      "id": 16,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "التكلم بالخير , وإكرام الجار الضيف",
+        "en": "Good Speech, Honoring the Neighbors and Guests"
+      }
+    },
+    {
+      "id": 17,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "النهي عن الغضب",
+        "en": "Prohibition of Showing Anger"
+      }
+    },
+    {
+      "id": 18,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "الأمر بالإحسان , والرفق بالحيوان",
+        "en": "Commanding Excellence and Gentleness with Animals"
+      }
+    },
+    {
+      "id": 19,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "حسن الخلق",
+        "en": "Good Character"
+      }
+    },
+    {
+      "id": 20,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "نصيحة نبوية لترسيخ العقيدة الإسلامية",
+        "en": "Prophetic Advice for the Summary of Islamic Faith"
+      }
+    },
+    {
+      "id": 21,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "الحياء من الإيمان",
+        "en": "Modesty is Part of Faith"
+      }
+    },
+    {
+      "id": 22,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "الاستقامة لبّ الإسلام",
+        "en": "Steadfastness is the Core of Islam"
+      }
+    },
+    {
+      "id": 23,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "دخول الجنة بفعل المأمورات وترك المنهيات",
+        "en": "Entering Jannah by Following Commandments and Abstaining from Prohibitions"
+      }
+    },
+    {
+      "id": 24,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "من جوامع الخير",
+        "en": "Of the Comprehensive Good Deeds"
+      }
+    },
+    {
+      "id": 25,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "آلاء الله تعالى وفضله على عباده",
+        "en": "Blessings of Allah and His Bounty Over His Servants"
+      }
+    },
+    {
+      "id": 26,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "التنافس في الخير وفضل الذكر",
+        "en": "Competing in Good and the Virtue of Dhikr"
+      }
+    },
+    {
+      "id": 27,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "كثرة طرق الخير وتعدد أنواع الصدقات",
+        "en": "Many Ways to Earn Goodness and Several Types of Charity"
+      }
+    },
+    {
+      "id": 28,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "تعريف البر والإثم",
+        "en": "Definition of Righteousness vs. Sin"
+      }
+    },
+    {
+      "id": 29,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "السمع والطاعة والالتزام بالسنة",
+        "en": "Listening, Obedience, and Obligation to Follow the Sunnah"
+      }
+    },
+    {
+      "id": 30,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "طريق النجاة",
+        "en": "The Way to Salvation"
+      }
+    },
+    {
+      "id": 31,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "الالتزام بحدود الشرع",
+        "en": "Obligation Toward the Legal Limits Set by the Sharīʿah (Law)"
+      }
+    },
+    {
+      "id": 32,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "الزهد في الدنيا وثمرته",
+        "en": "Asceticism in This World and its Benefits"
+      }
+    },
+    {
+      "id": 33,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "لا ضرر ولا ضرار",
+        "en": "Prohibition and Avoidance of Harm"
+      }
+    },
+    {
+      "id": 34,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "من أسس القضاء في الإسلام",
+        "en": "What Should be the Basis of Judgements"
+      }
+    },
+    {
+      "id": 35,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "تغيير المنكر ومراتبه",
+        "en": "Degrees of Ridding Evil"
+      }
+    },
+    {
+      "id": 36,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "أخوة الإسلام وحقوق المسلم",
+        "en": "Islamic Fraternity and Rights of a Muslim"
+      }
+    },
+    {
+      "id": 37,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "قضاء حوائج المسلمين , وفضل طلب العلم",
+        "en": "Taking Care of the Needs of Fellow Muslims and the Virtue of Seeking Knowledge"
+      }
+    },
+    {
+      "id": 38,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "عظيم لطف الله تعالى بعباده , وفضله عليهم",
+        "en": "Tremendous Leniency and Bounty of Allah Toward His Servants"
+      }
+    },
+    {
+      "id": 39,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "محبة الله تعالى لأوليائه وبيان طريق الولاية",
+        "en": "Allah's Love Toward His Pious Servants and the Way to Become One"
+      }
+    },
+    {
+      "id": 40,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "رفع الحرج في الإسلام",
+        "en": "Removal of Discomfort in Islam"
+      }
+    },
+    {
+      "id": 41,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "اغتنام الأوقات قبل الوفاة",
+        "en": "Taking Advantage of Time Before Death"
+      }
+    },
+    {
+      "id": 42,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "اتباع النبي ﷺ",
+        "en": "Following the Prophet ﷺ"
+      }
+    },
+    {
+      "id": 43,
+      "bookId": 21,
+      "parentId": 1,
+      "names": {
+        "ar": "سعة مغفرة الله ﷻ",
+        "en": "Enormity of Allah's ﷻ Forgiveness"
+      }
+    },
+    {
+      "id": 44,
+      "bookId": 21,
+      "parentId": null,
+      "names": {
+        "ar": "زيادات ابن رجب الحنبلي",
+        "en": "Additions by Ibn Rajab al-Ḥanbalī"
+      }
+    },
+    {
+      "id": 45,
+      "bookId": 21,
+      "parentId": 44,
+      "names": {
+        "ar": "ألحقوا الفرائض بأهلها",
+        "en": "Give Shares of Inheritance to Those Rightfully Entitled"
+      }
+    },
+    {
+      "id": 46,
+      "bookId": 21,
+      "parentId": 44,
+      "names": {
+        "ar": "الرضاعة تحرم ما تحرم الولادة",
+        "en": "Suckling Makes Unlawful What Blood Relationship Makes Unlawful"
+      }
+    },
+    {
+      "id": 47,
+      "bookId": 21,
+      "parentId": 44,
+      "names": {
+        "ar": "إن الله ورسوله حرم بيع الخمر والميتة والخنزير والأصنام",
+        "en": "Things Made Unlawful in Commerce by Allah and His Messenger"
+      }
+    },
+    {
+      "id": 48,
+      "bookId": 21,
+      "parentId": 44,
+      "names": {
+        "ar": "كل مسكر حرام",
+        "en": "All Intoxicants are Unlawful"
+      }
+    },
+    {
+      "id": 49,
+      "bookId": 21,
+      "parentId": 44,
+      "names": {
+        "ar": "ما ملأ آدمي وعاء شرا من بطن",
+        "en": "The Stomach is the Worst of Things to be Filled-up"
+      }
+    },
+    {
+      "id": 50,
+      "bookId": 21,
+      "parentId": 44,
+      "names": {
+        "ar": "أربع من كن فيه كان منافقا",
+        "en": "Four Traits of a Hypocrite"
+      }
+    },
+    {
+      "id": 51,
+      "bookId": 21,
+      "parentId": 44,
+      "names": {
+        "ar": "لو أنكم توكلون على الله حق توكله لرزقكم كما يرزق الطير",
+        "en": "Having Trust in Allah ﷻ"
+      }
+    },
+    {
+      "id": 52,
+      "bookId": 21,
+      "parentId": 44,
+      "names": {
+        "ar": "لا يزال لسانك رطبا من ذكر الله ﷻ",
+        "en": "Constant Remembrance of Allah ﷻ"
+      }
+    }
+  ],
+  "hadiths": [
+    {
+      "id": 21000001,
+      "idInBook": 1,
+      "chapterId": 2,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ قَالَ؛ حَدَّثَنَا سُفْيَانُ قَالَ؛ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ الْأَنْصَارِيُّ قَالَ؛ أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِيُّ؛ أَنَّهُ سَمِعَ عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ يَقُولُ\nسَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ ؓ عَلَى الْمِنْبَرِ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ *«إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى دُنْيَا يُصِيبُهَا أَوْ إِلَى امْرَأَةٍ يَنْكِحُهَا، فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ».*",
+      "english": {
+        "narrator": "al-Ḥumaydī ʿAbdullāh b. al-Zubayr > Sufyān > Yaḥyá b. Saʿīd al-Anṣārī > Muḥammad b. Ibrāhīm al-Taymī > ʿAlqamah b. Waqqāṣ al-Laythī > ʿUmar b. al-Khaṭṭāb ؓ",
+        "text": "I heard Umar b. al-Kattab ᴿᴬ on the pulpit and he said: I heard the Messenger of Allah ﷺ say, *\"Deeds are ˹judged based˺ upon ˹their˺ intentions, and every person ˹is granted the due˺ for what they intended. So whoever had emigrated for ˹the sake of˺ worldly benefits or for ˹the sake of˺ marrying a woman, then the ˹due˺ of his emigration ˹is earned for˺ or what he emigrated for.\"*"
+      },
+      "grade": [
+        {
+          "name": "Bukhārī",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 11",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/1"
+      }
+    },
+    {
+      "id": 21000002,
+      "idInBook": 2,
+      "chapterId": 2,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ؛ حَدَّثَنَا مَالِكٌ؛ عَنْ يَحْيَى بْنِ سَعِيدٍ؛ عَنْ مُحَمَّدِ بْنِ إِبْرَاهِيمَ؛ عَنْ عَلْقَمَةَ بْنِ وَقَّاصٍ؛ عَنْ عُمَرَ بْنِ الْخَطَّابِ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ *«إِنَّمَا الأَعْمَالُ بِالنِّيَّةِ وَإِنَّمَا لاِمْرِئٍ مَا نَوَى۔ فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ؛ وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَتَزَوَّجُهَا، فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ»*.",
+      "english": {
+        "narrator": "ʿAbdullāh b. Maslamah b. Qaʿnab > Mālik > Yaḥyá b. Saʿīd > Muḥammad b. Ibrāhīm > ʿAlqamah b. Waqqāṣ > ʿUmar b. al-Khaṭṭāb",
+        "text": "the Messenger of Allah ﷺ said, *\"Deeds are ˹judged based˺ by ˹their˺ intention, and a person ˹is granted the due˺ for what they intended. So whoever had emigrated ˹for the sake of˺ Allah and His Messenger then his emigration is ˹earned for the sake of˺ Allah and His Messenger; and whoever had emigrated for ˹the sake of˺ worldly benefits or for ˹the sake of˺ marrying a woman, the ˹due˺ of his emigration ˹is earned˺ for what he emigrated for.\"*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 1-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/1"
+      }
+    },
+    {
+      "id": 21000003,
+      "idInBook": 3,
+      "chapterId": 3,
+      "bookId": 21,
+      "arabic": "حَدَّثَنِي أَبُو خَيْثَمَةَ زُهَيْرُ بْنُ حَرْبٍ حَدَّثَنَا وَكِيعٌ عَنْ كَهْمَسٍ عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ عَنْ يَحْيَى بْنِ يَعْمَرَ ح وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ وَهَذَا حَدِيثُهُ حَدَّثَنَا أَبِي حَدَّثَنَا كَهْمَسٌ عَنِ ابْنِ بُرَيْدَةَ عَنْ يَحْيَى بْنِ يَعْمَرَ قَالَ\nكَانَ أَوَّلَ مَنْ قَالَ فِي الْقَدَرِ بِالْبَصْرَةِ مَعْبَدٌ الْجُهَنِيُّ۔ فَانْطَلَقْتُ أَنَا وَحُمَيْدُ بْنُ عَبْدِ الرَّحْمَنِ الْحِمْيَرِيُّ حَاجَّيْنِ أَوْ مُعْتَمِرَيْنِ، فَقُلْنَا لَوْ لَقِينَا أَحَدًا مِنْ أَصْحَابِ رَسُولِ اللَّهِ ﷺ فَسَأَلْنَاهُ عَمَّا يَقُولُ هَؤُلاَءِ فِي الْقَدَرِ۔ فَوُفِّقَ لَنَا عَبْدُ اللَّهِ بْنُ عُمَرَ بْنِ الْخَطَّابِ دَاخِلاً الْمَسْجِدَ فَاكْتَنَفْتُهُ أَنَا وَصَاحِبِي أَحَدُنَا عَنْ يَمِينِهِ وَالآخَرُ عَنْ شِمَالِهِ۔ فَظَنَنْتُ أَنَّ صَاحِبِي سَيَكِلُ الْكَلاَمَ إِلَىَّ۔ فَقُلْتُ أَبَا عَبْدِ الرَّحْمَنِ: إِنَّهُ قَدْ ظَهَرَ قِبَلَنَا نَاسٌ يَقْرَءُونَ الْقُرْآنَ وَيَتَقَفَّرُونَ الْعِلْمَ وَذَكَرَ مِنْ شَأْنِهِمْ وَأَنَّهُمْ يَزْعُمُونَ أَنْ لاَ قَدَرَ، وَأَنَّ الأَمْرَ أُنُفٌ۔ قَالَ: فَإِذَا لَقِيتَ أُولَئِكَ فَأَخْبِرْهُمْ أَنِّي بَرِيءٌ مِنْهُمْ وَأَنَّهُمْ بُرَآءُ مِنِّي، وَالَّذِي يَحْلِفُ بِهِ عَبْدُ اللَّهِ بْنُ عُمَرَ لَوْ أَنَّ لأَحَدِهِمْ مِثْلَ أُحُدٍ ذَهَبًا فَأَنْفَقَهُ، مَا قَبِلَ اللَّهُ مِنْهُ حَتَّى يُؤْمِنَ بِالْقَدَرِ۔ ثُمَّ قَالَ: حَدَّثَنِي أَبِي عُمَرُ بْنُ الْخَطَّابِ قَالَ: بَيْنَمَا نَحْنُ عِنْدَ رَسُولِ اللَّهِ ﷺ ذَاتَ يَوْمٍ إِذْ طَلَعَ عَلَيْنَا رَجُلٌ شَدِيدُ بَيَاضِ الثِّيَابِ، شَدِيدُ سَوَادِ الشَّعَرِ۔ لاَ يُرَى عَلَيْهِ أَثَرُ السَّفَرِ وَلاَ يَعْرِفُهُ مِنَّا أَحَدٌ۔ حَتَّى جَلَسَ إِلَى النَّبِيِّ ﷺ فَأَسْنَدَ رُكْبَتَيْهِ إِلَى رُكْبَتَيْهِ، وَوَضَعَ كَفَّيْهِ عَلَى فَخِذَيْهِ۔ وَقَالَ: يَا مُحَمَّدُ، أَخْبِرْنِي عَنِ الإِسْلاَمِ۔ فَقَالَ رَسُولُ اللَّهِ ﷺ: *«الإِسْلاَمُ (١) أَنْ تَشْهَدَ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، (٢) وَتُقِيمَ الصَّلاَةَ، (٣) وَتُؤْتِيَ الزَّكَاةَ، (٤) وَتَصُومَ رَمَضَانَ، (٥) وَتَحُجَّ الْبَيْتَ إِنِ اسْتَطَعْتَ إِلَيْهِ سَبِيلاً۔»* قَالَ: صَدَقْتَ۔ قَالَ: فَعَجِبْنَا لَهُ يَسْأَلُهُ وَيُصَدِّقُهُ! قَالَ: فَأَخْبِرْنِي عَنِ الإِيمَانِ۔ قَالَ: *«أَنْ (١) تُؤْمِنَ بِاللَّهِ، (٢) وَمَلاَئِكَتِهِ، (٣) وَكُتُبِهِ، (٤) وَرُسُلِهِ، (٥) وَالْيَوْمِ الآخِرِ، (٦) وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ۔»* قَالَ: صَدَقْتَ۔ قَالَ: فَأَخْبِرْنِي عَنِ الإِحْسَانِ۔ قَالَ: *«أَنْ (١) تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ، (٢) فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ۔»* قَالَ: فَأَخْبِرْنِي عَنِ السَّاعَةِ۔ قَالَ: *«مَا الْمَسْئُولُ عَنْهَا بِأَعْلَمَ مِنَ السَّائِلِ۔»* قَالَ: فَأَخْبِرْنِي عَنْ أَمَارَتِهَا۔ قَالَ: *«أَنْ تَلِدَ الأَمَةُ رَبَّتَهَا، وَأَنْ تَرَى الْحُفَاةَ الْعُرَاةَ الْعَالَةَ رِعَاءَ الشَّاءِ يَتَطَاوَلُونَ فِي الْبُنْيَانِ۔»* قَالَ: ثُمَّ انْطَلَقَ فَلَبِثْتُ مَلِيًّا ثُمَّ قَالَ لِي: *«يَا عُمَرُ أَتَدْرِي مَنِ السَّائِلُ؟»* قُلْتُ: اللَّهُ وَرَسُولُهُ أَعْلَمُ۔ قَالَ: *«فَإِنَّهُ جِبْرِيلُ أَتَاكُمْ يُعَلِّمُكُمْ دِينَكُمْ۔»*",
+      "english": {
+        "narrator": "[Chain 1] Abū Khaythamah Zuhayr b. Ḥarb > Wakīʿ > Kahmas > ʿAbdullāh b. Buraydah > Yaḥyá b. Yaʿmar [Chain 2] ʿUbaydullāh b. Muʿādh al-ʿAnbarī And Hadhā Ḥadīthuh from my father > Kahmas > Ibn Buraydah > Yaḥyá b. Yaʿmar",
+        "text": "the first man who discussed Qadar (Divine Decree) in Baṣrah was Maʿbad al-Juhanī. I along with Ḥumayd b. ʿAbd al-Raḥmān Ḥimyarī set out for pilgrimage or for ʿUmrah and said: Should it so happen that we come into contact with one of the Companions of the Messenger of Allah ﷺ, we shall ask him about what is talked about Qadar. Accidentally we came across ʿAbdullāh b. ʿUmar b. al-Khaṭṭāb, while he was entering the mosque. My companion and I surrounded him. One of us ˹stood˺ on his right and the other stood on his left. I expected that my companion would authorize me to speak. I, therefore, said: Abū ʿAbd al-Raḥmān, there have appeared some people in our land who recite the Quran and pursue knowledge. And then after talking about their affairs, added: They claim that there is no such thing as Qadar and events are not predestined. He said: When you happen to meet such people tell them that I have nothing to do with them and they have nothing to do with me. And verily they are in no way responsible for my ˹belief˺. ʿAbdullāh b ʿUmar swore by Allah: If any one of them had with him gold equal to the bulk of ˹the mountain˺ Uḥud and spent it ˹for the sake of Allah˺, Allah would not accept it unless he affirmed his faith in the Qadar. \n\nHe further said: My father, ʿUmar b. al-Khaṭṭāb, told me: One day we were sitting in the company of the Messenger of Allah ﷺ when there appeared before us a man dressed in pure white clothes. His hair was extraordinarily black. There were no signs of travel on him. None amongst us recognized him. At last, he sat with the Prophet ﷺ. He knelt before him placed his palms on his thighs,\n\nthen said: Muhammad, inform me about Islam. The Messenger of Allah ﷺ said: *“Islam implies that: (1) you testify that there is no god but Allah and that Muhammad is the Messenger of Allah, and (2) you establish prayer, (3) pay Zakat, (4) observe the fast of Ramadan, and (5) perform pilgrimage to the (House) if you are solvent enough ˹to bear the expense of˺ the journey.”* ˹The inquirer˺ said: You have told the truth. ˹ʿUmar˺ said: It amazed us that he would put the question and then he would himself verify the truth. \n\n˹The inquirer˺ said: Inform me about Iman (faith). He replied: *“That (1) you affirm your faith in Allah, (2) in His angels, (3) in His Books, (4) in His Apostles, (5) in the Day of Judgment, and (6) you affirm your faith in the Divine Decree about good and evil.”* ˹The inquirer˺ said: You have told the truth. \n\n˹The inquirer˺ again said: Inform me about Iḥsān (excellence in deeds). He said: *”That (1) you worship Allah as if you are seeing Him, (2) for though you don't see Him, He, verily, sees you.”*\n\n˹The inquirer˺ again said: Inform me about the Hour (of the Last Day). He remarked: *”One who is asked knows no more than the one who is inquiring.”* ˹The inquirer˺ said: Tell me some of its indications. He said: *”That (1) the slave-girl will give birth to her mistress and master, that (2) you will find barefooted, destitute goat herders vying with one another in the construction of magnificent buildings.”*\n\n˹ʿUmar˺ said: Then ˹the inquirer˺ went on his way but I stayed with (the Prophet) for a long while. He then, said to me: *\"ʿUmar, do you know who this inquirer was?\"* I replied: Allah and His Messenger know best. He remarked: *\"He was Jibrīl (Angel Gabriel). He came to you in order to teach you in your religion.\"*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/2"
+      }
+    },
+    {
+      "id": 21000004,
+      "idInBook": 4,
+      "chapterId": 4,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى قَالَ أَخْبَرَنَا حَنْظَلَةُ بْنُ أَبِي سُفْيَانَ عَنْ عِكْرِمَةَ بْنِ خَالِدٍ عَنِ ابْنِ عُمَرَ ؓ قَالَ قَالَ\nرَسُولُ اللَّهِ ﷺ *«بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: (١) شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، (٢) وَإِقَامِ الصَّلاَةِ، (٣) وَإِيتَاءِ الزَّكَاةِ، (٤) وَالْحَجِّ، (٥) وَصَوْمِ رَمَضَانَ»*",
+      "english": {
+        "narrator": "ʿUbaydullāh b. Mūsá > Ḥanẓalah b. Abū Sufyān > ʿIkrimah b. Khālid > Ibn ʿUmar",
+        "text": "the Messenger of Allah ﷺ said, *\"Islam is based on ˹the following˺ five ˹practices˺: (1) to ˹verbally˺ testify that none has the right to be worshipped but Allah and Muḥammad is the Messenger of Allah, (2) to establish the Ṣalāh (five regular ritual prayers), (3) to give the Zakāh (obligatory charity), (4) ˹to perform˺ the Ḥajj (annual pilgrimage to Makkah), and (5) to observe fasts ˹during the month˺ of Ramaḍān.\"*"
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 3",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/3"
+      }
+    },
+    {
+      "id": 21000005,
+      "idInBook": 5,
+      "chapterId": 4,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ حَدَّثَنَا أَبِي حَدَّثَنَا عَاصِمٌ وَهُوَ ابْنُ مُحَمَّدِ بْنِ زَيْدِ بْنِ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِ قَالَ قَالَ عَبْدُ اللَّهِ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَحَجِّ الْبَيْتِ، وَصَوْمِ رَمَضَانَ»*.",
+      "english": {
+        "narrator": "ʿUbaydullāh b. Muʿādh from my father > ʿĀṣim / Ibn Muḥammad b. Zayd b. ʿAbdullāh b. ʿUmar from his father > ʿAbdullāh",
+        "text": "The Messenger of Allah ﷺ said: *“Islam is built upon five: bearing witness that there is no deity except Allah and that Muhammad is His servant and His Messenger; establishing the prayer; giving the zakah; performing pilgrimage to the House; and fasting Ramadan.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 3-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/3"
+      }
+    },
+    {
+      "id": 21000006,
+      "idInBook": 6,
+      "chapterId": 5,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ حَدَّثَنَا أَبُو مُعَاوِيَةَ وَوَكِيعٌ ح وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ الْهَمْدَانِيُّ وَاللَّفْظُ لَهُ حَدَّثَنَا أَبِي وَأَبُو مُعَاوِيَةَ وَوَكِيعٌ قَالُوا حَدَّثَنَا الأَعْمَشُ عَنْ زَيْدِ بْنِ وَهْبٍ عَنْ عَبْدِ اللَّهِ قَالَ\nحَدَّثَنَا رَسُولُ اللَّهِ ﷺ، وَهُوَ الصَّادِقُ الْمَصْدُوقُ: *«إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا، ثُمَّ يَكُونُ فِي ذَلِكَ عَلَقَةً مِثْلَ ذَلِكَ، ثُمَّ يَكُونُ فِي ذَلِكَ مُضْغَةً مِثْلَ ذَلِكَ، ثُمَّ يُرْسَلُ الْمَلَكُ فَيَنْفُخُ فِيهِ الرُّوحَ، وَيُؤْمَرُ بِأَرْبَعِ كَلِمَاتٍ، بِكَتْبِ رِزْقِهِ، وَأَجَلِهِ، وَعَمَلِهِ، وَشَقِيٌّ أَوْ سَعِيدٌ»*. *«فَوَالَّذِي لَا إِلَهَ غَيْرُهُ، إِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ، حَتَّى مَا يَكُونَ بَيْنَهُ وَبَيْنَهَا إِلَّا ذِرَاعٌ، فَيَسْبِقُ عَلَيْهِ الْكِتَابُ، فَيَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ، فَيَدْخُلُهَا. وَإِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ، حَتَّى مَا يَكُونَ بَيْنَهُ وَبَيْنَهَا إِلَّا ذِرَاعٌ، فَيَسْبِقُ عَلَيْهِ الْكِتَابُ، فَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ، فَيَدْخُلُهَا»*.",
+      "english": {
+        "narrator": "[Chain 1] Abū Bakr b. Abū Shaybah > Abū Muʿāwiyah And Wakīʿ [Chain 2] Muḥammad b. ʿAbdullāh b. Numayr al-Hamdānī > Abū Waʾabū Muʿāwiyah Wawakīʿ > al-Aʿmash > Zayd b. Wahb > ʿAbdullāh",
+        "text": "The Messenger of Allah ﷺ told us, and he is the truthful one, believed: *“Indeed, the creation of each one of you is gathered in his mother’s womb for forty days; then he becomes in that a clot for a similar period; then he becomes in that a morsel of flesh for a similar period. Then the angel is sent, and he breathes the spirit into him, and he is commanded with four matters: to write down his provision, his lifespan, his deeds, and whether he will be wretched or blessed.”*\n\n*“By the One besides whom there is no deity, one of you may do the deeds of the people of Paradise until there is only an arm’s length between him and it, then what is written overtakes him and he does the deeds of the people of the Fire and enters it. And one of you may do the deeds of the people of the Fire until there is only an arm’s length between him and it, then what is written overtakes him and he does the deeds of the people of Paradise and enters it.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 4",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/4"
+      }
+    },
+    {
+      "id": 21000007,
+      "idInBook": 7,
+      "chapterId": 5,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا الْحَسَنُ بْنُ الرَّبِيعِ حَدَّثَنَا أَبُو الأَحْوَصِ عَنِ الأَعْمَشِ عَنْ زَيْدِ بْنِ وَهْبٍ قَالَ عَبْدُ اللَّهِ\nحَدَّثَنَا رَسُولُ اللَّهِ ﷺ، وَهْوَ الصَّادِقُ الْمَصْدُوقُ، قَالَ: *«إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا، ثُمَّ يَكُونُ عَلَقَةً مِثْلَ ذَلِكَ، ثُمَّ يَكُونُ مُضْغَةً مِثْلَ ذَلِكَ، ثُمَّ يَبْعَثُ اللَّهُ مَلَكًا فَيُؤْمَرُ بِأَرْبَعِ كَلِمَاتٍ، وَيُقَالُ لَهُ: اكْتُبْ عَمَلَهُ، وَرِزْقَهُ، وَأَجَلَهُ، وَشَقِيٌّ أَوْ سَعِيدٌ، ثُمَّ يُنْفَخُ فِيهِ الرُّوحُ»*. *«فَإِنَّ الرَّجُلَ مِنْكُمْ لَيَعْمَلُ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَ الْجَنَّةِ إِلَّا ذِرَاعٌ، فَيَسْبِقُ عَلَيْهِ كِتَابُهُ، فَيَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ، وَيَعْمَلُ حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَ النَّارِ إِلَّا ذِرَاعٌ، فَيَسْبِقُ عَلَيْهِ الْكِتَابُ، فَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ»*.",
+      "english": {
+        "narrator": "al-Ḥasan b. al-Rabīʿ > Abū al-Aḥwaṣ > al-Aʿmash > Zayd b. Wahb > ʿAbdullāh",
+        "text": "The Messenger of Allah ﷺ, who is truthful and confirmed in truth, told us: *“Indeed, each one of you is brought together in his mother’s womb for forty days; then he becomes a clinging clot for a similar period; then he becomes a morsel of flesh for a similar period. Then Allah sends an angel and he is commanded with four matters, and it is said to him: Write his deeds, his provision, his lifespan, and whether he will be wretched or blessed. Then the soul is breathed into him.”*\n\n*“Indeed, one of you may act until there is only an arm’s length between him and Paradise, then what has been written overtakes him, so he acts with the deeds of the people of the Fire. And one of you may act until there is only an arm’s length between him and the Fire, then what has been written overtakes him, so he acts with the deeds of the people of Paradise.”*"
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 4-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/4"
+      }
+    },
+    {
+      "id": 21000008,
+      "idInBook": 8,
+      "chapterId": 6,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا يَعْقُوبُ حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ عَنْ أَبِيهِ عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ عَنْ عَائِشَةَ ؓ قَالَتْ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«مَنْ أَحْدَثَ فِي أَمْرِنَا هَذَا مَا لَيْسَ فِيهِ فَهُوَ رَدٌّ»*.[^1]",
+      "english": {
+        "narrator": "Yaʿqūb > Ibrāhīm b. Saʿd from his father > al-Qāsim b. Muḥammad > ʿĀʾishah",
+        "text": "the Messenger of Allah ﷺ said, *\"Whoever innovates something in this affair of ours that is not from it, then it is rejected.\"*[^1]"
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 5",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/5"
+      }
+    },
+    {
+      "id": 21000009,
+      "idInBook": 9,
+      "chapterId": 6,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو جَعْفَرٍ مُحَمَّدُ بْنُ الصَّبَّاحِ وَعَبْدُ اللَّهِ بْنُ عَوْنٍ الْهِلاَلِيُّ جَمِيعًا عَنْ إِبْرَاهِيمَ بْنِ سَعْدٍ قَالَ ابْنُ الصَّبَّاحِ حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدِ بْنِ إِبْرَاهِيمَ بْنِ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ حَدَّثَنَا أَبِي عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ عَنْ عَائِشَةَ قَالَتْ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«مَنْ أَحْدَثَ فِي أَمْرِنَا هَذَا مَا لَيْسَ مِنْهُ فَهُوَ رَدٌّ»*۔",
+      "english": {
+        "narrator": "Abū Jaʿfar Muḥammad b. al-Ṣabbāḥ And ʿAbd Allāh b. ʿAwn al-Hilālī > Ibrāhīm b. Saʿd > Ibn al-Ṣabbāḥ > Ibrāhīm b. Saʿd b. Ibrāhīm b. ʿAbd al-Raḥman b. ʿAwf from my father > al-Qāsim b. Muḥammad > ʿĀʾishah",
+        "text": "The Messenger of Allah ﷺ said: *“Whoever introduces into this matter of ours something that is not part of it, it is rejected.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 5-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/5"
+      }
+    },
+    {
+      "id": 21000010,
+      "idInBook": 10,
+      "chapterId": 6,
+      "bookId": 21,
+      "arabic": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ وَعَبْدُ بْنُ حُمَيْدٍ جَمِيعًا عَنْ أَبِي عَامِرٍ قَالَ عَبْدٌ حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ عَمْرٍو حَدَّثَنَا عَبْدُ اللَّهِ بْنُ جَعْفَرٍ الزُّهْرِيُّ عَنْ سَعْدِ بْنِ إِبْرَاهِيمَ قَالَ\nسَأَلْتُ الْقَاسِمَ بْنَ مُحَمَّدٍ عَنْ رَجُلٍ لَهُ ثَلاَثَةُ مَسَاكِنَ فَأَوْصَى بِثُلُثِ كُلِّ مَسْكَنٍ مِنْهَا قَالَ: يُجْمَعُ ذَلِكَ كُلُّهُ فِي مَسْكَنٍ وَاحِدٍ. ثُمَّ قَالَ: أَخْبَرَتْنِي عَائِشَةُ أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: *«مَنْ عَمِلَ عَمَلاً لَيْسَ عَلَيْهِ أَمْرُنَا فَهُوَ رَدٌّ»*.",
+      "english": {
+        "narrator": "Isḥāq b. Ibrāhīm And ʿAbd b. Ḥumayd > Abū ʿĀmir > ʿAbd > ʿAbd al-Malik b. ʿAmr > ʿAbdullāh b. Jaʿfar al-Zuhrī > Saʿd b. Ibrāhīm > Saʾalt al-Qāsim b. Muḥammad",
+        "text": "I asked al-Qasim b. Muhammad about a man who has three dwellings and bequeathed one third of each dwelling. He said: All of that is combined into a single dwelling. Then he said: Aishah told me that the Messenger of Allah ﷺ said: *“Whoever does a deed that is not in accordance with our command, it is rejected.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 5-3",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/5"
+      }
+    },
+    {
+      "id": 21000011,
+      "idInBook": 11,
+      "chapterId": 7,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ الْهَمْدَانِيُّ حَدَّثَنَا أَبِي حَدَّثَنَا زَكَرِيَّاءُ عَنِ الشَّعْبِيِّ عَنِ النُّعْمَانِ بْنِ بَشِيرٍ قَالَ سَمِعْتُهُ يَقُولُ\nسَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ، وَأَهْوَى النُّعْمَانُ بِإِصْبَعَيْهِ إِلَى أُذُنَيْهِ: *«إِنَّ الْحَلَالَ بَيِّنٌ، وَإِنَّ الْحَرَامَ بَيِّنٌ، وَبَيْنَهُمَا مُشْتَبِهَاتٌ لَا يَعْلَمُهُنَّ كَثِيرٌ مِنَ النَّاسِ. فَمَنِ اتَّقَى الشُّبُهَاتِ اسْتَبْرَأَ لِدِينِهِ وَعِرْضِهِ، وَمَنْ وَقَعَ فِي الشُّبُهَاتِ وَقَعَ فِي الْحَرَامِ، كَالرَّاعِي يَرْعَى حَوْلَ الْحِمَى يُوشِكُ أَنْ يَرْتَعَ فِيهِ. أَلَا وَإِنَّ لِكُلِّ مَلِكٍ حِمًى، أَلَا وَإِنَّ حِمَى اللَّهِ مَحَارِمُهُ. أَلَا وَإِنَّ فِي الْجَسَدِ مُضْغَةً، إِذَا صَلَحَتْ صَلَحَ الْجَسَدُ كُلُّهُ، وَإِذَا فَسَدَتْ فَسَدَ الْجَسَدُ كُلُّهُ، أَلَا وَهِيَ الْقَلْبُ»*.",
+      "english": {
+        "narrator": "Muḥammad b. ʿAbdullāh b. Numayr al-Hamdānī from my father > Zakariyyāʾ > al-Shaʿbī > al-Nuʿmān b. Bashīr > Samiʿtuh",
+        "text": "I heard the Messenger of Allah ﷺ say –and al-Nu‘man gestured with his two fingers toward his ears–: *“Indeed, what is lawful is clear, and what is unlawful is clear, and between them are doubtful matters that many people do not know. Whoever avoids the doubtful matters has safeguarded his religion and his honor; and whoever falls into the doubtful matters falls into the unlawful. ˹This is˺ like a shepherd who grazes around a protected sanctuary, and is about to graze within it. Indeed, every king has a sanctuary; indeed, the sanctuary of Allah is His prohibitions. Indeed, in the body there is a morsel of flesh: if it is sound, the whole body is sound; and if it is corrupt, the whole body is corrupt. Indeed, it is the heart.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 6",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/6"
+      }
+    },
+    {
+      "id": 21000012,
+      "idInBook": 12,
+      "chapterId": 7,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو نُعَيْمٍ حَدَّثَنَا زَكَرِيَّاءُ عَنْ عَامِرٍ قَالَ سَمِعْتُ النُّعْمَانَ بْنَ بَشِيرٍ يَقُولُ\nسَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ الْحَلاَلُ بَيِّنٌ وَالْحَرَامُ بَيِّنٌ وَبَيْنَهُمَا مُشَبَّهَاتٌ لاَ يَعْلَمُهَا كَثِيرٌ مِنَ النَّاسِ فَمَنِ اتَّقَى الْمُشَبَّهَاتِ اسْتَبْرَأَ لِدِيِنِهِ وَعِرْضِهِ وَمَنْ وَقَعَ فِي الشُّبُهَاتِ كَرَاعٍ يَرْعَى حَوْلَ الْحِمَى يُوشِكُ أَنْ يُوَاقِعَهُ أَلاَ وَإِنَّ لِكُلِّ مَلِكٍ حِمًى أَلاَ إِنَّ حِمَى اللَّهِ فِي أَرْضِهِ مَحَارِمُهُ أَلاَ وَإِنَّ فِي الْجَسَدِ مُضْغَةً إِذَا صَلَحَتْ صَلَحَ الْجَسَدُ كُلُّهُ وَإِذَا فَسَدَتْ فَسَدَ الْجَسَدُ كُلُّهُ أَلاَ وَهِيَ الْقَلْبُ",
+      "english": {
+        "narrator": "Abū Nuʿaym > Zakariyyāʾ > ʿĀmir > al-Nuʿmān b. Bashīr",
+        "text": "I heard Messenger of Allah ﷺ saying, 'Both legal and illegal things are evident but in between them there are doubtful (suspicious) things and most of the people have no knowledge about them. So whoever saves himself from these suspicious things saves his religion and his honor. And whoever indulges in these suspicious things is like a shepherd who grazes (his animals) near the Hima (private pasture) of someone else and at any moment he is liable to get in it. (O people!) Beware! Every king has a Hima and the Hima of Allah on the earth is His illegal (forbidden) things. Beware! There is a piece of flesh in the body if it becomes good (reformed) the whole body becomes good but if it gets spoilt the whole body gets spoilt and that is the heart."
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 6-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/6"
+      }
+    },
+    {
+      "id": 21000013,
+      "idInBook": 13,
+      "chapterId": 8,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ الْمَكِّيُّ حَدَّثَنَا سُفْيَانُ قَالَ قُلْتُ لِسُهَيْلٍ إِنَّ عَمْرًا حَدَّثَنَا عَنِ الْقَعْقَاعِ عَنْ أَبِيكَ قَالَ وَرَجَوْتُ أَنْ يُسْقِطَ عَنِّي رَجُلاً قَالَ فَقَالَ سَمِعْتُهُ مِنَ الَّذِي سَمِعَهُ مِنْهُ أَبِي كَانَ صَدِيقًا لَهُ بِالشَّامِ ثُمَّ حَدَّثَنَا سُفْيَانُ عَنْ سُهَيْلٍ عَنْ عَطَاءِ بْنِ يَزِيدَ عَنْ تَمِيمٍ الدَّارِيِّ\nأَنَّ النَّبِيَّ ﷺ قَالَ: *«الدِّينُ النَّصِيحَةُ۔»* قُلْنَا: لِمَنْ؟ قَالَ: *«لِلَّهِ، وَلِكِتَابِهِ، وَلِرَسُولِهِ، وَلأَئِمَّةِ الْمُسْلِمِينَ وَعَامَّتِهِمْ۔»*",
+      "english": {
+        "narrator": "Muḥammad b. ʿAbbād al-Makkī > Sufyān > Suhayl > ʿAṭāʾ b. Yazīd > Tamīm al-Dārī",
+        "text": "that the Prophet ﷺ said: *\"The religion is sincerity.\"* We said, \"To whom?\" He said *\"To Allah, to His Book, To His Messenger, and to the leaders of the Muslims and their masses.\"*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 7",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/7"
+      }
+    },
+    {
+      "id": 21000014,
+      "idInBook": 14,
+      "chapterId": 9,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ الْمُسْنَدِيُّ قَالَ حَدَّثَنَا أَبُو رَوْحٍ الْحَرَمِيُّ بْنُ عُمَارَةَ قَالَ حَدَّثَنَا شُعْبَةُ عَنْ وَاقِدِ بْنِ مُحَمَّدٍ قَالَ سَمِعْتُ أَبِي يُحَدِّثُ عَنِ ابْنِ عُمَرَ\nأَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: *«أُمِرْتُ أَنْ أُقَاتِلَ النَّاسَ حَتَّى: يَشْهَدُوا أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَيُقِيمُوا الصَّلاَةَ، وَيُؤْتُوا الزَّكَاةَ۔ فَإِذَا فَعَلُوا ذَلِكَ، عَصَمُوا مِنِّي دِمَاءَهُمْ وَأَمْوَالَهُمْ إِلاَّ بِحَقِّ الإِسْلاَمِ، وَحِسَابُهُمْ عَلَى اللَّهِ»*.",
+      "english": {
+        "narrator": "ʿAbdullāh b. Muḥammad al-Musnadī > Abū Rawḥ al-Ḥaramī b. ʿUmārah > Shuʿbah > Wāqid b. Muḥammad > Abū > Ibn ʿUmar",
+        "text": "Messenger of Allah ﷺ said: *\"I have been ordered to fight against the people until they testify that none has the right to be worshipped but Allah and that Muhammad is Messenger of Allah ﷺ, and offer the prayers perfectly and give the obligatory charity, so if they perform that, then they save their lives and property from me except for Islamic laws and then their reckoning (accounts) will be done by Allah.\"*"
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 8",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/8"
+      }
+    },
+    {
+      "id": 21000015,
+      "idInBook": 15,
+      "chapterId": 9,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو غَسَّانَ الْمِسْمَعِيُّ مَالِكُ بْنُ عَبْدِ الْوَاحِدِ حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ الصَّبَّاحِ عَنْ شُعْبَةَ عَنْ وَاقِدِ بْنِ مُحَمَّدِ بْنِ زَيْدِ بْنِ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِ عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«أُمِرْتُ أَنْ أُقَاتِلَ النَّاسَ حَتَّى يَشْهَدُوا أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَيُقِيمُوا الصَّلاَةَ، وَيُؤْتُوا الزَّكَاةَ، فَإِذَا فَعَلُوا عَصَمُوا مِنِّي دِمَاءَهُمْ وَأَمْوَالَهُمْ إِلاَّ بِحَقِّهَا، وَحِسَابُهُمْ عَلَى اللَّهِ»*",
+      "english": {
+        "narrator": "Abū Ghassān al-Mismaʿī Mālik b. ʿAbd al-Wāḥid > ʿAbd al-Malik b. al-Ṣabbāḥ > Shuʿbah > Wāqid b. Muḥammad b. Zayd b. ʿAbdullāh b. ʿUmar > Muḥammad b. Zayd b. ʿAbdullāh b. ʿUmar > ʿAbdullāh b. ʿUmar",
+        "text": "The Messenger of Allah ﷺ said: *\"I have been commanded to fight the people until they testify that there is no god but Allah and that Muhammad is the Messenger of Allah, establish prayer, and give zakah. If they do that, they have protected from me their blood and their wealth, except by its right, and their reckoning is with Allah.\"*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 8-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/8"
+      }
+    },
+    {
+      "id": 21000016,
+      "idInBook": 16,
+      "chapterId": 10,
+      "bookId": 21,
+      "arabic": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى التُّجِيبِيُّ أَخْبَرَنَا ابْنُ وَهْبٍ أَخْبَرَنِي يُونُسُ عَنِ ابْنِ شِهَابٍ أَخْبَرَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ وَسَعِيدُ بْنُ الْمُسَيَّبِ قَالاَ كَانَ أَبُو هُرَيْرَةَ يُحَدِّثُ\nأَنَّهُ سَمِعَ رَسُولَ اللَّهِ ﷺ يَقُولُ: *«مَا نَهَيْتُكُمْ عَنْهُ فَاجْتَنِبُوهُ، وَمَا أَمَرْتُكُمْ بِهِ فَافْعَلُوا مِنْهُ مَا اسْتَطَعْتُمْ: فَإِنَّمَا أَهْلَكَ الَّذِينَ مِنْ قَبْلِكُمْ كَثْرَةُ مَسَائِلِهِمْ وَاخْتِلاَفُهُمْ عَلَى أَنْبِيَائِهِمْ»*.",
+      "english": {
+        "narrator": "Ḥarmalah b. Yaḥyá al-Tujībī > Ibn Wahb > Yūnus > Ibn Shihāb > Abū Salamah b. ʿAbd al-Raḥman Wasaʿīd b. al-Musayyab > Abū Hurayrah",
+        "text": "that he heard the Messenger of Allah ﷺ say: *“Whatever I have forbidden you, avoid it; and whatever I have commanded you to do, do of it as much as you are able. For indeed, what destroyed those before you was their asking too many questions and their disagreement with their prophets.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 9",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/9"
+      }
+    },
+    {
+      "id": 21000017,
+      "idInBook": 17,
+      "chapterId": 10,
+      "bookId": 21,
+      "arabic": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ أَخْبَرَنَا الرَّبِيعُ بْنُ مُسْلِمٍ الْقُرَشِيُّ عَنْ مُحَمَّدِ بْنِ زِيَادٍ عَنْ أَبِي هُرَيْرَةَ قَالَ\nخَطَبَنَا رَسُولُ اللَّهِ ﷺ فَقَالَ: *«أَيُّهَا النَّاسُ، قَدْ فَرَضَ اللَّهُ عَلَيْكُمُ الْحَجَّ فَحُجُّوا»*. فَقَالَ رَجُلٌ: أَكُلَّ عَامٍ يَا رَسُولَ اللَّهِ؟ فَسَكَتَ حَتَّى قَالَهَا ثَلاَثًا، فَقَالَ رَسُولُ اللَّهِ ﷺ: *«لَوْ قُلْتُ نَعَمْ لَوَجَبَتْ وَلَمَا اسْتَطَعْتُمْ»*. ثُمَّ قَالَ: *«ذَرُونِي مَا تَرَكْتُكُمْ، فَإِنَّمَا هَلَكَ مَنْ كَانَ قَبْلَكُمْ بِكَثْرَةِ سُؤَالِهِمْ وَاخْتِلاَفِهِمْ عَلَى أَنْبِيَائِهِمْ۔ فَإِذَا أَمَرْتُكُمْ بِشَىْءٍ فَأْتُوا مِنْهُ مَا اسْتَطَعْتُمْ، وَإِذَا نَهَيْتُكُمْ عَنْ شَىْءٍ فَدَعُوهُ»*.",
+      "english": {
+        "narrator": "Zuhayr b. Ḥarb > Yazīd b. Hārūn > al-Rabīʿ b. Muslim al-Qurashī > Muḥammad b. Ziyād > Abū Hurayrah",
+        "text": "The Messenger of Allah ﷺ addressed us and said: *“O people, Allah has made Hajj obligatory upon you, so perform Hajj.”* A man said, “Every year, O Messenger of Allah?” He remained silent until he said it three times. Then the Messenger of Allah ﷺ said: *“If I were to say yes, it would become obligatory, and you would not be able to do it.”*\n\nThen he said: *“˹Accept˺ what I have left ˹for˺ you ˹as is˺, for those before you were destroyed by their excessive questioning and their disagreement with their prophets. So when I command you to do something, do of it what you are able, and when I forbid you from something, then avoid it.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 9-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/9"
+      }
+    },
+    {
+      "id": 21000018,
+      "idInBook": 18,
+      "chapterId": 11,
+      "bookId": 21,
+      "arabic": "وَحَدَّثَنِي أَبُو كُرَيْبٍ مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا أَبُو أُسَامَةَ حَدَّثَنَا فُضَيْلُ بْنُ مَرْزُوقٍ حَدَّثَنِي عَدِيُّ بْنُ ثَابِتٍ عَنْ أَبِي حَازِمٍ عَنْ أَبِي هُرَيْرَةَ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«أَيُّهَا النَّاسُ إِنَّ اللَّهَ طَيِّبٌ، لاَ يَقْبَلُ إِلاَّ طَيِّبًا۔ وَإِنَّ اللَّهَ أَمَرَ الْمُؤْمِنِينَ بِمَا أَمَرَ بِهِ الْمُرْسَلِينَ»* فَقَالَ *«{ يَا أَيُّهَا الرُّسُلُ كُلُوا مِنَ الطَّيِّبَاتِ وَاعْمَلُوا صَالِحًا إِنِّي بِمَا تَعْمَلُونَ عَلِيمٌ }»* وَقَالَ *«{ يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ }»* ثُمَّ ذَكَرَ الرَّجُلَ يُطِيلُ السَّفَرَ أَشْعَثَ أَغْبَرَ يَمُدُّ يَدَيْهِ إِلَى السَّمَاءِ يَا رَبِّ يَا رَبِّ *«وَمَطْعَمُهُ حَرَامٌ، وَمَشْرَبُهُ حَرَامٌ، وَمَلْبَسُهُ حَرَامٌ، وَغُذِيَ بِالْحَرَامِ، فَأَنَّى يُسْتَجَابُ لِذَلِكَ؟»*",
+      "english": {
+        "narrator": "Abū Kurayb Muḥammad b. al-ʿAlāʾ > Abū Usāmah > Fuḍayl b. Marzūq > ʿAdī b. Thābit > Abū Ḥāzim > Abū Hurayrah",
+        "text": "The Messenger of Allah ﷺ said: *\"O people, Allah is Good and He therefore, accepts only that which is good. And Allah commanded the believers as He commanded the Messengers by saying: \"O Messengers, eat of the good things, and do good deeds; verily I am aware of what you do\" (xxīi. 51). And He said: \"O those who believe, eat of the good things that We gave you.\"*\n\nHe then made a mention of a person who travels widely, his hair disheveled and covered with dust. He lifts his hand towards the sky: O Lord, O Lord, *\"whereas his diet is unlawful, his drink is unlawful, and his clothes are unlawful and his nourishment is unlawful. How can then his supplication be accepted?\"*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 10",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/10"
+      }
+    },
+    {
+      "id": 21000019,
+      "idInBook": 19,
+      "chapterId": 12,
+      "bookId": 21,
+      "arabic": "أَخْبَرَنَا مُحَمَّدُ بْنُ أَبَانَ، قَالَ: حَدَّثَنَا عَبْدُ اللهِ بْنُ إِدْرِيسَ، قَالَ: حَدَّثَنَا شُعْبَةُ، عَنْ بُرَيْدِ بْنِ أَبِي مَرْيَمَ، عَنْ أَبِي الْحَوْرَاءِ السَّعْدِيِّ، قَالَ\nقُلْتُ لِلْحَسَنِ بْنِ عَلِيٍّ مَا حَفِظْتَ مِنْ رَسُولِ اللهِ ﷺ؟ قَالَ: حَفِظْتُ مِنْهُ «دَعْ مَا يَرِيبُكَ إِلَى مَا لَا يَرِيبُكَ۔»",
+      "english": {
+        "narrator": "Muḥammad b. Abān > ʿAbdullāh b. Idrīs > Shuʿbah > Burayd b. Abū Maryam > Abū al-Ḥawrāʾ al-Saʿdī",
+        "text": "I said to al-Ḥasan b. ʿAlī: What did you memorize from the Messenger of Allah ﷺ? He said: I memorized from him: \"Leave what makes you doubt for what does not make you doubt.\""
+      },
+      "grade": [
+        {
+          "name": "Unknown",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 11",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/11"
+      }
+    },
+    {
+      "id": 21000020,
+      "idInBook": 20,
+      "chapterId": 12,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو مُوسَى الأَنْصَارِيُّ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ حَدَّثَنَا شُعْبَةُ عَنْ بُرَيْدِ بْنِ أَبِي مَرْيَمَ عَنْ أَبِي الْحَوْرَاءِ السَّعْدِيِّ قَالَ\nقُلْتُ لِلْحَسَنِ بْنِ عَلِيٍّ: مَا حَفِظْتَ مِنْ رَسُولِ اللَّهِ ﷺ؟ قَالَ: حَفِظْتُ مِنْ رَسُولِ اللَّهِ ﷺ: *«دَعْ مَا يَرِيبُكَ إِلَى مَا لاَ يَرِيبُكَ، فَإِنَّ الصِّدْقَ طُمَأْنِينَةٌ وَإِنَّ الْكَذِبَ رِيبَةٌ»*.[^1]",
+      "english": {
+        "narrator": "Abū Mūsá al-Anṣārī > ʿAbdullāh b. Idrīs > Shuʿbah > Burayd b. Abū Maryam > Abū al-Ḥawrāʾ al-Saʿdī",
+        "text": "I said to al-Ḥasan b. ʿAlī: What did you memorize from the Messenger of Allah ﷺ? He said: I memorized from him: *\"Leave what makes you doubt for what does not make you doubt. The truth brings tranquility while falsehood sows doubt.\"*[^1]"
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 11-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/11"
+      }
+    },
+    {
+      "id": 21000021,
+      "idInBook": 21,
+      "chapterId": 13,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ حَدَّثَنَا مُحَمَّدُ بْنُ شُعَيْبِ بْنِ شَابُورَ حَدَّثَنَا الأَوْزَاعِيُّ عَنْ قُرَّةَ بْنِ عَبْدِ الرَّحْمَنِ بْنِ حَيْوَئِيلَ عَنِ الزُّهْرِيِّ عَنْ أَبِي سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: «مِنْ حُسْنِ إِسْلاَمِ الْمَرْءِ تَرْكُهُ مَا لاَ يَعْنِيهِ۔»",
+      "english": {
+        "narrator": "Hishām b. ʿAmmār > Muḥammad b. Shuʿayb b. Shābūr > al-Awzāʿī > Qurrah b. ʿAbd al-Raḥman b. Ḥaywaʾīl > al-Zuhrī > Abū Salamah > Abū Hurayrah",
+        "text": "the Messenger of Allah ﷺ said: “Of the perfection of one's Islam, is that he leaves that which does not concern him.”"
+      },
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Good Due to External Factors"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 12",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/12"
+      }
+    },
+    {
+      "id": 21000022,
+      "idInBook": 22,
+      "chapterId": 13,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ حَدَّثَنَا مَالِكُ بْنُ أَنَسٍ عَنِ الزُّهْرِيِّ عَنْ عَلِيِّ بْنِ حُسَيْنٍ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: «إِنَّ مِنْ حُسْنِ إِسْلاَمِ الْمَرْءِ تَرْكَهُ مَا لاَ يَعْنِيهِ۔»[^1]",
+      "english": {
+        "narrator": "Qutaybah > Mālik b. Anas > al-Zuhrī > ʿAlī b. Ḥusayn",
+        "text": "the Messenger of Allah ﷺ said: \"Surely, of the excellence of a person's Islam is that he leaves what does not concern him.\""
+      },
+      "grade": [
+        {
+          "name": "Albānī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 12-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/12"
+      }
+    },
+    {
+      "id": 21000023,
+      "idInBook": 23,
+      "chapterId": 14,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا مُسَدَّدٌ قَالَ حَدَّثَنَا يَحْيَى عَنْ شُعْبَةَ عَنْ قَتَادَةَ عَنْ أَنَسٍ ؓ عَنِ النَّبِيِّ ﷺ وَعَنْ حُسَيْنٍ الْمُعَلِّمِ قَالَ حَدَّثَنَا قَتَادَةُ عَنْ أَنَسٍ\nعَنِ النَّبِيِّ ﷺ قَالَ: *«لا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ»*۔",
+      "english": {
+        "narrator": "[Chain 1] Musaddad > Yaḥyá > Shuʿbah > Qatādah > Anas [Chain 2] Ḥusayn al-Muʿallim > Qatādah > Anas",
+        "text": "The Prophet ﷺ said, *\"None of you will have faith till he loves for his ˹believing˺ brother what he loves for himself.\"*"
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 13",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/13"
+      }
+    },
+    {
+      "id": 21000024,
+      "idInBook": 24,
+      "chapterId": 14,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى وَابْنُ بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ حَدَّثَنَا شُعْبَةُ قَالَ سَمِعْتُ قَتَادَةَ يُحَدِّثُ عَنْ أَنَسِ بْنِ مَالِكٍ\nعَنِ النَّبِيِّ ﷺ قَالَ: «لاَ يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ» أَوْ قَالَ «لِجَارِهِ» «مَا يُحِبُّ لِنَفْسِهِ۔»",
+      "english": {
+        "narrator": "Muḥammad b. al-Muthanná And Ibn Bashhār > Muḥammad b. Jaʿfar > Shuʿbah > Qatādah > Anas b. Mālik",
+        "text": "\"None amongst you believes (truly) until he loves for his brother\" - or he said \"for his neighbour\" - \"that which he loves for himself.\""
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 13-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/13"
+      }
+    },
+    {
+      "id": 21000025,
+      "idInBook": 25,
+      "chapterId": 15,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ حَدَّثَنَا شُعْبَةُ عَنْ سُلَيْمَانَ قَالَ سَمِعْتُ عَبْدَ اللهِ بْنَ مُرَّةَ يُحَدِّثُ عَنْ مَسْرُوقٍ عَنْ عَبْدِ اللهِ بْنِ مَسْعُودٍ\nعَنِ النَّبِيِّ ﷺ أَنَّهُ قَالَ: «لَا يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ إِلَّا بِإِحْدَى ثَلَاثٍ: (١) النَّفْسُ بِالنَّفْسِ، (٢) وَالثَّيِّبُ الزَّانِي، (٣) وَالتَّارِكُ دِينَهُ الْمُفَارِقُ» أَوِ «الْفَارِقُ الْجَمَاعَةَ۔»",
+      "english": {
+        "narrator": "Muḥammad b. Jaʿfar > Shuʿbah > Sulaymān > ʿAbdullāh b. Murrah > Masrūq > ʿAbdullāh b. Masʿūd",
+        "text": "The Prophet ﷺ said, \"The blood of a Muslim is not permissible except in one of three cases: (1) a life for a life, (2) a married person who commits adultery, (3) one who leaves his religion and separates from the community.\""
+      },
+      "isAiTranslated": true,
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Sound Chain"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 14",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/14"
+      }
+    },
+    {
+      "id": 21000026,
+      "idInBook": 26,
+      "chapterId": 15,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ وَأَبُو مُعَاوِيَةَ وَوَكِيعٌ عَنِ الأَعْمَشِ عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ عَنْ مَسْرُوقٍ عَنْ عَبْدِ اللَّهِ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ لاَ يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلاَّ بِإِحْدَى ثَلاَثٍ الثَّيِّبُ الزَّانِ وَالنَّفْسُ بِالنَّفْسِ وَالتَّارِكُ لِدِينِهِ الْمُفَارِقُ لِلْجَمَاعَةِ",
+      "english": {
+        "narrator": "Abū Bakr b. Abū Shaybah > Ḥafṣ b. Ghiyāth And ʾAbū Muʿāwiyah Wawakīʿ > al-Aʿmash > ʿAbdullāh b. Murrah > Masrūq > ʿAbdullāh",
+        "text": "It is not permissible to take the life of a Muslim who bears testimony (to the fact that there is no god but Allah, and I am the Messenger of Allah, but in one of the three cases: the married adulterer, a life for life, and the deserter of his Din (Islam), abandoning the community."
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 14-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/14"
+      }
+    },
+    {
+      "id": 21000027,
+      "idInBook": 27,
+      "chapterId": 15,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ حَدَّثَنَا أَبِي حَدَّثَنَا الأَعْمَشُ عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ عَنْ مَسْرُوقٍ عَنْ عَبْدِ اللَّهِ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: «لاَ يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلاَّ بِإِحْدَى ثَلاَثٍ: (١) النَّفْسُ بِالنَّفْسِ، (٢) وَالثَّيِّبُ الزَّانِي، (٣) وَالْمَارِقُ مِنَ الدِّينِ التَّارِكُ الْجَمَاعَةَ۔»",
+      "english": {
+        "narrator": "ʿUmar b. Ḥafṣ from my father > al-Aʿmash > ʿAbdullāh b. Murrah > Masrūq > ʿAbdullāh",
+        "text": "Messenger of Allah ﷺ said, \"The blood of a Muslim who confesses that none has the right to be worshipped but Allah and that I am His Apostle, cannot be shed except in three cases: In Qisas for murder, a married person who commits illegal sexual intercourse and the one who reverts from Islam (apostate) and leaves the Muslims.\""
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 14-3",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/14"
+      }
+    },
+    {
+      "id": 21000028,
+      "idInBook": 28,
+      "chapterId": 16,
+      "bookId": 21,
+      "arabic": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى أَنْبَأَنَا ابْنُ وَهْبٍ قَالَ أَخْبَرَنِي يُونُسُ عَنِ ابْنِ شِهَابٍ عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ عَنْ أَبِي هُرَيْرَةَ\nعَنْ رَسُولِ اللَّهِ ﷺ قَالَ: «مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ، فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ؛ وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ جَارَهُ؛ وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ۔»",
+      "english": {
+        "narrator": "Ḥarmalah b. Yaḥyá > Ibn Wahb > Yūnus > Ibn Shihāb > Abū Salamah b. ʿAbd al-Raḥman > Abū Hurayrah",
+        "text": "He who believes in Allah and the Last Day should either utter good words or better keep silence; and he who believes in Allah and the Last Day should treat his neighbour with kindness and he who believes in Allah and the Last Day should show hospitality to his guest."
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 15",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/15"
+      }
+    },
+    {
+      "id": 21000029,
+      "idInBook": 29,
+      "chapterId": 16,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ حَدَّثَنَا أَبُو الأَحْوَصِ عَنْ أَبِي حَصِينٍ عَنْ أَبِي صَالِحٍ عَنْ أَبِي هُرَيْرَةَ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: «مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلاَ يُؤْذِ جَارَهُ» «وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ» «وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ۔»",
+      "english": {
+        "narrator": "Qutaybah b. Saʿīd > Abū al-Aḥwaṣ > Abū Ḥaṣīn > Abū Ṣāliḥ > Abū Hurayrah",
+        "text": "Messenger of Allah ﷺ said, \"Anybody who believes in Allah and the Last Day should not harm his neighbor, and anybody who believes in Allah and the Last Day should entertain his guest generously and anybody who believes in Allah and the Last Day should talk what is good or keep quiet. (i.e. abstain from all kinds of evil and dirty talk)."
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 15-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/15"
+      }
+    },
+    {
+      "id": 21000030,
+      "idInBook": 30,
+      "chapterId": 17,
+      "bookId": 21,
+      "arabic": "حَدَّثَنِي يَحْيَى بْنُ يُوسُفَ أَخْبَرَنَا أَبُو بَكْرٍ هُوَ ابْنُ عَيَّاشٍ عَنْ أَبِي حَصِينٍ عَنْ أَبِي صَالِحٍ عَنْ أَبِي هُرَيْرَةَ ؓ\nأَنَّ رَجُلاً قَالَ لِلنَّبِيِّ ﷺ: أَوْصِنِي. قَالَ: *«لاَ تَغْضَبْ»* فَرَدَّدَ مِرَارًا قَالَ: *«لاَ تَغْضَب»*.",
+      "english": {
+        "narrator": "Yaḥyá b. Yūsuf > Abū Bakr > Ibn ʿAyyāsh > Abū Ḥaṣīn > Abū Ṣāliḥ > Abū Hurayrah",
+        "text": "A man said to the Prophet ﷺ, \"Advise me! \"The Prophet ﷺ said, *\"Do not become angry.\"* The man asked again and again, and the Prophet ﷺ said in each case, *\"Do not become angry.\"*"
+      },
+      "grade": [
+        {
+          "name": "Bukhārī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 16",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/16"
+      }
+    },
+    {
+      "id": 21000031,
+      "idInBook": 31,
+      "chapterId": 18,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ عَنْ خَالِدٍ الْحَذَّاءِ عَنْ أَبِي قِلاَبَةَ عَنْ أَبِي الأَشْعَثِ عَنْ شَدَّادِ بْنِ أَوْسٍ قَالَ\nثِنْتَانِ حَفِظْتُهُمَا عَنْ رَسُولِ اللَّهِ ﷺ قَالَ: «إِنَّ اللَّهَ كَتَبَ الإِحْسَانَ عَلَى كُلِّ شَىْءٍ: فَإِذَا قَتَلْتُمْ فَأَحْسِنُوا الْقِتْلَةَ، وَإِذَا ذَبَحْتُمْ فَأَحْسِنُوا الذَّبْحَ، وَلْيُحِدَّ أَحَدُكُمْ شَفْرَتَهُ فَلْيُرِحْ ذَبِيحَتَهُ۔»",
+      "english": {
+        "narrator": "Abū Bakr b. Abū Shaybah &gt; Ismāʿīl Ibn ʿUlayyah &gt; Khālid al-Ḥadhhāʾ &gt; Abū Qilābah &gt; Abū al-Ashʿath &gt; Shaddād b. Aws",
+        "text": "two are the things which I remember Messenger of Allah ﷺ having said: \"Verily Allah has enjoined excellence to everything; so when you kill, kill in a good way and when you slaughter, slaughter in a good way. So every one of you should sharpen his knife, and let the slaughtered animal die comfortably.\""
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 17",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/17"
+      }
+    },
+    {
+      "id": 21000032,
+      "idInBook": 32,
+      "chapterId": 19,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ حَدَّثَنَا سُفْيَانُ عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ عَنْ مَيْمُونِ بْنِ أَبِي شَبِيبٍ عَنْ أَبِي ذَرٍّ قَالَ\nقَالَ لِي رَسُولُ اللَّهِ ﷺ: *«اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا، وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ»*.[^1]",
+      "english": {
+        "narrator": "Muḥammad b. Bashhār > ʿAbd al-Raḥman b. Mahdī > Sufyān > Ḥabīb b. Abū Thābit > Maymūn b. Abū Shabīb > Abū Dhar",
+        "text": "The Messenger of Allah ﷺ said to me: *\"Have taqwá (consciousness and fear) of Allah wherever you are, follow an bad deed with a good one to wipe it out, and treat the people with good conduct.\"*"
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Good"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 18",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/18"
+      }
+    },
+    {
+      "id": 21000033,
+      "idInBook": 33,
+      "chapterId": 20,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدِ بْنِ مُوسَى أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ أَخْبَرَنَا لَيْثُ بْنُ سَعْدٍ وَابْنُ لَهِيعَةَ عَنْ قَيْسِ بْنِ الْحَجَّاجِ قَالَ وَحَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ أَخْبَرَنَا أَبُو الْوَلِيدِ حَدَّثَنَا لَيْثُ بْنُ سَعْدٍ حَدَّثَنِي قَيْسُ بْنُ الْحَجَّاجِ الْمَعْنَى وَاحِدٌ عَنْ حَنَشٍ الصَّنْعَانِيِّ عَنِ ابْنِ عَبَّاسٍ قَالَ\nكُنْتُ خَلْفَ رَسُولِ اللَّهِ ﷺ يَوْمًا فَقَالَ: *«يَا غُلاَمُ، إِنِّي أُعَلِّمُكَ كَلِمَاتٍ: احْفَظِ اللَّهَ يَحْفَظْكَ، احْفَظِ اللَّهَ تَجِدْهُ تُجَاهَكَ، إِذَا سَأَلْتَ فَاسْأَلِ اللَّهَ، وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بِاللَّهِ.»* *«وَاعْلَمْ، أَنَّ الأُمَّةَ لَوِ اجْتَمَعَتْ عَلَى أَنْ يَنْفَعُوكَ بِشَيْءٍ لَمْ يَنْفَعُوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ لَكَ، وَلَوِ اجْتَمَعُوا عَلَى أَنْ يَضُرُّوكَ بِشَيْءٍ لَمْ يَضُرُّوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ عَلَيْكَ: رُفِعَتِ الأَقْلاَمُ وَجَفَّتِ الصُّحُفُ»*.[^1]",
+      "english": {
+        "narrator": "Aḥmad b. Muḥammad b. Mūsá &gt; ʿAbdullāh b. al-Mubārak &gt; Layth b. Saʿd and Ibn Lahīʿah &gt; Qays b. al-Ḥajjāj &gt; ʿAbdullāh b. ʿAbd al-Raḥman &gt; Abū al-Walīd &gt; Layth b. Saʿd &gt; Qays b. al-Ḥajjāj &gt; Ḥanash al-Ṣanʿānī &gt; Ibn ʿAbbās",
+        "text": "I was behind the Messenger of Allah ﷺ one day, and he said: *“O young man, I will teach you some words: Guard Allah and He will guard you. Guard Allah and you will find Him before you. When you ask, ask Allah; and when you seek help, seek help from Allah.\"* \n\n*\"And know that if the people were to gather together to benefit you with something, they would not benefit you except with something that Allah has already written for you; and if they were to gather together to harm you with something, they would not harm you except with something that Allah has already written against you. The pens have been lifted and the pages have dried.”*[^1]"
+      },
+      "grade": [
+        {
+          "name": "Albānī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 19",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/19"
+      }
+    },
+    {
+      "id": 21000034,
+      "idInBook": 34,
+      "chapterId": 20,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا يَحْيَى بْنُ إِسْحَاقَ حَدَّثَنَا ابْنُ لَهِيعَةَ عَنْ نَافِعِ بْنِ يَزِيدَ أَنَّ قَيْسَ بْنَ الْحَجَّاجِ حَدَّثَهُ أَنَّ حَنَشًا حَدَّثَهُ أَنَّ ابْنَ عَبَّاسٍ حَدَّثَهُ قَالَ\nكُنْتُ رِدْفَ النَّبِيِّ ﷺ فَقَالَ لِي: *«يَا غُلامُ إِنِّي مُحَدِّثُكَ حَدِيثًا: (١) احْفَظِ اللهَ يَحْفَظْكَ، (٢) احْفَظِ اللهَ تَجِدْهُ تُجَاهَكَ، (٣) إِذَا سَأَلْتَ فَاسْأَلِ اللهَ، (٤) وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بِاللهِ»*،\n\n*«(٥) فَقَدْ رُفِعَتِ الْأَقْلامُ وَجَفَّتِ الْكُتُبُ۔ فَلَوْ جَاءَتِ الْأُمَّةُ يَنْفَعُونَكَ بِشَيْءٍ لَمْ يَكْتُبْهُ اللهُ ﷻ لَكَ لَمَا اسْتَطَاعَتْ وَلَو أَرَادَتْ أَنْ تَضُرَّكَ بِشَيْءٍ لَمْ يَكْتُبْهُ اللهُ لَكَ مَا اسْتَطَاعَتْ».*",
+      "english": {
+        "narrator": "Yaḥyá b. Isḥāq > Ibn Lahīʿah > Nāfiʿ b. Yazīd > Qays b. al-Ḥajjāj > Ḥanash > Ibn ʿAbbās",
+        "text": "I was following ˹behind˺ the Prophet ﷺ then he said to me, *\"Young boy, ˹bear in mind what˺ I am about to tell you of ˹the following˺ statements: (1) be mindful of Allah and He will protect you, (2) be mindful of Allah and and you will find Him facing you, (3) if you ask, then ask Allah, (4) if you seek help, then seek help from Allah.\"*\n\n*\"(5) The pens ˹of Divine Decree˺ have been lifted and the books ˹of Decree˺ have dried. Thus if everyone comes to benefit you for a thing that has not been decreed for you by Allah they will not be able to, and if they intend to harm you for a thing that has not been decreed for you by Allah, they will not be able to.\"*"
+      },
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 19-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/19"
+      }
+    },
+    {
+      "id": 21000035,
+      "idInBook": 35,
+      "chapterId": 20,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ اللهِ بْنُ يَزِيدَ حَدَّثَنَا كَهْمَسُ بْنُ الْحَسَنِ عَنِ الْحَجَّاجِ بْنِ الْفُرَافِصَةِ قَالَ أَبُو عَبْدِ الرَّحْمَنِ وَأَنَا قَدْ رَأْيَتُهُ فِي طَرِيقٍ فَسَلَّمَ عَلَيَّ وَأَنَا صَبِيٌّ، رَفَعَهُ إِلَى ابْنِ عَبَّاسٍ أَوْ أَسْنَدَهُ إِلَى ابْنِ عَبَّاسٍ قَالَ؛ وَحَدَّثَنَا هَمَّامُ بْنُ يَحْيَى أَبُو عَبْدِ اللهِ صَاحِبُ الْبَصْرِيِّ أَسْنَدَهُ إِلَى ابْنِ عَبَّاسٍ؛ وَحَدَّثَنِي عَبْدُ اللهِ بْنُ لَهِيعَةَ وَنَافِعُ بْنُ يَزِيدَ الْمِصْرِيَّانِ؛ عَنْ قَيْسِ بْنِ الْحَجَّاجِ؛ عَنْ حَنَشٍ الصَّنْعَانِيِّ؛ عَنِ ابْنِ عَبَّاسٍ وَلَا أَحْفَظُ حَدِيثَ بَعْضِهِمْ مِنْ بَعْضٍ أَنَّهُ قَالَ\nكُنْتُ رَدِيفَ رَسُولِ اللهِ ﷺ فَقَالَ: *«يَا غُلامُ»* أَوْ *«يَا غُلَيِّمُ، أَلا أُعَلِّمُكَ كَلِمَاتٍ يَنْفَعُكَ اللهُ بِهِنَّ؟»* فَقُلْتُ: بَلَى۔ فَقَالَ: *«(١) احْفَظِ اللهَ يَحْفَظْكَ، (٢) احْفَظِ اللهَ تَجِدْهُ أَمَامَكَ، (٣) تَعَرَّفْ إِلَيْهِ فِي الرَّخَاءِ يَعْرِفْكَ فِي الشِّدَّةِ، (٤) وَإِذَا سَأَلْتَ فَاسْأَلِ اللهَ، (٥) وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بِاللهِ»*. *«(٦) قَدْ جَفَّ الْقَلَمُ بِمَا هُوَ كَائِنٌ۔ فَلَوْ أَنَّ الْخَلْقَ كُلَّهُمْ جَمِيعًا أَرَادُوا أَنْ يَنْفَعُوكَ بِشَيْءٍ لَمْ يَكْتُبْهُ اللهُ عَلَيْكَ لَمْ يَقْدِرُوا عَلَيْهِ، وَإِنْ أَرَادُوا أَنْ يَضُرُّوكَ بِشَيْءٍ لَمْ يَكْتُبْهُ اللهُ عَلَيْكَ لَمْ يَقْدِرُوا عَلَيْهِ. (٧) وَاعْلَمْ أنَّ فِي الصَّبْرِ عَلَى مَا تَكْرَهُ خَيْرًا كَثِيرًا، وَأَنَّ النَّصْرَ مَعَ الصَّبْرِ، وَأَنَّ الْفَرَجَ مَعَ الْكَرْبِ، وَأَنَّ مَعَ الْعُسْرِ يُسْرًا»*.",
+      "english": {
+        "narrator": "[Chain 1] ʿAbdullāh b. Yazīd &gt; Kahmas b. al-Ḥasan &gt; al-Ḥajjāj b. al-Furāfiṣah &gt; Abū ʿAbd al-Raḥmān &gt; Ibn ʿAbbās [Chain 2] Hammām b. Yaḥyá Abū ʿAbdullāh &gt; Ibn ʿAbbās [Chain 3] ʿAbdullah b. Lahīʿah and Nāfiʿ b. Yazīd &gt; Qays b. al-Ḥajjāj &gt; Ḥanash al-Sanʿānī &gt; Ibn ʿAbbās",
+        "text": "I was riding behind the Messenger of Allah ﷺ when he said, *“O boy,”* or *“O little boy, shall I not teach you some words by which Allah will benefit you?”* I said, “Yes.” He said: *“(1) Guard Allah, and He will guard you. (2) Guard Allah, and you will find Him before you. (3) Know Him in times of ease and He will know you in times of hardship. (4) If you ask, then ask Allah. (5) If you seek help, then seek help from Allah.\"*\n\n*\"(6) The pen has dried with what is to be. If all creation, altogether, wanted to benefit you with something that Allah has not written for you, they would not be able to do it; and if they wanted to harm you with something that Allah has not written against you, they would not be able to do it. (7) And know that in patience over what you dislike there is much good; that victory comes with patience; that relief comes with distress; and that with hardship comes ease.”*"
+      },
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 19-3",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/19"
+      }
+    },
+    {
+      "id": 21000036,
+      "idInBook": 36,
+      "chapterId": 21,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ حَدَّثَنَا زُهَيْرٌ حَدَّثَنَا مَنْصُورٌ عَنْ رِبْعِيِّ بْنِ حِرَاشٍ حَدَّثَنَا أَبُو مَسْعُودٍ قَالَ\nقَالَ النَّبِيُّ ﷺ: *«إِنَّ مِمَّا أَدْرَكَ النَّاسُ مِنْ كَلاَمِ النُّبُوَّةِ الأُولَى: (إِذَا لَمْ تَسْتَحِي فَاصْنَعْ مَا شِئْتَ)»*.",
+      "english": {
+        "narrator": "Aḥmad b. Yūnus > Zuhayr > Manṣūr > Ribʿī b. Ḥirāsh > Abū Masʿūd",
+        "text": "The Prophet ﷺ said, *\"One of the sayings of the early Prophets which the people have got is: 'If you don't feel shy ˹from committing indiscretions˺, then do whatever you like.'\"*"
+      },
+      "grade": [
+        {
+          "name": "Bukhārī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 20",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/20"
+      }
+    },
+    {
+      "id": 21000037,
+      "idInBook": 37,
+      "chapterId": 22,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا ابْنُ نُمَيْرٍ ح وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ جَمِيعًا عَنْ جَرِيرٍ ح وَحَدَّثَنَا أَبُو كُرَيْبٍ حَدَّثَنَا أَبُو أُسَامَةَ كُلُّهُمْ عَنْ هِشَامِ بْنِ عُرْوَةَ عَنْ أَبِيهِ عَنْ سُفْيَانَ بْنِ عَبْدِ اللَّهِ الثَّقَفِيِّ قَالَ\nقُلْتُ: يَا رَسُولَ اللَّهِ قُلْ لِي فِي الإِسْلاَمِ قَوْلاً لاَ أَسْأَلُ عَنْهُ أَحَدًا بَعْدَكَ؟ – وَفِي حَدِيثِ أَبِي أُسَامَةَ: غَيْرَكَ – قَالَ: *«قُلْ آمَنْتُ بِاللَّهِ فَاسْتَقِمْ»*.",
+      "english": {
+        "narrator": "[Chain 1] Abū Bakr b. Abū Shaybah And ʾAbū Kurayb > Ibn Numayr [Chain 2] Qutaybah b. Saʿīd And ʾIsḥāq b. Ibrāhīm > Jarīr [Chain 3] Abū Kurayb > Abū Usāmah > Hishām b. ʿUrwah from his father",
+        "text": "I said: O Messenger of Allah, tell me about Islam a thing something after which I would not need to ask anyone else after you – and in the hadith of Abū Usāmah the ˹words˺ are: other than you – He said: *\"Say: I believe in Allah, and then remain steadfast upon it.\"*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 21",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/21"
+      }
+    },
+    {
+      "id": 21000038,
+      "idInBook": 38,
+      "chapterId": 23,
+      "bookId": 21,
+      "arabic": "وَحَدَّثَنِي سَلَمَةُ بْنُ شَبِيبٍ حَدَّثَنَا الْحَسَنُ بْنُ أَعْيَنَ حَدَّثَنَا مَعْقِلٌ وَهُوَ ابْنُ عُبَيْدِ اللَّهِ عَنْ أَبِي الزُّبَيْرِ عَنْ جَابِرٍ\nأَنَّ رَجُلاً سَأَلَ رَسُولَ اللَّهِ ﷺ فَقَالَ: أَرَأَيْتَ إِذَا صَلَّيْتُ الصَّلَوَاتِ الْمَكْتُوبَاتِ، وَصُمْتُ رَمَضَانَ، وَأَحْلَلْتُ الْحَلاَلَ، وَحَرَّمْتُ الْحَرَامَ، وَلَمْ أَزِدْ عَلَى ذَلِكَ شَيْئًا أَأَدْخُلُ الْجَنَّةَ؟ قَالَ: «نَعَمْ۔» قَالَ: وَاللَّهِ لاَ أَزِيدُ عَلَى ذَلِكَ شَيْئًا۔",
+      "english": {
+        "narrator": "Salamah b. Shabīb > al-Ḥasan b. Aʿyan > Maʿqil / Ibn ʿUbaydullāh > Abū al-Zubayr > Jābir",
+        "text": "Shall I enter Paradise in case I say the obligatory prayers, observe the (fasts) of Ramadan and treat that as lawful which has been made permissible (by the Shari'ah) and deny myself that what is forbidden, and make no addition to it? He (the Holy Prophet) replied in the affirmative. He (the inquirer) said: By Allah, I would add nothing to it."
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 22",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/22"
+      }
+    },
+    {
+      "id": 21000039,
+      "idInBook": 39,
+      "chapterId": 24,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ حَدَّثَنَا حَبَّانُ بْنُ هِلاَلٍ حَدَّثَنَا أَبَانٌ حَدَّثَنَا يَحْيَى أَنَّ زَيْدًا حَدَّثَهُ أَنَّ أَبَا سَلاَّمٍ حَدَّثَهُ عَنْ أَبِي مَالِكٍ الأَشْعَرِيِّ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«(١) الطُّهُورُ شَطْرُ الإِيمَانِ، (٢) وَالْحَمْدُ لِلَّهِ تَمْلأُ الْمِيزَانَ، (٣) وَسُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ تَمْلآنِ»* أَوْ *«تَمْلأُ مَا بَيْنَ السَّمَوَاتِ وَالأَرْضِ، (٤) وَالصَّلاَةُ نُورٌ، (٥) وَالصَّدَقَةُ بُرْهَانٌ، (٦) وَالصَّبْرُ ضِيَاءٌ، (٧) وَالْقُرْآنُ حُجَّةٌ لَكَ أَوْ عَلَيْكَ۔»* *«كُلُّ النَّاسِ يَغْدُو فَبَائِعٌ نَفْسَهُ فَمُعْتِقُهَا أَوْ مُوبِقُهَا»*۔",
+      "english": {
+        "narrator": "Isḥāq b. Manṣūr > Ḥabbān b. Hilāl > Abān > Yaḥyá > Zayd > Abū Salāam > Abū Mālik al-Ashʿarī",
+        "text": "The Messenger of Allah ﷺ said: *“(1) Purification is half of faith; (2) al-ḥamdu lillāh (All praise is due to Allah) fills the scale; (3) subḥān Allāh  (Glory be to Allah) and al-ḥamdu lillāh fill what is between the skies and the earth; (4) prayer is nur (light); (5) charity is a proof; (6) patience is illumination; (7) and the Quran is an argument for you or against you.”*\n\n*“Every person goes out in the morning; one sells his own self and thereby either frees it or ruins it.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 23",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/23"
+      }
+    },
+    {
+      "id": 21000040,
+      "idInBook": 40,
+      "chapterId": 25,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ بْنِ بَهْرَامَ الدَّارِمِيُّ حَدَّثَنَا مَرْوَانُ يَعْنِي ابْنَ مُحَمَّدٍ الدِّمَشْقِيَّ حَدَّثَنَا سَعِيدُ بْنُ عَبْدِ الْعَزِيزِ عَنْ رَبِيعَةَ بْنِ يَزِيدَ عَنْ أَبِي إِدْرِيسَ الْخَوْلاَنِيِّ عَنْ أَبِي ذَرٍّ\nعَنِ النَّبِيِّ ﷺ، فِيمَا رَوَى عَنِ اللَّهِ تَبَارَكَ وَتَعَالَى، أَنَّهُ قَالَ: *«(١) يَا عِبَادِي، إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي، وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا، فَلَا تَظَالَمُوا. (٢) يَا عِبَادِي، كُلُّكُمْ ضَالٌّ إِلَّا مَنْ هَدَيْتُهُ، فَاسْتَهْدُونِي أَهْدِكُمْ. (٣) يَا عِبَادِي، كُلُّكُمْ جَائِعٌ إِلَّا مَنْ أَطْعَمْتُهُ، فَاسْتَطْعِمُونِي أُطْعِمْكُمْ. (٤) يَا عِبَادِي، كُلُّكُمْ عَارٍ إِلَّا مَنْ كَسَوْتُهُ، فَاسْتَكْسُونِي أَكْسُكُمْ»*. *«(٥) يَا عِبَادِي، إِنَّكُمْ تُخْطِئُونَ بِاللَّيْلِ وَالنَّهَارِ، وَأَنَا أَغْفِرُ الذُّنُوبَ جَمِيعًا، فَاسْتَغْفِرُونِي أَغْفِرْ لَكُمْ. (٦) يَا عِبَادِي، إِنَّكُمْ لَنْ تَبْلُغُوا ضَرِّي فَتَضُرُّونِي، وَلَنْ تَبْلُغُوا نَفْعِي فَتَنْفَعُونِي»*. *«(٧) يَا عِبَادِي، لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ، وَإِنْسَكُمْ وَجِنَّكُمْ، كَانُوا عَلَى أَتْقَى قَلْبِ رَجُلٍ وَاحِدٍ مِنْكُمْ، مَا زَادَ ذَلِكَ فِي مُلْكِي شَيْئًا. (٨) يَا عِبَادِي، لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ، وَإِنْسَكُمْ وَجِنَّكُمْ، كَانُوا عَلَى أَفْجَرِ قَلْبِ رَجُلٍ وَاحِدٍ، مَا نَقَصَ ذَلِكَ مِنْ مُلْكِي شَيْئًا»*. *«(٩) يَا عِبَادِي، لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ، وَإِنْسَكُمْ وَجِنَّكُمْ، قَامُوا فِي صَعِيدٍ وَاحِدٍ، فَسَأَلُونِي، فَأَعْطَيْتُ كُلَّ إِنْسَانٍ مَسْأَلَتَهُ، مَا نَقَصَ ذَلِكَ مِمَّا عِنْدِي إِلَّا كَمَا يَنْقُصُ الْمِخْيَطُ إِذَا أُدْخِلَ الْبَحْرَ»*. *«(١٠) يَا عِبَادِي، إِنَّمَا هِيَ أَعْمَالُكُمْ، أُحْصِيهَا لَكُمْ، ثُمَّ أُوَفِّيكُمْ إِيَّاهَا. فَمَنْ وَجَدَ خَيْرًا فَلْيَحْمَدِ اللَّهَ، وَمَنْ وَجَدَ غَيْرَ ذَلِكَ فَلَا يَلُومَنَّ إِلَّا نَفْسَهُ»*.[^1]",
+      "english": {
+        "narrator": "ʿAbdullāh b. ʿAbd al-Raḥman b. Bahrām al-Dārimī > Marwān / Ibn Muḥammad al-Dimashqī > Saʿīd b. ʿAbd al-ʿAzīz > Rabīʿah b. Yazīd > Abū Idrīs al-Khawlānī > Abū Dhar",
+        "text": "from the Prophet ﷺ, in what he relates from Allah ﷻ that He said:\n\n*“(1) O My servants, I have forbidden wrongdoing/oppression for Myself, and I have made it forbidden among you, so do not wrong one another. (2) O My servants, all of you are astray except those whom I guide, so seek guidance from Me and I will guide you. (3) O My servants, all of you are hungry except those whom I feed, so ask Me for food and I will feed you. (4) O My servants, all of you are unclothed except those whom I clothe, so ask Me for clothing and I will clothe you.”*\n\n*“(5) O My servants, you commit sins by night and by day, and I forgive all sins, so seek My forgiveness and I will forgive you. (6) O My servants, you will never reach harming Me so as to harm Me, and you will never reach benefiting Me so as to benefit Me.”*\n\n*“(7) O My servants, if the first of you and the last of you, your humans and your jinn, were all upon the most God-fearing heart of any one man among you, that would not increase My dominion in anything. (8) O My servants, if the first of you and the last of you, your humans and your jinn, were all upon the most wicked heart of any one man, that would not decrease My dominion in anything.”*\n\n*“(9) O My servants, if the first of you and the last of you, your humans and your jinn, were all to stand in one open plain and ask Me, and I were to give every person what he asked, that would not diminish what is with Me except as a needle diminishes ˹the sea˺ when it is dipped into the ocean.”*\n\n*“(10) O My servants, these are only your deeds: I record them for you, then I will repay you for them in full. So whoever finds good, let him praise Allah; and whoever finds other than that, let him blame none but himself.”*[^1]"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 24",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/24"
+      }
+    },
+    {
+      "id": 21000041,
+      "idInBook": 41,
+      "chapterId": 26,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدِ بْنِ أَسْمَاءَ الضُّبَعِيُّ حَدَّثَنَا مَهْدِيُّ بْنُ مَيْمُونٍ حَدَّثَنَا وَاصِلٌ مَوْلَى أَبِي عُيَيْنَةَ عَنْ يَحْيَى بْنِ عُقَيْلٍ عَنْ يَحْيَى بْنِ يَعْمَرَ عَنْ أَبِي الأَسْوَدِ الدِّيلِيِّ عَنْ أَبِي ذَرٍّ\nأَنَّ نَاسًا مِنْ أَصْحَابِ النَّبِيِّ ﷺ قَالُوا لِلنَّبِيِّ ﷺ: يَا رَسُولَ اللَّهِ، ذَهَبَ أَهْلُ الدُّثُورِ بِالأُجُورِ: يُصَلُّونَ كَمَا نُصَلِّي, وَيَصُومُونَ كَمَا نَصُومُ, وَيَتَصَدَّقُونَ بِفُضُولِ أَمْوَالِهِمْ. قَالَ: *«أَوَلَيْسَ قَدْ جَعَلَ اللَّهُ لَكُمْ مَا تَصَّدَّقُونَ؟ إِنَّ بِكُلِّ تَسْبِيحَةٍ صَدَقَةً، وَكُلِّ تَكْبِيرَةٍ صَدَقَةٌ، وَكُلِّ تَحْمِيدَةٍ صَدَقَةٌ، وَكُلِّ تَهْلِيلَةٍ صَدَقَةٌ، وَأَمْرٌ بِالْمَعْرُوفِ صَدَقَةٌ، وَنَهْىٌ عَنْ مُنْكَرٍ صَدَقَةٌ، وَفِي بُضْعِ أَحَدِكُمْ صَدَقَةٌ»* قَالُوا: يَا رَسُولَ اللَّهِ أَيَأْتِي أَحَدُنَا شَهْوَتَهُ وَيَكُونُ لَهُ فِيهَا أَجْرٌ؟ قَالَ: *«أَرَأَيْتُمْ لَوْ وَضَعَهَا فِي حَرَامٍ أَكَانَ عَلَيْهِ فِيهَا وِزْرٌ فَكَذَلِكَ إِذَا وَضَعَهَا فِي الْحَلاَلِ كَانَ لَهُ أَجْرٌ»*",
+      "english": {
+        "narrator": "ʿAbdullāh b. Muḥammad b. Asmāʾ al-Ḍubaʿī > Mahdī b. Maymūn > Wāṣil a freed slave of Abū ʿUyaynah > Yaḥyá b. ʿUqayl > Yaḥyá b. Yaʿmar > Abū al-Aswad al-Dīlī > Abū Dhar",
+        "text": "Some people among the Companions of the Prophet ﷺ said to the Prophet ﷺ: “O Messenger of Allah, the people of wealth have taken all the rewards: they pray as we pray, they fast as we fast, and they give charity from their surplus wealth.”\n\n He said: *“Has Allah not made for you something by which you can give charity? Indeed, every glorification (saying subḥān Allāh) is a charity, every magnification (saying Allāhu akbar) is a charity, every praise (saying al-ḥamdu lillāh) is a charity, every declaration of His oneness (saying lā ilāha illā Allāh) is a charity, enjoining what is right is a charity, forbidding what is wrong is a charity, and in the sexual act of one of you there is a charity.”*\n\nThey said: “O Messenger of Allah, does one of us fulfill his desire and still have a reward in it?” He said: *“Do you not see that if he were to place it in what is unlawful, he would bear a sin for it? Likewise, if he places it in what is lawful, he will have a reward.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 25",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/25"
+      }
+    },
+    {
+      "id": 21000042,
+      "idInBook": 42,
+      "chapterId": 27,
+      "bookId": 21,
+      "arabic": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ حَدَّثَنَا عَبْدُ الرَّزَّاقِ بْنُ هَمَّامٍ حَدَّثَنَا مَعْمَرٌ عَنْ هَمَّامِ بْنِ مُنَبِّهٍ قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ\nعَنْ مُحَمَّدٍ رَسُولِ اللَّهِ ﷺ فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ ﷺ كُلُّ سُلاَمَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ۔» قَالَ: «(١) تَعْدِلُ بَيْنَ الاِثْنَيْنِ صَدَقَةٌ، (٢) وَتُعِينُ الرَّجُلَ فِي دَابَّتِهِ فَتَحْمِلُهُ عَلَيْهَا أَوْ تَرْفَعُ لَهُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ۔» قَالَ: «(٣) وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ، (٤) وَكُلُّ خَطْوَةٍ تَمْشِيهَا إِلَى الصَّلاَةِ صَدَقَةٌ، (٥) وَتُمِيطُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ۔»",
+      "english": {
+        "narrator": "Muḥammad b. Rāfiʿ > ʿAbd al-Razzāq b. Hammām > Maʿmar > Hammām b. Munabbih > Abū Hurayrah",
+        "text": "from Muḥammad, the Messenger of Allah ﷺ and he mentioned aḥādith, and among them, the Messenger of Allah ﷺ said, \"Ṣadaqah (charity) is due on every joint of a person every day the sun rises.\" He said, \"(1) Administering justice between two men is also ṣadaqah, (2) assisting a man in riding upon his beast or helping him load luggage upon it is a ṣadaqah.\" He ˹also˺ said, \"(3) A good word is ṣadaqah; (4) every step that you take towards prayer is ṣadaqah, and (5) removing harmful things from the pathway is ṣadaqah.\""
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 26",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/26"
+      }
+    },
+    {
+      "id": 21000043,
+      "idInBook": 43,
+      "chapterId": 27,
+      "bookId": 21,
+      "arabic": "حَدَّثَنِي إِسْحَاقُ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ أَخْبَرَنَا مَعْمَرٌ عَنْ هَمَّامٍ عَنْ أَبِي هُرَيْرَةَ ؓ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«كُلُّ سُلاَمَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ: (١) يَعْدِلُ بَيْنَ الاِثْنَيْنِ صَدَقَةٌ، (٢) وَيُعِينُ الرَّجُلَ عَلَى دَابَّتِهِ فَيَحْمِلُ عَلَيْهَا أَوْ يَرْفَعُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، (٣) وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ، (٤) وَكُلُّ خَطْوَةٍ يَخْطُوهَا إِلَى الصَّلاَةِ صَدَقَةٌ، (٥) وَيُمِيطُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ»*",
+      "english": {
+        "narrator": "Isḥāq > ʿAbd al-Razzāq > Maʿmar > Hammām > Abū Hurayrah",
+        "text": "the Messenger of Allah ﷺ said: *“Every joint of a person must give charity each day the sun rises: (1) acting justly between two people is charity; (2) helping a man with his riding animal—lifting him onto it or raising his belongings onto it—is charity; (3) a kind word is charity; (4) every step he takes toward prayer is charity; and (5) removing something harmful from the road is charity.”*"
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 26-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/26"
+      }
+    },
+    {
+      "id": 21000044,
+      "idInBook": 44,
+      "chapterId": 28,
+      "bookId": 21,
+      "arabic": "حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمِ بْنِ مَيْمُونٍ حَدَّثَنَا ابْنُ مَهْدِيٍّ عَنْ مُعَاوِيَةَ بْنِ صَالِحٍ عَنْ عَبْدِ الرَّحْمَنِ بْنِ جُبَيْرِ بْنِ نُفَيْرٍ عَنْ أَبِيهِ عَنِ النَّوَّاسِ بْنِ سَمْعَانَ الأَنْصَارِيِّ قَالَ\nسَأَلْتُ رَسُولَ اللَّهِ ﷺ عَنِ الْبِرِّ وَالإِثْمِ فَقَالَ الْبِرُّ حُسْنُ الْخُلُقِ وَالإِثْمُ مَا حَاكَ فِي صَدْرِكَ وَكَرِهْتَ أَنْ يَطَّلِعَ عَلَيْهِ النَّاسُ",
+      "english": {
+        "narrator": "Muḥammad b. Ḥātim b. Maymūn > Ibn Mahdī > Muʿāwiyah b. Ṣāliḥ > ʿAbd al-Raḥman b. Jubayr b. Nufayr from his father > al-Nawwās b. Samʿān al-Anṣārī",
+        "text": "I asked Messenger of Allah ﷺ about virtue and vice. He said: Virtue is a kind disposition and vice is what rankles in your heart and that you disapprove that people should come to know of it."
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 27",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/27"
+      }
+    },
+    {
+      "id": 21000045,
+      "idInBook": 45,
+      "chapterId": 28,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ عَنْ الزُّبَيْرِ أَبِي عَبْدِ السَّلَامِ عَنْ أَيُّوبَ بْنِ عَبْدِ اللهِ بْنِ مِكْرَزٍ عَنْ وَابِصَةَ بْنِ مَعْبَدٍ قَالَ\nأَتَيْتُ رَسُولَ اللهِ ﷺ وَأَنَا أُرِيدُ أَنْ لَا أَدَعَ شَيْئًا مِنَ الْبِرِّ وَالْإِثْمِ إِلَّا سَأَلْتُهُ عَنْهُ وَإِذَا عِنْدَهُ جَمْعٌ فَذَهَبْتُ أَتَخَطَّى النَّاسَ فَقَالُوا إِلَيْكَ يَا وَابِصَةُ عَنْ رَسُولِ اللهِ ﷺإِلَيْكَ يَا وَابِصَةُ فَقُلْتُ أَنَا وَابِصَةُ دَعُونِي أَدْنُو مِنْهُ فَإِنَّهُ مِنْ أَحَبِّ النَّاسِ إِلَيَّ أَنْ أَدْنُوَ مِنْهُ فَقَالَ لِي ادْنُ يَا وَابِصَةُ ادْنُ يَا وَابِصَةُ فَدَنَوْتُ مِنْهُ حَتَّى مَسَّتْ رُكْبَتِي رُكْبَتَهُ فَقَالَ يَا وَابِصَةُ أُخْبِرُكَ مَا جِئْتَ تَسْأَلُنِي عَنْهُ أَوْ تَسْأَلُنِي؟ فَقُلْتُ يَا رَسُولَ اللهِ فَأَخْبِرْنِي قَالَ جِئْتَ تَسْأَلُنِي عَنِ الْبِرِّ وَالْإِثْمِ؟ قُلْتُ نَعَمْ فَجَمَعَ أَصَابِعَهُ الثَّلَاثَ فَجَعَلَ يَنْكُتُ بِهَا فِي صَدْرِي وَيَقُولُ يَا وَابِصَةُ اسْتَفْتِ نَفْسَكَ الْبِرُّ مَا اطْمَأَنَّ إِلَيْهِ الْقَلْبُ وَاطْمَأَنَّتْ إِلَيْهِ النَّفْسُ وَالْإِثْمُ مَا حَاكَ فِي الْقَلْبِ وَتَرَدَّدَ فِي الصَّدْرِ وَإِنْ أَفْتَاكَ النَّاسُ وَأَفْتَوْكَ",
+      "english": {
+        "narrator": "Yazīd b. Hārūn > Ḥammād b. Salamah > al-Zubayr Abū ʿAbd al-Salām > Ayyūb b. ʿAbdullāh b. Mikraz > Wābiṣah b. Maʿbad",
+        "text": "I came to the Messenger of Allah ﷺ  with the intention of not leaving anything regarding righteousness and sin without asking him about it. Whenever there was a congregation around him, I would pass by them and they would say, \"Go to him, O Wabisah, and ask him.\" So, I would say, \"I am Wabisah, let me get closer to him, for it is more beloved to me to get closer to him.\" Then he ﷺ  said to me, \"Come closer, O Wabisah, come closer, O Wabisah.\" So, I got closer to him until my knees touched his knees. Then he said, \"O Wabisah, shall I inform you of what you came to ask me about or shall you ask me?\" I said, \"O Messenger of Allah, inform me.\" He said, \"You came to ask me about righteousness and sin?\" I said, \"Yes.\" So, he clasped his three fingers together and tapped them on my chest, and said, \"O Wabisah, consult your heart regarding righteousness, for it is that which the heart finds contentment with, and consult your soul regarding sin, for it is that which causes doubts in the chest. And if the people give you their opinion and you give them yours...\""
+      },
+      "isAiTranslated": true,
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Weak Chain"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 27-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/27"
+      }
+    },
+    {
+      "id": 21000046,
+      "idInBook": 46,
+      "chapterId": 29,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ حَدَّثَنَا ثَوْرُ بْنُ يَزِيدَ قَالَ حَدَّثَنِي خَالِدُ بْنُ مَعْدَانَ قَالَ حَدَّثَنِي عَبْدُ الرَّحْمَنِ بْنُ عَمْرٍو السُّلَمِيُّ وَحُجْرُ بْنُ حُجْرٍ قَالاَ\nأَتَيْنَا الْعِرْبَاضَ بْنَ سَارِيَةَ وَهُوَ مِمَّنْ نَزَلَ فِيهِ { وَلاَ عَلَى الَّذِينَ إِذَا مَا أَتَوْكَ لِتَحْمِلَهُمْ قُلْتَ لاَ أَجِدُ مَا أَحْمِلُكُمْ عَلَيْهِ } فَسَلَّمْنَا، وَقُلْنَا أَتَيْنَاكَ زَائِرِينَ وَعَائِدِينَ وَمُقْتَبِسِينَ، فَقَالَ الْعِرْبَاضُ: صَلَّى بِنَا رَسُولُ اللَّهِ ﷺ ذَاتَ يَوْمٍ ثُمَّ أَقْبَلَ عَلَيْنَا، فَوَعَظَنَا مَوْعِظَةً بَلِيغَةً ذَرَفَتْ مِنْهَا الْعُيُونُ وَوَجِلَتْ مِنْهَا الْقُلُوبُ، فَقَالَ قَائِلٌ: يَا رَسُولَ اللَّهِ كَأَنَّ هَذِهِ مَوْعِظَةُ مُوَدِّعٍ فَمَاذَا تَعْهَدُ إِلَيْنَا؟ فَقَالَ: *«أُوصِيكُمْ بِتَقْوَى اللَّهِ وَالسَّمْعِ وَالطَّاعَةِ وَإِنْ عَبْدًا حَبَشِيًّا، فَإِنَّهُ مَنْ يَعِشْ مِنْكُمْ بَعْدِي فَسَيَرَى اخْتِلاَفًا كَثِيرًا، فَعَلَيْكُمْ بِسُنَّتِي وَسُنَّةِ الْخُلَفَاءِ الْمَهْدِيِّينَ الرَّاشِدِينَ، تَمَسَّكُوا بِهَا، وَعَضُّوا عَلَيْهَا بِالنَّوَاجِذِ، وَإِيَّاكُمْ وَمُحْدَثَاتِ الأُمُورِ، فَإِنَّ كُلَّ مُحْدَثَةٍ بِدْعَةٌ وَكُلَّ بِدْعَةٍ ضَلاَلَةٌ»*.",
+      "english": {
+        "narrator": "Aḥmad b. Ḥanbal > al-Walīd b. Muslim > Thawr b. Yazīd > Khālid b. Maʿdān > ʿAbd al-Raḥman b. ʿAmr al-Sulamī And Ḥujr b. Ḥujr",
+        "text": "We came to al-Irbad b. Sariyah – one of those concerning whom the verse was revealed: “Nor ˹is there blame˺ upon those who, when they came to you for you to mount them, you said, 'I can find nothing to carry you upon.'” – We greeted ˹him˺ and said, “We have come to you as visitors, to inquire after you, and to seek knowledge.”\n\nal-Irbad said: The Messenger of Allah ﷺ led us in prayer one day, then turned to us and gave us an eloquent admonition that caused the eyes to shed tears and the hearts to tremble. Someone said, “O Messenger of Allah, it is as though this is the admonition of one bidding farewell; so what do you enjoin upon us?” \n\nHe said: *“I enjoin you to fear Allah, and to listen and obey, even if ˹you are led by˺ an Abyssinian slave. For whoever among you lives after me will see much disagreement. So hold fast to my Sunnah and the Sunnah of the rightly guided and directed caliphs. Hold on to it, and bite onto it with your molar teeth. And beware of newly invented matters, for every newly invented matter is an innovation, and every innovation is misguidance.”*"
+      },
+      "grade": [
+        {
+          "name": "Albānī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 28",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/28"
+      }
+    },
+    {
+      "id": 21000047,
+      "idInBook": 47,
+      "chapterId": 29,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَلِيُّ بْنُ حُجْرٍ حَدَّثَنَا بَقِيَّةُ بْنُ الْوَلِيدِ عَنْ بَحِيرِ بْنِ سَعْدٍ عَنْ خَالِدِ بْنِ مَعْدَانَ عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَمْرٍو السُّلَمِيِّ عَنِ الْعِرْبَاضِ بْنِ سَارِيَةَ قَالَ\nوَعَظَنَا رَسُولُ اللَّهِ ﷺ يَوْمًا بَعْدَ صَلاَةِ الْغَدَاةِ مَوْعِظَةً بَلِيغَةً ذَرَفَتْ مِنْهَا الْعُيُونُ وَوَجِلَتْ مِنْهَا الْقُلُوبُ فَقَالَ رَجُلٌ إِنَّ هَذِهِ مَوْعِظَةُ مُوَدِّعٍ فَمَاذَا تَعْهَدُ إِلَيْنَا يَا رَسُولَ اللَّهِ قَالَ أُوصِيكُمْ بِتَقْوَى اللَّهِ وَالسَّمْعِ وَالطَّاعَةِ وَإِنْ عَبْدٌ حَبَشِيٌّ فَإِنَّهُ مَنْ يَعِشْ مِنْكُمْ يَرَى اخْتِلاَفًا كَثِيرًا وَإِيَّاكُمْ وَمُحْدَثَاتِ الأُمُورِ فَإِنَّهَا ضَلاَلَةٌ فَمَنْ أَدْرَكَ ذَلِكَ مِنْكُمْ فَعَلَيْهِ بِسُنَّتِي وَسُنَّةِ الْخُلَفَاءِ الرَّاشِدِينَ الْمَهْدِيِّينَ عَضُّوا عَلَيْهَا بِالنَّوَاجِذِ[^1]",
+      "english": {
+        "narrator": "ʿAlī b. Ḥujr > Baqiyyah b. al-Walīd > Baḥīr b. Saʿd > Khālid b. Maʿdān > ʿAbd al-Raḥman b. ʿAmr al-Sulamī > al-ʿIrbāḍ b. Sāriyah",
+        "text": "\"One day after the morning Salat, the Messenger of Allah ﷺ exhorted us to the extent that the eyes wept and the hearts shuddered with fear. A man said: 'Indeed this is a farewell exhortation. [So what] do you order us O Messenger of Allah?' He said: 'I order you to have Taqwa of Allah, and to listen and obey, even in the case of an Ethiopian slave. Indeed, whomever among you lives, he will see much difference. Beware of the newly invented matters, for indeed they are astray. Whoever among you sees that, then he must stick to my Sunnah and the Sunnah of the rightly guided Khulafa', cling to it with the molars.'\""
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 28-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/28"
+      }
+    },
+    {
+      "id": 21000048,
+      "idInBook": 48,
+      "chapterId": 30,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُعَاذٍ الصَّنْعَانِيُّ عَنْ مَعْمَرٍ عَنْ عَاصِمِ بْنِ أَبِي النَّجُودِ عَنْ أَبِي وَائِلٍ عَنْ مُعَاذِ بْنِ جَبَلٍ قَالَ\nكُنْتُ مَعَ النَّبِيِّ ﷺ فِي سَفَرٍ، فَأَصْبَحْتُ يَوْمًا قَرِيبًا مِنْهُ وَنَحْنُ نَسِيرُ، فَقُلْتُ: يَا رَسُولَ اللَّهِ، أَخْبِرْنِي بِعَمَلٍ يُدْخِلُنِي الْجَنَّةَ وَيُبَاعِدُنِي مِنَ النَّارِ. قَالَ: *«لَقَدْ سَأَلْتَنِي عَنْ عَظِيمٍ، وَإِنَّهُ لَيَسِيرٌ عَلَى مَنْ يَسَّرَهُ اللَّهُ عَلَيْهِ: (١) تَعْبُدُ اللَّهَ وَلاَ تُشْرِكُ بِهِ شَيْئًا، (٢) وَتُقِيمُ الصَّلاَةَ، (٣) وَتُؤْتِي الزَّكَاةَ، (٤) وَتَصُومُ رَمَضَانَ، (٥) وَتَحُجُّ الْبَيْتَ.»*\n\nثُمَّ قَالَ: *«أَلاَ أَدُلُّكَ عَلَى أَبْوَابِ الْخَيْرِ؟ (١) الصَّوْمُ جُنَّةٌ، (٢) وَالصَّدَقَةُ تُطْفِئُ الْخَطِيئَةَ كَمَا يُطْفِئُ الْمَاءُ النَّارَ، (٣) وَصَلاَةُ الرَّجُلِ مِنْ جَوْفِ اللَّيْلِ.»* قَالَ: ثُمَّ تَلاََ ﴿تَتَجَافَى جُنُوبُهُمْ عَنِ الْمَضَاجِعِ﴾ حَتَّى بَلَغَ ﴿يَعْمَلُونَ﴾.\n\nثُمَّ قَالَ: *«أَلاَ أُخْبِرُكَ بِرَأْسِ الأَمْرِ كُلِّهِ وَعَمُودِهِ وَذِرْوَةِ سَنَامِهِ؟»* قُلْتُ: بَلَى يَا رَسُولَ اللَّهِ. قَالَ: *«رَأْسُ الأَمْرِ الإِسْلاَمُ وَعَمُودُهُ الصَّلاَةُ وَذِرْوَةُ سَنَامِهِ الْجِهَادُ.»*\n\nثُمَّ قَالَ: *«أَلاَ أُخْبِرُكَ بِمَلاَكِ ذَلِكَ كُلِّهِ؟»* قُلْتُ: بَلَى يَا نَبِيَّ اللَّهِ. قَالَ: فَأَخَذَ بِلِسَانِهِ، قَالَ: *«كُفَّ عَلَيْكَ هَذَا.»* فَقُلْتُ: يَا نَبِيَّ اللَّهِ، وَإِنَّا لَمُؤَاخَذُونَ بِمَا نَتَكَلَّمُ بِهِ؟ فَقَالَ: *«ثَكِلَتْكَ أُمُّكَ يَا مُعَاذُ، وَهَلْ يَكُبُّ النَّاسَ فِي النَّارِ عَلَى وُجُوهِهِمْ»* أَوْ  *«عَلَى مَنَاخِرِهِمْ إِلاَّ حَصَائِدُ أَلْسِنَتِهِمْ؟»*[^1]",
+      "english": {
+        "narrator": "Ibn Abī ʿUmar > ʿAbdullāh b. Muʿādh al-Ṣanʿānī > Maʿmar > ʿĀṣim b. Abī al-Najūd > Abū Wāʾil > Muʿādh b. Jabal",
+        "text": "I was with the Prophet ﷺ on a journey, and one morning I found myself close to him while we were traveling. I said, \"O Messenger of Allah, inform me of a deed that will admit me into Paradise and keep me far from the Fire.\" He said: *\"You have asked me about a great matter, yet it is easy for one for whom Allah makes it easy: (1) you worship Allah and do not associate anything with Him, (2) you establish prayer, (3) you give zakah, (4) you fast Ramadan, and (5) you perform Hajj to the House.\"*\n\nThen he said: *\"Shall I not direct you to the gates of goodness? (1) Fasting is a shield, (2) charity extinguishes sin just as water extinguishes fire, and (3) a man's prayer in the depths of the night.\"* He said: Then he recited, \"Their sides draw away from their beds,\" until he reached, \"what they used to do.\"\n\nThen he said: *\"Shall I not inform you of the head of the whole matter, its pillar, and the peak of its hump?\"* I said, \"Yes, O Messenger of Allah.\" He said: *\"The head of the matter is Islam, its pillar is prayer, and the peak of its hump is jihad.\"*\n\nThen he said: *\"Shall I not inform you of what holds all of that together?\"* I said, \"Yes, O Prophet of Allah.\" He said: He took hold of his tongue and said: *\"Restrain this for yourself.\"* I said, \"O Prophet of Allah, will we really be taken to account for what we speak?\" He said: *\"May your mother lose you, O Muadh! Does anything throw people into the Fire on their faces\"* or  *\"on their noses except the harvests of their tongues?\"*[^1]"
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Good"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 29",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/29"
+      }
+    },
+    {
+      "id": 21000049,
+      "idInBook": 49,
+      "chapterId": 30,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ الرَّزَّاقِ أَخْبَرَنَا مَعْمَرٌ عَنْ عَاصِمِ بْنِ أَبِي النَّجُودِ عَنْ أَبِي وَائِلٍ عَنْ مُعَاذِ بْنِ جَبَلٍ قَالَ\nكُنْتُ مَعَ النَّبِيِّ ﷺ فِي سَفَرٍ فَأَصْبَحْتُ يَوْمًا قَرِيبًا مِنْهُ وَنَحْنُ نَسِيرُ فَقُلْتُ يَا نَبِيَّ اللهِ أَخْبِرْنِي بِعَمَلٍ يُدْخِلُنِي الْجَنَّةَ وَيُبَاعِدُنِي مِنَ النَّارِ قَالَ لَقَدْ سَأَلْتَ عَنْ عَظِيمٍ وَإِنَّهُ لَيَسِيرٌ عَلَى مَنْ يَسَّرَهُ اللهُ عَلَيْهِ تَعْبُدُ اللهَ وَلَا تُشْرِكُ بِهِ شَيْئًا وَتُقِيمُ الصَّلَاةَ وَتُؤْتِي الزَّكَاةَ وَتَصُومُ رَمَضَانَ وَتَحُجُّ الْبَيْتَ ثُمَّ قَالَ أَلَا أَدُلُّكَ عَلَى أَبْوَابِ الْخَيْرِ؟ الصَّوْمُ جُنَّةٌ وَالصَّدَقَةُ تُطْفِئُ الْخَطِيئَةَ وَصَلَاةُ الرَّجُلِ فِي جَوْفِ اللَّيْلِ ثُمَّ قَرَأَ {تَتَجَافَى جُنُوبُهُمْ عَنِ الْمَضَاجِعِ} [السجدة 16] حَتَّى بَلَغَ{يَعْمَلُونَ} [السجدة 17]ثُمَّ قَالَ أَلَا أُخْبِرُكَ بِرَأْسِ الْأَمْرِ وَعَمُودِهِ وَذُرْوَةِ سَنَامِهِ؟ فَقُلْتُ بَلَى يَا رَسُولَ اللهِ قَالَ رَأْسُ الْأَمْرِ الْإِسْلَامُ وَعَمُودُهُ الصَّلَاةُ وَذِرْوَةُ سَنَامِهِ الْجِهَادُ ثُمَّ قَالَ أَلَا أُخْبِرُكَ بِمِلَاكِ ذَلِكَ كُلِّهِ؟ فَقُلْتُ لَهُ بَلَى يَا نَبِيَّ اللهِ فَأَخَذَ بِلِسَانِهِ فَقَالَ كُفَّ عَلَيْكَ هَذَا فَقُلْتُ يَا رَسُولَ اللهِ وَإِنَّا لَمُؤَاخَذُونَ بِمَا نَتَكَلَّمُ بِهِ؟ فَقَالَ ثَكِلَتْكَ أُمُّكَ يَا مُعَاذُ وَهَلْ يَكُبُّ النَّاسَ فِي النَّارِ عَلَى وُجُوهِهِمْ أَوْ قَالَ عَلَى مَنَاخِرِهِمْ إِلَّا حَصَائِدُ أَلْسِنَتِهِمْ؟",
+      "english": {
+        "narrator": "ʿAbd al-Razzāq > Maʿmar > ʿĀṣim b. Abū al-Najūd > Abū Wāʾil > Muʿādh b. Jabal",
+        "text": "\"I accompanied the Prophet ﷺ on a journey. One day I was near him while we were moving so I said: 'O Messenger of Allah! Inform me about an action by which I will be admitted into Paradise, and which will keep me far from the Fire.' He said: 'You have asked me about something great, but it is easy for whomever Allah makes it easy: Worship Allah and do not associate any partners with Him, establish the Salat, give the Zakat, fast Ramadan and perform Hajj to the HOuse.' Then he said: 'Shall I not guide you to the doors of good? Fasting is a shield, and charity extinguishes sins like water extinguishes fire - and a man's praying in depths of the night.'\" He said: \"Then he recited: 'Their sides forsake their beds to call upon their Lord.' Until he reached: 'What they used to do.' [32:16-17] Then he said: 'Shall I not inform you about the head of the entire matter, and its pillar, and its hump?' I said: 'Of course O Messenger of Allah! He said: 'The head of the matter is Islam, and its pillar is the Salat, and its hump is Jihad.' Then he said: 'Shall I not inform you about what governs all of that?' I said: 'Of course O Messenger of Allah!'\" He ﷺ said: \"So he grabbed his tongue. He said 'Restrain this.' I said: 'O Prophet of Allah! Will we be taken to account for what we say?' He said: 'May your mother grieve your loss O Mu'adh! Are the people tossed into the Fire upon their faces, or upon their noses, except because of what their tongues have wrought'\" (Using translation from Tirmidhī 2616)"
+      },
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 29-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/29"
+      }
+    },
+    {
+      "id": 21000050,
+      "idInBook": 50,
+      "chapterId": 31,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عُبَيْدُ بْنُ غَنَّامٍ ثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ ثَنَا عَبْدُ الرَّحِيمِ بْنُ سُلَيْمَانَ عَنْ دَاوُدَ بْنِ أَبِي هِنْدٍ عَنْ مَكْحُولٍ عَنْ أَبِي ثَعْلَبَةَ قَالَ\nقَالَ رَسُولُ اللهِ ﷺ «إِنَّ اللهَ فَرَضَ فَرَائِضَ فَلَا تُضَيِّعُوهَا، وَنَهَى عَنْ أَشْيَاءَ فَلَا تَنْتَهِكُوهَا، وَحَدَّ حُدُودًا فَلَا تَعْتَدُوهَا، وَغَفَلَ عَنْ أَشْيَاءَ مِنْ غَيْرِ نِسْيَانٍ فَلَا تَبْحَثُوا عَنْهَا»",
+      "english": {
+        "narrator": "ʿUbayd b. Ghannām > Abū Bakr b. Abū Shaybah > ʿAbd al-Raḥīm b. Sulaymān > Dāwud b. Abū Hind > Makḥūl > Abū Thaʿlabah",
+        "text": "the Messenger of Allah ﷺ said, \"Allah has decreed obligations, so do not neglect them; He has forbidden certain things, so do not violate them; He has set limits, so do not transgress them; and He has left some matters unspecified ˹intentionally˺, so do not delve into them."
+      },
+      "grade": [
+        {
+          "name": "Albānī",
+          "grade": "Weak Chain"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 30-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/30"
+      }
+    },
+    {
+      "id": 21000051,
+      "idInBook": 51,
+      "chapterId": 31,
+      "bookId": 21,
+      "arabic": "حَدَّثَنِي عَلِيُّ بْنُ عِيسَى ثَنَا مُحَمَّدُ بْنُ عَمْرٍو الْحَرَشِيُّ ثَنَا الْقَعْنَبِيُّ ثَنَا عَلِيُّ بْنُ مُسْهِرٍ عَنْ دَاودَ بْنِ أَبِي هِنْدٍ عَنْ مَكْحُولٍ عَنْ أَبِي ثَعْلَبَةَ الْخُشَنِيِّ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ «إِنَّ اللَّهَ حَدَّ حُدُودًا فَلَا تَعْتَدُوهَا، وَفَرَضَ لَكُمْ فَرَائِضَ فَلَا تُضَيِّعُوهَا وَحَرَّمَ أَشْيَاءَ فَلَا تَنْتَهِكُوهَا وَتَرَكَ أَشْيَاءَ مِنْ غَيْرِ نِسْيَانٍ مِنْ رَبِّكُمْ وَلَكِنْ رَحْمَةٌ مِنْهُ لَكُمْ فَاقْبَلُوهَا وَلَا تَبْحَثُوا فِيهَا»[^1]",
+      "english": {
+        "narrator": "ʿAlī b. ʿĪsá > Muḥammad b. ʿAmr al-Ḥarashī > al-Qaʿnabī > ʿAlī b. Mushir > Dāwd b. Abū Hind > Makḥūl > Abū Thaʿlabah al-Khushanī",
+        "text": "the Messenger of Allah ﷺ said, \"Allah has set limits, so do not transgress them; He has decreed obligations, so do not neglect them; and He has forbidden certain things, so do not violate them; and your Lord has left some matters unspecified ˹intentionally˺ as a source of His Mercy upon you; so accept them ˹as is˺ and do not delve into them."
+      },
+      "grade": [
+        {
+          "name": "Dhahabī",
+          "grade": "Remains Silent"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 30",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/30"
+      }
+    },
+    {
+      "id": 21000052,
+      "idInBook": 52,
+      "chapterId": 32,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو عُبَيْدَةَ بْنُ أَبِي السَّفَرِ حَدَّثَنَا شِهَابُ بْنُ عَبَّادٍ حَدَّثَنَا خَالِدُ بْنُ عَمْرٍو الْقُرَشِيُّ عَنْ سُفْيَانَ الثَّوْرِيِّ عَنْ أَبِي حَازِمٍ عَنْ سَهْلِ بْنِ سَعْدٍ السَّاعِدِيِّ قَالَ\nأَتَى النَّبِيَّ ﷺ رَجُلٌ فَقَالَ يَا رَسُولَ اللَّهِ دُلَّنِي عَلَى عَمَلٍ إِذَا أَنَا عَمِلْتُهُ أَحَبَّنِيَ اللَّهُ وَأَحَبَّنِيَ النَّاسُ فَقَالَ رَسُولُ اللَّهِ ﷺ ازْهَدْ فِي الدُّنْيَا يُحِبَّكَ اللَّهُ وَازْهَدْ فِيمَا فِي أَيْدِي النَّاسِ يُحِبُّوكَ",
+      "english": {
+        "narrator": "Abū ʿUbaydah b. Abū al-Safar > Shihāb b. ʿAbbād > Khālid b. ʿAmr al-Qurashī > Sufyān al-Thawrī > Abū Ḥāzim > Sahl b. Saʿd al-Sāʿidī",
+        "text": "“A man came to the Prophet ﷺ and said: ‘O Messenger of Allah, show me a deed which, if I do it, Allah will love me and people will love me. The Messenger of Allah ﷺ said: “Be indifferent towards this world, and Allah will love you. Be indifferent to what is in people’s hands, and they will love you.”"
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Weak"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 31",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/31"
+      }
+    },
+    {
+      "id": 21000053,
+      "idInBook": 53,
+      "chapterId": 33,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ رَبِّهِ بْنُ خَالِدٍ النُّمَيْرِيُّ أَبُو الْمُغَلِّسِ حَدَّثَنَا فُضَيْلُ بْنُ سُلَيْمَانَ حَدَّثَنَا مُوسَى بْنُ عُقْبَةَ حَدَّثَنَا إِسْحَاقُ بْنُ يَحْيَى بْنِ الْوَلِيدِ عَنْ عُبَادَةَ بْنِ الصَّامِتِ\nأَنَّ رَسُولَ اللَّهِ ﷺ قَضَى أَنْ لاَ ضَرَرَ وَلاَ ضِرَارَ",
+      "english": {
+        "narrator": "ʿAbd Rabbih b. Khālid al-Numayrī Abū al-Mughallis > Fuḍayl b. Sulaymān > Mūsá b. ʿUqbah > Isḥāq b. Yaḥyá b. al-Walīd > ʿUbādah b. al-Ṣāmit",
+        "text": "“There should be neither harming nor reciprocating harm.”"
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Weak"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 32",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/32"
+      }
+    },
+    {
+      "id": 21000054,
+      "idInBook": 54,
+      "chapterId": 33,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ الرَّزَّاقِ أَخْبَرَنَا مَعْمَرٌ عَنْ جَابِرٍ عَنْ عِكْرِمَةَ عَنِ ابْنِ عَبَّاسٍ قَالَ\nقَالَ رَسُولُ اللهِ ﷺ لَا ضَرَرَ وَلَا ضِرَارَ وَلِلرَّجُلِ أَنْ يَجْعَلَ خَشَبَةً فِي حَائِطِ جَارِهِ وَالطَّرِيقُ الْمِيتَاءُ سَبْعَةُ أَذْرُعٍ",
+      "english": {
+        "narrator": "ʿAbd al-Razzāq > Maʿmar > Jābir > ʿIkrimah > Ibn ʿAbbās",
+        "text": "the Messenger of Allah ﷺ said, \"There should be no causing of harm or reciprocation of harm. A person is allowed to fix a wooden peg in the wall of his neighbor, and the width of a public pathway is seven cubits.\""
+      },
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Good"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 32-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/32"
+      }
+    },
+    {
+      "id": 21000055,
+      "idInBook": 55,
+      "chapterId": 34,
+      "bookId": 21,
+      "arabic": "أَخْبَرَنَا أَبُو الْحَسَنِ عَلِيُّ بْنُ أَحْمَدَ بْنِ عَبْدَانَ أنبأ أَحْمَدُ بْنُ عُبَيْدٍ الصَّفَّارُ ثنا جَعْفَرُ بْنُ مُحَمَّدٍ الْفِرْيَابِيُّ ثنا الْحَسَنُ بْنُ سَهْلٍ ثنا عَبْدُ اللهِ بْنُ إِدْرِيسَ ثنا ابْنُ جُرَيْجٍ وَعُثْمَانُ بْنُ الْأَسْوَدِ عَنِ ابْنِ أَبِي مُلَيْكَةَ قَالَ\nكُنْتُ قَاضِيًا لِابْنِ الزُّبَيْرِ عَلَى الطَّائِفِ فَذَكَرَ قِصَّةَ الْمَرْأَتَيْنِ قَالَ فَكَتَبْتُ إِلَى ابْنِ عَبَّاسٍ فَكَتَبَ ابْنُ عَبَّاسٍ ؓ أَنَّ رَسُولَ اللهِ ﷺ قَالَ لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ لَادَّعَى رِجَالٌ أَمْوَالَ قَوْمٍ وَدِمَاءَهُمْ وَلَكِنَّ الْبَيِّنَةَ عَلَى الْمُدَّعِي وَالْيَمِينَ عَلَى مَنْ أَنْكَرَ وَذَكَرَ الْحَدِيثَ",
+      "english": {
+        "narrator": "Abū al-Ḥasan ʿAlī b. Aḥmad b. ʿAbdān > Aḥmad b. ʿUbayd al-Ṣaffār > Jaʿfar b. Muḥammad al-Firyābī > al-Ḥasan b. Sahl > ʿAbdullāh b. Idrīs > Ibn Jurayj And ʿUthmān b. al-Aswad > Ibn Abū Mulaykah > Kunt",
+        "text": "I was a judge for Ibn Zubayr in Taif, and he mentioned the story of the two women. So, I wrote to Ibn Abbas and he wrote back that the Messenger of Allah  ﷺ  said, \"If people were given what they claimed, men would claim the wealth and blood of others. But the burden of proof is upon the claimant, and the oath is upon the one who denies, and he mentioned the hadith.\""
+      },
+      "isAiTranslated": true,
+      "grade": null,
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 33",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/33"
+      }
+    },
+    {
+      "id": 21000056,
+      "idInBook": 56,
+      "chapterId": 34,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا نَصْرُ بْنُ عَلِيِّ بْنِ نَصْرٍ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ دَاوُدَ عَنِ ابْنِ جُرَيْجٍ عَنِ ابْنِ أَبِي مُلَيْكَةَ\nأَنَّ امْرَأَتَيْنِ كَانَتَا تَخْرِزَانِ فِي بَيْتٍ أَوْ فِي الْحُجْرَةِ فَخَرَجَتْ إِحْدَاهُمَا وَقَدْ أُنْفِذَ بِإِشْفًى فِي كَفِّهَا فَادَّعَتْ عَلَى الأُخْرَى فَرُفِعَ إِلَى ابْنِ عَبَّاسٍ۔ فَقَالَ ابْنُ عَبَّاسٍ: قَالَ رَسُولُ اللَّهِ ﷺ «لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ، لَذَهَبَ دِمَاءُ قَوْمٍ وَأَمْوَالُهُمْ۔» ذَكِّرُوهَا بِاللَّهِ وَاقْرَءُوا عَلَيْهَا {إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ} فَذَكَّرُوهَا فَاعْتَرَفَتْ۔ فَقَالَ ابْنُ عَبَّاسٍ: قَالَ النَّبِيُّ ﷺ «الْيَمِينُ عَلَى الْمُدَّعَى عَلَيْهِ۔»",
+      "english": {
+        "narrator": "Naṣr b. ʿAlī b. Naṣr > ʿAbdullāh b. Dāwud > Ibn Jurayj > Ibn Abū Mulaykah",
+        "text": "Two women were stitching shoes in a house or a room. Then one of them came out with an awl driven into her hand, and she sued the other for it. The case was brought before Ibn ʿAbbās, Ibn ʿAbbaاs said: the Messenger of Allah ﷺ said, \"If people were to be given what they claim ˹without the burden of proof˺ the life and property of the people would be lost.\" So remind her of Allah and recite before her: \"Indeed, those who exchange the covenant of Allah... (Āl ʿImrān 3:77)\" So they reminded her and she confessed. Ibn ʿAbbaاs then said: The Prophet ﷺ said, \"The oath must be taken by the defendant.\""
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 33-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/33"
+      }
+    },
+    {
+      "id": 21000057,
+      "idInBook": 57,
+      "chapterId": 34,
+      "bookId": 21,
+      "arabic": "حَدَّثَنِي أَبُو الطَّاهِرِ أَحْمَدُ بْنُ عَمْرِو بْنِ سَرْحٍ أَخْبَرَنَا ابْنُ وَهْبٍ عَنِ ابْنِ جُرَيْجٍ عَنِ ابْنِ أَبِي مُلَيْكَةَ عَنِ ابْنِ عَبَّاسٍ\nأَنَّ النَّبِيَّ ﷺ قَالَ: «لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ لاَدَّعَى نَاسٌ دِمَاءَ رِجَالٍ وَأَمْوَالَهُمْ وَلَكِنَّ الْيَمِينَ عَلَى الْمُدَّعَى عَلَيْهِ۔»",
+      "english": {
+        "narrator": "Abū al-Ṭāhir Aḥmad b. ʿAmr b. Sarḥ > Ibn Wahb > Ibn Jurayj > Ibn Abū Mulaykah > Ibn ʿAbbās",
+        "text": "that the Prophet ﷺ said, \"If the people were given according to their claims, they would claim the lives of persons and their properties, but the oath must be taken by the defendant.\""
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 33-3",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/33"
+      }
+    },
+    {
+      "id": 21000058,
+      "idInBook": 58,
+      "chapterId": 35,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ حَدَّثَنَا وَكِيعٌ عَنْ سُفْيَانَ ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ حَدَّثَنَا شُعْبَةُ كِلاَهُمَا عَنْ قَيْسِ بْنِ مُسْلِمٍ عَنْ طَارِقِ بْنِ شِهَابٍ وَهَذَا حَدِيثُ أَبِي بَكْرٍ قَالَ\nأَوَّلُ مَنْ بَدَأَ بِالْخُطْبَةِ يَوْمَ الْعِيدِ قَبْلَ الصَّلاَةِ مَرْوَانُ، فَقَامَ إِلَيْهِ رَجُلٌ فَقَالَ: الصَّلاَةُ قَبْلَ الْخُطْبَةِ. فَقَالَ قَدْ تُرِكَ مَا هُنَالِكَ۔ فَقَالَ أَبُو سَعِيدٍ: أَمَّا هَذَا فَقَدْ قَضَى مَا عَلَيْهِ، سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: *«مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ وَذَلِكَ أَضْعَفُ الإِيمَانِ»*.",
+      "english": {
+        "narrator": "[Chain 1] Abū Bakr b. Abū Shaybah > Wakīʿ > Sufyān [Chain 2] Muḥammad b. al-Muthanná > Muḥammad b. Jaʿfar > Shuʿbah > Qays b. Muslim > Ṭāriq b. Shihāb",
+        "text": "The first to begin the sermon on the day of Eid before the prayer was Marwan. A man stood up to him and said, “The prayer comes before the sermon.” He replied, “What was done there has been abandoned.” Abū Saʿīd said, “As for this man, he has fulfilled what was required of him for I heard the Messenger of Allah ﷺ say: *\"Whoever among you sees an evil, let him change it with his hand; if he is unable, then with his tongue; and if he is unable, then with his heart; and that is the weakest of faith.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 34",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/34"
+      }
+    },
+    {
+      "id": 21000059,
+      "idInBook": 59,
+      "chapterId": 36,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ حَدَّثَنَا دَاوُدُ يَعْنِي ابْنَ قَيْسٍ عَنْ أَبِي سَعِيدٍ مَوْلَى عَامِرِ بْنِ كُرَيْزٍ عَنْ أَبِي هُرَيْرَةَ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«لَا تَحَاسَدُوا، وَلَا تَنَاجَشُوا، وَلَا تَبَاغَضُوا، وَلَا تَدَابَرُوا، وَلَا يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا. الْمُسْلِمُ أَخُو الْمُسْلِمِ، لَا يَظْلِمُهُ، وَلَا يَخْذُلُهُ، وَلَا يَحْقِرُهُ»*. *«التَّقْوَى هَا هُنَا»*، وَيُشِيرُ إِلَى صَدْرِهِ ثَلَاثَ مَرَّاتٍ. *«بِحَسْبِ امْرِئٍ مِنَ الشَّرِّ أَنْ يَحْقِرَ أَخَاهُ الْمُسْلِمَ. كُلُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ حَرَامٌ: دَمُهُ، وَمَالُهُ، وَعِرْضُهُ»*.",
+      "english": {
+        "narrator": "ʿAbdullāh b. Maslamah b. Qaʿnab > Dāwud / Ibn Qays > Abū Saʿīd a freed slave of ʿĀmir b. Kurayz > Abū Hurayrah",
+        "text": "The Messenger of Allah ﷺ said: *“Do not envy one another, do not bid against one another ˹to raise the price˺, do not hold grudges for another, do not turn your backs on one another, and do not sell over one another’s sale. Be servants of Allah as brothers. A Muslim is the brother of a Muslim: he does not wrong him, nor abandon him, nor despise him.”*\n\n*“Piety is here,”* and he pointed to his chest three times. *“It is enough evil for a person to despise his Muslim brother. Everything of a Muslim is inviolable to another Muslim: his blood, his wealth, and his honor.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 35",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/35"
+      }
+    },
+    {
+      "id": 21000060,
+      "idInBook": 60,
+      "chapterId": 37,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَمُحَمَّدُ بْنُ الْعَلاَءِ الْهَمْدَانِيُّ وَاللَّفْظُ لِيَحْيَى قَالَ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرَانِ حَدَّثَنَا أَبُو مُعَاوِيَةَ عَنِ الأَعْمَشِ عَنْ أَبِي صَالِحٍ عَنْ أَبِي هُرَيْرَةَ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«(١) مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا، نَفَّسَ اللَّهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ يَوْمِ الْقِيَامَةِ۔ (٢) وَمَنْ يَسَّرَ عَلَى مُعْسِرٍ، يَسَّرَ اللَّهُ عَلَيْهِ فِي الدُّنْيَا وَالآخِرَةِ۔ (٣) وَمَنْ سَتَرَ مُسْلِمًا، سَتَرَهُ اللَّهُ فِي الدُّنْيَا وَالآخِرَةِ۔ (٤) وَاللَّهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ۔»* *«(٥) وَمَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا، سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ۔ (٦) وَمَا اجْتَمَعَ قَوْمٌ فِي بَيْتٍ مِنْ بُيُوتِ اللَّهِ يَتْلُونَ كِتَابَ اللَّهِ وَيَتَدَارَسُونَهُ بَيْنَهُمْ، إِلاَّ نَزَلَتْ عَلَيْهِمُ السَّكِينَةُ، وَغَشِيَتْهُمُ الرَّحْمَةُ، وَحَفَّتْهُمُ الْمَلاَئِكَةُ، وَذَكَرَهُمُ اللَّهُ فِيمَنْ عِنْدَهُ۔ (٧) وَمَنْ بَطَّأَ بِهِ عَمَلُهُ لَمْ يُسْرِعْ بِهِ نَسَبُهُ۔»*",
+      "english": {
+        "narrator": "Yaḥyā b. Yaḥyā al-Tamīmī > Abū Muʿāwiyah > al-Aʿmash > Abū Ṣāliḥ > Abū Hurayrah; Abū Bakr b. Abī Shaybah > Abū Muʿāwiyah > al-Aʿmash > Abū Ṣāliḥ > Abū Hurayrah; Muḥammad b. al-ʿAlāʾ al-Hamdānī > Abū Muʿāwiyah > al-Aʿmash > Abū Ṣāliḥ > Abū Hurayrah",
+        "text": "The Messenger of Allah ﷺ said: *\"(1) Whoever relieves a believer of one of the distresses of this world, Allah will relieve him of one of the distresses of the Day of Resurrection. (2) Whoever makes things easy for someone in hardship, Allah will make things easy for him in this world and the Hereafter. (3) Whoever conceals a Muslim, Allah will conceal him in this world and the Hereafter. (4) Allah is in the aid of the servant so long as the servant is in the aid of his brother.\"*\n\n*\"(5) Whoever follows a path seeking knowledge therein, Allah will make easy for him thereby a path to Paradise. (6) No people gather in one of the houses of Allah, reciting the Book of Allah and studying it together among themselves, except that tranquility descends upon them, mercy envelops them, the angels surround them, and Allah mentions them among those who are with Him. (7) Whoever is slowed down by his deeds will not be hastened forward by his lineage.\"*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 36",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/36"
+      }
+    },
+    {
+      "id": 21000061,
+      "idInBook": 61,
+      "chapterId": 38,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو مَعْمَرٍ حَدَّثَنَا عَبْدُ الْوَارِثِ حَدَّثَنَا جَعْدٌ أَبُو عُثْمَانَ حَدَّثَنَا أَبُو رَجَاءٍ الْعُطَارِدِيُّ عَنِ ابْنِ عَبَّاسٍ ؓ\nعَنِ النَّبِيِّ ﷺ فِيمَا يَرْوِي عَنْ رَبِّهِ ﷻ، قَالَ قَالَ: *«إِنَّ اللَّهَ كَتَبَ الْحَسَنَاتِ وَالسَّيِّئَاتِ، ثُمَّ بَيَّنَ ذَلِكَ: (١) فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللَّهُ لَهُ عِنْدَهُ حَسَنَةً كَامِلَةً، (٢) فَإِنْ هُوَ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللَّهُ لَهُ عِنْدَهُ عَشْرَ حَسَنَاتٍ إِلَى سَبْعِمِائَةِ ضِعْفٍ إِلَى أَضْعَافٍ كَثِيرَةٍ، (٣) وَمَنْ هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللَّهُ لَهُ عِنْدَهُ حَسَنَةً كَامِلَةً، (٤) فَإِنْ هُوَ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللَّهُ لَهُ سَيِّئَةً وَاحِدَةً»*.",
+      "english": {
+        "narrator": "Abū Maʿmar > ʿAbd al-Wārith > Jaʿd Abū ʿUthmān > Abū Rajāʾ al-ʿUṭāridī > Ibn ʿAbbās",
+        "text": "from the Prophet ﷺ narrating from his Lord said, *\"Allah has ordered that the good and the bad deeds be written down, and He then explained how ˹they are written down˺: (1) He who intends to do a good deed but he does not do it, then Allah records it for him as a full good deed, (2) but if he carries out his intention, then Allah ﷻ writes it down for him as from ten to seven hundredfolds, and even more. (3) But if he intends to do an evil act and has not done it, then Allah writes it down with Him as a full good deed, (4) but if he intends it and has done it, Allah writes it down as one bad deed.\"*"
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 37",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/37"
+      }
+    },
+    {
+      "id": 21000062,
+      "idInBook": 62,
+      "chapterId": 38,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ حَدَّثَنَا عَبْدُ الْوَارِثِ عَنِ الْجَعْدِ أَبِي عُثْمَانَ حَدَّثَنَا أَبُو رَجَاءٍ الْعُطَارِدِيُّ عَنِ ابْنِ عَبَّاسٍ\nعَنْ رَسُولِ اللَّهِ ﷺ فِيمَا يَرْوِي عَنْ رَبِّهِ تَبَارَكَ وَتَعَالَى قَالَ إِنَّ اللَّهَ كَتَبَ الْحَسَنَاتِ وَالسَّيِّئَاتِ ثُمَّ بَيَّنَ ذَلِكَ فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللَّهُ عِنْدَهُ حَسَنَةً كَامِلَةً وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللَّهُ ﷻ عِنْدَهُ عَشْرَ حَسَنَاتٍ إِلَى سَبْعِمِائَةِ ضِعْفٍ إِلَى أَضْعَافٍ كَثِيرَةٍ وَإِنْ هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللَّهُ عِنْدَهُ حَسَنَةً كَامِلَةً وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللَّهُ سَيِّئَةً وَاحِدَةً",
+      "english": {
+        "narrator": "Shaybān b. Farrūkh > ʿAbd al-Wārith > al-Jaʿd Abū ʿUthmān > Abū Rajāʾ al-ʿUṭāridī > Ibn ʿAbbās",
+        "text": "Verily Allah recorded the good and the evil and then made it clear that he who intended good but did not do it, Allah recorded one complete good in his favour, but if he intended it and also did it, the Glorious and Great Allah recorded ten to seven hundred virtues and even more to his credit. But it he intended evil, but did not commit it, Allah wrote down full one good in his favour. If he intended that and also committed it, Allah made an entry of one evil against him."
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 37-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/37"
+      }
+    },
+    {
+      "id": 21000063,
+      "idInBook": 63,
+      "chapterId": 39,
+      "bookId": 21,
+      "arabic": "حَدَّثَنِي مُحَمَّدُ بْنُ عُثْمَانَ حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ حَدَّثَنَا سُلَيْمَانُ بْنُ بِلاَلٍ حَدَّثَنِي شَرِيكُ بْنُ عَبْدِ اللَّهِ بْنِ أَبِي نَمِرٍ عَنْ عَطَاءٍ عَنْ أَبِي هُرَيْرَةَ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«إِنَّ اللَّهَ قَالَ: مَنْ عَادَى لِي وَلِيًّا فَقَدْ آذَنْتُهُ بِالْحَرْبِ، وَمَا تَقَرَّبَ إِلَىَّ عَبْدِي بِشَىْءٍ أَحَبَّ إِلَىَّ مِمَّا افْتَرَضْتُ عَلَيْهِ»* *«وَمَا يَزَالُ عَبْدِي يَتَقَرَّبُ إِلَىَّ بِالنَّوَافِلِ حَتَّى أُحِبَّهُ، فَإِذَا أَحْبَبْتُهُ كُنْتُ سَمْعَهُ الَّذِي يَسْمَعُ بِهِ، وَبَصَرَهُ الَّذِي يُبْصِرُ بِهِ، وَيَدَهُ الَّتِي يَبْطُشُ بِهَا، وَرِجْلَهُ الَّتِي يَمْشِي بِهَا، وَإِنْ سَأَلَنِي لأُعْطِيَنَّهُ، وَلَئِنِ اسْتَعَاذَنِي لأُعِيذَنَّهُ»* *«وَمَا تَرَدَّدْتُ عَنْ شَىْءٍ أَنَا فَاعِلُهُ تَرَدُّدِي عَنْ نَفْسِ الْمُؤْمِنِ يَكْرَهُ الْمَوْتَ وَأَنَا أَكْرَهُ مَسَاءَتَهُ»*",
+      "english": {
+        "narrator": "Muḥammad b. ʿUthmān > Khālid b. Makhlad > Sulaymān b. Bilāl > Sharīk b. ʿAbdullāh b. Abī Namir > ʿAṭāʾ > Abū Hurayrah",
+        "text": "The Messenger of Allah ﷺ said: *\"Allah said: Whoever shows enmity to a friend of Mine, I have declared war against him.*\n\n*My servant does not draw near to Me with anything more beloved to Me than what I have made obligatory upon him, and My servant continues to draw near to Me through voluntary deeds until I love him. When I love him, I become his hearing with which he hears, his sight with which he sees, his hand with which he grasps, and his foot with which he walks. If he asks Me, I will surely give to him, and if he seeks My protection, I will surely protect him.*\n\n*I do not hesitate over anything I am going to do as I hesitate over taking the soul of the believer: he dislikes death, and I dislike upsetting him.\"*"
+      },
+      "grade": [
+        {
+          "name": "Bukhārī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 38",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/38"
+      }
+    },
+    {
+      "id": 21000064,
+      "idInBook": 64,
+      "chapterId": 40,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُحَمَّدِ بْنِ يُوسُفَ الْفِرْيَابِيُّ حَدَّثَنَا أَيُّوبُ بْنُ سُوَيْدٍ حَدَّثَنَا أَبُو بَكْرٍ الْهُذَلِيُّ عَنْ شَهْرِ بْنِ حَوْشَبٍ عَنْ أَبِي ذَرٍّ الْغِفَارِيِّ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ إِنَّ اللَّهَ تَجَاوَزَ عَنْ أُمَّتِي الْخَطَأَ وَالنِّسْيَانَ وَمَا اسْتُكْرِهُوا عَلَيْهِ",
+      "english": {
+        "narrator": "Ibrāhīm b. Muḥammad b. Yūsuf al-Firyābī > Ayyūb b. Sūwayd > Abū Bakr al-Hudhalī > Shahr b. Ḥawshab > Abū Dhar al-Ghifārī",
+        "text": "the Messenger of Allah ﷺ said, \"Allah has forgiven for me my nation their mistakes and forgetfulness, and what they are forced to do.\""
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 39",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/39"
+      }
+    },
+    {
+      "id": 21000065,
+      "idInBook": 65,
+      "chapterId": 40,
+      "bookId": 21,
+      "arabic": "أَخْبَرَنَا أَبُو عَبْدِ اللهِ الْحَافِظُ ثنا أَبُو الْعَبَّاسِ مُحَمَّدُ بْنُ يَعْقُوبَ ثنا الرَّبِيعُ بْنُ سُلَيْمَانَ الْمُرَادِيُّ ثنا بِشْرُ بْنُ بَكْرٍ عَنِ الْأَوْزَاعِيِّ ح وَأَخْبَرَنَا أَبُو عَبْدِ اللهِ الْحَافِظُ فِي مَوْضِعٍ آخَرَ قَالَ ثنا أَبُو الْعَبَّاسِ مُحَمَّدُ بْنُ يَعْقُوبَ ثنا بَحْرُ بْنُ نَصْرِ بْنِ سَابِقٍ الْخَوْلَانِيُّ ثنا بِشْرُ بْنُ بَكْرٍ عَنِ الْأَوْزَاعِيِّ عَنْ عَطَاءِ بْنِ أَبِي رَبَاحٍ عَنْ عُبَيْدِ بْنِ عُمَيْرٍ عَنِ ابْنِ عَبَّاسٍ ؓ قَالَ\nقَالَ رَسُولُ اللهِ ﷺ: «تَجَاوَزَ اللهُ عَنْ أُمَّتِي الْخَطَأَ وَالنِّسْيَانَ وَمَا اسْتُكْرِهُوا عَلَيْهِ۔»[^1]",
+      "english": {
+        "narrator": "[Chain 1] Abū ʿAbdullāh al-Ḥāfiẓ > Abū al-ʿAbbās Muḥammad b. Yaʿqūb > al-Rabīʿ b. Sulaymān al-Murādī > Bishr b. Bakr > al-Awzāʿī [Chain 2] from my father",
+        "text": "the Messenger of Allah ﷺ said, \"Allah has forgiven for me my nation their mistakes and forgetfulness, and what they are forced to do.\""
+      },
+      "grade": null,
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 39-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/39"
+      }
+    },
+    {
+      "id": 21000066,
+      "idInBook": 66,
+      "chapterId": 41,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحْمَنِ أَبُو الْمُنْذِرِ الطُّفَاوِيُّ عَنْ سُلَيْمَانَ الأَعْمَشِ قَالَ حَدَّثَنِي مُجَاهِدٌ عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ ؓ قَالَ\nأَخَذَ رَسُولُ اللَّهِ ﷺ بِمَنْكِبِي، فَقَالَ: *«كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ»*. وَكَانَ ابْنُ عُمَرَ يَقُولُ: إِذَا أَمْسَيْتَ فَلاَ تَنْتَظِرِ الصَّبَاحَ، وَإِذَا أَصْبَحْتَ فَلاَ تَنْتَظِرِ الْمَسَاءَ، وَخُذْ مِنْ صِحَّتِكَ لِمَرَضِكَ، وَمِنْ حَيَاتِكَ لِمَوْتِكَ.",
+      "english": {
+        "narrator": "ʿAlī b. ʿAbdullāh > Muḥammad b. ʿAbd al-Raḥmān Abū al-Mundhir al-Ṭufāwī > Sulaymān al-Aʿmash > Mujāhid > ʿAbdullāh b. ʿUmar",
+        "text": "The Messenger of Allah ﷺ took me by my shoulder and said: *\"Be in this world as though you were a stranger or a traveler passing through.\"*\n\nIbn Umar used to say: When you reach evening, do not wait for morning; when you reach morning, do not wait for evening. Take from your health for your illness, and from your life for your death."
+      },
+      "grade": [
+        {
+          "name": "Bukhārī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 40",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/40"
+      }
+    },
+    {
+      "id": 21000067,
+      "idInBook": 67,
+      "chapterId": 42,
+      "bookId": 21,
+      "arabic": "«لا يُؤْمِنُ أَحَدُكُمْ حَتَّى يَكُونَ هَوَاهُ تَبَعًا لِمَا جِئْتُ بِهِ۔»[^1]",
+      "english": {
+        "narrator": "",
+        "text": "\"None of you truly believes until his desire follows what I have come with.\"[^1]"
+      },
+      "grade": [
+        {
+          "name": "Nawawī",
+          "grade": "Good-Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 41",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/41"
+      }
+    },
+    {
+      "id": 21000068,
+      "idInBook": 68,
+      "chapterId": 43,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِسْحَاقَ الْجَوْهَرِيُّ الْبَصْرِيُّ حَدَّثَنَا أَبُو عَاصِمٍ حَدَّثَنَا كَثِيرُ بْنُ فَائِدٍ حَدَّثَنَا سَعِيدُ بْنُ عُبَيْدٍ قَالَ سَمِعْتُ بَكْرَ بْنَ عَبْدِ اللَّهِ الْمُزَنِيَّ يَقُولُ حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ قَالَ\nسَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «قَالَ اللَّهُ: يَا ابْنَ آدَمَ إِنَّكَ مَا دَعَوْتَنِي وَرَجَوْتَنِي، غَفَرْتُ لَكَ عَلَى مَا كَانَ فِيكَ وَلاَ أُبَالِي؛ يَا ابْنَ آدَمَ لَوْ بَلَغَتْ ذُنُوبُكَ عَنَانَ السَّمَاءِ ثُمَّ اسْتَغْفَرْتَنِي، غَفَرْتُ لَكَ وَلاَ أُبَالِي؛ يَا ابْنَ آدَمَ إِنَّكَ لَوْ أَتَيْتَنِي بِقُرَابِ الأَرْضِ خَطَايَا ثُمَّ لَقِيتَنِي لاَ تُشْرِكُ بِي شَيْئًا، لأَتَيْتُكَ بِقُرَابِهَا مَغْفِرَةً۔»[^1]",
+      "english": {
+        "narrator": "ʿAbdullāh b. Isḥāq al-Jawharī al-Baṣrī > Abū ʿĀṣim > Kathīr b. Fāʾid > Saʿīd b. ʿUbayd > Bakr b. ʿAbdullāh al-Muzanī > Anas b. Mālik",
+        "text": "I heard the Messenger of  Allah say, “Allah ﷻ said: 'O son of Adam! As long as you call upon Me and have hope in ˹meeting˺ Me, I will forgive you despite whatever may have occurred from you and I do not mind; O son of Adam! If your sins reach the clouds in the sky and then you seek forgiveness from Me, I will forgive you and I do not mind; O son of Adam! If you come to me with sins as great as the earth and then you meet Me not associating anything with Me, I will come to you with forgiveness as great as it.’”"
+      },
+      "grade": [
+        {
+          "name": "Albānī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 42",
+        "url": "https://hadithunlocked.com/ibnrajab50/1/42"
+      }
+    },
+    {
+      "id": 21000069,
+      "idInBook": 69,
+      "chapterId": 45,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ حَدَّثَنَا وُهَيْبٌ حَدَّثَنَا ابْنُ طَاوُسٍ عَنْ أَبِيهِ عَنِ ابْنِ عَبَّاسٍ ؓ\nعَنِ النَّبِيِّ ﷺ قَالَ: *«أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا بَقِيَ فَهْوَ لأَوْلَى رَجُلٍ ذَكَرٍ».*",
+      "english": {
+        "narrator": "Mūsá b. Ismāʿīl > Wuhayb > Ibn Ṭāwus from his father > Ibn ʿAbbās",
+        "text": "The Prophet ﷺ said: *“Give the prescribed shares ˹of inheritance˺ to those entitled to them; whatever remains is for the closest male relative.”*"
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 43",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/43"
+      }
+    },
+    {
+      "id": 21000070,
+      "idInBook": 70,
+      "chapterId": 45,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ الأَعْلَى بْنُ حَمَّادٍ وَهُوَ النَّرْسِيُّ حَدَّثَنَا وُهَيْبٌ عَنِ ابْنِ طَاوُسٍ عَنْ أَبِيهِ عَنِ ابْنِ عَبَّاسٍ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا بَقِيَ فَهُوَ لأَوْلَى رَجُلٍ ذَكَرٍ»*.",
+      "english": {
+        "narrator": "ʿAbd al-Aʿlá b. Ḥammād / al-Narsī > Wuhayb > Ibn Ṭāwus from his father > Ibn ʿAbbās",
+        "text": "The Messenger of Allah ﷺ said: *“Give the prescribed shares ˹of inheritance˺ to those entitled to them; whatever remains is for the closest male relative.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 43-2",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/43"
+      }
+    },
+    {
+      "id": 21000071,
+      "idInBook": 71,
+      "chapterId": 46,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ أَخْبَرَنَا مَالِكٌ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ عَنْ عَمْرَةَ بِنْتِ عَبْدِ الرَّحْمَنِ\nأَنَّ عَائِشَةَ ؓ، زَوْجَ النَّبِيِّ ﷺ، أَخْبَرَتْهَا أَنَّ رَسُولَ اللَّهِ ﷺ كَانَ عِنْدَهَا، وَأَنَّهَا سَمِعَتْ صَوْتَ رَجُلٍ يَسْتَأْذِنُ فِي بَيْتِ حَفْصَةَ. قَالَتْ عَائِشَةُ: فَقُلْتُ، يَا رَسُولَ اللَّهِ، أُرَاهُ فُلَانًا لِعَمِّ حَفْصَةَ مِنَ الرَّضَاعَةِ. قَالَتْ عَائِشَةُ: يَا رَسُولَ اللَّهِ، هَذَا رَجُلٌ يَسْتَأْذِنُ فِي بَيْتِكَ. قَالَتْ: فَقَالَ رَسُولُ اللَّهِ ﷺ: *«أُرَاهُ فُلَانًا لِعَمِّ حَفْصَةَ مِنَ الرَّضَاعَةِ»*. فَقَالَتْ عَائِشَةُ: لَوْ كَانَ فُلَانٌ حَيًّا، لِعَمِّهَا مِنَ الرَّضَاعَةِ، دَخَلَ عَلَيَّ؟ فَقَالَ رَسُولُ اللَّهِ ﷺ: *«نَعَمْ، إِنَّ الرَّضَاعَةَ تُحَرِّمُ مَا يَحْرُمُ مِنَ الْوِلَادَةِ»*.",
+      "english": {
+        "narrator": "ʿAbdullāh b. Yūsuf > Mālik > ʿAbdullāh b. Abū Bakr > ʿAmrah b. ʿAbd al-Raḥman > ʿĀʾishah",
+        "text": "Aishah, the Prophet’s ﷺ wife, reported that the Messenger of Allah ﷺ was with her, and that she heard the voice of a man asking permission to enter at Hafsah’s house. Aishah said: “So I said, O Messenger of Allah, I think it is so-and-so, the foster-uncle of Hafsah.” Aishah said: “O Messenger of Allah, this is a man asking permission to enter your house.” She said: The Messenger of Allah ﷺ said: *“I think it is so-and-so, the foster-uncle of Hafsah.”*\n\nAishah said: “If so-and-so were alive, her foster-uncle, he would have been allowed to enter upon me?” The Messenger of Allah ﷺ said: *“Yes. Indeed, breastfeeding makes unlawful what birth makes unlawful.”*"
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 44a",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/44"
+      }
+    },
+    {
+      "id": 21000072,
+      "idInBook": 72,
+      "chapterId": 46,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ عَنْ عَمْرَةَ أَنَّ عَائِشَةَ أَخْبَرَتْهَا\nأَنَّ رَسُولَ اللَّهِ ﷺ كَانَ عِنْدَهَا، وَإِنَّهَا سَمِعَتْ صَوْتَ رَجُلٍ يَسْتَأْذِنُ فِي بَيْتِ حَفْصَةَ. قَالَتْ عَائِشَةُ: فَقُلْتُ، يَا رَسُولَ اللَّهِ، هَذَا رَجُلٌ يَسْتَأْذِنُ فِي بَيْتِكَ. فَقَالَ رَسُولُ اللَّهِ ﷺ: *«أُرَاهُ فُلَانًا لِعَمِّ حَفْصَةَ مِنَ الرَّضَاعَةِ»*. فَقَالَتْ عَائِشَةُ: يَا رَسُولَ اللَّهِ، لَوْ كَانَ فُلَانٌ حَيًّا، لِعَمِّهَا مِنَ الرَّضَاعَةِ، دَخَلَ عَلَيَّ؟ قَالَ رَسُولُ اللَّهِ ﷺ: *«نَعَمْ، إِنَّ الرَّضَاعَةَ تُحَرِّمُ مَا تُحَرِّمُ الْوِلَادَةُ»*.",
+      "english": {
+        "narrator": "Yaḥyá b. Yaḥyá > Mālik > ʿAbdullāh b. Abū Bakr > ʿAmrah > ʿĀʾishah",
+        "text": "The Messenger of Allah ﷺ was with her, and she heard the voice of a man seeking permission to enter the house of Hafsah. Aishah said: I said, “O Messenger of Allah, this is a man seeking permission to enter your house.” The Messenger of Allah ﷺ said: *“I think he is so-and-so, Hafsah’s paternal uncle through breastfeeding.”*\n\nAishah said: “O Messenger of Allah, if so-and-so were alive, her paternal uncle through breastfeeding, would he be allowed to enter upon me?” The Messenger of Allah ﷺ said: *“Yes. Indeed, breastfeeding makes unlawful what birth makes unlawful.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 44b",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/44"
+      }
+    },
+    {
+      "id": 21000073,
+      "idInBook": 73,
+      "chapterId": 47,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ حَدَّثَنَا اللَّيْثُ عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ عَنْ عَطَاءِ بْنِ أَبِي رَبَاحٍ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ ؓ\nأَنَّهُ سَمِعَ رَسُولَ اللَّهِ ﷺ يَقُولُ عَامَ الْفَتْحِ وَهُوَ بِمَكَّةَ: *«إِنَّ اللَّهَ وَرَسُولَهُ حَرَّمَ بَيْعَ الْخَمْرِ، وَالْمَيْتَةِ، وَالْخِنْزِيرِ، وَالْأَصْنَامِ»*. فَقِيلَ: يَا رَسُولَ اللَّهِ، أَرَأَيْتَ شُحُومَ الْمَيْتَةِ؟ فَإِنَّهَا يُطْلَى بِهَا السُّفُنُ، وَيُدْهَنُ بِهَا الْجُلُودُ، وَيَسْتَصْبِحُ بِهَا النَّاسُ. فَقَالَ: *«لَا، هُوَ حَرَامٌ»*. ثُمَّ قَالَ رَسُولُ اللَّهِ ﷺ عِنْدَ ذَلِكَ: *«قَاتَلَ اللَّهُ الْيَهُودَ، إِنَّ اللَّهَ لَمَّا حَرَّمَ شُحُومَهَا جَمَلُوهُ، ثُمَّ بَاعُوهُ، فَأَكَلُوا ثَمَنَهُ»*.[^1]",
+      "english": {
+        "narrator": "Qutaybah > al-Layth > Yazīd b. Abū Ḥabīb > ʿAṭāʾ b. Abū Rabāḥ > Jābir b. ʿAbdullāh",
+        "text": "that he heard the Messenger of Allah ﷺ say in the Year of the Conquest, while he was in Makkah: *“Allah and His Messenger have forbidden the sale of alcohol, carrion, swine, and idols.”* It was said: “O Messenger of Allah, what about the fat of carrion? For ships are coated with it, hides are oiled with it, and people use it for lighting ˹fire˺.” He said: *“No, it is unlawful.”*\n\nThen the Messenger of Allah ﷺ said at that time: *“May Allah curse the Jews: when Allah forbade their fats, they melted them down, then sold them, and consumed its price.”*"
+      },
+      "grade": [
+        {
+          "name": "Luʿluʿ wa-al-Marjān",
+          "grade": "Agreed Upon"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 45a",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/45"
+      }
+    },
+    {
+      "id": 21000074,
+      "idInBook": 74,
+      "chapterId": 47,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ حَدَّثَنَا لَيْثٌ عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ عَنْ عَطَاءِ بْنِ أَبِي رَبَاحٍ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ\nأَنَّهُ سَمِعَ رَسُولَ اللَّهِ ﷺ يَقُولُ، عَامَ الْفَتْحِ، وَهُوَ بِمَكَّةَ: *«إِنَّ اللَّهَ وَرَسُولَهُ حَرَّمَ بَيْعَ الْخَمْرِ، وَالْمَيْتَةِ، وَالْخِنْزِيرِ، وَالْأَصْنَامِ»*. فَقِيلَ: يَا رَسُولَ اللَّهِ، أَرَأَيْتَ شُحُومَ الْمَيْتَةِ؟ فَإِنَّهُ يُطْلَى بِهَا السُّفُنُ، وَيُدْهَنُ بِهَا الْجُلُودُ، وَيُسْتَصْبَحُ بِهَا النَّاسُ. فَقَالَ: «لَا، هُوَ حَرَامٌ». ثُمَّ قَالَ رَسُولُ اللَّهِ ﷺ عِنْدَ ذَلِكَ: *«قَاتَلَ اللَّهُ الْيَهُودَ، إِنَّ اللَّهَ ﷻ لَمَّا حَرَّمَ عَلَيْهِمْ شُحُومَهَا أَجْمَلُوهُ، ثُمَّ بَاعُوهُ، فَأَكَلُوا ثَمَنَهُ»*.",
+      "english": {
+        "narrator": "Qutaybah b. Saʿīd > Layth > Yazīd b. Abū Ḥabīb > ʿAṭāʾ b. Abū Rabāḥ > Jābir b. ʿAbdullāh",
+        "text": "that he heard the Messenger of Allah ﷺ say, in the Year of the Conquest, while he was in Makkah: *“Indeed Allah and His Messenger have forbidden the sale of alcohol, carrion, swine, and idols.”* It was said: “O Messenger of Allah, what about the fat of carrion? For it is used to coat ships, to oil hides, and people use it for lamps.” \n\nHe said: *“No, it is forbidden.”* Then the Messenger of Allah ﷺ said at that time: *“May Allah destroy the Jews: when Allah ﷻ forbade them its fats, they melted it down, then sold it, and consumed its price.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 45b",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/45"
+      }
+    },
+    {
+      "id": 21000075,
+      "idInBook": 75,
+      "chapterId": 48,
+      "bookId": 21,
+      "arabic": "حَدَّثَنِي إِسْحَاقُ حَدَّثَنَا خَالِدٌ عَنِ الشَّيْبَانِيِّ عَنْ سَعِيدِ بْنِ أَبِي بُرْدَةَ عَنْ أَبِيهِ عَنْ أَبِي مُوسَى الأَشْعَرِيِّ ؓ\nأَنَّ النَّبِيَّ ﷺ بَعَثَهُ إِلَى الْيَمَنِ فَسَأَلَهُ عَنْ أَشْرِبَةٍ تُصْنَعُ بِهَا۔ فَقَالَ: *«وَمَا هِيَ؟»* قَالَ: الْبِتْعُ وَالْمِزْرُ۔ فَقُلْتُ لأَبِي بُرْدَةَ: مَا الْبِتْعُ؟ قَالَ: نَبِيذُ الْعَسَلِ وَالْمِزْرُ نَبِيذُ الشَّعِيرِ۔ فَقَالَ: *«كُلُّ مُسْكِرٍ حَرَامٌ»*.[^1]",
+      "english": {
+        "narrator": "Isḥāq > Khālid > al-Shaybānī > Saʿīd b. Abū Burdah from his father > Abū Mūsá al-Ashʿarī",
+        "text": "that he Prophet ﷺ sent him to Yemen, and he asked him about drinks that were made there. He asked, *“What are they?”* He replied, *“Bit' and Mizr.” I said to Abu Burdah, “What is Bit‘?” He said, “It is honey wine, and Mizr is barley wine.” So he said, *“Every intoxicant is forbidden.”*"
+      },
+      "grade": [
+        {
+          "name": "Bukhārī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 46ا",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/46"
+      }
+    },
+    {
+      "id": 21000076,
+      "idInBook": 76,
+      "chapterId": 49,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو الْمُغِيرَةِ قَالَ حَدَّثَنَا سُلَيْمَانُ بْنُ سُلَيْمٍ الْكِنَانِيُّ قَالَ حَدَّثَنَا يَحْيَى بْنُ جَابِرٍ الطَّائِيُّ قَالَ سَمِعْتُ الْمِقْدَامَ بْنَ مَعْدِي كَرِبَ الْكِنْدِيَّ قَالَ\nسَمِعْتُ رَسُولَ اللهِ ﷺ يَقُولُ: *«مَا مَلَأَ ابْنُ آدَمَ وِعَاءً شَرًّا مِنْ بَطْنٍ: حَسْبُ ابْنِ آدَمَ أُكُلَاتٌ يُقِمْنَ صُلْبَهُ؛ فَإِنْ كَانَ لَا مَحَالَةَ فَثُلُثُ طَعَامٍ، وَثُلُثُ شَرَابٍ، وَثُلُثٌ لِنَفَسِهِ»*.",
+      "english": {
+        "narrator": "Abū al-Mughīrah > Sulaymān b. Sulaym al-Kinānī > Yaḥyá b. Jābir al-Ṭāʾī > al-Miqdām b. Maʿdī Karib al-Kindī",
+        "text": "I heard the Messenger of Allah ﷺ saying, *\"The son of Adan does not fill any vessel that is worse than his stomach. It is sufficient for the son of Adam to eat what will support his back. If this is not possible, then a third for food, a third for drink, and third for his breath.\"*"
+      },
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Fair Chain"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 47a",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/47"
+      }
+    },
+    {
+      "id": 21000077,
+      "idInBook": 77,
+      "chapterId": 49,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا سُوَيْدُ بْنُ نَصْرٍ أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ أَخْبَرَنَا إِسْمَاعِيلُ بْنُ عَيَّاشٍ حَدَّثَنِي أَبُو سَلَمَةَ الْحِمْصِيُّ وَحَبِيبُ بْنُ صَالِحٍ عَنْ يَحْيَى بْنِ جَابِرٍ الطَّائِيِّ عَنْ مِقْدَامِ بْنِ مَعْدِي كَرِبَ قَالَ\nسَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: *«مَا مَلأَ آدَمِيٌّ وِعَاءً شَرًّا مِنْ بَطْنٍ: بِحَسْبِ ابْنِ آدَمَ أُكُلاَتٌ يُقِمْنَ صُلْبَهُ؛ فَإِنْ كَانَ لاَ مَحَالَةَ، فَثُلُثٌ لِطَعَامِهِ، وَثُلُثٌ لِشَرَابِهِ، وَثُلُثٌ لِنَفَسِهِ»*.[^1]",
+      "english": {
+        "narrator": "Sūwayd b. Naṣr > ʿAbdullāh b. al-Mubārak > Ismāʿīl b. ʿAyyāsh > Abū Salamah al-Ḥimṣī and Ḥabīb b. Ṣāliḥ > Yaḥyá b. Jābir al-Ṭāʾī > Miqdām b. Maʿdī Karib",
+        "text": "I heard the Messenger of Allah ﷺ saying, *\"The human being does not fill any vessel that is worse than his stomach. It is sufficient for the son of Adam to eat what will support his back. If this is not possible, then a third for food, a third for drink, and third for his breath.\"*[^1]"
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 47b",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/47"
+      }
+    },
+    {
+      "id": 21000078,
+      "idInBook": 78,
+      "chapterId": 49,
+      "bookId": 21,
+      "arabic": "أَخْبَرَنَا مُحَمَّدُ بْنُ سَلَمَةَ قَالَ أَخْبَرَنَا ابْنُ وَهْبٍ قَالَ أَخْبَرَنِي مُعَاوِيَةُ بْنُ صَالِحٍ قَالَ سَمِعْتُ يَحْيَى بْنَ جَابِرٍ يُحَدِّثُ عَنِ الْمِقْدَامِ بْنِ مَعْدِي كَرِبَ\nأَنَّ النَّبِيَّ ﷺ قَالَ: *«مَا وِعَاءٌ شَرَّ مِنْ بَطْنٍ: حَسْبُ الْمُسْلِمِ أُكُلَاتٌ يُقِمْنَ صُلْبَهُ. فَإِنْ كَانَ لَا مَحَالَةَ، فَثُلُثٌ لِطَعَامِهِ وَثُلُثٌ لِشَرَابِهِ وَثُلُثٌ لِنَفَسِهِ»*.",
+      "english": {
+        "narrator": "Muḥammad b. Salamah > Ibn Wahb > Muʿāwiyah b. Ṣāliḥ > Yaḥyá b. Jābir > al-Miqdām b. Maʿdī Karib",
+        "text": "that the Prophet ﷺ said: *“No vessel is worse than the stomach. It is sufficient for a Muslim to have a few bites that keep his back upright. But if he must, then a third for his food, a third for his drink, and a third for his breath.”*"
+      },
+      "grade": null,
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 47c",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/47"
+      }
+    },
+    {
+      "id": 21000079,
+      "idInBook": 79,
+      "chapterId": 49,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا هِشَامُ بْنُ عَبْدِ الْمَلِكِ الْحِمْصِيُّ حَدَّثَنَا مُحَمَّدُ بْنُ حَرْبٍ حَدَّثَتْنِي أُمِّي عَنْ أُمِّهَا أَنَّهَا سَمِعَتِ الْمِقْدَامَ بْنَ مَعْدِي كَرِبَ يَقُولُ\nسَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: *«مَا مَلأَ آدَمِيٌّ وِعَاءً شَرًّا مِنْ بَطْنٍ: حَسْبُ الآدَمِيِّ لُقَيْمَاتٌ يُقِمْنَ صُلْبَهُ. فَإِنْ غَلَبَتِ الآدَمِيَّ نَفْسُهُ، فَثُلُثٌ لِلطَّعَامِ وَثُلُثٌ لِلشَّرَابِ وَثُلُثٌ لِلنَّفَسِ»*.",
+      "english": {
+        "narrator": "Hishām b. ʿAbd al-Malik al-Ḥimṣī > Muḥammad b. Ḥarb from my mother from her mother > al-Miqdām b. Maʿdī Karib",
+        "text": "I heard the Messenger of Allah ﷺ say: *\"A human being does not fill any vessel worse than the stomach. It is enough for the son of Adam to have a few bites to keep his back upright. But if his appetite overcomes him, then a third is for food, a third for drink, and a third for breath.”*"
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 47d",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/47"
+      }
+    },
+    {
+      "id": 21000080,
+      "idInBook": 80,
+      "chapterId": 50,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا بِشْرُ بْنُ خَالِدٍ أَخْبَرَنَا مُحَمَّدٌ عَنْ شُعْبَةَ عَنْ سُلَيْمَانَ عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ عَنْ مَسْرُوقٍ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو ؓ\nعَنِ النَّبِيِّ ﷺ قَالَ: *«أَرْبَعٌ مَنْ كُنَّ فِيهِ كَانَ مُنَافِقًا»* أَوْ *«كَانَتْ فِيهِ خَصْلَةٌ مِنْ أَرْبَعَةٍ كَانَتْ فِيهِ خَصْلَةٌ مِنَ النِّفَاقِ حَتَّى يَدَعَهَا: (١) إِذَا حَدَّثَ كَذَبَ، (٢) وَإِذَا وَعَدَ أَخْلَفَ، (٣) وَإِذَا عَاهَدَ غَدَرَ، (٤) وَإِذَا خَاصَمَ فَجَرَ»*.",
+      "english": {
+        "narrator": "Bishr b. Khālid > Muḥammad > Shuʿbah > Sulaymān > ʿAbdullāh b. Murrah > Masrūq > ʿAbdullāh b. ʿAmr",
+        "text": "from the Prophet ﷺ said: *“There are four traits, whoever has them is a hypocrite,”* or *“whoever has one of the four has a trait of hypocrisy until he gives it up: (1) when he speaks, he lies; (2) when he makes a promise, he breaks it; (3) when he makes a covenant, he betrays it; and (4) when he disputes, he behaves wickedly.”*"
+      },
+      "grade": [
+        {
+          "name": "Bukhārī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 48a",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/48"
+      }
+    },
+    {
+      "id": 21000081,
+      "idInBook": 81,
+      "chapterId": 50,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ حَدَّثَنَا أَبِي حَدَّثَنَا الأَعْمَشُ ح وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ حَدَّثَنَا وَكِيعٌ حَدَّثَنَا سُفْيَانُ عَنِ الأَعْمَشِ عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ عَنْ مَسْرُوقٍ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«أَرْبَعٌ مَنْ كُنَّ فِيهِ كَانَ مُنَافِقًا خَالِصًا، وَمَنْ كَانَتْ فِيهِ خَلَّةٌ مِنْهُنَّ كَانَتْ فِيهِ خَلَّةٌ مِنْ نِفَاقٍ حَتَّى يَدَعَهَا: (١) إِذَا حَدَّثَ كَذَبَ، (٢) وَإِذَا عَاهَدَ غَدَرَ، (٣) وَإِذَا وَعَدَ أَخْلَفَ، (٤) وَإِذَا خَاصَمَ فَجَرَ»*.[^1]",
+      "english": {
+        "narrator": "[Chain 1] Abū Bakr b. Abū Shaybah > ʿAbdullāh b. Numayr [Chain 2] Ibn Numayr from my father > al-Aʿmash [Chain 3] Zuhayr b. Ḥarb > Wakīʿ > Sufyān > al-Aʿmash > ʿAbdullāh b. Murrah > Masrūq > ʿAbdullāh b. ʿAmr",
+        "text": "The Messenger of Allah ﷺ said: *“There are four traits; whoever has them is a pure hypocrite, and whoever has one of them has a trait of hypocrisy until he gives it up: (1) when he speaks, he lies; (2) when he makes a covenant, he betrays it; (3) when he makes a promise, he breaks it; (4) when he argues, he becomes obscene.”*"
+      },
+      "grade": [
+        {
+          "name": "Muslim",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 48b",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/48"
+      }
+    },
+    {
+      "id": 21000082,
+      "idInBook": 82,
+      "chapterId": 51,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو عَبْدِ الرَّحْمَنِ حَدَّثَنَا حَيْوَةُ أَخْبَرَنِي بَكْرُ بْنُ عَمْرٍو أَنَّهُ سَمِعَ عَبْدَ اللهِ بْنَ هُبَيْرَةَ يَقُولُ إِنَّهُ سَمِعَ أَبَا تَمِيمٍ الْجَيْشَانِيَّ يَقُولُسَمِعَ عُمَرَ بْنَ الْخَطَّابِ يَقُولُ\nإِنَّهُ سَمِعَ نَبِيَّ اللهِ ﷺ يَقُولُ: *«لَوْ أَنَّكُمْ تَتَوَكَّلُونَ عَلَى اللهِ حَقَّ تَوَكُّلِهِ، لَرَزَقَكُمْ كَمَا يَرْزُقُ الطَّيْرَ: تَغْدُو خِمَاصًا وَتَرُوحُ بِطَانًا»*.",
+      "english": {
+        "narrator": "Abū ʿAbd al-Raḥman > Ḥaywah > Bakr b. ʿAmr > ʿAbdullāh b. Hubayrah > Innah > Abū Tamīm al-Jayshānī Yaqūlusamiʿ ʿUmar b. al-Khaṭṭāb > Innah > Nabī Allāh ﷺ",
+        "text": "that he heard the Messenger of Allah ﷺ say: *\"If you were to put your trust in Allah as you should, you will be given provision like the birds: they go out hungry in the morning and come back with full bellies in the evening.”*"
+      },
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Strong Chain"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 49a",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/49"
+      }
+    },
+    {
+      "id": 21000083,
+      "idInBook": 83,
+      "chapterId": 51,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَلِيُّ بْنُ سَعِيدٍ الْكِنْدِيُّ حَدَّثَنَا ابْنُ الْمُبَارَكِ عَنْ حَيْوَةَ بْنِ شُرَيْحٍ عَنْ بَكْرِ بْنِ عَمْرٍو عَنْ عَبْدِ اللَّهِ بْنِ هُبَيْرَةَ عَنْ أَبِي تَمِيمٍ الْجَيْشَانِيِّ عَنْ عُمَرَ بْنِ الْخَطَّابِ قَالَ\nقَالَ رَسُولُ اللَّهِ ﷺ: *«لَوْ أَنَّكُمْ كُنْتُمْ تَوَكَّلُونَ عَلَى اللَّهِ حَقَّ تَوَكُّلِهِ، لَرُزِقْتُمْ كَمَا تُرْزَقُ الطَّيْرُ: تَغْدُو خِمَاصًا وَتَرُوحُ بِطَانًا»*.[^1]",
+      "english": {
+        "narrator": "ʿAlī b. Saʿīd al-Kindī > Ibn al-Mubārak > Ḥaywah b. Shurayḥ > Bakr b. ʿAmr > ʿAbdullāh b. Hubayrah > Abū Tamīm al-Jayshānī > ʿUmar b. al-Khaṭṭāb",
+        "text": "the Messenger of Allah ﷺ said, *\"If you were to rely upon Allah with the required reliance, then you will be provided for you just as a bird is provided for: it goes out in the morning empty, and returns full.\"*[^1]"
+      },
+      "grade": [
+        {
+          "name": "Albānī",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 49b",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/49"
+      }
+    },
+    {
+      "id": 21000084,
+      "idInBook": 84,
+      "chapterId": 51,
+      "bookId": 21,
+      "arabic": "عَنْ سُوَيْدِ بْنِ نَصْرٍ عَنِ ابْنِ الْمُبَارَكِ عَنْ حَيْوَة بْن شُرَيْح عَنْ بَكْر بْن عَمْرو عَنْ عَبْد الله بْن هُبَيْرَة عَنْ أَبِي تَمِيم الْجَيْشَانِي عَنْ عُمَر\nعَنْ النَّبِي ﷺ قَالَ *«لَو أَنَّكُم تَوَكَّلُون عَلَى الله حَق تَوَكُّلِه، لَرُزِقْتُم كَمَا تُرْزَق الطَّيْر: تَغْدُو خِمَاصًا وَتَرُوح بِطَانًا»*.",
+      "english": {
+        "narrator": "Sūwayd b. Naṣr > Ibn al-Mubārak > Ḥaywah b. Shurayḥ > Bakr b. ʿAmr > ʿAbdullāh b. Hubayrah > Abū Tamīm al-Jayshānī > ʿUmar",
+        "text": "from the Prophet ﷺ who said: *\"If you were to rely upon Allah with the required reliance, then you will be provided for you just as a bird is provided for: it goes out in the morning empty, and returns full.\"*"
+      },
+      "grade": null,
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 49c",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/49"
+      }
+    },
+    {
+      "id": 21000085,
+      "idInBook": 85,
+      "chapterId": 51,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا حَرْمَلَةُ بْنُ يَحْيَى حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ أَخْبَرَنِي ابْنُ لَهِيعَةَ عَنِ ابْنِ هُبَيْرَةَ عَنْ أَبِي تَمِيمٍ الْجَيْشَانِيِّ قَالَ سَمِعْتُ عُمَرَ يَقُولُ\nسَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: *«لَوْ أَنَّكُمْ تَوَكَّلْتُمْ عَلَى اللَّهِ حَقَّ تَوَكُّلِهِ، لَرَزَقَكُمْ كَمَا يَرْزُقُ الطَّيْرَ: تَغْدُو خِمَاصًا وَتَرُوحُ بِطَانًا»*.",
+      "english": {
+        "narrator": "Ḥarmalah b. Yaḥyá > ʿAbdullāh b. Wahb > Ibn Lahīʿah > Ibn Hubayrah > Abū Tamīm al-Jayshānī > ʿUmar",
+        "text": "I heard the Messenger of Allah ﷺ say: *\"If you were to rely upon Allah with the reliance He is due, he will give provision like birds are provided for: They go out hungry in the morning and come back with full bellies in the evening.”*"
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Good"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 49d",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/49"
+      }
+    },
+    {
+      "id": 21000086,
+      "idInBook": 86,
+      "chapterId": 51,
+      "bookId": 21,
+      "arabic": "أَخْبَرَنَا أَحْمَدُ بْنُ عَلِيِّ بْنِ الْمُثَنَّى قَالَ حَدَّثَنَا أَبُو خَيْثَمَةَ قَالَ حَدَّثَنَا الْمُقْرِئُ عَنْ حَيْوَةَ بْنِ شُرَيْحٍ عَنْ بَكْرِ بْنِ عَمْرٍو عَنْ عَبْدِ اللَّهِ بْنِ هُبَيْرَةَ عَنْ أَبِي تَمِيمٍ الْجَيْشَانِيِّ عَنْ عُمَرَ بْنِ الْخَطَّابِ قَالَ\nسَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ *«لَوْ تَوَكَّلُونَ عَلَى اللَّهِ حَقَّ تَوَكُّلِهِ، لَرَزَقَكُمُ اللَّهُ كَمَا يَرْزُقُ الطَّيْرَ: تَغْدُو خِمَاصًا وَتَعُودُ بِطَانًا»*.",
+      "english": {
+        "narrator": "Aḥmad b. ʿAlī b. al-Muthanná > Abū Khaythamah > al-Muqriʾ > Ḥaywah b. Shurayḥ > Bakr b. ʿAmr > ʿAbdullāh b. Hubayrah > Abū Tamīm al-Jayshānī > ʿUmar b. al-Khaṭṭāb",
+        "text": "I heard the Messenger of Allah ﷺ say: *“If you were to rely upon Allah with true reliance, Allah would provide for you as He provides for the birds: they go out in the morning hungry and return in the evening full.”*"
+      },
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 49e",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/49"
+      }
+    },
+    {
+      "id": 21000087,
+      "idInBook": 87,
+      "chapterId": 51,
+      "bookId": 21,
+      "arabic": "أَخْبَرَنَا أَبُو أَحْمَدَ بَكْرُ بْنُ مُحَمَّدٍ الصَّيْرَفِيُّ بِمَرْوَ ثَنَا عَبْدُ الصَّمَدِ بْنُ الْفَضْلِ ثَنَا عَبْدُ اللَّهِ بْنُ يَزِيدَ الْمُقْرِئُ ثَنَا حَيْوَةُ بْنُ شُرَيْحٍ عَنْ بَكْرِ بْنِ عَمْرٍو عَنْ عَبْدِ اللَّهِ بْنِ هُبَيْرَةَ عَنْ أَبِي تَمِيمٍ الْجَيْشَانِيِّ عَنْ عُمَرَ بْنِ الْخَطَّابِ\nأَنَّ رَسُولَ اللَّهِ ﷺ قَالَ *«لَوْ أَنَّكُمْ تَوَكَّلْتُمْ عَلَى اللَّهِ حَقَّ تَوَكُّلِهِ، لَرَزَقَكُمْ كَمَا يَرْزُقُ الطَّيْرَ: تَغْدُو خِمَاصًا وَتَرُوحُ بِطَانًا»*.[^1]",
+      "english": {
+        "narrator": "Abū Aḥmad Bakr b. Muḥammad al-Ṣayrafī > ʿAbd al-Ṣamad b. al-Faḍl > ʿAbd Allāh b. Yazīd al-Muqriʾ > Ḥaywah b. Shurayḥ > Bakr b. ʿAmr > ʿAbd Allāh b. Hubayrah > Abū Tamīm al-Jayshānī > ʿUmar b. al-Khaṭṭāb",
+        "text": "The Messenger of Allah ﷺ said: *“If you were to rely upon Allah with true reliance, He would provide for you as He provides for the birds: they set out in the morning hungry and return in the evening full.”*"
+      },
+      "grade": [
+        {
+          "name": "Dhahabī",
+          "grade": "Remains Silent"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 49f",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/49"
+      }
+    },
+    {
+      "id": 21000088,
+      "idInBook": 88,
+      "chapterId": 52,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا عَلِيُّ بْنُ عَيَّاشٍ حَدَّثَنَا حَسَّانُ بْنُ نُوحٍ عَنْ عَمْرِو بْنِ قَيْسٍ عَنْ عَبْدِ اللهِ بْنِ بُسْرٍ قَالَ\nأَتَى النَّبِيَّ ﷺ أَعْرَابِيَّانِ، فَقَالَ أَحَدُهُمَا: مَنْ خَيْرُ الرِّجَالِ يَا مُحَمَّدُ؟ قَالَ النَّبِيُّ ﷺ *«مَنْ طَالَ عُمْرُهُ، وَحَسُنَ عَمَلُهُ»*، \n\nوَقَالَ الْآخَرُ: إِنَّ شَرَائِعَ الْإِسْلَامِ قَدْ كَثُرَتْ عَلَيْنَا، فَبَابٌ نَتَمَسَّكُ بِهِ جَامِعٌ؟ قَالَ: *«لَا يَزَالُ لِسَانُكَ رَطْبًا مِنْ ذِكْرِ اللهِ»*.",
+      "english": {
+        "narrator": "ʿAlī b. ʿAyyāsh > Ḥassān b. Nūḥ > ʿAmr b. Qays > ʿAbdullāh b. Busr",
+        "text": "Two Bedouins came to the Prophet ﷺ. One of them said, “Who are the best of men, O Muhammad?” The Prophet ﷺ said: *“The one whose life is long and whose deeds are good.”*\n\nThe other said, “The laws of Islam have become many for us; is there a comprehensive gate we can hold fast to?” He said: *“Let your tongue never cease to be moist with the remembrance of Allah.”*"
+      },
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Sound Chain"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 50a",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/50"
+      }
+    },
+    {
+      "id": 21000089,
+      "idInBook": 89,
+      "chapterId": 52,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو كُرَيْبٍ حَدَّثَنَا زَيْدُ بْنُ حُبَابٍ عَنْ مُعَاوِيَةَ بْنِ صَالِحٍ عَنْ عَمْرِو بْنِ قَيْسٍ عَنْ عَبْدِ اللَّهِ بْنِ بُسْرٍ ؓ\nأَنَّ رَجُلاً قَالَ: يَا رَسُولَ اللَّهِ، إِنَّ شَرَائِعَ الإِسْلاَمِ قَدْ كَثُرَتْ عَلَىَّ، فَأَخْبِرْنِي بِشَيْءٍ أَتَشَبَّثُ بِهِ. قَالَ: *«لاَ يَزَالُ لِسَانُكَ رَطْبًا مِنْ ذِكْرِ اللَّهِ»*.[^1]",
+      "english": {
+        "narrator": "Abū Kurayb > Zayd b. Ḥubāb > Muʿāwiyah b. Ṣāliḥ > ʿAmr b. Qays > ʿAbdullāh b. Busr",
+        "text": "A man said: “O Messenger of Allah ﷺ, indeed, the legislated acts of Islam have become too much for me, so inform me of a thing that I should stick to.” He ﷺ said: *“Let not your tongue cease to be moist with the remembrance of Allah.”*[^1]"
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Good"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 50b",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/50"
+      }
+    },
+    {
+      "id": 21000090,
+      "idInBook": 90,
+      "chapterId": 52,
+      "bookId": 21,
+      "arabic": "حَدَّثَنَا أَبُو بَكْرٍ حَدَّثَنَا زَيْدُ بْنُ الْحُبَابِ أَخْبَرَنِي مُعَاوِيَةُ بْنُ صَالِحٍ أَخْبَرَنِي عَمْرُو بْنُ قَيْسٍ الْكِنْدِيُّ عَنْ عَبْدِ اللَّهِ بْنِ بُسْرٍ\nأَنَّ أَعْرَابِيًّا قَالَ لِرَسُولِ اللَّهِ ﷺ: إِنَّ شَرَائِعَ الإِسْلاَمِ قَدْ كَثُرَتْ عَلَىَّ، فَأَنْبِئْنِي مِنْهَا بِشَىْءٍ أَتَشَبَّثُ بِهِ. قَالَ: *«لاَ يَزَالُ لِسَانُكَ رَطْبًا مِنْ ذِكْرِ اللَّهِ ﷻ»*.",
+      "english": {
+        "narrator": "Abū Bakr > Zayd b. al-Ḥubāb > Muʿāwiyah b. Ṣāliḥ > ʿAmr b. Qays al-Kindī > ʿAbdullāh b. Busr",
+        "text": "An Arab Bedouin said to the Messenger of Allah ﷺ: *“The laws of Islam are burdensome for me. Tell me of something that I will be able to adhere to. He said: *“Always keep your tongue moist with the remembrance of Allah ﷻ.”*"
+      },
+      "grade": [
+        {
+          "name": "ʿAli Zaʾī",
+          "grade": "Good"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 50c",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/50"
+      }
+    },
+    {
+      "id": 21000091,
+      "idInBook": 91,
+      "chapterId": 52,
+      "bookId": 21,
+      "arabic": "أَخْبَرَنَا ابْنُ قُتَيْبَةَ قَالَ حَدَّثَنَا يَزِيدُ بْنُ مَوْهَبٍ قَالَ حَدَّثَنَا ابْنُ وَهْبٍ قَالَ حَدَّثَنِي مُعَاوِيَةُ بْنُ صَالِحٍ أَنَّ عَمْرَو بْنَ قَيْسٍ الْكِنْدِيَّ حَدَّثَهُ عَنْ عَبْدِ اللَّهِ بْنِ بُسْرٍ قَالَ\nجَاءَ أَعْرَابِيَّانِ إِلَى النَّبِيِّ ﷺ فَقَالَ أَحَدُهُمَا: يَا رَسُولَ اللَّهِ أَخْبِرْنِي بِأَمْرٍ أَتَشَبَّثُ بِهِ. قَالَ: *«لَا يَزَالُ لِسَانُكَ رَطْبًا مِنْ ذِكْرِ اللَّهِ»*.",
+      "english": {
+        "narrator": "Ibn Qutaybah > Yazīd b. Mawhab > Ibn Wahb > Muʿāwiyah b. Ṣāliḥ > ʿAmr b. Qays al-Kindī > ʿAbdullāh b. Busr",
+        "text": "Two Arab Bedouins came to the Prophet ﷺ  and one of them said, \"O Messenger of Allah, tell me something that I can cling to.\" He said, *\"Keep your tongue moist with the remembrance of Allah.\"*"
+      },
+      "grade": [
+        {
+          "name": "Arnaʾūṭ",
+          "grade": "Sound"
+        }
+      ],
+      "reference": {
+        "text": "Jami al-Ulum wa-al-Hikam 50d",
+        "url": "https://hadithunlocked.com/ibnrajab50/2/50"
+      }
+    }
+  ]
+}
