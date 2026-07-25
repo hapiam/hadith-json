@@ -3,8 +3,8 @@
 A join key `BOOK_CHAPTER_CROSSCHECK.md` never checked: fawaz's own raw `reference.book` field (separate from the canonical `chapterId` rebuild that file was actually about). Content-matched by Arabic text (`arabic_match.dart`), then compared per-citation.
 
 - amrayn citations content-matched to a fawaz row: 1389 / 1405
-- exact agreement: 1194 (86.0%)
-- disagreement: 195 (14.0%)
+- exact agreement: 1334 (96.0%)
+- disagreement: 55 (4.0%)
 - fawaz distinct `reference.book` values: 62 (range 0-61)
 - amrayn distinct `malikChapterNum` range: 1-61
 
@@ -14,48 +14,48 @@ A join key `BOOK_CHAPTER_CROSSCHECK.md` never checked: fawaz's own raw `referenc
 
 | idInBook | amraynBook - fawazBook |
 |---:|---:|
-| 33 | 1 |
-| 64 | 1 |
-| 67 | 1 |
-| 137 | 2 |
-| 146 | 1 |
-| 156 | 1 |
-| 161 | 1 |
-| 180 | 2 |
-| 197 | 2 |
-| 215 | 3 |
 | 222 | 5 |
 | 224 | 5 |
-| 225 | 3 |
-| 234 | 3 |
-| 242 | 5 |
-| 246 | 7 |
-| 249 | 5 |
-| 250 | 5 |
-| 257 | 6 |
-| 272 | 6 |
+| 388 | 10 |
+| 418 | -1 |
+| 541 | 17 |
+| 550 | 17 |
+| 552 | 17 |
+| 562 | 17 |
+| 582 | 17 |
+| 583 | 17 |
+| 623 | 18 |
+| 624 | 18 |
+| 638 | 18 |
+| 643 | 18 |
+| 651 | 19 |
+| 719 | 1 |
+| 788 | 25 |
+| 792 | 25 |
+| 885 | 29 |
+| 937 | 31 |
 
 ## Disagreement progression (last 20 by idInBook order)
 
 | idInBook | amraynBook - fawazBook |
 |---:|---:|
-| 1252 | 47 |
-| 1253 | 47 |
-| 1254 | 1 |
-| 1261 | 42 |
-| 1264 | 48 |
-| 1267 | 47 |
-| 1277 | 48 |
-| 1280 | 46 |
-| 1287 | 48 |
+| 1001 | 32 |
+| 1002 | 32 |
+| 1003 | 32 |
+| 1004 | 32 |
+| 1050 | 36 |
+| 1079 | 38 |
+| 1106 | 39 |
+| 1108 | 39 |
+| 1109 | 39 |
+| 1113 | 39 |
+| 1114 | 39 |
+| 1115 | 39 |
+| 1116 | 39 |
+| 1117 | 39 |
+| 1118 | 40 |
+| 1119 | 40 |
+| 1120 | 40 |
+| 1123 | 40 |
+| 1125 | 40 |
 | 1292 | 49 |
-| 1294 | 40 |
-| 1316 | 36 |
-| 1329 | 49 |
-| 1342 | 52 |
-| 1364 | 25 |
-| 1382 | 25 |
-| 1389 | 25 |
-| 1390 | 3 |
-| 1398 | 55 |
-| 1401 | 57 |

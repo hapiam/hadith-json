@@ -16,8 +16,8 @@ import 'arabic_match.dart';
 /// (`arabic_match.dart`, by Arabic text, never by number), then compare
 /// amrayn's `malikChapterNum` against that matched row's `reference.book`.
 ///
-/// Finding: a real relationship exists (86% exact agreement) -- much
-/// better than "no join key" -- but the ~14% disagreement is NOT the same
+/// Finding: a real relationship exists (96.0% exact agreement) -- much
+/// better than "no join key" -- but the residual ~4% disagreement is NOT the same
 /// kind of narrow, bounded, near-boundary editorial disagreement the other
 /// 6 books showed (see `NUMBERING_RELATIONSHIP_MAP.md`). Here the gap
 /// between amrayn's book number and fawaz's book number GROWS as the book

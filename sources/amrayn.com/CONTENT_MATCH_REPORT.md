@@ -8,7 +8,7 @@ Amrayn total: 6791
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-bukhari.min.json) | 6744 | 47 | 0 |
+| fawaz raw (ara-bukhari.min.json) | 4870 | 1921 | 0 |
 
 **Content found in at least one known source: 6791 / 6791. Genuinely absent from every known source: 0** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
@@ -18,11 +18,11 @@ Amrayn total: 8898
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-muslim.min.json) | 8837 | 35 | 26 |
+| fawaz raw (ara-muslim.min.json) | 6604 | 2253 | 41 |
 
-**Content found in at least one known source: 8872 / 8898. Genuinely absent from every known source: 26** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
+**Content found in at least one known source: 8857 / 8898. Genuinely absent from every known source: 41** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
-Sample citations genuinely absent from every known source: 189c, 387, 630, 1030, 1256, 1428h, 1697, 1698, 1698a, 1733e, 1807b, 1977g, 2110b, 2154b, 2303c, 2303d, 2304, 2304a, 2305, 2305a, …
+Sample citations genuinely absent from every known source: 110d, 189c, 275, 387, 630, 827f, 963d, 1256, 1428h, 1697, 1698, 1698a, 1733e, 1807b, 1977f, 1977g, 2105, 2110b, 2111, 2111a, …
 
 ## nasai
 
@@ -30,11 +30,11 @@ Amrayn total: 5728
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-nasai.min.json) | 5640 | 36 | 52 |
+| fawaz raw (ara-nasai.min.json) | 4333 | 1329 | 66 |
 
-**Content found in at least one known source: 5676 / 5728. Genuinely absent from every known source: 52** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
+**Content found in at least one known source: 5662 / 5728. Genuinely absent from every known source: 66** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
-Sample citations genuinely absent from every known source: 125, 1368, 1369, 1372, 3859, 3860, 3862, 3865, 3866, 3867, 3868, 3869, 3871, 3872, 3873, 3874, 3876, 3877, 3878, 3881, …
+Sample citations genuinely absent from every known source: 125, 1368, 1369, 1372, 3859, 3860, 3862, 3864, 3865, 3866, 3867, 3868, 3869, 3871, 3872, 3873, 3874, 3875, 3876, 3877, …
 
 ## abudawud
 
@@ -42,7 +42,7 @@ Amrayn total: 5274
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-abudawud.min.json) | 5261 | 12 | 1 |
+| fawaz raw (ara-abudawud.min.json) | 4719 | 554 | 1 |
 
 **Content found in at least one known source: 5273 / 5274. Genuinely absent from every known source: 1** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
@@ -54,11 +54,11 @@ Amrayn total: 3951
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-tirmidhi.min.json) | 3498 | 407 | 46 |
+| fawaz raw (ara-tirmidhi.min.json) | 2891 | 1005 | 55 |
 
-**Content found in at least one known source: 3905 / 3951. Genuinely absent from every known source: 46** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
+**Content found in at least one known source: 3896 / 3951. Genuinely absent from every known source: 55** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
-Sample citations genuinely absent from every known source: 391, 455, 457, 458, 945, 1205, 1208, 1225, 1255, 1258, 1301, 1317, 1322, 1395, 1420, 1438, 1465, 1471, 1477, 1480, …
+Sample citations genuinely absent from every known source: 391, 455, 457, 458, 945, 1205, 1208, 1209, 1225, 1255, 1258, 1301, 1317, 1322, 1395, 1420, 1438, 1465, 1471, 1477, …
 
 ## ibnmajah
 
@@ -66,11 +66,11 @@ Amrayn total: 4328
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-ibnmajah.min.json) | 4321 | 5 | 2 |
+| fawaz raw (ara-ibnmajah.min.json) | 3320 | 1005 | 3 |
 
-**Content found in at least one known source: 4326 / 4328. Genuinely absent from every known source: 2** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
+**Content found in at least one known source: 4325 / 4328. Genuinely absent from every known source: 3** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
-Sample citations genuinely absent from every known source: 1928, 1955
+Sample citations genuinely absent from every known source: 1928, 1955, 2497
 
 ## malik
 
@@ -78,7 +78,7 @@ Amrayn total: 1405
 
 | Known source | Anchor matches | Fuzzy matches | Unmatched |
 |---|---:|---:|---:|
-| fawaz raw (ara-malik.min.json) | 1253 | 136 | 16 |
+| fawaz raw (ara-malik.min.json) | 1092 | 297 | 16 |
 
 **Content found in at least one known source: 1389 / 1405. Genuinely absent from every known source: 16** — these are the real candidates left needing amrayn (or a source not yet added), not just a citation-numbering mismatch.
 
