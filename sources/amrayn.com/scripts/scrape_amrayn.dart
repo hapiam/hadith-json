@@ -497,6 +497,20 @@ final _englishRe = RegExp(
 final _arabicRe = RegExp(
   r'<p class="co-hadith__arabic-text arabic">([\s\S]*?)</p></div>',
 );
+// Server-rendered isnad chain, immediately before the English/Arabic text
+// blocks -- separate from, and more reliable than, the embedded-JSON
+// `chain`/`chainArabic` fields extracted in [extractEmbeddedFields] (which
+// depend on the anchor that was found broken 2026-07-25, see
+// FIELD_INVENTORY.md). Found by enumerating every `co-hadith__*` CSS class
+// actually present on a live page rather than assuming the JSON was the
+// only place this data could live -- confirmed via 9 live Bukhari samples
+// spanning the whole book (citations 1/300/500/1000/2000/3000/4000/5000/
+// 6000/6791) that this markup is absent whenever the embedded JSON's own
+// `chain` is also null, i.e. Bukhari genuinely has no isnad chain content
+// to lose, in either place -- but for books that DO have it, this path
+// doesn't depend on the fragile anchor at all.
+final _englishChainRe = RegExp(r'<p class="co-hadith__english-chain">([\s\S]*?)</p>');
+final _arabicChainRe = RegExp(r'<p class="co-hadith__arabic-chain arabic">([\s\S]*?)</p>');
 final _domIdRe = RegExp(r'"co-hadith" id="h(\d+)-(\d+)"');
 final _boldRe = RegExp(r'<b>([\s\S]*?)</b>');
 
@@ -572,7 +586,17 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, String citation) 
       ? int.tryParse(domIdMatch.group(2)!)
       : null;
 
+  final englishChainHtml = _englishChainRe.firstMatch(flat)?.group(1);
+  final arabicChainHtml = _arabicChainRe.firstMatch(flat)?.group(1);
+  final englishChain = englishChainHtml == null ? null : cleanInlineHtml(englishChainHtml);
+  final arabicChain = arabicChainHtml == null ? null : cleanInlineHtml(arabicChainHtml);
+
   final extra = extractEmbeddedFields(flat);
+  // Prefer the server-rendered chain (immune to the anchor bug) over
+  // whatever extractEmbeddedFields found; only fall back to the JSON
+  // value on the off chance a page ever renders it in JSON but not HTML.
+  if (englishChain != null) extra['chain'] = englishChain;
+  if (arabicChain != null) extra['chainArabic'] = arabicChain;
 
   return {
     'idInBook': n,
