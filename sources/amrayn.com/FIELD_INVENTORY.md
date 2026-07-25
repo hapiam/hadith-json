@@ -1,14 +1,22 @@
 # amrayn.com raw-scrape field inventory
 
-What amrayn.com's site actually gives us per hadith, verified by directly
-reading sample records from `sources/amrayn.com/runs/2026-07-24_full-catalog/*.jsonl`
-and counting field presence across all 15 scraped books/collections —
-not inferred from `build_processed.dart`'s doc comment or guessed from the
-schema. `build_processed.dart` keeps every one of these fields verbatim in
-`processed/{book}.json` (nothing is trimmed there), but nothing downstream
-of that — `db/unified/` — uses any of them yet beyond `arabic`/English
-text/`reference`. This file exists so "what does amrayn actually have that
-we don't" can be answered without re-opening raw JSONL again.
+What amrayn.com's site actually gives us per hadith, verified two ways:
+(1) directly reading raw records from
+`sources/amrayn.com/runs/2026-07-24_full-catalog/*.jsonl` and counting
+field presence across all 15 scraped books/collections, and (2) fetching
+two live pages (`amrayn.com/bukhari:1`, `amrayn.com/darimi:1`) and reading
+the *entire* embedded JSON payload directly, not just the fields
+`scrape_amrayn.dart` already knows to extract — because a scraper can only
+ever report what it was told to look for, and the earlier pass here
+(before this correction) didn't check for anything it wasn't already
+extracting. This file exists so "what does amrayn actually have" can be
+answered without re-opening raw JSONL or re-fetching a live page again.
+
+**Correction (this revision):** an earlier version of this file claimed
+`boldSegments` is empty on every one of 61,540+ scraped hadith. That was
+wrong — a grep pattern bug (checked for a nested-array bracket `[[` when
+the real field is a plain string array `["..."]`). Corrected below: it's
+populated 99.3% of the time in Riyad as-Salihin.
 
 ## Every field on a raw hadith record
 
@@ -24,57 +32,101 @@ references[], intlRef, tags[], links[{link,label}]
 
 `narrator`/`body` are just `englishRaw` split at the first line break
 when that line reads as an attribution (e.g. "Abu Hurairah reported...");
-already used. Everything below is new information, not yet in our schema.
+already used. Everything else below is new information, not yet in our
+schema.
 
-## Per-field presence, counted across all 15 books/collections
+**Fields that exist in amrayn's live payload but `scrape_amrayn.dart`
+never captures at all** (found by reading the full embedded JSON on a
+live page, not just the keys the extractor already knew about):
+`bookName`/`bookNameArabic` (a top-level "Book of X" grouping, coarser
+than the `chapter` sub-chapter we do capture — see below), and three
+boolean flags `special`/`trending`/`popular` per hadith.
 
-| Field | Populated where | Notes |
-|---|---:|---|
-| `chain` / `chainArabic` | **darimi** (3,527/3,546), **nasai_kubra_bonus** (10,823/10,824), **mustadrak_alhakim_bonus** (8,710/8,719) — **zero everywhere else**, including all "the 9 books" core collections (Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, Malik, Riyad as-Salihin, Adab Mufrad, Shama'il, the Forties) | Full isnad narrator chain, English (transliterated names, `>`-separated) **and** Arabic. This is the "isnad" the user is asking about — amrayn's site renders it, but only for 3 of the 15 collections we scraped. Whether it exists for the other 12 on the live site (and this scraper just didn't capture it there) vs. genuinely absent needs a live spot-check before concluding either way |
-| `grades[]` | Present on nearly every record for 13/15 books (abudawud 5,274/5,274, bukhari 6,791/6,791, ibnmajah 4,328/4,328, muslim 8,898/8,898, nasai 5,753/5,728¹, tirmidhi 3,951/3,951, riyad_assalihin 1,896/1,896, darimi 3,546/3,546, the 2 bonus books, nawawi40/qudsi40 full) — sparse for **malik** (8/1,405) and **shamail_muhammadiyah** (10/397) | Structured `{class, text}`, e.g. `{"class":"sahih","text":"Sahih (Authentic)"}` or `{"class":"unknown","text":"Authentication status unknown"}`. Richer than our own `db/unified/` grade field (which only carries one flat name+grade pair per hadith, from muallimai) — amrayn's `class` value looks like a clean enum worth checking for a full value set |
-| `gradeFlag` | Alongside `grades[]`, same coverage pattern | Numeric (e.g. `1`, `512`, `4194304` — looks bit-shifted/power-of-2), null on some records even when `grades[]` is populated (e.g. one muslim sample). Meaning not decoded yet — likely a per-grader-source bitmask, not investigated further |
-| `links[]` | Real counts everywhere, heaviest in **nasai_kubra_bonus** (7,174), **mustadrak_alhakim_bonus** (1,379), **darimi** (928); much sparser in the 9 books (ibnmajah 76, tirmidhi 82, riyad_assalihin 101, bukhari 14, others single digits) | Cross-collection citation links, e.g. Nasa'i al-Kubra #1 → `{"link":"/muslim:278a","label":"Sahih Muslim 278a"}`. A real cross-reference graph amrayn maintains between collections — nothing in our own pipeline currently uses this at all |
-| `notes` / `notesArabic` | Rare: tirmidhi 24, ibnmajah 7, riyad_assalihin 3, aladab_almufrad 2, bukhari 2, nasai 1 — zero elsewhere | Free-text scholarly notes attached to specific hadith. Low volume but non-zero — worth a manual look at a few samples before deciding if it's worth carrying |
-| `hasExplanationAvailable` | `true` on ~6 records total across everything scraped (aladab_almufrad 4, darimi 1, tirmidhi 1) | Near-unused signal in this scrape. Could mean amrayn has a separate "explanation" page we never fetched (this flag says "available," not "fetched") |
-| `postscript` / `postscriptArabic` | **Zero** populated anywhere in the entire scrape | Either a dead field on amrayn's site, or requires a page/request path this scraper never exercised. Not confirmed dead — just never observed |
-| `tags[]` | **Zero** non-empty anywhere in the entire scrape | Same caveat as `postscript` — never observed populated, not confirmed the site never has them |
-| `boldSegments[]` | **Zero** non-empty in every book checked (spot-checked bukhari/muslim/malik/darimi/nasai_kubra_bonus directly; grep across all 15 confirms zero everywhere) | This is `scrape_amrayn.dart`'s attempt at "text highlighting" — extracting `<b>...</b>` spans from the English HTML (see `_boldRe` in the scraper). It never fires on any of the 61,540+ hadith scraped. Either amrayn's English text genuinely never uses inline `<b>` markup (plausible — bold there is usually just the narrator-name wrapper the scraper already handles separately), or the regex/extraction has a bug. **Needs a live-page check before concluding either way** — this is exactly the kind of "feature we might be able to standardize off" the user is asking about, and right now we don't actually know if it exists |
+## Feature coverage by book/collection
 
-¹ nasai's `grades[]` count (5,753) exceeds its own scrape total in
-`COMPARISON_REPORT.md` (5,728) because this count is against the raw
-`.jsonl` before `build_processed.dart`'s error-row/dedupe pass.
+Percentages are `(raw records with the field populated) / (that book's
+deduplicated total from COMPARISON_REPORT.md)`, so they're approximate
+(numerator is pre-dedup) but accurate to within a fraction of a percent —
+good enough to answer "does this book have this feature," not meant as
+an exact count. "—" means the field was never seen at all for that book.
 
-## What this means, plainly
+| Book / collection | Isnad chain | Structured grading | Cross-collection links | Source-attribution tag¹ | Notes | Has-explanation flag |
+|---|---:|---:|---:|---:|---:|---:|
+| Bukhari | — | 100% | 0.2% | — | 0.03% | — |
+| Muslim | — | 100% | — | — | — | — |
+| Abu Dawud | — | 100% | 0.1% | — | — | — |
+| Tirmidhi | — | 100% | 2.1% | — | 0.6% | 0.03% |
+| Nasa'i | — | ~100% | 0.02% | — | 0.02% | — |
+| Ibn Majah | — | 100% | 1.8% | — | 0.16% | — |
+| Malik | — | 0.6% | 0.3% | — | — | — |
+| Darimi | **99.5%** | 100% | 26.2% | — | — | 0.03% |
+| Riyad as-Salihin | — | 100% | 5.3% | **99.3%** | 0.16% | — |
+| Adab Mufrad | — | 100% | 0.5% | — | 0.15% | 0.3% |
+| Shama'il | — | 2.5% | 0.3% | — | — | — |
+| Nawawi's 40 | — | 100% | 95.2% | 2.4% | — | — |
+| Qudsi 40 | — | 100% | 32.5% | — | — | — |
+| Nasa'i al-Kubra (bonus) | **~100%** | ~100% | 66.4% | — | — | — |
+| Mustadrak al-Hakim (bonus) | **99.9%** | 100% | 15.8% | — | — | — |
 
-- **Isnad chains are a real amrayn feature, but a narrow one in what we've
-  scraped so far**: only Darimi and the two bonus collections (Nasa'i
-  al-Kubra, Mustadrak al-Hakim) carry them. If isnad display is a feature
-  worth building, either those 3 collections are the only ones amrayn can
-  give it for, or the other 12 need to be checked live to see if the
-  scraper simply isn't capturing an isnad section that exists there too.
-- **Structured multi-value grading (`grades[]`) is broad and richer than
-  what we already store** — worth a closer look at the full set of
-  `class` values before deciding whether/how to fold it into
-  `db/unified/`'s grade field.
-- **Cross-collection `links[]` is untapped** — a real citation graph
-  between books that nothing downstream currently reads.
-- **`boldSegments`, `tags`, and `postscript` all show up as fields the
-  scraper defined but never once populated across 61,540+ records.**
-  Before writing these off, at least `boldSegments` deserves a manual
-  check against a live amrayn page — "the code looks for this and finds
-  nothing" and "this doesn't exist on the site" are different findings,
-  and only one of them has actually been confirmed here.
+¹ "Source-attribution tag" is what `boldSegments` actually is (see
+below) — not general text highlighting.
+
+**`tags[]` and `postscript`/`postscriptArabic`: 0% on every book, no
+exceptions** — confirmed both against the full 61,540+-record corpus and
+against the raw live-page payload for two sample hadith. These are real
+fields on amrayn's backend schema that are consistently unpopulated for
+every hadith checked so far.
+
+## What `boldSegments` (the "text highlight tags" feature) actually is
+
+Corrected finding: sampled the actual bolded text in Riyad as-Salihin and
+Nawawi's 40 — it is **not** general in-text highlighting (isnad names,
+Quran quotes, keywords). It's a single trailing bracketed source
+citation, e.g. `"[Al-Bukhari and Muslim]"`, `"[Muslim]"`,
+`"[Al-Bukhari]"`. Riyad as-Salihin and the Forties are both
+*compilation* books — they gather hadith originally narrated in Bukhari,
+Muslim, and others into a themed collection, so each entry needs to say
+which original collection(s) it came from. That's what's bolded. It
+doesn't exist in the other 12 books/collections because those are
+*primary* collections (Bukhari's own hadith don't need a "this is from
+Bukhari" tag) — this isn't a scraper gap, it's a real structural
+difference between compilation books and primary books.
+
+## Newly-found, never-captured fields
+
+Found by reading the raw embedded JSON on a live page directly, past
+what `scrape_amrayn.dart` already extracts:
+
+- **`bookName` / `bookNameArabic`** — a top-level "Book of X" grouping
+  distinct from (and coarser than) the `chapter` sub-chapter field we
+  already capture. Example, live-verified on `bukhari:1`: `chapter` gives
+  the fine-grained "How the Divine Revelation started..." sub-chapter,
+  while `bookName`/`bookNameArabic` give the coarse "Revelation" /
+  "كتاب بدء الوحى" — this is Bukhari's well-known ~97-book division
+  (Book 1: Revelation, Book 2: Belief, ...), which our own `db/unified/`
+  chapter schema does not currently distinguish from sub-chapters at all.
+  Worth extending the scraper to capture, if a two-level book/chapter
+  structure (already built for Musnad Ahmad, see main `README.md`'s
+  "Two-level chapters" section) is wanted for the other books too.
+- **`special` / `trending` / `popular`** — three per-hadith booleans.
+  Both live samples checked (`bukhari:1`, `darimi:1`) had all three
+  `false`, including Bukhari's famous opening "actions are by
+  intentions" hadith — so `popular` is likely a site-engagement metric,
+  not a religious-significance flag, or is simply unused/unpopulated
+  right now like `tags`/`postscript`. Only 2 samples checked; not enough
+  to characterize, and not worth a broader live crawl unless there's a
+  concrete use for it.
 
 ## Not yet done
 
-- Live-page spot-check of `boldSegments`/`tags`/`postscript` on a page the
-  scraper marked as having none, to tell "dead field" from "extraction
-  bug" apart.
-- Live-page check of a Bukhari/Muslim hadith to see whether amrayn
-  actually renders an isnad chain for those books that this scrape missed.
+- Broader live-page sampling of `special`/`trending`/`popular` (2 samples
+  isn't enough to say whether these are ever true anywhere on the site).
 - Enumerate the full `grades[].class` value set (currently only seen:
   `sahih`, `unknown` — there are almost certainly more, e.g. daif/hasan).
 - Decode `gradeFlag`'s bit meaning, if it turns out to matter (e.g. does
   it distinguish which authority issued the grade).
-- Decide, once the above is answered, whether any of this becomes new
-  fields in `db/unified/`'s schema — not decided yet, deliberately.
+- Decide whether `bookName`/`bookNameArabic` (top-level Book grouping)
+  is worth adding to the scraper and, eventually, `db/unified/`'s schema.
+- Decide, once the above is answered, whether `grades[]`/`links[]`
+  become new fields in `db/unified/`'s schema — not decided yet,
+  deliberately.
