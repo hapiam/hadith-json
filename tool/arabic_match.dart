@@ -39,10 +39,15 @@ final _punctAndWs = RegExp(r'''[\s,.،؛؟"'{}()\[\]!?؛:]+''');
 // inconsistently across different transcriptions/editions of the same
 // hadith as a matter of scribal convention, not as an actual content
 // difference -- stripped for matching purposes only (never for the stored/
-// displayed text).
+// displayed text). Includes the single-glyph ﷺ ligature (U+FDFA) some
+// sources use in place of the spelled-out phrase -- verified this exact
+// substitution alone (amrayn: ﷺ, fawaz: صلى الله عليه وسلم spelled out) was
+// making otherwise-identical hadith score as a "mismatch" under a naive
+// whole-string comparison, by splitting one long shared run of text into
+// two shorter ones around the substitution point.
 final _honorifics = RegExp(
   'صلي الله عليه وسلم|صلي الله عليه وسلم|رضي الله عنه(ما|ا)?|رحمه الله( تعالي)?|'
-  'تعالي|عز وجل',
+  'تعالي|عز وجل|ﷺ',
 );
 
 // One source appends explicit Qur'an citations ("سورة البقرة اية 203") after
