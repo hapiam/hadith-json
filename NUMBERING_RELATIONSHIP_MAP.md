@@ -29,12 +29,22 @@ reasoning from the numbers themselves.
 **Malik is the exception**: internal duplication explains only 37% of its
 gap (vs. 68-98% everywhere else) -- confirming this book's amrayn<->fawaz
 relationship is structurally different, not just the same two effects at a
-different scale. Malik needs its own dedicated investigation (its two
-numbering schemes -- amrayn's `malikChapterNum`/`malikLocalHadithNum` vs.
-fawaz's own Malik spine -- were never cross-referenced with a real join key
-in the first place; see `BOOK_CHAPTER_CROSSCHECK.md`'s "Not attempted"
-note). Treat Malik's numbers in the tables below as data, not yet as an
-explained relationship the way the other 6 books are.
+different scale. Update, resolved as far as automated matching can take
+it: `tool/investigate_malik_book_join.dart` found a real join key
+`BOOK_CHAPTER_CROSSCHECK.md` never checked -- fawaz's own RAW
+`reference.book` field (separate from the canonical `chapterId` rebuild
+that file was actually about) -- which agrees with amrayn's
+`malikChapterNum` 86% of the time. But the disagreement isn't narrow
+boundary drift like the other 6 books: the gap between the two book
+numbers GROWS as the book progresses (single digits early, into the
+40s-50s by the end, even though both sources independently cap at 61
+total books). See `sources/amrayn.com/MALIK_BOOK_JOIN.md` for the full
+breakdown -- this looks like a genuine manuscript-recension difference
+(Muwatta Malik has multiple real historical transmission lines with
+different chapter groupings), not a data defect, but confirming exactly
+which recension each source follows needs a third source or direct
+scholarly reference, not further automated matching between just these
+two.
 
 ## Summary table
 
