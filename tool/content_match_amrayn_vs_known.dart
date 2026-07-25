@@ -59,10 +59,52 @@ class KnownSource {
 /// (e.g. Darimi, sourced from mhashim6) whose original isn't cached locally
 /// and would need fetching before this script can check them.
 final Map<String, List<KnownSource>> knownSourcesByBook = {
+  'bukhari': [
+    const KnownSource(
+      'fawaz raw (ara-bukhari.min.json)',
+      'db/editions/files/ara-bukhari.min.json',
+      'text',
+    ),
+  ],
   'muslim': [
     const KnownSource(
       'fawaz raw (ara-muslim.min.json)',
       'db/editions/files/ara-muslim.min.json',
+      'text',
+    ),
+  ],
+  'nasai': [
+    const KnownSource(
+      'fawaz raw (ara-nasai.min.json)',
+      'db/editions/files/ara-nasai.min.json',
+      'text',
+    ),
+  ],
+  'abudawud': [
+    const KnownSource(
+      'fawaz raw (ara-abudawud.min.json)',
+      'db/editions/files/ara-abudawud.min.json',
+      'text',
+    ),
+  ],
+  'tirmidhi': [
+    const KnownSource(
+      'fawaz raw (ara-tirmidhi.min.json)',
+      'db/editions/files/ara-tirmidhi.min.json',
+      'text',
+    ),
+  ],
+  'ibnmajah': [
+    const KnownSource(
+      'fawaz raw (ara-ibnmajah.min.json)',
+      'db/editions/files/ara-ibnmajah.min.json',
+      'text',
+    ),
+  ],
+  'malik': [
+    const KnownSource(
+      'fawaz raw (ara-malik.min.json)',
+      'db/editions/files/ara-malik.min.json',
       'text',
     ),
   ],
