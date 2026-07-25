@@ -1501,7 +1501,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 10628
+			"mirrorZipBytes": 10756
 		},
 		{
 			"id": "ara1-nawawi40",
@@ -1524,7 +1524,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 8042
+			"mirrorZipBytes": 8165
 		},
 		{
 			"id": "ben-nawawi40",
@@ -1549,7 +1549,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 23817
+			"mirrorZipBytes": 23966
 		},
 		{
 			"id": "eng-nawawi40",
@@ -1574,7 +1574,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 21141
+			"mirrorZipBytes": 21259
 		},
 		{
 			"id": "fra-nawawi40",
@@ -1599,7 +1599,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 20437
+			"mirrorZipBytes": 20549
 		},
 		{
 			"id": "ind-nawawi40",
@@ -1625,7 +1625,7 @@
 				"sagad"
 			],
 			"translationStatus": "draft",
-			"mirrorZipBytes": 19496
+			"mirrorZipBytes": 19612
 		},
 		{
 			"id": "tur-nawawi40",
@@ -1650,7 +1650,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 19342
+			"mirrorZipBytes": 19467
 		},
 		{
 			"id": "ara-qudsi40",
@@ -1673,7 +1673,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 11394
+			"mirrorZipBytes": 11491
 		},
 		{
 			"id": "ara1-qudsi40",
@@ -1696,7 +1696,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 8558
+			"mirrorZipBytes": 8644
 		},
 		{
 			"id": "eng-qudsi40",
@@ -1721,7 +1721,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 22936
+			"mirrorZipBytes": 23052
 		},
 		{
 			"id": "fra-qudsi40",
@@ -1746,7 +1746,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 21625
+			"mirrorZipBytes": 21737
 		},
 		{
 			"id": "ind-qudsi40",
@@ -1772,7 +1772,7 @@
 				"sagad"
 			],
 			"translationStatus": "draft",
-			"mirrorZipBytes": 21429
+			"mirrorZipBytes": 21560
 		},
 		{
 			"id": "ara-shahwaliullah40",
