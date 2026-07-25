@@ -572,7 +572,7 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, String citation) 
       ? int.tryParse(domIdMatch.group(2)!)
       : null;
 
-  final extra = extractEmbeddedFields(flat, n);
+  final extra = extractEmbeddedFields(flat);
 
   return {
     'idInBook': n,
@@ -588,7 +588,7 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, String citation) 
     'amraynSectionNum': amraynSectionNum,
     'amraynId': amraynId,
     ...extra,
-    'rawPayload': capturePayloadWindow(flat, n),
+    'rawPayload': capturePayloadWindow(flat),
   };
 }
 
@@ -603,6 +603,10 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, String citation) 
 /// knew about. Saving this window means the next such discovery is a
 /// re-parse of already-saved text, not another live fetch.
 ///
+/// Anchored the same way as [extractEmbeddedFields] (`pageType":"single"`,
+/// not `hadithNumber":"$n"` -- see that function's doc comment for why the
+/// citation-based anchor was wrong).
+///
 /// Bounded at the `bookList` marker (the point where whole-book navigation
 /// data starts -- real content, but not hadith-specific, and the single
 /// biggest source of page bulk) or a generous 12,000-char cap, whichever
@@ -611,8 +615,8 @@ Map<String, dynamic> parseHadith(String html, BookConfig book, String citation) 
 /// trailing fields, but it comfortably covers everything seen in samples
 /// so far and stays far short of the 100KB+ of pure page chrome (nav
 /// menus, unrelated JS bundles) that a full-page save would carry.
-String? capturePayloadWindow(String flat, int n) {
-  final anchorRe = RegExp('\\\\*"hadithNumber\\\\*"\\s*:\\s*\\\\*"$n\\\\*"');
+String? capturePayloadWindow(String flat) {
+  final anchorRe = RegExp('\\\\*"pageType\\\\*"\\s*:\\s*\\\\*"single\\\\*"');
   final anchor = anchorRe.firstMatch(flat);
   if (anchor == null) return null;
   final rest = flat.substring(anchor.start);
@@ -641,11 +645,28 @@ String? capturePayloadWindow(String flat, int n) {
 /// Extracts every remaining field from the hadith's own embedded React data
 /// payload (present in the raw HTML even without executing JS, though escaped
 /// as a JSON string inside a JS string literal at a variable nesting depth).
-/// Scoped to a window starting at this hadith's own `hadithNumber` value so
+/// Scoped to a window starting at this page's `pageType":"single"` marker so
 /// common key names (id, links, notes...) that also appear elsewhere on the
 /// page (nav menus, breadcrumbs) aren't mistakenly matched.
-Map<String, dynamic> extractEmbeddedFields(String flat, int n) {
-  final anchorRe = RegExp('\\\\*"hadithNumber\\\\*"\\s*:\\s*\\\\*"$n\\\\*"');
+///
+/// FIXED 2026-07-25: previously anchored on `hadithNumber":"$n"` (`n` being
+/// the URL citation number), which silently fails whenever amrayn's own
+/// internal `hadithNumber` has drifted from its URL citation -- confirmed
+/// live on `bukhari:300`: the page's title reads "Sahih al-Bukhari 299" and
+/// its own embedded `hadithNumber` is `"298"`, neither matching the `300` in
+/// the URL. This is a real, independent numbering drift on amrayn's own
+/// site (distinct from the AhmedBaset-spine drift in
+/// `NUMBERING_CORRUPTION_AUDIT.md`), and it silently zeroed out EVERY field
+/// this function returns -- bookNumber/bookName/chain/links/notes/tags/
+/// gradeFlag/references/intlRef -- for ~86-100% of Bukhari, Muslim, Nasa'i,
+/// Abu Dawud, and Malik in the 2026-07-24 scrape (verified: anchor-match
+/// failure rates 97.9%/100%/93.0%/85.7%/97.8% respectively). `pageType`
+/// is page-level metadata that doesn't depend on knowing the correct
+/// citation number at all, and was confirmed to appear exactly once on
+/// every sample page checked (unlike `hadithNumber`, which can appear
+/// zero times if it doesn't match `n`, or the site's own drifted value).
+Map<String, dynamic> extractEmbeddedFields(String flat) {
+  final anchorRe = RegExp('\\\\*"pageType\\\\*"\\s*:\\s*\\\\*"single\\\\*"');
   final anchor = anchorRe.firstMatch(flat);
   if (anchor == null) {
     return {
