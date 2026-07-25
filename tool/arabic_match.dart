@@ -111,6 +111,58 @@ double _wordOverlap(List<String> a, List<String> b) {
   return 2 * inter / (setA.length + setB.length); // Dice coefficient
 }
 
+/// Classic O(n*m) dynamic-programming longest-common-substring length.
+int _longestCommonSubstringLength(String a, String b) {
+  if (a.isEmpty || b.isEmpty) return 0;
+  var prev = List<int>.filled(b.length + 1, 0);
+  var best = 0;
+  for (var i = 1; i <= a.length; i++) {
+    final curr = List<int>.filled(b.length + 1, 0);
+    for (var j = 1; j <= b.length; j++) {
+      if (a[i - 1] == b[j - 1]) {
+        curr[j] = prev[j - 1] + 1;
+        if (curr[j] > best) best = curr[j];
+      }
+    }
+    prev = curr;
+  }
+  return best;
+}
+
+/// Longest common substring as a fraction of the SHORTER text's length.
+/// Used as a safety gate on the bag-of-words/whole-string similarity layers
+/// below: those measure content overlap with no notion of contiguity, so two
+/// texts sharing only a long, common ISNAD chain (many hadiths reuse the
+/// exact same narrator chain word-for-word, e.g. "AbdAllah ibn Yusuf ->
+/// Malik -> Hisham ibn Urwah -> his father -> A'isha") can clear a bag-of-
+/// words or bigram threshold despite having a completely different MATN
+/// (the actual report content) -- confirmed concretely: content-matching
+/// amrayn's book/chapter assignment against fawaz found 27.5% of "book
+/// mismatches" were actually the matcher pairing two unrelated hadiths this
+/// way (e.g. amrayn's "a baby urinated on the Prophet's ﷺ clothes" citation
+/// matched to fawaz's "how does revelation come to you?", sharing only the
+/// isnad opening). A genuine match -- even a short excerpt that only
+/// captures part of a longer candidate's matn -- always has a long
+/// contiguous shared run; an isnad-only collision does not. Always compare
+/// honorific-stripped text (a mid-string honorific substitution, e.g. amrayn
+/// using the single-glyph ﷺ where fawaz spells out the phrase, otherwise
+/// splits one long shared run into two shorter ones and can deflate a
+/// genuine match below the gate).
+double _lcsRatio(String strippedA, String strippedB) {
+  if (strippedA.isEmpty || strippedB.isEmpty) return 0;
+  final lcs = _longestCommonSubstringLength(strippedA, strippedB);
+  final shorter =
+      strippedA.length < strippedB.length ? strippedA.length : strippedB.length;
+  return shorter == 0 ? 0 : lcs / shorter;
+}
+
+// Below this ratio, two texts do not share a long enough contiguous run to
+// be the same report -- matches the "real mismatch" boundary already
+// empirically validated in FUZZY_MATCH_ANALYSIS.md/BOOK_MISMATCH_QUALITY.md
+// (confirmed false positives clustered at 0.13-0.28; confirmed genuine
+// matches, including truncated-isnad excerpts, at 0.6-0.97).
+const _lcsGateThreshold = 0.3;
+
 /// Layered match attempt within `[searchLo, searchHi]` of the canonical
 /// list: word-overlap, then plain containment, then space-insensitive
 /// containment (transcription gaps), then honorific-stripped word-overlap/
@@ -131,7 +183,10 @@ int? _bestMatchInRange(
   int bestIdx = -1;
   for (var k = searchLo; k <= searchHi; k++) {
     final score = _wordOverlap(oldWords[i], canonWords[k]);
-    if (score > bestScore) {
+    if (score >= 0.5 &&
+        score > bestScore &&
+        _lcsRatio(_stripHonorifics(oldNorm[i]), _stripHonorifics(canonNorm[k])) >=
+            _lcsGateThreshold) {
       bestScore = score;
       bestIdx = k;
     }
@@ -165,7 +220,9 @@ int? _bestMatchInRange(
         oldStrippedNoSpace.contains(newStrippedNoSpace))
       return k;
     final score = _wordOverlap(oldStrippedWords, _words(newStripped));
-    if (score > bestScore) {
+    if (score >= 0.5 &&
+        score > bestScore &&
+        _lcsRatio(oldStripped, newStripped) >= _lcsGateThreshold) {
       bestScore = score;
       bestIdx = k;
     }
@@ -176,7 +233,10 @@ int? _bestMatchInRange(
   var bestBigramIdx = -1;
   for (var k = searchLo; k <= searchHi; k++) {
     final score = _bigramDice(oldNorm[i], canonNorm[k]);
-    if (score > bestBigram) {
+    if (score >= 0.85 &&
+        score > bestBigram &&
+        _lcsRatio(_stripHonorifics(oldNorm[i]), _stripHonorifics(canonNorm[k])) >=
+            _lcsGateThreshold) {
       bestBigram = score;
       bestBigramIdx = k;
     }
@@ -251,28 +311,53 @@ List<int?> matchToCanonical({
   final canonNorm = canonicalArabic.map(normalizeForMatching).toList();
   final canonWords = canonNorm.map(_words).toList();
 
-  // Anchor index: 60-char normalized prefix -> canonical index (first
-  // occurrence wins on collision).
-  final prefixIndex = <String, int>{};
+  // Anchor index: 60-char normalized prefix -> every canonical index sharing
+  // that prefix (plural -- see Pass 1 below for why a single "first
+  // occurrence wins" index is unsafe here).
+  final prefixIndex = <String, List<int>>{};
   for (var i = 0; i < canonNorm.length; i++) {
     final prefix = canonNorm[i].length <= 60
         ? canonNorm[i]
         : canonNorm[i].substring(0, 60);
-    prefixIndex.putIfAbsent(prefix, () => i);
+    prefixIndex.putIfAbsent(prefix, () => []).add(i);
   }
 
   final oldNorm = oldArabic.map(normalizeForMatching).toList();
   final oldWords = oldNorm.map(_words).toList();
   final result = List<int?>.filled(oldArabic.length, null);
 
-  // Pass 1: anchor matches (exact 60-char normalized prefix).
+  // Pass 1: anchor matches (exact 60-char normalized prefix). A 60-char
+  // prefix is NOT always unique in hadith literature: many different hadiths
+  // share the exact same isnad opening word-for-word (e.g. "AbdAllah ibn
+  // Yusuf -> Malik -> Hisham ibn Urwah -> his father -> A'isha" is reused
+  // across dozens of unrelated reports in Bukhari alone, and that chain
+  // alone already exceeds 60 normalized characters). Blindly taking "first
+  // occurrence wins" on such a collision silently attaches the wrong hadith
+  // -- confirmed concretely: this was the actual root cause behind several
+  // "book mismatch" false positives the LCS gate on the *fuzzy* layers below
+  // didn't catch, because these pairs never reached the fuzzy layers at all
+  // -- they were already (wrongly) resolved right here in Pass 1.
   for (var i = 0; i < oldArabic.length; i++) {
     final prefix = oldNorm[i].length <= 60
         ? oldNorm[i]
         : oldNorm[i].substring(0, 60);
-    final match = prefixIndex[prefix];
-    if (match != null) {
-      result[i] = match;
+    final candidates = prefixIndex[prefix];
+    if (candidates == null) continue;
+    if (candidates.length == 1) {
+      result[i] = candidates[0];
+      stats?.anchorMatches++;
+      continue;
+    }
+    // Ambiguous prefix: only trust it if the FULL normalized text also
+    // matches one of the candidates exactly -- that's still a genuine
+    // content match (or a real duplicate hadith in the canonical set, in
+    // which case any one of the identical candidates is a correct answer).
+    // Otherwise leave unresolved so Pass 2's content-aware fuzzy layers
+    // (which look at the actual matn, not just the shared isnad prefix)
+    // pick the right one instead of guessing.
+    final exact = candidates.where((k) => canonNorm[k] == oldNorm[i]);
+    if (exact.isNotEmpty) {
+      result[i] = exact.first;
       stats?.anchorMatches++;
     }
   }

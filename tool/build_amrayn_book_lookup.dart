@@ -33,7 +33,7 @@ void main() {
   ) as Map<String, dynamic>;
   final bookChapters = catalog['bookChapters'] as Map<String, dynamic>;
 
-  const books = ['bukhari', 'muslim', 'nasai', 'abudawud', 'malik'];
+  const books = ['bukhari', 'muslim', 'nasai', 'abudawud', 'tirmidhi', 'ibnmajah', 'malik'];
   var grandUnresolved = 0;
 
   for (final book in books) {
@@ -103,5 +103,5 @@ void main() {
     );
   }
   stdout.writeln('');
-  stdout.writeln('Grand total still unresolved across all 5 books: $grandUnresolved');
+  stdout.writeln('Grand total still unresolved across all ${books.length} books: $grandUnresolved');
 }
