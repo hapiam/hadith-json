@@ -15,3 +15,10 @@ hapiam_mirror_hadith/
 # See sources/README.md for the full archive convention (applies to every
 # scrape source in this repo, not just amrayn.com).
 db/scrape_cache/
+
+# Raw hadithunlocked.com download (user-downloaded via browser, not
+# scraped by any script here) -- 1.8GB across hadith/quran/tafsir, far too
+# large to commit. Regenerate/re-download on demand; any curated output
+# derived from it (comparison reports, extracted fields) belongs in a
+# normal git-tracked file instead, same as every other source in this repo.
+sources/hadithunlocked.com/original_source/
