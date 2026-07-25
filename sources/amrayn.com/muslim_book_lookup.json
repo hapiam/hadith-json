@@ -6299,6 +6299,12 @@
     "nameAr": "كتاب الصلاة",
     "source": "sectionNum"
   },
+  "401": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
   "402": {
     "book": 4,
     "nameEn": "The Book of Prayers",
@@ -8207,6 +8213,132 @@
     "nameAr": "كتاب الصلاة",
     "source": "sectionNum"
   },
+  "515": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "516": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "517": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "518": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "519": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "520": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "520a": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "520b": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "521": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "521a": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "521b": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "522": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "522a": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "522b": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "523": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "523a": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "523b": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "523c": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "523d": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "523e": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "523f": {
+    "book": 4,
+    "nameEn": "The Book of Prayers",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
   "524": {
     "book": 5,
     "nameEn": "The Book of Mosques and Places of Prayer",
@@ -8866,6 +8998,12 @@
     "nameEn": "The Book of Hunting, Slaughter, and what may be Eaten",
     "nameAr": "كتاب الصيد والذبائح وما يؤكل من الحيوان",
     "source": "sectionNum"
+  },
+  "562": {
+    "book": 34,
+    "nameEn": "The Book of Hunting, Slaughter, and what may be Eaten",
+    "nameAr": "كتاب الصيد والذبائح وما يؤكل من الحيوان",
+    "source": "sectionNum-forward-filled"
   },
   "563": {
     "book": 5,
@@ -14225,6 +14363,54 @@
     "nameAr": "كتاب الفضائل",
     "source": "sectionNum"
   },
+  "844": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
+  "844a": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
+  "844b": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
+  "844c": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
+  "844d": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
+  "845": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
+  "845a": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
+  "845b": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
   "846": {
     "book": 7,
     "nameEn": "The Book of Prayer - Friday",
@@ -14885,11 +15071,83 @@
     "nameAr": "كتاب الجمعة",
     "source": "sectionNum"
   },
+  "884": {
+    "book": 7,
+    "nameEn": "The Book of Prayer - Friday",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "884a": {
+    "book": 7,
+    "nameEn": "The Book of Prayer - Friday",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "884b": {
+    "book": 7,
+    "nameEn": "The Book of Prayer - Friday",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
   "884d": {
     "book": 8,
     "nameEn": "The Book of Prayer - Two Eids",
     "nameAr": "كتاب صلاة العيدين",
     "source": "sectionNum"
+  },
+  "885": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "885a": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "885b": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "886": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "886a": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "886b": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "887": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "888": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "889": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
   },
   "890": {
     "book": 8,
@@ -14992,6 +15250,36 @@
     "nameEn": "The Book of Prayer - Two Eids",
     "nameAr": "كتاب صلاة العيدين",
     "source": "sectionNum"
+  },
+  "894": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "894a": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "894b": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "894c": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
+  },
+  "894d": {
+    "book": 8,
+    "nameEn": "The Book of Prayer - Two Eids",
+    "nameAr": "كتاب صلاة العيدين",
+    "source": "sectionNum-forward-filled"
   },
   "895": {
     "book": 9,
@@ -15137,11 +15425,23 @@
     "nameAr": "كتاب الكسوف",
     "source": "sectionNum"
   },
+  "901e": {
+    "book": 10,
+    "nameEn": "The Book of Prayer - Eclipses",
+    "nameAr": "كتاب الكسوف",
+    "source": "sectionNum-forward-filled"
+  },
   "901g": {
     "book": 10,
     "nameEn": "The Book of Prayer - Eclipses",
     "nameAr": "كتاب الكسوف",
     "source": "sectionNum"
+  },
+  "902": {
+    "book": 10,
+    "nameEn": "The Book of Prayer - Eclipses",
+    "nameAr": "كتاب الكسوف",
+    "source": "sectionNum-forward-filled"
   },
   "902b": {
     "book": 10,
@@ -15526,6 +15826,30 @@
     "nameEn": "The Book of Prayer - Funerals",
     "nameAr": "كتاب الجنائز",
     "source": "sectionNum"
+  },
+  "928": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "928a": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "928b": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "929": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
   },
   "929c": {
     "book": 11,
@@ -16109,6 +16433,12 @@
     "nameAr": "كتاب الجنائز",
     "source": "sectionNum"
   },
+  "961": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
   "962": {
     "book": 11,
     "nameEn": "The Book of Prayer - Funerals",
@@ -16144,6 +16474,12 @@
     "nameEn": "The Book of Prayer - Funerals",
     "nameAr": "كتاب الجنائز",
     "source": "sectionNum"
+  },
+  "963": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
   },
   "963c": {
     "book": 11,
@@ -16216,6 +16552,12 @@
     "nameEn": "The Book of Prayer - Funerals",
     "nameAr": "كتاب الجنائز",
     "source": "sectionNum"
+  },
+  "969": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
   },
   "970": {
     "book": 11,
@@ -16366,6 +16708,66 @@
     "nameEn": "The Book of Prayer - Funerals",
     "nameAr": "كتاب الجنائز",
     "source": "sectionNum"
+  },
+  "979": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "979a": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "979b": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "979c": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "979d": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "979e": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "979f": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "979g": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "979h": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
+  },
+  "980": {
+    "book": 11,
+    "nameEn": "The Book of Prayer - Funerals",
+    "nameAr": "كتاب الجنائز",
+    "source": "sectionNum-forward-filled"
   },
   "981": {
     "book": 12,
@@ -17578,6 +17980,24 @@
     "nameEn": "The Book of Zakat",
     "nameAr": "كتاب الزكاة",
     "source": "sectionNum"
+  },
+  "1055b": {
+    "book": 12,
+    "nameEn": "The Book of Zakat",
+    "nameAr": "كتاب الزكاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1055c": {
+    "book": 12,
+    "nameEn": "The Book of Zakat",
+    "nameAr": "كتاب الزكاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1055d": {
+    "book": 12,
+    "nameEn": "The Book of Zakat",
+    "nameAr": "كتاب الزكاة",
+    "source": "sectionNum-forward-filled"
   },
   "1056": {
     "book": 12,
@@ -22241,6 +22661,12 @@
     "nameAr": "كتاب الحج",
     "source": "sectionNum"
   },
+  "1280": {
+    "book": 15,
+    "nameEn": "The Book of Pilgrimage",
+    "nameAr": "كتاب الحج",
+    "source": "sectionNum-forward-filled"
+  },
   "1280b": {
     "book": 15,
     "nameEn": "The Book of Pilgrimage",
@@ -22276,6 +22702,12 @@
     "nameEn": "The Book of Pilgrimage",
     "nameAr": "كتاب الحج",
     "source": "sectionNum"
+  },
+  "1281": {
+    "book": 15,
+    "nameEn": "The Book of Pilgrimage",
+    "nameAr": "كتاب الحج",
+    "source": "sectionNum-forward-filled"
   },
   "1281b": {
     "book": 15,
@@ -26597,11 +27029,29 @@
     "nameAr": "كتاب الطلاق",
     "source": "sectionNum"
   },
+  "1486": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
   "1486d": {
     "book": 18,
     "nameEn": "The Book of Divorce",
     "nameAr": "كتاب الطلاق",
     "source": "sectionNum"
+  },
+  "1487": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1488": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
   },
   "1488c": {
     "book": 18,
@@ -26614,6 +27064,12 @@
     "nameEn": "The Book of Divorce",
     "nameAr": "كتاب الطلاق",
     "source": "sectionNum"
+  },
+  "1489": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
   },
   "1490": {
     "book": 18,
@@ -26650,6 +27106,198 @@
     "nameEn": "The Book of Divorce",
     "nameAr": "كتاب الطلاق",
     "source": "sectionNum"
+  },
+  "1492": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1492a": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1492b": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1492c": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1493": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1493a": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1493c": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1493d": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1493e": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1493f": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1494": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1494a": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1494b": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1494c": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1495": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1495a": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1495b": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1496": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1497b": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1497c": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1498": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1498a": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1498b": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1498c": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1499": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1499a": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1499b": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1500": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1500a": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1500b": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1500c": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1500d": {
+    "book": 18,
+    "nameEn": "The Book of Divorce",
+    "nameAr": "كتاب الطلاق",
+    "source": "sectionNum-forward-filled"
   },
   "1501": {
     "book": 20,
@@ -26872,6 +27520,12 @@
     "nameEn": "The Book of Emancipating Slaves",
     "nameAr": "كتاب العتق",
     "source": "sectionNum"
+  },
+  "1508b": {
+    "book": 20,
+    "nameEn": "The Book of Emancipating Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
   },
   "1509": {
     "book": 20,
@@ -29159,6 +29813,12 @@
     "nameAr": "كتاب المساقاة",
     "source": "sectionNum"
   },
+  "1614": {
+    "book": 22,
+    "nameEn": "The Book of Musaqah",
+    "nameAr": "كتاب المساقاة",
+    "source": "sectionNum-forward-filled"
+  },
   "1615": {
     "book": 23,
     "nameEn": "The Book of the Rules of Inheritance",
@@ -29554,6 +30214,36 @@
     "nameEn": "The Book of Gifts",
     "nameAr": "كتاب الهبات",
     "source": "sectionNum"
+  },
+  "1627": {
+    "book": 24,
+    "nameEn": "The Book of Gifts",
+    "nameAr": "كتاب الهبات",
+    "source": "sectionNum-forward-filled"
+  },
+  "1627a": {
+    "book": 24,
+    "nameEn": "The Book of Gifts",
+    "nameAr": "كتاب الهبات",
+    "source": "sectionNum-forward-filled"
+  },
+  "1627b": {
+    "book": 24,
+    "nameEn": "The Book of Gifts",
+    "nameAr": "كتاب الهبات",
+    "source": "sectionNum-forward-filled"
+  },
+  "1627c": {
+    "book": 24,
+    "nameEn": "The Book of Gifts",
+    "nameAr": "كتاب الهبات",
+    "source": "sectionNum-forward-filled"
+  },
+  "1627e": {
+    "book": 24,
+    "nameEn": "The Book of Gifts",
+    "nameAr": "كتاب الهبات",
+    "source": "sectionNum-forward-filled"
   },
   "1628": {
     "book": 25,
@@ -31684,6 +32374,12 @@
     "nameEn": "The Book of Lost Property",
     "nameAr": "كتاب اللقطة",
     "source": "sectionNum"
+  },
+  "1729": {
+    "book": 31,
+    "nameEn": "The Book of Lost Property",
+    "nameAr": "كتاب اللقطة",
+    "source": "sectionNum-forward-filled"
   },
   "1730": {
     "book": 32,
@@ -36395,6 +37091,12 @@
     "nameAr": "كتاب الأشربة",
     "source": "sectionNum"
   },
+  "1999": {
+    "book": 36,
+    "nameEn": "The Book of Drinks",
+    "nameAr": "كتاب الأشربة",
+    "source": "sectionNum-forward-filled"
+  },
   "2000": {
     "book": 36,
     "nameEn": "The Book of Drinks",
@@ -38555,6 +39257,12 @@
     "nameAr": "كتاب اللباس والزينة",
     "source": "sectionNum"
   },
+  "2107": {
+    "book": 37,
+    "nameEn": "The Book of Clothes and Adornment",
+    "nameAr": "كتاب اللباس والزينة",
+    "source": "sectionNum-forward-filled"
+  },
   "2107b": {
     "book": 37,
     "nameEn": "The Book of Clothes and Adornment",
@@ -38668,6 +39376,12 @@
     "nameEn": "The Book of Clothes and Adornment",
     "nameAr": "كتاب اللباس والزينة",
     "source": "sectionNum"
+  },
+  "2110": {
+    "book": 37,
+    "nameEn": "The Book of Clothes and Adornment",
+    "nameAr": "كتاب اللباس والزينة",
+    "source": "sectionNum-forward-filled"
   },
   "2110b": {
     "book": 37,
@@ -40295,6 +41009,12 @@
     "nameAr": "كتاب السلام",
     "source": "sectionNum"
   },
+  "2214": {
+    "book": 39,
+    "nameEn": "The Book of Greetings",
+    "nameAr": "كتاب السلام",
+    "source": "sectionNum-forward-filled"
+  },
   "2215b": {
     "book": 39,
     "nameEn": "The Book of Greetings",
@@ -41123,11 +41843,239 @@
     "nameAr": "كتاب الألفاظ من الأدب وغيرها",
     "source": "sectionNum"
   },
+  "2255": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2255a": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2255c": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2256": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2256a": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2256b": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2256c": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2256d": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2256e": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2257": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2258": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2259": {
+    "book": 40,
+    "nameEn": "The Book Concerning the Use of Correct Words",
+    "nameAr": "كتاب الألفاظ من الأدب وغيرها",
+    "source": "sectionNum-forward-filled"
+  },
   "2260": {
     "book": 41,
     "nameEn": "The Book of Poetry",
     "nameAr": "كتاب الشعر",
     "source": "sectionNum"
+  },
+  "2261": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2261a": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2261b": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2261c": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2261d": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2261e": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2261f": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2261g": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2262": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2263": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2263a": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2263b": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2263c": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2263d": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2263e": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2263f": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2263g": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2263h": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2263i": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2264": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2264a": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2264b": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2265": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2265a": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2265b": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
+  },
+  "2265c": {
+    "book": 41,
+    "nameEn": "The Book of Poetry",
+    "nameAr": "كتاب الشعر",
+    "source": "sectionNum-forward-filled"
   },
   "2266": {
     "book": 42,
@@ -41236,6 +42184,18 @@
     "nameEn": "The Book of Dreams",
     "nameAr": "كتاب الرؤيا",
     "source": "sectionNum"
+  },
+  "2273": {
+    "book": 42,
+    "nameEn": "The Book of Dreams",
+    "nameAr": "كتاب الرؤيا",
+    "source": "sectionNum-forward-filled"
+  },
+  "2274": {
+    "book": 42,
+    "nameEn": "The Book of Dreams",
+    "nameAr": "كتاب الرؤيا",
+    "source": "sectionNum-forward-filled"
   },
   "2274b": {
     "book": 42,
@@ -41411,11 +42371,35 @@
     "nameAr": "كتاب الفضائل",
     "source": "sectionNum"
   },
+  "2290": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
+  "2291": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
   "2291b": {
     "book": 43,
     "nameEn": "The Book of Virtues",
     "nameAr": "كتاب الفضائل",
     "source": "sectionNum"
+  },
+  "2292": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
+  },
+  "2293": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
   },
   "2294": {
     "book": 43,
@@ -41722,6 +42706,12 @@
     "nameEn": "The Book of Virtues",
     "nameAr": "كتاب الفضائل",
     "source": "sectionNum"
+  },
+  "2310": {
+    "book": 43,
+    "nameEn": "The Book of Virtues",
+    "nameAr": "كتاب الفضائل",
+    "source": "sectionNum-forward-filled"
   },
   "2310b": {
     "book": 43,
@@ -44416,6 +45406,18 @@
     "nameEn": "The Book of the Merits of the Companions",
     "nameAr": "كتاب فضائل الصحابة رضى الله تعالى عنهم",
     "source": "sectionNum"
+  },
+  "2502": {
+    "book": 44,
+    "nameEn": "The Book of the Merits of the Companions",
+    "nameAr": "كتاب فضائل الصحابة رضى الله تعالى عنهم",
+    "source": "sectionNum-forward-filled"
+  },
+  "2503": {
+    "book": 44,
+    "nameEn": "The Book of the Merits of the Companions",
+    "nameAr": "كتاب فضائل الصحابة رضى الله تعالى عنهم",
+    "source": "sectionNum-forward-filled"
   },
   "2504": {
     "book": 44,
@@ -47633,6 +48635,12 @@
     "nameAr": "كتاب الذكر والدعاء والتوبة والاستغفار",
     "source": "sectionNum"
   },
+  "2709": {
+    "book": 48,
+    "nameEn": "The Book Pertaining to the Remembrance of Allah, Supplication, Repentance and Seeking Forgiveness",
+    "nameAr": "كتاب الذكر والدعاء والتوبة والاستغفار",
+    "source": "sectionNum-forward-filled"
+  },
   "2709b": {
     "book": 48,
     "nameEn": "The Book Pertaining to the Remembrance of Allah, Supplication, Repentance and Seeking Forgiveness",
@@ -48005,6 +49013,12 @@
     "nameAr": "كتاب الذكر والدعاء والتوبة والاستغفار",
     "source": "sectionNum"
   },
+  "2733": {
+    "book": 48,
+    "nameEn": "The Book Pertaining to the Remembrance of Allah, Supplication, Repentance and Seeking Forgiveness",
+    "nameAr": "كتاب الذكر والدعاء والتوبة والاستغفار",
+    "source": "sectionNum-forward-filled"
+  },
   "2735": {
     "book": 48,
     "nameEn": "The Book Pertaining to the Remembrance of Allah, Supplication, Repentance and Seeking Forgiveness",
@@ -48335,6 +49349,12 @@
     "nameAr": "كتاب التوبة",
     "source": "sectionNum"
   },
+  "2756b": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
   "2756c": {
     "book": 50,
     "nameEn": "The Book of Repentance",
@@ -48622,6 +49642,240 @@
     "nameEn": "The Book of Repentance",
     "nameAr": "كتاب التوبة",
     "source": "sectionNum"
+  },
+  "2772": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2773": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2773a": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2773b": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2774": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2774a": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2774b": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2775": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2775a": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2775b": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2776": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2776a": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2776b": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2777": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2778": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2779": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2779a": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2779b": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2779c": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2780": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2780a": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2780b": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2781": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2782": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2783": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2784": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2784a": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2784b": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2785": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2786": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2786a": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2786b": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2786c": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2786d": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2787": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2788": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2788a": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2788b": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2788c": {
+    "book": 50,
+    "nameEn": "The Book of Repentance",
+    "nameAr": "كتاب التوبة",
+    "source": "sectionNum-forward-filled"
   },
   "2789": {
     "book": 52,
@@ -49169,6 +50423,48 @@
     "nameAr": "كتاب صفة القيامة والجنة والنار",
     "source": "sectionNum"
   },
+  "2822": {
+    "book": 52,
+    "nameEn": "Characteristics of the Day of Judgment, Paradise, and Hell",
+    "nameAr": "كتاب صفة القيامة والجنة والنار",
+    "source": "sectionNum-forward-filled"
+  },
+  "2823": {
+    "book": 52,
+    "nameEn": "Characteristics of the Day of Judgment, Paradise, and Hell",
+    "nameAr": "كتاب صفة القيامة والجنة والنار",
+    "source": "sectionNum-forward-filled"
+  },
+  "2824": {
+    "book": 52,
+    "nameEn": "Characteristics of the Day of Judgment, Paradise, and Hell",
+    "nameAr": "كتاب صفة القيامة والجنة والنار",
+    "source": "sectionNum-forward-filled"
+  },
+  "2824a": {
+    "book": 52,
+    "nameEn": "Characteristics of the Day of Judgment, Paradise, and Hell",
+    "nameAr": "كتاب صفة القيامة والجنة والنار",
+    "source": "sectionNum-forward-filled"
+  },
+  "2824b": {
+    "book": 52,
+    "nameEn": "Characteristics of the Day of Judgment, Paradise, and Hell",
+    "nameAr": "كتاب صفة القيامة والجنة والنار",
+    "source": "sectionNum-forward-filled"
+  },
+  "2824c": {
+    "book": 52,
+    "nameEn": "Characteristics of the Day of Judgment, Paradise, and Hell",
+    "nameAr": "كتاب صفة القيامة والجنة والنار",
+    "source": "sectionNum-forward-filled"
+  },
+  "2825": {
+    "book": 52,
+    "nameEn": "Characteristics of the Day of Judgment, Paradise, and Hell",
+    "nameAr": "كتاب صفة القيامة والجنة والنار",
+    "source": "sectionNum-forward-filled"
+  },
   "2826": {
     "book": 53,
     "nameEn": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
@@ -49187,17 +50483,41 @@
     "nameAr": "كتاب الجنة وصفة نعيمها وأهلها",
     "source": "sectionNum"
   },
+  "2827": {
+    "book": 53,
+    "nameEn": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
+    "nameAr": "كتاب الجنة وصفة نعيمها وأهلها",
+    "source": "sectionNum-forward-filled"
+  },
+  "2828": {
+    "book": 53,
+    "nameEn": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
+    "nameAr": "كتاب الجنة وصفة نعيمها وأهلها",
+    "source": "sectionNum-forward-filled"
+  },
   "2829": {
     "book": 53,
     "nameEn": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
     "nameAr": "كتاب الجنة وصفة نعيمها وأهلها",
     "source": "sectionNum"
   },
+  "2830": {
+    "book": 53,
+    "nameEn": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
+    "nameAr": "كتاب الجنة وصفة نعيمها وأهلها",
+    "source": "sectionNum-forward-filled"
+  },
   "2830b": {
     "book": 53,
     "nameEn": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
     "nameAr": "كتاب الجنة وصفة نعيمها وأهلها",
     "source": "sectionNum"
+  },
+  "2831": {
+    "book": 53,
+    "nameEn": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
+    "nameAr": "كتاب الجنة وصفة نعيمها وأهلها",
+    "source": "sectionNum-forward-filled"
   },
   "2831b": {
     "book": 53,
@@ -50651,6 +51971,12 @@
     "nameAr": "كتاب الفتن وأشراط الساعة",
     "source": "sectionNum"
   },
+  "2930": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
   "2930b": {
     "book": 54,
     "nameEn": "The Book of Tribulations and Portents of the Last Hour",
@@ -50662,6 +51988,12 @@
     "nameEn": "The Book of Tribulations and Portents of the Last Hour",
     "nameAr": "كتاب الفتن وأشراط الساعة",
     "source": "sectionNum"
+  },
+  "2931": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
   },
   "2932": {
     "book": 54,
@@ -51077,6 +52409,264 @@
     "nameAr": "كتاب الفتن وأشراط الساعة",
     "source": "sectionNum"
   },
+  "2956": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2957": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2957a": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2957b": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2958": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2958a": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2958b": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2959b": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2960": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2961": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2961a": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2961b": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2962": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2963": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2963a": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2963b": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2963c": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2964": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2965": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2966": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2966a": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2966b": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2967": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2967a": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2967b": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2967c": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2968": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2969": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2970": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2970a": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2970b": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2970c": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2970d": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2970e": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2971": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2972": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2973": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2974": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2975": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2976": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2977": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2978": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "2979": {
+    "book": 54,
+    "nameEn": "The Book of Tribulations and Portents of the Last Hour",
+    "nameAr": "كتاب الفتن وأشراط الساعة",
+    "source": "sectionNum-forward-filled"
+  },
   "2980": {
     "book": 55,
     "nameEn": "The Book of Zuhd and Softening of Hearts",
@@ -51448,6 +53038,210 @@
     "nameEn": "The Book of Zuhd and Softening of Hearts",
     "nameAr": "كتاب الزهد والرقائق",
     "source": "sectionNum"
+  },
+  "3015": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3016": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3017": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3017a": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3017b": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3017c": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3018": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3018a": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3018b": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3018c": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3018d": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3018e": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3019": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3019a": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3019b": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3019c": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3020": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3021": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3021a": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3021b": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3022": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3022a": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3022b": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3023": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3023a": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3023b": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3023c": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3023d": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3023e": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3024": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3024a": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3024b": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3025": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3026": {
+    "book": 55,
+    "nameEn": "The Book of Zuhd and Softening of Hearts",
+    "nameAr": "كتاب الزهد والرقائق",
+    "source": "sectionNum-forward-filled"
   },
   "3027": {
     "book": 56,

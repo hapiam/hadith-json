@@ -1907,6 +1907,12 @@
     "nameAr": "كتاب الطهارة",
     "source": "sectionNum"
   },
+  "325": {
+    "book": 1,
+    "nameEn": "The Book of Purification",
+    "nameAr": "كتاب الطهارة",
+    "source": "sectionNum-forward-filled"
+  },
   "326": {
     "book": 2,
     "nameEn": "The Book of Water",
@@ -2566,6 +2572,36 @@
     "nameEn": "The Book of Ghusl and Tayammum",
     "nameAr": "كتاب الغسل والتيمم",
     "source": "sectionNum"
+  },
+  "436": {
+    "book": 4,
+    "nameEn": "The Book of Ghusl and Tayammum",
+    "nameAr": "كتاب الغسل والتيمم",
+    "source": "sectionNum-forward-filled"
+  },
+  "437": {
+    "book": 4,
+    "nameEn": "The Book of Ghusl and Tayammum",
+    "nameAr": "كتاب الغسل والتيمم",
+    "source": "sectionNum-forward-filled"
+  },
+  "438": {
+    "book": 4,
+    "nameEn": "The Book of Ghusl and Tayammum",
+    "nameAr": "كتاب الغسل والتيمم",
+    "source": "sectionNum-forward-filled"
+  },
+  "439": {
+    "book": 4,
+    "nameEn": "The Book of Ghusl and Tayammum",
+    "nameAr": "كتاب الغسل والتيمم",
+    "source": "sectionNum-forward-filled"
+  },
+  "440": {
+    "book": 4,
+    "nameEn": "The Book of Ghusl and Tayammum",
+    "nameAr": "كتاب الغسل والتيمم",
+    "source": "sectionNum-forward-filled"
   },
   "441": {
     "book": 4,
@@ -6101,6 +6137,18 @@
     "nameAr": "كتاب التطبيق",
     "source": "sectionNum"
   },
+  "1032": {
+    "book": 12,
+    "nameEn": "The Book of The At-Tatbiq (Clasping One's Hands Together)",
+    "nameAr": "كتاب التطبيق",
+    "source": "sectionNum-forward-filled"
+  },
+  "1033": {
+    "book": 12,
+    "nameEn": "The Book of The At-Tatbiq (Clasping One's Hands Together)",
+    "nameAr": "كتاب التطبيق",
+    "source": "sectionNum-forward-filled"
+  },
   "1034": {
     "book": 12,
     "nameEn": "The Book of The At-Tatbiq (Clasping One's Hands Together)",
@@ -8489,6 +8537,66 @@
     "nameAr": "كتاب الجمعة",
     "source": "sectionNum"
   },
+  "1433": {
+    "book": 14,
+    "nameEn": "The Book of Jumu'ah (Friday Prayer)",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1434": {
+    "book": 14,
+    "nameEn": "The Book of Jumu'ah (Friday Prayer)",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1435": {
+    "book": 14,
+    "nameEn": "The Book of Jumu'ah (Friday Prayer)",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1436": {
+    "book": 14,
+    "nameEn": "The Book of Jumu'ah (Friday Prayer)",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1437": {
+    "book": 14,
+    "nameEn": "The Book of Jumu'ah (Friday Prayer)",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1438": {
+    "book": 14,
+    "nameEn": "The Book of Jumu'ah (Friday Prayer)",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1439": {
+    "book": 14,
+    "nameEn": "The Book of Jumu'ah (Friday Prayer)",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1440": {
+    "book": 14,
+    "nameEn": "The Book of Jumu'ah (Friday Prayer)",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1441": {
+    "book": 14,
+    "nameEn": "The Book of Jumu'ah (Friday Prayer)",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
+  "1442": {
+    "book": 14,
+    "nameEn": "The Book of Jumu'ah (Friday Prayer)",
+    "nameAr": "كتاب الجمعة",
+    "source": "sectionNum-forward-filled"
+  },
   "1443": {
     "book": 15,
     "nameEn": "The Book of Shortening the Prayer When Traveling",
@@ -9166,6 +9274,12 @@
     "nameEn": "The Book of the Fear Prayer",
     "nameAr": "كتاب صلاة الخوف",
     "source": "sectionNum"
+  },
+  "1556": {
+    "book": 18,
+    "nameEn": "The Book of the Fear Prayer",
+    "nameAr": "كتاب صلاة الخوف",
+    "source": "sectionNum-forward-filled"
   },
   "1557": {
     "book": 19,
@@ -17327,6 +17441,12 @@
     "nameAr": "كتاب مناسك الحج",
     "source": "sectionNum"
   },
+  "2919": {
+    "book": 24,
+    "nameEn": "The Book of Hajj",
+    "nameAr": "كتاب مناسك الحج",
+    "source": "sectionNum-forward-filled"
+  },
   "2920": {
     "book": 24,
     "nameEn": "The Book of Hajj",
@@ -22918,6 +23038,498 @@
     "nameEn": "The Book of Agriculture",
     "nameAr": null,
     "source": "sectionNum"
+  },
+  "3857": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3858": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3859": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3860": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3861": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3862": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3863": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3864": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3865": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3866": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3867": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3868": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3869": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3870": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3871": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3872": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3873": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3874": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3875": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3876": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3877": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3878": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3879": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3880": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3881": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3882": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3883": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3884": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3885": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3886": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3887": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3888": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3889": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3890": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3891": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3892": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3893": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3894": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3895": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3896": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3897": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3898": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3899": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3900": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3901": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3902": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3903": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3904": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3905": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3906": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3907": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3908": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3909": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3910": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3911": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3912": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3913": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3914": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3915": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3916": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3917": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3918": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3919": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3920": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3921": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3922": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3923": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3924": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3925": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3926": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3927": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3928": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3929": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3930": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3931": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3932": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3933": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3934": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3935": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3936": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3937": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
+  },
+  "3938": {
+    "book": 35,
+    "nameEn": "The Book of Agriculture",
+    "nameAr": null,
+    "source": "sectionNum-forward-filled"
   },
   "3939": {
     "book": 36,
@@ -30335,6 +30947,24 @@
     "nameAr": "كتاب الزينة من السنن",
     "source": "sectionNum"
   },
+  "5180": {
+    "book": 48,
+    "nameEn": "The Book of Adornment",
+    "nameAr": "كتاب الزينة من السنن",
+    "source": "sectionNum-forward-filled"
+  },
+  "5181": {
+    "book": 48,
+    "nameEn": "The Book of Adornment",
+    "nameAr": "كتاب الزينة من السنن",
+    "source": "sectionNum-forward-filled"
+  },
+  "5182": {
+    "book": 48,
+    "nameEn": "The Book of Adornment",
+    "nameAr": "كتاب الزينة من السنن",
+    "source": "sectionNum-forward-filled"
+  },
   "5183": {
     "book": 48,
     "nameEn": "The Book of Adornment",
@@ -33568,6 +34198,30 @@
     "nameEn": "The Book of Drinks",
     "nameAr": "كتاب الأشربة",
     "source": "sectionNum"
+  },
+  "5731": {
+    "book": 51,
+    "nameEn": "The Book of Drinks",
+    "nameAr": "كتاب الأشربة",
+    "source": "sectionNum-forward-filled"
+  },
+  "5732": {
+    "book": 51,
+    "nameEn": "The Book of Drinks",
+    "nameAr": "كتاب الأشربة",
+    "source": "sectionNum-forward-filled"
+  },
+  "5733": {
+    "book": 51,
+    "nameEn": "The Book of Drinks",
+    "nameAr": "كتاب الأشربة",
+    "source": "sectionNum-forward-filled"
+  },
+  "5734": {
+    "book": 51,
+    "nameEn": "The Book of Drinks",
+    "nameAr": "كتاب الأشربة",
+    "source": "sectionNum-forward-filled"
   },
   "5735": {
     "book": 51,

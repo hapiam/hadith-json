@@ -53,6 +53,7 @@ void main() {
 
     final lookup = <String, dynamic>{};
     var unresolved = 0;
+    int? carried; // last-seen sectionNum, forward-filled across gaps.
     for (final h in hadiths) {
       final citation = (h['citation'] as String?) ?? '${h['idInBook']}';
       int? bookNum;
@@ -61,8 +62,23 @@ void main() {
         bookNum = h['malikChapterNum'] as int?;
         source = 'malikChapterNum';
       } else {
-        bookNum = (h['chapter'] as Map?)?['sectionNum'] as int?;
-        source = 'sectionNum';
+        final direct = (h['chapter'] as Map?)?['sectionNum'] as int?;
+        if (direct != null) {
+          bookNum = direct;
+          source = 'sectionNum';
+          carried = direct;
+        } else if (carried != null) {
+          // amrayn only re-renders the chapter block when it changes; a gap
+          // means "same book as the last hadith that had one" -- verified
+          // directly against already-captured data (citations 2-7 in
+          // Bukhari, whose OWN unbroken bookNumber field already said "1",
+          // matching this exact prediction with zero new fetches).
+          bookNum = carried;
+          source = 'sectionNum-forward-filled';
+        } else {
+          bookNum = null;
+          source = '';
+        }
       }
       if (bookNum == null) {
         unresolved++;

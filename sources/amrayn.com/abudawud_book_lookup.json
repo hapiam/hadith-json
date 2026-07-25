@@ -3803,6 +3803,18 @@
     "nameAr": "كتاب الصلاة",
     "source": "sectionNum"
   },
+  "635": {
+    "book": 2,
+    "nameEn": "Prayer (Kitab Al-Salat)",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
+  "636": {
+    "book": 2,
+    "nameEn": "Prayer (Kitab Al-Salat)",
+    "nameAr": "كتاب الصلاة",
+    "source": "sectionNum-forward-filled"
+  },
   "637": {
     "book": 2,
     "nameEn": "Prayer (Kitab Al-Salat)",
@@ -14753,6 +14765,24 @@
     "nameAr": "كتاب الصوم",
     "source": "sectionNum"
   },
+  "2462": {
+    "book": 14,
+    "nameEn": "Fasting (Kitab Al-Siyam)",
+    "nameAr": "كتاب الصوم",
+    "source": "sectionNum-forward-filled"
+  },
+  "2463": {
+    "book": 14,
+    "nameEn": "Fasting (Kitab Al-Siyam)",
+    "nameAr": "كتاب الصوم",
+    "source": "sectionNum-forward-filled"
+  },
+  "2464": {
+    "book": 14,
+    "nameEn": "Fasting (Kitab Al-Siyam)",
+    "nameAr": "كتاب الصوم",
+    "source": "sectionNum-forward-filled"
+  },
   "2465": {
     "book": 14,
     "nameEn": "Fasting (Kitab Al-Siyam)",
@@ -23777,6 +23807,246 @@
     "nameAr": "كتاب العتق",
     "source": "sectionNum"
   },
+  "3969": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3970": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3971": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3972": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3973": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3974": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3975": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3976": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3977": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3978": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3979": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3980": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3981": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3982": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3983": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3984": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3985": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3986": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3987": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3988": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3989": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3990": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3991": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3992": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3993": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3994": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3995": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3996": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3997": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3998": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "3999": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "4000": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "4001": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "4002": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "4003": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "4004": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "4005": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "4006": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "4007": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
+  "4008": {
+    "book": 31,
+    "nameEn": "The Book of Manumission of Slaves",
+    "nameAr": "كتاب العتق",
+    "source": "sectionNum-forward-filled"
+  },
   "4009": {
     "book": 33,
     "nameEn": "Hot Baths (Kitab Al-Hammam)",
@@ -23914,6 +24184,30 @@
     "nameEn": "Clothing (Kitab Al-Libas)",
     "nameAr": "كتاب اللباس",
     "source": "sectionNum"
+  },
+  "4032": {
+    "book": 34,
+    "nameEn": "Clothing (Kitab Al-Libas)",
+    "nameAr": "كتاب اللباس",
+    "source": "sectionNum-forward-filled"
+  },
+  "4033": {
+    "book": 34,
+    "nameEn": "Clothing (Kitab Al-Libas)",
+    "nameAr": "كتاب اللباس",
+    "source": "sectionNum-forward-filled"
+  },
+  "4034": {
+    "book": 34,
+    "nameEn": "Clothing (Kitab Al-Libas)",
+    "nameAr": "كتاب اللباس",
+    "source": "sectionNum-forward-filled"
+  },
+  "4035": {
+    "book": 34,
+    "nameEn": "Clothing (Kitab Al-Libas)",
+    "nameAr": "كتاب اللباس",
+    "source": "sectionNum-forward-filled"
   },
   "4036": {
     "book": 34,
@@ -25372,6 +25666,78 @@
     "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
     "nameAr": "كتاب الفتن والملاحم",
     "source": "sectionNum"
+  },
+  "4279": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4280": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4281": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4282": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4283": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4284": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4285": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4286": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4287": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4288": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4289": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
+  },
+  "4290": {
+    "book": 37,
+    "nameEn": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+    "nameAr": "كتاب الفتن والملاحم",
+    "source": "sectionNum-forward-filled"
   },
   "4291": {
     "book": 39,
@@ -26908,6 +27274,60 @@
     "nameEn": "Types of Blood-Wit (Kitab Al-Diyat)",
     "nameAr": "كتاب الديات",
     "source": "sectionNum"
+  },
+  "4547": {
+    "book": 41,
+    "nameEn": "Types of Blood-Wit (Kitab Al-Diyat)",
+    "nameAr": "كتاب الديات",
+    "source": "sectionNum-forward-filled"
+  },
+  "4548": {
+    "book": 41,
+    "nameEn": "Types of Blood-Wit (Kitab Al-Diyat)",
+    "nameAr": "كتاب الديات",
+    "source": "sectionNum-forward-filled"
+  },
+  "4549": {
+    "book": 41,
+    "nameEn": "Types of Blood-Wit (Kitab Al-Diyat)",
+    "nameAr": "كتاب الديات",
+    "source": "sectionNum-forward-filled"
+  },
+  "4550": {
+    "book": 41,
+    "nameEn": "Types of Blood-Wit (Kitab Al-Diyat)",
+    "nameAr": "كتاب الديات",
+    "source": "sectionNum-forward-filled"
+  },
+  "4551": {
+    "book": 41,
+    "nameEn": "Types of Blood-Wit (Kitab Al-Diyat)",
+    "nameAr": "كتاب الديات",
+    "source": "sectionNum-forward-filled"
+  },
+  "4552": {
+    "book": 41,
+    "nameEn": "Types of Blood-Wit (Kitab Al-Diyat)",
+    "nameAr": "كتاب الديات",
+    "source": "sectionNum-forward-filled"
+  },
+  "4553": {
+    "book": 41,
+    "nameEn": "Types of Blood-Wit (Kitab Al-Diyat)",
+    "nameAr": "كتاب الديات",
+    "source": "sectionNum-forward-filled"
+  },
+  "4554": {
+    "book": 41,
+    "nameEn": "Types of Blood-Wit (Kitab Al-Diyat)",
+    "nameAr": "كتاب الديات",
+    "source": "sectionNum-forward-filled"
+  },
+  "4555": {
+    "book": 41,
+    "nameEn": "Types of Blood-Wit (Kitab Al-Diyat)",
+    "nameAr": "كتاب الديات",
+    "source": "sectionNum-forward-filled"
   },
   "4556": {
     "book": 41,
