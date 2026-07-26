@@ -20,6 +20,10 @@
 			"translation": null,
 			"grades": [
 				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				},
+				{
 					"name": "Salim al-Hilali",
 					"grade": "Sahih"
 				}
@@ -37,6 +41,10 @@
 			"arabic": "قال عروة ولقد حدثتني عايشة زوج النبي صلى الله عليه وسلم ان رسول الله صلى الله عليه وسلم كان يصلي العصر والشمس في حجرتها قبل ان تظهر",
 			"translation": null,
 			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				},
 				{
 					"name": "Salim al-Hilali",
 					"grade": "Sahih"
@@ -56,6 +64,14 @@
 			"translation": null,
 			"grades": [
 				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				},
+				{
+					"name": "Sunnah.com",
+					"grade": "Mursal"
+				},
+				{
 					"name": "Salim al-Hilali",
 					"grade": "Sahih Lighairihi"
 				}
@@ -73,6 +89,10 @@
 			"arabic": "وحدثني يحيى، عن مالك، عن يحيى بن سعيد، عن عمرة بنت عبد الرحمن، عن عايشة، زوج النبي صلى الله عليه وسلم انها قالت ان كان رسول الله صلى الله عليه وسلم ليصلي الصبح فينصرف النساء متلفعات بمروطهن ما يعرفن من الغلس",
 			"translation": null,
 			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				},
 				{
 					"name": "Salim al-Hilali",
 					"grade": "Sahih"
@@ -92,6 +112,10 @@
 			"translation": null,
 			"grades": [
 				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				},
+				{
 					"name": "Salim al-Hilali",
 					"grade": "Sahih"
 				}
@@ -110,6 +134,10 @@
 			"translation": null,
 			"grades": [
 				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				},
+				{
 					"name": "Salim al-Hilali",
 					"grade": "Mauquf Daif"
 				}
@@ -127,6 +155,10 @@
 			"arabic": "وحدثني عن مالك، عن عمه ابي سهيل، عن ابيه، ان عمر بن الخطاب، كتب الى ابي موسى ان صل الظهر، اذا زاغت الشمس والعصر والشمس بيضاء نقية قبل ان يدخلها صفرة والمغرب اذا غربت الشمس واخر العشاء ما لم تنم وصل الصبح والنجوم بادية مشتبكة واقرا فيها بسورتين طويلتين من المفصل",
 			"translation": null,
 			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				},
 				{
 					"name": "Salim al-Hilali",
 					"grade": "Mauquf Sahih"
@@ -32059,6 +32091,10 @@
 			"arabic": "وحدثني مالك، عن عبد الله بن دينار، ان عبد الله بن عمر، كتب الى عبد الملك بن مروان يبايعه فكتب اليه بسم الله الرحمن الرحيم . اما بعد لعبد الله عبد الملك امير المومنين سلام عليك فاني احمد اليك الله الذي لا اله الا هو واقر لك بالسمع والطاعة على سنة الله وسنة رسوله فيما استطعت",
 			"translation": null,
 			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				},
 				{
 					"name": "Salim al-Hilali",
 					"grade": "Mauquf Sahih"

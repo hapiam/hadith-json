@@ -8695,10 +8695,10 @@
       "idInBook": 391,
       "chapterId": 2,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنِ الأَعْرَجِ، عَنْ عَبْدِ اللَّهِ ابْنِ بُحَيْنَةَ الأَسَدِيِّ، حَلِيفِ بَنِي عَبْدِ الْمُطَّلِبِ أَنَّ النَّبِيَّ ﷺ قَامَ فِي صَلاَةِ الظُّهْرِ وَعَلَيْهِ جُلُوسٌ فَلَمَّا أَتَمَّ صَلاَتَهُ سَجَدَ سَجْدَتَيْنِ يُكَبِّرُ فِي كُلِّ سَجْدَةٍ وَهُوَ جَالِسٌ قَبْلَ أَنْ يُسَلِّمَ وَسَجَدَهُمَا النَّاسُ مَعَهُ مَكَانَ مَا نَسِيَ مِنَ الْجُلُوسِ . قَالَ وَفِي الْبَابِ عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Prophet ﷺ stood for the Zuhr prayer, and he had a sitting to perform, so when he completed his Salat, he performed two prostrations, saying the Takbir for each prostration. So he was sitting before saying the Salam, and the people prostrated with him in place of the sitting he forgot.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 391b",
@@ -8722,7 +8722,8 @@
           "name": "Sunnah.com",
           "grade": "Da`eef (Weak)"
         }
-      ]
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5000392,
@@ -10052,16 +10053,23 @@
       "idInBook": 455,
       "chapterId": 3,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا يَحْيَى بْنُ زَكَرِيَّا بْنِ أَبِي زَائِدَةَ، عَنْ إِسْرَائِيلَ، عَنْ عِيسَى بْنِ أَبِي عَزَّةَ، عَنِ الشَّعْبِيِّ، عَنْ أَبِي ثَوْرٍ الأَزْدِيِّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ أَمَرَنِي رَسُولُ اللَّهِ ﷺ أَنْ أُوتِرَ قَبْلَ أَنْ أَنَامَ . قَالَ عِيسَى بْنُ أَبِي عَزَّةَ وَكَانَ الشَّعْبِيُّ يُوتِرُ أَوَّلَ اللَّيْلِ ثُمَّ يَنَامُ . قَالَ وَفِي الْبَابِ عَنْ أَبِي ذَرٍّ . \n\nقَالَ أَبُو عِيسَى حَدِيثُ أَبِي هُرَيْرَةَ حَدِيثٌ حَسَنٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ . وَأَبُو ثَوْرٍ الأَزْدِيُّ اسْمُهُ حَبِيبُ بْنُ أَبِي مُلَيْكَةَ . وَقَدِ اخْتَارَ قَوْمٌ مِنْ أَهْلِ الْعِلْمِ مِنْ أَصْحَابِ النَّبِيِّ ﷺ وَمَنْ بَعْدَهُمْ أَنْ لاَ يَنَامَ الرَّجُلُ حَتَّى يُوتِرَ .   وَرُوِيَ عَنِ النَّبِيِّ ﷺ أَنَّهُ قَالَ  \" مَنْ خَشِيَ مِنْكُمْ أَنْ لاَ يَسْتَيْقِظَ مِنْ آخِرِ اللَّيْلِ فَلْيُوتِرْ مِنْ أَوَّلِهِ وَمَنْ طَمِعَ مِنْكُمْ أَنْ يَقُومَ مِنْ آخِرِ اللَّيْلِ فَلْيُوتِرْ مِنْ آخِرِ اللَّيْلِ فَإِنَّ قِرَاءَةَ الْقُرْآنِ فِي آخِرِ اللَّيْلِ مَحْضُورَةٌ وَهِيَ أَفْضَلُ \" . حَدَّثَنَا بِذَلِكَ هَنَّادٌ حَدَّثَنَا أَبُو مُعَاوِيَةَ عَنِ الأَعْمَشِ عَنْ أَبِي سُفْيَانَ عَنْ جَابِرٍ عَنِ النَّبِيِّ ﷺ بِذَلِكَ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"Allah's Messenger ordered me to perform Al-Witr before sleeping.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 455",
         "url": "https://sunnah.com/tirmidhi:455"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5000456,
@@ -10089,32 +10097,46 @@
       "idInBook": 457,
       "chapterId": 3,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ عَمْرِو بْنِ مُرَّةَ، عَنْ يَحْيَى بْنِ الْجَزَّارِ، عَنْ أُمِّ سَلَمَةَ، قَالَتْ كَانَ النَّبِيُّ ﷺ يُوتِرُ بِثَلاَثَ عَشْرَةَ رَكْعَةً فَلَمَّا كَبِرَ وَضَعُفَ أَوْتَرَ بِسَبْعٍ . قَالَ وَفِي الْبَابِ عَنْ عَائِشَةَ . \n\nقَالَ أَبُو عِيسَى حَدِيثُ أُمِّ سَلَمَةَ حَدِيثٌ حَسَنٌ . وَقَدْ رُوِيَ عَنِ النَّبِيِّ ﷺ الْوِتْرُ بِثَلاَثَ عَشْرَةَ وَإِحْدَى عَشْرَةَ وَتِسْعٍ وَسَبْعٍ وَخَمْسٍ وَثَلاَثٍ وَوَاحِدَةٍ . قَالَ إِسْحَاقُ بْنُ إِبْرَاهِيمَ مَعْنَى مَا رُوِيَ أَنَّ النَّبِيَّ ﷺ كَانَ يُوتِرُ بِثَلاَثَ عَشْرَةَ قَالَ إِنَّمَا مَعْنَاهُ أَنَّهُ كَانَ يُصَلِّي مِنَ اللَّيْلِ ثَلاَثَ عَشْرَةَ رَكْعَةً مَعَ الْوِتْرِ فَنُسِبَتْ صَلاَةُ اللَّيْلِ إِلَى الْوِتْرِ . وَرَوَى فِي ذَلِكَ حَدِيثًا عَنْ عَائِشَةَ وَاحْتَجَّ بِمَا رُوِيَ عَنِ النَّبِيِّ ﷺ أَنَّهُ قَالَ  \" أَوْتِرُوا يَا أَهْلَ الْقُرْآنِ \" . قَالَ إِنَّمَا عَنَى بِهِ قِيَامَ اللَّيْلِ يَقُولُ إِنَّمَا قِيَامُ اللَّيْلِ عَلَى أَصْحَابِ الْقُرْآنِ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Prophet ﷺ would perform Witr with thirteen [Rak'ah]. When he was older and became weak he performed Witr with seven.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 457",
         "url": "https://sunnah.com/tirmidhi:457"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5000458,
       "idInBook": 458,
       "chapterId": 3,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ عَمْرِو بْنِ مُرَّةَ، عَنْ يَحْيَى بْنِ الْجَزَّارِ، عَنْ أُمِّ سَلَمَةَ، قَالَتْ كَانَ النَّبِيُّ ﷺ يُوتِرُ بِثَلاَثَ عَشْرَةَ رَكْعَةً فَلَمَّا كَبِرَ وَضَعُفَ أَوْتَرَ بِسَبْعٍ . قَالَ وَفِي الْبَابِ عَنْ عَائِشَةَ . \n\nقَالَ أَبُو عِيسَى حَدِيثُ أُمِّ سَلَمَةَ حَدِيثٌ حَسَنٌ . وَقَدْ رُوِيَ عَنِ النَّبِيِّ ﷺ الْوِتْرُ بِثَلاَثَ عَشْرَةَ وَإِحْدَى عَشْرَةَ وَتِسْعٍ وَسَبْعٍ وَخَمْسٍ وَثَلاَثٍ وَوَاحِدَةٍ . قَالَ إِسْحَاقُ بْنُ إِبْرَاهِيمَ مَعْنَى مَا رُوِيَ أَنَّ النَّبِيَّ ﷺ كَانَ يُوتِرُ بِثَلاَثَ عَشْرَةَ قَالَ إِنَّمَا مَعْنَاهُ أَنَّهُ كَانَ يُصَلِّي مِنَ اللَّيْلِ ثَلاَثَ عَشْرَةَ رَكْعَةً مَعَ الْوِتْرِ فَنُسِبَتْ صَلاَةُ اللَّيْلِ إِلَى الْوِتْرِ . وَرَوَى فِي ذَلِكَ حَدِيثًا عَنْ عَائِشَةَ وَاحْتَجَّ بِمَا رُوِيَ عَنِ النَّبِيِّ ﷺ أَنَّهُ قَالَ  \" أَوْتِرُوا يَا أَهْلَ الْقُرْآنِ \" . قَالَ إِنَّمَا عَنَى بِهِ قِيَامَ اللَّيْلِ يَقُولُ إِنَّمَا قِيَامُ اللَّيْلِ عَلَى أَصْحَابِ الْقُرْآنِ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Prophet ﷺ would perform Witr with thirteen [Rak'ah]. When he was older and became weak he performed Witr with seven.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 458",
         "url": "https://sunnah.com/tirmidhi:458"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5000459,
@@ -20350,16 +20372,23 @@
       "idInBook": 945,
       "chapterId": 9,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا عَلِيُّ بْنُ حُجْرٍ، أَخْبَرَنَا شَرِيكٌ، عَنْ جَابِرٍ، وَهُوَ ابْنُ يَزِيدَ الْجُعْفِيُّ عَنْ عَبْدِ الرَّحْمَنِ بْنِ الأَسْوَدِ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ حِضْتُ فَأَمَرَنِي رَسُولُ اللَّهِ ﷺ أَنْ أَقْضِيَ الْمَنَاسِكَ كُلَّهَا إِلاَّ الطَّوَافَ بِالْبَيْتِ . \n\nقَالَ أَبُو عِيسَى الْعَمَلُ عَلَى هَذَا الْحَدِيثِ عِنْدَ أَهْلِ الْعِلْمِ أَنَّ الْحَائِضَ تَقْضِي الْمَنَاسِكَ كُلَّهَا مَا خَلاَ الطَّوَافَ بِالْبَيْتِ . وَقَدْ رُوِيَ هَذَا الْحَدِيثُ عَنْ عَائِشَةَ مِنْ غَيْرِ هَذَا الْوَجْهِ أَيْضًا .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"I got my menses do the Prophet ordered me to carry out all the rites except for Tawaf around the House.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 945",
         "url": "https://sunnah.com/tirmidhi:945"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5000946,
@@ -25851,16 +25880,23 @@
       "idInBook": 1205,
       "chapterId": 14,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، أَنْبَأَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ مُجَالِدٍ، عَنِ الشَّعْبِيِّ، عَنِ النُّعْمَانِ بْنِ بَشِيرٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهُ ﷺ يَقُولُ  \" الْحَلاَلُ بَيِّنٌ وَالْحَرَامُ بَيِّنٌ وَبَيْنَ ذَلِكَ أُمُورٌ مُشْتَبِهَاتٌ لاَ يَدْرِي كَثِيرٌ مِنَ النَّاسِ أَمِنَ الْحَلاَلِ هِيَ أَمْ مِنَ الْحَرَامِ فَمَنْ تَرَكَهَا اسْتِبْرَاءً لِدِينِهِ وَعِرْضِهِ فَقَدْ سَلِمَ وَمَنْ وَاقَعَ شَيْئًا مِنْهَا يُوشِكُ أَنْ يُوَاقِعَ الْحَرَامَ كَمَا أَنَّهُ مَنْ يَرْعَى حَوْلَ الْحِمَى يُوشِكُ أَنْ يُوَاقِعَهُ أَلاَ وَإِنَّ لِكُلِّ مَلِكٍ حِمًى أَلاَ وَإِنَّ حِمَى اللَّهِ مَحَارِمُهُ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The lawful is clear and the unlawful is clear, and between that are matters that are doubtful (not clear); many of the people do not know whether it is lawful or unlawful. So whoever leaves it to protect his religion and his honor, then he will be safe, and whoever falls into something from them, then he soon will have fallen into the unlawful. Just like if someone grazes (his animals) around a sanctuary, he would soon wind up in it. Indeed for every king is a sanctuary (pasture), and indeed Allah's sanctuary is what He made unlawful.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1205",
         "url": "https://sunnah.com/tirmidhi:1205"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001206,
@@ -25913,32 +25949,46 @@
       "idInBook": 1208,
       "chapterId": 14,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا أَبُو بَكْرِ بْنُ عَيَّاشٍ، عَنْ عَاصِمٍ، عَنْ أَبِي وَائِلٍ، عَنْ قَيْسِ بْنِ أَبِي غَرَزَةَ، قَالَ خَرَجَ عَلَيْنَا رَسُولُ اللَّهِ ﷺ وَنَحْنُ نُسَمَّى السَّمَاسِرَةَ فَقَالَ  \" يَا مَعْشَرَ التُّجَّارِ إِنَّ الشَّيْطَانَ وَالإِثْمَ يَحْضُرَانِ الْبَيْعَ فَشُوبُوا بَيْعَكُمْ بِالصَّدَقَةِ \" . قَالَ وَفِي الْبَابِ عَنِ الْبَرَاءِ بْنِ عَازِبٍ وَرِفَاعَةَ . \n\nقَالَ أَبُو عِيسَى حَدِيثُ قَيْسِ بْنِ أَبِي غَرَزَةَ حَدِيثٌ حَسَنٌ صَحِيحٌ . رَوَاهُ مَنْصُورٌ وَالأَعْمَشُ وَحَبِيبُ بْنُ أَبِي ثَابِتٍ وَغَيْرُ وَاحِدٍ عَنْ أَبِي وَائِلٍ عَنْ قَيْسِ بْنِ أَبِي غَرَزَةَ . وَلاَ نَعْرِفُ لِقَيْسٍ عَنِ النَّبِيِّ ﷺ غَيْرَ هَذَا .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Messenger of Allah (S) came to us, and we were what was called 'brokers,' he said: 'O people of trade! Indeed the Shaitan and sin are present in the sale, so mix your sales with charity.'\" \n\nHe said: There are narrations on this topic from Al-Bara' bin 'Azib and Rifa'ah.\n\n[Abu 'Eisa said:] The Hadith of Qais bin Abi Gharazah (a narrator) is a Hasan Sahih Hadith.\n\nMansur, Al-A'mash, Habib bin Abi Thabit and others reported it from Abu Wa'il, from Qais bin Abi Gharzah, from the Prophet ﷺ. We do not know of anything from the Prophet ﷺ narrated by Qais other than this."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1208",
         "url": "https://sunnah.com/tirmidhi:1208"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001209,
       "idInBook": 1209,
       "chapterId": 14,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا قَبِيصَةُ، عَنْ سُفْيَانَ، عَنْ أَبِي حَمْزَةَ، عَنِ الْحَسَنِ، عَنْ أَبِي سَعِيدٍ، عَنِ النَّبِيِّ ﷺ قَالَ  \" التَّاجِرُ الصَّدُوقُ الأَمِينُ مَعَ النَّبِيِّينَ وَالصِّدِّيقِينَ وَالشُّهَدَاءِ \" . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ هَذَا الْوَجْهِ مِنْ حَدِيثِ الثَّوْرِيِّ عَنْ أَبِي حَمْزَةَ . وَأَبُو حَمْزَةَ اسْمُهُ عَبْدُ اللَّهِ بْنُ جَابِرٍ وَهُوَ شَيْخٌ بَصْرِيٌّ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The truthful, trustworthy merchant is with the Prophets, the truthful, and the martyrs.\" \n\n[Abu 'Eisa said:] This Hadith is Hasan, we do not know it except from this route, a narration of Ath-Thawri from Abu Hamzah. Abu Hamzah's name is 'Abdullah bin Jabir, and he is a Shaikh from Al-Basrah."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1209",
         "url": "https://sunnah.com/tirmidhi:1209"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001210,
@@ -26260,16 +26310,23 @@
       "idInBook": 1225,
       "chapterId": 14,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا مَالِكُ بْنُ أَنَسٍ، عَنْ عَبْدِ اللَّهِ بْنِ يَزِيدَ، أَنَّ زَيْدًا أَبَا عَيَّاشٍ، سَأَلَ سَعْدًا عَنِ الْبَيْضَاءِ، بِالسُّلْتِ فَقَالَ أَيُّهُمَا أَفْضَلُ قَالَ الْبَيْضَاءُ . فَنَهَى عَنْ ذَلِكَ . وَقَالَ سَعْدٌ سَمِعْتُ رَسُولَ اللَّهِ ﷺ يُسْأَلُ عَنِ اشْتِرَاءِ التَّمْرِ بِالرُّطَبِ فَقَالَ لِمَنْ حَوْلَهُ  \" أَيَنْقُصُ الرُّطَبُ إِذَا يَبِسَ \" . قَالُوا نَعَمْ . فَنَهَى عَنْ ذَلِكَ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"Zaid, Abu Ayyash asked Sa'd regarding white wheat in exchange for barley: which of them was better ? He said the white, then he forbade that. Sa'd said: 'I heard the Messenger of Allah ﷺ being asked about selling dried dates for ripe dates and he said to those present: \"Will the fresh dates shrink when they are dry ?\" They said yes, so he forbade that.'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1225",
         "url": "https://sunnah.com/tirmidhi:1225"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001226,
@@ -26885,16 +26942,23 @@
       "idInBook": 1255,
       "chapterId": 14,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنْ أَبِي شُجَاعٍ، سَعِيدِ بْنِ يَزِيدَ عَنْ خَالِدِ بْنِ أَبِي عِمْرَانَ، عَنْ حَنَشٍ الصَّنْعَانِيِّ، عَنْ فَضَالَةَ بْنِ عُبَيْدٍ، قَالَ اشْتَرَيْتُ يَوْمَ خَيْبَرَ قِلاَدَةً بِاثْنَىْ عَشَرَ دِينَارًا فِيهَا ذَهَبٌ وَخَرَزٌ فَفَصَّلْتُهَا فَوَجَدْتُ فِيهَا أَكْثَرَ مِنِ اثْنَىْ عَشَرَ دِينَارًا فَذَكَرْتُ ذَلِكَ لِلنَّبِيِّ ﷺ فَقَالَ  \" لاَ تُبَاعُ حَتَّى تُفَصَّلَ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"On the Day of Khaibar I purchased a necklace that contained gold and jewels for twelve Dinar. I separated it and found that it was worth more than twelve Dinar. I mentioned that to the Prophet ﷺ and he said: 'Do not sell it until it is separated.'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1255",
         "url": "https://sunnah.com/tirmidhi:1255"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001256,
@@ -26943,16 +27007,23 @@
       "idInBook": 1258,
       "chapterId": 14,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَحْمَدُ بْنُ سَعِيدٍ الدَّارِمِيُّ، حَدَّثَنَا حَبَّانُ، وَهُوَ ابْنُ هِلاَلٍ أَبُو حَبِيبٍ الْبَصْرِيُّ حَدَّثَنَا هَارُونُ الأَعْوَرُ الْمُقْرِئُ، وَهُوَ ابْنُ مُوسَى الْقَارِئُ حَدَّثَنَا الزُّبَيْرُ بْنُ الْخِرِّيتِ، عَنْ أَبِي لَبِيدٍ، عَنْ عُرْوَةَ الْبَارِقِيِّ، قَالَ دَفَعَ إِلَىَّ رَسُولُ اللَّهِ ﷺ دِينَارًا لأَشْتَرِيَ لَهُ شَاةً فَاشْتَرَيْتُ لَهُ شَاتَيْنِ فَبِعْتُ إِحْدَاهُمَا بِدِينَارٍ وَجِئْتُ بِالشَّاةِ وَالدِّينَارِ إِلَى النَّبِيِّ ﷺ . فَذَكَرَ لَهُ مَا كَانَ مِنْ أَمْرِهِ فَقَالَ لَهُ  \" بَارَكَ اللَّهُ لَكَ فِي صَفْقَةِ يَمِينِكَ \" . فَكَانَ يَخْرُجُ بَعْدَ ذَلِكَ إِلَى كُنَاسَةِ الْكُوفَةِ فَيَرْبَحُ الرِّبْحَ الْعَظِيمَ فَكَانَ مِنْ أَكْثَرِ أَهْلِ الْكُوفَةِ مَالاً .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Messenger of Allah ﷺ gave me on Dinar to purchase a sheep for him. So I purchased two sheeps for him, and I sold one of them for a Dinar. So I returned with the sheep and the Dinar to the Prophet ﷺ, and I mentioned what had happened and he said: 'May Allah bless you in your business dealings.' After that we went to Kunasah in Al-Kufah, and he made tremendous profits. He was among the wealthiest of the people in Al-Kufah.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1258",
         "url": "https://sunnah.com/tirmidhi:1258"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001259,
@@ -27841,16 +27912,23 @@
       "idInBook": 1301,
       "chapterId": 14,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا زَيْدُ بْنُ حُبَابٍ، عَنْ مَالِكِ بْنِ أَنَسٍ، عَنْ دَاوُدَ بْنِ حُصَيْنٍ، عَنْ أَبِي سُفْيَانَ، مَوْلَى ابْنِ أَبِي أَحْمَدَ عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ ﷺ رَخَّصَ فِي بَيْعِ الْعَرَايَا فِيمَا دُونَ خَمْسَةِ أَوْسُقٍ أَوْ كَذَا .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ permitted Al-'Araya in cases less than five Wasq. Or similar."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1301",
         "url": "https://sunnah.com/tirmidhi:1301"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001302,
@@ -28172,16 +28250,23 @@
       "idInBook": 1317,
       "chapterId": 14,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا وَهْبُ بْنُ جَرِيرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ سَلَمَةَ بْنِ كُهَيْلٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَجُلاً، تَقَاضَى رَسُولَ اللَّهِ ﷺ فَأَغْلَظَ لَهُ فَهَمَّ بِهِ أَصْحَابُهُ فَقَالَ رَسُولُ اللَّهِ ﷺ \" دَعُوهُ فَإِنَّ لِصَاحِبِ الْحَقِّ مَقَالاً \" ثُمَّ قَالَ \" اشْتَرُوا لَهُ بَعِيرًا فَأَعْطُوهُ إِيَّاهُ \" . فَطَلَبُوهُ فَلَمْ يَجِدُوا إِلاَّ سِنًّا أَفْضَلَ مِنْ سِنِّهِ . فَقَالَ \" اشْتَرُوهُ فَأَعْطُوهُ إِيَّاهُ فَإِنَّ خَيْرَكُمْ أَحْسَنُكُمْ قَضَاءً \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"A man behaved in a rude manner while trying to collect a debt from the Messenger of Allah ﷺ. So his Companions were about to harm him. The Messenger of Allah ﷺ said: 'Leave him, for indeed the owner of the the right has the right to speak.' Then he said: 'Purchase a camel for him and give it to him.' So they searched out but they did not find a camel but of a better ager than his camel. So he said: 'Buy it and give it to him. For indeed the best of you is the best in repaying.'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1317",
         "url": "https://sunnah.com/tirmidhi:1317"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Authentication status unknown"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001318,
@@ -28272,16 +28357,23 @@
       "idInBook": 1322,
       "chapterId": 15,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى الصَّنْعَانِيُّ، حَدَّثَنَا الْمُعْتَمِرُ بْنُ سُلَيْمَانَ، قَالَ سَمِعْتُ عَبْدَ الْمَلِكِ، يُحَدِّثُ عَنْ عَبْدِ اللَّهِ بْنِ مَوْهَبٍ، أَنَّ عُثْمَانَ، قَالَ لاِبْنِ عُمَرَ اذْهَبْ فَاقْضِ بَيْنَ النَّاسِ . قَالَ أَوَتُعَافِينِي يَا أَمِيرَ الْمُؤْمِنِينَ . قَالَ وَمَا تَكْرَهُ مِنْ ذَلِكَ وَقَدْ كَانَ أَبُوكَ يَقْضِي قَالَ إِنِّي سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ  \" مَنْ كَانَ قَاضِيًا فَقَضَى بِالْعَدْلِ فَبِالْحَرِيِّ أَنْ يَنْقَلِبَ مِنْهُ كَفَافًا \" . فَمَا أَرْجُو بَعْدَ ذَلِكَ وَفِي الْحَدِيثِ قِصَّةٌ . وَفِي الْبَابِ عَنْ أَبِي هُرَيْرَةَ . \n\nقَالَ أَبُو عِيسَى حَدِيثُ ابْنِ عُمَرَ حَدِيثٌ غَرِيبٌ وَلَيْسَ إِسْنَادُهُ عِنْدِي بِمُتَّصِلٍ . وَعَبْدُ الْمَلِكِ الَّذِي رَوَى عَنْهُ الْمُعْتَمِرُ هَذَا هُوَ عَبْدُ الْمَلِكِ بْنُ أَبِي جَمِيلَةَ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"Go and judge between the people.\" So he said: \"Perhaps you can excuse me (from that) O Commander of the Believers!\" He said: \"Why do you have an aversion for that when your father judged?\" He said: \"I heard the Messenger of Allah saying: 'Whoever was a judge and judged with justice, it still would have been better for him to have turned away from it completely.' What do I want after that?'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1322",
         "url": "https://sunnah.com/tirmidhi:1322"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001323,
@@ -29170,16 +29262,23 @@
       "idInBook": 1365,
       "chapterId": 15,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُعَاوِيَةَ الْجُمَحِيُّ الْبَصْرِيُّ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ قَتَادَةَ، عَنِ الْحَسَنِ، عَنْ سَمُرَةَ، أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ  \" مَنْ مَلَكَ ذَا رَحِمٍ مَحْرَمٍ فَهُوَ حُرٌّ \" . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ لاَ نَعْرِفُهُ مُسْنَدًا إِلاَّ مِنْ حَدِيثِ حَمَّادِ بْنِ سَلَمَةَ . وَقَدْ رَوَى بَعْضُهُمْ هَذَا الْحَدِيثَ عَنْ قَتَادَةَ عَنِ الْحَسَنِ عَنْ عُمَرَ شَيْئًا مِنْ هَذَا .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"Whoever owns a related Mahram, then he is free.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1365",
         "url": "https://sunnah.com/tirmidhi:1365"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001366,
@@ -29795,16 +29894,23 @@
       "idInBook": 1395,
       "chapterId": 16,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَبُو سَلَمَةَ، يَحْيَى بْنُ خَلَفٍ وَمُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ بَزِيعٍ حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ شُعْبَةَ، عَنْ يَعْلَى بْنِ عَطَاءٍ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، أَنَّ النَّبِيَّ ﷺ قَالَ  \" لَزَوَالُ الدُّنْيَا أَهْوَنُ عَلَى اللَّهِ مِنْ قَتْلِ رَجُلٍ مُسْلِمٍ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "that the Prophet ﷺ said: \"The world ceases to exist is less significant to Allah than killing a Muslim man.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1395",
         "url": "https://sunnah.com/tirmidhi:1395"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001396,
@@ -30315,16 +30421,23 @@
       "idInBook": 1420,
       "chapterId": 16,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا هَارُونُ بْنُ إِسْحَاقَ الْهَمْدَانِيُّ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الْوَهَّابِ الْكُوفِيُّ، شَيْخٌ ثِقَةٌ عَنْ سُفْيَانَ الثَّوْرِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَسَنِ بْنِ الْحَسَنِ بْنِ عَلِيِّ بْنِ أَبِي طَالِبٍ، حَدَّثَنِي إِبْرَاهِيمُ بْنُ مُحَمَّدِ بْنِ طَلْحَةَ، قَالَ سُفْيَانُ وَأَثْنَى عَلَيْهِ خَيْرًا قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ عَمْرٍو يَقُولُ قَالَ رَسُولُ اللَّهِ ﷺ  \" مَنْ أُرِيدَ مَالُهُ بِغَيْرِ حَقٍّ فَقَاتَلَ فَقُتِلَ فَهُوَ شَهِيدٌ \" . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "that the Messenger of Allah ﷺ said: \"If someone tries to get another's wealth without right, and he fights and is killed, then he is a martyr.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1420",
         "url": "https://sunnah.com/tirmidhi:1420"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001421,
@@ -30772,16 +30885,23 @@
       "idInBook": 1438,
       "chapterId": 17,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَبُو كُرَيْبٍ، وَيَحْيَى بْنُ أَكْثَمَ، قَالاَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ النَّبِيَّ ﷺ ضَرَبَ وَغَرَّبَ وَأَنَّ أَبَا بَكْرٍ ضَرَبَ وَغَرَّبَ وَأَنَّ عُمَرَ ضَرَبَ وَغَرَّبَ . قَالَ وَفِي الْبَابِ عَنْ أَبِي هُرَيْرَةَ وَزَيْدِ بْنِ خَالِدٍ وَعُبَادَةَ بْنِ الصَّامِتِ . \n\nقَالَ أَبُو عِيسَى حَدِيثُ ابْنِ عُمَرَ حَدِيثٌ غَرِيبٌ رَوَاهُ غَيْرُ وَاحِدٍ عَنْ عَبْدِ اللَّهِ بْنِ إِدْرِيسَ فَرَفَعُوهُ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ lashed and banished, Abu Bakr lashed and banished, and 'Umar lashed and banished."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1438",
         "url": "https://sunnah.com/tirmidhi:1438"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001439,
@@ -31334,16 +31454,23 @@
       "idInBook": 1465,
       "chapterId": 18,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا قَبِيصَةُ، عَنْ سُفْيَانَ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنْ هَمَّامِ بْنِ الْحَارِثِ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، قَالَ قُلْتُ يَا رَسُولَ اللَّهِ إِنَّا نُرْسِلُ كِلاَبًا لَنَا مُعَلَّمَةً . قَالَ \" كُلْ مَا أَمْسَكْنَ عَلَيْكَ \" . قُلْتُ يَا رَسُولَ اللَّهِ وَإِنْ قَتَلْنَ قَالَ \" وَإِنْ قَتَلْنَ مَا لَمْ يَشْرَكْهَا كَلْبٌ غَيْرُهَا \" . قَالَ قُلْتُ يَا رَسُولَ اللَّهِ إِنَّا نَرْمِي بِالْمِعْرَاضِ . قَالَ \" مَا خَزَقَ فَكُلْ وَمَا أَصَابَ بِعَرْضِهِ فَلاَ تَأْكُلْ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"I said: 'O Messenger of Allah! We send our trained dogs to catch game for us.' He said: 'Eat what it catches for you.' I said: 'O Messenger of Allah, and if they kill it?' He said: 'Even if they kill it, as long as they are not accompanied by some other dogs besides them.'\" He said: \"I said: 'O Messenger of Allah! We hunt with the Mir'ad.' He said: 'Eat of the game that the Mir'ad perces, but whatever is struck bu its broad side, then do not eat it.'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1465",
         "url": "https://sunnah.com/tirmidhi:1465"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001466,
@@ -31455,16 +31582,23 @@
       "idInBook": 1471,
       "chapterId": 18,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا يُوسُفُ بْنُ عِيسَى، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا زَكَرِيَّا، عَنِ الشَّعْبِيِّ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، قَالَ سَأَلْتُ النَّبِيَّ ﷺ عَنْ صَيْدِ الْمِعْرَاضِ فَقَالَ  \" مَا أَصَبْتَ بِحَدِّهِ فَكُلْ وَمَا أَصَبْتَ بِعَرْضِهِ فَهُوَ وَقِيذٌ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "I asked the Prophet ﷺ about game killed by Mir'ad. So he said: 'What you kill by its sharp edge then eat it, and what you kill by its broad side then, it was killed by something blunt.'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1471",
         "url": "https://sunnah.com/tirmidhi:1471"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001472,
@@ -31576,16 +31710,23 @@
       "idInBook": 1477,
       "chapterId": 18,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَحْمَدُ بْنُ الْحَسَنِ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ مَالِكِ بْنِ أَنَسٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي إِدْرِيسَ الْخَوْلاَنِيِّ، عَنْ أَبِي ثَعْلَبَةَ الْخُشَنِيِّ، قَالَ نَهَى رَسُولُ اللَّهِ ﷺ عَنْ كُلِّ ذِي نَابٍ مِنَ السِّبَاعِ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Messenger of Allah ﷺ prohibited (eating) every predator possessing canine teeth.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1477",
         "url": "https://sunnah.com/tirmidhi:1477"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001478,
@@ -31634,16 +31775,23 @@
       "idInBook": 1480,
       "chapterId": 18,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى الصَّنْعَانِيُّ، حَدَّثَنَا سَلَمَةُ بْنُ رَجَاءٍ، قَالَ حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي وَاقِدٍ اللَّيْثِيِّ، قَالَ قَدِمَ النَّبِيُّ ﷺ الْمَدِينَةَ وَهُمْ يَجُبُّونَ أَسْنِمَةَ الإِبِلِ وَيَقْطَعُونَ أَلْيَاتِ الْغَنَمِ قَالَ  \" مَا قُطِعَ مِنَ الْبَهِيمَةِ وَهِيَ حَيَّةٌ فَهُوَ مَيْتَةٌ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Prophet ﷺ came to Al-Madinah and they were in the habit of cutting the humps off of the camels and cutting the buttocks from the sheep. He said: 'Whatever is cut from an animal while it is alive, then it is dead flesh.'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1480",
         "url": "https://sunnah.com/tirmidhi:1480"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001481,
@@ -31713,16 +31861,23 @@
       "idInBook": 1484,
       "chapterId": 18,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا عَبْدَةُ، عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ، عَنْ صَيْفِيٍّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" إِنَّ لِبُيُوتِكُمْ عُمَّارًا فَحَرِّجُوا عَلَيْهِنَّ ثَلاَثًا فَإِنْ بَدَا لَكُمْ بَعْدَ ذَلِكَ مِنْهُنَّ شَيْءٌ فَاقْتُلُوهُ \" . \n\nقَالَ أَبُو عِيسَى هَكَذَا رَوَى عُبَيْدُ اللَّهِ بْنُ عُمَرَ هَذَا الْحَدِيثَ عَنْ صَيْفِيٍّ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ said: \"Indeed there are others inhabiting your homes. So yell at them three times (to leave). If you see any of them after that, then kill them.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1484",
         "url": "https://sunnah.com/tirmidhi:1484"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001485,
@@ -31855,32 +32010,46 @@
       "idInBook": 1491,
       "chapterId": 18,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ سَعِيدِ بْنِ مَسْرُوقٍ، عَنْ عَبَايَةَ بْنِ رِفَاعَةَ بْنِ رَافِعِ بْنِ خَدِيجٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، رَافِعِ بْنِ خَدِيجٍ قَالَ قُلْتُ يَا رَسُولَ اللَّهِ إِنَّا نَلْقَى الْعَدُوَّ غَدًا وَلَيْسَتْ مَعَنَا مُدًى فَقَالَ النَّبِيُّ ﷺ  \" مَا أَنْهَرَ الدَّمَ وَذُكِرَ اسْمُ اللَّهِ عَلَيْهِ فَكُلُوهُ مَا لَمْ يَكُنْ سِنًّا أَوْ ظُفُرًا وَسَأُحَدِّثُكُمْ عَنْ ذَلِكَ أَمَّا السِّنُّ فَعَظْمٌ وَأَمَّا الظُّفُرُ فَمُدَى الْحَبَشَةِ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"I said: 'O Messenger of Allah! We expect to meet the enemy tomorrow and we have no knives.' So the Prophet ﷺ said: 'As long as it causes blood to flow, and Allah's Name has been mentioned over it, then eat it, provided that it was not done with a tooth or nail. And I will tell you why: As for the tooth it is a bone, and as for the nail it is the knife of the Ethiopians.'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1491",
         "url": "https://sunnah.com/tirmidhi:1491"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001492,
       "idInBook": 1492,
       "chapterId": 18,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ سَعِيدِ بْنِ مَسْرُوقٍ، عَنْ عَبَايَةَ بْنِ رِفَاعَةَ بْنِ رَافِعٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، رَافِعِ بْنِ خَدِيجٍ قَالَ كُنَّا مَعَ النَّبِيِّ ﷺ فِي سَفَرٍ فَنَدَّ بَعِيرٌ مِنْ إِبِلِ الْقَوْمِ وَلَمْ يَكُنْ مَعَهُمْ خَيْلٌ فَرَمَاهُ رَجُلٌ بِسَهْمٍ فَحَبَسَهُ اللَّهُ فَقَالَ رَسُولُ اللَّهِ ﷺ  \" إِنَّ لِهَذِهِ الْبَهَائِمِ أَوَابِدَ كَأَوَابِدِ الْوَحْشِ فَمَا فَعَلَ مِنْهَا هَذَا فَافْعَلُوا بِهِ هَكَذَا \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"We were with the Prophet ﷺ on journey when the camel that belonged to some people ran away and they did not have a horse. So a man shot it with an arrow and Allah stopped it. The Messenger of Allah ﷺ said: 'Of these beasts there are some that are as wild as wild animals. So if one of them does this, then treat it similarly.'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1492",
         "url": "https://sunnah.com/tirmidhi:1492"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001493,
@@ -31971,32 +32140,46 @@
       "idInBook": 1497,
       "chapterId": 19,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا عَلِيُّ بْنُ حُجْرٍ، أَخْبَرَنَا جَرِيرُ بْنُ حَازِمٍ، عَنْ مُحَمَّدِ بْنِ إِسْحَاقَ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ سُلَيْمَانَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ عُبَيْدِ بْنِ فَيْرُوزَ، عَنِ الْبَرَاءِ بْنِ عَازِبٍ، رَفَعَهُ قَالَ  \" لاَ يُضَحَّى بِالْعَرْجَاءِ بَيِّنٌ ظَلَعُهَا وَلاَ بِالْعَوْرَاءِ بَيِّنٌ عَوَرُهَا وَلاَ بِالْمَرِيضَةِ بَيِّنٌ مَرَضُهَا وَلاَ بِالْعَجْفَاءِ الَّتِي لاَ تُنْقِي \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "A Marfu' narration (from the Prophet ﷺ), saying: \"A crippled animal whose limp is obvious is not to be slaughtered as sacrifice, nor an animal with a bad eye whose blindness is obvious, nor a sick animal whose sickness is obvious, nor an emaciated animal that has no marrow (in its bones).\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1497",
         "url": "https://sunnah.com/tirmidhi:1497"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001498,
       "idInBook": 1498,
       "chapterId": 19,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا الْحَسَنُ بْنُ عَلِيٍّ الْحُلْوَانِيُّ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا شَرِيكُ بْنُ عَبْدِ اللَّهِ، عَنْ أَبِي إِسْحَاقَ، عَنْ شُرَيْحِ بْنِ النُّعْمَانِ الصَّائِدِيِّ، وَهُوَ الْهَمْدَانِيُّ عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ، قَالَ أَمَرَنَا رَسُولُ اللَّهِ ﷺ أَنْ نَسْتَشْرِفَ الْعَيْنَ وَالأُذُنَ وَأَنْ لاَ نُضَحِّيَ بِمُقَابَلَةٍ وَلاَ مُدَابَرَةٍ وَلاَ شَرْقَاءَ وَلاَ خَرْقَاءَ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Messenger of Allah ﷺ ordered that we check the eyes and ears, and not to slaughter the Muqabalah, nor the Mudabarah, nor the Sharqa', nor the Kharqa'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1498",
         "url": "https://sunnah.com/tirmidhi:1498"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001499,
@@ -32024,16 +32207,23 @@
       "idInBook": 1500,
       "chapterId": 19,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ أَبِي الْخَيْرِ، عَنْ عُقْبَةَ بْنِ عَامِرٍ، أَنَّ رَسُولَ اللَّهِ ﷺ أَعْطَاهُ غَنَمًا يَقْسِمُهَا عَلَى أَصْحَابِهِ ضَحَايَا فَبَقِيَ عَتُودٌ أَوْ جَدْىٌ فَذَكَرْتُ ذَلِكَ لِرَسُولِ اللَّهِ ﷺ فَقَالَ  \" ضَحِّ بِهِ أَنْتَ \" . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ . قَالَ وَكِيعٌ الْجَذَعُ مِنَ الضَّأْنِ يَكُونُ ابْنَ سِتَّةِ أَوْ سَبْعَةِ أَشْهُرٍ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ gave him sheep to distribute among his Companions as a sacrifice. \"There remained a young male kid or a young billy goat, so I mentioned that to the Messenger of Allah ﷺ and he said: 'Sacrifice it for yourself.'\"\nWaki' said: \"The Jadha' among sheep is seven or six months.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1500",
         "url": "https://sunnah.com/tirmidhi:1500"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001501,
@@ -32334,16 +32524,23 @@
       "idInBook": 1515,
       "chapterId": 19,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا الْحَسَنُ بْنُ عَلِيٍّ الْخَلاَّلُ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا هِشَامُ بْنُ حَسَّانَ، عَنْ حَفْصَةَ بِنْتِ سِيرِينَ، عَنِ الرَّبَابِ، عَنْ سَلْمَانَ بْنِ عَامِرٍ الضَّبِّيِّ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" مَعَ الْغُلاَمِ عَقِيقَةٌ فَأَهْرِيقُوا عَنْهُ دَمًا وَأَمِيطُوا عَنْهُ الأَذَى \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ said: \"For a boy, there is an 'Aqiqah. So spill blood for him and remove the harm from him.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1515",
         "url": "https://sunnah.com/tirmidhi:1515"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001516,
@@ -32470,16 +32667,23 @@
       "idInBook": 1522,
       "chapterId": 19,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا عَلِيُّ بْنُ حُجْرٍ، أَخْبَرَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ إِسْمَاعِيلَ بْنِ مُسْلِمٍ، عَنِ الْحَسَنِ، عَنْ سَمُرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" الْغُلاَمُ مُرْتَهَنٌ بِعَقِيقَتِهِ يُذْبَحُ عَنْهُ يَوْمَ السَّابِعِ وَيُسَمَّى وَيُحْلَقُ رَأْسُهُ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ said: \"The boy is mortgaged by his 'Aqiqah; slaughtering should be done for him on the seventh day, he should be given a name, and his head should be shaved.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1522",
         "url": "https://sunnah.com/tirmidhi:1522"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001523,
@@ -32549,16 +32753,23 @@
       "idInBook": 1526,
       "chapterId": 20,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، عَنْ مَالِكِ بْنِ أَنَسٍ، عَنْ طَلْحَةَ بْنِ عَبْدِ الْمَلِكِ الأَيْلِيِّ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ، عَنْ عَائِشَةَ، عَنِ النَّبِيِّ ﷺ قَالَ  \" مَنْ نَذَرَ أَنْ يُطِيعَ اللَّهَ فَلْيُطِعْهُ وَمَنْ نَذَرَ أَنْ يَعْصِيَ اللَّهَ فَلاَ يَعْصِهِ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Prophet ﷺ said: \"Whoever vowed to obey Allah, then he should obey Him. And whoever vowed to disobey Allah, then he should not disobey Him.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1526",
         "url": "https://sunnah.com/tirmidhi:1526"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001527,
@@ -32775,16 +32986,23 @@
       "idInBook": 1537,
       "chapterId": 20,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَبُو مُوسَى، مُحَمَّدُ بْنُ الْمُثَنَّى حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، حَدَّثَنَا حُمَيْدٌ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، قَالَ مَرَّ النَّبِيُّ ﷺ بِشَيْخٍ كَبِيرٍ يَتَهَادَى بَيْنَ ابْنَيْهِ فَقَالَ \" مَا بَالُ هَذَا \" . قَالُوا يَا رَسُولَ اللَّهِ نَذَرَ أَنْ يَمْشِيَ . قَالَ \" إِنَّ اللَّهَ عَزَّ وَجَلَّ لَغَنِيٌّ عَنْ تَعْذِيبِ هَذَا نَفْسَهُ \" . قَالَ فَأَمَرَهُ أَنْ يَرْكَبَ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Prophet ﷺ passed by old man walking (while supported) between his two sons, so he said: 'What is the matter with this one?' They said: \"O Messenger of Allah! He vowed to walk.' He said: 'Verily Allah [the Mighty and Sublime] is in no need of this person punishing himself.'\" He said: \"So he ordered him to ride.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1537",
         "url": "https://sunnah.com/tirmidhi:1537"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001538,
@@ -33106,32 +33324,46 @@
       "idInBook": 1553,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ عُبَيْدٍ الْمُحَارِبِيُّ الْكُوفِيُّ، حَدَّثَنَا أَسْبَاطُ بْنُ مُحَمَّدٍ، عَنْ سُلَيْمَانَ التَّيْمِيِّ، عَنْ سَيَّارٍ، عَنْ أَبِي أُمَامَةَ، عَنِ النَّبِيِّ ﷺ قَالَ  \" إِنَّ اللَّهَ فَضَّلَنِي عَلَى الأَنْبِيَاءِ أَوْ قَالَ أُمَّتِي عَلَى الأُمَمِ وَأَحَلَّ لَنَا الْغَنَائِمَ \"\n\nوَفِي الْبَابِ عَنْ عَلِيٍّ وَأَبِي ذَرٍّ وَعَبْدِ اللَّهِ بْنِ عَمْرٍو وَأَبِي مُوسَى وَابْنِ عَبَّاسٍ . \n\nقَالَ أَبُو عِيسَى حَدِيثُ أَبِي أُمَامَةَ حَدِيثٌ حَسَنٌ صَحِيحٌ . وَسَيَّارٌ هَذَا يُقَالُ لَهُ سَيَّارٌ مَوْلَى بَنِي مُعَاوِيَةَ . وَرَوَى عَنْهُ سُلَيْمَانُ التَّيْمِيُّ وَعَبْدُ اللَّهِ بْنُ بَحِيرٍ وَغَيْرُ وَاحِدٍ .\n\nحَدَّثَنَا عَلِيُّ بْنُ حُجْرٍ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ، عَنِ الْعَلاَءِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ ﷺ قَالَ  \" فُضِّلْتُ عَلَى الأَنْبِيَاءِ بِسِتٍّ أُعْطِيتُ جَوَامِعَ الْكَلِمِ وَنُصِرْتُ بِالرُّعْبِ وَأُحِلَّتْ لِيَ الْغَنَائِمُ وَجُعِلَتْ لِيَ الأَرْضُ مَسْجِدًا وَطَهُورًا وَأُرْسِلْتُ إِلَى الْخَلْقِ كَافَّةً وَخُتِمَ بِيَ النَّبِيُّونَ \" . هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Prophet ﷺ said: \"Verily, Allah has honored me over the (other) Prophets\" - or he said: \"My nation over the nations, and He has made the spoils of war lawful for us.\"\n\nThere are narrations on this topic from ‘Ali, Abu Dharr, ‘Abdullah bin ‘Amr, Abu Musa, and Ibn ‘Abbas.\n\n[Abu ‘Eisa said:] The Hadith of Abu Umamah is a Hasan Sahih Hadith. They say that this Sayyar (a narrator) is Sayyar the freed slave of Banu Mu‘awiyah. Sulaiman At-Taimi, ‘Abdullah bin Bahir and others reported from him.\n\n(Another chain) from Abu Hurairah who narrated that the Prophet ﷺ said: “I have been honored over the Prophets with six (things): I have been given Jawami Al-Kalam, I have been aided by fright, the spoils of war have been made lawful for me, the earth has been made as a Masjid and purifier for me, and I have been sent to all creatures, and with me Prophethood is sealed.” \n\nThis Hadith is Hasan Sahih"
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1553",
         "url": "https://sunnah.com/tirmidhi:1553"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Darussalam",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001554,
       "idInBook": 1554,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدَةَ الضَّبِّيُّ، وَحُمَيْدُ بْنُ مَسْعَدَةَ، قَالاَ حَدَّثَنَا سُلَيْمُ بْنُ أَخْضَرَ، عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ ﷺ قَسَمَ فِي النَّفَلِ لِلْفَرَسِ بِسَهْمَيْنِ وَلِلرَّجُلِ بِسَهْمٍ .حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ سُلَيْمِ بْنِ أَخْضَرَ، نَحْوَهُ . وَفِي الْبَابِ عَنْ مُجَمِّعِ بْنِ جَارِيَةَ، وَابْنِ، عَبَّاسٍ وَابْنِ أَبِي عَمْرَةَ عَنْ أَبِيهِ، . وَهَذَا حَدِيثُ ابْنِ عُمَرَ حَدِيثٌ حَسَنٌ صَحِيحٌ . وَالْعَمَلُ عَلَى هَذَا عِنْدَ أَكْثَرِ أَهْلِ الْعِلْمِ مِنْ أَصْحَابِ النَّبِيِّ ﷺ وَغَيْرِهِمْ وَهُوَ قَوْلُ سُفْيَانَ الثَّوْرِيِّ وَالأَوْزَاعِيِّ وَمَالِكِ بْنِ أَنَسٍ وَابْنِ الْمُبَارَكِ وَالشَّافِعِيِّ وَأَحْمَدَ وَإِسْحَاقَ قَالُوا لِلْفَارِسِ ثَلاَثَةُ أَسْهُمٍ سَهْمٌ لَهُ وَسَهْمَانِ لِفَرَسِهِ وَلِلرَّاجِلِ سَهْمٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Messenger of Allah ﷺ divided the spoils as two shares for the horse and one share for the man.\"\n\nAnother chain with similar meaning.\n\nThere are narrations on this topic from Mujammi' bin Jariyah, Ibn 'Abbas, and Ibn Abi 'Amrah from his father. This Hadith of Ibn 'Umar is a Hasan Sahih Hadith. This is acted upon according to most of the people of knowledge among the Companions of the Prophet ﷺ and others.\n\nThis is the view of Sufyan At-Thawri, Al-Awzai', Malik bin Anas, Ibn Al-Mubarak, Ash-Shafi'i, Ahmad and Ishaq. They said that the horsemen gets three shares, one share is for him and two shares for his horse. The foot soldiers get one share."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1554",
         "url": "https://sunnah.com/tirmidhi:1554"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Darussalam",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001555,
@@ -33201,16 +33433,23 @@
       "idInBook": 1558,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا الأَنْصَارِيُّ، حَدَّثَنَا مَعْنٌ، حَدَّثَنَا مَالِكُ بْنُ أَنَسٍ، عَنِ الْفُضَيْلِ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ عَبْدِ اللَّهِ بْنِ نِيَارٍ الأَسْلَمِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّ رَسُولَ اللَّهِ ﷺ خَرَجَ إِلَى بَدْرٍ حَتَّى إِذَا كَانَ بِحَرَّةِ الْوَبَرِ لَحِقَهُ رَجُلٌ مِنَ الْمُشْرِكِينَ يَذْكُرُ مِنْهُ جُرْأَةً وَنَجْدَةً فَقَالَ لَهُ النَّبِيُّ ﷺ \" أَلَسْتَ تُؤْمِنُ بِاللَّهِ وَرَسُولِهِ \" . قَالَ لاَ . قَالَ \" ارْجِعْ فَلَنْ أَسْتَعِينَ بِمُشْرِكٍ \" . وَفِي الْحَدِيثِ كَلاَمٌ أَكْثَرُ مِنْ هَذَا . هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ . وَالْعَمَلُ عَلَى هَذَا عِنْدَ بَعْضِ أَهْلِ الْعِلْمِ قَالُوا لاَ يُسْهَمُ لأَهْلِ الذِّمَّةِ وَإِنْ قَاتَلُوا مَعَ الْمُسْلِمِينَ الْعَدُوَّ . وَرَأَى بَعْضُ أَهْلِ الْعِلْمِ أَنْ يُسْهَمَ لَهُمْ إِذَا شَهِدُوا الْقِتَالَ مَعَ الْمُسْلِمِينَ .وَيُرْوَى عَنِ الزُّهْرِيِّ، أَنَّ النَّبِيَّ ﷺ أَسْهَمَ لِقَوْمٍ مِنَ الْيَهُودِ قَاتَلُوا مَعَهُ . حَدَّثَنَا بِذَلِكَ قُتَيْبَةُ بْنُ سَعِيدٍ أَخْبَرَنَا عَبْدُ الْوَارِثِ بْنُ سَعِيدٍ عَنْ عَزْرَةَ بْنِ ثَابِتٍ عَنِ الزُّهْرِيِّ بِهَذَا . هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ advanced towards Badr till he reached Harrah Al-Wabr where he was met by a man from the idolaters, about whom it was said he was brave and courageous. The Prophet ﷺ said to him: \"Do you believe in Allah and his Messenger?\" He said: \"No.\" He said: \"Then return, because we do not seek aid from an idolater.\"\n\nThe Hadith has more dialogue than this. And this is a Hasan Gharib Hadith. This is acted upon according to some of the people of knowledge. They say that the people of Adh-Dhimmah do not recieve a share, even it they were to fight along with the Muslims against the enemy.\n\nSome of the people of knowledge said that they are given a share when they attend the battle with the Muslims. \n\nIt has been related by Az-Zuhri, that the Prophet ﷺ gave a portion to some people among the Jews who fought along with him. This was narrated to us by Qutaibah (who said):\n\n\"Abdul-Warith bin Sa'eed narrated to us from 'Urwah bin Thabit, from Az-Zuhri.\"\n\nThis Hadith is Hasan Gharib."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1558",
         "url": "https://sunnah.com/tirmidhi:1558"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001559,
@@ -33238,16 +33477,23 @@
       "idInBook": 1560,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا زَيْدُ بْنُ أَخْزَمَ الطَّائِيُّ، حَدَّثَنَا أَبُو قُتَيْبَةَ، سَلْمُ بْنُ قُتَيْبَةَ حَدَّثَنَا شُعْبَةُ، عَنْ أَيُّوبَ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَبِي ثَعْلَبَةَ الْخُشَنِيِّ، قَالَ سُئِلَ رَسُولُ اللَّهِ ﷺ عَنْ قُدُورِ الْمَجُوسِ فَقَالَ  \" أَنْقُوهَا غَسْلاً وَاطْبُخُوا فِيهَا \" . وَنَهَى عَنْ كُلِّ سَبُعٍ وَذِي نَابٍ . وَقَدْ رُوِيَ هَذَا الْحَدِيثُ مِنْ غَيْرِ هَذَا الْوَجْهِ عَنْ أَبِي ثَعْلَبَةَ رَوَاهُ أَبُو إِدْرِيسَ الْخَوْلاَنِيُّ عَنْ أَبِي ثَعْلَبَةَ . وَأَبُو قِلاَبَةَ لَمْ يَسْمَعْ مِنْ أَبِي ثَعْلَبَةَ إِنَّمَا رَوَاهُ عَنْ أَبِي أَسْمَاءَ عَنْ أَبِي ثَعْلَبَةَ .\n\nحَدَّثَنَا هَنَّادٌ، حَدَّثَنَا ابْنُ الْمُبَارَكِ، عَنْ حَيْوَةَ بْنِ شُرَيْحٍ، قَالَ سَمِعْتُ رَبِيعَةَ بْنَ يَزِيدَ الدِّمَشْقِيَّ، يَقُولُ أَخْبَرَنِي أَبُو إِدْرِيسَ الْخَوْلاَنِيُّ، عَائِذُ اللَّهِ بْنُ عُبَيْدِ اللَّهِ قَالَ سَمِعْتُ أَبَا ثَعْلَبَةَ الْخُشَنِيَّ، يَقُولُ أَتَيْتُ رَسُولَ اللَّهِ ﷺ فَقُلْتُ يَا رَسُولَ اللَّهِ إِنَّا بِأَرْضِ قَوْمٍ أَهْلِ كِتَابٍ نَأْكُلُ فِي آنِيَتِهِمْ قَالَ  \" إِنْ وَجَدْتُمْ غَيْرَ آنِيَتِهِمْ فَلاَ تَأْكُلُوا فِيهَا فَإِنْ لَمْ تَجِدُوا فَاغْسِلُوهَا وَكُلُوا فِيهَا \" . قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Messenger of Allah ﷺ was asked about the pots of the Zorastrians. He said: 'Clean them by washing them, and then cook in them.' And he prohibited every predator and possessor of canines.\"\n\nThis Hadith has been reported through routes other than this from Abu Tha'labah. Abu Idris Al-Khawlani reported it from Abu Tha'labah. Abu Qilabah did not hear from Abu Tha'labah, he only reported it from Abu Asma', from Abu Tha'labah.\n\nAnother chain from Abu Idris Al-Khawlani 'Ai'dhullah bin 'Ubaidullah who said:\n\n\"I heard Abu Tha'labah Al-Khushani saying: 'I went to the Messenger of Allah ﷺ and said: \"O Messenger of Allah! We live in a land of the People of the Book and we eat from their containers.\" He said: \"If you find other containers than do not eat from them. If you do not find them, then wash them and eat from them.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1560",
         "url": "https://sunnah.com/tirmidhi:1560"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001561,
@@ -33270,32 +33516,46 @@
       "idInBook": 1561,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، حَدَّثَنَا سُفْيَانُ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْحَارِثِ، عَنْ سُلَيْمَانَ بْنِ مُوسَى، عَنْ مَكْحُولٍ، عَنْ أَبِي سَلاَّمٍ، عَنْ أَبِي أُمَامَةَ، عَنْ عُبَادَةَ بْنِ الصَّامِتِ، أَنَّ النَّبِيَّ ﷺ كَانَ يُنَفِّلُ فِي الْبَدْأَةِ الرُّبُعَ وَفِي الْقُفُولِ الثُّلُثَ . وَفِي الْبَابِ عَنْ سَعْدٍ وَابْنِ عَبَّاسٍ وَحَبِيبِ بْنِ مَسْلَمَةَ وَمَعْنِ بْنِ يَزِيدَ وَابْنِ عُمَرَ وَسَلَمَةَ بْنِ الأَكْوَعِ . وَحَدِيثُ عُبَادَةَ حَدِيثٌ حَسَنٌ . وَقَدْ رُوِيَ هَذَا الْحَدِيثُ عَنْ أَبِي سَلاَّمٍ عَنْ رَجُلٍ مِنْ أَصْحَابِ النَّبِيِّ ﷺ.\n\nحَدَّثَنَا هَنَّادٌ، حَدَّثَنَا ابْنُ أَبِي الزِّنَادِ، عَنْ أَبِيهِ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ ﷺ تَنَفَّلَ سَيْفَهُ ذَا الْفَقَارِ يَوْمَ بَدْرٍ وَهُوَ الَّذِي رَأَى فِيهِ الرُّؤْيَا يَوْمَ أُحُدٍ . هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ إِنَّمَا نَعْرِفُهُ مِنْ هَذَا الْوَجْهِ مِنْ حَدِيثِ ابْنِ أَبِي الزِّنَادِ . وَقَدِ اخْتَلَفَ أَهْلُ الْعِلْمِ فِي النَّفَلِ مِنَ الْخُمُسِ فَقَالَ مَالِكُ بْنُ أَنَسٍ لَمْ يَبْلُغْنِي أَنَّ رَسُولَ اللَّهِ ﷺ نَفَّلَ فِي مَغَازِيهِ كُلِّهَا وَقَدْ بَلَغَنِي أَنَّهُ نَفَّلَ فِي بَعْضِهَا وَإِنَّمَا ذَلِكَ عَلَى وَجْهِ الاِجْتِهَادِ مِنَ الإِمَامِ فِي أَوَّلِ الْمَغْنَمِ وَآخِرِهِ . قَالَ ابْنُ مَنْصُورٍ قُلْتُ لأَحْمَدَ إِنَّ النَّبِيَّ ﷺ نَفَّلَ إِذَا فَصَلَ بِالرُّبُعِ بَعْدَ الْخُمُسِ وَإِذَا قَفَلَ بِالثُّلُثِ بَعْدَ الْخُمُسِ فَقَالَ يُخْرِجُ الْخُمُسَ ثُمَّ يُنَفِّلُ مِمَّا بَقِيَ وَلاَ يُجَاوِزُ هَذَا . قَالَ أَبُو عِيسَى وَهَذَا الْحَدِيثُ عَلَى مَا قَالَ ابْنُ الْمُسَيَّبِ النَّفَلُ مِنَ الْخُمُسِ . قَالَ إِسْحَاقُ كَمَا قَالَ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Prophet ﷺ used to confer a fourth of spoils of war in the early part of the expedition, and a third during the return.\"\n\nThere are narrations on this topic from Ibn 'Abbas, Habib bin Maslamh, Ma'n bin Yazid, Ibn 'Umar, and Salamah bin Al-Akwa'. This Hadith of 'Ubadah is a Hasan Hadith. This Hadith has also been reported from Abu Salam from a man among the Companions of the Prophet ﷺ. \n\nAnother chain from Ibn 'Abbas that the Prophet ﷺ took his sword Dhul-Fiqar on the Day of Badr, and it is the one that he saw in the dream on the Day of Uhud.\n\nThis Hadith is Hasan Gharib. We only know it from this route through the report of Ibn Abi Az-Zinad.\n\nThe people of knowledge differ over giving the Nafl from the Khumus. Malik bin Anas said:\n\n \"It has not reached me that the Messenger of Allah ﷺ gave the Nafl during every expedition, but it has been conveyed to me that he gave the Nafl in some of them. That is according to the discretion of the Imam during the beginning of the division of the spoils or the end of it.\"\n\nIbn Mansur said: \"I said to Ahmad: 'The Prophet ﷺ gave the Nafl when he divided the fourth, after the Khumus, and when he was returning (he gave) the third from the Khumus.' So he said: 'The Khumus is taken, and then the Nafl is given from what remains, nothing beyond this.''\"\n\n[Abu 'Eisa said:] This Hadith is (understood) as Ibn Musayyab said: \"The Nafl is from te Khumus.\" Ishaq said as he said."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1561b",
         "url": "https://sunnah.com/tirmidhi:1561b"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001562,
       "idInBook": 1562,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا الأَنْصَارِيُّ، حَدَّثَنَا مَعْنٌ، حَدَّثَنَا مَالِكُ بْنُ أَنَسٍ، عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ عُمَرَ بْنِ كَثِيرِ بْنِ أَفْلَحَ، عَنْ أَبِي مُحَمَّدٍ، مَوْلَى أَبِي قَتَادَةَ عَنْ أَبِي قَتَادَةَ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" مَنْ قَتَلَ قَتِيلاً لَهُ عَلَيْهِ بَيِّنَةٌ فَلَهُ سَلَبُهُ \" . \n\nحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ يَحْيَى بْنِ سَعِيدٍ، بِهَذَا الإِسْنَادِ نَحْوَهُ . وَفِي الْبَابِ عَنْ عَوْفِ بْنِ مَالِكٍ، وَخَالِدِ بْنِ الْوَلِيدِ، وَأَنَسٍ، وَسَمُرَةَ بْنِ جُنْدَبٍ، . وَهَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ . وَأَبُو مُحَمَّدٍ هُوَ نَافِعٌ مَوْلَى أَبِي قَتَادَةَ . وَالْعَمَلُ عَلَى هَذَا عِنْدَ بَعْضِ أَهْلِ الْعِلْمِ مِنْ أَصْحَابِ النَّبِيِّ ﷺ وَغَيْرِهِمْ وَهُوَ قَوْلُ الأَوْزَاعِيِّ وَالشَّافِعِيِّ وَأَحْمَدَ . وَقَالَ بَعْضُ أَهْلِ الْعِلْمِ لِلإِمَامِ أَنْ يُخْرِجَ مِنَ السَّلَبِ الْخُمُسَ . وَقَالَ الثَّوْرِيُّ النَّفَلُ أَنْ يَقُولَ الإِمَامُ مَنْ أَصَابَ شَيْئًا فَهُوَ لَهُ وَمَنْ قَتَلَ قَتِيلاً فَلَهُ سَلَبُهُ فَهُوَ جَائِزٌ وَلَيْسَ فِيهِ الْخُمُسُ . وَقَالَ إِسْحَاقُ السَّلَبُ لِلْقَاتِلِ إِلاَّ أَنْ يَكُونَ شَيْئًا كَثِيرًا فَرَأَى الإِمَامُ أَنْ يُخْرِجَ مِنْهُ الْخُمُسَ كَمَا فَعَلَ عُمَرُ بْنُ الْخَطَّابِ .\n\nقَالَ أَبُو عِيسَى وَفِي الْحَدِيثِ قِصَّةٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ said: \"Whoever kills someone in battle, having a proof for that, then his goods are his.\"\n\n[Abu 'Eisa said:] There is a story with this Hadith.\n\nAnother Chain with similar meaning\n\nThere are narrations on this topic from 'Awf bin Malik, Khalid bin Al-Walid, Anas, and Samurah.\n\nThis Hadith is Hasan Sahih. Abu Muhammad is Nafi' the freed slave of Abu Qatadah.\n\nThis is acted upon according to some of the people of knowledge among the Companions of the Prophet ﷺ and others. It is the view of Al-Awza'i, Ash-Shafi'i and Ahmad.\n\nSome of the people of knowledge said that the Imam takes Khumus from those goods. Ath-Thawri said:\n\n \"The Nafl is when the Imam says: 'Whoever got something, then it is his. And whoever killed a fighter, then his goods are his.' So it is allowed, and there is no Khumus taken from it.\" Ishaq said: \"The goods are for the one who did the killing, unless it is something that is a large amount.\" So he saw that the Imam could take the Khumus from that, just as 'Umar bin Al-Khattab did."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1562",
         "url": "https://sunnah.com/tirmidhi:1562"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001563,
@@ -33344,16 +33604,23 @@
       "idInBook": 1565,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا أَبُو دَاوُدَ الطَّيَالِسِيُّ، عَنْ شُعْبَةَ، أَخْبَرَنِي سِمَاكُ بْنُ حَرْبٍ، قَالَ سَمِعْتُ قَبِيصَةَ بْنَ هُلْبٍ، يُحَدِّثُ عَنْ أَبِيهِ، قَالَ سَأَلْتُ النَّبِيَّ ﷺ عَنْ طَعَامِ النَّصَارَى فَقَالَ  \" لاَ يَتَخَلَّجَنَّ فِي صَدْرِكَ طَعَامٌ ضَارَعْتَ فِيهِ النَّصْرَانِيَّةَ \" . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "From his father, who said: \"I asked the Prophet ﷺ about the food of the Christians. He ﷺ said: 'Do not allow food to put uneasiness in your chest similar to the doubts of Christianity about it.\"\n\n[Abu 'Eisa said:] This Hadith is Hasan\n\nThis is acted upon according to the people of knowledge regarding the permission for the food of the People of the Book."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1565",
         "url": "https://sunnah.com/tirmidhi:1565"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001566,
@@ -33633,16 +33900,23 @@
       "idInBook": 1579,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا يَحْيَى بْنُ أَكْثَمَ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي حَازِمٍ، عَنْ كَثِيرِ بْنِ زَيْدٍ، عَنِ الْوَلِيدِ بْنِ رَبَاحٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ ﷺ قَالَ  \" إِنَّ الْمَرْأَةَ لَتَأْخُذُ لِلْقَوْمِ \" . يَعْنِي تُجِيرُ عَلَى الْمُسْلِمِينَ . وَفِي الْبَابِ عَنْ أُمِّ هَانِئٍ . وَهَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ وَسَأَلْتُ مُحَمَّدًا فَقَالَ هَذَا حَدِيثٌ صَحِيحٌ . وَكَثِيرُ بْنُ زَيْدٍ قَدْ سَمِعَ مِنَ الْوَلِيدِ بْنِ رَبَاحٍ وَالْوَلِيدُ بْنُ رَبَاحٍ سَمِعَ مِنْ أَبِي هُرَيْرَةَ وَهُوَ مُقَارِبُ الْحَدِيثِ .\n\nحَدَّثَنَا أَبُو الْوَلِيدِ الدِّمَشْقِيُّ، حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، أَخْبَرَنِي ابْنُ أَبِي ذِئْبٍ، عَنْ سَعِيدٍ الْمَقْبُرِيِّ، عَنْ أَبِي مُرَّةَ، مَوْلَى عَقِيلِ بْنِ أَبِي طَالِبٍ عَنْ أُمِّ هَانِئٍ، أَنَّهَا قَالَتْ أَجَرْتُ رَجُلَيْنِ مِنْ أَحْمَائِي فَقَالَ رَسُولُ اللَّهِ ﷺ \" قَدْ أَمَّنَّا مَنْ أَمَّنْتِ \"\n\n قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ . وَالْعَمَلُ عَلَى هَذَا عِنْدَ أَهْلِ الْعِلْمِ أَجَازُوا أَمَانَ الْمَرْأَةِ وَهُوَ قَوْلُ أَحْمَدَ وَإِسْحَاقَ أَجَازَا أَمَانَ الْمَرْأَةِ وَالْعَبْدِ . وَأَبُو مُرَّةَ مَوْلَى عَقِيلِ بْنِ أَبِي طَالِبٍ وَيُقَالُ لَهُ أَيْضًا مَوْلَى أُمِّ هَانِئٍ وَاسْمُهُ يَزِيدُ . وَقَدْ رُوِيَ عَنْ عُمَرَ بْنِ الْخَطَّابِ أَنَّهُ أَجَازَ أَمَانَ الْعَبْدِ . وَقَدْ رُوِيَ عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ وَعَبْدِ اللَّهِ بْنِ عَمْرٍو عَنِ النَّبِيِّ ﷺ قَالَ \" ذِمَّةُ الْمُسْلِمِينَ وَاحِدَةٌ يَسْعَى بِهَا أَدْنَاهُمْ \" . قَالَ أَبُو عِيسَى وَمَعْنَى هَذَا عِنْدَ أَهْلِ الْعِلْمِ أَنَّ مَنْ أَعْطَى الأَمَانَ مِنَ الْمُسْلِمِينَ فَهُوَ جِائِزٌ عَلَى كُلِّهِمْ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Prophet ﷺ said: \"Indeed a woman grants (assurances of protection) to a people\" - meaning it is to be honored - \"from the Muslims.\"\n\nThere is something on this topic from Umm Hani, and this Hadith is Hasan Gharib.\n\nI asked Muhammad and he said: \"This Hadith is Sahih. Kathir bin Ziad heard from Al-Walid bin Rabah, and Al-Walid bin Rabah heard from Abu Hurairah, and he is Muqarib (average) in Hadith.\n\n(Another chain) from Umm Hani' who said:\n\n\"I granted asylum for two men among my brother-in-laws. So the Messenger of Allah ﷺ said: 'We grant security to whomever you have granted security.'\"\n\n[Abu 'Eisa said:] This Hadith is Hasan Sahih.\n\nThis is acted upon according to the people of knowledge. They permit assurance of protection by a women. This is the view of Ahmad and Ishaq. They permitted the asylum of a woman and slave\n\nIt has been related from other routes from 'Umar bin Al-Khattab that he permitted the asylum granted by a slave.\n\nOne of the narrators of this last narration Abu Murrah is the freed slave of 'Aqeel bin Abi Talib - they also say that he was freed slave  of Umm Hani' - and his name was Yazid.\n\nIt has been related from 'Ali bin Abi Talib and 'Abdullah bin 'Amr that the Prophet ﷺ said: \"The covenants of the Muslims are one, it covers the rest of them.\"\n\n[Abu 'Eisa said:] According to the people of knowledge, the meaning of this Hadith is that whoever gives assurance of protection among the Muslims, then it is valid to all of them."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1579",
         "url": "https://sunnah.com/tirmidhi:1579"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Darussalam",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001580,
@@ -34048,16 +34322,23 @@
       "idInBook": 1599,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا عَبَّادُ بْنُ عَبَّادٍ الْمُهَلَّبِيُّ، عَنْ أَبِي جَمْرَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ ﷺ قَالَ لِوَفْدِ عَبْدِ الْقَيْسِ  \" آمُرُكُمْ أَنْ تُؤَدُّوا خُمُسَ مَا غَنِمْتُمْ \" . قَالَ وَفِي الْحَدِيثِ قِصَّةٌ . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .\n\nحَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَبِي جَمْرَةَ، عَنِ ابْنِ عَبَّاسٍ، نَحْوَهُ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Prophet ﷺ said to a delegation from 'Abdul-Qais: \"I order you to give the Khumus from your spoils of war.\"\n\nHe said: There is a story with this Hadith\n\n[Abu 'Eisa said:] This Hadith is Hasan Sahih.\n\nAnother chain with similar narration."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1599",
         "url": "https://sunnah.com/tirmidhi:1599"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001600,
@@ -34421,32 +34702,46 @@
       "idInBook": 1617,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ سُفْيَانَ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنْ سُلَيْمَانَ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، قَالَ كَانَ رَسُولُ اللَّهِ ﷺ إِذَا بَعَثَ أَمِيرًا عَلَى جَيْشٍ أَوْصَاهُ فِي خَاصَّةِ نَفْسِهِ بِتَقْوَى اللَّهِ وَمَنْ مَعَهُ مِنَ الْمُسْلِمِينَ خَيْرًا وَقَالَ  \" اغْزُوا بِسْمِ اللَّهِ وَفِي سَبِيلِ اللَّهِ قَاتِلُوا مَنْ كَفَرَ بِاللَّهِ وَلاَ تَغُلُّوا وَلاَ تَغْدِرُوا وَلاَ تُمَثِّلُوا وَلاَ تَقْتُلُوا وَلِيدًا فَإِذَا لَقِيتَ عَدُوَّكَ مِنَ الْمُشْرِكِينَ فَادْعُهُمْ إِلَى إِحْدَى ثَلاَثِ خِصَالٍ أَوْ خِلاَلٍ أَيَّتَهَا أَجَابُوكَ فَاقْبَلْ مِنْهُمْ وَكُفَّ عَنْهُمُ ادْعُهُمْ إِلَى الإِسْلاَمِ وَالتَّحَوُّلِ مِنْ دَارِهِمْ إِلَى دَارِ الْمُهَاجِرِينَ وَأَخْبِرْهُمْ إِنْ فَعَلُوا ذَلِكَ فَإِنَّ لَهُمْ مَا لِلْمُهَاجِرِينَ وَعَلَيْهِمْ مَا عَلَى الْمُهَاجِرِينَ وَإِنْ أَبَوْا أَنْ يَتَحَوَّلُوا فَأَخْبِرْهُمْ أَنَّهُمْ يَكُونُوا كَأَعْرَابِ الْمُسْلِمِينَ يَجْرِي عَلَيْهِمْ مَا يَجْرِي عَلَى الأَعْرَابِ لَيْسَ لَهُمْ فِي الْغَنِيمَةِ وَالْفَىْءِ شَيْءٌ إِلاَّ أَنْ يُجَاهِدُوا فَإِنْ أَبَوْا فَاسْتَعِنْ بِاللَّهِ عَلَيْهِمْ وَقَاتِلْهُمْ وَإِذَا حَاصَرْتَ حِصْنًا فَأَرَادُوكَ أَنْ تَجْعَلَ لَهُمْ ذِمَّةَ اللَّهِ وَذِمَّةَ نَبِيِّهِ فَلاَ تَجْعَلْ لَهُمْ ذِمَّةَ اللَّهِ وَلاَ ذِمَّةَ نَبِيِّهِ وَاجْعَلْ لَهُمْ ذِمَّتَكَ وَذِمَمَ أَصْحَابِكَ لأَنَّكُمْ إِنْ تُخْفِرُوا ذِمَّتَكُمْ وَذِمَمَ أَصْحَابِكُمْ خَيْرٌ مِنْ أَنْ تُخْفِرُوا ذِمَّةَ اللَّهِ وَذِمَّةَ رَسُولِهِ وَإِذَا حَاصَرْتَ أَهْلَ حِصْنٍ فَأَرَادُوكَ أَنْ تُنْزِلَهُمْ عَلَى حُكْمِ اللَّهِ فَلاَ تُنْزِلُوهُمْ وَلَكِنْ أَنْزِلْهُمْ عَلَى حُكْمِكَ فَإِنَّكَ لاَ تَدْرِي أَتُصِيبُ حُكْمَ اللَّهِ فِيهِمْ أَمْ لاَ \" . أَوْ نَحْوَ هَذَا . \n\nقَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنِ النُّعْمَانِ بْنِ مُقَرِّنٍ . وَحَدِيثُ بُرَيْدَةَ حَدِيثٌ حَسَنٌ صَحِيحٌ .\n\nحَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا أَبُو أَحْمَدَ، عَنْ سُفْيَانَ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، نَحْوَهُ بِمَعْنَاهُ وَزَادَ فِيهِ  \" فَإِنْ أَبَوْا فَخُذْ مِنْهُمُ الْجِزْيَةَ فَإِنْ أَبَوْا فَاسْتَعِنْ بِاللَّهِ عَلَيْهِمْ \" . قَالَ أَبُو عِيسَى هَكَذَا رَوَاهُ وَكِيعٌ وَغَيْرُ وَاحِدٍ عَنْ سُفْيَانَ، . وَرَوَى غَيْرُ، مُحَمَّدِ بْنِ بَشَّارٍ عَنْ عَبْدِ الرَّحْمَنِ بْنِ مَهْدِيٍّ، وَذَكَرَ، فِيهِ أَمْرَ الْجِزْيَةِ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "From his father who said: \"When the Messenger of Allah (sawS) sent a commander of an army, he would exhort him concerning himself to have Taqwa of Allah, and he would exhort him to be good to those who are with him among the Muslims. He would say: 'Fight in the Name of Allah, in the cause of Allah. Fight those who disbelieve in Allah, and do not steal from the spoils of war or be treacherous, nor mutilate, and do not kill a child. When you meet your enemy among the idolaters, then call them to one of the three options or choices, whichever of them they respond to then accept it from them, and refrain from them. Call them to Islam, and to relocate from their land to the land of Emigrants. Inform them that if they do that, then they will have similar to what those who emigrated have, and from them will be required similar to what is required from those who have emigrated. And if they refuse to relocate, then inform them that they will be like the Bedouins among the Muslim, and they will be treated the same as Bedouins are\ntreated. There is no war spoils or Fay' for them, unless they fight along with the Muslims. If they refuse then seek aid from Allah against them and fight them. And if you lay siege to a fortress and they want you to grant them covenant from Allah and a covenant of His Prophet, then do not grant them the covenant of Allah nor the covenant of His Prophet. Rather grant them your own covenant and the covenant of your companions, it will be better than breaking Allah's covenant and the covenant of His Messenger. And if you lay siege to the people of a fortress and they want you to lift the siege for negotiating upon the judgement of Allah, then do not stop, but rather make them surrender to your judgement, for you do not know if you will come upon the judgement of Allah regarding them or not.' Or similar to that.\"\n\n[Abu 'Eisa said:] There is something on this topic from An-Nu'man bin Muqarrin, and the Hadith of Buraidah is a Hasan Sahih Hadith\n\nMuhammad bin Bash-shār narrated to us (he said):\n\n \"Abu Ahmad narrated to us from Sufyan (who said): \"Alqamah bin Marthad narrated to us' - and it is similar in its meaning, but he added in it: \"if they refuse, then take the Jizyah from them, and it they refuse then seek aid from Allah against them.\"\n\n[Abu 'Eisa said:] This is how it was reported from Waki' and others from Sufyan. And other than Muhammad bin Bash-shar reported it from 'Abdur-Rahman bin Mahdi, and he mentioned the matter of the Jizyah in it."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1617",
         "url": "https://sunnah.com/tirmidhi:1617"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Darussalam",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001618,
       "idInBook": 1618,
       "chapterId": 21,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا الْحَسَنُ بْنُ عَلِيٍّ الْخَلاَّلُ، حَدَّثَنَا عَفَّانُ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، حَدَّثَنَا ثَابِتٌ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ كَانَ النَّبِيُّ ﷺ لاَ يُغِيرُ إِلاَّ عِنْدَ صَلاَةِ الْفَجْرِ فَإِنْ سَمِعَ أَذَانًا أَمْسَكَ وَإِلاَّ أَغَارَ فَاسْتَمَعَ ذَاتَ يَوْمٍ فَسَمِعَ رَجُلاً يَقُولُ اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ . فَقَالَ \" عَلَى الْفِطْرَةِ \" . فَقَالَ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ . فَقَالَ \" خَرَجْتَ مِنَ النَّارِ \" .\n\nقَالَ الْحَسَنُ وَحَدَّثَنَا أَبُو الْوَلِيدِ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، بِهَذَا الإِسْنَادِ مِثْلَهُ . قَالَ أَبُو عِيسَى وَهَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Prophet ﷺ would not attack except near the time of Fajr, so if he heard the Adhan he would refrain, and if not, then he would attack. So he listened one day and heard a man saying: \"Allahu Akbar, Allahu Akbar,\" so he said: \"Upon the Fitrah.\" Then he said: \"I bear witness that none has the right to be worshipped but Allah.\" So he said: \"You have departed from the Fire.\"\n\nAnother chain with similar narrations. \n\n[Abu 'Eisa said:] This Hadith is Hasan Sahih."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1618",
         "url": "https://sunnah.com/tirmidhi:1618"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001619,
@@ -34831,16 +35126,23 @@
       "idInBook": 1637,
       "chapterId": 22,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَحْمَدُ بْنُ مَنِيعٍ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا مُحَمَّدُ بْنُ إِسْحَاقَ، عَنْ عَبْدِ اللَّهِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ أَبِي حُسَيْنٍ، أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ \" إِنَّ اللَّهَ لَيُدْخِلُ بِالسَّهْمِ الْوَاحِدِ ثَلاَثَةً الْجَنَّةَ صَانِعَهُ يَحْتَسِبُ فِي صَنْعَتِهِ الْخَيْرَ وَالرَّامِيَ بِهِ وَالْمُمِدَّ بِهِ \" . وَقَالَ \" ارْمُوا وَارْكَبُوا وَلأَنْ تَرْمُوا أَحَبُّ إِلَىَّ مِنْ أَنْ تَرْكَبُوا كُلُّ مَا يَلْهُو بِهِ الرَّجُلُ الْمُسْلِمُ بَاطِلٌ إِلاَّ رَمْيَهُ بِقَوْسِهِ وَتَأْدِيبَهُ فَرَسَهُ وَمُلاَعَبَتَهُ أَهْلَهُ فَإِنَّهُنَّ مِنَ الْحَقِّ \" .\n\nحَدَّثَنَا أَحْمَدُ بْنُ مَنِيعٍ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا هِشَامٌ الدَّسْتَوَائِيُّ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، عَنْ أَبِي سَلاَّمٍ، عَنْ عَبْدِ اللَّهِ بْنِ الأَزْرَقِ، عَنْ عُقْبَةَ بْنِ عَامِرٍ الْجُهَنِيِّ، عَنِ النَّبِيِّ ﷺ مِثْلَهُ . قَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنْ كَعْبِ بْنِ مُرَّةَ وَعَمْرِو بْنِ عَبَسَةَ وَعَبْدِ اللَّهِ بْنِ عَمْرٍو . وَهَذَا حَدِيثٌ حَسَنٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ said: \"Indeed, Allah will surely admit three into Paradise by a single arrow. Its maker who seeks good by his making it, the one who shoots it, and the one who holds arrows for him.\" And he said: \"Practice archery and practice riding, and the you should practice archery is more beloved to me than that you should ride. All idle pastimes that the Muslim man engages in are falsehood, except for his shooting of his bow, his training of his horse, and his playing with his wife, for they are from truth.\"\n\nAnother chain from 'Abdullah bin Al-Azraq, from 'Uqbah bin 'Amir [Al-Juhani] from the Prophet ﷺ with similar meaning.\n\n[Abu 'Eisa said:] There are narrations on this topic from Ka'b bin Murrah, 'Amr bin 'Abasah, and 'Abdullah bin 'Amr. This Hadith is Hasan Sahih."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1637",
         "url": "https://sunnah.com/tirmidhi:1637"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001638,
@@ -36258,16 +36560,23 @@
       "idInBook": 1705,
       "chapterId": 23,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ ﷺ قَالَ  \" أَلاَ كُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْئُولٌ عَنْ رَعِيَّتِهِ فَالأَمِيرُ الَّذِي عَلَى النَّاسِ رَاعٍ وَمَسْئُولٌ عَنْ رَعِيَّتِهِ وَالرَّجُلُ رَاعٍ عَلَى أَهْلِ بَيْتِهِ وَهُوَ مَسْئُولٌ عَنْهُمْ وَالْمَرْأَةُ رَاعِيَةٌ عَلَى بَيْتِ بَعْلِهَا وَهِيَ مَسْئُولَةٌ عَنْهُ وَالْعَبْدُ رَاعٍ عَلَى مَالِ سَيِّدِهِ وَهُوَ مَسْئُولٌ عَنْهُ أَلاَ فَكُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْئُولٌ عَنْ رَعِيَّتِهِ \" . \n\nقَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنْ أَبِي هُرَيْرَةَ وَأَنَسٍ وَأَبِي مُوسَى . وَحَدِيثُ أَبِي مُوسَى غَيْرُ مَحْفُوظٍ وَحَدِيثُ أَنَسٍ غَيْرُ مَحْفُوظٍ وَحَدِيثُ ابْنِ عُمَرَ حَدِيثٌ حَسَنٌ صَحِيحٌ .\n\nقَالَ ورواهُ إِبْرَاهِيمُ بْنُ بَشَّارٍ الرَّمَادِيُّ عَنْ سُفْيَانَ بْنِ عُيَيْنَةَ، عَنْ بُرَيْدِ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي بُرْدَةَ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، عَنِ النَّبِيِّ ﷺ . أَخْبَرَنِي بِذَلِكَ، مُحَمَّدٌ عَنْ إِبْرَاهِيمَ بْنِ بَشَّارٍ، . قَالَ وَرَوَى غَيْرُ، وَاحِدٍ، عَنْ سُفْيَانَ، عَنْ بُرَيْدٍ، عَنْ أَبِي بُرْدَةَ، عَنِ النَّبِيِّ ﷺ مُرْسَلاً وَهَذَا أَصَحُّ . قَالَ مُحَمَّدٌ وَرَوَى إِسْحَاقُ بْنُ إِبْرَاهِيمَ عَنْ مُعَاذِ بْنِ هِشَامٍ عَنْ أَبِيهِ عَنْ قَتَادَةَ عَنْ أَنَسٍ عَنِ النَّبِيِّ ﷺ  \" إِنَّ اللَّهَ سَائِلٌ كُلَّ رَاعٍ عَمَّا اسْتَرْعَاهُ \" . قَالَ سَمِعْتُ مُحَمَّدًا يَقُولُ هَذَا غَيْرُ مَحْفُوظٍ وَإِنَّمَا الصَّحِيحُ عَنْ مُعَاذِ بْنِ هِشَامٍ عَنْ أَبِيهِ عَنْ قَتَادَةَ عَنِ الْحَسَنِ عَنِ النَّبِيِّ ﷺ مُرْسَلاً .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Prophet ﷺ said: \"Indeed each of you is a shepherd and all of you will be questioned regarding your flock. The commander who is in authority over the Muslims is responsible and he will be questioned regarding his responsibility. The man is responsible over the inhabitants of his house and he is the one who will be questioned about them. The wife is responsible in her husband's house and she will be questioned about it. The slave is responsible regarding his master's property, and he will be questioned about it. Indeed each of you is a shepherd and each of you will be questioned about his flock.\"\n\n[Abu 'Eisa said:] There are narrations on this topic from Abu Hurairah, Anas, and Abu Musa. The Hadith of Abu Musa is not preserved, and the Hadith of Anas is not preserved. And the Hadith of Ibn 'Umar is Hasan Sahih Hadith. \n\nIbrahim bin Bash-shār Ar-Ramadi reported it from Sufyan bin 'Uyainah, from Buraid bin 'Abdullah bin Abu Burdah, from Abu Burdah, from Abu Musa, from the Prophet ﷺ.\n\nMuhammad informed me of that, from Ibrahim bin Bash-Shar [Ar-Ramadi]. Muhammad said:\n\n \"More than one has reported it from Sufyan, from Buraid bin Abu Burdah [from Abu Burdah] from the Prophet ﷺ in Mursal form. This is more correct.\" Muhammad said: \"Ishaq bin Ibrahim reported from Mu'adh bin Hisham, from his father, from Qatadah, from Anas, from the Prophet ﷺ who said: 'Indeed Allah will question everyone who is responsible about his charge.'\" I heard Muhammad saying: \"This is not preserved. It is only correct from Mu'adh bin Hisham from his father, from Qatadah, from Al-Hasan, from the Prophet ﷺ, in Mursal form.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1705",
         "url": "https://sunnah.com/tirmidhi:1705"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001706,
@@ -36337,16 +36646,23 @@
       "idInBook": 1709,
       "chapterId": 23,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ سُفْيَانَ، عَنِ الأَعْمَشِ، عَنْ أَبِي يَحْيَى، عَنْ مُجَاهِدٍ، أَنَّ النَّبِيَّ ﷺ نَهَى عَنِ التَّحْرِيشِ بَيْنَ الْبَهَائِمِ . وَلَمْ يَذْكُرْ فِيهِ عَنِ ابْنِ عَبَّاسٍ . وَيُقَالُ هَذَا أَصَحُّ مِنْ حَدِيثِ قُطْبَةَ ، وَرَوَى شَرِيكٌ، هَذَا الْحَدِيثَ عَنِ الأَعْمَشِ، عَنْ مُجَاهِدٍ، عَنِ ابْنِ عَبَّاسٍ، عَنِ النَّبِيِّ ﷺ نَحْوَهُ وَلَمْ يَذْكُرْ فِيهِ عَنْ أَبِي يَحْيَى . حَدَّثَنَا بِذَلِكَ أَبُو كُرَيْبٍ عَنْ يَحْيَى بْنِ آدَمَ عَنْ شَرِيكٍ . وَرَوَى أَبُو مُعَاوِيَةَ عَنِ الأَعْمَشِ عَنْ مُجَاهِدٍ عَنِ النَّبِيِّ ﷺ نَحْوَهُ . وَأَبُو يَحْيَى هُوَ الْقَتَّاتُ الْكُوفِيُّ وَيُقَالُ اسْمُهُ زَاذَانُ . قَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنْ طَلْحَةَ وَجَابِرٍ وَأَبِي سَعِيدٍ وَعِكْرَاشِ بْنِ ذُؤَيْبٍ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Prophet ﷺ prohibited instigating fights between beasts.\" And he did not mention \"from Ibn 'Abbas\" in it.\n\nIt is said that this is more correct that the (previous) narration of Qutbah. Sharik narrated this Hadith from Al-A'mash, from Mujahid, from Ibn 'Abbas, from the Prophet ﷺ similarly, but he did not mention \"from Abu Yahya\" in it. This was narrated to us by Abu Kuraib from Yahya bin Adam, from Sharik. Abu Mu'awiyah reported it from Al-A'mash, from Mujahid, from the Prophet ﷺ similarly. And Abu Yahya is Al-Qattat Al-Kufi, and it is said that his name is Zadhan.\n\n[Abu 'Eisa said:] There are narrations on this topic from Talhah, Jabir, Abu Sa'eed, and 'Ikrash bin Dhuwaib."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1709",
         "url": "https://sunnah.com/tirmidhi:1709"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Darussalam",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001710,
@@ -36374,16 +36690,23 @@
       "idInBook": 1711,
       "chapterId": 23,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْوَزِيرِ الْوَاسِطِيُّ، حَدَّثَنَا إِسْحَاقُ بْنُ يُوسُفَ الأَزْرَقُ، عَنْ سُفْيَانَ، عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ عُرِضْتُ عَلَى رَسُولِ اللَّهِ ﷺ فِي جَيْشٍ وَأَنَا ابْنُ أَرْبَعَ عَشَرَةَ فَلَمْ يَقْبَلْنِي ثُمَّ عُرِضْتُ عَلَيْهِ مِنْ قَابِلٍ فِي جَيْشٍ وَأَنَا ابْنُ خَمْسَ عَشَرَةَ فَقَبِلَنِي . قَالَ نَافِعٌ فَحَدَّثْتُ بِهَذَا الْحَدِيثِ عُمَرَ بْنَ عَبْدِ الْعَزِيزِ فَقَالَ هَذَا حَدُّ مَا بَيْنَ الصَّغِيرِ وَالْكَبِيرِ . ثُمَّ كَتَبَ أَنْ يُفْرَضَ لِمَنْ بَلَغَ الْخَمْسَ عَشَرَةَ .حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ عُبَيْدِ اللَّهِ، نَحْوَهُ بِمَعْنَاهُ إِلاَّ أَنَّهُ قَالَ قَالَ عُمَرُ بْنُ عَبْدِ الْعَزِيزِ هَذَا حَدُّ مَا بَيْنَ الذُّرِّيَّةِ وَالْمُقَاتِلَةِ . وَلَمْ يَذْكُرْ أَنَّهُ كَتَبَ أَنْ يُفْرَضَ . قَالَ أَبُو عِيسَى حَدِيثُ إِسْحَاقَ بْنِ يُوسُفَ حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ مِنْ حَدِيثِ سُفْيَانَ الثَّوْرِيِّ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That Ibn 'Umar said: \"I was reviewed before army, and I was fourteen years old, but he did not accept me. Then I was reviewed before him later in army while I was fifteen years old, and he accepted me.\"\n\nNafi said: \"I narrated this Hadith to 'Umar bin 'Abdul-'Aziz and he said: 'This is the limit that distinguishes between youth and manhood.' The he wrote to give salaries to whoever reached fifteen years of age.\n\nAnother chain with similar, but he (Nafi') said:\n\n\"Umar [bin 'Abdul-'Aziz] said: 'This is the limit that distinguished between children and soldiers.'\" And he did not mention him writing about the salary\n\n[Abu 'Eisa said:] The Hadith of Ishaq bin Yusuf is a Hasan Sahih Gharib Hadith as narration of Sufyan Ath-Thawri"
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1711",
         "url": "https://sunnah.com/tirmidhi:1711"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001712,
@@ -37314,32 +37637,46 @@
       "idInBook": 1756,
       "chapterId": 24,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا عَلِيُّ بْنُ خَشْرَمٍ، أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، عَنْ هِشَامٍ، عَنِ الْحَسَنِ، عَنْ عَبْدِ اللَّهِ بْنِ مُغَفَّلٍ، قَالَ نَهَى رَسُولُ اللَّهِ ﷺ عَنِ التَّرَجُّلِ إِلاَّ غِبًّا .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Messenger of Allah ﷺ prohibited combing except every other day."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1756",
         "url": "https://sunnah.com/tirmidhi:1756"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001757,
       "idInBook": 1757,
       "chapterId": 24,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ حُمَيْدٍ، حَدَّثَنَا أَبُو دَاوُدَ، - هُوَ الطَّيَالِسِيُّ عَنْ عَبَّادِ بْنِ مَنْصُورٍ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ ﷺ قَالَ \" اكْتَحِلُوا بِالإِثْمِدِ فَإِنَّهُ يَجْلُو الْبَصَرَ وَيُنْبِتُ الشَّعْرَ \" . وَزَعَمَ أَنَّ النَّبِيَّ ﷺ كَانَتْ لَهُ مُكْحُلَةٌ يَكْتَحِلُ بِهَا كُلَّ لَيْلَةٍ ثَلاَثَةً فِي هَذِهِ وَثَلاَثَةً فِي هَذِهِ . وَقَدْ رُوِيَ مِنْ غَيْرِ وَجْهٍ عَنِ النَّبِيِّ ﷺ أَنَّهُ قَالَ \" عَلَيْكُمْ بِالإِثْمِدِ فَإِنَّهُ يَجْلُو الْبَصَرَ وَيُنْبِتُ الشَّعْرَ \" . قَالَ وَفِي الْبَابِ عَنْ جَابِرٍ وَابْنِ عُمَرَ . \n\nقَالَ أَبُو عِيسَى حَدِيثُ ابْنِ عَبَّاسٍ حَدِيثٌ حَسَنٌ لاَ نَعْرِفُهُ عَلَى هَذَا اللَّفْظِ إِلاَّ مِنْ حَدِيثِ عَبَّادِ بْنِ مَنْصُورٍ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Prophet ﷺ said: \"Use Ithmid for Kohl, for it clears the vision and grows the hair (eye-lashes).\" And he claimed that the Prophet ﷺ had a Kohl holder with which he would apply Kohl every night, three in this (eye) and three in this.\n\nAnother chain with similar meaning.\n\nHe said: There are narrations on this topic from Jabir and Ibn 'Umar\n\n[Abu 'Eisa said:] The Hadith of Ibn 'Abbas is a Hasan Gharib Hadith, we do not know of it with this wording except from the narration of 'Abbas bin Mansur."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1757",
         "url": "https://sunnah.com/tirmidhi:1757"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001758,
@@ -37535,16 +37872,23 @@
       "idInBook": 1767,
       "chapterId": 24,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا سُوَيْدُ بْنُ نَصْرٍ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، عَنْ سَعِيدٍ الْجُرَيْرِيِّ، عَنْ أَبِي نَضْرَةَ، عَنْ أَبِي سَعِيدٍ، قَالَ كَانَ رَسُولُ اللَّهِ ﷺ إِذَا اسْتَجَدَّ ثَوْبًا سَمَّاهُ بِاسْمِهِ عِمَامَةً أَوْ قَمِيصًا أَوْ رِدَاءً ثُمَّ يَقُولُ  \" اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ كَسَوْتَنِيهِ أَسْأَلُكَ خَيْرَهُ وَخَيْرَ مَا صُنِعَ لَهُ وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ \" . \n\nقَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنْ عُمَرَ وَابْنِ عُمَرَ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"When the Messenger of Allah ﷺ, would wear a new garment he would mention what it was, whether an 'Imamah, a Qamis, or a Rida', then he would say: Allahumma lakal-hamdu, Anta kasawtanihi, as'aluka khairuhu wa khaira ma suni'a lahu, wa a'udhu bika min sharrihi wa sharri ma suni'a lahu'\" ('O Allah! For You is the praise, You have clothed me, I ask You for its good and the god for which it was made, and I seek refuge in You from its evil and the evil for which it was made.)\n\n[Abu 'Eisa said:] There are narrations on this topic from 'Umar, and Ibn 'Umar."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1767",
         "url": "https://sunnah.com/tirmidhi:1767"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001768,
@@ -37593,16 +37937,23 @@
       "idInBook": 1770,
       "chapterId": 24,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَحْمَدُ بْنُ مَنِيعٍ، حَدَّثَنَا عَلِيُّ بْنُ هَاشِمِ بْنِ الْبَرِيدِ، وَأَبُو سَعْدٍ الصَّغَانِيُّ عَنْ أَبِي الأَشْهَبِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ طَرَفَةَ، عَنْ عَرْفَجَةَ بْنِ أَسْعَدَ، قَالَ أُصِيبَ أَنْفِي يَوْمَ الْكُلاَبِ فِي الْجَاهِلِيَّةِ فَاتَّخَذْتُ أَنْفًا مِنْ وَرِقٍ فَأَنْتَنَ عَلَىَّ فَأَمَرَنِي رَسُولُ اللَّهِ ﷺ أَنْ أَتَّخِذَ أَنْفًا مِنْ ذَهَبٍ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"My nose was severed on the Day of Al-Kulab during Jahiliyyah. So I got a nose of silver which caused an infection for me, so the Messenger of Allah ﷺ ordered me to get a node made of gold.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1770",
         "url": "https://sunnah.com/tirmidhi:1770"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001771,
@@ -37819,16 +38170,23 @@
       "idInBook": 1781,
       "chapterId": 24,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنِي ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ ابْنِ أَبِي نَجِيحٍ، عَنْ مُجَاهِدٍ، عَنْ أُمِّ هَانِئٍ، قَالَتْ قَدِمَ رَسُولُ اللَّهِ ﷺ مَكَّةَ وَلَهُ أَرْبَعُ غَدَائِرَ . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ . قَالَ مُحَمَّدٌ لاَ أَعْرِفُ لِمُجَاهِدٍ سَمَاعًا مِنْ أُمِّ هَانِئٍ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Messenger of Allah ﷺ arrived in Makkah, and he had four braids.\"\n\n[Abu 'Eisa said:] This Hadith is Gharib. Muhammad said: \"I do not know of Mujahid (a narrator) hearing from Umm Hani.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1781",
         "url": "https://sunnah.com/tirmidhi:1781"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001782,
@@ -38087,16 +38445,23 @@
       "idInBook": 1794,
       "chapterId": 25,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا عَبْدُ الْوَهَّابِ الثَّقَفِيُّ، عَنْ يَحْيَى بْنِ سَعِيدٍ الأَنْصَارِيِّ، عَنْ مَالِكِ بْنِ أَنَسٍ، عَنِ الزُّهْرِيِّ، ح وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ عَبْدِ اللَّهِ، وَالْحَسَنِ، ابْنَىْ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ أَبِيهِمَا، عَنْ عَلِيٍّ، قَالَ نَهَى رَسُولُ اللَّهِ ﷺ عَنْ مُتْعَةِ النِّسَاءِ زَمَنَ خَيْبَرَ وَعَنْ لُحُومِ الْحُمُرِ الأَهْلِيَّةِ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "Fromt their father, that 'Ali said: \"During the time of Khaibar, the Messenger of Allah ﷺ prohibited Mut'ah with women and eating the meat of domesticated donkeys."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1794",
         "url": "https://sunnah.com/tirmidhi:1794"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001795,
@@ -38628,16 +38993,23 @@
       "idInBook": 1820,
       "chapterId": 25,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا الأَنْصَارِيُّ، حَدَّثَنَا مَعْنٌ، حَدَّثَنَا مَالِكٌ، ح وَحَدَّثَنَا قُتَيْبَةُ، عَنْ مَالِكٍ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" طَعَامُ الاِثْنَيْنِ كَافِي الثَّلاَثَةِ وَطَعَامُ الثَّلاَثَةِ كَافِي الأَرْبَعَةِ \" . قَالَ وَفِي الْبَابِ عَنْ جَابِرٍ وَابْنِ عُمَرَ . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ said: \"The food of two is sufficient for three, and the food of three is sufficient for four.\"\n\nHe said: There are narrations on this topic from Jabir, and Ibn 'Umar.\n\n[Abu 'Eisa said:] This Hadith is Hasan Sahih."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1820",
         "url": "https://sunnah.com/tirmidhi:1820"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001821,
@@ -38728,16 +39100,23 @@
       "idInBook": 1825,
       "chapterId": 25,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ ﷺ نَهَى عَنِ الْمُجَثَّمَةِ وَلَبَنِ الْجَلاَّلَةِ وَعَنِ الشُّرْبِ مِنْ فِي السِّقَاءِ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"The Prophet ﷺ prohibited the Mujath-thamah, the milk of the Jallalah, and drinking from the sprout of the water-skin.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1825",
         "url": "https://sunnah.com/tirmidhi:1825"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001826,
@@ -39269,16 +39648,23 @@
       "idInBook": 1851,
       "chapterId": 25,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ أَبِيهِ، عَنْ عُمَرَ بْنِ الْخَطَّابِ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" كُلُوا الزَّيْتَ وَادَّهِنُوا بِهِ فَإِنَّهُ مِنْ شَجَرَةٍ مُبَارَكَةٍ \" . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ حَدِيثِ عَبْدِ الرَّزَّاقِ عَنْ مَعْمَرٍ وَكَانَ عَبْدُ الرَّزَّاقِ يَضْطَرِبُ فِي رِوَايَةِ هَذَا الْحَدِيثِ فَرُبَّمَا ذَكَرَ فِيهِ عَنْ عُمَرَ عَنِ النَّبِيِّ ﷺ وَرُبَّمَا رَوَاهُ عَلَى الشَّكِّ فَقَالَ أَحْسَبُهُ عَنْ عُمَرَ عَنِ النَّبِيِّ ﷺ وَرُبَّمَا قَالَ عَنْ زَيْدِ بْنِ أَسْلَمَ عَنْ أَبِيهِ عَنِ النَّبِيِّ ﷺ مُرْسَلاً .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Messenger of Allah ﷺ said: \"Eat olive and use its oil, for indeed it is a blessed tree.\"\n\n[Abu 'Eisa said:] We do not know of this Hadith except through the narration of 'Abdur-Razzaq from Ma'mar (narrators in the chain of this Hadith). 'Abdur-Razzaq would narrate this with Idtirab. Sometimes he mentioned in it: \"From 'Umar, from the Prophet ﷺ\" and sometimes he reported it indicating doubt, saying: \"I think it is from 'Umar from the Prophet ﷺ.\" And sometimes he said: \"From Zaid bin Aslam, from his father, from the Prophet ﷺ\" in a Mursal form."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1851",
         "url": "https://sunnah.com/tirmidhi:1851"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001852,
@@ -39411,16 +39797,23 @@
       "idInBook": 1858,
       "chapterId": 25,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا أَبُو بَكْرٍ، مُحَمَّدُ بْنُ أَبَانَ حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا هِشَامٌ الدَّسْتَوَائِيُّ، عَنْ بُدَيْلِ بْنِ مَيْسَرَةَ الْعُقَيْلِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ عُبَيْدِ بْنِ عُمَيْرٍ، عَنْ أُمِّ كُلْثُومٍ، عَنْ عَائِشَةَ، قَالَتْ قَالَ رَسُولُ اللَّهِ ﷺ  \" إِذَا أَكَلَ أَحَدُكُمْ طَعَامًا فَلْيَقُلْ بِسْمِ اللَّهِ فَإِنْ نَسِيَ فِي أَوَّلِهِ فَلْيَقُلْ بِسْمِ اللَّهِ فِي أَوَّلِهِ وَآخِرِهِ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "From 'Aishah that the Messenger of Allah ﷺ said: \"When one of you eats food, then let him say: 'Bismillah.' If he forgets in the beginning, then let him say: 'Bismillah Fi Awwalihi Wa Akhirih (In the Name of Allah in its beginning and its end.)\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1858",
         "url": "https://sunnah.com/tirmidhi:1858"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001859,
@@ -39968,16 +40361,23 @@
       "idInBook": 1884,
       "chapterId": 26,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ، وَيُوسُفُ بْنُ حَمَّادٍ، قَالاَ حَدَّثَنَا عَبْدُ الْوَارِثِ بْنُ سَعِيدٍ، عَنْ أَبِي عِصَامٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ النَّبِيَّ ﷺ كَانَ يَتَنَفَّسُ فِي الإِنَاءِ ثَلاَثًا وَيَقُولُ  \" هُوَ أَمْرَأُ وَأَرْوَى \" . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ . وَرَوَاهُ هِشَامٌ الدَّسْتَوَائِيُّ عَنْ أَبِي عِصَامٍ عَنْ أَنَسٍ .  وَرَوَى عَزْرَةُ بْنُ ثَابِتٍ، عَنْ ثُمَامَةَ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ ﷺ كَانَ يَتَنَفَّسُ فِي الإِنَاءِ ثَلاَثًا .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "That the Prophet ﷺ would breathe three times in the vessel and say: \"It is more wholesome and thirst quenching.\"\n\n[Abu 'Eisa said:] This Hadith is Hasan Gharib. Hisham Ad-Dastawa'i reported it from Abu 'Isam, from Anas."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 1884b",
         "url": "https://sunnah.com/tirmidhi:1884b"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5001885,
@@ -45067,16 +45467,23 @@
       "idInBook": 2129,
       "chapterId": 31,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّ النَّبِيَّ ﷺ دَخَلَ عَلَيْهَا مَسْرُورًا تَبْرُقُ أَسَارِيرُ وَجْهِهِ فَقَالَ  \" أَلَمْ تَرَىْ أَنَّ مُجَزِّزًا نَظَرَ آنِفًا إِلَى زَيْدِ بْنِ حَارِثَةَ وَأُسَامَةَ بْنِ زَيْدٍ فَقَالَ هَذِهِ الأَقْدَامُ بَعْضُهَا مِنْ بَعْضٍ \" . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"Don't you see that the Mujazziz looked just now at Zaid bin Harithah and Usamah bin Zaid, and said: 'These feet belong to each other.'\"\n\n[Abu 'Eisa said:] This Hadith is Hasan Sahih."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 2129",
         "url": "https://sunnah.com/tirmidhi:2129"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5002130,
@@ -50590,16 +50997,23 @@
       "idInBook": 2392,
       "chapterId": 36,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا بُنْدَارٌ، أَخْبَرَنَا يَحْيَى بْنُ سَعِيدٍ الْقَطَّانُ، أَخْبَرَنَا ثَوْرُ بْنُ يَزِيدَ، عَنْ حَبِيبِ بْنِ عُبَيْدٍ، عَنِ الْمِقْدَامِ بْنِ مَعْدِيكَرِبَ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" إِذَا أَحَبَّ أَحَدُكُمْ أَخَاهُ فَلْيُعْلِمْهُ إِيَّاهُ \" . وَفِي الْبَابِ عَنْ أَبِي ذَرٍّ وَأَنَسٍ . \n\nقَالَ أَبُو عِيسَى حَدِيثُ الْمِقْدَامِ حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ . وَالْمِقْدَامُ يُكْنَى أَبَا كَرِيمَةَ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"When one of you loves his brother,then let him inform him of it.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 2392",
         "url": "https://sunnah.com/tirmidhi:2392"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5002393,
@@ -59036,7 +59450,7 @@
       "idInBook": 2787,
       "chapterId": 43,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا أَبُو دَاوُدَ الْحَفَرِيُّ، عَنْ سُفْيَانَ، عَنِ الْجُرَيْرِيِّ، عَنْ أَبِي نَضْرَةَ، عَنْ رَجُلٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" طِيبُ الرِّجَالِ مَا ظَهَرَ رِيحُهُ وَخَفِيَ لَوْنُهُ وَطِيبُ النِّسَاءِ مَا ظَهَرَ لَوْنُهُ وَخَفِيَ رِيحُهُ \" .",
       "english": {
         "narrator": "",
         "text": "Another chain of narration similar in meaning"
@@ -59050,7 +59464,8 @@
           "name": "Sunnah.com",
           "grade": "Da`eef (Weak)"
         }
-      ]
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5002788,
@@ -60615,7 +61030,7 @@
       "idInBook": 2855,
       "chapterId": 43,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا أَبُو أَحْمَدَ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ، قَالَ كَانَ رَسُولُ اللَّهِ ﷺ يَتَخَوَّلُنَا بِالْمَوْعِظَةِ فِي الأَيَّامِ مَخَافَةَ السَّآمَةِ عَلَيْنَا . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
       "english": {
         "narrator": "",
         "text": "(Another chain) with similar meaning"
@@ -60633,7 +61048,8 @@
           "name": "Sunnah.com",
           "grade": "Hasan (Good)"
         }
-      ]
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5002856,
@@ -63901,10 +64317,10 @@
       "idInBook": 3011,
       "chapterId": 47,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، أَنَّهُ سُئِلَ عَنْ قَوْلِهِ : (وَلَاَ تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللَّهِ أَمْوَاتًا بَلْ أَحْيَاءٌ عِنْدَ رَبِّهِمْ يُرْزَقُونَ ) فَقَالَ أَمَا إِنَّا قَدْ سَأَلْنَا عَنْ ذَلِكَ فَأُخْبِرْنَا أَنَّ أَرْوَاحَهُمْ فِي طَيْرٍ خُضْرٍ تَسْرَحُ فِي الْجَنَّةِ حَيْثُ شَاءَتْ وَتَأْوِي إِلَى قَنَادِيلَ مُعَلَّقَةٍ بِالْعَرْشِ فَاطَّلَعَ إِلَيْهِمْ رَبُّكَ اطِّلاَعَةً فَقَالَ هَلْ تَسْتَزِيدُونَ شَيْئًا فَأَزِيدُكُمْ قَالُوا رَبَّنَا وَمَا نَسْتَزِيدُ وَنَحْنُ فِي الْجَنَّةِ نَسْرَحُ حَيْثُ شِئْنَا ثُمَّ اطَّلَعَ إِلَيْهِمُ الثَّانِيَةَ فَقَالَ هَلْ تَسْتَزِيدُونَ شَيْئًا فَأَزِيدُكُمْ فَلَمَّا رَأَوْا أَنَّهُمْ لَمْ يُتْرَكُوا قَالُوا تُعِيدُ أَرْوَاحَنَا فِي أَجْسَادِنَا حَتَّى نَرْجِعَ إِلَى الدُّنْيَا فَنُقْتَلَ فِي سَبِيلِكَ مَرَّةً أُخْرَى . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "from 'Abdullah that he was asked about Allah's saying: Think not of those as dead who are killed in the way of Allah. Nay they are alive, with their Lord (3:169). So he said: \"As for us, we asked about that, and we were informed that their souls are in green birds wandering in Paradise wherever they wish, returning to lamps hanging from the Throne. Your Lord looks at them and says: 'Do you want anything more that We may grant you more?' They say: 'Our Lord! What more could we have when we are in Paradise wandering wherever we want' Then He looks at them a second time and says: \"Do you want anything more that We may grant you more?' When they realize that they will not be left alone with that, they say: 'Return our souls to our bodies, so that we may return to the world to be killed in Your cause another time.'\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 3011b",
@@ -63916,7 +64332,8 @@
           "name": "Sunnah.com",
           "grade": "Sahih (Authentic)"
         }
-      ]
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5003012,
@@ -64007,10 +64424,10 @@
       "idInBook": 3015,
       "chapterId": 47,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا ابْنُ عُيَيْنَةَ، عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ، قَالَ سَمِعْتُ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ مَرِضْتُ فَأَتَانِي رَسُولُ اللَّهِ ﷺ يَعُودُنِي وَقَدْ أُغْمِيَ عَلَىَّ فَلَمَّا أَفَقْتُ قُلْتُ كَيْفَ أَقْضِي فِي مَالِي فَسَكَتَ عَنِّي حَتَّى نَزَلَتْ : ( يُوصِيكُمُ اللَّهُ فِي أَوْلاَدِكُمْ لِلذَّكَرِ مِثْلُ حَظِّ الأُنْثَيَيْنِ ) \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ . وَقَدْ رَوَى غَيْرُ وَاحِدٍ عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"I was ill, so the Messenger of Allah ﷺ came to visit me, and I was unconscious. When I awoke, I said: 'How do you order me regarding my wealth?' He did not answer me until Allah revealed: Allah commands you regarding your children's (inheritance): to the male, a portion equal to that of two females (4:11).\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 3015b",
@@ -64022,7 +64439,8 @@
           "name": "Sunnah.com",
           "grade": "Sahih (Authentic)"
         }
-      ]
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5003016,
@@ -71400,16 +71818,23 @@
       "idInBook": 3367,
       "chapterId": 47,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ، حَدَّثَنِي قَيْسٌ، وَهُوَ ابْنُ أَبِي حَازِمٍ عَنْ عُقْبَةَ بْنِ عَامِرٍ الْجُهَنِيِّ، عَنِ النَّبِيِّ ﷺ قَالَ \" قَدْ أَنْزَلَ اللَّهُ عَلَىَّ آيَاتٍ لَمْ يُرَ مِثْلُهُنَّ : ( قلْ أَعُوذُ بِرَبِّ النَّاسِ ) إِلَى آخِرِ السُّورَةِ وَ : (قلْ أَعُوذُ بِرَبِّ الْفَلَقِ ) إِلَى آخِرِ السُّورَةِ \" . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "the Prophet ﷺ said: “Allah has revealed to me Ayat the likes of which have not been seen: “Say: I seek refuge in the Lord of mankind…” until the end of the Surat. “Say: I seek refuge in the Lord of Al-Falaq…” until the end of the Surat."
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 3367",
         "url": "https://sunnah.com/tirmidhi:3367"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5003368,
@@ -78907,16 +79332,23 @@
       "idInBook": 3717,
       "chapterId": 49,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا جَعْفَرُ بْنُ سُلَيْمَانَ، عَنْ أَبِي هَارُونَ الْعَبْدِيِّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ إِنَّا كُنَّا لَنَعْرِفُ الْمُنَافِقِينَ نَحْنُ مَعْشَرَ الأَنْصَارِ بِبُغْضِهِمْ عَلِيَّ بْنَ أَبِي طَالِبٍ . قَالَ هَذَا حَدِيثٌ غَرِيبٌ إِنَّمَا نَعْرِفُهُ مِنْ حَدِيثِ أَبِي هَارُونَ . وَقَدْ تَكَلَّمَ شُعْبَةُ فِي أَبِي هَارُونَ . وَقَدْ رُوِيَ هَذَا عَنِ الأَعْمَشِ عَنْ أَبِي صَالِحٍ عَنْ أَبِي سَعِيدٍ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"We, the people of the Ansar, used to recognize the hypocrites, by their hatred for 'Ali bin Abi Talib.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 3717",
         "url": "https://sunnah.com/tirmidhi:3717"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5003718,
@@ -79751,32 +80183,46 @@
       "idInBook": 3758,
       "chapterId": 49,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ يَزِيدَ بْنِ أَبِي زِيَادٍ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَارِثِ، حَدَّثَنِي عَبْدُ الْمُطَّلِبِ بْنُ رَبِيعَةَ بْنِ الْحَارِثِ بْنِ عَبْدِ الْمُطَّلِبِ، أَنَّ الْعَبَّاسَ بْنَ عَبْدِ الْمُطَّلِبِ، دَخَلَ عَلَى رَسُولِ اللَّهِ ﷺ مُغْضَبًا وَأَنَا عِنْدَهُ فَقَالَ \" مَا أَغْضَبَكَ \" . قَالَ يَا رَسُولَ اللَّهِ مَا لَنَا وَلِقُرَيْشٍ إِذَا تَلاَقَوْا بَيْنَهُمْ تَلاَقَوْا بِوُجُوهٍ مُبْشَرَةٍ وَإِذَا لَقُونَا لَقُونَا بِغَيْرِ ذَلِكَ . قَالَ فَغَضِبَ رَسُولُ اللَّهِ ﷺ حَتَّى احْمَرَّ وَجْهُهُ ثُمَّ قَالَ \" وَالَّذِي نَفْسِي بِيَدِهِ لاَ يَدْخُلُ قَلْبَ رَجُلٍ الإِيمَانُ حَتَّى يُحِبَّكُمْ لِلَّهِ وَلِرَسُولِهِ \" . ثُمَّ قَالَ \" يَا أَيُّهَا النَّاسُ مَنْ آذَى عَمِّي فَقَدْ آذَانِي فَإِنَّمَا عَمُّ الرَّجُلِ صِنْوُ أَبِيهِ \" . قَالَ هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "\"Al-'Abbas bin 'Abdul-Muttalib entered upon the Messenger of Allah ﷺ in a state of anger while I was with him, so he said: 'What has angered you?' He said: 'O Messenger of Allah, what is it with us and the Quraish, whenever they meet one another it is with glad faces, and when they meet us they meet us with other than that?'\" He said: \"So the Messenger of Allah ﷺ became angry, until his face reddened, then he said: 'By the One in Whose Hand is my soul! Faith does not enter a man's heart until he loves you for the sake of Allah, and for the sake of His Messenger.' Then he said: 'O people! Whoever harms my uncle, he has harmed me, for indeed, a man's uncle is not but the Sinw (two or three palm trees will come from a single root, so each is called a Sinw. A man's uncle is like that to his father. That is, he is like his father) of his father.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 3758",
         "url": "https://sunnah.com/tirmidhi:3758"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5003759,
       "idInBook": 3759,
       "chapterId": 49,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا الْقَاسِمُ بْنُ دِينَارٍ الْكُوفِيُّ، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ إِسْرَائِيلَ، عَنْ عَبْدِ الأَعْلَى، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" الْعَبَّاسُ مِنِّي وَأَنَا مِنْهُ \" . قَالَ هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ حَدِيثِ إِسْرَائِيلَ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "that the Messenger of Allah ﷺ said: \"Al-'Abbas is from me and I am from him.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 3759",
         "url": "https://sunnah.com/tirmidhi:3759"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5003760,
@@ -80590,16 +81036,23 @@
       "idInBook": 3799,
       "chapterId": 49,
       "bookId": 5,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا الْقَاسِمُ بْنُ دِينَارٍ الْكُوفِيُّ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ عَبْدِ الْعَزِيزِ بْنِ سِيَاهٍ، كُوفِيٌّ عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ عَائِشَةَ، قَالَتْ قَالَ رَسُولُ اللَّهِ ﷺ  \" مَا خُيِّرَ عَمَّارٌ بَيْنَ أَمْرَيْنِ إِلاَّ اخْتَارَ أَرْشَدَهُمَا \" . قَالَ هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ هَذَا الْوَجْهِ مِنْ حَدِيثِ عَبْدِ الْعَزِيزِ بْنِ سِيَاهٍ . وَهُوَ شَيْخٌ كُوفِيٌّ وَقَدْ رَوَى عَنْهُ النَّاسُ لَهُ ابْنٌ يُقَالُ لَهُ يَزِيدُ بْنُ عَبْدِ الْعَزِيزِ رَوَى عَنْهُ يَحْيَى بْنُ آدَمَ .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "that the Messenger of Allah ﷺ said: \"Ammar is not given a choice between two matters, except that he choose the one with more guidance in it.\""
       },
       "reference": {
         "text": "Jami` at-Tirmidhi 3799",
         "url": "https://sunnah.com/tirmidhi:3799"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Sunnah.com",
+          "grade": "Da`eef (Weak)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 5003800,

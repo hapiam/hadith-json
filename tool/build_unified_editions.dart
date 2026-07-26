@@ -592,6 +592,16 @@ class UnifiedBuilder {
         // stripped from the stored text and preserved here instead so the
         // UI can show its own honest badge.
         if (h['isAiTranslated'] == true) 'isAiTranslated': true,
+        // Provenance + content-kind flags added by
+        // `tool/merge_amrayn_missing_hadith.dart`/`backfill_blank_from_amrayn.dart`:
+        // `source: 'amrayn'` marks a row whose Arabic/English/grade came
+        // from amrayn.com rather than the primary fawaz/AhmedBaset source
+        // (absent = primary source, by convention). `contentType: 'opinion'`
+        // flags Muwatta Malik rows that are Imam Malik's own legal ruling
+        // rather than a Prophetic hadith -- per explicit user request, kept
+        // as its own filterable field rather than silently mixed in.
+        if (h['source'] != null) 'source': h['source'],
+        if (h['contentType'] != null) 'contentType': h['contentType'],
         // TODO: `rebuild_from_fawaz.dart` sets `noSourceContent: true` on
         // spine rows with genuinely blank Arabic+English (see its
         // `isBlank` handling) and `chapterUnknown: true` on fawaz's
@@ -1043,6 +1053,8 @@ class UnifiedBuilder {
         if (row['classification'] != null)
           'classification': row['classification'],
         if (row['conclusion'] != null) 'conclusion': row['conclusion'],
+        if (row['source'] != null) 'source': row['source'],
+        if (row['contentType'] != null) 'contentType': row['contentType'],
       });
     }
     if (hadiths.isEmpty) return;
@@ -1159,6 +1171,8 @@ class UnifiedBuilder {
           'classification': row['classification'],
         if (row['conclusion'] != null) 'conclusion': row['conclusion'],
         if (row['isAiTranslated'] == true) 'isAiTranslated': true,
+        if (row['source'] != null) 'source': row['source'],
+        if (row['contentType'] != null) 'contentType': row['contentType'],
       });
     }
     // Skip emitting a language edition if no hadith has that translation
@@ -1395,7 +1409,16 @@ class UnifiedBuilder {
   // (`grades` is a list, not a single value) -- that's intentional, not a
   // conflict to resolve.
   void _mergeGrades(Map<String, dynamic> row, dynamic incoming) {
-    final list = (row['grades'] as List).cast<Map<String, dynamic>>();
+    // Copy into a fresh, genuinely `List<Map<String, dynamic>>`-typed list
+    // rather than a `.cast<>()` view over `row['grades']` -- a `.cast<>()`
+    // view forwards `.add()` to the ORIGINAL list, which downward type
+    // inference can leave narrowly typed as `List<Map<String, String>>`
+    // (from `_gradesFromSpine`'s map-literal construction), so adding any
+    // grade map whose literal infers as `Map<String, dynamic>` throws a
+    // cast error at runtime. A real copy sidesteps the whole footgun.
+    final list = <Map<String, dynamic>>[
+      for (final g in (row['grades'] as List)) Map<String, dynamic>.from(g as Map),
+    ];
     final existing = list
         .map((g) => '${g['name']}|${g['grade']}'.toLowerCase())
         .toSet();

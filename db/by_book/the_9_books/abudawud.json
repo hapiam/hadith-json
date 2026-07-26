@@ -19529,16 +19529,23 @@
       "idInBook": 907,
       "chapterId": 2,
       "bookId": 4,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، وَسُلَيْمَانُ بْنُ عَبْدِ الرَّحْمَنِ الدِّمَشْقِيُّ، قَالاَ أَخْبَرَنَا مَرْوَانُ بْنُ مُعَاوِيَةَ، عَنْ يَحْيَى الْكَاهِلِيِّ، عَنِ الْمُسَوَّرِ بْنِ يَزِيدَ الْمَالِكِيِّ، - أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ يَحْيَى وَرُبَّمَا قَالَ - شَهِدْتُ رَسُولَ اللَّهِ ﷺ يَقْرَأُ فِي الصَّلاَةِ فَتَرَكَ شَيْئًا لَمْ يَقْرَأْهُ فَقَالَ لَهُ رَجُلٌ يَا رَسُولَ اللَّهِ تَرَكْتَ آيَةَ كَذَا وَكَذَا . فَقَالَ رَسُولُ اللَّهِ ﷺ  \" هَلاَّ أَذْكَرْتَنِيهَا \" . قَالَ سُلَيْمَانُ فِي حَدِيثِهِ قَالَ كُنْتُ أُرَاهَا نُسِخَتْ .\n\nوَقَالَ سُلَيْمَانُ قَالَ حَدَّثَنِي يَحْيَى بْنُ كَثِيرٍ الأَزْدِيُّ، قَالَ حَدَّثَنَا الْمِسْوَرُ بْنُ يَزِيدَ الأَسَدِيُّ الْمَالِكِيُّ.",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "The Messenger of Allah ﷺ recited - Yahya (sub narrator) said: Sometimes al-Miswar said: I prayed along with the Messenger of Allah ﷺ and witnessed that he recited - the Qur'an during the prayer and omitted something (i.e. some verses inadvertently) which he did not recite.\n\nA man said to him: Messenger of Allah, you omitted such-and-such verse. The Messenger of Allah ﷺ said: Why did you not remind me of it?\n\nThe narrator Sulayman said in his version: He (the man) said: I thought that it (the verse) was repealed."
       },
       "reference": {
         "text": "Sunan Abi Dawud 907",
         "url": "https://sunnah.com/abudawud:907"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Al-Albani",
+          "grade": "Hasan (Good)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 4000908,
@@ -90747,16 +90754,23 @@
       "idInBook": 4290,
       "chapterId": 38,
       "bookId": 4,
-      "arabic": "",
+      "arabic": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا جَرِيرٌ، عَنْ عَبْدِ الْعَزِيزِ بْنِ رُفَيْعٍ، عَنْ عُبَيْدِ اللَّهِ ابْنِ الْقِبْطِيَّةِ، عَنْ أُمِّ سَلَمَةَ، عَنِ النَّبِيِّ ﷺ بِقِصَّةِ جَيْشِ الْخَسْفِ قُلْتُ يَا رَسُولَ اللَّهِ فَكَيْفَ بِمَنْ كَانَ كَارِهًا قَالَ  \" يُخْسَفُ بِهِمْ وَلَكِنْ يُبْعَثُ يَوْمَ الْقِيَامَةِ عَلَى نِيَّتِهِ \" .",
       "english": {
         "narrator": "",
-        "text": ""
+        "text": "How will a man who comes against his will (be swallowed up by the earth), Messenger of Allah ? He replied: All will be swallowed up, but each will be raised according to his intention on the Day of Resurrection."
       },
       "reference": {
         "text": "Sunan Abi Dawud 4290",
         "url": "https://sunnah.com/abudawud:4290"
       },
-      "noSourceContent": true
+      "noSourceContent": true,
+      "grade": [
+        {
+          "name": "Al-Albani",
+          "grade": "Sahih (Authentic)"
+        }
+      ],
+      "source": "amrayn"
     },
     {
       "id": 4004291,
