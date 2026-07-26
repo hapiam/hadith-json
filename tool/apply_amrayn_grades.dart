@@ -70,6 +70,15 @@ void main() {
       'db/by_book/forties/qudsi40.json',
       fawazKey: 'qudsi',
     ),
+    // Extended 2026-07-26: same mechanism, same fawaz-join precondition
+    // (a cached ara-{book}.min.json to content-match against), just not
+    // run in the first pass. Darimi/riyad_assalihin/adab/shamail still
+    // don't qualify (no fawaz coverage -- see class doc comment above).
+    _BookConfig('abudawud', 'db/by_book/the_9_books/abudawud.json'),
+    _BookConfig('tirmidhi', 'db/by_book/the_9_books/tirmidhi.json'),
+    _BookConfig('nasai', 'db/by_book/the_9_books/nasai.json'),
+    _BookConfig('ibnmajah', 'db/by_book/the_9_books/ibnmajah.json'),
+    _BookConfig('malik', 'db/by_book/the_9_books/malik.json'),
   ];
   final bracketRe = RegExp(r'^(.*?)\s*\[([^\]]+)\]$');
 
