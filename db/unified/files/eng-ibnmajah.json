@@ -145071,32 +145071,6 @@
 				{
 					"name": "Darussalam",
 					"grade": "Hasan (Good)"
-				}
-			],
-			"reference": {
-				"text": "Sunan Ibn Majah 3930",
-				"url": "https://sunnah.com/ibnmajah:3930"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 6003930,
-			"idInBook": 3930,
-			"chapterId": 36,
-			"bookId": 6,
-			"arabic": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ حَفْصٍ الأُبُلِّيُّ، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، عَنْ عَاصِمٍ، عَنِ السُّمَيْطِ، عَنْ عِمْرَانَ بْنِ الْحُصَيْنِ، قَالَ بَعَثَنَا رَسُولُ اللَّهِ ـ صلى الله عليه وسلم ـ فِي سَرِيَّةٍ فَحَمَلَ رَجُلٌ مِنَ الْمُسْلِمِينَ عَلَى رَجُلٍ مِنَ الْمُشْرِكِينَ فَذَكَرَ الْحَدِيثَ وَزَادَ فِيهِ فَنَبَذَتْهُ الأَرْضُ فَأُخْبِرَ النَّبِيُّ ـ صلى الله عليه وسلم ـ وَقَالَ ‏ \"‏ إِنَّ الأَرْضَ لَتَقْبَلُ مَنْ هُوَ أَشَرُّ مِنْهُ وَلَكِنَّ اللَّهَ أَحَبَّ أَنْ يُرِيَكُمْ تَعْظِيمَ حُرْمَةِ لاَ إِلَهَ إِلاَّ اللَّهُ ‏\"‏ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "It was narrated from Sumait, from ‘Imran bin Husain who said:“The Messenger of Allah (ﷺ) sent us on a campaign, and a Muslim man attacked an idolater man.” And he mentioned the Hadith and added: “And the earth cast him out. The Prophet (ﷺ) was told about that and he said: ‘The earth accepts those who are worse than him, but Allah wanted to show you how great is the sanctity of La ilaha illallah.’”"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Authentication status unknown"
-				},
-				{
-					"name": "Darussalam",
-					"grade": "Hasan (Good)"
 				},
 				{
 					"name": "Al-Albani",
@@ -145116,10 +145090,37 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan Ibn Majah 3930",
+				"url": "https://sunnah.com/ibnmajah:3930"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 6003930,
+			"idInBook": 4342,
+			"chapterId": 36,
+			"bookId": 6,
+			"arabic": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ حَفْصٍ الأُبُلِّيُّ، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، عَنْ عَاصِمٍ، عَنِ السُّمَيْطِ، عَنْ عِمْرَانَ بْنِ الْحُصَيْنِ، قَالَ بَعَثَنَا رَسُولُ اللَّهِ ـ صلى الله عليه وسلم ـ فِي سَرِيَّةٍ فَحَمَلَ رَجُلٌ مِنَ الْمُسْلِمِينَ عَلَى رَجُلٍ مِنَ الْمُشْرِكِينَ فَذَكَرَ الْحَدِيثَ وَزَادَ فِيهِ فَنَبَذَتْهُ الأَرْضُ فَأُخْبِرَ النَّبِيُّ ـ صلى الله عليه وسلم ـ وَقَالَ ‏ \"‏ إِنَّ الأَرْضَ لَتَقْبَلُ مَنْ هُوَ أَشَرُّ مِنْهُ وَلَكِنَّ اللَّهَ أَحَبَّ أَنْ يُرِيَكُمْ تَعْظِيمَ حُرْمَةِ لاَ إِلَهَ إِلاَّ اللَّهُ ‏\"‏ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "It was narrated from Sumait, from ‘Imran bin Husain who said:“The Messenger of Allah (ﷺ) sent us on a campaign, and a Muslim man attacked an idolater man.” And he mentioned the Hadith and added: “And the earth cast him out. The Prophet (ﷺ) was told about that and he said: ‘The earth accepts those who are worse than him, but Allah wanted to show you how great is the sanctity of La ilaha illallah.’”"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Authentication status unknown"
+				},
+				{
+					"name": "Darussalam",
+					"grade": "Hasan (Good)"
+				}
+			],
+			"reference": {
 				"text": "Sunan Ibn Majah 3930b",
 				"url": "https://sunnah.com/ibnmajah:3930b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 3930.1
 		},
 		{
 			"id": 6003931,
@@ -150927,28 +150928,6 @@
 				{
 					"name": "Darussalam",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Sunan Ibn Majah 4089",
-				"url": "https://sunnah.com/ibnmajah:4089"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 6004089,
-			"idInBook": 4089,
-			"chapterId": 36,
-			"bookId": 6,
-			"arabic": "حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ إِبْرَاهِيمَ الدِّمَشْقِيُّ، حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، حَدَّثَنَا الأَوْزَاعِيُّ، عَنْ حَسَّانَ بْنِ عَطِيَّةَ، بِإِسْنَادِهِ نَحْوَهُ وَزَادَ فِيهِ فَيَجْتَمِعُونَ لِلْمَلْحَمَةِ فَيَأْتُونَ حِينَئِذٍ تَحْتَ ثَمَانِينَ غَايَةٍ تَحْتَ كُلِّ غَايَةٍ اثْنَا عَشَرَ أَلْفًا ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Another chain with a similar report to which he added:\"They will gather for the fierce battle, and at that time they will come with eighty banners, under each of which will be twelve thousand troops"
-			},
-			"grades": [
-				{
-					"name": "Darussalam",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Al-Albani",
@@ -150964,10 +150943,33 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan Ibn Majah 4089",
+				"url": "https://sunnah.com/ibnmajah:4089"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 6004089,
+			"idInBook": 4343,
+			"chapterId": 36,
+			"bookId": 6,
+			"arabic": "حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ إِبْرَاهِيمَ الدِّمَشْقِيُّ، حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، حَدَّثَنَا الأَوْزَاعِيُّ، عَنْ حَسَّانَ بْنِ عَطِيَّةَ، بِإِسْنَادِهِ نَحْوَهُ وَزَادَ فِيهِ فَيَجْتَمِعُونَ لِلْمَلْحَمَةِ فَيَأْتُونَ حِينَئِذٍ تَحْتَ ثَمَانِينَ غَايَةٍ تَحْتَ كُلِّ غَايَةٍ اثْنَا عَشَرَ أَلْفًا ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Another chain with a similar report to which he added:\"They will gather for the fierce battle, and at that time they will come with eighty banners, under each of which will be twelve thousand troops"
+			},
+			"grades": [
+				{
+					"name": "Darussalam",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Sunan Ibn Majah 4089b",
 				"url": "https://sunnah.com/ibnmajah:4089b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 4089.1
 		},
 		{
 			"id": 6004090,

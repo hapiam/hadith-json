@@ -14041,6 +14041,10 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Da`eef (Weak)"
+				},
+				{
+					"name": "Al-Albani",
+					"grade": "Sahih Isnaad"
 				}
 			],
 			"reference": {
@@ -14051,7 +14055,7 @@
 		},
 		{
 			"id": 5000391,
-			"idInBook": 391,
+			"idInBook": 3957,
 			"chapterId": 2,
 			"bookId": 5,
 			"arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنِ الأَعْرَجِ، عَنْ عَبْدِ اللَّهِ ابْنِ بُحَيْنَةَ الأَسَدِيِّ، حَلِيفِ بَنِي عَبْدِ الْمُطَّلِبِ أَنَّ النَّبِيَّ ﷺ قَامَ فِي صَلاَةِ الظُّهْرِ وَعَلَيْهِ جُلُوسٌ فَلَمَّا أَتَمَّ صَلاَتَهُ سَجَدَ سَجْدَتَيْنِ يُكَبِّرُ فِي كُلِّ سَجْدَةٍ وَهُوَ جَالِسٌ قَبْلَ أَنْ يُسَلِّمَ وَسَجَدَهُمَا النَّاسُ مَعَهُ مَكَانَ مَا نَسِيَ مِنَ الْجُلُوسِ . قَالَ وَفِي الْبَابِ عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ .",
@@ -14075,17 +14079,14 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Da`eef (Weak)"
-				},
-				{
-					"name": "Al-Albani",
-					"grade": "Sahih Isnaad"
 				}
 			],
 			"reference": {
 				"text": "Jami` at-Tirmidhi 391b",
 				"url": "https://sunnah.com/tirmidhi:391b"
 			},
-			"isAddendum": false,
+			"isAddendum": true,
+			"sortKey": 391.1,
 			"source": "amrayn"
 		},
 		{
@@ -29167,28 +29168,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Da`eef (Weak)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 815",
-				"url": "https://sunnah.com/tirmidhi:815"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5000815,
-			"idInBook": 815,
-			"chapterId": 9,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، حَدَّثَنَا حَبَّانُ بْنُ هِلاَلٍ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، قَالَ قُلْتُ لأَنَسِ بْنِ مَالِكٍ كَمْ حَجَّ النَّبِيُّ صلى الله عليه وسلم قَالَ حَجَّةٌ وَاحِدَةٌ وَاعْتَمَرَ أَرْبَعَ عُمَرٍ عُمْرَةٌ فِي ذِي الْقَعْدَةِ وَعُمْرَةُ الْحُدَيْبِيَةِ وَعُمْرَةٌ مَعَ حَجَّتِهِ وَعُمْرَةُ الْجِعِرَّانَةِ إِذْ قَسَّمَ غَنِيمَةَ حُنَيْنٍ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏ وَحَبَّانُ بْنُ هِلاَلٍ هُوَ أَبُو حَبِيبٍ الْبَصْرِيُّ هُوَ جَلِيلٌ ثِقَةٌ وَثَّقَهُ يَحْيَى بْنُ سَعِيدٍ الْقَطَّانُ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Qatadah narrated:\"I said to Anas bin Malik: 'How many times did the Prophet perform Hajj?' He said: 'He performed one Hajj and he performed four Umrah: An Umrah during Dhul-Qa'dah; the Umrah of Al-Hudaibiyah, and Umrah with his Hajj, and an Umrah from Al-Ji'irranah when he divided up the war spoils of Hunain"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Da`eef (Weak)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -29208,10 +29187,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 815",
+				"url": "https://sunnah.com/tirmidhi:815"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5000815,
+			"idInBook": 3958,
+			"chapterId": 9,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، حَدَّثَنَا حَبَّانُ بْنُ هِلاَلٍ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، قَالَ قُلْتُ لأَنَسِ بْنِ مَالِكٍ كَمْ حَجَّ النَّبِيُّ صلى الله عليه وسلم قَالَ حَجَّةٌ وَاحِدَةٌ وَاعْتَمَرَ أَرْبَعَ عُمَرٍ عُمْرَةٌ فِي ذِي الْقَعْدَةِ وَعُمْرَةُ الْحُدَيْبِيَةِ وَعُمْرَةٌ مَعَ حَجَّتِهِ وَعُمْرَةُ الْجِعِرَّانَةِ إِذْ قَسَّمَ غَنِيمَةَ حُنَيْنٍ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏ وَحَبَّانُ بْنُ هِلاَلٍ هُوَ أَبُو حَبِيبٍ الْبَصْرِيُّ هُوَ جَلِيلٌ ثِقَةٌ وَثَّقَهُ يَحْيَى بْنُ سَعِيدٍ الْقَطَّانُ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Qatadah narrated:\"I said to Anas bin Malik: 'How many times did the Prophet perform Hajj?' He said: 'He performed one Hajj and he performed four Umrah: An Umrah during Dhul-Qa'dah; the Umrah of Al-Hudaibiyah, and Umrah with his Hajj, and an Umrah from Al-Ji'irranah when he divided up the war spoils of Hunain"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Da`eef (Weak)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 815b",
 				"url": "https://sunnah.com/tirmidhi:815b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 815.1
 		},
 		{
 			"id": 5000816,
@@ -39932,28 +39934,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 1114",
-				"url": "https://sunnah.com/tirmidhi:1114"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5001114,
-			"idInBook": 1114,
-			"chapterId": 11,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَيُّوبَ، عَنِ ابْنِ سِيرِينَ، عَنْ أَبِي الْعَجْفَاءِ السُّلَمِيِّ، قَالَ قَالَ عُمَرُ بْنُ الْخَطَّابِ أَلاَ لاَ تُغَالُوا صَدُقَةَ النِّسَاءِ فَإِنَّهَا لَوْ كَانَتْ مَكْرُمَةً فِي الدُّنْيَا أَوْ تَقْوَى عِنْدَ اللَّهِ لَكَانَ أَوْلاَكُمْ بِهَا نَبِيُّ اللَّهِ صلى الله عليه وسلم مَا عَلِمْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم نَكَحَ شَيْئًا مِنْ نِسَائِهِ وَلاَ أَنْكَحَ شَيْئًا مِنْ بَنَاتِهِ عَلَى أَكْثَرَ مِنْ ثِنْتَىْ عَشْرَةَ أُوقِيَّةً ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏ وَأَبُو الْعَجْفَاءِ السُّلَمِيُّ اسْمُهُ هَرَمٌ ‏.‏ وَالأُوقِيَّةُ عِنْدَ أَهْلِ الْعِلْمِ أَرْبَعُونَ دِرْهَمًا وَثِنْتَا عَشْرَةَ أُوقِيَّةً أَرْبَعُمِائَةٍ وَثَمَانُونَ دِرْهَمًا ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Abu Al-Ajfa (As-Salami) said:\"Umar bin Al-Khattab said: 'Do not exaggerate in the dowries of women. If doing so was honorable in the world or Taqwa before Allah then Allah's Prophet would have been the first of you to do it. I do not know of the Messenger of Allah marrying any of his women, nor giving any of his daughters in marriage, for more than twelve Uqiyah"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -39973,10 +39953,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 1114",
+				"url": "https://sunnah.com/tirmidhi:1114"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5001114,
+			"idInBook": 3959,
+			"chapterId": 11,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَيُّوبَ، عَنِ ابْنِ سِيرِينَ، عَنْ أَبِي الْعَجْفَاءِ السُّلَمِيِّ، قَالَ قَالَ عُمَرُ بْنُ الْخَطَّابِ أَلاَ لاَ تُغَالُوا صَدُقَةَ النِّسَاءِ فَإِنَّهَا لَوْ كَانَتْ مَكْرُمَةً فِي الدُّنْيَا أَوْ تَقْوَى عِنْدَ اللَّهِ لَكَانَ أَوْلاَكُمْ بِهَا نَبِيُّ اللَّهِ صلى الله عليه وسلم مَا عَلِمْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم نَكَحَ شَيْئًا مِنْ نِسَائِهِ وَلاَ أَنْكَحَ شَيْئًا مِنْ بَنَاتِهِ عَلَى أَكْثَرَ مِنْ ثِنْتَىْ عَشْرَةَ أُوقِيَّةً ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏ وَأَبُو الْعَجْفَاءِ السُّلَمِيُّ اسْمُهُ هَرَمٌ ‏.‏ وَالأُوقِيَّةُ عِنْدَ أَهْلِ الْعِلْمِ أَرْبَعُونَ دِرْهَمًا وَثِنْتَا عَشْرَةَ أُوقِيَّةً أَرْبَعُمِائَةٍ وَثَمَانُونَ دِرْهَمًا ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Abu Al-Ajfa (As-Salami) said:\"Umar bin Al-Khattab said: 'Do not exaggerate in the dowries of women. If doing so was honorable in the world or Taqwa before Allah then Allah's Prophet would have been the first of you to do it. I do not know of the Messenger of Allah marrying any of his women, nor giving any of his daughters in marriage, for more than twelve Uqiyah"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 1114b",
 				"url": "https://sunnah.com/tirmidhi:1114b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 1114.1
 		},
 		{
 			"id": 5001115,
@@ -42552,28 +42555,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Hasan (Good)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 1185",
-				"url": "https://sunnah.com/tirmidhi:1185"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5001185,
-			"idInBook": 1185,
-			"chapterId": 13,
-			"bookId": 5,
-			"arabic": "أَنْبَأَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ الْبَغْدَادِيُّ، أَنْبَأَنَا عَلِيُّ بْنُ بَحْرٍ، أَنْبَأَنَا هِشَامُ بْنُ يُوسُفَ، عَنْ مَعْمَرٍ، عَنْ عَمْرِو بْنِ مُسْلِمٍ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ امْرَأَةَ، ثَابِتِ بْنِ قَيْسٍ اخْتَلَعَتْ مِنْ زَوْجِهَا عَلَى عَهْدِ النَّبِيِّ صلى الله عليه وسلم فَأَمَرَهَا النَّبِيُّ صلى الله عليه وسلم أَنْ تَعْتَدَّ بِحَيْضَةٍ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ ‏.‏ وَاخْتَلَفَ أَهْلُ الْعِلْمِ فِي عِدَّةِ الْمُخْتَلِعَةِ فَقَالَ أَكْثَرُ أَهْلِ الْعِلْمِ مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم وَغَيْرِهِمْ إِنَّ عِدَّةَ الْمُخْتَلِعَةِ عِدَّةُ الْمُطَلَّقَةِ ثَلاَثُ حِيَضٍ ‏.‏ وَهُوَ قَوْلُ سُفْيَانَ الثَّوْرِيِّ وَأَهْلِ الْكُوفَةِ وَبِهِ يَقُولُ أَحْمَدُ وَإِسْحَاقُ ‏.‏ وَقَالَ بَعْضُ أَهْلِ الْعِلْمِ مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم وَغَيْرِهِمْ إِنَّ عِدَّةَ الْمُخْتَلِعَةِ حَيْضَةٌ ‏.‏ قَالَ إِسْحَاقُ وَإِنْ ذَهَبَ ذَاهِبٌ إِلَى هَذَا فَهُوَ مَذْهَبٌ قَوِيٌّ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Ibn Abbas narrated that :The wife of Thabit bin Qais was granted a Khul from her husband during the time of the Prophet. So the Prophet ordered her to observe an Iddah of a menstruation"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Hasan (Good)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -42593,10 +42574,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 1185",
+				"url": "https://sunnah.com/tirmidhi:1185"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5001185,
+			"idInBook": 3960,
+			"chapterId": 13,
+			"bookId": 5,
+			"arabic": "أَنْبَأَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ الْبَغْدَادِيُّ، أَنْبَأَنَا عَلِيُّ بْنُ بَحْرٍ، أَنْبَأَنَا هِشَامُ بْنُ يُوسُفَ، عَنْ مَعْمَرٍ، عَنْ عَمْرِو بْنِ مُسْلِمٍ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ امْرَأَةَ، ثَابِتِ بْنِ قَيْسٍ اخْتَلَعَتْ مِنْ زَوْجِهَا عَلَى عَهْدِ النَّبِيِّ صلى الله عليه وسلم فَأَمَرَهَا النَّبِيُّ صلى الله عليه وسلم أَنْ تَعْتَدَّ بِحَيْضَةٍ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ ‏.‏ وَاخْتَلَفَ أَهْلُ الْعِلْمِ فِي عِدَّةِ الْمُخْتَلِعَةِ فَقَالَ أَكْثَرُ أَهْلِ الْعِلْمِ مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم وَغَيْرِهِمْ إِنَّ عِدَّةَ الْمُخْتَلِعَةِ عِدَّةُ الْمُطَلَّقَةِ ثَلاَثُ حِيَضٍ ‏.‏ وَهُوَ قَوْلُ سُفْيَانَ الثَّوْرِيِّ وَأَهْلِ الْكُوفَةِ وَبِهِ يَقُولُ أَحْمَدُ وَإِسْحَاقُ ‏.‏ وَقَالَ بَعْضُ أَهْلِ الْعِلْمِ مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم وَغَيْرِهِمْ إِنَّ عِدَّةَ الْمُخْتَلِعَةِ حَيْضَةٌ ‏.‏ قَالَ إِسْحَاقُ وَإِنْ ذَهَبَ ذَاهِبٌ إِلَى هَذَا فَهُوَ مَذْهَبٌ قَوِيٌّ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Ibn Abbas narrated that :The wife of Thabit bin Qais was granted a Khul from her husband during the time of the Prophet. So the Prophet ordered her to observe an Iddah of a menstruation"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Hasan (Good)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 1185b",
 				"url": "https://sunnah.com/tirmidhi:1185b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 1185.1
 		},
 		{
 			"id": 5001186,
@@ -51240,28 +51244,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Da`eef (Weak)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 1424",
-				"url": "https://sunnah.com/tirmidhi:1424"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5001424,
-			"idInBook": 1424,
-			"chapterId": 17,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا وَكِيعٌ، عَنْ يَزِيدَ بْنِ زِيَادٍ، نَحْوَ حَدِيثِ مُحَمَّدِ بْنِ رَبِيعَةَ وَلَمْ يَرْفَعْهُ ‏.‏ قَالَ وَفِي الْبَابِ عَنْ أَبِي هُرَيْرَةَ، وَعَبْدِ اللَّهِ بْنِ عَمْرٍو، ‏.‏ قَالَ أَبُو عِيسَى حَدِيثُ عَائِشَةَ لاَ نَعْرِفُهُ مَرْفُوعًا إِلاَّ مِنْ حَدِيثِ مُحَمَّدِ بْنِ رَبِيعَةَ عَنْ يَزِيدَ بْنِ زِيَادٍ الدِّمَشْقِيِّ عَنِ الزُّهْرِيِّ عَنْ عُرْوَةَ عَنْ عَائِشَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَرَوَاهُ وَكِيعٌ عَنْ يَزِيدَ بْنِ زِيَادٍ نَحْوَهُ وَلَمْ يَرْفَعْهُ وَرِوَايَةُ وَكِيعٍ أَصَحُّ ‏.‏ وَقَدْ رُوِيَ نَحْوُ هَذَا عَنْ غَيْرِ وَاحِدٍ مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُمْ قَالُوا مِثْلَ ذَلِكَ ‏.‏ وَيَزِيدُ بْنُ زِيَادٍ الدِّمَشْقِيُّ ضَعِيفٌ فِي الْحَدِيثِ وَيَزِيدُ بْنُ أَبِي زِيَادٍ الْكُوفِيُّ أَثْبَتُ مِنْ هَذَا وَأَقْدَمُ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "(Another chain) which is similar to the narration of Muhammad bin Rabi'ah (a narrator in no.1424) but he did not narrate it in Marfu' form"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Da`eef (Weak)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -51277,10 +51259,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 1424",
+				"url": "https://sunnah.com/tirmidhi:1424"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5001424,
+			"idInBook": 3961,
+			"chapterId": 17,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا وَكِيعٌ، عَنْ يَزِيدَ بْنِ زِيَادٍ، نَحْوَ حَدِيثِ مُحَمَّدِ بْنِ رَبِيعَةَ وَلَمْ يَرْفَعْهُ ‏.‏ قَالَ وَفِي الْبَابِ عَنْ أَبِي هُرَيْرَةَ، وَعَبْدِ اللَّهِ بْنِ عَمْرٍو، ‏.‏ قَالَ أَبُو عِيسَى حَدِيثُ عَائِشَةَ لاَ نَعْرِفُهُ مَرْفُوعًا إِلاَّ مِنْ حَدِيثِ مُحَمَّدِ بْنِ رَبِيعَةَ عَنْ يَزِيدَ بْنِ زِيَادٍ الدِّمَشْقِيِّ عَنِ الزُّهْرِيِّ عَنْ عُرْوَةَ عَنْ عَائِشَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَرَوَاهُ وَكِيعٌ عَنْ يَزِيدَ بْنِ زِيَادٍ نَحْوَهُ وَلَمْ يَرْفَعْهُ وَرِوَايَةُ وَكِيعٍ أَصَحُّ ‏.‏ وَقَدْ رُوِيَ نَحْوُ هَذَا عَنْ غَيْرِ وَاحِدٍ مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُمْ قَالُوا مِثْلَ ذَلِكَ ‏.‏ وَيَزِيدُ بْنُ زِيَادٍ الدِّمَشْقِيُّ ضَعِيفٌ فِي الْحَدِيثِ وَيَزِيدُ بْنُ أَبِي زِيَادٍ الْكُوفِيُّ أَثْبَتُ مِنْ هَذَا وَأَقْدَمُ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "(Another chain) which is similar to the narration of Muhammad bin Rabi'ah (a narrator in no.1424) but he did not narrate it in Marfu' form"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Da`eef (Weak)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 1424b",
 				"url": "https://sunnah.com/tirmidhi:1424b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 1424.1
 		},
 		{
 			"id": 5001425,
@@ -51288,28 +51293,6 @@
 			"chapterId": 17,
 			"bookId": 5,
 			"arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا نَفَّسَ اللَّهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ الآخِرَةِ وَمَنْ سَتَرَ عَلَى مُسْلِمٍ سَتَرَهُ اللَّهُ فِي الدُّنْيَا وَالآخِرَةِ وَاللَّهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ ‏\"‏ ‏.‏ قَالَ وَفِي الْبَابِ عَنْ عُقْبَةَ بْنِ عَامِرٍ وَابْنِ عُمَرَ ‏.‏ قَالَ أَبُو عِيسَى حَدِيثُ أَبِي هُرَيْرَةَ هَكَذَا رَوَى غَيْرُ وَاحِدٍ عَنِ الأَعْمَشِ عَنْ أَبِي صَالِحٍ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَ رِوَايَةِ أَبِي عَوَانَةَ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Asbat bin Muhammad reported it from Al-A'mash who said: \"It has been narrated to me from Abu Salih, from Abu Hurairah, from the Prophet (ﷺ),\" and it is similar. [It is as if this is more correct than the first narration.] (Another chain) for this Hadith"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 1425",
-				"url": "https://sunnah.com/tirmidhi:1425"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5001425,
-			"idInBook": 1425,
-			"chapterId": 17,
-			"bookId": 5,
-			"arabic": "وَرَوَى أَسْبَاطُ بْنُ مُحَمَّدٍ، عَنِ الأَعْمَشِ، قَالَ حُدِّثْتُ عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ وَكَأَنَّ هَذَا أَصَحُّ مِنَ الْحَدِيثِ الأَوَّلِ حَدَّثَنَا بِذَلِكَ عُبَيْدُ بْنُ أَسْبَاطِ بْنِ مُحَمَّدٍ قَالَ حَدَّثَنِي أَبِي عَنِ الأَعْمَشِ بِهَذَا الْحَدِيثِ ‏.‏",
 			"translation": {
 				"narrator": "",
 				"text": "Asbat bin Muhammad reported it from Al-A'mash who said: \"It has been narrated to me from Abu Salih, from Abu Hurairah, from the Prophet (ﷺ),\" and it is similar. [It is as if this is more correct than the first narration.] (Another chain) for this Hadith"
@@ -51333,10 +51316,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 1425",
+				"url": "https://sunnah.com/tirmidhi:1425"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5001425,
+			"idInBook": 3962,
+			"chapterId": 17,
+			"bookId": 5,
+			"arabic": "وَرَوَى أَسْبَاطُ بْنُ مُحَمَّدٍ، عَنِ الأَعْمَشِ، قَالَ حُدِّثْتُ عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ وَكَأَنَّ هَذَا أَصَحُّ مِنَ الْحَدِيثِ الأَوَّلِ حَدَّثَنَا بِذَلِكَ عُبَيْدُ بْنُ أَسْبَاطِ بْنِ مُحَمَّدٍ قَالَ حَدَّثَنِي أَبِي عَنِ الأَعْمَشِ بِهَذَا الْحَدِيثِ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Asbat bin Muhammad reported it from Al-A'mash who said: \"It has been narrated to me from Abu Salih, from Abu Hurairah, from the Prophet (ﷺ),\" and it is similar. [It is as if this is more correct than the first narration.] (Another chain) for this Hadith"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 1425b",
 				"url": "https://sunnah.com/tirmidhi:1425b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 1425.1
 		},
 		{
 			"id": 5001426,
@@ -51606,6 +51612,18 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
+				},
+				{
+					"name": "Ahmad Muhammad Shakir",
+					"grade": "Sahih"
+				},
+				{
+					"name": "Al-Albani",
+					"grade": "Sahih"
+				},
+				{
+					"name": "Bashar Awad Maarouf",
+					"grade": "Hasan Sahih"
 				}
 			],
 			"reference": {
@@ -51616,7 +51634,7 @@
 		},
 		{
 			"id": 5001433,
-			"idInBook": 1433,
+			"idInBook": 3963,
 			"chapterId": 17,
 			"bookId": 5,
 			"arabic": "حَدَّثَنَا إِسْحَاقُ بْنُ مُوسَى الأَنْصَارِيُّ، حَدَّثَنَا مَعْنٌ، حَدَّثَنَا مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِي هُرَيْرَةَ، وَزَيْدِ بْنِ خَالِدٍ الْجُهَنِيِّ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ بِمَعْنَاهُ ‏.‏",
@@ -51634,11 +51652,12 @@
 				"text": "Jami` at-Tirmidhi 1433b",
 				"url": "https://sunnah.com/tirmidhi:1433b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 1433.1
 		},
 		{
 			"id": 5001433,
-			"idInBook": 1433,
+			"idInBook": 3964,
 			"chapterId": 17,
 			"bookId": 5,
 			"arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، بِإِسْنَادِهِ نَحْوَ حَدِيثِ مَالِكٍ بِمَعْنَاهُ ‏.‏ قَالَ وَفِي الْبَابِ عَنْ أَبِي بَكْرَةَ وَعُبَادَةَ بْنِ الصَّامِتِ وَأَبِي هُرَيْرَةَ وَأَبِي سَعِيدٍ وَابْنِ عَبَّاسٍ وَجَابِرِ بْنِ سَمُرَةَ وَهَزَّالٍ وَبُرَيْدَةَ وَسَلَمَةَ بْنِ الْمُحَبِّقِ وَأَبِي بَرْزَةَ وَعِمْرَانَ بْنِ حُصَيْنٍ ‏.‏ قَالَ أَبُو عِيسَى حَدِيثُ أَبِي هُرَيْرَةَ وَزَيْدِ بْنِ خَالِدٍ حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏ وَهَكَذَا رَوَى مَالِكُ بْنُ أَنَسٍ وَمَعْمَرٌ وَغَيْرُ وَاحِدٍ عَنِ الزُّهْرِيِّ عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ عَنْ أَبِي هُرَيْرَةَ وَزَيْدِ بْنِ خَالِدٍ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَرَوَوْا بِهَذَا الإِسْنَادِ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِذَا زَنَتِ الأَمَةُ فَاجْلِدُوهَا فَإِنْ زَنَتْ فِي الرَّابِعَةِ فَبِيعُوهَا وَلَوْ بِضَفِيرٍ ‏\"‏ ‏.‏ وَرَوَى سُفْيَانُ بْنُ عُيَيْنَةَ عَنِ الزُّهْرِيِّ عَنْ عُبَيْدِ اللَّهِ عَنْ أَبِي هُرَيْرَةَ وَزَيْدِ بْنِ خَالِدٍ وَشِبْلٍ قَالُوا كُنَّا عِنْدَ النَّبِيِّ صلى الله عليه وسلم ‏.‏ هَكَذَا رَوَى ابْنُ عُيَيْنَةَ الْحَدِيثَيْنِ جَمِيعًا عَنْ أَبِي هُرَيْرَةَ وَزَيْدِ بْنِ خَالِدٍ وَشِبْلٍ وَحَدِيثُ ابْنِ عُيَيْنَةَ وَهَمٌ وَهِمَ فِيهِ سُفْيَانُ بْنُ عُيَيْنَةَ أَدْخَلَ حَدِيثًا فِي حَدِيثٍ ‏.‏ وَالصَّحِيحُ مَا رَوَى مُحَمَّدُ بْنُ الْوَلِيدِ الزُّبَيْدِيُّ وَيُونُسُ بْنُ يَزِيدَ وَابْنُ أَخِي الزُّهْرِيِّ عَنِ الزُّهْرِيِّ عَنْ عُبَيْدِ اللَّهِ عَنْ أَبِي هُرَيْرَةَ وَزَيْدِ بْنِ خَالِدٍ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا زَنَتِ الأَمَةُ فَاجْلِدُوهَا ‏\"‏ ‏.‏ وَالزُّهْرِيُّ عَنْ عُبَيْدِ اللَّهِ عَنْ شِبْلِ بْنِ خَالِدٍ عَنْ عَبْدِ اللَّهِ بْنِ مَالِكٍ الأَوْسِيِّ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا زَنَتِ الأَمَةُ ‏\"‏ ‏.‏ وَهَذَا الصَّحِيحُ عِنْدَ أَهْلِ الْحَدِيثِ ‏.‏ - وَشِبْلُ بْنُ خَالِدٍ لَمْ يُدْرِكِ النَّبِيَّ صلى الله عليه وسلم إِنَّمَا رَوَى شِبْلٌ عَنْ عَبْدِ اللَّهِ بْنِ مَالِكٍ الأَوْسِيِّ عَنِ النَّبِيِّ صلى الله عليه وسلم وَهَذَا الصَّحِيحُ وَحَدِيثُ ابْنِ عُيَيْنَةَ غَيْرُ مَحْفُوظٍ وَرُوِيَ عَنْهُ أَنَّهُ قَالَ شِبْلُ بْنُ حَامِدٍ وَهُوَ خَطَأٌ إِنَّمَا هُوَ شِبْلُ بْنُ خَالِدٍ وَيُقَالُ أَيْضًا شِبْلُ بْنُ خُلَيْدٍ ‏.‏",
@@ -51650,25 +51669,14 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				},
-				{
-					"name": "Ahmad Muhammad Shakir",
-					"grade": "Sahih"
-				},
-				{
-					"name": "Al-Albani",
-					"grade": "Sahih"
-				},
-				{
-					"name": "Bashar Awad Maarouf",
-					"grade": "Hasan Sahih"
 				}
 			],
 			"reference": {
 				"text": "Jami` at-Tirmidhi 1433c",
 				"url": "https://sunnah.com/tirmidhi:1433c"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 1433.2
 		},
 		{
 			"id": 5001434,
@@ -56201,7 +56209,16 @@
 				"narrator": "",
 				"text": ""
 			},
-			"grades": [],
+			"grades": [
+				{
+					"name": "Ahmad Muhammad Shakir",
+					"grade": "Daif Isnaad"
+				},
+				{
+					"name": "Al-Albani",
+					"grade": "Daif Isnaad"
+				}
+			],
 			"reference": {
 				"text": "Jami` at-Tirmidhi 1561",
 				"url": "https://sunnah.com/tirmidhi:1561"
@@ -56210,7 +56227,7 @@
 		},
 		{
 			"id": 5001561,
-			"idInBook": 1561,
+			"idInBook": 3965,
 			"chapterId": 21,
 			"bookId": 5,
 			"arabic": "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، حَدَّثَنَا سُفْيَانُ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْحَارِثِ، عَنْ سُلَيْمَانَ بْنِ مُوسَى، عَنْ مَكْحُولٍ، عَنْ أَبِي سَلاَّمٍ، عَنْ أَبِي أُمَامَةَ، عَنْ عُبَادَةَ بْنِ الصَّامِتِ، أَنَّ النَّبِيَّ ﷺ كَانَ يُنَفِّلُ فِي الْبَدْأَةِ الرُّبُعَ وَفِي الْقُفُولِ الثُّلُثَ . وَفِي الْبَابِ عَنْ سَعْدٍ وَابْنِ عَبَّاسٍ وَحَبِيبِ بْنِ مَسْلَمَةَ وَمَعْنِ بْنِ يَزِيدَ وَابْنِ عُمَرَ وَسَلَمَةَ بْنِ الأَكْوَعِ . وَحَدِيثُ عُبَادَةَ حَدِيثٌ حَسَنٌ . وَقَدْ رُوِيَ هَذَا الْحَدِيثُ عَنْ أَبِي سَلاَّمٍ عَنْ رَجُلٍ مِنْ أَصْحَابِ النَّبِيِّ ﷺ.\n\nحَدَّثَنَا هَنَّادٌ، حَدَّثَنَا ابْنُ أَبِي الزِّنَادِ، عَنْ أَبِيهِ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ ﷺ تَنَفَّلَ سَيْفَهُ ذَا الْفَقَارِ يَوْمَ بَدْرٍ وَهُوَ الَّذِي رَأَى فِيهِ الرُّؤْيَا يَوْمَ أُحُدٍ . هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ إِنَّمَا نَعْرِفُهُ مِنْ هَذَا الْوَجْهِ مِنْ حَدِيثِ ابْنِ أَبِي الزِّنَادِ . وَقَدِ اخْتَلَفَ أَهْلُ الْعِلْمِ فِي النَّفَلِ مِنَ الْخُمُسِ فَقَالَ مَالِكُ بْنُ أَنَسٍ لَمْ يَبْلُغْنِي أَنَّ رَسُولَ اللَّهِ ﷺ نَفَّلَ فِي مَغَازِيهِ كُلِّهَا وَقَدْ بَلَغَنِي أَنَّهُ نَفَّلَ فِي بَعْضِهَا وَإِنَّمَا ذَلِكَ عَلَى وَجْهِ الاِجْتِهَادِ مِنَ الإِمَامِ فِي أَوَّلِ الْمَغْنَمِ وَآخِرِهِ . قَالَ ابْنُ مَنْصُورٍ قُلْتُ لأَحْمَدَ إِنَّ النَّبِيَّ ﷺ نَفَّلَ إِذَا فَصَلَ بِالرُّبُعِ بَعْدَ الْخُمُسِ وَإِذَا قَفَلَ بِالثُّلُثِ بَعْدَ الْخُمُسِ فَقَالَ يُخْرِجُ الْخُمُسَ ثُمَّ يُنَفِّلُ مِمَّا بَقِيَ وَلاَ يُجَاوِزُ هَذَا . قَالَ أَبُو عِيسَى وَهَذَا الْحَدِيثُ عَلَى مَا قَالَ ابْنُ الْمُسَيَّبِ النَّفَلُ مِنَ الْخُمُسِ . قَالَ إِسْحَاقُ كَمَا قَالَ .",
@@ -56222,21 +56239,14 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				},
-				{
-					"name": "Ahmad Muhammad Shakir",
-					"grade": "Daif Isnaad"
-				},
-				{
-					"name": "Al-Albani",
-					"grade": "Daif Isnaad"
 				}
 			],
 			"reference": {
 				"text": "Jami` at-Tirmidhi 1561b",
 				"url": "https://sunnah.com/tirmidhi:1561b"
 			},
-			"isAddendum": false,
+			"isAddendum": true,
+			"sortKey": 1561.1,
 			"source": "amrayn"
 		},
 		{
@@ -67853,7 +67863,16 @@
 				"narrator": "",
 				"text": ""
 			},
-			"grades": [],
+			"grades": [
+				{
+					"name": "Ahmad Muhammad Shakir",
+					"grade": "Sahih"
+				},
+				{
+					"name": "Al-Albani",
+					"grade": "Sahih"
+				}
+			],
 			"reference": {
 				"text": "Jami` at-Tirmidhi 1884",
 				"url": "https://sunnah.com/tirmidhi:1884"
@@ -67862,7 +67881,7 @@
 		},
 		{
 			"id": 5001884,
-			"idInBook": 1884,
+			"idInBook": 3966,
 			"chapterId": 26,
 			"bookId": 5,
 			"arabic": "حَدَّثَنَا قُتَيْبَةُ، وَيُوسُفُ بْنُ حَمَّادٍ، قَالاَ حَدَّثَنَا عَبْدُ الْوَارِثِ بْنُ سَعِيدٍ، عَنْ أَبِي عِصَامٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ النَّبِيَّ ﷺ كَانَ يَتَنَفَّسُ فِي الإِنَاءِ ثَلاَثًا وَيَقُولُ  \" هُوَ أَمْرَأُ وَأَرْوَى \" . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ . وَرَوَاهُ هِشَامٌ الدَّسْتَوَائِيُّ عَنْ أَبِي عِصَامٍ عَنْ أَنَسٍ .  وَرَوَى عَزْرَةُ بْنُ ثَابِتٍ، عَنْ ثُمَامَةَ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ ﷺ كَانَ يَتَنَفَّسُ فِي الإِنَاءِ ثَلاَثًا .",
@@ -67874,21 +67893,14 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				},
-				{
-					"name": "Ahmad Muhammad Shakir",
-					"grade": "Sahih"
-				},
-				{
-					"name": "Al-Albani",
-					"grade": "Sahih"
 				}
 			],
 			"reference": {
 				"text": "Jami` at-Tirmidhi 1884b",
 				"url": "https://sunnah.com/tirmidhi:1884b"
 			},
-			"isAddendum": false,
+			"isAddendum": true,
+			"sortKey": 1884.1,
 			"source": "amrayn"
 		},
 		{
@@ -68607,50 +68619,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 1904",
-				"url": "https://sunnah.com/tirmidhi:1904"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5001904,
-			"idInBook": 1904,
-			"chapterId": 27,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنْ مُحَمَّدِ بْنِ سُوقَةَ، عَنْ أَبِي بَكْرِ بْنِ حَفْصٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَجُلاً، أَتَى النَّبِيَّ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ إِنِّي أَصَبْتُ ذَنْبًا عَظِيمًا فَهَلْ لِي مِنْ تَوْبَةٍ قَالَ ‏\"‏ هَلْ لَكَ مِنْ أُمٍّ ‏\"‏ ‏.‏ قَالَ لاَ ‏.‏ قَالَ ‏\"‏ هَلْ لَكَ مِنْ خَالَةٍ ‏\"‏ ‏.‏ قَالَ نَعَمْ ‏.‏ قَالَ ‏\"‏ فَبِرَّهَا ‏\"‏ ‏.‏ وَفِي الْبَابِ عَنْ عَلِيٍّ وَالْبَرَاءِ بْنِ عَازِبٍ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "(Another chain) From Abu Bakr bin Hafs, from the Prophet (ﷺ), and it is similar, but he did not mention \"from Ibn `Umar\" in it. This is more correct than the Hadith of Abu Mu'awiyah, and Abu Bakr bin Hafs is Ibn 'Umar bin Sa'd bin Abi Waqqas (narrators in the chain of this Hadith)"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 1904b",
-				"url": "https://sunnah.com/tirmidhi:1904b"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5001904,
-			"idInBook": 1904,
-			"chapterId": 27,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ مُحَمَّدِ بْنِ سُوقَةَ، عَنْ أَبِي بَكْرِ بْنِ حَفْصِ بْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ وَلَمْ يَذْكُرْ فِيهِ عَنِ ابْنِ عُمَرَ ‏.‏ وَهَذَا أَصَحُّ مِنْ حَدِيثِ أَبِي مُعَاوِيَةَ ‏.‏ وَأَبُو بَكْرِ بْنُ حَفْصٍ هُوَ ابْنُ عُمَرَ بْنِ سَعْدِ بْنِ أَبِي وَقَّاصٍ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "(Another chain) From Abu Bakr bin Hafs, from the Prophet (ﷺ), and it is similar, but he did not mention \"from Ibn `Umar\" in it. This is more correct than the Hadith of Abu Mu'awiyah, and Abu Bakr bin Hafs is Ibn 'Umar bin Sa'd bin Abi Waqqas (narrators in the chain of this Hadith)"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -68670,10 +68638,56 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 1904",
+				"url": "https://sunnah.com/tirmidhi:1904"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5001904,
+			"idInBook": 3967,
+			"chapterId": 27,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنْ مُحَمَّدِ بْنِ سُوقَةَ، عَنْ أَبِي بَكْرِ بْنِ حَفْصٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَجُلاً، أَتَى النَّبِيَّ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ إِنِّي أَصَبْتُ ذَنْبًا عَظِيمًا فَهَلْ لِي مِنْ تَوْبَةٍ قَالَ ‏\"‏ هَلْ لَكَ مِنْ أُمٍّ ‏\"‏ ‏.‏ قَالَ لاَ ‏.‏ قَالَ ‏\"‏ هَلْ لَكَ مِنْ خَالَةٍ ‏\"‏ ‏.‏ قَالَ نَعَمْ ‏.‏ قَالَ ‏\"‏ فَبِرَّهَا ‏\"‏ ‏.‏ وَفِي الْبَابِ عَنْ عَلِيٍّ وَالْبَرَاءِ بْنِ عَازِبٍ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "(Another chain) From Abu Bakr bin Hafs, from the Prophet (ﷺ), and it is similar, but he did not mention \"from Ibn `Umar\" in it. This is more correct than the Hadith of Abu Mu'awiyah, and Abu Bakr bin Hafs is Ibn 'Umar bin Sa'd bin Abi Waqqas (narrators in the chain of this Hadith)"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 1904b",
+				"url": "https://sunnah.com/tirmidhi:1904b"
+			},
+			"isAddendum": true,
+			"sortKey": 1904.1
+		},
+		{
+			"id": 5001904,
+			"idInBook": 3968,
+			"chapterId": 27,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ مُحَمَّدِ بْنِ سُوقَةَ، عَنْ أَبِي بَكْرِ بْنِ حَفْصِ بْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ وَلَمْ يَذْكُرْ فِيهِ عَنِ ابْنِ عُمَرَ ‏.‏ وَهَذَا أَصَحُّ مِنْ حَدِيثِ أَبِي مُعَاوِيَةَ ‏.‏ وَأَبُو بَكْرِ بْنُ حَفْصٍ هُوَ ابْنُ عُمَرَ بْنِ سَعْدِ بْنِ أَبِي وَقَّاصٍ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "(Another chain) From Abu Bakr bin Hafs, from the Prophet (ﷺ), and it is similar, but he did not mention \"from Ibn `Umar\" in it. This is more correct than the Hadith of Abu Mu'awiyah, and Abu Bakr bin Hafs is Ibn 'Umar bin Sa'd bin Abi Waqqas (narrators in the chain of this Hadith)"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 1904c",
 				"url": "https://sunnah.com/tirmidhi:1904c"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 1904.2
 		},
 		{
 			"id": 5001905,
@@ -82899,28 +82913,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2302",
-				"url": "https://sunnah.com/tirmidhi:2302"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002302,
-			"idInBook": 2302,
-			"chapterId": 35,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا أَبُو عَمَّارٍ الْحُسَيْنُ بْنُ حُرَيْثٍ، حَدَّثَنَا وَكِيعٌ، عَنِ الأَعْمَشِ، حَدَّثَنَا هِلاَلُ بْنُ يِسَافٍ، عَنْ عِمْرَانَ بْنِ حُصَيْنٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ ‏.‏ وَهَذَا أَصَحُّ مِنْ حَدِيثِ مُحَمَّدِ بْنِ فُضَيْلٍ ‏.‏ قَالَ وَمَعْنَى هَذَا الْحَدِيثِ عِنْدَ بَعْضِ أَهْلِ الْعِلْمِ ‏\"‏ يُعْطُونَ الشَّهَادَةَ قَبْلَ أَنْ يُسْأَلُوهَا ‏\"‏ ‏.‏ إِنَّمَا يَعْنِي شَهَادَةَ الزُّورِ يَقُولُ يَشْهَدُ أَحَدُهُمْ مِنْ غَيْرِ أَنْ يُسْتَشْهَدَ وَبَيَانُ هَذَا فِي [الحديث التالي]",
-			"translation": {
-				"narrator": "",
-				"text": "Another chain on the authority of 'Imran bin Husain narrates a similar narration"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -82936,10 +82928,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2302",
+				"url": "https://sunnah.com/tirmidhi:2302"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002302,
+			"idInBook": 3969,
+			"chapterId": 35,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا أَبُو عَمَّارٍ الْحُسَيْنُ بْنُ حُرَيْثٍ، حَدَّثَنَا وَكِيعٌ، عَنِ الأَعْمَشِ، حَدَّثَنَا هِلاَلُ بْنُ يِسَافٍ، عَنْ عِمْرَانَ بْنِ حُصَيْنٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ ‏.‏ وَهَذَا أَصَحُّ مِنْ حَدِيثِ مُحَمَّدِ بْنِ فُضَيْلٍ ‏.‏ قَالَ وَمَعْنَى هَذَا الْحَدِيثِ عِنْدَ بَعْضِ أَهْلِ الْعِلْمِ ‏\"‏ يُعْطُونَ الشَّهَادَةَ قَبْلَ أَنْ يُسْأَلُوهَا ‏\"‏ ‏.‏ إِنَّمَا يَعْنِي شَهَادَةَ الزُّورِ يَقُولُ يَشْهَدُ أَحَدُهُمْ مِنْ غَيْرِ أَنْ يُسْتَشْهَدَ وَبَيَانُ هَذَا فِي [الحديث التالي]",
+			"translation": {
+				"narrator": "",
+				"text": "Another chain on the authority of 'Imran bin Husain narrates a similar narration"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2302b",
 				"url": "https://sunnah.com/tirmidhi:2302b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2302.1
 		},
 		{
 			"id": 5002303,
@@ -98856,6 +98871,18 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Da`eef (Weak)"
+				},
+				{
+					"name": "Ahmad Muhammad Shakir",
+					"grade": "Sahih"
+				},
+				{
+					"name": "Al-Albani",
+					"grade": "Sahih"
+				},
+				{
+					"name": "Zubair Ali Zai",
+					"grade": "Daif"
 				}
 			],
 			"reference": {
@@ -98866,7 +98893,7 @@
 		},
 		{
 			"id": 5002741,
-			"idInBook": 2741,
+			"idInBook": 3970,
 			"chapterId": 43,
 			"bookId": 5,
 			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنِ ابْنِ أَبِي لَيْلَى، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏ قَالَ هَكَذَا رَوَى شُعْبَةُ، هَذَا الْحَدِيثَ عَنِ ابْنِ أَبِي لَيْلَى، عَنْ أَبِي أَيُّوبَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَكَانَ ابْنُ أَبِي لَيْلَى يَضْطَرِبُ فِي هَذَا الْحَدِيثِ يَقُولُ أَحْيَانًا عَنْ أَبِي أَيُّوبَ عَنِ النَّبِيِّ صلى الله عليه وسلم وَيَقُولُ أَحْيَانًا عَنْ عَلِيٍّ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏",
@@ -98884,11 +98911,12 @@
 				"text": "Jami` at-Tirmidhi 2741b",
 				"url": "https://sunnah.com/tirmidhi:2741b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2741.1
 		},
 		{
 			"id": 5002741,
-			"idInBook": 2741,
+			"idInBook": 3971,
 			"chapterId": 43,
 			"bookId": 5,
 			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، وَمُحَمَّدُ بْنُ يَحْيَى الثَّقَفِيُّ الْمَرْوَزِيُّ، قَالاَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ الْقَطَّانُ، عَنِ ابْنِ أَبِي لَيْلَى، عَنْ أَخِيهِ، عِيسَى عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي لَيْلَى، عَنْ عَلِيٍّ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ ‏.‏",
@@ -98900,25 +98928,14 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Da`eef (Weak)"
-				},
-				{
-					"name": "Ahmad Muhammad Shakir",
-					"grade": "Sahih"
-				},
-				{
-					"name": "Al-Albani",
-					"grade": "Sahih"
-				},
-				{
-					"name": "Zubair Ali Zai",
-					"grade": "Daif"
 				}
 			],
 			"reference": {
 				"text": "Jami` at-Tirmidhi 2741c",
 				"url": "https://sunnah.com/tirmidhi:2741c"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2741.2
 		},
 		{
 			"id": 5002742,
@@ -98972,72 +98989,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2743",
-				"url": "https://sunnah.com/tirmidhi:2743"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002743,
-			"idInBook": 2743,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا عِكْرِمَةُ بْنُ عَمَّارٍ، عَنْ إِيَاسِ بْنِ سَلَمَةَ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ إِلاَّ أَنَّهُ قَالَ لَهُ فِي الثَّالِثَةِ ‏ \"‏ أَنْتَ مَزْكُومٌ ‏\"‏ ‏.‏ قَالَ هَذَا أَصَحُّ مِنْ حَدِيثِ ابْنِ الْمُبَارَكِ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "And 'Abdur-Rahman bin Mahdi reported it from 'Ikrimah bin 'Ammar and it is similar to the narration of Ibn Al-Mubarak, but he said to him the third time:\"You are suffering from a cold.\" (A chain to support that)"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2743b",
-				"url": "https://sunnah.com/tirmidhi:2743b"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002743,
-			"idInBook": 2743,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "وَقَدْ رَوَى شُعْبَةُ، عَنْ عِكْرِمَةَ بْنِ عَمَّارٍ، هَذَا الْحَدِيثَ نَحْوَ رِوَايَةِ يَحْيَى بْنِ سَعِيدٍ حَدَّثَنَا بِذَلِكَ، أَحْمَدُ بْنُ الْحَكَمِ الْبَصْرِيُّ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ عِكْرِمَةَ بْنِ عَمَّارٍ، بِهَذَا ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "And 'Abdur-Rahman bin Mahdi reported it from 'Ikrimah bin 'Ammar and it is similar to the narration of Ibn Al-Mubarak, but he said to him the third time:\"You are suffering from a cold.\" (A chain to support that)"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2743c",
-				"url": "https://sunnah.com/tirmidhi:2743c"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002743,
-			"idInBook": 2743,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "وَرَوَى عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ عِكْرِمَةَ بْنِ عَمَّارٍ، نَحْوَ رِوَايَةِ ابْنِ الْمُبَارَكِ وَقَالَ لَهُ فِي الثَّالِثَةِ ‏ \"‏ أَنْتَ مَزْكُومٌ ‏\"‏ ‏.‏ حَدَّثَنَا بِذَلِكَ إِسْحَاقُ بْنُ مَنْصُورٍ حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "And 'Abdur-Rahman bin Mahdi reported it from 'Ikrimah bin 'Ammar and it is similar to the narration of Ibn Al-Mubarak, but he said to him the third time:\"You are suffering from a cold.\" (A chain to support that)"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -99057,10 +99008,79 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2743",
+				"url": "https://sunnah.com/tirmidhi:2743"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002743,
+			"idInBook": 3972,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا عِكْرِمَةُ بْنُ عَمَّارٍ، عَنْ إِيَاسِ بْنِ سَلَمَةَ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ إِلاَّ أَنَّهُ قَالَ لَهُ فِي الثَّالِثَةِ ‏ \"‏ أَنْتَ مَزْكُومٌ ‏\"‏ ‏.‏ قَالَ هَذَا أَصَحُّ مِنْ حَدِيثِ ابْنِ الْمُبَارَكِ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "And 'Abdur-Rahman bin Mahdi reported it from 'Ikrimah bin 'Ammar and it is similar to the narration of Ibn Al-Mubarak, but he said to him the third time:\"You are suffering from a cold.\" (A chain to support that)"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 2743b",
+				"url": "https://sunnah.com/tirmidhi:2743b"
+			},
+			"isAddendum": true,
+			"sortKey": 2743.1
+		},
+		{
+			"id": 5002743,
+			"idInBook": 3973,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "وَقَدْ رَوَى شُعْبَةُ، عَنْ عِكْرِمَةَ بْنِ عَمَّارٍ، هَذَا الْحَدِيثَ نَحْوَ رِوَايَةِ يَحْيَى بْنِ سَعِيدٍ حَدَّثَنَا بِذَلِكَ، أَحْمَدُ بْنُ الْحَكَمِ الْبَصْرِيُّ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ عِكْرِمَةَ بْنِ عَمَّارٍ، بِهَذَا ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "And 'Abdur-Rahman bin Mahdi reported it from 'Ikrimah bin 'Ammar and it is similar to the narration of Ibn Al-Mubarak, but he said to him the third time:\"You are suffering from a cold.\" (A chain to support that)"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 2743c",
+				"url": "https://sunnah.com/tirmidhi:2743c"
+			},
+			"isAddendum": true,
+			"sortKey": 2743.2
+		},
+		{
+			"id": 5002743,
+			"idInBook": 3974,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "وَرَوَى عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ عِكْرِمَةَ بْنِ عَمَّارٍ، نَحْوَ رِوَايَةِ ابْنِ الْمُبَارَكِ وَقَالَ لَهُ فِي الثَّالِثَةِ ‏ \"‏ أَنْتَ مَزْكُومٌ ‏\"‏ ‏.‏ حَدَّثَنَا بِذَلِكَ إِسْحَاقُ بْنُ مَنْصُورٍ حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "And 'Abdur-Rahman bin Mahdi reported it from 'Ikrimah bin 'Ammar and it is similar to the narration of Ibn Al-Mubarak, but he said to him the third time:\"You are suffering from a cold.\" (A chain to support that)"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2743d",
 				"url": "https://sunnah.com/tirmidhi:2743d"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2743.3
 		},
 		{
 			"id": 5002744,
@@ -100368,28 +100388,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2780",
-				"url": "https://sunnah.com/tirmidhi:2780"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002780,
-			"idInBook": 2780,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ سُلَيْمَانَ التَّيْمِيِّ، عَنْ أَبِي عُثْمَانَ، عَنْ أُسَامَةَ بْنِ زَيْدٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Another chain with a similar narration"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -100409,10 +100407,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2780",
+				"url": "https://sunnah.com/tirmidhi:2780"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002780,
+			"idInBook": 3975,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ سُلَيْمَانَ التَّيْمِيِّ، عَنْ أَبِي عُثْمَانَ، عَنْ أُسَامَةَ بْنِ زَيْدٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Another chain with a similar narration"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2780b",
 				"url": "https://sunnah.com/tirmidhi:2780b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2780.1
 		},
 		{
 			"id": 5002781,
@@ -100504,28 +100525,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2783",
-				"url": "https://sunnah.com/tirmidhi:2783"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002783,
-			"idInBook": 2783,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عُمَرَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ وَلَمْ يَذْكُرْ فِيهِ يَحْيَى قَوْلَ نَافِعٍ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "(Another chain) with a similar narration"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Al-Albani",
@@ -100541,10 +100540,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2783",
+				"url": "https://sunnah.com/tirmidhi:2783"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002783,
+			"idInBook": 3976,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عُمَرَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ وَلَمْ يَذْكُرْ فِيهِ يَحْيَى قَوْلَ نَافِعٍ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "(Another chain) with a similar narration"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2783b",
 				"url": "https://sunnah.com/tirmidhi:2783b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2783.1
 		},
 		{
 			"id": 5002784,
@@ -100674,28 +100696,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Da`eef (Weak)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2787",
-				"url": "https://sunnah.com/tirmidhi:2787"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002787,
-			"idInBook": 2787,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا أَبُو دَاوُدَ الْحَفَرِيُّ، عَنْ سُفْيَانَ، عَنِ الْجُرَيْرِيِّ، عَنْ أَبِي نَضْرَةَ، عَنْ رَجُلٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" طِيبُ الرِّجَالِ مَا ظَهَرَ رِيحُهُ وَخَفِيَ لَوْنُهُ وَطِيبُ النِّسَاءِ مَا ظَهَرَ لَوْنُهُ وَخَفِيَ رِيحُهُ \" .",
-			"translation": {
-				"narrator": "",
-				"text": "Another chain of narration similar in meaning"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Da`eef (Weak)"
 				},
 				{
 					"name": "Al-Albani",
@@ -100707,10 +100707,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2787",
+				"url": "https://sunnah.com/tirmidhi:2787"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002787,
+			"idInBook": 3977,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا أَبُو دَاوُدَ الْحَفَرِيُّ، عَنْ سُفْيَانَ، عَنِ الْجُرَيْرِيِّ، عَنْ أَبِي نَضْرَةَ، عَنْ رَجُلٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ ﷺ  \" طِيبُ الرِّجَالِ مَا ظَهَرَ رِيحُهُ وَخَفِيَ لَوْنُهُ وَطِيبُ النِّسَاءِ مَا ظَهَرَ لَوْنُهُ وَخَفِيَ رِيحُهُ \" .",
+			"translation": {
+				"narrator": "",
+				"text": "Another chain of narration similar in meaning"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Da`eef (Weak)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2787b",
 				"url": "https://sunnah.com/tirmidhi:2787b"
 			},
-			"isAddendum": false,
+			"isAddendum": true,
+			"sortKey": 2787.1,
 			"source": "amrayn"
 		},
 		{
@@ -101561,28 +101584,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Da`eef (Weak)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2811",
-				"url": "https://sunnah.com/tirmidhi:2811"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002811,
-			"idInBook": 2811,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "وَرَوَى شُعْبَةُ، وَالثَّوْرِيُّ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ بْنِ عَازِبٍ، قَالَ رَأَيْتُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم حُلَّةً حَمْرَاءَ ‏.‏ حَدَّثَنَا بِذَلِكَ مَحْمُودُ بْنُ غَيْلاَنَ حَدَّثَنَا وَكِيعٌ حَدَّثَنَا سُفْيَانُ عَنْ أَبِي إِسْحَاقَ وَحَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ حَدَّثَنَا مَحَمَّدُ بْنُ جَعْفَرٍ حَدَّثَنَا شُعْبَةُ عَنْ أَبِي إِسْحَاقَ بِهَذَا ‏.‏ وَفِي الْحَدِيثِ كَلاَمٌ أَكْثَرُ مِنْ هَذَا ‏.‏ قَالَ سَأَلْتُ مُحَمَّدًا قُلْتُ لَهُ حَدِيثُ أَبِي إِسْحَاقَ عَنِ الْبَرَاءِ أَصَحُّ أَوْ حَدِيثُ جَابِرِ بْنِ سَمُرَةَ فَرَأَى كِلاَ الْحَدِيثَيْنِ صَحِيحًا ‏.‏ وَفِي الْبَابِ عَنِ الْبَرَاءِ وَأَبِي جُحَيْفَةَ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Shu'bah and Ath-Thawri reported it from Abu Ishaq from Al-Bara bin 'Azib who said:\"I saw a red Hullah on the Messenger of Allah.\" (Another chain of narration)"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Da`eef (Weak)"
 				},
 				{
 					"name": "Al-Albani",
@@ -101594,10 +101595,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2811",
+				"url": "https://sunnah.com/tirmidhi:2811"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002811,
+			"idInBook": 3978,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "وَرَوَى شُعْبَةُ، وَالثَّوْرِيُّ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ بْنِ عَازِبٍ، قَالَ رَأَيْتُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم حُلَّةً حَمْرَاءَ ‏.‏ حَدَّثَنَا بِذَلِكَ مَحْمُودُ بْنُ غَيْلاَنَ حَدَّثَنَا وَكِيعٌ حَدَّثَنَا سُفْيَانُ عَنْ أَبِي إِسْحَاقَ وَحَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ حَدَّثَنَا مَحَمَّدُ بْنُ جَعْفَرٍ حَدَّثَنَا شُعْبَةُ عَنْ أَبِي إِسْحَاقَ بِهَذَا ‏.‏ وَفِي الْحَدِيثِ كَلاَمٌ أَكْثَرُ مِنْ هَذَا ‏.‏ قَالَ سَأَلْتُ مُحَمَّدًا قُلْتُ لَهُ حَدِيثُ أَبِي إِسْحَاقَ عَنِ الْبَرَاءِ أَصَحُّ أَوْ حَدِيثُ جَابِرِ بْنِ سَمُرَةَ فَرَأَى كِلاَ الْحَدِيثَيْنِ صَحِيحًا ‏.‏ وَفِي الْبَابِ عَنِ الْبَرَاءِ وَأَبِي جُحَيْفَةَ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Shu'bah and Ath-Thawri reported it from Abu Ishaq from Al-Bara bin 'Azib who said:\"I saw a red Hullah on the Messenger of Allah.\" (Another chain of narration)"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Da`eef (Weak)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2811b",
 				"url": "https://sunnah.com/tirmidhi:2811b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2811.1
 		},
 		{
 			"id": 5002812,
@@ -101715,28 +101739,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2815",
-				"url": "https://sunnah.com/tirmidhi:2815"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002815,
-			"idInBook": 2815,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، قَالَ ح وَحَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ حَمَّادِ بْنِ زَيْدٍ، عَنْ عَبْدِ الْعَزِيزِ بْنِ صُهَيْبٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ التَّزَعْفُرِ لِلرِّجَالِ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏ وَرَوَى شُعْبَةُ، هَذَا الْحَدِيثَ عَنْ إِسْمَاعِيلَ ابْنِ عُلَيَّةَ، عَنْ عَبْدِ الْعَزِيزِ بْنِ صُهَيْبٍ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَى عَنِ التَّزَعْفُرِ ‏.‏ حَدَّثَنَا بِذَلِكَ عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ حَدَّثَنَا آدَمُ عَنْ شُعْبَةَ ‏.‏ قَالَ أَبُو عِيسَى وَمَعْنَى كَرَاهِيَةِ التَّزَعْفُرِ لِلرِّجَالِ أَنْ يَتَزَعْفَرَ الرَّجُلُ يَعْنِي أَنْ يَتَطَيَّبَ بِهِ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Narrated Anas bin Malik:that the Messenger of Allah (ﷺ) prohibited saffron for men"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Al-Albani",
@@ -101752,10 +101754,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2815",
+				"url": "https://sunnah.com/tirmidhi:2815"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002815,
+			"idInBook": 3979,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، قَالَ ح وَحَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ حَمَّادِ بْنِ زَيْدٍ، عَنْ عَبْدِ الْعَزِيزِ بْنِ صُهَيْبٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ التَّزَعْفُرِ لِلرِّجَالِ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏ وَرَوَى شُعْبَةُ، هَذَا الْحَدِيثَ عَنْ إِسْمَاعِيلَ ابْنِ عُلَيَّةَ، عَنْ عَبْدِ الْعَزِيزِ بْنِ صُهَيْبٍ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَى عَنِ التَّزَعْفُرِ ‏.‏ حَدَّثَنَا بِذَلِكَ عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ حَدَّثَنَا آدَمُ عَنْ شُعْبَةَ ‏.‏ قَالَ أَبُو عِيسَى وَمَعْنَى كَرَاهِيَةِ التَّزَعْفُرِ لِلرِّجَالِ أَنْ يَتَزَعْفَرَ الرَّجُلُ يَعْنِي أَنْ يَتَطَيَّبَ بِهِ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Narrated Anas bin Malik:that the Messenger of Allah (ﷺ) prohibited saffron for men"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2815b",
 				"url": "https://sunnah.com/tirmidhi:2815b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2815.1
 		},
 		{
 			"id": 5002816,
@@ -102059,72 +102084,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2824",
-				"url": "https://sunnah.com/tirmidhi:2824"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002824,
-			"idInBook": 2824,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، وَحَمْزَةَ، ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الشُّؤْمُ فِي ثَلاَثَةٍ فِي الْمَرْأَةِ وَالْمَسْكَنِ وَالدَّابَّةِ ‏\". ‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ وَبَعْضُ أَصْحَابِ الزُّهْرِيِّ لاَ يَذْكُرُونَ فِيهِ عَنْ حَمْزَةَ إِنَّمَا يَقُولُونَ عَنْ سَالِمٍ عَنْ أَبِيهِ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ فَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا وَهَكَذَا رَوَى لَنَا ابْنُ أَبِي عُمَرَ هَذَا الْحَدِيثَ عَنْ سُفْيَانَ بْنِ عُيَيْنَةَ عَنِ الزُّهْرِيِّ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ حَدَّثَنَا سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ الْمَخْزُومِيُّ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِنَحْوِهِ وَلَمْ يَذْكُرْ فِيهِ سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ عَنْ حَمْزَةَ، وَرِوَايَةُ، سَعِيدٍ أَصَحُّ لأَنَّ عَلِيَّ بْنَ الْمَدِينِيِّ وَالْحُمَيْدِيَّ رَوَيَا عَنْ سُفْيَانَ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، وَذَكَرَا، عَنْ سُفْيَانَ، قَالَ لَمْ يَرْوِ لَنَا الزُّهْرِيُّ هَذَا الْحَدِيثَ إِلاَّ عَنْ سَالِمٍ عَنِ ابْنِ عُمَرَ ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ وَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا ‏.‏ وَفِي الْبَابِ عَنْ سَهْلِ بْنِ سَعْدٍ وَعَائِشَةَ وَأَنَسٍ ‏.‏ - وَقَدْ رُوِيَ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِنْ كَانَ الشُّؤْمُ فِي شَيْءٍ فَفِي الْمَرْأَةِ وَالدَّابَّةِ وَالْمَسْكَنِ ‏\"‏ ‏.‏ وَقَدْ رُوِيَ عَنْ حَكِيمِ بْنِ مُعَاوِيَةَ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ شُؤْمَ وَقَدْ يَكُونُ الْيُمْنُ فِي الدَّارِ وَالْمَرْأَةِ وَالْفَرَسِ ‏\"‏ ‏.‏ حَدَّثَنَا بِذَلِكَ عَلِيُّ بْنُ حُجْرٍ حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَيَّاشٍ عَنْ سُلَيْمَانَ بْنِ سُلَيْمٍ عَنْ يَحْيَى بْنِ جَابِرٍ الطَّائِيِّ عَنْ مُعَاوِيَةَ بْنِ حَكِيمٍ عَنْ عَمِّهِ حَكِيمِ بْنِ مُعَاوِيَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Narrated Salim and Hamzah, the sons of 'Abdullah bin 'Umar:from their father that the Messenger of Allah (ﷺ) said: \"An omen is in three: A woman, a dwelling, and a (riding) beast"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2824b",
-				"url": "https://sunnah.com/tirmidhi:2824b"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002824,
-			"idInBook": 2824,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، وَحَمْزَةَ، ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الشُّؤْمُ فِي ثَلاَثَةٍ فِي الْمَرْأَةِ وَالْمَسْكَنِ وَالدَّابَّةِ ‏\". ‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ وَبَعْضُ أَصْحَابِ الزُّهْرِيِّ لاَ يَذْكُرُونَ فِيهِ عَنْ حَمْزَةَ إِنَّمَا يَقُولُونَ عَنْ سَالِمٍ عَنْ أَبِيهِ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ فَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا وَهَكَذَا رَوَى لَنَا ابْنُ أَبِي عُمَرَ هَذَا الْحَدِيثَ عَنْ سُفْيَانَ بْنِ عُيَيْنَةَ عَنِ الزُّهْرِيِّ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ حَدَّثَنَا سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ الْمَخْزُومِيُّ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِنَحْوِهِ وَلَمْ يَذْكُرْ فِيهِ سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ عَنْ حَمْزَةَ، وَرِوَايَةُ، سَعِيدٍ أَصَحُّ لأَنَّ عَلِيَّ بْنَ الْمَدِينِيِّ وَالْحُمَيْدِيَّ رَوَيَا عَنْ سُفْيَانَ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، وَذَكَرَا، عَنْ سُفْيَانَ، قَالَ لَمْ يَرْوِ لَنَا الزُّهْرِيُّ هَذَا الْحَدِيثَ إِلاَّ عَنْ سَالِمٍ عَنِ ابْنِ عُمَرَ ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ وَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا ‏.‏ وَفِي الْبَابِ عَنْ سَهْلِ بْنِ سَعْدٍ وَعَائِشَةَ وَأَنَسٍ ‏.‏ - وَقَدْ رُوِيَ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِنْ كَانَ الشُّؤْمُ فِي شَيْءٍ فَفِي الْمَرْأَةِ وَالدَّابَّةِ وَالْمَسْكَنِ ‏\"‏ ‏.‏ وَقَدْ رُوِيَ عَنْ حَكِيمِ بْنِ مُعَاوِيَةَ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ شُؤْمَ وَقَدْ يَكُونُ الْيُمْنُ فِي الدَّارِ وَالْمَرْأَةِ وَالْفَرَسِ ‏\"‏ ‏.‏ حَدَّثَنَا بِذَلِكَ عَلِيُّ بْنُ حُجْرٍ حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَيَّاشٍ عَنْ سُلَيْمَانَ بْنِ سُلَيْمٍ عَنْ يَحْيَى بْنِ جَابِرٍ الطَّائِيِّ عَنْ مُعَاوِيَةَ بْنِ حَكِيمٍ عَنْ عَمِّهِ حَكِيمِ بْنِ مُعَاوِيَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Narrated Salim and Hamzah, the sons of 'Abdullah bin 'Umar:from their father that the Messenger of Allah (ﷺ) said: \"An omen is in three: A woman, a dwelling, and a (riding) beast"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2824c",
-				"url": "https://sunnah.com/tirmidhi:2824c"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002824,
-			"idInBook": 2824,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، وَحَمْزَةَ، ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الشُّؤْمُ فِي ثَلاَثَةٍ فِي الْمَرْأَةِ وَالْمَسْكَنِ وَالدَّابَّةِ ‏\". ‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ وَبَعْضُ أَصْحَابِ الزُّهْرِيِّ لاَ يَذْكُرُونَ فِيهِ عَنْ حَمْزَةَ إِنَّمَا يَقُولُونَ عَنْ سَالِمٍ عَنْ أَبِيهِ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ فَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا وَهَكَذَا رَوَى لَنَا ابْنُ أَبِي عُمَرَ هَذَا الْحَدِيثَ عَنْ سُفْيَانَ بْنِ عُيَيْنَةَ عَنِ الزُّهْرِيِّ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ حَدَّثَنَا سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ الْمَخْزُومِيُّ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِنَحْوِهِ وَلَمْ يَذْكُرْ فِيهِ سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ عَنْ حَمْزَةَ، وَرِوَايَةُ، سَعِيدٍ أَصَحُّ لأَنَّ عَلِيَّ بْنَ الْمَدِينِيِّ وَالْحُمَيْدِيَّ رَوَيَا عَنْ سُفْيَانَ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، وَذَكَرَا، عَنْ سُفْيَانَ، قَالَ لَمْ يَرْوِ لَنَا الزُّهْرِيُّ هَذَا الْحَدِيثَ إِلاَّ عَنْ سَالِمٍ عَنِ ابْنِ عُمَرَ ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ وَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا ‏.‏ وَفِي الْبَابِ عَنْ سَهْلِ بْنِ سَعْدٍ وَعَائِشَةَ وَأَنَسٍ ‏.‏ - وَقَدْ رُوِيَ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِنْ كَانَ الشُّؤْمُ فِي شَيْءٍ فَفِي الْمَرْأَةِ وَالدَّابَّةِ وَالْمَسْكَنِ ‏\"‏ ‏.‏ وَقَدْ رُوِيَ عَنْ حَكِيمِ بْنِ مُعَاوِيَةَ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ شُؤْمَ وَقَدْ يَكُونُ الْيُمْنُ فِي الدَّارِ وَالْمَرْأَةِ وَالْفَرَسِ ‏\"‏ ‏.‏ حَدَّثَنَا بِذَلِكَ عَلِيُّ بْنُ حُجْرٍ حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَيَّاشٍ عَنْ سُلَيْمَانَ بْنِ سُلَيْمٍ عَنْ يَحْيَى بْنِ جَابِرٍ الطَّائِيِّ عَنْ مُعَاوِيَةَ بْنِ حَكِيمٍ عَنْ عَمِّهِ حَكِيمِ بْنِ مُعَاوِيَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Narrated Salim and Hamzah, the sons of 'Abdullah bin 'Umar:from their father that the Messenger of Allah (ﷺ) said: \"An omen is in three: A woman, a dwelling, and a (riding) beast"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -102144,10 +102103,79 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2824",
+				"url": "https://sunnah.com/tirmidhi:2824"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002824,
+			"idInBook": 3980,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، وَحَمْزَةَ، ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الشُّؤْمُ فِي ثَلاَثَةٍ فِي الْمَرْأَةِ وَالْمَسْكَنِ وَالدَّابَّةِ ‏\". ‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ وَبَعْضُ أَصْحَابِ الزُّهْرِيِّ لاَ يَذْكُرُونَ فِيهِ عَنْ حَمْزَةَ إِنَّمَا يَقُولُونَ عَنْ سَالِمٍ عَنْ أَبِيهِ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ فَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا وَهَكَذَا رَوَى لَنَا ابْنُ أَبِي عُمَرَ هَذَا الْحَدِيثَ عَنْ سُفْيَانَ بْنِ عُيَيْنَةَ عَنِ الزُّهْرِيِّ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ حَدَّثَنَا سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ الْمَخْزُومِيُّ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِنَحْوِهِ وَلَمْ يَذْكُرْ فِيهِ سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ عَنْ حَمْزَةَ، وَرِوَايَةُ، سَعِيدٍ أَصَحُّ لأَنَّ عَلِيَّ بْنَ الْمَدِينِيِّ وَالْحُمَيْدِيَّ رَوَيَا عَنْ سُفْيَانَ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، وَذَكَرَا، عَنْ سُفْيَانَ، قَالَ لَمْ يَرْوِ لَنَا الزُّهْرِيُّ هَذَا الْحَدِيثَ إِلاَّ عَنْ سَالِمٍ عَنِ ابْنِ عُمَرَ ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ وَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا ‏.‏ وَفِي الْبَابِ عَنْ سَهْلِ بْنِ سَعْدٍ وَعَائِشَةَ وَأَنَسٍ ‏.‏ - وَقَدْ رُوِيَ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِنْ كَانَ الشُّؤْمُ فِي شَيْءٍ فَفِي الْمَرْأَةِ وَالدَّابَّةِ وَالْمَسْكَنِ ‏\"‏ ‏.‏ وَقَدْ رُوِيَ عَنْ حَكِيمِ بْنِ مُعَاوِيَةَ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ شُؤْمَ وَقَدْ يَكُونُ الْيُمْنُ فِي الدَّارِ وَالْمَرْأَةِ وَالْفَرَسِ ‏\"‏ ‏.‏ حَدَّثَنَا بِذَلِكَ عَلِيُّ بْنُ حُجْرٍ حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَيَّاشٍ عَنْ سُلَيْمَانَ بْنِ سُلَيْمٍ عَنْ يَحْيَى بْنِ جَابِرٍ الطَّائِيِّ عَنْ مُعَاوِيَةَ بْنِ حَكِيمٍ عَنْ عَمِّهِ حَكِيمِ بْنِ مُعَاوِيَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Narrated Salim and Hamzah, the sons of 'Abdullah bin 'Umar:from their father that the Messenger of Allah (ﷺ) said: \"An omen is in three: A woman, a dwelling, and a (riding) beast"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 2824b",
+				"url": "https://sunnah.com/tirmidhi:2824b"
+			},
+			"isAddendum": true,
+			"sortKey": 2824.1
+		},
+		{
+			"id": 5002824,
+			"idInBook": 3981,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، وَحَمْزَةَ، ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الشُّؤْمُ فِي ثَلاَثَةٍ فِي الْمَرْأَةِ وَالْمَسْكَنِ وَالدَّابَّةِ ‏\". ‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ وَبَعْضُ أَصْحَابِ الزُّهْرِيِّ لاَ يَذْكُرُونَ فِيهِ عَنْ حَمْزَةَ إِنَّمَا يَقُولُونَ عَنْ سَالِمٍ عَنْ أَبِيهِ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ فَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا وَهَكَذَا رَوَى لَنَا ابْنُ أَبِي عُمَرَ هَذَا الْحَدِيثَ عَنْ سُفْيَانَ بْنِ عُيَيْنَةَ عَنِ الزُّهْرِيِّ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ حَدَّثَنَا سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ الْمَخْزُومِيُّ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِنَحْوِهِ وَلَمْ يَذْكُرْ فِيهِ سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ عَنْ حَمْزَةَ، وَرِوَايَةُ، سَعِيدٍ أَصَحُّ لأَنَّ عَلِيَّ بْنَ الْمَدِينِيِّ وَالْحُمَيْدِيَّ رَوَيَا عَنْ سُفْيَانَ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، وَذَكَرَا، عَنْ سُفْيَانَ، قَالَ لَمْ يَرْوِ لَنَا الزُّهْرِيُّ هَذَا الْحَدِيثَ إِلاَّ عَنْ سَالِمٍ عَنِ ابْنِ عُمَرَ ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ وَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا ‏.‏ وَفِي الْبَابِ عَنْ سَهْلِ بْنِ سَعْدٍ وَعَائِشَةَ وَأَنَسٍ ‏.‏ - وَقَدْ رُوِيَ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِنْ كَانَ الشُّؤْمُ فِي شَيْءٍ فَفِي الْمَرْأَةِ وَالدَّابَّةِ وَالْمَسْكَنِ ‏\"‏ ‏.‏ وَقَدْ رُوِيَ عَنْ حَكِيمِ بْنِ مُعَاوِيَةَ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ شُؤْمَ وَقَدْ يَكُونُ الْيُمْنُ فِي الدَّارِ وَالْمَرْأَةِ وَالْفَرَسِ ‏\"‏ ‏.‏ حَدَّثَنَا بِذَلِكَ عَلِيُّ بْنُ حُجْرٍ حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَيَّاشٍ عَنْ سُلَيْمَانَ بْنِ سُلَيْمٍ عَنْ يَحْيَى بْنِ جَابِرٍ الطَّائِيِّ عَنْ مُعَاوِيَةَ بْنِ حَكِيمٍ عَنْ عَمِّهِ حَكِيمِ بْنِ مُعَاوِيَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Narrated Salim and Hamzah, the sons of 'Abdullah bin 'Umar:from their father that the Messenger of Allah (ﷺ) said: \"An omen is in three: A woman, a dwelling, and a (riding) beast"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 2824c",
+				"url": "https://sunnah.com/tirmidhi:2824c"
+			},
+			"isAddendum": true,
+			"sortKey": 2824.2
+		},
+		{
+			"id": 5002824,
+			"idInBook": 3982,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، وَحَمْزَةَ، ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الشُّؤْمُ فِي ثَلاَثَةٍ فِي الْمَرْأَةِ وَالْمَسْكَنِ وَالدَّابَّةِ ‏\". ‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ وَبَعْضُ أَصْحَابِ الزُّهْرِيِّ لاَ يَذْكُرُونَ فِيهِ عَنْ حَمْزَةَ إِنَّمَا يَقُولُونَ عَنْ سَالِمٍ عَنْ أَبِيهِ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ فَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا وَهَكَذَا رَوَى لَنَا ابْنُ أَبِي عُمَرَ هَذَا الْحَدِيثَ عَنْ سُفْيَانَ بْنِ عُيَيْنَةَ عَنِ الزُّهْرِيِّ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ حَدَّثَنَا سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ الْمَخْزُومِيُّ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِنَحْوِهِ وَلَمْ يَذْكُرْ فِيهِ سَعِيدُ بْنُ عَبْدِ الرَّحْمَنِ عَنْ حَمْزَةَ، وَرِوَايَةُ، سَعِيدٍ أَصَحُّ لأَنَّ عَلِيَّ بْنَ الْمَدِينِيِّ وَالْحُمَيْدِيَّ رَوَيَا عَنْ سُفْيَانَ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، وَذَكَرَا، عَنْ سُفْيَانَ، قَالَ لَمْ يَرْوِ لَنَا الزُّهْرِيُّ هَذَا الْحَدِيثَ إِلاَّ عَنْ سَالِمٍ عَنِ ابْنِ عُمَرَ ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنِ الزُّهْرِيِّ وَقَالَ عَنْ سَالِمٍ وَحَمْزَةَ ابْنَىْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ أَبِيهِمَا ‏.‏ وَفِي الْبَابِ عَنْ سَهْلِ بْنِ سَعْدٍ وَعَائِشَةَ وَأَنَسٍ ‏.‏ - وَقَدْ رُوِيَ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِنْ كَانَ الشُّؤْمُ فِي شَيْءٍ فَفِي الْمَرْأَةِ وَالدَّابَّةِ وَالْمَسْكَنِ ‏\"‏ ‏.‏ وَقَدْ رُوِيَ عَنْ حَكِيمِ بْنِ مُعَاوِيَةَ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ شُؤْمَ وَقَدْ يَكُونُ الْيُمْنُ فِي الدَّارِ وَالْمَرْأَةِ وَالْفَرَسِ ‏\"‏ ‏.‏ حَدَّثَنَا بِذَلِكَ عَلِيُّ بْنُ حُجْرٍ حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَيَّاشٍ عَنْ سُلَيْمَانَ بْنِ سُلَيْمٍ عَنْ يَحْيَى بْنِ جَابِرٍ الطَّائِيِّ عَنْ مُعَاوِيَةَ بْنِ حَكِيمٍ عَنْ عَمِّهِ حَكِيمِ بْنِ مُعَاوِيَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Narrated Salim and Hamzah, the sons of 'Abdullah bin 'Umar:from their father that the Messenger of Allah (ﷺ) said: \"An omen is in three: A woman, a dwelling, and a (riding) beast"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2824d",
 				"url": "https://sunnah.com/tirmidhi:2824d"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2824.3
 		},
 		{
 			"id": 5002825,
@@ -102917,28 +102945,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Hasan (Good)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2846",
-				"url": "https://sunnah.com/tirmidhi:2846"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002846,
-			"idInBook": 2846,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ مُوسَى، وَعَلِيُّ بْنُ حُجْرٍ، قَالاَ حَدَّثَنَا ابْنُ أَبِي الزِّنَادِ، عَنْ أَبِيهِ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم مِثْلَهُ ‏.‏ وَفِي الْبَابِ عَنْ أَبِي هُرَيْرَةَ وَالْبَرَاءِ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ وَهُوَ حَدِيثُ ابْنِ أَبِي الزِّنَادِ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "(Another chain) from 'Aishah with the same narration"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Hasan (Good)"
 				},
 				{
 					"name": "Al-Albani",
@@ -102954,10 +102960,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2846",
+				"url": "https://sunnah.com/tirmidhi:2846"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002846,
+			"idInBook": 3983,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ مُوسَى، وَعَلِيُّ بْنُ حُجْرٍ، قَالاَ حَدَّثَنَا ابْنُ أَبِي الزِّنَادِ، عَنْ أَبِيهِ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم مِثْلَهُ ‏.‏ وَفِي الْبَابِ عَنْ أَبِي هُرَيْرَةَ وَالْبَرَاءِ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ وَهُوَ حَدِيثُ ابْنِ أَبِي الزِّنَادِ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "(Another chain) from 'Aishah with the same narration"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Hasan (Good)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2846b",
 				"url": "https://sunnah.com/tirmidhi:2846b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2846.1
 		},
 		{
 			"id": 5002847,
@@ -103277,32 +103306,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Hasan (Good)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2855",
-				"url": "https://sunnah.com/tirmidhi:2855"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002855,
-			"idInBook": 2855,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا أَبُو أَحْمَدَ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ، قَالَ كَانَ رَسُولُ اللَّهِ ﷺ يَتَخَوَّلُنَا بِالْمَوْعِظَةِ فِي الأَيَّامِ مَخَافَةَ السَّآمَةِ عَلَيْنَا . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
-			"translation": {
-				"narrator": "",
-				"text": "(Another chain) with similar meaning"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				},
-				{
-					"name": "Sunnah.com",
-					"grade": "Hasan (Good)"
 				},
 				{
 					"name": "Al-Albani",
@@ -103318,10 +103321,37 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2855",
+				"url": "https://sunnah.com/tirmidhi:2855"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002855,
+			"idInBook": 3984,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا أَبُو أَحْمَدَ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ، قَالَ كَانَ رَسُولُ اللَّهِ ﷺ يَتَخَوَّلُنَا بِالْمَوْعِظَةِ فِي الأَيَّامِ مَخَافَةَ السَّآمَةِ عَلَيْنَا . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
+			"translation": {
+				"narrator": "",
+				"text": "(Another chain) with similar meaning"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				},
+				{
+					"name": "Sunnah.com",
+					"grade": "Hasan (Good)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2855b",
 				"url": "https://sunnah.com/tirmidhi:2855b"
 			},
-			"isAddendum": false,
+			"isAddendum": true,
+			"sortKey": 2855.1,
 			"source": "amrayn"
 		},
 		{
@@ -103338,28 +103368,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2856",
-				"url": "https://sunnah.com/tirmidhi:2856"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002856,
-			"idInBook": 2856,
-			"chapterId": 43,
-			"bookId": 5,
-			"arabic": "وَقَدْ رُوِيَ عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ أَحَبُّ الْعَمَلِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم مَا دِيمَ عَلَيْهِ ‏.‏ حَدَّثَنَا بِذَلِكَ هَارُونُ بْنُ إِسْحَاقَ الْهَمْدَانِيُّ حَدَّثَنَا عَبْدَةُ عَنْ هِشَامِ بْنِ عُرْوَةَ عَنْ أَبِيهِ عَنْ عَائِشَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ بِمَعْنَاهُ ‏.‏ هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "It has been reported from Hisham bin 'Urwah from his father, that 'Aishah said:\"The most loved deed to the Messenger of Allah (ﷺ) was what he could do regularly.\" (Another chain) with similar meaning"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Al-Albani",
@@ -103371,10 +103379,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2856",
+				"url": "https://sunnah.com/tirmidhi:2856"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002856,
+			"idInBook": 3985,
+			"chapterId": 43,
+			"bookId": 5,
+			"arabic": "وَقَدْ رُوِيَ عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ أَحَبُّ الْعَمَلِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم مَا دِيمَ عَلَيْهِ ‏.‏ حَدَّثَنَا بِذَلِكَ هَارُونُ بْنُ إِسْحَاقَ الْهَمْدَانِيُّ حَدَّثَنَا عَبْدَةُ عَنْ هِشَامِ بْنِ عُرْوَةَ عَنْ أَبِيهِ عَنْ عَائِشَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ بِمَعْنَاهُ ‏.‏ هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "It has been reported from Hisham bin 'Urwah from his father, that 'Aishah said:\"The most loved deed to the Messenger of Allah (ﷺ) was what he could do regularly.\" (Another chain) with similar meaning"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2856b",
 				"url": "https://sunnah.com/tirmidhi:2856b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2856.1
 		},
 		{
 			"id": 5002857,
@@ -103784,28 +103815,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2868",
-				"url": "https://sunnah.com/tirmidhi:2868"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002868,
-			"idInBook": 2868,
-			"chapterId": 44,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا بَكْرُ بْنُ مُضَرَ الْقُرَشِيُّ، عَنِ ابْنِ الْهَادِ، نَحْوَهُ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Another chain reports a similar narration"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -103825,10 +103834,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2868",
+				"url": "https://sunnah.com/tirmidhi:2868"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002868,
+			"idInBook": 3986,
+			"chapterId": 44,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا بَكْرُ بْنُ مُضَرَ الْقُرَشِيُّ، عَنِ ابْنِ الْهَادِ، نَحْوَهُ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Another chain reports a similar narration"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2868b",
 				"url": "https://sunnah.com/tirmidhi:2868b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2868.1
 		},
 		{
 			"id": 5002869,
@@ -106788,28 +106820,6 @@
 				{
 					"name": "Darussalam",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 2953",
-				"url": "https://sunnah.com/tirmidhi:2953"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5002953,
-			"idInBook": 2953,
-			"chapterId": 47,
-			"bookId": 5,
-			"arabic": "أَخْبَرَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّحْمَنِ بْنُ سَعْدٍ، أَنْبَأَنَا عَمْرُو بْنُ أَبِي قَيْسٍ، عَنْ سِمَاكِ بْنِ حَرْبٍ، عَنْ عَبَّادِ بْنِ حُبَيْشٍ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، قَالَ أَتَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم وَهُوَ جَالِسٌ فِي الْمَسْجِدِ فَقَالَ الْقَوْمُ هَذَا عَدِيُّ بْنُ حَاتِمٍ ‏.‏ وَجِئْتُ بِغَيْرِ أَمَانٍ وَلاَ كِتَابٍ فَلَمَّا دَفَعْتُ إِلَيْهِ أَخَذَ بِيَدِي وَقَدْ كَانَ قَالَ قَبْلَ ذَلِكَ إِنِّي لأَرْجُو أَنْ يَجْعَلَ اللَّهُ يَدَهُ فِي يَدِي قَالَ فَقَامَ بِي فَلَقِيَتْهُ امْرَأَةٌ وَصَبِيٌّ مَعَهَا ‏.‏ فَقَالاَ إِنَّ لَنَا إِلَيْكَ حَاجَةً فَقَامَ مَعَهُمَا حَتَّى قَضَى حَاجَتَهُمَا ثُمَّ أَخَذَ بِيَدِي حَتَّى أَتَى بِي دَارَهُ فَأَلْقَتْ لَهُ الْوَلِيدَةُ وِسَادَةً فَجَلَسَ عَلَيْهَا وَجَلَسْتُ بَيْنَ يَدَيْهِ فَحَمِدَ اللَّهَ وَأَثْنَى عَلَيْهِ ثُمَّ قَالَ ‏\"‏ مَا يُفِرُّكَ أَنْ تَقُولَ لاَ إِلَهَ إِلاَّ اللَّهُ فَهَلْ تَعْلَمُ مِنْ إِلَهٍ سِوَى اللَّهِ ‏\"‏ ‏.‏ قَالَ قُلْتُ لاَ ‏.‏ قَالَ ثُمَّ تَكَلَّمَ سَاعَةً ثُمَّ قَالَ ‏\"‏ إِنَّمَا تَفِرُّ أَنْ تَقُولَ اللَّهُ أَكْبَرُ وَتَعْلَمُ أَنَّ شَيْئًا أَكْبَرُ مِنَ اللَّهِ ‏\"‏ ‏.‏ قَالَ قُلْتُ لاَ قَالَ ‏\"‏ فَإِنَّ الْيَهُودَ مَغْضُوبٌ عَلَيْهِمْ وَإِنَّ النَّصَارَى ضُلاَّلٌ ‏\"‏ ‏.‏ قَالَ قُلْتُ فَإِنِّي جِئْتُ مُسْلِمًا ‏.‏ قَالَ فَرَأَيْتُ وَجْهَهُ تَبَسَّطَ فَرَحًا قَالَ ثُمَّ أَمَرَ بِي فَأُنْزِلْتُ عِنْدَ رَجُلٍ مِنَ الأَنْصَارِ جَعَلْتُ أَغْشَاهُ آتِيهِ طَرَفَىِ النَّهَارِ قَالَ فَبَيْنَا أَنَا عِنْدَهُ عَشِيَّةً إِذْ جَاءَهُ قَوْمٌ فِي ثِيَابٍ مِنَ الصُّوفِ مِنْ هَذِهِ النِّمَارِ قَالَ فَصَلَّى وَقَامَ فَحَثَّ عَلَيْهِمْ ثُمَّ قَالَ ‏\"‏ وَلَوْ صَاعٌ وَلَوْ بِنِصْفِ صَاعٍ وَلَوْ بِقَبْضَةٍ وَلَوْ بِبَعْضِ قَبْضَةٍ يَقِي أَحَدُكُمْ وَجْهَهُ حَرَّ جَهَنَّمَ أَوِ النَّارِ وَلَوْ بِتَمْرَةٍ وَلَوْ بِشِقِّ تَمْرَةٍ فَإِنَّ أَحَدَكُمْ لاَقِي اللَّهَ وَقَائِلٌ لَهُ مَا أَقُولُ لَكُمْ أَلَمْ أَجْعَلْ لَكَ سَمْعًا وَبَصَرًا فَيَقُولُ بَلَى ‏.‏ فَيَقُولُ أَلَمْ أَجْعَلْ لَكَ مَالاً وَوَلَدًا فَيَقُولُ بَلَى ‏.‏ فَيَقُولُ أَيْنَ مَا قَدَّمْتَ لِنَفْسِكَ فَيَنْظُرُ قُدَّامَهُ وَبَعْدَهُ وَعَنْ يَمِينِهِ وَعَنْ شِمَالِهِ ثُمَّ لاَ يَجِدُ شَيْئًا يَقِي بِهِ وَجْهَهُ حَرَّ جَهَنَّمَ لِيَقِ أَحَدُكُمْ وَجْهَهُ النَّارَ وَلَوْ بِشِقِّ تَمْرَةٍ فَإِنْ لَمْ يَجِدْ فَبِكَلِمَةٍ طَيِّبَةٍ فَإِنِّي لاَ أَخَافُ عَلَيْكُمُ الْفَاقَةَ فَإِنَّ اللَّهَ نَاصِرُكُمْ وَمُعْطِيكُمْ حَتَّى تَسِيرَ الظَّعِينَةُ فِيمَا بَيْنَ يَثْرِبَ وَالْحِيرَةِ أَكْثَرُ مَا تَخَافُ عَلَى مَطِيَّتِهَا السَّرَقَ ‏\"‏ ‏.‏ قَالَ فَجَعَلْتُ أَقُولُ فِي نَفْسِي فَأَيْنَ لُصُوصُ طَيِّئٍ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ حَدِيثِ سِمَاكِ بْنِ حَرْبٍ ‏.‏ وَرَوَى شُعْبَةُ عَنْ سِمَاكِ بْنِ حَرْبٍ عَنْ عَبَّادِ بْنِ حُبَيْشٍ عَنْ عَدِيِّ بْنِ حَاتِمٍ عَنِ النَّبِيِّ صلى الله عليه وسلم الْحَدِيثَ بِطُولِهِ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "(Another chain) from 'Adi bin Hatim who said:\"I went to the Prophet (ﷺ) while he was sitting in the Masjid, the people said: 'This is 'Adi bin Hatim.' And I came without having a treaty nor a writ. When I was brought to him, he took my hand. Prior to that he had said: 'I hope that Allah will place his hand in my hand.'\" He said: \"He stood with me, and a woman and a boy met him and said: 'We have a need from you.' He stood with them, until he was finished dealing with what they wanted. Then he took me by the hand until he brought me to his house. A slave girl brought him a cushion to sit on, and I sat in front of him. He expressed thanks and praise for Allah then said: 'What has caused you to flee from saying La Ilaha Illallah? Do you know of another god other than Him?'\" He said: \"I said: 'No.'\" He said: \"Then he talked for some time, and then said: 'You refuse to say Allahu Akbar because you know that there is something greater than Allah?'\" He said: \"I said: 'No.' He said: 'Indeed the Jews are those who Allah is wrath with, and the Christians have strayed.'\" He said: \"I said: 'Indeed I am a Muslim, Hanif.'\" He said: \"I saw his face smiling with happiness.\" He said: \"Then he ordered that I stop with him at the home of a man from the Ansar, whom he would frequently visit in the mornings and the evenings. When I was with him at night, a people in woolen garments of these Nimar (a cloth with certain patters, and the word appeared before) came. Then he performed Salat and stood to encourage them (the people) to give (charity) to them. Then he said: 'Even with a Sa' or half a Sa', or a handful or part of a handful, to save the face of one of you from the heat of Hell, or the Fire. And even if it be by a date or a part of a date - for indeed one of you shall meet Allah and it shall be said to him what I say to you: \"Have I not given hearing and seeing to you?\" He shall say: \"Of course.\" It will be said: \"Have I not given you wealth and children?\" He shall say: \"Of course.\" It will be said: \"So where is what you have sent forth for yourself?\" He will look before him and behind him, on his right and on his left, but he shall not find anything to protect his face from the heat of Hell. Let one of you protect his face from the Fire, even if with part of a date, and if he does not find that, then with a good statement. For indeed I do not fear poverty for you - Allah will aid you and grant you, such that a woman can travel on her camel howda from Yathrib to Al-Hirah, or further, without fear of being robbed.' I began thinking to myself: \"Where would the thieves of Taiy' be then?"
-			},
-			"grades": [
-				{
-					"name": "Darussalam",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -106825,10 +106835,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 2953",
+				"url": "https://sunnah.com/tirmidhi:2953"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5002953,
+			"idInBook": 3987,
+			"chapterId": 47,
+			"bookId": 5,
+			"arabic": "أَخْبَرَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّحْمَنِ بْنُ سَعْدٍ، أَنْبَأَنَا عَمْرُو بْنُ أَبِي قَيْسٍ، عَنْ سِمَاكِ بْنِ حَرْبٍ، عَنْ عَبَّادِ بْنِ حُبَيْشٍ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، قَالَ أَتَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم وَهُوَ جَالِسٌ فِي الْمَسْجِدِ فَقَالَ الْقَوْمُ هَذَا عَدِيُّ بْنُ حَاتِمٍ ‏.‏ وَجِئْتُ بِغَيْرِ أَمَانٍ وَلاَ كِتَابٍ فَلَمَّا دَفَعْتُ إِلَيْهِ أَخَذَ بِيَدِي وَقَدْ كَانَ قَالَ قَبْلَ ذَلِكَ إِنِّي لأَرْجُو أَنْ يَجْعَلَ اللَّهُ يَدَهُ فِي يَدِي قَالَ فَقَامَ بِي فَلَقِيَتْهُ امْرَأَةٌ وَصَبِيٌّ مَعَهَا ‏.‏ فَقَالاَ إِنَّ لَنَا إِلَيْكَ حَاجَةً فَقَامَ مَعَهُمَا حَتَّى قَضَى حَاجَتَهُمَا ثُمَّ أَخَذَ بِيَدِي حَتَّى أَتَى بِي دَارَهُ فَأَلْقَتْ لَهُ الْوَلِيدَةُ وِسَادَةً فَجَلَسَ عَلَيْهَا وَجَلَسْتُ بَيْنَ يَدَيْهِ فَحَمِدَ اللَّهَ وَأَثْنَى عَلَيْهِ ثُمَّ قَالَ ‏\"‏ مَا يُفِرُّكَ أَنْ تَقُولَ لاَ إِلَهَ إِلاَّ اللَّهُ فَهَلْ تَعْلَمُ مِنْ إِلَهٍ سِوَى اللَّهِ ‏\"‏ ‏.‏ قَالَ قُلْتُ لاَ ‏.‏ قَالَ ثُمَّ تَكَلَّمَ سَاعَةً ثُمَّ قَالَ ‏\"‏ إِنَّمَا تَفِرُّ أَنْ تَقُولَ اللَّهُ أَكْبَرُ وَتَعْلَمُ أَنَّ شَيْئًا أَكْبَرُ مِنَ اللَّهِ ‏\"‏ ‏.‏ قَالَ قُلْتُ لاَ قَالَ ‏\"‏ فَإِنَّ الْيَهُودَ مَغْضُوبٌ عَلَيْهِمْ وَإِنَّ النَّصَارَى ضُلاَّلٌ ‏\"‏ ‏.‏ قَالَ قُلْتُ فَإِنِّي جِئْتُ مُسْلِمًا ‏.‏ قَالَ فَرَأَيْتُ وَجْهَهُ تَبَسَّطَ فَرَحًا قَالَ ثُمَّ أَمَرَ بِي فَأُنْزِلْتُ عِنْدَ رَجُلٍ مِنَ الأَنْصَارِ جَعَلْتُ أَغْشَاهُ آتِيهِ طَرَفَىِ النَّهَارِ قَالَ فَبَيْنَا أَنَا عِنْدَهُ عَشِيَّةً إِذْ جَاءَهُ قَوْمٌ فِي ثِيَابٍ مِنَ الصُّوفِ مِنْ هَذِهِ النِّمَارِ قَالَ فَصَلَّى وَقَامَ فَحَثَّ عَلَيْهِمْ ثُمَّ قَالَ ‏\"‏ وَلَوْ صَاعٌ وَلَوْ بِنِصْفِ صَاعٍ وَلَوْ بِقَبْضَةٍ وَلَوْ بِبَعْضِ قَبْضَةٍ يَقِي أَحَدُكُمْ وَجْهَهُ حَرَّ جَهَنَّمَ أَوِ النَّارِ وَلَوْ بِتَمْرَةٍ وَلَوْ بِشِقِّ تَمْرَةٍ فَإِنَّ أَحَدَكُمْ لاَقِي اللَّهَ وَقَائِلٌ لَهُ مَا أَقُولُ لَكُمْ أَلَمْ أَجْعَلْ لَكَ سَمْعًا وَبَصَرًا فَيَقُولُ بَلَى ‏.‏ فَيَقُولُ أَلَمْ أَجْعَلْ لَكَ مَالاً وَوَلَدًا فَيَقُولُ بَلَى ‏.‏ فَيَقُولُ أَيْنَ مَا قَدَّمْتَ لِنَفْسِكَ فَيَنْظُرُ قُدَّامَهُ وَبَعْدَهُ وَعَنْ يَمِينِهِ وَعَنْ شِمَالِهِ ثُمَّ لاَ يَجِدُ شَيْئًا يَقِي بِهِ وَجْهَهُ حَرَّ جَهَنَّمَ لِيَقِ أَحَدُكُمْ وَجْهَهُ النَّارَ وَلَوْ بِشِقِّ تَمْرَةٍ فَإِنْ لَمْ يَجِدْ فَبِكَلِمَةٍ طَيِّبَةٍ فَإِنِّي لاَ أَخَافُ عَلَيْكُمُ الْفَاقَةَ فَإِنَّ اللَّهَ نَاصِرُكُمْ وَمُعْطِيكُمْ حَتَّى تَسِيرَ الظَّعِينَةُ فِيمَا بَيْنَ يَثْرِبَ وَالْحِيرَةِ أَكْثَرُ مَا تَخَافُ عَلَى مَطِيَّتِهَا السَّرَقَ ‏\"‏ ‏.‏ قَالَ فَجَعَلْتُ أَقُولُ فِي نَفْسِي فَأَيْنَ لُصُوصُ طَيِّئٍ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ حَدِيثِ سِمَاكِ بْنِ حَرْبٍ ‏.‏ وَرَوَى شُعْبَةُ عَنْ سِمَاكِ بْنِ حَرْبٍ عَنْ عَبَّادِ بْنِ حُبَيْشٍ عَنْ عَدِيِّ بْنِ حَاتِمٍ عَنِ النَّبِيِّ صلى الله عليه وسلم الْحَدِيثَ بِطُولِهِ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "(Another chain) from 'Adi bin Hatim who said:\"I went to the Prophet (ﷺ) while he was sitting in the Masjid, the people said: 'This is 'Adi bin Hatim.' And I came without having a treaty nor a writ. When I was brought to him, he took my hand. Prior to that he had said: 'I hope that Allah will place his hand in my hand.'\" He said: \"He stood with me, and a woman and a boy met him and said: 'We have a need from you.' He stood with them, until he was finished dealing with what they wanted. Then he took me by the hand until he brought me to his house. A slave girl brought him a cushion to sit on, and I sat in front of him. He expressed thanks and praise for Allah then said: 'What has caused you to flee from saying La Ilaha Illallah? Do you know of another god other than Him?'\" He said: \"I said: 'No.'\" He said: \"Then he talked for some time, and then said: 'You refuse to say Allahu Akbar because you know that there is something greater than Allah?'\" He said: \"I said: 'No.' He said: 'Indeed the Jews are those who Allah is wrath with, and the Christians have strayed.'\" He said: \"I said: 'Indeed I am a Muslim, Hanif.'\" He said: \"I saw his face smiling with happiness.\" He said: \"Then he ordered that I stop with him at the home of a man from the Ansar, whom he would frequently visit in the mornings and the evenings. When I was with him at night, a people in woolen garments of these Nimar (a cloth with certain patters, and the word appeared before) came. Then he performed Salat and stood to encourage them (the people) to give (charity) to them. Then he said: 'Even with a Sa' or half a Sa', or a handful or part of a handful, to save the face of one of you from the heat of Hell, or the Fire. And even if it be by a date or a part of a date - for indeed one of you shall meet Allah and it shall be said to him what I say to you: \"Have I not given hearing and seeing to you?\" He shall say: \"Of course.\" It will be said: \"Have I not given you wealth and children?\" He shall say: \"Of course.\" It will be said: \"So where is what you have sent forth for yourself?\" He will look before him and behind him, on his right and on his left, but he shall not find anything to protect his face from the heat of Hell. Let one of you protect his face from the Fire, even if with part of a date, and if he does not find that, then with a good statement. For indeed I do not fear poverty for you - Allah will aid you and grant you, such that a woman can travel on her camel howda from Yathrib to Al-Hirah, or further, without fear of being robbed.' I began thinking to myself: \"Where would the thieves of Taiy' be then?"
+			},
+			"grades": [
+				{
+					"name": "Darussalam",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 2953b",
 				"url": "https://sunnah.com/tirmidhi:2953b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2953.1
 		},
 		{
 			"id": 5002954,
@@ -108930,28 +108963,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3011",
-				"url": "https://sunnah.com/tirmidhi:3011"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003011,
-			"idInBook": 3011,
-			"chapterId": 47,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، أَنَّهُ سُئِلَ عَنْ قَوْلِهِ : (وَلَاَ تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللَّهِ أَمْوَاتًا بَلْ أَحْيَاءٌ عِنْدَ رَبِّهِمْ يُرْزَقُونَ ) فَقَالَ أَمَا إِنَّا قَدْ سَأَلْنَا عَنْ ذَلِكَ فَأُخْبِرْنَا أَنَّ أَرْوَاحَهُمْ فِي طَيْرٍ خُضْرٍ تَسْرَحُ فِي الْجَنَّةِ حَيْثُ شَاءَتْ وَتَأْوِي إِلَى قَنَادِيلَ مُعَلَّقَةٍ بِالْعَرْشِ فَاطَّلَعَ إِلَيْهِمْ رَبُّكَ اطِّلاَعَةً فَقَالَ هَلْ تَسْتَزِيدُونَ شَيْئًا فَأَزِيدُكُمْ قَالُوا رَبَّنَا وَمَا نَسْتَزِيدُ وَنَحْنُ فِي الْجَنَّةِ نَسْرَحُ حَيْثُ شِئْنَا ثُمَّ اطَّلَعَ إِلَيْهِمُ الثَّانِيَةَ فَقَالَ هَلْ تَسْتَزِيدُونَ شَيْئًا فَأَزِيدُكُمْ فَلَمَّا رَأَوْا أَنَّهُمْ لَمْ يُتْرَكُوا قَالُوا تُعِيدُ أَرْوَاحَنَا فِي أَجْسَادِنَا حَتَّى نَرْجِعَ إِلَى الدُّنْيَا فَنُقْتَلَ فِي سَبِيلِكَ مَرَّةً أُخْرَى . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
-			"translation": {
-				"narrator": "",
-				"text": "from 'Abdullah that he was asked about Allah's saying: Think not of those as dead who are killed in the way of Allah. Nay they are alive, with their Lord (3:169). So he said: \"As for us, we asked about that, and we were informed that their souls are in green birds wandering in Paradise wherever they wish, returning to lamps hanging from the Throne. Your Lord looks at them and says: 'Do you want anything more that We may grant you more?' They say: 'Our Lord! What more could we have when we are in Paradise wandering wherever we want' Then He looks at them a second time and says: \"Do you want anything more that We may grant you more?' When they realize that they will not be left alone with that, they say: 'Return our souls to our bodies, so that we may return to the world to be killed in Your cause another time.'\""
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -108971,10 +108982,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 3011",
+				"url": "https://sunnah.com/tirmidhi:3011"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5003011,
+			"idInBook": 3988,
+			"chapterId": 47,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، أَنَّهُ سُئِلَ عَنْ قَوْلِهِ : (وَلَاَ تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللَّهِ أَمْوَاتًا بَلْ أَحْيَاءٌ عِنْدَ رَبِّهِمْ يُرْزَقُونَ ) فَقَالَ أَمَا إِنَّا قَدْ سَأَلْنَا عَنْ ذَلِكَ فَأُخْبِرْنَا أَنَّ أَرْوَاحَهُمْ فِي طَيْرٍ خُضْرٍ تَسْرَحُ فِي الْجَنَّةِ حَيْثُ شَاءَتْ وَتَأْوِي إِلَى قَنَادِيلَ مُعَلَّقَةٍ بِالْعَرْشِ فَاطَّلَعَ إِلَيْهِمْ رَبُّكَ اطِّلاَعَةً فَقَالَ هَلْ تَسْتَزِيدُونَ شَيْئًا فَأَزِيدُكُمْ قَالُوا رَبَّنَا وَمَا نَسْتَزِيدُ وَنَحْنُ فِي الْجَنَّةِ نَسْرَحُ حَيْثُ شِئْنَا ثُمَّ اطَّلَعَ إِلَيْهِمُ الثَّانِيَةَ فَقَالَ هَلْ تَسْتَزِيدُونَ شَيْئًا فَأَزِيدُكُمْ فَلَمَّا رَأَوْا أَنَّهُمْ لَمْ يُتْرَكُوا قَالُوا تُعِيدُ أَرْوَاحَنَا فِي أَجْسَادِنَا حَتَّى نَرْجِعَ إِلَى الدُّنْيَا فَنُقْتَلَ فِي سَبِيلِكَ مَرَّةً أُخْرَى . \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ .",
+			"translation": {
+				"narrator": "",
+				"text": "from 'Abdullah that he was asked about Allah's saying: Think not of those as dead who are killed in the way of Allah. Nay they are alive, with their Lord (3:169). So he said: \"As for us, we asked about that, and we were informed that their souls are in green birds wandering in Paradise wherever they wish, returning to lamps hanging from the Throne. Your Lord looks at them and says: 'Do you want anything more that We may grant you more?' They say: 'Our Lord! What more could we have when we are in Paradise wandering wherever we want' Then He looks at them a second time and says: \"Do you want anything more that We may grant you more?' When they realize that they will not be left alone with that, they say: 'Return our souls to our bodies, so that we may return to the world to be killed in Your cause another time.'\""
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 3011b",
 				"url": "https://sunnah.com/tirmidhi:3011b"
 			},
-			"isAddendum": false,
+			"isAddendum": true,
+			"sortKey": 3011.1,
 			"source": "amrayn"
 		},
 		{
@@ -109105,28 +109139,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3015",
-				"url": "https://sunnah.com/tirmidhi:3015"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003015,
-			"idInBook": 3015,
-			"chapterId": 47,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا ابْنُ عُيَيْنَةَ، عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ، قَالَ سَمِعْتُ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ مَرِضْتُ فَأَتَانِي رَسُولُ اللَّهِ ﷺ يَعُودُنِي وَقَدْ أُغْمِيَ عَلَىَّ فَلَمَّا أَفَقْتُ قُلْتُ كَيْفَ أَقْضِي فِي مَالِي فَسَكَتَ عَنِّي حَتَّى نَزَلَتْ : ( يُوصِيكُمُ اللَّهُ فِي أَوْلاَدِكُمْ لِلذَّكَرِ مِثْلُ حَظِّ الأُنْثَيَيْنِ ) \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ . وَقَدْ رَوَى غَيْرُ وَاحِدٍ عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ .",
-			"translation": {
-				"narrator": "",
-				"text": "\"I was ill, so the Messenger of Allah ﷺ came to visit me, and I was unconscious. When I awoke, I said: 'How do you order me regarding my wealth?' He did not answer me until Allah revealed: Allah commands you regarding your children's (inheritance): to the male, a portion equal to that of two females (4:11).\""
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Al-Albani",
@@ -109142,10 +109154,33 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 3015",
+				"url": "https://sunnah.com/tirmidhi:3015"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5003015,
+			"idInBook": 3989,
+			"chapterId": 47,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا ابْنُ عُيَيْنَةَ، عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ، قَالَ سَمِعْتُ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ مَرِضْتُ فَأَتَانِي رَسُولُ اللَّهِ ﷺ يَعُودُنِي وَقَدْ أُغْمِيَ عَلَىَّ فَلَمَّا أَفَقْتُ قُلْتُ كَيْفَ أَقْضِي فِي مَالِي فَسَكَتَ عَنِّي حَتَّى نَزَلَتْ : ( يُوصِيكُمُ اللَّهُ فِي أَوْلاَدِكُمْ لِلذَّكَرِ مِثْلُ حَظِّ الأُنْثَيَيْنِ ) \n\nقَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ . وَقَدْ رَوَى غَيْرُ وَاحِدٍ عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ .",
+			"translation": {
+				"narrator": "",
+				"text": "\"I was ill, so the Messenger of Allah ﷺ came to visit me, and I was unconscious. When I awoke, I said: 'How do you order me regarding my wealth?' He did not answer me until Allah revealed: Allah commands you regarding your children's (inheritance): to the male, a portion equal to that of two females (4:11).\""
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 3015b",
 				"url": "https://sunnah.com/tirmidhi:3015b"
 			},
-			"isAddendum": false,
+			"isAddendum": true,
+			"sortKey": 3015.1,
 			"source": "amrayn"
 		},
 		{
@@ -130295,204 +130330,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3604",
-				"url": "https://sunnah.com/tirmidhi:3604"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003604,
-			"idInBook": 3604,
-			"chapterId": 48,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا هِشَامُ بْنُ حَسَّانَ، عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ مَنْ قَالَ حِينَ يُمْسِي ثَلاَثَ مَرَّاتٍ أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ لَمْ يَضُرَّهُ حُمَةٌ تِلْكَ اللَّيْلَةَ ‏\"‏ ‏.‏ قَالَ سُهَيْلٌ فَكَانَ أَهْلُنَا تَعَلَّمُوهَا فَكَانُوا يَقُولُونَهَا كُلَّ لَيْلَةٍ فَلُدِغَتْ جَارِيَةٌ مِنْهُمْ فَلَمْ تَجِدْ لَهَا وَجَعًا ‏.‏ هَذَا حَدِيثٌ حَسَنٌ ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم وَرَوَى عُبَيْدُ اللَّهِ بْنُ عُمَرَ وَغَيْرُ وَاحِدٍ هَذَا الْحَدِيثَ عَنْ سُهَيْلٍ وَلَمْ يَذْكُرُوا فِيهِ عَنْ أَبِي هُرَيْرَةَ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3604b",
-				"url": "https://sunnah.com/tirmidhi:3604b"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003604,
-			"idInBook": 3604,
-			"chapterId": 48,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا وَكِيعٌ، أَخْبَرَنَا أَبُو فَضَالَةَ الْفَرَجُ بْنُ فَضَالَةَ، عَنْ أَبِي سَعِيدٍ الْمَقْبُرِيِّ، أَنَّ أَبَا هُرَيْرَةَ، قَالَ دُعَاءٌ حَفِظْتُهُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم لاَ أَدَعُهُ ‏ \"‏ اللَّهُمَّ اجْعَلْنِي أُعَظِّمُ شُكْرَكَ وَأُكْثِرُ ذِكْرَكَ وَأَتَّبِعُ نَصِيحَتَكَ وَأَحْفَظُ وَصِيَّتَكَ ‏\"‏ ‏.‏ هَذَا حَدِيثٌ غَرِيبٌ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3604c",
-				"url": "https://sunnah.com/tirmidhi:3604c"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003604,
-			"idInBook": 3604,
-			"chapterId": 48,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، أَخْبَرَنَا اللَّيْثُ، وَهُوَ ابْنُ أَبِي سُلَيْمٍ عَنْ زِيَادٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ رَجُلٍ يَدْعُو اللَّهَ بِدُعَاءٍ إِلاَّ اسْتُجِيبَ لَهُ فَإِمَّا أَنْ يُعَجَّلَ لَهُ فِي الدُّنْيَا وَإِمَّا أَنْ يُدَّخَرَ لَهُ فِي الآخِرَةِ وَإِمَّا أَنْ يُكَفَّرَ عَنْهُ مِنْ ذُنُوبِهِ بِقَدْرِ مَا دَعَا مَا لَمْ يَدْعُ بِإِثْمٍ أَوْ قَطِيعَةِ رَحِمٍ أَوْ يَسْتَعْجِلُ ‏\"‏ ‏.‏ قَالُوا يَا رَسُولَ اللَّهِ وَكَيْفَ يَسْتَعْجِلُ قَالَ ‏\"‏ يَقُولُ دَعَوْتُ رَبِّي فَمَا اسْتَجَابَ لِي ‏\"‏ ‏.‏ هَذَا حَدِيثٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3604d",
-				"url": "https://sunnah.com/tirmidhi:3604d"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003604,
-			"idInBook": 3604,
-			"chapterId": 48,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا يَحْيَى، أَخْبَرَنَا يَعْلَى بْنُ عُبَيْدٍ، قَالَ أَخْبَرَنَا يَحْيَى بْنُ عُبَيْدِ اللَّهِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ عَبْدٍ يَرْفَعُ يَدَيْهِ حَتَّى يَبْدُوَ إِبْطُهُ يَسْأَلُ اللَّهَ مَسْأَلَةً إِلاَّ آتَاهَا إِيَّاهُ مَا لَمْ يَعْجَلْ ‏\"‏ ‏.‏ قَالُوا يَا رَسُولَ اللَّهِ وَكَيْفَ عَجَلَتُهُ قَالَ ‏\"‏ يَقُولُ قَدْ سَأَلْتُ وَسَأَلْتُ وَلَمْ أُعْطَ شَيْئًا ‏\"‏ ‏.‏ وَرَوَى هَذَا الْحَدِيثَ الزُّهْرِيُّ عَنْ أَبِي عُبَيْدٍ مَوْلَى ابْنِ أَزْهَرَ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ يُسْتَجَابُ لأَحَدِكُمْ مَا لَمْ يَعْجَلْ يَقُولُ دَعَوْتُ فَلَمْ يُسْتَجَبْ لِي ‏\"‏ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3604e",
-				"url": "https://sunnah.com/tirmidhi:3604e"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003604,
-			"idInBook": 3604,
-			"chapterId": 48,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا أَبُو دَاوُدَ، أَخْبَرَنَا صَدَقَةُ بْنُ مُوسَى، أَخْبَرَنَا مُحَمَّدُ بْنُ وَاسِعٍ، عَنْ سُمَيْرِ بْنِ نَهَارٍ الْعَبْدِيِّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ إِنَّ حُسْنَ الظَّنِّ بِاللَّهِ مِنْ حُسْنِ عِبَادَةِ اللَّهِ ‏\"‏ ‏.‏ هَذَا حَدِيثٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3604f",
-				"url": "https://sunnah.com/tirmidhi:3604f"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003604,
-			"idInBook": 3604,
-			"chapterId": 48,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا عَمْرُو بْنُ عَوْنٍ، أَخْبَرَنَا أَبُو عَوَانَةَ، عَنْ عُمَرَ بْنِ أَبِي سَلَمَةَ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ لِيَنْظُرَنَّ أَحَدُكُمْ مَا الَّذِي يَتَمَنَّى فَإِنَّهُ لاَ يَدْرِي مَا يُكْتَبُ لَهُ مِنْ أُمْنِيَّتِهِ ‏\"‏ ‏.‏ هَذَا حَدِيثٌ حَسَنٌ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3604g",
-				"url": "https://sunnah.com/tirmidhi:3604g"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003604,
-			"idInBook": 3604,
-			"chapterId": 48,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا جَابِرُ بْنُ نُوحٍ، قَالَ أَخْبَرَنَا مُحَمَّدُ بْنُ عَمْرٍو، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدْعُو فَيَقُولُ ‏ \"‏ اللَّهُمَّ مَتِّعْنِي بِسَمْعِي وَبَصَرِي وَاجْعَلْهُمَا الْوَارِثَ مِنِّي وَانْصُرْنِي عَلَى مَنْ يَظْلِمُنِي وَخُذْ مِنْهُ بِثَأْرِي ‏\"‏ ‏.‏ هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3604h",
-				"url": "https://sunnah.com/tirmidhi:3604h"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003604,
-			"idInBook": 3604,
-			"chapterId": 48,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا أَبُو دَاوُدَ، سُلَيْمَانُ بْنُ الأَشْعَثِ السِّجْزِيُّ حَدَّثَنَا قَطَنٌ الْبَصْرِيُّ، أَخْبَرَنَا جَعْفَرُ بْنُ سُلَيْمَانَ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ لِيَسْأَلْ أَحَدُكُمْ رَبَّهُ حَاجَتَهُ كُلَّهَا حَتَّى يَسْأَلَ شِسْعَ نَعْلِهِ إِذَا انْقَطَعَ ‏\"‏ ‏.‏ هَذَا حَدِيثٌ غَرِيبٌ ‏.‏ وَرَوَى غَيْرُ وَاحِدٍ هَذَا الْحَدِيثَ عَنْ جَعْفَرِ بْنِ سُلَيْمَانَ عَنْ ثَابِتٍ الْبُنَانِيِّ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَلَمْ يَذْكُرُوا فِيهِ عَنْ أَنَسٍ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Jami` at-Tirmidhi 3604i",
-				"url": "https://sunnah.com/tirmidhi:3604i"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 5003604,
-			"idInBook": 3604,
-			"chapterId": 48,
-			"bookId": 5,
-			"arabic": "حَدَّثَنَا صَالِحُ بْنُ عَبْدِ اللَّهِ، أَخْبَرَنَا جَعْفَرُ بْنُ سُلَيْمَانَ، عَنْ ثَابِتٍ الْبُنَانِيِّ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لِيَسْأَلْ أَحَدُكُمْ رَبَّهُ حَاجَتَهُ حَتَّى يَسْأَلَهُ الْمِلْحَ وَحَتَّى يَسْأَلَهُ شِسْعَ نَعْلِهِ إِذَا انْقَطَعَ ‏\"‏ ‏.‏ وَهَذَا أَصَحُّ مِنْ حَدِيثِ قَطَنٍ عَنْ جَعْفَرِ بْنِ سُلَيْمَانَ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Ahmad Muhammad Shakir",
@@ -130512,10 +130349,217 @@
 				}
 			],
 			"reference": {
+				"text": "Jami` at-Tirmidhi 3604",
+				"url": "https://sunnah.com/tirmidhi:3604"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 5003604,
+			"idInBook": 3990,
+			"chapterId": 48,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا هِشَامُ بْنُ حَسَّانَ، عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ مَنْ قَالَ حِينَ يُمْسِي ثَلاَثَ مَرَّاتٍ أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ لَمْ يَضُرَّهُ حُمَةٌ تِلْكَ اللَّيْلَةَ ‏\"‏ ‏.‏ قَالَ سُهَيْلٌ فَكَانَ أَهْلُنَا تَعَلَّمُوهَا فَكَانُوا يَقُولُونَهَا كُلَّ لَيْلَةٍ فَلُدِغَتْ جَارِيَةٌ مِنْهُمْ فَلَمْ تَجِدْ لَهَا وَجَعًا ‏.‏ هَذَا حَدِيثٌ حَسَنٌ ‏.‏ وَرَوَى مَالِكُ بْنُ أَنَسٍ هَذَا الْحَدِيثَ عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم وَرَوَى عُبَيْدُ اللَّهِ بْنُ عُمَرَ وَغَيْرُ وَاحِدٍ هَذَا الْحَدِيثَ عَنْ سُهَيْلٍ وَلَمْ يَذْكُرُوا فِيهِ عَنْ أَبِي هُرَيْرَةَ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 3604b",
+				"url": "https://sunnah.com/tirmidhi:3604b"
+			},
+			"isAddendum": true,
+			"sortKey": 3604.1
+		},
+		{
+			"id": 5003604,
+			"idInBook": 3991,
+			"chapterId": 48,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا وَكِيعٌ، أَخْبَرَنَا أَبُو فَضَالَةَ الْفَرَجُ بْنُ فَضَالَةَ، عَنْ أَبِي سَعِيدٍ الْمَقْبُرِيِّ، أَنَّ أَبَا هُرَيْرَةَ، قَالَ دُعَاءٌ حَفِظْتُهُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم لاَ أَدَعُهُ ‏ \"‏ اللَّهُمَّ اجْعَلْنِي أُعَظِّمُ شُكْرَكَ وَأُكْثِرُ ذِكْرَكَ وَأَتَّبِعُ نَصِيحَتَكَ وَأَحْفَظُ وَصِيَّتَكَ ‏\"‏ ‏.‏ هَذَا حَدِيثٌ غَرِيبٌ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 3604c",
+				"url": "https://sunnah.com/tirmidhi:3604c"
+			},
+			"isAddendum": true,
+			"sortKey": 3604.2
+		},
+		{
+			"id": 5003604,
+			"idInBook": 3992,
+			"chapterId": 48,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، أَخْبَرَنَا اللَّيْثُ، وَهُوَ ابْنُ أَبِي سُلَيْمٍ عَنْ زِيَادٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ رَجُلٍ يَدْعُو اللَّهَ بِدُعَاءٍ إِلاَّ اسْتُجِيبَ لَهُ فَإِمَّا أَنْ يُعَجَّلَ لَهُ فِي الدُّنْيَا وَإِمَّا أَنْ يُدَّخَرَ لَهُ فِي الآخِرَةِ وَإِمَّا أَنْ يُكَفَّرَ عَنْهُ مِنْ ذُنُوبِهِ بِقَدْرِ مَا دَعَا مَا لَمْ يَدْعُ بِإِثْمٍ أَوْ قَطِيعَةِ رَحِمٍ أَوْ يَسْتَعْجِلُ ‏\"‏ ‏.‏ قَالُوا يَا رَسُولَ اللَّهِ وَكَيْفَ يَسْتَعْجِلُ قَالَ ‏\"‏ يَقُولُ دَعَوْتُ رَبِّي فَمَا اسْتَجَابَ لِي ‏\"‏ ‏.‏ هَذَا حَدِيثٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 3604d",
+				"url": "https://sunnah.com/tirmidhi:3604d"
+			},
+			"isAddendum": true,
+			"sortKey": 3604.3
+		},
+		{
+			"id": 5003604,
+			"idInBook": 3993,
+			"chapterId": 48,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا يَحْيَى، أَخْبَرَنَا يَعْلَى بْنُ عُبَيْدٍ، قَالَ أَخْبَرَنَا يَحْيَى بْنُ عُبَيْدِ اللَّهِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ عَبْدٍ يَرْفَعُ يَدَيْهِ حَتَّى يَبْدُوَ إِبْطُهُ يَسْأَلُ اللَّهَ مَسْأَلَةً إِلاَّ آتَاهَا إِيَّاهُ مَا لَمْ يَعْجَلْ ‏\"‏ ‏.‏ قَالُوا يَا رَسُولَ اللَّهِ وَكَيْفَ عَجَلَتُهُ قَالَ ‏\"‏ يَقُولُ قَدْ سَأَلْتُ وَسَأَلْتُ وَلَمْ أُعْطَ شَيْئًا ‏\"‏ ‏.‏ وَرَوَى هَذَا الْحَدِيثَ الزُّهْرِيُّ عَنْ أَبِي عُبَيْدٍ مَوْلَى ابْنِ أَزْهَرَ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ يُسْتَجَابُ لأَحَدِكُمْ مَا لَمْ يَعْجَلْ يَقُولُ دَعَوْتُ فَلَمْ يُسْتَجَبْ لِي ‏\"‏ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 3604e",
+				"url": "https://sunnah.com/tirmidhi:3604e"
+			},
+			"isAddendum": true,
+			"sortKey": 3604.4
+		},
+		{
+			"id": 5003604,
+			"idInBook": 3994,
+			"chapterId": 48,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا أَبُو دَاوُدَ، أَخْبَرَنَا صَدَقَةُ بْنُ مُوسَى، أَخْبَرَنَا مُحَمَّدُ بْنُ وَاسِعٍ، عَنْ سُمَيْرِ بْنِ نَهَارٍ الْعَبْدِيِّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ إِنَّ حُسْنَ الظَّنِّ بِاللَّهِ مِنْ حُسْنِ عِبَادَةِ اللَّهِ ‏\"‏ ‏.‏ هَذَا حَدِيثٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 3604f",
+				"url": "https://sunnah.com/tirmidhi:3604f"
+			},
+			"isAddendum": true,
+			"sortKey": 3604.5
+		},
+		{
+			"id": 5003604,
+			"idInBook": 3995,
+			"chapterId": 48,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا عَمْرُو بْنُ عَوْنٍ، أَخْبَرَنَا أَبُو عَوَانَةَ، عَنْ عُمَرَ بْنِ أَبِي سَلَمَةَ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ لِيَنْظُرَنَّ أَحَدُكُمْ مَا الَّذِي يَتَمَنَّى فَإِنَّهُ لاَ يَدْرِي مَا يُكْتَبُ لَهُ مِنْ أُمْنِيَّتِهِ ‏\"‏ ‏.‏ هَذَا حَدِيثٌ حَسَنٌ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 3604g",
+				"url": "https://sunnah.com/tirmidhi:3604g"
+			},
+			"isAddendum": true,
+			"sortKey": 3604.6
+		},
+		{
+			"id": 5003604,
+			"idInBook": 3996,
+			"chapterId": 48,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا جَابِرُ بْنُ نُوحٍ، قَالَ أَخْبَرَنَا مُحَمَّدُ بْنُ عَمْرٍو، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدْعُو فَيَقُولُ ‏ \"‏ اللَّهُمَّ مَتِّعْنِي بِسَمْعِي وَبَصَرِي وَاجْعَلْهُمَا الْوَارِثَ مِنِّي وَانْصُرْنِي عَلَى مَنْ يَظْلِمُنِي وَخُذْ مِنْهُ بِثَأْرِي ‏\"‏ ‏.‏ هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 3604h",
+				"url": "https://sunnah.com/tirmidhi:3604h"
+			},
+			"isAddendum": true,
+			"sortKey": 3604.7
+		},
+		{
+			"id": 5003604,
+			"idInBook": 3997,
+			"chapterId": 48,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا أَبُو دَاوُدَ، سُلَيْمَانُ بْنُ الأَشْعَثِ السِّجْزِيُّ حَدَّثَنَا قَطَنٌ الْبَصْرِيُّ، أَخْبَرَنَا جَعْفَرُ بْنُ سُلَيْمَانَ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ لِيَسْأَلْ أَحَدُكُمْ رَبَّهُ حَاجَتَهُ كُلَّهَا حَتَّى يَسْأَلَ شِسْعَ نَعْلِهِ إِذَا انْقَطَعَ ‏\"‏ ‏.‏ هَذَا حَدِيثٌ غَرِيبٌ ‏.‏ وَرَوَى غَيْرُ وَاحِدٍ هَذَا الْحَدِيثَ عَنْ جَعْفَرِ بْنِ سُلَيْمَانَ عَنْ ثَابِتٍ الْبُنَانِيِّ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَلَمْ يَذْكُرُوا فِيهِ عَنْ أَنَسٍ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Jami` at-Tirmidhi 3604i",
+				"url": "https://sunnah.com/tirmidhi:3604i"
+			},
+			"isAddendum": true,
+			"sortKey": 3604.8
+		},
+		{
+			"id": 5003604,
+			"idInBook": 3998,
+			"chapterId": 48,
+			"bookId": 5,
+			"arabic": "حَدَّثَنَا صَالِحُ بْنُ عَبْدِ اللَّهِ، أَخْبَرَنَا جَعْفَرُ بْنُ سُلَيْمَانَ، عَنْ ثَابِتٍ الْبُنَانِيِّ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لِيَسْأَلْ أَحَدُكُمْ رَبَّهُ حَاجَتَهُ حَتَّى يَسْأَلَهُ الْمِلْحَ وَحَتَّى يَسْأَلَهُ شِسْعَ نَعْلِهِ إِذَا انْقَطَعَ ‏\"‏ ‏.‏ وَهَذَا أَصَحُّ مِنْ حَدِيثِ قَطَنٍ عَنْ جَعْفَرِ بْنِ سُلَيْمَانَ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Thabit Al-Bunani narrated that the Messenger of Allah (ﷺ) said:“Let one of you ask his Lord for his every need, until he asks Him for salt, and asks Him for the strap of his sandal when it breaks.”"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Jami` at-Tirmidhi 3604a",
 				"url": "https://sunnah.com/tirmidhi:3604a"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 3604.9
 		},
 		{
 			"id": 5003605,

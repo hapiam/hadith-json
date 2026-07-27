@@ -12929,25 +12929,6 @@
 			"chapterId": 3,
 			"bookId": 3,
 			"arabic": "أَخْبَرَنَا قُتَيْبَةُ، عَنْ عَبِيدَةَ، عَنِ الأَعْمَشِ، ح وَأَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ ثَابِتِ بْنِ عُبَيْدٍ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ، قَالَ قَالَتْ عَائِشَةُ قَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ نَاوِلِينِي الْخُمْرَةَ مِنَ الْمَسْجِدِ ‏\"‏ ‏.‏ فَقُلْتُ إِنِّي حَائِضٌ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَيْسَتْ حَيْضَتُكِ فِي يَدِكِ ‏\"‏ ‏.‏",
-			"translation": null,
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Sunan an-Nasa'i 384",
-				"url": "https://sunnah.com/nasai:384"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 3000384,
-			"idInBook": 384,
-			"chapterId": 3,
-			"bookId": 3,
-			"arabic": "قَالَ إِسْحَاقُ أَنْبَأَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
 			"translation": {
 				"narrator": "",
 				"text": "Telah mengabarkan kepada kami [Qutaibah] dari ['Abidah] dari [Al-A'masy] dan dalam jalur periwayatan yang lain disebutkan; telah menceritakan kepada kami [Ishaq bin Ibrahim] telah mengabarkan kepada kami [Jarir] dari [Al A'masy] dari [Tsabit bin Ubaid] dari [Al Qasim bin Muhammad] dia berkata; [Aisyah] Radliyallahu'anha berkata; \"Rasulullah shallallahu 'alaihi wasallam bersabda: \"Ambilkan tikar kecil dari masjid'. Aisyah berkata, 'Aku sedang haidl'. Rasulullah shallallahu 'alaihi wasallam bersabda: 'Haidlmu itu bukan di tanganmu.\" Ishaq mengatakan; [Abu Mu'awiyah] telah memberitakan kepada kami dari A'masy dengan isnad ini semisalnya"
@@ -12971,10 +12952,30 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan an-Nasa'i 384",
+				"url": "https://sunnah.com/nasai:384"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 3000384,
+			"idInBook": 5759,
+			"chapterId": 3,
+			"bookId": 3,
+			"arabic": "قَالَ إِسْحَاقُ أَنْبَأَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+			"translation": null,
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Sunan an-Nasa'i 384b",
 				"url": "https://sunnah.com/nasai:384b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 384.1
 		},
 		{
 			"id": 3000385,
@@ -14653,6 +14654,10 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Hasan (Good)"
+				},
+				{
+					"name": "Zubair Ali Zai",
+					"grade": "Sahih"
 				}
 			],
 			"reference": {
@@ -14663,7 +14668,7 @@
 		},
 		{
 			"id": 3000434,
-			"idInBook": 434,
+			"idInBook": 5760,
 			"chapterId": 4,
 			"bookId": 3,
 			"arabic": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، أَنْبَأَنَا أُمَيَّةُ بْنُ خَالِدٍ، حَدَّثَنَا شُعْبَةُ، أَنَّ مُخَارِقًا، أَخْبَرَهُمْ عَنْ طَارِقِ بْنِ شِهَابٍ، أَنَّ رَجُلاً، أَجْنَبَ فَلَمْ يُصَلِّ فَأَتَى النَّبِيَّ صلى الله عليه وسلم فَذَكَرَ ذَلِكَ لَهُ فَقَالَ ‏\"‏ أَصَبْتَ ‏\"‏ ‏.‏ فَأَجْنَبَ رَجُلٌ آخَرُ فَتَيَمَّمَ وَصَلَّى فَأَتَاهُ فَقَالَ نَحْوًا مِمَّا قَالَ لِلآخَرِ يَعْنِي ‏\"‏ أَصَبْتَ ‏\"‏ ‏.‏",
@@ -14672,17 +14677,14 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Hasan (Good)"
-				},
-				{
-					"name": "Zubair Ali Zai",
-					"grade": "Sahih"
 				}
 			],
 			"reference": {
 				"text": "Sunan an-Nasa'i 434b",
 				"url": "https://sunnah.com/nasai:434b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 434.1
 		},
 		{
 			"id": 3000435,
@@ -95140,25 +95142,6 @@
 			"chapterId": 24,
 			"bookId": 3,
 			"arabic": "أَخْبَرَنَا أَحْمَدُ بْنُ سُلَيْمَانَ، قَالَ حَدَّثَنَا عَفَّانُ، قَالَ حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، قَالَ أَنْبَأَنَا قَيْسُ بْنُ سَعْدٍ، عَنْ عَطَاءٍ، أَنَّ ابْنَ عَبَّاسٍ، قَالَ لِزَيْدِ بْنِ أَرْقَمَ مَا عَلِمْتَ أَنَّ النَّبِيَّ صلى الله عليه وسلم أُهْدِيَ لَهُ عُضْوُ صَيْدٍ وَهُوَ مُحْرِمٌ فَلَمْ يَقْبَلْهُ قَالَ نَعَمْ ‏.‏",
-			"translation": null,
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Sunan an-Nasa'i 2821",
-				"url": "https://sunnah.com/nasai:2821"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 3002821,
-			"idInBook": 2821,
-			"chapterId": 24,
-			"bookId": 3,
-			"arabic": "أَخْبَرَنِي عَمْرُو بْنُ عَلِيٍّ، قَالَ سَمِعْتُ يَحْيَى، وَسَمِعْتُ أَبَا عَاصِمٍ، قَالاَ حَدَّثَنَا ابْنُ جُرَيْجٍ، قَالَ أَخْبَرَنِي الْحَسَنُ بْنُ مُسْلِمٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَدِمَ زَيْدُ بْنُ أَرْقَمَ فَقَالَ لَهُ ابْنُ عَبَّاسٍ يَسْتَذْكِرُهُ كَيْفَ أَخْبَرْتَنِي عَنْ لَحْمِ، صَيْدٍ أُهْدِيَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ حَرَامٌ قَالَ نَعَمْ أَهْدَى لَهُ رَجُلٌ عُضْوًا مِنْ لَحْمِ صَيْدٍ فَرَدَّهُ وَقَالَ ‏ \"‏ إِنَّا لاَ نَأْكُلُ إِنَّا حُرُمٌ ‏\"‏ ‏.‏",
 			"translation": {
 				"narrator": "",
 				"text": "Telah mengabarkan kepada kami [Ahmad bin Sulaiman], ia berkata; telah menceritakan kepada kami ['Affan], ia berkata; telah menceritakan kepada kami [Hammad bin Salamah], ia berkata; telah memberitakan kepada kami [Qais bin Sa'd] dari ['Atho`] bahwa [Ibnu Abbas] berkata kepada [Zaid bin Arqam]; \"Apakah engkau tahu bahwa Nabi shallallahu 'alaihi wasallam pernah diberi hadiah bagian dari hewan buruan sedang beliau dalam keadaan berihram kemudian beliau tidak menerimanya? Ia berkata; \"Iya"
@@ -95182,10 +95165,30 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan an-Nasa'i 2821",
+				"url": "https://sunnah.com/nasai:2821"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 3002821,
+			"idInBook": 5761,
+			"chapterId": 24,
+			"bookId": 3,
+			"arabic": "أَخْبَرَنِي عَمْرُو بْنُ عَلِيٍّ، قَالَ سَمِعْتُ يَحْيَى، وَسَمِعْتُ أَبَا عَاصِمٍ، قَالاَ حَدَّثَنَا ابْنُ جُرَيْجٍ، قَالَ أَخْبَرَنِي الْحَسَنُ بْنُ مُسْلِمٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَدِمَ زَيْدُ بْنُ أَرْقَمَ فَقَالَ لَهُ ابْنُ عَبَّاسٍ يَسْتَذْكِرُهُ كَيْفَ أَخْبَرْتَنِي عَنْ لَحْمِ، صَيْدٍ أُهْدِيَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ حَرَامٌ قَالَ نَعَمْ أَهْدَى لَهُ رَجُلٌ عُضْوًا مِنْ لَحْمِ صَيْدٍ فَرَدَّهُ وَقَالَ ‏ \"‏ إِنَّا لاَ نَأْكُلُ إِنَّا حُرُمٌ ‏\"‏ ‏.‏",
+			"translation": null,
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Sunan an-Nasa'i 2821b",
 				"url": "https://sunnah.com/nasai:2821b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2821.1
 		},
 		{
 			"id": 3002822,
@@ -119261,44 +119264,6 @@
 			"chapterId": 27,
 			"bookId": 3,
 			"arabic": "أَخْبَرَنَا مُحَمَّدُ بْنُ سَلَمَةَ، وَالْحَارِثُ بْنُ مِسْكِينٍ، قِرَاءَةً عَلَيْهِ وَأَنَا أَسْمَعُ، - وَاللَّفْظُ لَهُ - قَالَ أَنْبَأَنَا ابْنُ الْقَاسِمِ، عَنْ مَالِكٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ، عَنْ حُمَيْدِ بْنِ نَافِعٍ، عَنْ زَيْنَبَ بِنْتِ أَبِي سَلَمَةَ، أَنَّهَا أَخْبَرَتْهُ بِهَذِهِ الأَحَادِيثِ الثَّلاَثَةِ، قَالَتْ زَيْنَبُ دَخَلْتُ عَلَى أُمِّ حَبِيبَةَ زَوْجِ النَّبِيِّ صلى الله عليه وسلم حِينَ تُوُفِّيَ أَبُوهَا أَبُو سُفْيَانَ بْنُ حَرْبٍ فَدَعَتْ أُمُّ حَبِيبَةَ بِطِيبٍ فَدَهَنَتْ مِنْهُ جَارِيَةً ثُمَّ مَسَّتْ بِعَارِضَيْهَا ثُمَّ قَالَتْ وَاللَّهِ مَا لِي بِالطِّيبِ مِنْ حَاجَةٍ غَيْرَ أَنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لاَ يَحِلُّ لاِمْرَأَةٍ تُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ تَحِدُّ عَلَى مَيِّتٍ فَوْقَ ثَلاَثِ لَيَالٍ إِلاَّ عَلَى زَوْجٍ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا ‏\"‏ ‏.‏",
-			"translation": null,
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Sunan an-Nasa'i 3533",
-				"url": "https://sunnah.com/nasai:3533"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 3003533,
-			"idInBook": 3533,
-			"chapterId": 27,
-			"bookId": 3,
-			"arabic": "قَالَتْ زَيْنَبُ ثُمَّ دَخَلْتُ عَلَى زَيْنَبَ بِنْتِ جَحْشٍ حِينَ تُوُفِّيَ أَخُوهَا وَقَدْ دَعَتْ بِطِيبٍ وَمَسَّتْ مِنْهُ ثُمَّ قَالَتْ وَاللَّهِ مَا لِي بِالطِّيبِ مِنْ حَاجَةٍ غَيْرَ أَنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ عَلَى الْمِنْبَرِ ‏ \"‏ لاَ يَحِلُّ لاِمْرَأَةٍ تُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ تَحِدُّ عَلَى مَيِّتٍ فَوْقَ ثَلاَثِ لَيَالٍ إِلاَّ عَلَى زَوْجٍ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا ‏\"‏ ‏.‏",
-			"translation": null,
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Sunan an-Nasa'i 3533b",
-				"url": "https://sunnah.com/nasai:3533b"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 3003533,
-			"idInBook": 3533,
-			"chapterId": 27,
-			"bookId": 3,
-			"arabic": "وَقَالَتْ زَيْنَبُ سَمِعْتُ أُمَّ سَلَمَةَ، تَقُولُ جَاءَتِ امْرَأَةٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ ابْنَتِي تُوُفِّيَ عَنْهَا زَوْجُهَا وَقَدِ اشْتَكَتْ عَيْنَهَا أَفَأَكْحُلُهَا فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ ‏\"‏ ‏.‏ ثُمَّ قَالَ ‏\"‏ إِنَّمَا هِيَ أَرْبَعَةُ أَشْهُرٍ وَعَشْرًا وَقَدْ كَانَتْ إِحْدَاكُنَّ فِي الْجَاهِلِيَّةِ تَرْمِي بِالْبَعْرَةِ عِنْدَ رَأْسِ الْحَوْلِ ‏\"‏ ‏.‏ قَالَ حُمَيْدٌ فَقُلْتُ لِزَيْنَبَ وَمَا تَرْمِي بِالْبَعْرَةِ عِنْدَ رَأْسِ الْحَوْلِ قَالَتْ زَيْنَبُ كَانَتِ الْمَرْأَةُ إِذَا تُوُفِّيَ عَنْهَا زَوْجُهَا دَخَلَتْ حِفْشًا وَلَبِسَتْ شَرَّ ثِيَابِهَا وَلَمْ تَمَسَّ طِيبًا وَلاَ شَيْئًا حَتَّى تَمُرَّ بِهَا سَنَةٌ ثُمَّ تُؤْتَى بِدَابَّةٍ حِمَارٍ أَوْ شَاةٍ أَوْ طَيْرٍ فَتَفْتَضُّ بِهِ فَقَلَّمَا تَفْتَضُّ بِشَىْءٍ إِلاَّ مَاتَ ثُمَّ تَخْرُجُ فَتُعْطَى بَعْرَةً فَتَرْمِي بِهَا وَتُرَاجِعُ بَعْدُ مَا شَاءَتْ مِنْ طِيبٍ أَوْ غَيْرِهِ ‏.‏ قَالَ مَالِكٌ تَفْتَضُّ تَمْسَحُ بِهِ فِي حَدِيثِ مُحَمَّدٍ ‏.‏ قَالَ مَالِكٌ الْحِفْشُ الْخُصُّ ‏.‏",
 			"translation": {
 				"narrator": "",
 				"text": "Telah mengabarkan kepada kami [Muhammad bin Salamah] dan [Al Harits bin Miskin] dengan membacakan riwayat dan aku mendengar, lafazhnya adalah lafazh Al Harits, ia berkata; telah memberitakan kepada kami [Ibnu Al Qasim] dari [Malik] dari [Abdullah bin Abu Bakr] dari [Humaid bin Nafi'] dari [Zainab binti Abu Salamah], bahwa ia mengabarkan kepadanya tiga hadits.\" Zainab berkata, \"Aku menemui [Ummu Habibah] isteri Nabi shallallahu 'alaihi wasallam ketika ayahnya, Abu Sufyan bin Harb, meninggal. Kemudian Ummu Habibah meminta minyak wangi dan memberi seorang sahaya wanita sebagian darinya kemudian ia mengusap kedua pipinya kemudian berkata, \"Demi Allah, aku tidak butuh kepada minyak wangi, hanya saja aku pernah mendengar Rasulullah shallallahu 'alaihi wasallam bersabda: \"Tidak halal bagi seorang wanita yang beriman kepada Allah dan Hari Akhir untuk berkabung terhadap mayit di atas tiga malam, kecuali terhadap suaminya hingga empat bulan sepuluh hari"
@@ -119318,10 +119283,50 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan an-Nasa'i 3533",
+				"url": "https://sunnah.com/nasai:3533"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 3003533,
+			"idInBook": 5762,
+			"chapterId": 27,
+			"bookId": 3,
+			"arabic": "قَالَتْ زَيْنَبُ ثُمَّ دَخَلْتُ عَلَى زَيْنَبَ بِنْتِ جَحْشٍ حِينَ تُوُفِّيَ أَخُوهَا وَقَدْ دَعَتْ بِطِيبٍ وَمَسَّتْ مِنْهُ ثُمَّ قَالَتْ وَاللَّهِ مَا لِي بِالطِّيبِ مِنْ حَاجَةٍ غَيْرَ أَنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ عَلَى الْمِنْبَرِ ‏ \"‏ لاَ يَحِلُّ لاِمْرَأَةٍ تُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ تَحِدُّ عَلَى مَيِّتٍ فَوْقَ ثَلاَثِ لَيَالٍ إِلاَّ عَلَى زَوْجٍ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا ‏\"‏ ‏.‏",
+			"translation": null,
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
+				"text": "Sunan an-Nasa'i 3533b",
+				"url": "https://sunnah.com/nasai:3533b"
+			},
+			"isAddendum": true,
+			"sortKey": 3533.1
+		},
+		{
+			"id": 3003533,
+			"idInBook": 5763,
+			"chapterId": 27,
+			"bookId": 3,
+			"arabic": "وَقَالَتْ زَيْنَبُ سَمِعْتُ أُمَّ سَلَمَةَ، تَقُولُ جَاءَتِ امْرَأَةٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ ابْنَتِي تُوُفِّيَ عَنْهَا زَوْجُهَا وَقَدِ اشْتَكَتْ عَيْنَهَا أَفَأَكْحُلُهَا فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ ‏\"‏ ‏.‏ ثُمَّ قَالَ ‏\"‏ إِنَّمَا هِيَ أَرْبَعَةُ أَشْهُرٍ وَعَشْرًا وَقَدْ كَانَتْ إِحْدَاكُنَّ فِي الْجَاهِلِيَّةِ تَرْمِي بِالْبَعْرَةِ عِنْدَ رَأْسِ الْحَوْلِ ‏\"‏ ‏.‏ قَالَ حُمَيْدٌ فَقُلْتُ لِزَيْنَبَ وَمَا تَرْمِي بِالْبَعْرَةِ عِنْدَ رَأْسِ الْحَوْلِ قَالَتْ زَيْنَبُ كَانَتِ الْمَرْأَةُ إِذَا تُوُفِّيَ عَنْهَا زَوْجُهَا دَخَلَتْ حِفْشًا وَلَبِسَتْ شَرَّ ثِيَابِهَا وَلَمْ تَمَسَّ طِيبًا وَلاَ شَيْئًا حَتَّى تَمُرَّ بِهَا سَنَةٌ ثُمَّ تُؤْتَى بِدَابَّةٍ حِمَارٍ أَوْ شَاةٍ أَوْ طَيْرٍ فَتَفْتَضُّ بِهِ فَقَلَّمَا تَفْتَضُّ بِشَىْءٍ إِلاَّ مَاتَ ثُمَّ تَخْرُجُ فَتُعْطَى بَعْرَةً فَتَرْمِي بِهَا وَتُرَاجِعُ بَعْدُ مَا شَاءَتْ مِنْ طِيبٍ أَوْ غَيْرِهِ ‏.‏ قَالَ مَالِكٌ تَفْتَضُّ تَمْسَحُ بِهِ فِي حَدِيثِ مُحَمَّدٍ ‏.‏ قَالَ مَالِكٌ الْحِفْشُ الْخُصُّ ‏.‏",
+			"translation": null,
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Sunan an-Nasa'i 3533c",
 				"url": "https://sunnah.com/nasai:3533c"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 3533.2
 		},
 		{
 			"id": 3003534,
@@ -125660,25 +125665,6 @@
 			"chapterId": 34,
 			"bookId": 3,
 			"arabic": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ يَزِيدَ، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ ‏.‏",
-			"translation": null,
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Sunan an-Nasa'i 3722",
-				"url": "https://sunnah.com/nasai:3722"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 3003722,
-			"idInBook": 3722,
-			"chapterId": 34,
-			"bookId": 3,
-			"arabic": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ ‏.‏",
 			"translation": {
 				"narrator": "",
 				"text": "Telah mengabarkan kepada kami [Muhammad bin Abdullah bin Yazid] dari [Sufyan] dari ['Amru] dari [Thawus] dari [Hujr Al Madariji] dari [Zaid bin Tsabit], bahwa Nabi shallallahu 'alaihi wasallam memutuskan bahwa 'Umra adalah untuk pewaris"
@@ -125702,10 +125688,30 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan an-Nasa'i 3722",
+				"url": "https://sunnah.com/nasai:3722"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 3003722,
+			"idInBook": 5764,
+			"chapterId": 34,
+			"bookId": 3,
+			"arabic": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ ‏.‏",
+			"translation": null,
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Sunan an-Nasa'i 3722b",
 				"url": "https://sunnah.com/nasai:3722b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 3722.1
 		},
 		{
 			"id": 3003723,
@@ -187182,25 +187188,6 @@
 			"chapterId": 51,
 			"bookId": 3,
 			"arabic": "أَخْبَرَنَا سُوَيْدُ بْنُ نَصْرٍ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ، عَنْ هِشَامِ بْنِ حَسَّانَ، عَنْ أَبِي إِدْرِيسَ، قَالَ شَهِدْتُ أَنَسَ بْنَ مَالِكٍ أُتِيَ بِبُسْرٍ مُذَنَّبٍ فَجَعَلَ يَقْطَعُهُ مِنْهُ ‏.‏",
-			"translation": null,
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Hasan (Good)"
-				}
-			],
-			"reference": {
-				"text": "Sunan an-Nasa'i 5564",
-				"url": "https://sunnah.com/nasai:5564"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 3005564,
-			"idInBook": 5564,
-			"chapterId": 51,
-			"bookId": 3,
-			"arabic": "أَخْبَرَنَا سُوَيْدٌ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ سَعِيدِ بْنِ أَبِي عَرُوبَةَ، قَالَ قَتَادَةُ كَانَ أَنَسٌ يَأْمُرُ بِالتَّذْنُوبِ فَيُقْرَضُ ‏.‏",
 			"translation": {
 				"narrator": "",
 				"text": "Telah mengabarkan kepada kami [Suwaid bin Nashr] ia berkata; telah memberitakan kepada kami [Abdullah] dari [Hisyam bin Hassan] dari [Abu Idris] ia berkata; \"Aku melihat [Anas bin Malik] diberi perasan kurma muda, lalu ia menghindarinya"
@@ -187224,10 +187211,30 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan an-Nasa'i 5564",
+				"url": "https://sunnah.com/nasai:5564"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 3005564,
+			"idInBook": 5765,
+			"chapterId": 51,
+			"bookId": 3,
+			"arabic": "أَخْبَرَنَا سُوَيْدٌ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ سَعِيدِ بْنِ أَبِي عَرُوبَةَ، قَالَ قَتَادَةُ كَانَ أَنَسٌ يَأْمُرُ بِالتَّذْنُوبِ فَيُقْرَضُ ‏.‏",
+			"translation": null,
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Hasan (Good)"
+				}
+			],
+			"reference": {
 				"text": "Sunan an-Nasa'i 5564b",
 				"url": "https://sunnah.com/nasai:5564b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 5564.1
 		},
 		{
 			"id": 3005565,

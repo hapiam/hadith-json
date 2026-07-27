@@ -12952,28 +12952,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Sunan an-Nasa'i 384",
-				"url": "https://sunnah.com/nasai:384"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 3000384,
-			"idInBook": 384,
-			"chapterId": 3,
-			"bookId": 3,
-			"arabic": "قَالَ إِسْحَاقُ أَنْبَأَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "(Another chain) with similarity"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Abu Ghuddah",
@@ -12989,10 +12967,33 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan an-Nasa'i 384",
+				"url": "https://sunnah.com/nasai:384"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 3000384,
+			"idInBook": 5759,
+			"chapterId": 3,
+			"bookId": 3,
+			"arabic": "قَالَ إِسْحَاقُ أَنْبَأَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "(Another chain) with similarity"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Sunan an-Nasa'i 384b",
 				"url": "https://sunnah.com/nasai:384b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 384.1
 		},
 		{
 			"id": 3000385,
@@ -14674,6 +14675,10 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Hasan (Good)"
+				},
+				{
+					"name": "Zubair Ali Zai",
+					"grade": "Sahih"
 				}
 			],
 			"reference": {
@@ -14684,7 +14689,7 @@
 		},
 		{
 			"id": 3000434,
-			"idInBook": 434,
+			"idInBook": 5760,
 			"chapterId": 4,
 			"bookId": 3,
 			"arabic": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، أَنْبَأَنَا أُمَيَّةُ بْنُ خَالِدٍ، حَدَّثَنَا شُعْبَةُ، أَنَّ مُخَارِقًا، أَخْبَرَهُمْ عَنْ طَارِقِ بْنِ شِهَابٍ، أَنَّ رَجُلاً، أَجْنَبَ فَلَمْ يُصَلِّ فَأَتَى النَّبِيَّ صلى الله عليه وسلم فَذَكَرَ ذَلِكَ لَهُ فَقَالَ ‏\"‏ أَصَبْتَ ‏\"‏ ‏.‏ فَأَجْنَبَ رَجُلٌ آخَرُ فَتَيَمَّمَ وَصَلَّى فَأَتَاهُ فَقَالَ نَحْوًا مِمَّا قَالَ لِلآخَرِ يَعْنِي ‏\"‏ أَصَبْتَ ‏\"‏ ‏.‏",
@@ -14696,17 +14701,14 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Hasan (Good)"
-				},
-				{
-					"name": "Zubair Ali Zai",
-					"grade": "Sahih"
 				}
 			],
 			"reference": {
 				"text": "Sunan an-Nasa'i 434b",
 				"url": "https://sunnah.com/nasai:434b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 434.1
 		},
 		{
 			"id": 3000435,
@@ -95601,28 +95603,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Sunan an-Nasa'i 2821",
-				"url": "https://sunnah.com/nasai:2821"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 3002821,
-			"idInBook": 2821,
-			"chapterId": 24,
-			"bookId": 3,
-			"arabic": "أَخْبَرَنِي عَمْرُو بْنُ عَلِيٍّ، قَالَ سَمِعْتُ يَحْيَى، وَسَمِعْتُ أَبَا عَاصِمٍ، قَالاَ حَدَّثَنَا ابْنُ جُرَيْجٍ، قَالَ أَخْبَرَنِي الْحَسَنُ بْنُ مُسْلِمٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَدِمَ زَيْدُ بْنُ أَرْقَمَ فَقَالَ لَهُ ابْنُ عَبَّاسٍ يَسْتَذْكِرُهُ كَيْفَ أَخْبَرْتَنِي عَنْ لَحْمِ، صَيْدٍ أُهْدِيَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ حَرَامٌ قَالَ نَعَمْ أَهْدَى لَهُ رَجُلٌ عُضْوًا مِنْ لَحْمِ صَيْدٍ فَرَدَّهُ وَقَالَ ‏ \"‏ إِنَّا لاَ نَأْكُلُ إِنَّا حُرُمٌ ‏\"‏ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "It was narrated that Ibn 'Abbas said:\"Zaid bin Arqam came and Ibn Abbas said to him, reminding him: \"What did you tell me about the game meat that was given to the Messenger of Allah when he was in Ihram?\" He said: \"Yes, a man gave him a piece of game meat but he returned it and said: 'We cannot eat it, we are in Ihram"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Abu Ghuddah",
@@ -95638,10 +95618,33 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan an-Nasa'i 2821",
+				"url": "https://sunnah.com/nasai:2821"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 3002821,
+			"idInBook": 5761,
+			"chapterId": 24,
+			"bookId": 3,
+			"arabic": "أَخْبَرَنِي عَمْرُو بْنُ عَلِيٍّ، قَالَ سَمِعْتُ يَحْيَى، وَسَمِعْتُ أَبَا عَاصِمٍ، قَالاَ حَدَّثَنَا ابْنُ جُرَيْجٍ، قَالَ أَخْبَرَنِي الْحَسَنُ بْنُ مُسْلِمٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَدِمَ زَيْدُ بْنُ أَرْقَمَ فَقَالَ لَهُ ابْنُ عَبَّاسٍ يَسْتَذْكِرُهُ كَيْفَ أَخْبَرْتَنِي عَنْ لَحْمِ، صَيْدٍ أُهْدِيَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ حَرَامٌ قَالَ نَعَمْ أَهْدَى لَهُ رَجُلٌ عُضْوًا مِنْ لَحْمِ صَيْدٍ فَرَدَّهُ وَقَالَ ‏ \"‏ إِنَّا لاَ نَأْكُلُ إِنَّا حُرُمٌ ‏\"‏ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "It was narrated that Ibn 'Abbas said:\"Zaid bin Arqam came and Ibn Abbas said to him, reminding him: \"What did you tell me about the game meat that was given to the Messenger of Allah when he was in Ihram?\" He said: \"Yes, a man gave him a piece of game meat but he returned it and said: 'We cannot eat it, we are in Ihram"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Sunan an-Nasa'i 2821b",
 				"url": "https://sunnah.com/nasai:2821b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 2821.1
 		},
 		{
 			"id": 3002822,
@@ -119779,6 +119782,14 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
+				},
+				{
+					"name": "Abu Ghuddah",
+					"grade": "Sahih"
+				},
+				{
+					"name": "Al-Albani",
+					"grade": "Sahih"
 				}
 			],
 			"reference": {
@@ -119789,7 +119800,7 @@
 		},
 		{
 			"id": 3003533,
-			"idInBook": 3533,
+			"idInBook": 5762,
 			"chapterId": 27,
 			"bookId": 3,
 			"arabic": "قَالَتْ زَيْنَبُ ثُمَّ دَخَلْتُ عَلَى زَيْنَبَ بِنْتِ جَحْشٍ حِينَ تُوُفِّيَ أَخُوهَا وَقَدْ دَعَتْ بِطِيبٍ وَمَسَّتْ مِنْهُ ثُمَّ قَالَتْ وَاللَّهِ مَا لِي بِالطِّيبِ مِنْ حَاجَةٍ غَيْرَ أَنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ عَلَى الْمِنْبَرِ ‏ \"‏ لاَ يَحِلُّ لاِمْرَأَةٍ تُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ تَحِدُّ عَلَى مَيِّتٍ فَوْقَ ثَلاَثِ لَيَالٍ إِلاَّ عَلَى زَوْجٍ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا ‏\"‏ ‏.‏",
@@ -119807,11 +119818,12 @@
 				"text": "Sunan an-Nasa'i 3533b",
 				"url": "https://sunnah.com/nasai:3533b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 3533.1
 		},
 		{
 			"id": 3003533,
-			"idInBook": 3533,
+			"idInBook": 5763,
 			"chapterId": 27,
 			"bookId": 3,
 			"arabic": "وَقَالَتْ زَيْنَبُ سَمِعْتُ أُمَّ سَلَمَةَ، تَقُولُ جَاءَتِ امْرَأَةٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ ابْنَتِي تُوُفِّيَ عَنْهَا زَوْجُهَا وَقَدِ اشْتَكَتْ عَيْنَهَا أَفَأَكْحُلُهَا فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ ‏\"‏ ‏.‏ ثُمَّ قَالَ ‏\"‏ إِنَّمَا هِيَ أَرْبَعَةُ أَشْهُرٍ وَعَشْرًا وَقَدْ كَانَتْ إِحْدَاكُنَّ فِي الْجَاهِلِيَّةِ تَرْمِي بِالْبَعْرَةِ عِنْدَ رَأْسِ الْحَوْلِ ‏\"‏ ‏.‏ قَالَ حُمَيْدٌ فَقُلْتُ لِزَيْنَبَ وَمَا تَرْمِي بِالْبَعْرَةِ عِنْدَ رَأْسِ الْحَوْلِ قَالَتْ زَيْنَبُ كَانَتِ الْمَرْأَةُ إِذَا تُوُفِّيَ عَنْهَا زَوْجُهَا دَخَلَتْ حِفْشًا وَلَبِسَتْ شَرَّ ثِيَابِهَا وَلَمْ تَمَسَّ طِيبًا وَلاَ شَيْئًا حَتَّى تَمُرَّ بِهَا سَنَةٌ ثُمَّ تُؤْتَى بِدَابَّةٍ حِمَارٍ أَوْ شَاةٍ أَوْ طَيْرٍ فَتَفْتَضُّ بِهِ فَقَلَّمَا تَفْتَضُّ بِشَىْءٍ إِلاَّ مَاتَ ثُمَّ تَخْرُجُ فَتُعْطَى بَعْرَةً فَتَرْمِي بِهَا وَتُرَاجِعُ بَعْدُ مَا شَاءَتْ مِنْ طِيبٍ أَوْ غَيْرِهِ ‏.‏ قَالَ مَالِكٌ تَفْتَضُّ تَمْسَحُ بِهِ فِي حَدِيثِ مُحَمَّدٍ ‏.‏ قَالَ مَالِكٌ الْحِفْشُ الْخُصُّ ‏.‏",
@@ -119823,21 +119835,14 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				},
-				{
-					"name": "Abu Ghuddah",
-					"grade": "Sahih"
-				},
-				{
-					"name": "Al-Albani",
-					"grade": "Sahih"
 				}
 			],
 			"reference": {
 				"text": "Sunan an-Nasa'i 3533c",
 				"url": "https://sunnah.com/nasai:3533c"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 3533.2
 		},
 		{
 			"id": 3003534,
@@ -126217,28 +126222,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Sahih (Authentic)"
-				}
-			],
-			"reference": {
-				"text": "Sunan an-Nasa'i 3722",
-				"url": "https://sunnah.com/nasai:3722"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 3003722,
-			"idInBook": 3722,
-			"chapterId": 34,
-			"bookId": 3,
-			"arabic": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "It was narrated from Zaid bin Thabit that the Prophet ruled that 'Umra (a gift given for life) belongs to the heir"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Sahih (Authentic)"
 				},
 				{
 					"name": "Abu Ghuddah",
@@ -126254,10 +126237,33 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan an-Nasa'i 3722",
+				"url": "https://sunnah.com/nasai:3722"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 3003722,
+			"idInBook": 5764,
+			"chapterId": 34,
+			"bookId": 3,
+			"arabic": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "It was narrated from Zaid bin Thabit that the Prophet ruled that 'Umra (a gift given for life) belongs to the heir"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Sahih (Authentic)"
+				}
+			],
+			"reference": {
 				"text": "Sunan an-Nasa'i 3722b",
 				"url": "https://sunnah.com/nasai:3722b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 3722.1
 		},
 		{
 			"id": 3003723,
@@ -188384,28 +188390,6 @@
 				{
 					"name": "Sunnah.com",
 					"grade": "Hasan (Good)"
-				}
-			],
-			"reference": {
-				"text": "Sunan an-Nasa'i 5564",
-				"url": "https://sunnah.com/nasai:5564"
-			},
-			"isAddendum": false
-		},
-		{
-			"id": 3005564,
-			"idInBook": 5564,
-			"chapterId": 51,
-			"bookId": 3,
-			"arabic": "أَخْبَرَنَا سُوَيْدٌ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ سَعِيدِ بْنِ أَبِي عَرُوبَةَ، قَالَ قَتَادَةُ كَانَ أَنَسٌ يَأْمُرُ بِالتَّذْنُوبِ فَيُقْرَضُ ‏.‏",
-			"translation": {
-				"narrator": "",
-				"text": "Qatadah said:\"Anas used to tell us to cut off the extra bits"
-			},
-			"grades": [
-				{
-					"name": "Sunnah.com",
-					"grade": "Hasan (Good)"
 				},
 				{
 					"name": "Abu Ghuddah",
@@ -188421,10 +188405,33 @@
 				}
 			],
 			"reference": {
+				"text": "Sunan an-Nasa'i 5564",
+				"url": "https://sunnah.com/nasai:5564"
+			},
+			"isAddendum": false
+		},
+		{
+			"id": 3005564,
+			"idInBook": 5765,
+			"chapterId": 51,
+			"bookId": 3,
+			"arabic": "أَخْبَرَنَا سُوَيْدٌ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ سَعِيدِ بْنِ أَبِي عَرُوبَةَ، قَالَ قَتَادَةُ كَانَ أَنَسٌ يَأْمُرُ بِالتَّذْنُوبِ فَيُقْرَضُ ‏.‏",
+			"translation": {
+				"narrator": "",
+				"text": "Qatadah said:\"Anas used to tell us to cut off the extra bits"
+			},
+			"grades": [
+				{
+					"name": "Sunnah.com",
+					"grade": "Hasan (Good)"
+				}
+			],
+			"reference": {
 				"text": "Sunan an-Nasa'i 5564b",
 				"url": "https://sunnah.com/nasai:5564b"
 			},
-			"isAddendum": false
+			"isAddendum": true,
+			"sortKey": 5564.1
 		},
 		{
 			"id": 3005565,
