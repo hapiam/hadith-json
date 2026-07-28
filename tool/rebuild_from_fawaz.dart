@@ -243,11 +243,39 @@ void main(List<String> args) {
   // `hadithnumber` per entry rather than assumed to be at the same list
   // index -- the two files are usually 1:1 but this stays correct even if
   // fawaz ever ships a partial/reordered English export for a book.
+  //
+  // Keyed by the FULL string form (not `.toInt()`-truncated) -- fawaz uses
+  // a fractional `hadithnumber` (e.g. `402`, `402.2`, `402.3`) as its own
+  // encoding of sunnah.com's lettered citation split (402, 402b, 402c: a
+  // second/third distinct narration sharing one classical citation number,
+  // Bukhari's own well-known convention -- 26 such cases in Bukhari alone,
+  // confirmed 2026-07-28). Truncating to int here used to collapse every
+  // variant's key onto its base integer, so this map-literal's own
+  // duplicate-key-last-write-wins semantics silently OVERWROTE the base
+  // entry's real English translation with whichever variant was processed
+  // last in fawaz's file -- e.g. `engByNum[402]` ended up holding 402.2's
+  // "as above" gloss, never 402's own actual narration -- and since BOTH
+  // resulting Arabic rows below then also truncated their own lookup key to
+  // the same `402`, they both received that one wrong text. Root cause of
+  // the identical-English-on-every-dual-numbered-hadith bug (user-reported
+  // 2026-07-28, confirmed against both the published hapiam/hadith-json
+  // release and fawazahmed0's own raw upstream data). String keys sidestep
+  // any double-precision equality risk a bare `num` key would carry.
   final araHadiths = (ara['hadiths'] as List).cast<Map<String, dynamic>>();
-  final engByNum = <int, Map<String, dynamic>>{
+  final engByNum = <String, Map<String, dynamic>>{
     for (final h in (eng['hadiths'] as List).cast<Map<String, dynamic>>())
-      (h['hadithnumber'] as num).toInt(): h,
+      h['hadithnumber'].toString(): h,
   };
+  // Starting point for fresh `idInBook`s handed to fractional/lettered
+  // variants below -- comfortably past every real (integer) citation number
+  // fawaz has for this book, so a freshly-assigned id can never collide
+  // with a genuine citation. Same role as `fix_duplicate_idinbook.dart`'s
+  // own `maxIdInBook` (which this rebuild now makes unnecessary to re-run
+  // for tirmidhi/nasai/ibnmajah -- it only ever fixed the numbering
+  // collision, never this same English-pairing corruption underneath it).
+  var nextVariantIdInBook = araHadiths
+      .map((h) => (h['hadithnumber'] as num).truncate())
+      .fold(0, (a, b) => a > b ? a : b);
 
   // Existing chapters list, keyed by (id, english-name-lowercase) so we can
   // backfill Arabic names for chapters whose id+name still line up with
@@ -317,10 +345,35 @@ void main(List<String> args) {
   var missingEnglish = 0;
   var blankContent = 0;
   var chapterUnknown = 0;
+  var variantsReassigned = 0;
   for (final h in araHadiths) {
-    final hadithNum = (h['hadithnumber'] as num).toInt();
-    final engEntry = engByNum[hadithNum];
+    final rawNum = h['hadithnumber'] as num;
+    // Exact-key lookup (see `engByNum`'s own doc comment) -- `402` and
+    // `402.2` are two different rows with two different real translations,
+    // never the same lookup.
+    final engEntry = engByNum[rawNum.toString()];
     if (engEntry == null) missingEnglish++;
+
+    // A fractional `hadithnumber` is a lettered variant (402.2 = "402b")
+    // sharing its base integer's classical citation number but NOT a real
+    // `idInBook` of its own -- give it a fresh one beyond the book's real
+    // range (same convention `fix_duplicate_idinbook.dart` already
+    // established for tirmidhi/nasai/ibnmajah) so it can never collide with
+    // its base sibling again. `sortKey` stays the raw fractional number
+    // itself (`402.2` already sorts correctly between 402 and 403) --
+    // simpler than reconstructing it from the letter index.
+    final isVariant = rawNum != rawNum.truncate();
+    final int hadithNum;
+    final num sortKey;
+    if (isVariant) {
+      nextVariantIdInBook++;
+      hadithNum = nextVariantIdInBook;
+      sortKey = rawNum;
+      variantsReassigned++;
+    } else {
+      hadithNum = rawNum.toInt();
+      sortKey = hadithNum;
+    }
 
     final refMap = h['reference'] as Map;
     final refBook = (refMap['book'] as num).toInt();
@@ -370,6 +423,11 @@ void main(List<String> args) {
       if (isUnknownChapter) 'chapterUnknown': true,
       'reference': reference,
       if (isBlank) 'noSourceContent': true,
+      // Same flag name `fix_duplicate_idinbook.dart` uses for this exact
+      // situation -- deliberately NOT `isAddendum` (see that script's own
+      // doc comment for why the two are a different thing).
+      if (isVariant) 'appendedOriginal': true,
+      if (isVariant) 'sortKey': sortKey,
     });
   }
 
@@ -456,6 +514,10 @@ void main(List<String> args) {
 
   stdout.writeln(
     '$book: rebuilt ${newHadiths.length} hadith, ${newChapters.length} chapters',
+  );
+  stdout.writeln(
+    '  lettered/fractional variants reassigned a fresh idInBook '
+    '(appendedOriginal, own correctly-paired English): $variantsReassigned',
   );
   stdout.writeln('  missing fawaz English entry: $missingEnglish');
   stdout.writeln(

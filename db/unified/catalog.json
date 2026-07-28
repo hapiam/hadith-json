@@ -8,7 +8,8 @@
 			"language": "ar",
 			"languageName": "Arabic",
 			"name": "Sahih al-Bukhari (Arabic)",
-			"hadithCount": 7589,
+			"hadithCount": 7563,
+			"addendumCount": 26,
 			"features": [
 				"arabic",
 				"grades",
@@ -20,7 +21,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1611410
 		},
 		{
 			"id": "ara1-bukhari",
@@ -41,7 +43,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1185895
 		},
 		{
 			"id": "ben-bukhari",
@@ -50,7 +53,8 @@
 			"language": "bn",
 			"languageName": "Bengali",
 			"name": "Sahih al-Bukhari (Bengali)",
-			"hadithCount": 7589,
+			"hadithCount": 7563,
+			"addendumCount": 26,
 			"translationCount": 7529,
 			"features": [
 				"arabic",
@@ -64,7 +68,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 4151058
 		},
 		{
 			"id": "eng-bukhari",
@@ -73,7 +78,8 @@
 			"language": "en",
 			"languageName": "English",
 			"name": "Sahih al-Bukhari (English)",
-			"hadithCount": 7589,
+			"hadithCount": 7563,
+			"addendumCount": 26,
 			"translationCount": 7580,
 			"features": [
 				"arabic",
@@ -87,7 +93,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 3137893
 		},
 		{
 			"id": "fra-bukhari",
@@ -96,7 +103,8 @@
 			"language": "fr",
 			"languageName": "French",
 			"name": "Sahih al-Bukhari (French)",
-			"hadithCount": 7589,
+			"hadithCount": 7563,
+			"addendumCount": 26,
 			"translationCount": 7563,
 			"features": [
 				"arabic",
@@ -110,7 +118,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 3183481
 		},
 		{
 			"id": "ind-bukhari",
@@ -119,7 +128,8 @@
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Sahih al-Bukhari (Indonesian)",
-			"hadithCount": 7589,
+			"hadithCount": 7563,
+			"addendumCount": 26,
 			"translationCount": 6856,
 			"features": [
 				"arabic",
@@ -133,7 +143,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 3316099
 		},
 		{
 			"id": "rus-bukhari",
@@ -142,7 +153,8 @@
 			"language": "ru",
 			"languageName": "Russian",
 			"name": "Sahih al-Bukhari (Russian)",
-			"hadithCount": 7589,
+			"hadithCount": 7563,
+			"addendumCount": 26,
 			"translationCount": 7499,
 			"features": [
 				"arabic",
@@ -156,7 +168,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 3504106
 		},
 		{
 			"id": "tam-bukhari",
@@ -165,7 +178,8 @@
 			"language": "ta",
 			"languageName": "Tamil",
 			"name": "Sahih al-Bukhari (Tamil)",
-			"hadithCount": 7589,
+			"hadithCount": 7563,
+			"addendumCount": 26,
 			"translationCount": 7261,
 			"features": [
 				"arabic",
@@ -179,7 +193,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 4128939
 		},
 		{
 			"id": "tur-bukhari",
@@ -188,7 +203,8 @@
 			"language": "tr",
 			"languageName": "Turkish",
 			"name": "Sahih al-Bukhari (Turkish)",
-			"hadithCount": 7589,
+			"hadithCount": 7563,
+			"addendumCount": 26,
 			"translationCount": 7510,
 			"features": [
 				"arabic",
@@ -202,7 +218,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 4931073
 		},
 		{
 			"id": "urd-bukhari",
@@ -211,7 +228,8 @@
 			"language": "ur",
 			"languageName": "Urdu",
 			"name": "Sahih al-Bukhari (Urdu)",
-			"hadithCount": 7589,
+			"hadithCount": 7563,
+			"addendumCount": 26,
 			"translationCount": 7019,
 			"features": [
 				"arabic",
@@ -225,7 +243,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 3693238
 		},
 		{
 			"id": "ara-muslim",
@@ -235,7 +254,6 @@
 			"languageName": "Arabic",
 			"name": "Sahih Muslim (Arabic)",
 			"hadithCount": 7563,
-			"addendumCount": 40,
 			"features": [
 				"arabic",
 				"grades",
@@ -247,7 +265,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1292571
 		},
 		{
 			"id": "ara1-muslim",
@@ -268,7 +287,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 973611
 		},
 		{
 			"id": "ben-muslim",
@@ -278,7 +298,6 @@
 			"languageName": "Bengali",
 			"name": "Sahih Muslim (Bengali)",
 			"hadithCount": 7563,
-			"addendumCount": 40,
 			"translationCount": 7360,
 			"features": [
 				"arabic",
@@ -292,7 +311,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2921008
 		},
 		{
 			"id": "eng-muslim",
@@ -302,8 +322,7 @@
 			"languageName": "English",
 			"name": "Sahih Muslim (English)",
 			"hadithCount": 7563,
-			"addendumCount": 40,
-			"translationCount": 7510,
+			"translationCount": 7360,
 			"features": [
 				"arabic",
 				"translation",
@@ -316,7 +335,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2404909
 		},
 		{
 			"id": "fra-muslim",
@@ -326,7 +346,6 @@
 			"languageName": "French",
 			"name": "Sahih Muslim (French)",
 			"hadithCount": 7563,
-			"addendumCount": 40,
 			"translationCount": 7307,
 			"features": [
 				"arabic",
@@ -340,7 +359,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2351692
 		},
 		{
 			"id": "ind-muslim",
@@ -350,7 +370,6 @@
 			"languageName": "Indonesian",
 			"name": "Sahih Muslim (Indonesian)",
 			"hadithCount": 7563,
-			"addendumCount": 40,
 			"translationCount": 4927,
 			"features": [
 				"arabic",
@@ -364,7 +383,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2624520
 		},
 		{
 			"id": "rus-muslim",
@@ -374,7 +394,6 @@
 			"languageName": "Russian",
 			"name": "Sahih Muslim (Russian)",
 			"hadithCount": 7563,
-			"addendumCount": 40,
 			"translationCount": 2719,
 			"features": [
 				"arabic",
@@ -388,7 +407,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1843246
 		},
 		{
 			"id": "tam-muslim",
@@ -398,7 +418,6 @@
 			"languageName": "Tamil",
 			"name": "Sahih Muslim (Tamil)",
 			"hadithCount": 7563,
-			"addendumCount": 40,
 			"translationCount": 2665,
 			"features": [
 				"arabic",
@@ -412,7 +431,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2263917
 		},
 		{
 			"id": "tur-muslim",
@@ -422,7 +442,6 @@
 			"languageName": "Turkish",
 			"name": "Sahih Muslim (Turkish)",
 			"hadithCount": 7563,
-			"addendumCount": 40,
 			"translationCount": 7380,
 			"features": [
 				"arabic",
@@ -436,7 +455,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 3304955
 		},
 		{
 			"id": "urd-muslim",
@@ -446,7 +466,6 @@
 			"languageName": "Urdu",
 			"name": "Sahih Muslim (Urdu)",
 			"hadithCount": 7563,
-			"addendumCount": 40,
 			"translationCount": 7458,
 			"features": [
 				"arabic",
@@ -460,7 +479,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2781579
 		},
 		{
 			"id": "ara-nasai",
@@ -482,7 +502,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 897022
 		},
 		{
 			"id": "ara1-nasai",
@@ -503,7 +524,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 679386
 		},
 		{
 			"id": "ben-nasai",
@@ -527,7 +549,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1843349
 		},
 		{
 			"id": "eng-nasai",
@@ -538,7 +561,7 @@
 			"name": "Sunan an-Nasa'i (English)",
 			"hadithCount": 5758,
 			"addendumCount": 7,
-			"translationCount": 5765,
+			"translationCount": 5679,
 			"features": [
 				"arabic",
 				"translation",
@@ -551,7 +574,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1556091
 		},
 		{
 			"id": "fra-nasai",
@@ -575,7 +599,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1587722
 		},
 		{
 			"id": "ind-nasai",
@@ -599,7 +624,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1754016
 		},
 		{
 			"id": "tur-nasai",
@@ -623,7 +649,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 989425
 		},
 		{
 			"id": "urd-nasai",
@@ -647,7 +674,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1499038
 		},
 		{
 			"id": "ara-abudawud",
@@ -668,7 +696,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1045304
 		},
 		{
 			"id": "ara1-abudawud",
@@ -689,7 +718,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 797593
 		},
 		{
 			"id": "ben-abudawud",
@@ -712,7 +742,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2161974
 		},
 		{
 			"id": "eng-abudawud",
@@ -722,7 +753,7 @@
 			"languageName": "English",
 			"name": "Sunan Abi Dawud (English)",
 			"hadithCount": 5274,
-			"translationCount": 5274,
+			"translationCount": 5272,
 			"features": [
 				"arabic",
 				"translation",
@@ -735,7 +766,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1881206
 		},
 		{
 			"id": "fra-abudawud",
@@ -758,7 +790,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1928145
 		},
 		{
 			"id": "ind-abudawud",
@@ -781,7 +814,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2072948
 		},
 		{
 			"id": "rus-abudawud",
@@ -804,7 +838,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1952890
 		},
 		{
 			"id": "tur-abudawud",
@@ -827,7 +862,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2197879
 		},
 		{
 			"id": "urd-abudawud",
@@ -850,7 +886,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2040305
 		},
 		{
 			"id": "ara-tirmidhi",
@@ -872,7 +909,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 993754
 		},
 		{
 			"id": "ara1-tirmidhi",
@@ -893,7 +931,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 727676
 		},
 		{
 			"id": "ben-tirmidhi",
@@ -917,7 +956,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2279628
 		},
 		{
 			"id": "eng-tirmidhi",
@@ -928,7 +968,7 @@
 			"name": "Jami' at-Tirmidhi (English)",
 			"hadithCount": 3956,
 			"addendumCount": 42,
-			"translationCount": 3991,
+			"translationCount": 3926,
 			"features": [
 				"arabic",
 				"translation",
@@ -941,7 +981,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1620665
 		},
 		{
 			"id": "ind-tirmidhi",
@@ -965,7 +1006,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1955353
 		},
 		{
 			"id": "tur-tirmidhi",
@@ -989,7 +1031,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1918201
 		},
 		{
 			"id": "urd-tirmidhi",
@@ -1013,7 +1056,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2012818
 		},
 		{
 			"id": "ara-ibnmajah",
@@ -1035,7 +1079,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 735476
 		},
 		{
 			"id": "ara1-ibnmajah",
@@ -1056,7 +1101,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 554706
 		},
 		{
 			"id": "ben-ibnmajah",
@@ -1080,7 +1126,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1441515
 		},
 		{
 			"id": "eng-ibnmajah",
@@ -1091,7 +1138,7 @@
 			"name": "Sunan Ibn Majah (English)",
 			"hadithCount": 4341,
 			"addendumCount": 2,
-			"translationCount": 4343,
+			"translationCount": 4340,
 			"features": [
 				"arabic",
 				"translation",
@@ -1104,7 +1151,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1273576
 		},
 		{
 			"id": "fra-ibnmajah",
@@ -1128,7 +1176,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1299296
 		},
 		{
 			"id": "ind-ibnmajah",
@@ -1152,7 +1201,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1455809
 		},
 		{
 			"id": "tur-ibnmajah",
@@ -1176,7 +1226,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1948010
 		},
 		{
 			"id": "urd-ibnmajah",
@@ -1200,7 +1251,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1364859
 		},
 		{
 			"id": "ara-malik",
@@ -1222,7 +1274,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 357287
 		},
 		{
 			"id": "ara1-malik",
@@ -1243,7 +1296,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 240207
 		},
 		{
 			"id": "ben-malik",
@@ -1267,7 +1321,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 828163
 		},
 		{
 			"id": "eng-malik",
@@ -1291,7 +1346,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 773994
 		},
 		{
 			"id": "fra-malik",
@@ -1315,7 +1371,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 737526
 		},
 		{
 			"id": "ind-malik",
@@ -1339,7 +1396,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 610973
 		},
 		{
 			"id": "tur-malik",
@@ -1363,7 +1421,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 624000
 		},
 		{
 			"id": "urd-malik",
@@ -1387,7 +1446,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 625406
 		},
 		{
 			"id": "ara-ahmad",
@@ -1408,7 +1468,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 5124732
 		},
 		{
 			"id": "urd-ahmad",
@@ -1431,7 +1492,8 @@
 				"ahmedbaset",
 				"fawaz",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 9340573
 		},
 		{
 			"id": "ara-darimi",
@@ -1451,7 +1513,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 358047
 		},
 		{
 			"id": "ara-nawawi40",
@@ -1473,7 +1536,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 10756
 		},
 		{
 			"id": "ara1-nawawi40",
@@ -1495,7 +1559,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 8165
 		},
 		{
 			"id": "ben-nawawi40",
@@ -1519,7 +1584,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 23966
 		},
 		{
 			"id": "eng-nawawi40",
@@ -1543,7 +1609,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 21259
 		},
 		{
 			"id": "fra-nawawi40",
@@ -1567,7 +1634,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 20549
 		},
 		{
 			"id": "ind-nawawi40",
@@ -1592,7 +1660,8 @@
 				"muallimai",
 				"sagad"
 			],
-			"translationStatus": "draft"
+			"translationStatus": "draft",
+			"mirrorZipBytes": 19612
 		},
 		{
 			"id": "tur-nawawi40",
@@ -1616,7 +1685,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 19467
 		},
 		{
 			"id": "ara-qudsi40",
@@ -1638,7 +1708,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 11491
 		},
 		{
 			"id": "ara1-qudsi40",
@@ -1660,7 +1731,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 8644
 		},
 		{
 			"id": "eng-qudsi40",
@@ -1684,7 +1756,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 23052
 		},
 		{
 			"id": "fra-qudsi40",
@@ -1708,7 +1781,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 21737
 		},
 		{
 			"id": "ind-qudsi40",
@@ -1733,7 +1807,8 @@
 				"muallimai",
 				"sagad"
 			],
-			"translationStatus": "draft"
+			"translationStatus": "draft",
+			"mirrorZipBytes": 21560
 		},
 		{
 			"id": "ara-shahwaliullah40",
@@ -1755,7 +1830,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 2282
 		},
 		{
 			"id": "ara1-shahwaliullah40",
@@ -1777,7 +1853,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 1880
 		},
 		{
 			"id": "eng-shahwaliullah40",
@@ -1801,7 +1878,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 3529
 		},
 		{
 			"id": "fra-shahwaliullah40",
@@ -1825,7 +1903,8 @@
 				"fawaz",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 3647
 		},
 		{
 			"id": "ind-shahwaliullah40",
@@ -1850,7 +1929,8 @@
 				"muallimai",
 				"sagad"
 			],
-			"translationStatus": "draft"
+			"translationStatus": "draft",
+			"mirrorZipBytes": 3626
 		},
 		{
 			"id": "ara-riyadussalihin",
@@ -1871,7 +1951,8 @@
 				"ahmedbaset",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 272045
 		},
 		{
 			"id": "eng-riyadussalihin",
@@ -1894,7 +1975,8 @@
 				"ahmedbaset",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 593621
 		},
 		{
 			"id": "ind-riyadussalihin",
@@ -1918,7 +2000,8 @@
 				"muallimai",
 				"sagad"
 			],
-			"translationStatus": "draft"
+			"translationStatus": "draft",
+			"mirrorZipBytes": 575347
 		},
 		{
 			"id": "ara-mishkat",
@@ -1939,7 +2022,8 @@
 				"ahmedbaset",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 787892
 		},
 		{
 			"id": "eng-mishkat",
@@ -1962,7 +2046,8 @@
 				"ahmedbaset",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 1605286
 		},
 		{
 			"id": "ind-mishkat",
@@ -1986,7 +2071,8 @@
 				"muallimai",
 				"sagad"
 			],
-			"translationStatus": "draft"
+			"translationStatus": "draft",
+			"mirrorZipBytes": 1469609
 		},
 		{
 			"id": "ara-adab",
@@ -2007,7 +2093,8 @@
 				"ahmedbaset",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 230894
 		},
 		{
 			"id": "eng-adab",
@@ -2030,7 +2117,8 @@
 				"ahmedbaset",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 416318
 		},
 		{
 			"id": "ind-adab",
@@ -2054,7 +2142,8 @@
 				"muallimai",
 				"sagad"
 			],
-			"translationStatus": "draft"
+			"translationStatus": "draft",
+			"mirrorZipBytes": 427668
 		},
 		{
 			"id": "ara-shamail",
@@ -2075,7 +2164,8 @@
 				"ahmedbaset",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 66194
 		},
 		{
 			"id": "eng-shamail",
@@ -2098,7 +2188,8 @@
 				"ahmedbaset",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 116553
 		},
 		{
 			"id": "ind-shamail",
@@ -2122,7 +2213,8 @@
 				"muallimai",
 				"sagad"
 			],
-			"translationStatus": "draft"
+			"translationStatus": "draft",
+			"mirrorZipBytes": 115311
 		},
 		{
 			"id": "ara-bulugh",
@@ -2143,7 +2235,8 @@
 				"ahmedbaset",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 339398
 		},
 		{
 			"id": "eng-bulugh",
@@ -2166,7 +2259,8 @@
 				"ahmedbaset",
 				"muallimai",
 				"sagad"
-			]
+			],
+			"mirrorZipBytes": 528788
 		},
 		{
 			"id": "ind-bulugh",
@@ -2190,7 +2284,8 @@
 				"muallimai",
 				"sagad"
 			],
-			"translationStatus": "draft"
+			"translationStatus": "draft",
+			"mirrorZipBytes": 526148
 		},
 		{
 			"id": "ara-hisn",
@@ -2210,7 +2305,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 26210
 		},
 		{
 			"id": "eng-hisn",
@@ -2232,7 +2328,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 75897
 		},
 		{
 			"id": "ara-nasai-kubra",
@@ -2252,7 +2349,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1896385
 		},
 		{
 			"id": "eng-nasai-kubra",
@@ -2274,7 +2372,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 3959348
 		},
 		{
 			"id": "ara-lulu-marjan",
@@ -2294,7 +2393,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 416076
 		},
 		{
 			"id": "eng-lulu-marjan",
@@ -2316,7 +2416,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 883204
 		},
 		{
 			"id": "ara-ibnrajab50",
@@ -2336,7 +2437,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 21871
 		},
 		{
 			"id": "eng-ibnrajab50",
@@ -2358,7 +2460,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 43115
 		},
 		{
 			"id": "ara-ibnhibban",
@@ -2378,7 +2481,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1373135
 		},
 		{
 			"id": "eng-ibnhibban",
@@ -2400,7 +2504,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2869633
 		},
 		{
 			"id": "ara-bayhaqi",
@@ -2420,7 +2525,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 4637730
 		},
 		{
 			"id": "eng-bayhaqi",
@@ -2442,7 +2548,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 9552935
 		},
 		{
 			"id": "ara-tabarani",
@@ -2462,7 +2569,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1952312
 		},
 		{
 			"id": "eng-tabarani",
@@ -2484,7 +2592,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 4005844
 		},
 		{
 			"id": "ara-hakim",
@@ -2504,7 +2613,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 2095078
 		},
 		{
 			"id": "eng-hakim",
@@ -2526,7 +2636,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 4240221
 		},
 		{
 			"id": "ara-ahmad-zuhd",
@@ -2546,7 +2657,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 402237
 		},
 		{
 			"id": "eng-ahmad-zuhd",
@@ -2568,7 +2680,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 781723
 		},
 		{
 			"id": "ara-daraqutni",
@@ -2588,7 +2701,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 754001
 		},
 		{
 			"id": "ara-bazzar",
@@ -2608,7 +2722,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1568532
 		},
 		{
 			"id": "eng-bazzar",
@@ -2630,7 +2745,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 1617079
 		},
 		{
 			"id": "ara-suyuti",
@@ -2650,7 +2766,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 5604616
 		},
 		{
 			"id": "eng-suyuti",
@@ -2672,7 +2789,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 6359815
 		},
 		{
 			"id": "ara-ibnkhuzaymah",
@@ -2692,7 +2810,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 562838
 		},
 		{
 			"id": "eng-ibnkhuzaymah",
@@ -2714,7 +2833,8 @@
 			"sources": [
 				"ahmedbaset",
 				"muallimai"
-			]
+			],
+			"mirrorZipBytes": 572160
 		}
 	],
 	"bookChapters": {

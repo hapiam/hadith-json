@@ -22,3 +22,7 @@ db/scrape_cache/
 # derived from it (comparison reports, extracted fields) belongs in a
 # normal git-tracked file instead, same as every other source in this repo.
 sources/hadithunlocked.com/original_source/
+# The zipped form of the same raw download -- 314MB, exceeds GitHub's
+# 100MB hard limit outright (confirmed 2026-07-28: a stray `git add -A`
+# swept this in and got the whole push rejected, GH001).
+sources/hadithunlocked.com.zip
