@@ -207,18 +207,31 @@ it as unverified.
 
 **A second, narrower symptom found and fixed** (`tool/
 fix_muslim_empty_row_chapterid.dart`, 2026-07-29, unrelated to numbering):
-2 rows (`idInBook` 384/"151c", 388/"154b") are `noSourceContent: true` —
-completely empty, no Arabic or English text at all — and had a `chapterId`
-matching NEITHER neighbor (landing in chapter 43 "Virtues" and chapter 16
-"Marriage" respectively, when both sit between chapter-1 "Faith" neighbors
-on both sides). Whole-book scan confirmed these are the only 2 such rows
-out of 203 total `noSourceContent` rows (a third apparent case, 5384, is a
-different, already-correct, already-documented situation —
-`chapterId: null`, a genuine content gap with nothing to infer from, left
-untouched). Fixed by setting both to `chapterId: 1`, matching both
-neighbors. Low-risk, isolated fix — touches only `chapterId`, nothing about
-`reference` or numbering, so carries none of the broader numbering risk
-above.
+4 rows are `noSourceContent: true` — completely empty, no Arabic or
+English text at all — with a `chapterId` matching neither the row(s)
+immediately before nor after: `idInBook` 384 ("151c", chapter 1 "Faith"
+neighbors on both sides, landed in chapter 43 "Virtues"), 388 ("154b",
+same chapter-1 neighbors, landed in chapter 16 "Marriage"), and
+5114-5115 ("977c"/"977d", chapter 35 "Sacrifices" neighbors on both
+sides, landed in chapter 36 "Drinks"). `rebuild_from_fawaz.dart`'s
+neighbor-inference presumably can't do its usual content-based check on a
+row with no content at all, and fell back to something else.
+
+The 5114-5115 pair needed a smarter detection than the first pass used: a
+plain prev/next comparison doesn't catch two ADJACENT wrongly-chaptered
+rows, since each one's immediate neighbor is the other, sharing the same
+wrong `chapterId` — neither looks anomalous on its own. The fix script now
+groups consecutive `noSourceContent` rows sharing one `chapterId` into a
+run first, then compares the row immediately before AND after the WHOLE
+run; a run is only flagged when both surrounding rows agree with each
+other on a different `chapterId` than the run itself. Re-scanning the
+whole book with this method found no further cases beyond these 4. A third
+apparent case, `idInBook` 5384, is correctly never flagged — a different,
+already-correct, already-documented situation (`chapterId: null`, a
+genuine content gap with nothing to infer from at all, deliberately left
+untouched). Low-risk, isolated fix — touches only `chapterId`, nothing
+about `reference` or numbering, so carries none of the broader numbering
+risk above.
 
 ## Category 1c — Tabarani: site-level duplication (hadithunlocked.com)
 
