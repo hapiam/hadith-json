@@ -16,7 +16,7 @@ first attempt at Bukhari/Muslim).
 | Category | Books | Rows dropped | Verdict |
 |---|---|---|---|
 | 1. Compound citations (sunnah.com's own convention) | Bukhari | 303 rows merged into 289 compound-citation entries | **Fixed correctly** (see correction below) |
-| 1b. Same phenomenon, resolved by full rebuild | Muslim | fawaz's 7,563 rows replaced by 7,376 rows sourced from hadithunlocked.com | **Fixed** — see "Category 1b" for the rebuilt Introduction, cross-filled gaps, and content-matched translations |
+| 1b. Same phenomenon, resolved by full rebuild | Muslim | fawaz's 7,563 rows replaced by 7,464 rows sourced from hadithunlocked.com + sunnah.com | **Fixed** — see "Category 1b" for the rebuilt Introduction (91 narrations + 5 essays under sunnah.com's own 8 bab headers), cross-filled gaps, and content-matched translations |
 | 1c. Site-level duplication (not a citation convention) | Tabarani | 38 rows (of 210 groups) | **Fixed, partial** — 187 groups need per-pair human judgment |
 | 2. Our own numbering-overlap bug | Malik | 125 | **Fixed** |
 | 3. Source-site duplication | Lu'lu' wal-Marjan | 69 | **Fixed** |
@@ -244,19 +244,67 @@ by content, e.g. `"ir3"` opens mid-scholarly-discourse). These are
 filtered out during import (`essayNumberRe = RegExp(r'^ir?\d')`) rather
 than imported as fake hadith rows.
 
-**The Introduction.** hadithunlocked's own plain-numbered items `"1"`–`"7"`
-looked promising (right path, right section) but failed content
-verification: items `"1"`–`"4"` matched sunnah.com byte-for-byte, but
-`"5"` had a **completely different narrator chain** than sunnah.com's real
-citation 5 (same matn — "it is enough of a lie to narrate everything one
-hears" — different isnad, which hadith science treats as a genuinely
-different narration), and hadithunlocked had no `"4b"` at all (sunnah.com's
-real Introduction has a lettered pair at citation 4). Rather than guess
-which of the remaining items were trustworthy, `tool/
-fix_muslim_introduction.dart` drops all of hadithunlocked's own `"1"`–`"7"`
-rows and replaces them with 8 rows (citations 1, 2, 3, 4a, 4b, 5, 6, 7)
-transcribed directly from sunnah.com's own live pages, verified
-word-for-word against the real source.
+**The Introduction — first pass, then a user correction that led to a much
+larger fix.** hadithunlocked's own plain-numbered items `"1"`–`"7"` looked
+promising (right path, right section) but failed content verification:
+items `"1"`–`"4"` matched sunnah.com byte-for-byte, but `"5"` had a
+**completely different narrator chain** than sunnah.com's real citation 5
+(same matn — "it is enough of a lie to narrate everything one hears" —
+different isnad, which hadith science treats as a genuinely different
+narration), and hadithunlocked had no `"4b"` at all (sunnah.com's real
+Introduction has a lettered pair at citation 4). The first fix
+(`fix_muslim_introduction.dart`, now retired) dropped all of
+hadithunlocked's own `"1"`–`"7"` rows and replaced them with 8 rows
+(citations 1, 2, 3, 4a, 4b, 5, 6, 7) transcribed directly from sunnah.com's
+own live pages, verified word-for-word — but treated everything else
+hadithunlocked had excluded during import (94 "i"/"ir"-numbered fragments)
+as unrecoverable non-hadith prose and simply left it out.
+
+User pushback, same day: *"it is part of the book though right? so we
+should put it into THE BOOK... [sunnah.com's Introduction] is chapter 0
+basically. It should be merged in here in the subsections it even made for
+itself already."* Correct, and a bigger finding than the phrasing
+suggested: sunnah.com's own `/muslim/introduction` page (fetched live via
+browser — WebFetch is 403'd on sunnah.com) has a **complete structure of
+its own**: 8 real bab (sub-chapter) headers — labeled "1", "2", "3", "4",
+"5", "5B", "5C", "6" — and **91** individually-referenced narrations, of
+which only the 8 already recovered are part of the citable 1–3033 scheme.
+The other 83 are labeled "Sahih Muslim Introduction N" (sunnah.com's own
+convention) and, contrary to the earlier assumption that hadithunlocked's
+excluded fragments were pure uncited prose, most of these DO have real
+isnad chains — they're just not part of the main citable numbering. On top
+of that, 5 passages are Imam Muslim's own prose essays (the opening
+muqaddimah, plus each of bab 1/5/5C/6's own framing text) with no citation
+at all. All 96 segments (91 entries + 5 essays) were scraped directly from
+sunnah.com and saved as `sources/sunnah.com/muslim_introduction/
+muslim_introduction_sunnah.json` — a real, checked-in source file, not a
+reconstruction. `tool/rebuild_muslim_introduction_full.dart` (superseding
+`fix_muslim_introduction.dart`, which is retired but kept in git history)
+imports all 96 into hadithunlocked's own already-existing 8 bab
+sub-chapters (ids 2–9 under "Introduction" — verified a 1:1, same-order
+title match against sunnah.com's own 8 babs, so no new chapters needed to
+be invented). The 8 citable entries keep `reference.text: "Sahih Muslim N"`
+exactly as before; the 83 non-citable narrations and 5 essays get
+`contentType: 'commentary'` (reusing the same "tag it, no special reader
+treatment yet" mechanism `contentType: 'opinion'` already established for
+Imam Malik's own legal rulings mixed into Muwatta) and a
+`reference.text` matching sunnah.com's own label (e.g. `"Sahih Muslim,
+Introduction 33"`). Explicit user choice (given two options): count this
+content toward `hadithCount` rather than excluding it — raising Muslim's
+count from 7,376 to 7,464, which lines up with sunnah.com's own
+"approximately 7,500 ahadith" framing better than 7,376 did.
+
+Two bugs surfaced and were fixed during this second pass, both caught by
+running `hadith_chapter_range_info.dart`'s own gap-detection algorithm
+standalone against the built spine rather than trusting the fix script's
+own summary output: (1) an early version created 8 brand-new bab chapters
+instead of reusing hadithunlocked's existing ones — this produced 8
+duplicate babs under "Introduction" AND, because the new chapters landed
+at the end of the chapters array instead of right after chapterId 1, a
+false gap (the array-order-dependent detector expects a chapter's array
+position to roughly track its rows' `idInBook` position); (2) the same
+idInBook-density care taken the first time around was re-verified: the
+final result is a fully dense `idInBook` 1..7464 sequence with zero gaps.
 
 **16 known main-body gaps** (1489, 1697, 1824, 2293, 2483, 2503, 2828,
 2931, 3007–3014) were independently confirmed absent from **both**
@@ -283,31 +331,32 @@ lowest, both were already the sparsest fawaz editions for this book).
 Muslim was deliberately excluded from `_joinFawazLanguage` (`BookDef` has
 no `fawazBook` set) so this bug can't resurface silently.
 
-**A numbering bug in the rebuild itself, found and fixed the same day.**
-`fix_muslim_introduction.dart`'s first version removed 7 mis-chaptered rows
-and inserted 8 new ones, then shifted every remaining row's `idInBook` up
-by a flat `+8` (`introRows.length`) — but only 7 slots had actually been
-freed by the removal, so the flat `+8` shift left a 7-wide hole (`idInBook`
-9–15 never assigned to anything, sequence jumped 8→16). This is exactly
-the shape of problem `hadith_chapter_range_info.dart`'s red-flag gap
-detector exists to catch, and running that detector's own algorithm
-standalone against the built spine surfaced it immediately: one gap,
-`muslim|1|8`. Fixed by renumbering the whole result list densely from 1
-after concatenation, instead of pre-computing a shift amount — eliminates
-this whole class of arithmetic bug by construction. Re-verified after the
-fix: `idInBook` is a fully dense 1..7376 sequence with zero gaps, and the
-chapter-boundary gap detector reports zero gaps across all 1,348 range
-units. No `_knownRangeGapExplanations` entry was needed in the app as a
-result — the fix eliminated the false positive rather than documenting
-around it.
+**A numbering bug in the first Introduction fix, found and fixed the same
+day.** `fix_muslim_introduction.dart`'s first version removed 7
+mis-chaptered rows and inserted 8 new ones, then shifted every remaining
+row's `idInBook` up by a flat `+8` (`introRows.length`) — but only 7 slots
+had actually been freed by the removal, so the flat `+8` shift left a
+7-wide hole (`idInBook` 9–15 never assigned to anything, sequence jumped
+8→16). This is exactly the shape of problem `hadith_chapter_range_info.dart`'s
+red-flag gap detector exists to catch, and running that detector's own
+algorithm standalone against the built spine surfaced it immediately: one
+gap, `muslim|1|8`. Fixed by renumbering the whole result list densely from
+1 after concatenation, instead of pre-computing a shift amount —
+eliminates this whole class of arithmetic bug by construction, and the
+same renumber-densely approach is what `rebuild_muslim_introduction_full.dart`
+uses for the full 96-row Introduction rebuild described above. No
+`_knownRangeGapExplanations` entry was needed in the app as a result — the
+fix eliminated the false positive rather than documenting around it.
 
-**Final result**: `eng-muslim` (and all 7 other languages) — **7,563 → 7,376
-rows**, `idInBook` 1–7,376 dense with no gaps, Introduction correctly at
-citations 1–7 with chapter "Introduction", 1,411 total chapter rows (57
-top-level books matching sunnah.com's real book list exactly), sourced
-tag corrected from the stale `['ahmedbaset', 'muallimai']` (a pre-existing
-bug affecting all 13 hadithunlocked-sourced books, found and fixed in the
-same pass — see below) to `['hadithunlocked.com', 'fawaz']`. Spot-checked
+**Final result**: `eng-muslim` (and all 7 other languages) — **7,563 → 7,464
+rows**, `idInBook` 1–7,464 dense with no gaps, Introduction now has 96 rows
+(8 citable citations + 83 non-citable-but-real narrations + 5 prose essays)
+correctly distributed across sunnah.com's own 8 bab sub-chapters, 1,419
+total chapter rows (57 top-level books matching sunnah.com's real book list
+exactly, "Introduction" now with 8 real children instead of 0), sourced tag
+corrected from the stale `['ahmedbaset', 'muallimai']` (a pre-existing bug
+affecting all 13 hadithunlocked-sourced books, found and fixed in the same
+pass — see below) to `['hadithunlocked.com', 'fawaz']`. Spot-checked
 `Sahih Muslim 300` end-to-end: correct Arabic, correct English, and its
 French translation ("Aïcha... Je buvais quand j'étais en période de
 menstruation...") semantically matches — content-matching worked, not just

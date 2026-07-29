@@ -185,7 +185,7 @@ Merge helpers:
 | # | Key | Notes |
 |---|-----|-------|
 | 1 | bukhari | 7,286 hadith (289 sunnah.com compound citations like "272, 273" merged into single entries 2026-07-29, see `DUPLICATE_HADITH_INVESTIGATION.md`); full multi-language |
-| 2 | muslim | Rebuilt from hadithunlocked.com 2026-07-29 (fawaz's canonical numbering never reliably tracked sunnah.com's real citations for this book — see `DUPLICATE_HADITH_INVESTIGATION.md`'s Muslim section). 7,376 hadith, `idInBook` 1–7,376 dense, Introduction verified word-for-word against sunnah.com, 6 non-English languages content-matched from fawaz onto the new numbering |
+| 2 | muslim | Rebuilt from hadithunlocked.com 2026-07-29 (fawaz's canonical numbering never reliably tracked sunnah.com's real citations for this book — see `DUPLICATE_HADITH_INVESTIGATION.md`'s Muslim section). 7,464 hadith, `idInBook` 1–7,464 dense, full Introduction (91 narrations + 5 essays under sunnah.com's own 8 bab headers) scraped and verified directly against sunnah.com, 6 non-English languages content-matched from fawaz onto the new numbering |
 | 3–6 | nasai, abudawud, tirmidhi, ibnmajah | Content-matched onto fawaz canonical numbering (97.9–99.93% match); multi-lang where fawaz has them |
 | 7 | malik | Arabic spine unchanged (1,985); translation ceiling independently verified at 1,858 across 6 languages |
 | 8 | ahmad | Full al-hadees.com scrape (27,648) replacing the old 1,374-hadith stub; 15 numbering gaps individually researched |
