@@ -22,7 +22,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1589661
+			"mirrorZipBytes": 1588912
 		},
 		{
 			"id": "ara1-bukhari",
@@ -32,7 +32,6 @@
 			"languageName": "Arabic (undiacritized)",
 			"name": "Sahih al-Bukhari (Arabic (undiacritized))",
 			"hadithCount": 7251,
-			"addendumCount": 26,
 			"features": [
 				"arabic",
 				"grades",
@@ -45,7 +44,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1138262
+			"mirrorZipBytes": 1170791
 		},
 		{
 			"id": "ben-bukhari",
@@ -56,7 +55,7 @@
 			"name": "Sahih al-Bukhari (Bengali)",
 			"hadithCount": 7260,
 			"addendumCount": 26,
-			"translationCount": 7252,
+			"translationCount": 7226,
 			"features": [
 				"arabic",
 				"translation",
@@ -70,7 +69,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 4037207
+			"mirrorZipBytes": 4099708
 		},
 		{
 			"id": "eng-bukhari",
@@ -95,7 +94,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3092649
+			"mirrorZipBytes": 3091792
 		},
 		{
 			"id": "fra-bukhari",
@@ -106,7 +105,7 @@
 			"name": "Sahih al-Bukhari (French)",
 			"hadithCount": 7260,
 			"addendumCount": 26,
-			"translationCount": 7286,
+			"translationCount": 7260,
 			"features": [
 				"arabic",
 				"translation",
@@ -120,7 +119,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3089340
+			"mirrorZipBytes": 3135121
 		},
 		{
 			"id": "ind-bukhari",
@@ -131,7 +130,7 @@
 			"name": "Sahih al-Bukhari (Indonesian)",
 			"hadithCount": 7260,
 			"addendumCount": 26,
-			"translationCount": 6622,
+			"translationCount": 6598,
 			"features": [
 				"arabic",
 				"translation",
@@ -145,7 +144,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3211420
+			"mirrorZipBytes": 3268016
 		},
 		{
 			"id": "rus-bukhari",
@@ -156,7 +155,7 @@
 			"name": "Sahih al-Bukhari (Russian)",
 			"hadithCount": 7260,
 			"addendumCount": 26,
-			"translationCount": 7222,
+			"translationCount": 7212,
 			"features": [
 				"arabic",
 				"translation",
@@ -170,7 +169,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3387578
+			"mirrorZipBytes": 3428055
 		},
 		{
 			"id": "tam-bukhari",
@@ -181,7 +180,7 @@
 			"name": "Sahih al-Bukhari (Tamil)",
 			"hadithCount": 7260,
 			"addendumCount": 26,
-			"translationCount": 6997,
+			"translationCount": 7092,
 			"features": [
 				"arabic",
 				"translation",
@@ -195,7 +194,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 4000557
+			"mirrorZipBytes": 4077309
 		},
 		{
 			"id": "tur-bukhari",
@@ -206,7 +205,7 @@
 			"name": "Sahih al-Bukhari (Turkish)",
 			"hadithCount": 7260,
 			"addendumCount": 26,
-			"translationCount": 7233,
+			"translationCount": 7211,
 			"features": [
 				"arabic",
 				"translation",
@@ -220,7 +219,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 4714984
+			"mirrorZipBytes": 4872280
 		},
 		{
 			"id": "urd-bukhari",
@@ -231,7 +230,7 @@
 			"name": "Sahih al-Bukhari (Urdu)",
 			"hadithCount": 7260,
 			"addendumCount": 26,
-			"translationCount": 6765,
+			"translationCount": 6975,
 			"features": [
 				"arabic",
 				"translation",
@@ -245,7 +244,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 3579988
+			"mirrorZipBytes": 3651404
 		},
 		{
 			"id": "ara-muslim",

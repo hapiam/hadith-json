@@ -170,17 +170,31 @@ differing-reference/likely-genuine-repetition — see the correction above):
 - Rewrite that row's `reference.text` to the **true compound form**
   matching sunnah.com exactly, e.g. `"Sahih al-Bukhari 272, 273"` — the
   dropped numbers are not lost, they live in this string permanently.
-- Renumber `idInBook`/`id` sequentially across the whole book afterward, to
-  close the gaps merging leaves — unlike Malik (see Category 2), Bukhari's
-  `id` is fully synthetic with nothing depending on its specific value, and
-  leaving gaps caused a confirmed UX regression (reader row numbers visibly
-  jumping, chapter table-of-contents red-flagging every merge as if it were
-  a data hole). `reference.text` keeps the *original* true numbers
-  regardless of what internal `idInBook` a row is later renumbered to.
+- Leave `idInBook`/`id` **exactly as they were** on every surviving row —
+  deliberately NOT renumbered. A first version of this script DID renumber
+  sequentially to close the resulting gaps (fixing a confusing reader jump
+  and red-flagged chapter table-of-contents "gaps" — see below), but the
+  user caught a worse problem it created: every citation number after a
+  merge would silently drift lower by one, compounding across the book, so
+  the very last hadith would no longer read "7563" — the number this book
+  is actually known by. 273 is a REAL number in sunnah.com's own
+  continuous 1..7563 sequence (confirmed directly: bukhari:298, then the
+  299/300/301 compound, then 302 — nothing skipped in the true numbering);
+  it just doesn't get its own row anymore since 272's row already carries
+  its content. Freezing `idInBook` at its true original value is what
+  keeps every later citation anchored to sunnah.com's real numbering all
+  the way to 7563, at the cost of `idInBook` no longer being gapless — see
+  the app-side fix below for how the reader UI now treats that gap as
+  expected instead of an error, which turned out to be the right layer to
+  fix this at, not the numbering.
 
 Result: **Bukhari 7589 → 7286 rows** (303 rows folded into 289 merged
 entries), 6 groups left untouched as likely genuine repetition under
-distinct real citations.
+distinct real citations. `idInBook` unchanged on every surviving row; the
+main citation range's own true max is still exactly **7563** (verified:
+`idInBook` 7563 exists, is not one of the 26 already-existing tail-appended
+lettered-variant rows, and is the highest non-appended `idInBook` in the
+book).
 
 ## Category 1b — Muslim: deferred (see correction above)
 
@@ -261,7 +275,7 @@ that pass, tracked as future work.
 ## App-side changes (`hapi_app_v2`)
 
 Bukhari's merged rows need the reader to show the TRUE compound citation
-(e.g. "272, 273"), not the internal renumbered `idInBook` (e.g. "272"
+(e.g. "272, 273"), not just the row's own `hadithNumberInBook` (e.g. "272"
 alone would silently lose "273"). Changes, all in the app repo:
 
 - **`lib/reading/reader/reader_page.dart`**: generalized the addendum-only
@@ -270,7 +284,11 @@ alone would silently lose "273"). Changes, all in the app repo:
   `hadithNumberInBook` whenever they actually differ — covers both addenda
   (e.g. "774b") and merged compound citations (e.g. "272, 273") with one
   mechanism. Used by both the reader row's own citation badge and the
-  Copy/Share header line.
+  Copy/Share header line. Each number in a multi-number citation renders on
+  its own line (a single shrunk-to-fit line was still unreadable once
+  there were 2-3 numbers), the badge grows to fit them, and the row is
+  tinted amber (the same color an addendum already uses) whenever more
+  than one number is shown.
 - **`lib/reading/reading_user_db.dart`**: `ReadingUserDb.getHadith` now
   falls back to scanning compound-citation rows (`original_reference LIKE
   '%,%'`) for a whole-number-token match when a direct
@@ -282,6 +300,16 @@ alone would silently lose "273"). Changes, all in the app repo:
   number to the target row's *real* `hadithNumberInBook` first (via the
   fallback above), instead of using the raw typed number for downstream
   lookups that assume it matches a row exactly.
+- **`lib/hadith/hadith_chapter_range_info.dart`**: since `idInBook` is now
+  deliberately left with gaps at every merge point (see Category 1 above),
+  the chapter table-of-contents' own gap-anomaly detector needed to stop
+  treating those as data holes. `computeHadithChapterRangeInfo` now bridges
+  any gap that's fully named in the compound citation on the row
+  immediately before it (e.g. row 272's own `originalReference`, "Sahih
+  al-Bukhari 272, 273", explains a gap of just "273") into one continuous
+  range before either building the displayed range list or running the
+  red-flag check — so a chapter reads as a clean "248-293" instead of
+  splitting into "248-272, 274-293" with both boundary numbers flagged red.
 
 Position-counting convention (`_hadithChapterPositions()`, counts every row
 including addenda, matching sunnah.com's own numbering) and the addendum

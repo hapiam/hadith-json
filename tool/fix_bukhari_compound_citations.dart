@@ -39,19 +39,24 @@ import 'dart:io';
 /// `"https://sunnah.com/bukhari:272"`. The dropped rows' citation numbers
 /// are NOT lost -- they live on in the surviving row's `reference.text`.
 ///
-/// After merging, `idInBook`/`id` are renumbered sequentially across the
-/// whole book to close the gaps merging leaves behind -- unlike
-/// `fix_malik_duplicates.dart`'s deliberate choice to leave gaps (that
-/// book's `id` is a legacy join-key elsewhere), Bukhari's `id` is fully
-/// synthetic (`globalIdOffset + hadithNum`, see `rebuild_from_fawaz.dart`)
-/// with nothing depending on its specific value, and leaving gaps here
-/// caused a real, confirmed UX regression: the reader's own row numbers
-/// visibly "jumped" over the merged number, and the chapter table of
-/// contents' gap-anomaly detector painted large stretches of the book red,
-/// misreading every intentional merge as a data hole. Renumbering restores
-/// a clean, gapless `idInBook` sequence while `reference.text` keeps the
-/// true original number(s) permanently, regardless of what internal
-/// `idInBook` a row is later renumbered to.
+/// `idInBook`/`id` are deliberately LEFT AS-IS on every surviving row --
+/// NOT renumbered/compacted. An earlier version of this script renumbered
+/// sequentially to close the resulting gaps, which fixed one UX problem
+/// (a confusing jump in the reader, red-flagged "gaps" in the chapter table
+/// of contents) but created a worse one, caught by the user: every
+/// subsequent citation number would silently drift away from sunnah.com's
+/// real numbering by one for every merge before it, compounding across the
+/// book, so the very last hadith would no longer read "7563" -- the number
+/// this book is actually known by -- but something hundreds lower. 273 is
+/// a REAL number in sunnah.com's own continuous 1..7563 sequence (confirmed
+/// directly: bukhari:298, 299/300/301 compound, 302 -- consecutive, nothing
+/// skipped in the true numbering); it just doesn't get its own ROW anymore
+/// since 272's row already carries its content. Keeping `idInBook` frozen
+/// at its true original value is what keeps the book's numbering anchored
+/// to 7563 at the end, at the cost of `idInBook` no longer being perfectly
+/// gapless -- the reader UI needs to treat that gap as expected (see the
+/// compound-citation label already available in `reference.text`), not
+/// re-render it as an error, which is a UI fix, not a numbering one.
 ///
 /// Usage: dart run tool/fix_bukhari_compound_citations.dart
 void main() {
@@ -128,9 +133,9 @@ void main() {
   final kept = hadiths.where((h) => !toDrop.contains(h['idInBook'] as int)).toList()
     ..sort((a, b) => (a['idInBook'] as int).compareTo(b['idInBook'] as int));
 
-  // Rewrite compound reference.text on surviving merge-target rows BEFORE
-  // renumbering, so the label reflects the TRUE original sunnah.com
-  // numbers, not the post-renumbering idInBook.
+  // Rewrite compound reference.text on surviving merge-target rows -- the
+  // only field this script changes on a kept row. idInBook/id are left
+  // exactly as they were (see this file's own top doc comment for why).
   for (final h in kept) {
     final label = compoundLabelByIdInBook[h['idInBook'] as int];
     if (label != null) {
@@ -140,22 +145,13 @@ void main() {
     }
   }
 
-  // Renumber idInBook/id sequentially to close the gaps merging left.
-  final firstOriginal = kept.first['idInBook'] as int;
-  final firstOriginalId = kept.first['id'] as int;
-  final globalIdOffset = firstOriginalId - firstOriginal;
-  for (var i = 0; i < kept.length; i++) {
-    final newIdInBook = i + 1;
-    kept[i]['idInBook'] = newIdInBook;
-    kept[i]['id'] = globalIdOffset + newIdInBook;
-  }
-
+  final maxIdInBook = kept.map((h) => h['idInBook'] as int).reduce((a, b) => a > b ? a : b);
   data['hadiths'] = kept;
   file.writeAsStringSync(const JsonEncoder.withIndent('  ').convert(data));
   stdout.writeln(
     '$path: ${hadiths.length} -> ${kept.length} rows '
     '($merged groups merged into compound citations, ${toDrop.length} rows folded in; '
     '$skipped groups left untouched as likely genuine repetition). '
-    'idInBook/id renumbered 1..${kept.length}.',
+    'idInBook left as-is (not renumbered), max idInBook now $maxIdInBook.',
   );
 }

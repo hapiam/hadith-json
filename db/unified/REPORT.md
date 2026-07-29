@@ -1,6 +1,6 @@
 # Unified editions build report
 
-Built: 2026-07-29T06:19:50.903296Z
+Built: 2026-07-29T07:43:57.231285Z
 
 ## Sources
 - AhmedBaset spine: `db/by_book` (structure, arabic, english narrator/text, chapters)
@@ -21,7 +21,7 @@ Built: 2026-07-29T06:19:50.903296Z
 - ara-qudsi1 (kept as optional ara1-* undiacritized edition)
 - ara-tirmidhi1 (kept as optional ara1-* undiacritized edition)
 
-- bukhari: attached undiacritized Arabic on 7277 hadiths (ara1)
+- bukhari: attached undiacritized Arabic on 7251 hadiths (ara1)
 - muslim: attached undiacritized Arabic on 7360 hadiths (ara1)
 - nasai: absorbed multi-grader grades from `eng-nasai.min.json` into 5757 hadiths
 - nasai: attached undiacritized Arabic on 5672 hadiths (ara1)
@@ -64,7 +64,7 @@ Built: 2026-07-29T06:19:50.903296Z
 | Edition | Fawaz rows | Matched hn | Matched an-only | Unmatched fawaz | Spine covered | Spine total | Coverage |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | ben-abudawud.min.json | 5274 | 5274 | 0 | 0 | 5274 | 5274 | 100.00% |
-| ben-bukhari.min.json | 7589 | 7286 | 0 | 303 | 7286 | 7286 | 100.00% |
+| ben-bukhari.min.json | 7589 | 7260 | 0 | 329 | 7260 | 7286 | 99.64% |
 | ben-ibnmajah.min.json | 4343 | 4341 | 0 | 2 | 4341 | 4343 | 99.95% |
 | ben-malik.min.json | 1858 | 1858 | 0 | 0 | 1858 | 1873 | 99.20% |
 | ben-muslim.min.json | 7563 | 7563 | 0 | 0 | 7563 | 7563 | 100.00% |
@@ -72,7 +72,7 @@ Built: 2026-07-29T06:19:50.903296Z
 | ben-nawawi.min.json | 42 | 42 | 0 | 0 | 42 | 42 | 100.00% |
 | ben-tirmidhi.min.json | 3998 | 3956 | 0 | 42 | 3956 | 3998 | 98.95% |
 | eng-abudawud.min.json | 5274 | 5274 | 0 | 0 | 5274 | 5274 | 100.00% |
-| eng-bukhari.min.json | 7589 | 7286 | 0 | 303 | 7286 | 7286 | 100.00% |
+| eng-bukhari.min.json | 7589 | 7260 | 0 | 329 | 7260 | 7286 | 99.64% |
 | eng-dehlawi.min.json | 40 | 40 | 0 | 0 | 40 | 40 | 100.00% |
 | eng-ibnmajah.min.json | 4343 | 4341 | 0 | 2 | 4341 | 4343 | 99.95% |
 | eng-malik.min.json | 1858 | 1858 | 0 | 0 | 1858 | 1873 | 99.20% |
@@ -82,7 +82,7 @@ Built: 2026-07-29T06:19:50.903296Z
 | eng-qudsi.min.json | 40 | 40 | 0 | 0 | 40 | 40 | 100.00% |
 | eng-tirmidhi.min.json | 3998 | 3956 | 0 | 42 | 3956 | 3998 | 98.95% |
 | fra-abudawud.min.json | 5274 | 5274 | 0 | 0 | 5274 | 5274 | 100.00% |
-| fra-bukhari.min.json | 7589 | 7286 | 0 | 303 | 7286 | 7286 | 100.00% |
+| fra-bukhari.min.json | 7589 | 7260 | 0 | 329 | 7260 | 7286 | 99.64% |
 | fra-dehlawi.min.json | 40 | 40 | 0 | 0 | 40 | 40 | 100.00% |
 | fra-ibnmajah.min.json | 4343 | 4341 | 0 | 2 | 4341 | 4343 | 99.95% |
 | fra-malik.min.json | 1899 | 1858 | 0 | 41 | 1858 | 1873 | 99.20% |
@@ -91,19 +91,19 @@ Built: 2026-07-29T06:19:50.903296Z
 | fra-nawawi.min.json | 42 | 42 | 0 | 0 | 42 | 42 | 100.00% |
 | fra-qudsi.min.json | 40 | 40 | 0 | 0 | 40 | 40 | 100.00% |
 | ind-abudawud.min.json | 5274 | 5274 | 0 | 0 | 5274 | 5274 | 100.00% |
-| ind-bukhari.min.json | 7589 | 7286 | 0 | 303 | 7286 | 7286 | 100.00% |
+| ind-bukhari.min.json | 7589 | 7260 | 0 | 329 | 7260 | 7286 | 99.64% |
 | ind-ibnmajah.min.json | 4343 | 4341 | 0 | 2 | 4341 | 4343 | 99.95% |
 | ind-malik.min.json | 1859 | 1858 | 0 | 1 | 1858 | 1873 | 99.20% |
 | ind-muslim.min.json | 7563 | 7563 | 0 | 0 | 7563 | 7563 | 100.00% |
 | ind-nasai.min.json | 5765 | 5758 | 0 | 7 | 5758 | 5765 | 99.88% |
 | ind-tirmidhi.min.json | 3998 | 3956 | 0 | 42 | 3956 | 3998 | 98.95% |
 | rus-abudawud.min.json | 5274 | 5274 | 0 | 0 | 5274 | 5274 | 100.00% |
-| rus-bukhari.min.json | 7590 | 7286 | 0 | 304 | 7286 | 7286 | 100.00% |
+| rus-bukhari.min.json | 7590 | 7260 | 0 | 330 | 7260 | 7286 | 99.64% |
 | rus-muslim.min.json | 7563 | 7563 | 0 | 0 | 7563 | 7563 | 100.00% |
-| tam-bukhari.min.json | 7589 | 7286 | 0 | 303 | 7286 | 7286 | 100.00% |
+| tam-bukhari.min.json | 7589 | 7260 | 0 | 329 | 7260 | 7286 | 99.64% |
 | tam-muslim.min.json | 7563 | 7563 | 0 | 0 | 7563 | 7563 | 100.00% |
 | tur-abudawud.min.json | 5274 | 5274 | 0 | 0 | 5274 | 5274 | 100.00% |
-| tur-bukhari.min.json | 7589 | 7286 | 0 | 303 | 7286 | 7286 | 100.00% |
+| tur-bukhari.min.json | 7589 | 7260 | 0 | 329 | 7260 | 7286 | 99.64% |
 | tur-ibnmajah.min.json | 4343 | 4341 | 0 | 2 | 4341 | 4343 | 99.95% |
 | tur-malik.min.json | 1858 | 1858 | 0 | 0 | 1858 | 1873 | 99.20% |
 | tur-muslim.min.json | 7563 | 7563 | 0 | 0 | 7563 | 7563 | 100.00% |
@@ -112,7 +112,7 @@ Built: 2026-07-29T06:19:50.903296Z
 | tur-tirmidhi.min.json | 3998 | 3956 | 0 | 42 | 3956 | 3998 | 98.95% |
 | urd-abudawud.min.json | 5274 | 5274 | 0 | 0 | 5274 | 5274 | 100.00% |
 | urd-ahmad.min.json | 27621 | 27621 | 0 | 0 | 27621 | 27648 | 99.90% |
-| urd-bukhari.min.json | 7589 | 7286 | 0 | 303 | 7286 | 7286 | 100.00% |
+| urd-bukhari.min.json | 7589 | 7260 | 0 | 329 | 7260 | 7286 | 99.64% |
 | urd-ibnmajah.min.json | 4343 | 4341 | 0 | 2 | 4341 | 4343 | 99.95% |
 | urd-malik.min.json | 1889 | 1858 | 0 | 31 | 1858 | 1873 | 99.20% |
 | urd-muslim.min.json | 7564 | 7563 | 0 | 1 | 7563 | 7563 | 100.00% |
