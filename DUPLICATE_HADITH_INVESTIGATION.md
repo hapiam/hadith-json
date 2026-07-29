@@ -8,14 +8,20 @@ wanted that failure mode on the record alongside the fix.
 
 ## TL;DR
 
-958 duplicate rows exist across 21 of 30 books. They are **not one bug** —
-three unrelated mechanisms produced them, and only two are actually wrong:
+958+ duplicate rows exist across 21 of 30 books (the 958 figure is from the
+first exact-string whole-file scan; Malik and Lu'lu' wal-Marjan have since
+been re-scanned with diacritic-normalized matching and both came back
+substantially higher — see below. The other 19 books have **not** been
+re-scanned with normalization yet, so their true counts are likely
+undercounts too). This is **not one bug** — four unrelated mechanisms
+produced these rows, and three are actually wrong:
 
 | Category | Books | Rows | Verdict |
 |---|---|---|---|
-| 1. Scraper-retry duplication | Bukhari, Muslim, Tabarani | ~713 | **Bug — fix by dropping the placeholder duplicate** |
-| 2. Our own numbering-overlap bug | Malik, Lu'lu' wal-Marjan | ~146 | **Bug — fix by overlap-aware append, not blind concatenation** |
-| 3. Legitimate classical repetition | Nasai-Kubra, Ahmad, ~14 others | ~99 | **Not a bug — leave untouched** |
+| 1. Scraper-retry duplication | Bukhari, Muslim, Tabarani | ~713 (exact-match count, not yet normalized-rescanned) | **Bug — fix by dropping the placeholder duplicate** |
+| 2. Our own numbering-overlap bug | Malik | 125/140 appended rows (normalized count, verified) | **Bug — fix by overlap-aware append, not blind concatenation** |
+| 3. Source-site duplication | Lu'lu' wal-Marjan | 69/1907 rows (normalized count, verified against the live hadithunlocked.com page itself) | **Bug (in the upstream source, not our pipeline) — fix by dedup, same as Category 1** |
+| 4. Legitimate classical repetition | Nasai-Kubra, Ahmad, ~14 others | ~99 | **Not a bug — leave untouched** |
 
 Separately, and already fixed/published (tag `v1.15.0-hapi`): a *different*
 duplication bug where lettered citation variants (e.g. "402b") showed
@@ -95,11 +101,13 @@ differ slightly in transcription quality, keep whichever has fewer OCR/typo
 artifacts (manual or heuristic per-pair, not a blind rule). Not yet
 implemented.
 
-## Category 2 — numbering-overlap bug in our own merge script (Malik, Lu'lu' wal-Marjan)
+## Category 2 — numbering-overlap bug in our own merge script (Malik only)
 
 This is **our bug, not the source data's** — confirmed by pattern, not
 assumption, before writing this section (per "do all checks you need before
-starting").
+starting"). (Lu'lu' wal-Marjan was originally grouped here too on the
+strength of an early exact-string scan; re-verified below in Category 3 and
+moved out — its cause turned out to be different.)
 
 ### Malik
 
@@ -140,28 +148,63 @@ fawaz already has, re-added under a new `idInBook` because the merge script
 appended by *position* (past `fawazMax`) instead of checking whether the
 content already existed somewhere in 1..1858.
 
-### Lu'lu' wal-Marjan
+**Fix approach**: before appending any "beyond max" row, diacritic-normalize
+and content-match it against the existing 1..max range; only append if no
+match is found. Not "row-by-row delete" (which would risk deleting the
+wrong side of a pair) — an overlap check gate on the append step itself,
+consistent with how `arabic_match.dart` already does content-matching
+elsewhere in this pipeline. Not yet implemented.
 
-21 rows show a near-uniform `idInBook` offset pattern (+126/+127) between
-duplicate pairs, and — stronger evidence than Malik had at the same stage —
-the two rows in each pair share the **same source `url`/`path`**, meaning
-the scrape genuinely fetched the identical source page twice: once landing
-at a sensible low citation number, once dumped into a high "tail" range
-(1699/1837/1854-ish). This is the same class of bug as Malik (overlap-unaware
-append) but with even more direct evidence (shared source URL, not just
-content similarity). Full `text.ar`-level verification (the same rigor
-Tabarani got) has **not yet been done** for this book — flagged as
-remaining work before writing the fix.
+## Category 3 — source-site duplication (Lu'lu' wal-Marjan)
 
-**Fix approach for both books**: before appending any "beyond max" row,
-diacritic-normalize and content-match it against the existing 1..max range;
-only append if no match is found. Not "row-by-row delete" (which would risk
-deleting the wrong side of a pair) — an overlap check gate on the append
-step itself, consistent with how `arabic_match.dart` already does
-content-matching elsewhere in this pipeline. Not yet implemented for either
-book.
+**This one is not our pipeline's fault, and not a scraper-retry artifact
+either — it was re-investigated from scratch and turns out to be a third,
+distinct mechanism.** Lu'lu' wal-Marjan has no fawaz overlay at all (it's
+sourced entirely from hadithunlocked.com, sequential `idInBook` 1..1907, no
+"append past max" step in its pipeline the way Malik has) — so the
+Category-2 "our merge script" explanation could never have applied to it in
+the first place. The original classification (grouped with Malik as
+"same bug class... even more direct evidence") was wrong and is corrected
+here.
 
-## Category 3 — legitimate classical repetition (leave untouched)
+A whole-book normalized-Arabic scan (`db/by_book/hadithunlocked/
+lulu-marjan.json`, same `s.replace(/[diacritics]/g,'').replace(/\s+/g,'
+').trim()` normalization used for Malik) found **59 duplicate groups, 69
+excess rows, 128 total rows involved** — not the 21 rows originally
+estimated from an early exact-string-only pass. Every group's members share
+the same `reference.url` (same hadithunlocked.com page), and are close
+together in `idInBook` (e.g. 4 & 5, 39 & 40) rather than split into a
+"main body vs. appended tail" pattern the way Malik's are.
+
+Traced one pair (idInBook 4 & 5, `bukhari:1291`, path `lulu-marjan/0/1`) all
+the way to **hadithunlocked.com's own live page**
+(`https://hadithunlocked.com/lulu-marjan/0/1`, fetched directly): the
+duplicate is visible on the rendered page itself, as items **"(4)
+bukhari:1291"** and **"(539) bukhari:1291"**, word-for-word identical Arabic
+and English, both fully-formed (not one placeholder + one resolved). Spot-
+checked 6 more pairs (39/40, 89/90, 97/98, 158/159, 989/990, 1860/1861,
+1466/1467) at the raw-JSON level (`sources/hadithunlocked.com/
+original_source/hadith/hadithunlocked_lulu-marjan.json`) — all 7 pairs
+checked are exact-identical `text.ar` and `text.en`, all same `source.ref`
+citation, all same `path`. No pattern distinguishes which side is "the
+retry" (unlike Category 1, where one side reliably carries a placeholder
+marker) — both copies of a pair are equally well-formed, just genuinely
+present twice on hadithunlocked.com's own page.
+
+**Practical read**: al-Lu'lu' wal-Marjan is itself a compilation of hadith
+agreed upon by Bukhari and Muslim — a "combined" reference work — so it's
+plausible the underlying print edition or hadithunlocked's own digitization
+process lists the same combined entry twice under two different item
+numbers on one page. Whatever the ultimate cause upstream, our repo faithfully
+imported it — this is not something `import_hadithunlocked.dart` did wrong.
+
+**Fix approach**: same operational fix as Category 1 (drop one of each
+exact-duplicate pair, keep the other) even though the root cause is
+different — a straightforward same-page/same-citation dedup pass over
+`db/by_book/hadithunlocked/lulu-marjan.json`. No "which side is better"
+ambiguity here since the two copies are identical. Not yet implemented.
+
+## Category 4 — legitimate classical repetition (leave untouched)
 
 - **Nasai al-Kubra**: 33 rows. All in different chapters, no offset
   pattern, no shared-source-URL pattern. Matches its documented nature as
@@ -193,12 +236,14 @@ No action planned for this category.
 
 **Investigated and classified, fix code not yet written**:
 - Category 1 (Bukhari/Muslim/Tabarani scraper-retry duplicates).
-- Category 2 (Malik/Lu'lu' wal-Marjan numbering-overlap bug).
+- Category 2 (Malik numbering-overlap bug).
+- Category 3 (Lu'lu' wal-Marjan source-site duplication — verification
+  complete, including a live hadithunlocked.com page fetch confirming the
+  duplicate is on the source's own rendered page, not introduced by our
+  scrape or merge step).
 
 **Not yet started**:
-- Lu'lu' wal-Marjan's `text.ar`-level verification (Tabarani-equivalent
-  rigor).
-- Writing and running the actual dedup/overlap-check fix for Categories 1–2.
+- Writing and running the actual dedup/overlap-check fix for Categories 1–3.
 - Re-running `build_unified_editions.dart`, publishing a new tag, updating
   `hapi_app_v2`'s catalog once the above lands.
 
@@ -214,14 +259,21 @@ per-book notes in `README.md`:
   anything in this repo's own pipeline for those rows specifically — but
   this repo's `rebuild_from_fawaz.dart` did not filter them out, so they
   passed straight through into `db/unified/`.
-- **hadithunlocked.com**: Tabarani specifically has ~338 duplicate rows from
-  the same retry pattern (already partially documented in `tool/
-  import_hadithunlocked.dart`'s doc comment re: "340 duplicate numbers" in
-  the raw `item.number` field — now confirmed at the content level, not
-  just the numbering level).
-- **This repo's own `rebuild_from_fawaz.dart`-family scripts**: the Malik
-  and Lu'lu' wal-Marjan "append beyond max" logic has no overlap check
-  against existing content — a defect in our code, not in any upstream
-  source. Any future book handled with a similar "append what didn't match"
-  pattern should get the overlap check from the start, not retrofitted
-  after the fact.
+- **hadithunlocked.com**: two *separate* defects, confirmed by different
+  methods:
+  - Tabarani has ~338 duplicate rows from a scraper-retry pattern (already
+    partially documented in `tool/import_hadithunlocked.dart`'s doc comment
+    re: "340 duplicate numbers" in the raw `item.number` field — now
+    confirmed at the content level, not just the numbering level).
+  - Lu'lu' wal-Marjan has 69 duplicate rows that are **not** a scrape
+    artifact — confirmed present on hadithunlocked.com's own live page
+    (fetched directly, see Category 3 above). This is a genuine upstream
+    source-content defect, distinct from Tabarani's retry pattern, even
+    though the symptom (duplicate rows in our data) looks the same.
+- **This repo's own `rebuild_from_fawaz.dart`-family scripts**: Malik's
+  "append beyond max" logic has no overlap check against existing content —
+  a defect in our code, not in any upstream source. Any future book handled
+  with a similar "append what didn't match" pattern should get the overlap
+  check from the start, not retrofitted after the fact. (Lu'lu' wal-Marjan
+  does *not* share this defect — it has no "append beyond max" step at all,
+  see Category 3.)
