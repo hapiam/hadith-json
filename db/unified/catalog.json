@@ -275,7 +275,7 @@
 			"languageName": "Bengali",
 			"name": "Sahih Muslim (Bengali)",
 			"hadithCount": 7464,
-			"translationCount": 7208,
+			"translationCount": 7254,
 			"features": [
 				"arabic",
 				"translation",
@@ -288,7 +288,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2867442
+			"mirrorZipBytes": 2885182
 		},
 		{
 			"id": "eng-muslim",
@@ -321,7 +321,7 @@
 			"languageName": "French",
 			"name": "Sahih Muslim (French)",
 			"hadithCount": 7464,
-			"translationCount": 7166,
+			"translationCount": 7213,
 			"features": [
 				"arabic",
 				"translation",
@@ -334,7 +334,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2306029
+			"mirrorZipBytes": 2316924
 		},
 		{
 			"id": "ind-muslim",
@@ -344,7 +344,7 @@
 			"languageName": "Indonesian",
 			"name": "Sahih Muslim (Indonesian)",
 			"hadithCount": 7464,
-			"translationCount": 4806,
+			"translationCount": 4840,
 			"features": [
 				"arabic",
 				"translation",
@@ -357,7 +357,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2576041
+			"mirrorZipBytes": 2590491
 		},
 		{
 			"id": "rus-muslim",
@@ -367,7 +367,7 @@
 			"languageName": "Russian",
 			"name": "Sahih Muslim (Russian)",
 			"hadithCount": 7464,
-			"translationCount": 2643,
+			"translationCount": 2660,
 			"features": [
 				"arabic",
 				"translation",
@@ -380,7 +380,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 1808951
+			"mirrorZipBytes": 1819059
 		},
 		{
 			"id": "tam-muslim",
@@ -390,7 +390,7 @@
 			"languageName": "Tamil",
 			"name": "Sahih Muslim (Tamil)",
 			"hadithCount": 7464,
-			"translationCount": 2605,
+			"translationCount": 2628,
 			"features": [
 				"arabic",
 				"translation",
@@ -403,7 +403,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2218425
+			"mirrorZipBytes": 2233795
 		},
 		{
 			"id": "tur-muslim",
@@ -413,7 +413,7 @@
 			"languageName": "Turkish",
 			"name": "Sahih Muslim (Turkish)",
 			"hadithCount": 7464,
-			"translationCount": 7181,
+			"translationCount": 7227,
 			"features": [
 				"arabic",
 				"translation",
@@ -426,7 +426,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 3228228
+			"mirrorZipBytes": 3245664
 		},
 		{
 			"id": "urd-muslim",
@@ -436,7 +436,7 @@
 			"languageName": "Urdu",
 			"name": "Sahih Muslim (Urdu)",
 			"hadithCount": 7464,
-			"translationCount": 7220,
+			"translationCount": 7267,
 			"features": [
 				"arabic",
 				"translation",
@@ -449,7 +449,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2719834
+			"mirrorZipBytes": 2736042
 		},
 		{
 			"id": "ara-nasai",

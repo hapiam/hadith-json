@@ -323,13 +323,43 @@ hadithunlocked-based numbering would relocate the same bug, not fix it.
 Instead, `tool/rebuild_muslim_translations.dart` content-matches fawaz's
 own Arabic text onto the new spine's Arabic text using `arabic_match.dart`
 (the same layered exact/fuzzy matcher already trusted for Ahmad and
-Darimi, 100.00% verified there) — 7,332/7,563 fawaz rows (96.9%) matched
-onto the new spine by content, then every language's translation for a
-matched row is attached directly onto that row's `translations` map.
-Per-language attachment rates ranged 87.9%–99.1% (Indonesian and Russian
-lowest, both were already the sparsest fawaz editions for this book).
+Darimi, 100.00% verified there) — **7,357/7,563 fawaz rows (97.3%)**
+matched onto the new spine by content, then every language's translation
+for a matched row is attached directly onto that row's `translations` map.
 Muslim was deliberately excluded from `_joinFawazLanguage` (`BookDef` has
 no `fawazBook` set) so this bug can't resurface silently.
+
+**Chasing down the remaining unmatched rows found and fixed two real
+normalizer gaps in `arabic_match.dart` itself** (user asked directly: "no
+fix 28-44 translation attachments," after the first count was 7,332/7,563
+— 231 unmatched). Investigated every unmatched row rather than accepting
+the raw number: of 231, 203 turned out to have **completely empty Arabic
+text in fawaz's own raw file** (a pre-existing fawaz-side gap, nothing to
+recover). Of the remaining 28 with real text, sampling several (e.g. fawaz
+hadithnumber 111 vs the new spine's "16a", hadithnumber 424 vs "168")
+confirmed they're the SAME hadith in both sources — the matcher was
+failing on transcription-convention differences, not real content gaps:
+(1) hadithunlocked wraps enumerated clauses in parenthesized Arabic-Indic
+digits inline (e.g. "علي خمسة علي: (١) ... (٢) ...") that fawaz doesn't
+use at all — the existing normalizer stripped the parens but left the
+bare digit as a spurious extra word; (2) hadithunlocked uses guillemets
+(« ») and the Urdu-style full stop (۔) for quotation/sentence-final
+punctuation, neither previously stripped; (3) fawaz's OWN convention wraps
+parenthetical asides in bare hyphens (e.g. "- يَعْنِي حَمَّامًا -", "- قَالَ
+-", sometimes over a dozen per row) that hadithunlocked doesn't mark at
+all — surviving hyphens didn't hurt the word-overlap score much (a set
+collapses repeats) but fragmented the longest-common-substring gate badly
+enough to sink a 97.7%-word-identical pair to a 26.7% LCS ratio, below the
+30% gate (confirmed concretely on hadithnumber 424: 0.977 word overlap,
+0.267 LCS ratio before the fix, 1.0 after). All three fixed in
+`normalizeForMatching`. Result: 7,332 → **7,357** matched (206 unmatched,
+203 of them still the pre-existing empty-in-fawaz rows — down to 3
+genuinely unresolved non-empty rows, two of which look like a fawaz-side
+duplicate pair). Since this is a shared library, the fix is a pure
+normalization improvement with no regression risk for Ahmad/Darimi (their
+spines are static from a historical one-time rebuild, not re-matched on
+every build) or any other book (isolation-verified: no other book's
+`hadithCount` changed).
 
 **A numbering bug in the first Introduction fix, found and fixed the same
 day.** `fix_muslim_introduction.dart`'s first version removed 7

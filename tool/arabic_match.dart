@@ -32,7 +32,44 @@ final _tashkeelAndQuranicMarks = RegExp('[ً-ٰٕۖ-ۭ࣓-ࣿ]');
 final _alifVariants = RegExp('[آأإٱ]');
 final _tatweel = RegExp('ـ');
 final _rtlMarks = RegExp('[‎‏‪-‮]');
-final _punctAndWs = RegExp(r'''[\s,.،؛؟"'{}()\[\]!?؛:]+''');
+
+// hadithunlocked.com's own transcription convention wraps enumerated
+// conditions/clauses in parenthesized Arabic-Indic digits inline (e.g.
+// "علي خمسة علي: (١) ان يوحد الله، (٢) واقام الصلاة...") -- fawaz's plainer
+// transcription of the exact same hadith has no such markers at all. The
+// general punctuation strip below removes the surrounding parens but
+// leaves the bare digit "١"/"٢" as an orphan extra word, which is enough
+// to fail both the word-overlap and containment layers even though the
+// underlying content is identical (confirmed concretely 2026-07-29:
+// fawaz's Sahih Muslim 16a and hadithunlocked's own version of the same
+// hadith normalized to different strings purely because of this, plus the
+// two quirks below). Stripped as a unit (digit + parens together) before
+// the general punctuation collapse so no orphan digit survives.
+final _parenthesizedListMarker = RegExp(r'\(\s*[0-9٠-٩]+\s*\)');
+
+final _punctAndWs = RegExp(
+  '[\\s,.،؛؟"\'{}()\\[\\]!?؛:«»' // guillemets: hadithunlocked's own quote
+  // style for a narrated matn (e.g. "«بني الاسلام...»") where fawaz uses
+  // plain ASCII quotes or none at all -- same "different transcription
+  // convention" issue as the list-marker digits above.
+  '۔' // Urdu-style full stop (۔), used by hadithunlocked as a
+  // sentence-final marker fawaz's transcription doesn't use at all --
+  // otherwise glues onto the end of the preceding word and makes it a
+  // different token than fawaz's unpunctuated version of that same word.
+  '\\-' // fawaz's OWN convention: wraps parenthetical asides in bare
+  // hyphens (e.g. "- يَعْنِي حَمَّامًا -", "- قَالَ -") that hadithunlocked's
+  // transcription doesn't mark at all (same underlying words, no dashes).
+  // A row can carry a dozen or more of these -- surviving as orphan "-"
+  // tokens doesn't hurt the word-overlap Dice score much (a set collapses
+  // repeats), but each one fragments the longest-common-substring gate
+  // into a shorter piece, and enough fragmentation drags a >95%
+  // word-identical pair below the 0.3 LCS gate even though nothing about
+  // the actual content differs (confirmed concretely 2026-07-29: fawaz
+  // hadithnumber 424 vs hadithunlocked "Sahih Muslim 168", 0.977 word
+  // overlap but 0.267 LCS ratio before this fix, purely from 14 stray
+  // dashes).
+  ']+',
+);
 
 // Honorific/invocation phrases ("peace be upon him", "may Allah be pleased
 // with him/her/them", "Allah have mercy on him") are inserted or omitted
@@ -70,6 +107,7 @@ String normalizeForMatching(String input) {
   s = s.replaceAll(_tashkeelAndQuranicMarks, '');
   s = s.replaceAll(_alifVariants, 'ا');
   s = s.replaceAll('ى', 'ي');
+  s = s.replaceAll(_parenthesizedListMarker, ' ');
   s = s.replaceAll(_punctAndWs, ' ').trim();
   return s;
 }
