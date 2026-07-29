@@ -8,7 +8,7 @@
 			"language": "ar",
 			"languageName": "Arabic",
 			"name": "Sahih al-Bukhari (Arabic)",
-			"hadithCount": 7260,
+			"hadithCount": 7563,
 			"addendumCount": 26,
 			"features": [
 				"arabic",
@@ -31,7 +31,7 @@
 			"language": "ar-undiacritized",
 			"languageName": "Arabic (undiacritized)",
 			"name": "Sahih al-Bukhari (Arabic (undiacritized))",
-			"hadithCount": 7251,
+			"hadithCount": 7554,
 			"features": [
 				"arabic",
 				"grades",
@@ -53,7 +53,7 @@
 			"language": "bn",
 			"languageName": "Bengali",
 			"name": "Sahih al-Bukhari (Bengali)",
-			"hadithCount": 7260,
+			"hadithCount": 7563,
 			"addendumCount": 26,
 			"translationCount": 7226,
 			"features": [
@@ -78,7 +78,7 @@
 			"language": "en",
 			"languageName": "English",
 			"name": "Sahih al-Bukhari (English)",
-			"hadithCount": 7260,
+			"hadithCount": 7563,
 			"addendumCount": 26,
 			"translationCount": 7277,
 			"features": [
@@ -103,7 +103,7 @@
 			"language": "fr",
 			"languageName": "French",
 			"name": "Sahih al-Bukhari (French)",
-			"hadithCount": 7260,
+			"hadithCount": 7563,
 			"addendumCount": 26,
 			"translationCount": 7260,
 			"features": [
@@ -128,7 +128,7 @@
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Sahih al-Bukhari (Indonesian)",
-			"hadithCount": 7260,
+			"hadithCount": 7563,
 			"addendumCount": 26,
 			"translationCount": 6598,
 			"features": [
@@ -153,7 +153,7 @@
 			"language": "ru",
 			"languageName": "Russian",
 			"name": "Sahih al-Bukhari (Russian)",
-			"hadithCount": 7260,
+			"hadithCount": 7563,
 			"addendumCount": 26,
 			"translationCount": 7212,
 			"features": [
@@ -178,7 +178,7 @@
 			"language": "ta",
 			"languageName": "Tamil",
 			"name": "Sahih al-Bukhari (Tamil)",
-			"hadithCount": 7260,
+			"hadithCount": 7563,
 			"addendumCount": 26,
 			"translationCount": 7092,
 			"features": [
@@ -203,7 +203,7 @@
 			"language": "tr",
 			"languageName": "Turkish",
 			"name": "Sahih al-Bukhari (Turkish)",
-			"hadithCount": 7260,
+			"hadithCount": 7563,
 			"addendumCount": 26,
 			"translationCount": 7211,
 			"features": [
@@ -228,7 +228,7 @@
 			"language": "ur",
 			"languageName": "Urdu",
 			"name": "Sahih al-Bukhari (Urdu)",
-			"hadithCount": 7260,
+			"hadithCount": 7563,
 			"addendumCount": 26,
 			"translationCount": 6975,
 			"features": [
@@ -2010,7 +2010,7 @@
 			"language": "ar",
 			"languageName": "Arabic",
 			"name": "Mishkat al-Masabih (Arabic)",
-			"hadithCount": 5009,
+			"hadithCount": 5217,
 			"features": [
 				"arabic",
 				"grades",
@@ -2032,7 +2032,7 @@
 			"language": "en",
 			"languageName": "English",
 			"name": "Mishkat al-Masabih (English)",
-			"hadithCount": 5009,
+			"hadithCount": 5217,
 			"translationCount": 5009,
 			"features": [
 				"arabic",
@@ -2056,7 +2056,7 @@
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Mishkat al-Masabih (Indonesian)",
-			"hadithCount": 5009,
+			"hadithCount": 5217,
 			"translationCount": 4428,
 			"features": [
 				"arabic",
@@ -2081,7 +2081,7 @@
 			"language": "ar",
 			"languageName": "Arabic",
 			"name": "Al-Adab Al-Mufrad (Arabic)",
-			"hadithCount": 1326,
+			"hadithCount": 1343,
 			"features": [
 				"arabic",
 				"grades",
@@ -2103,7 +2103,7 @@
 			"language": "en",
 			"languageName": "English",
 			"name": "Al-Adab Al-Mufrad (English)",
-			"hadithCount": 1326,
+			"hadithCount": 1343,
 			"translationCount": 1320,
 			"features": [
 				"arabic",
@@ -2127,7 +2127,7 @@
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Al-Adab Al-Mufrad (Indonesian)",
-			"hadithCount": 1326,
+			"hadithCount": 1343,
 			"translationCount": 1320,
 			"features": [
 				"arabic",
@@ -2223,7 +2223,7 @@
 			"language": "ar",
 			"languageName": "Arabic",
 			"name": "Bulugh al-Maram (Arabic)",
-			"hadithCount": 1767,
+			"hadithCount": 1784,
 			"features": [
 				"arabic",
 				"grades",
@@ -2245,7 +2245,7 @@
 			"language": "en",
 			"languageName": "English",
 			"name": "Bulugh al-Maram (English)",
-			"hadithCount": 1767,
+			"hadithCount": 1784,
 			"translationCount": 1767,
 			"features": [
 				"arabic",
@@ -2269,7 +2269,7 @@
 			"language": "id",
 			"languageName": "Indonesian",
 			"name": "Bulugh al-Maram (Indonesian)",
-			"hadithCount": 1767,
+			"hadithCount": 1784,
 			"translationCount": 1767,
 			"features": [
 				"arabic",

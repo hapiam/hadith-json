@@ -1003,6 +1003,32 @@ class UnifiedBuilder {
     }
   }
 
+  // Sum of how many real citation numbers `hadiths` represents -- most
+  // rows count as 1, but a merged compound citation (e.g. row 1065's own
+  // `reference.text`, "Sahih al-Bukhari 1065, 1066") counts as however
+  // many numbers it actually lists, since that ONE row deliberately
+  // represents more than one of the book's real citation numbers (see
+  // `fix_bukhari_compound_citations.dart` and
+  // DUPLICATE_HADITH_INVESTIGATION.md's Category 1). Without this, the
+  // catalog's own headline `hadithCount` undercounts by exactly the number
+  // of citations folded into an existing row this way -- Bukhari read
+  // 7,260 instead of the true, commonly-cited 7,563 (user-reported
+  // 2026-07-29). Addenda are excluded the same way the caller's own
+  // `addendumCount` already is -- this only meaningfully affects
+  // non-addendum rows, but skips `isAddendum` ones defensively anyway.
+  int _citationCount(List<Map<String, dynamic>> hadiths) {
+    var total = 0;
+    for (final h in hadiths) {
+      if (h['isAddendum'] == true) continue;
+      final ref = (h['reference'] as Map?)?['text'] as String?;
+      final m = ref == null
+          ? null
+          : RegExp(r'(\d+(?:,\s*\d+)+)\s*$').firstMatch(ref);
+      total += m == null ? 1 : m.group(1)!.split(',').length;
+    }
+    return total;
+  }
+
   // Writes the Arabic-only edition file (`ara-{book}` or, if
   // `undiacritized`, `ara1-{book}`) plus its `catalog.json` entry. Always
   // called once for the diacritized edition per book; called a second time
@@ -1080,7 +1106,7 @@ class UnifiedBuilder {
       'language': langIso,
       'languageName': langName,
       'name': '${book.englishTitle} ($langName)',
-      'hadithCount': hadiths.length - addendumCount,
+      'hadithCount': _citationCount(hadiths),
       if (addendumCount > 0) 'addendumCount': addendumCount,
       'features': features,
       'path': 'files/$editionId.json',
@@ -1220,7 +1246,7 @@ class UnifiedBuilder {
       'language': langIso,
       'languageName': langName,
       'name': '${book.englishTitle} ($langName)',
-      'hadithCount': hadiths.length - addendumCount,
+      'hadithCount': _citationCount(hadiths),
       if (addendumCount > 0) 'addendumCount': addendumCount,
       'translationCount': withTranslation,
       'features': features,
