@@ -185,7 +185,7 @@ Merge helpers:
 | # | Key | Notes |
 |---|-----|-------|
 | 1 | bukhari | 7,286 hadith (289 sunnah.com compound citations like "272, 273" merged into single entries 2026-07-29, see `DUPLICATE_HADITH_INVESTIGATION.md`); full multi-language |
-| 2 | muslim | Content-matched onto fawaz's 7,563 canonical numbering (98.58% match); full multi-language. **`reference.text` numbering not verified against sunnah.com** — confirmed unreliable for at least some rows, see `DUPLICATE_HADITH_INVESTIGATION.md`'s Muslim section |
+| 2 | muslim | Rebuilt from hadithunlocked.com 2026-07-29 (fawaz's canonical numbering never reliably tracked sunnah.com's real citations for this book — see `DUPLICATE_HADITH_INVESTIGATION.md`'s Muslim section). 7,376 hadith, `idInBook` 1–7,376 dense, Introduction verified word-for-word against sunnah.com, 6 non-English languages content-matched from fawaz onto the new numbering |
 | 3–6 | nasai, abudawud, tirmidhi, ibnmajah | Content-matched onto fawaz canonical numbering (97.9–99.93% match); multi-lang where fawaz has them |
 | 7 | malik | Arabic spine unchanged (1,985); translation ceiling independently verified at 1,858 across 6 languages |
 | 8 | ahmad | Full al-hadees.com scrape (27,648) replacing the old 1,374-hadith stub; 15 numbering gaps individually researched |
@@ -194,7 +194,7 @@ Merge helpers:
 | 13–17 | riyadussalihin, mishkat, adab, shamail, bulugh | Spine + sagad ID drafts |
 | 18 | hisn | From muallimai; ara + eng |
 
-## Duplicate hadith rows — fixed for Bukhari/Malik/Lu'lu' wal-Marjan/Tabarani
+## Duplicate hadith rows — fixed for Bukhari/Malik/Lu'lu' wal-Marjan/Tabarani/Muslim
 
 See **[`DUPLICATE_HADITH_INVESTIGATION.md`](DUPLICATE_HADITH_INVESTIGATION.md)**
 for the full writeup, including a first fix attempt (2026-07-29) that
@@ -204,16 +204,17 @@ garbage — the first attempt deleted real citation numbers instead of
 merging them, caught by direct user testing and fixed properly by
 re-verifying against sunnah.com itself rather than trusting an internal
 field. Muslim's duplicate-row fix was reverted entirely after the same
-re-check found a deeper, separate problem (fawaz's own numbering doesn't
-reliably track sunnah.com's real citations for that book) — deferred, not
-fixed. **This also corrects the "Malik: 127 untranslated entries beyond
-1,858" claim below** — only ~15 of those 140 appended rows are actually new
+re-check found a deeper, separate problem — fawaz's own numbering doesn't
+reliably track sunnah.com's real citations for that book at all, not just
+for duplicates — and was later resolved by a full rebuild from
+hadithunlocked.com instead (same day, see "Category 1b" in the linked doc).
+**This also corrects the "Malik: 127 untranslated entries beyond 1,858"
+claim below** — only ~15 of those 140 appended rows are actually new
 content; the rest are duplicates of fawaz's own 1..1858 range under
 different `idInBook`s.
 
 ## Known limitations
 
-- **Muslim's Introduction section** (83 entries, `chapterId: 0`) sits outside fawaz's numbered scheme entirely and is preserved by appending past the main 7,563, not discarded.
 - **Malik's 15 Arabic-only entries** (idInBook 1888, 1889, 1986–1998 — non-consecutive, gaps are duplicate rows removed 2026-07-29, see `DUPLICATE_HADITH_INVESTIGATION.md`) have no translation in any of fawaz's 6 languages — tagged `untranslated`, real content.
 - **Musnad Ahmad's #24424 gap** is a confirmed genuine gap in al-hadees.com's own numbering (islamweb's independent text also has nothing there) — nothing to recover, left as a numbering skip.
 - **Musnad Ahmad currently has only Arabic + Urdu** (27,648/27,648 entries have no English/Indonesian translation). It did have both under the old 1,374-hadith AhmedBaset numbering, but those translations were removed rather than kept attached to citations that no longer match — the old English/Indonesian files were joined by position against a spine that's since been fully replaced by the al-hadees.com scrape, so re-attaching them requires the same content-matching treatment the 6 fawaz-derived books got, not yet done for Ahmad. Tracked as future work.

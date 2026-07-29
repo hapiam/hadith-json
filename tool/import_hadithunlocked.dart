@@ -52,6 +52,7 @@ import 'dart:io';
 /// Usage: dart run tool/import_hadithunlocked.dart
 void main() {
   const books = [
+    _BookConfig(2, 'muslim', 'Sahih Muslim'),
     _BookConfig(19, 'nasai-kubra', 'al-Sunan al-Kubra, Nasai'),
     _BookConfig(20, 'lulu-marjan', 'al-Lulu wa-al-Marjan (Muttafaq Alayh)'),
     _BookConfig(21, 'ibnrajab50', 'Jami al-Ulum wa-al-Hikam'),
@@ -81,8 +82,26 @@ void main() {
     var aiTagged = 0;
     var withText = 0;
     var withGrade = 0;
+    var essaySkipped = 0;
+    // Muslim only (verified directly, 2026-07-29): `item.number` values
+    // prefixed "i" (e.g. "i001".."i089") or "ir" (e.g. "ir0", "ir1") are
+    // NOT narrated hadith at all -- they're fragments of Imam Muslim's own
+    // prose muqaddimah (his introductory treatise on hadith methodology,
+    // no isnad chain, no narrator). Confirmed by content: "ir3"'s Arabic
+    // text opens mid-scholarly-discourse ("وأشْباهُ ما ذَكَرْنا مِن
+    // كَلامِ أهْلِ العِلْمِ..."), nothing like a narrated report. sunnah.com's
+    // own real Introduction (citations 1-7, genuine narrated hadith) isn't
+    // covered by these fragments at all -- see the dedicated
+    // `fetch_muslim_introduction.dart` script instead. Excluded here rather
+    // than imported as fake hadith rows under a citation format
+    // ("Sahih Muslim ir3") that doesn't correspond to anything real.
+    final essayNumberRe = RegExp(r'^ir?\d');
 
     void addHadith(Map<String, dynamic> item, int chapterId) {
+      if (essayNumberRe.hasMatch(item['number'] as String)) {
+        essaySkipped++;
+        return;
+      }
       idInBook++;
       final chain = (item['chain'] as Map?)?.cast<String, dynamic>();
       final text = (item['text'] as Map?)?.cast<String, dynamic>();
@@ -207,7 +226,8 @@ void main() {
     File(outPath).writeAsStringSync(const JsonEncoder.withIndent('  ').convert(spine));
     stdout.writeln(
       '${book.key}: ${hadiths.length} hadiths, ${chapters.length} chapters, '
-      '$withText with English text ($aiTagged AI-tagged), $withGrade with a grade -> $outPath',
+      '$withText with English text ($aiTagged AI-tagged), $withGrade with a grade'
+      '${essaySkipped > 0 ? ', $essaySkipped non-hadith essay fragments skipped' : ''} -> $outPath',
     );
   }
 }

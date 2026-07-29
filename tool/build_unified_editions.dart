@@ -140,10 +140,22 @@ class UnifiedBuilder {
     BookDef(
       bookId: 2,
       bookKey: 'muslim',
-      spineRelative: 'the_9_books/muslim.json',
+      // Rebuilt 2026-07-29 from hadithunlocked.com instead of fawaz -- see
+      // DUPLICATE_HADITH_INVESTIGATION.md's Muslim section for why: fawaz's
+      // own `hadithnumber` never reliably tracked sunnah.com's real
+      // citation numbering for this book (confirmed via direct content
+      // mismatches), unlike Bukhari/Tirmidhi/Nasai/etc. where it mostly
+      // does. No `fawazBook`/`sunnahSlug` here (matching every other
+      // hadithunlocked-sourced book) so `_joinFawazLanguage`'s
+      // position-based join and `_normalizeReference`'s idInBook-as-citation
+      // fallback are never reached for this book -- both would silently
+      // reproduce the exact numbering-scheme conflation bug this rebuild
+      // fixes. The 6 non-English translations are instead pre-attached
+      // directly onto `db/by_book/hadithunlocked/muslim.json`'s own hadith
+      // rows by `tool/rebuild_muslim_translations.dart`, via Arabic content
+      // matching (`arabic_match.dart`), not position.
+      spineRelative: 'hadithunlocked/muslim.json',
       englishTitle: 'Sahih Muslim',
-      fawazBook: 'muslim',
-      sunnahSlug: 'muslim',
     ),
     BookDef(
       bookId: 3,
@@ -555,6 +567,21 @@ class UnifiedBuilder {
           'text': (english['text'] ?? '').toString(),
         };
       }
+      // Pre-attached non-English translations, keyed by ISO code -- written
+      // directly onto the spine row by a book-specific script rather than
+      // joined here by position (currently only Muslim's own
+      // `tool/rebuild_muslim_translations.dart`, via Arabic content
+      // matching -- see that book's own `BookDef` comment for why position
+      // isn't safe for it). Absent/empty for every other book.
+      final preAttached = h['translations'];
+      final rowTranslations = <String, dynamic>{
+        if (enTrans != null) 'en': enTrans,
+        if (preAttached is Map)
+          for (final entry in preAttached.entries)
+            entry.key as String: Map<String, dynamic>.from(
+              entry.value as Map,
+            ),
+      };
 
       final row = <String, dynamic>{
         'id': h['id'],
@@ -562,7 +589,7 @@ class UnifiedBuilder {
         'chapterId': h['chapterId'],
         'bookId': h['bookId'] ?? book.bookId,
         'arabic': (h['arabic'] ?? '').toString(),
-        'translations': <String, dynamic>{if (enTrans != null) 'en': enTrans},
+        'translations': rowTranslations,
         'grades': grades,
         'reference': reference,
         // Real content whose text didn't confidently content-match any
@@ -620,7 +647,26 @@ class UnifiedBuilder {
       if (id is int) byId[id] = row;
     }
 
-    final sources = <String>{'ahmedbaset', 'muallimai'};
+    // Pre-existing bug, noticed 2026-07-29 while wiring up Muslim: this was
+    // hardcoded unconditionally, so every hadithunlocked-sourced book
+    // (Tabarani, Lu'lu' wal-Marjan, ... 13 books including Muslim now) was
+    // ALSO reporting 'ahmedbaset'/'muallimai' as its source, despite having
+    // no relationship to either -- verified directly against the published
+    // catalog, not assumed. Scoped narrowly to books actually sourced from
+    // `db/by_book/hadithunlocked/` rather than auditing every book's
+    // provenance tag in the same pass.
+    final sources = book.spineRelative.startsWith('hadithunlocked/')
+        ? <String>{
+            'hadithunlocked.com',
+            // Muslim's 6 non-English translations are pre-attached by
+            // `rebuild_muslim_translations.dart` from fawaz, via content
+            // matching -- not reflected automatically since that happens
+            // before this script runs, unlike `_joinFawazLanguage`'s own
+            // `sources.add('fawaz')` (never called for this book -- see its
+            // `BookDef` comment).
+            if (book.bookKey == 'muslim') 'fawaz',
+          }
+        : <String>{'ahmedbaset', 'muallimai'};
 
     // Absorb fawaz grades + non-English translations (and verify eng join).
     if (book.fawazBook != null) {
@@ -1309,19 +1355,15 @@ class UnifiedBuilder {
     // Highlight Muslim
     reportLines.add('### Muslim highlight');
     reportLines.add('');
-    final muslimStats = matchStats
-        .where((s) => s.editionName.contains('muslim'))
-        .toList();
-    if (muslimStats.isEmpty) {
-      reportLines.add('No Muslim fawaz joins recorded.');
-    } else {
-      for (final s in muslimStats) {
-        reportLines.add(
-          '- `${s.editionName}`: spine ${s.spineCovered}/${s.spineTotal}; '
-          'unmatched fawaz ${s.unmatchedFawaz} (skipped, no invented ids)',
-        );
-      }
-    }
+    reportLines.add(
+      'Muslim is no longer joined via `_joinFawazLanguage` (removed its '
+      '`fawazBook`, see its own `BookDef` comment) -- rebuilt from '
+      'hadithunlocked.com instead, with its 6 non-English translations '
+      'attached separately by `tool/rebuild_muslim_translations.dart` via '
+      'Arabic content matching. Run that script directly for its own '
+      'per-language match stats (not tracked in the table above, which '
+      'only covers `_joinFawazLanguage` calls).',
+    );
     reportLines.add('');
 
     reportLines.add('## Catalog summary');
