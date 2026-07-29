@@ -1,6 +1,29 @@
 import 'dart:convert';
 import 'dart:io';
 
+/// RETIRED 2026-07-29 — DO NOT RUN. Kept for the historical record only.
+///
+/// This script's core assumption was wrong: it treated fawaz's own
+/// `reference: {book:0, hadith:0}` placeholder marker as "this row is
+/// scraper garbage, delete it" without ever verifying against sunnah.com
+/// itself. For Bukhari, direct verification (11/11 sampled groups) showed
+/// the marker usually means "fawaz's parser only resolved ONE of this
+/// hadith's multiple legitimate sunnah.com citation numbers" — e.g.
+/// "Sahih al-Bukhari 272, 273" is sunnah.com's own compound citation for
+/// ONE hadith, not two. Running this script deleted real citation numbers
+/// (273) with no record left that they ever existed. Published as
+/// `v1.16.0-hapi`, caught by the user testing on-device, reverted.
+///
+/// Bukhari is now handled correctly by `fix_bukhari_compound_citations.dart`
+/// (merges compound-citation groups into one row instead of deleting the
+/// extra rows, preserving every citation number in the surviving row's
+/// `reference.text`). Muslim is NOT currently handled by any script — this
+/// same correction pass found that fawaz's own `hadithnumber` field doesn't
+/// reliably track sunnah.com's real numbering for Muslim at all (confirmed
+/// by direct content mismatches, unrelated to duplication), a bigger,
+/// separate, unresolved problem — see DUPLICATE_HADITH_INVESTIGATION.md's
+/// "The 2026-07-29 correction" section for the full story.
+///
 /// STAGE: one-time spine cleanup, run AFTER `rebuild_from_fawaz.dart`,
 /// idempotent (a re-run against an already-cleaned file finds no more
 /// matching groups).

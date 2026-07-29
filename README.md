@@ -85,11 +85,19 @@ Layered, in order of confidence: exact 60-character normalized-prefix anchor →
 ### Verified match rates (this rebuild)
 
 **Bukhari/Muslim/Abi Dawud/Tirmidhi/Nasa'i/Ibn Majah counts below are stale**
-— superseded by the direct fawaz rebuild (see callout above). Current counts,
-by construction equal to fawaz's own `hadithnumber` max per book, no
-appended entries: Bukhari 7,589; Muslim 7,563; Abi Dawud 5,274; Tirmidhi
-3,998; Nasa'i 5,765; Ibn Majah 4,343. Table kept below for historical
-record of the superseded approach.
+— superseded by the direct fawaz rebuild (see callout above). Current counts
+(as originally rebuilt, by construction equal to fawaz's own `hadithnumber`
+max per book, no appended entries): Muslim 7,563; Abi Dawud 5,274; Tirmidhi
+3,998; Nasa'i 5,765; Ibn Majah 4,343. **Bukhari's count has since changed to
+7,286** — fawaz's raw 7,589 rows included 303 rows that turned out to be
+duplicates of sunnah.com's own compound multi-number citations (e.g.
+"Sahih al-Bukhari 272, 273" is ONE hadith, ONE page, cited under two
+numbers — fawaz's data had it as two separate rows); those were merged,
+not deleted — see `DUPLICATE_HADITH_INVESTIGATION.md`'s Category 1 for the
+full story, including a first fix attempt that got this wrong by trusting
+an internal field instead of verifying against sunnah.com directly. Table
+kept below for historical record of the superseded content-matching
+approach.
 
 | Book | Old spine → fawaz canonical match | Final count | vs. commonly-cited target |
 |---|---|---|---|
@@ -176,8 +184,8 @@ Merge helpers:
 
 | # | Key | Notes |
 |---|-----|-------|
-| 1 | bukhari | Content-matched onto fawaz's 7,563 canonical numbering (99.78% match); full multi-language |
-| 2 | muslim | Content-matched onto fawaz's 7,563 canonical numbering (98.58% match); full multi-language |
+| 1 | bukhari | 7,286 hadith (289 sunnah.com compound citations like "272, 273" merged into single entries 2026-07-29, see `DUPLICATE_HADITH_INVESTIGATION.md`); full multi-language |
+| 2 | muslim | Content-matched onto fawaz's 7,563 canonical numbering (98.58% match); full multi-language. **`reference.text` numbering not verified against sunnah.com** — confirmed unreliable for at least some rows, see `DUPLICATE_HADITH_INVESTIGATION.md`'s Muslim section |
 | 3–6 | nasai, abudawud, tirmidhi, ibnmajah | Content-matched onto fawaz canonical numbering (97.9–99.93% match); multi-lang where fawaz has them |
 | 7 | malik | Arabic spine unchanged (1,985); translation ceiling independently verified at 1,858 across 6 languages |
 | 8 | ahmad | Full al-hadees.com scrape (27,648) replacing the old 1,374-hadith stub; 15 numbering gaps individually researched |
@@ -186,17 +194,22 @@ Merge helpers:
 | 13–17 | riyadussalihin, mishkat, adab, shamail, bulugh | Spine + sagad ID drafts |
 | 18 | hisn | From muallimai; ara + eng |
 
-## Duplicate hadith rows (958 rows / 21 books) — investigation in progress
+## Duplicate hadith rows — fixed for Bukhari/Malik/Lu'lu' wal-Marjan/Tabarani
 
 See **[`DUPLICATE_HADITH_INVESTIGATION.md`](DUPLICATE_HADITH_INVESTIGATION.md)**
-for the full writeup: three distinct root causes (scraper-retry duplication
-in Bukhari/Muslim/Tabarani, a numbering-overlap bug in this repo's own
-Malik/Lu'lu' wal-Marjan append logic, and legitimate classical repetition in
-~16 other books that needs no fix), how the first signs of this were found
-and not acted on back on 2026-07-24, and current fix status. **This also
-corrects the "Malik: 127 untranslated entries beyond 1,858" claim below** —
-only ~15 of those 140 appended rows are actually new content; the rest are
-duplicates of fawaz's own 1..1858 range under different `idInBook`s.
+for the full writeup, including a first fix attempt (2026-07-29) that
+shipped and then had to be corrected: Bukhari's duplicates turned out to be
+sunnah.com's own legitimate compound multi-number citations, not scraper
+garbage — the first attempt deleted real citation numbers instead of
+merging them, caught by direct user testing and fixed properly by
+re-verifying against sunnah.com itself rather than trusting an internal
+field. Muslim's duplicate-row fix was reverted entirely after the same
+re-check found a deeper, separate problem (fawaz's own numbering doesn't
+reliably track sunnah.com's real citations for that book) — deferred, not
+fixed. **This also corrects the "Malik: 127 untranslated entries beyond
+1,858" claim below** — only ~15 of those 140 appended rows are actually new
+content; the rest are duplicates of fawaz's own 1..1858 range under
+different `idInBook`s.
 
 ## Known limitations
 
