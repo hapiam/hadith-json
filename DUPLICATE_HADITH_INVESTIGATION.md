@@ -1,27 +1,34 @@
 # Duplicate hadith rows: discovery, why it sat unfixed, and the current cleanup
 
-Status as of 2026-07-29: **investigation and classification complete for all 30
-books; fix code not yet written.** This document is the full narrative —
-written up per explicit request, because this bug was found once before
-(2026-07-24, `FAWAZ_INTERNAL_DUPLICATION.md`) and not acted on, and the user
-wanted that failure mode on the record alongside the fix.
+Status as of 2026-07-29: **fixed and published for Bukhari, Muslim, Malik,
+Lu'lu' wal-Marjan, and Tabarani** (partially for Tabarani — see Category 1).
+This document is the full narrative — written up per explicit request,
+because this bug was found once before (2026-07-24,
+`FAWAZ_INTERNAL_DUPLICATION.md`) and not acted on, and the user wanted that
+failure mode on the record alongside the fix.
 
 ## TL;DR
 
-958+ duplicate rows exist across 21 of 30 books (the 958 figure is from the
-first exact-string whole-file scan; Malik and Lu'lu' wal-Marjan have since
-been re-scanned with diacritic-normalized matching and both came back
-substantially higher — see below. The other 19 books have **not** been
-re-scanned with normalization yet, so their true counts are likely
-undercounts too). This is **not one bug** — four unrelated mechanisms
-produced these rows, and three are actually wrong:
+Fixed, verified isolated to the intended books (`db/unified/catalog.json`
+`hadithCount` diffed against the pre-fix baseline — exactly bukhari, muslim,
+malik, lulu-marjan, tabarani changed, nothing else moved), and republished:
 
-| Category | Books | Rows | Verdict |
+| Category | Books | Rows dropped | Verdict |
 |---|---|---|---|
-| 1. Scraper-retry duplication | Bukhari, Muslim, Tabarani | ~713 (exact-match count, not yet normalized-rescanned) | **Bug — fix by dropping the placeholder duplicate** |
-| 2. Our own numbering-overlap bug | Malik | 125/140 appended rows (normalized count, verified) | **Bug — fix by overlap-aware append, not blind concatenation** |
-| 3. Source-site duplication | Lu'lu' wal-Marjan | 69/1907 rows (normalized count, verified against the live hadithunlocked.com page itself) | **Bug (in the upstream source, not our pipeline) — fix by dedup, same as Category 1** |
-| 4. Legitimate classical repetition | Nasai-Kubra, Ahmad, ~14 others | ~99 | **Not a bug — leave untouched** |
+| 1. Scraper-retry duplication | Bukhari, Muslim, Tabarani | Bukhari 303, Muslim 68, Tabarani 38 (of 210 groups — see below) | **Fixed** (Tabarani partial — 187 groups need per-pair human judgment, not auto-resolved) |
+| 2. Our own numbering-overlap bug | Malik | 125 | **Fixed** |
+| 3. Source-site duplication | Lu'lu' wal-Marjan | 69 | **Fixed** |
+| 4. Legitimate classical repetition | Nasai-Kubra, Ahmad, ~14 others | 0 (left untouched) | **Not a bug — no action taken** |
+
+Fix scripts: `tool/fix_fawaz_internal_duplicates.dart` (Bukhari/Muslim),
+`tool/fix_malik_duplicates.dart`, `tool/fix_lulu_marjan_duplicates.dart`,
+`tool/fix_tabarani_duplicates.dart`. All idempotent (safe to re-run). The
+other 19 books with small legitimate-repetition tails (Category 4) were
+deliberately left untouched — confirmed by the `catalog.json` `hadithCount`
+diff that their counts didn't shift, but they have **not** been re-scanned
+with diacritic normalization the way Malik/Lu'lu' were, so a residual
+undercount in that category (already believed to be legitimate, not a bug)
+can't be ruled out without doing that pass too.
 
 Separately, and already fixed/published (tag `v1.15.0-hapi`): a *different*
 duplication bug where lettered citation variants (e.g. "402b") showed
@@ -95,11 +102,45 @@ later-numbered copy is cleaner, sometimes the earlier one is. The fix
 therefore needs a per-pair "keep the better text" comparison, not a
 blanket "keep first" or "keep last" rule.
 
-**Fix approach**: for each duplicate pair, drop the placeholder/incomplete
-side and keep the resolved side; where both sides are fully resolved but
-differ slightly in transcription quality, keep whichever has fewer OCR/typo
-artifacts (manual or heuristic per-pair, not a blind rule). Not yet
-implemented.
+**Fix, implemented** (`tool/fix_fawaz_internal_duplicates.dart` for
+Bukhari/Muslim, `tool/fix_tabarani_duplicates.dart` for Tabarani):
+re-reads fawaz's raw per-language edition to recover the placeholder
+signal the spine itself doesn't preserve (`rebuild_from_fawaz.dart`
+regenerates its own `reference.text`/`url` from `idInBook`, overwriting
+fawaz's original `reference.book`/`hadith`), groups spine rows by
+diacritic-normalized Arabic text, and for each group: drops the
+placeholder side if exactly one exists; if every member is a placeholder
+(content-identical, no chapter info on either side to prefer — found in
+Muslim only, 44 groups), keeps the lowest `idInBook`; if every member is
+resolved with the *same* real reference (a genuine fawaz double-count,
+confirmed for Bukhari `idInBook` 272/273, both citing sunnah.com Book 5
+Hadith 25), keeps the lowest. Anything else — resolved members disagreeing
+on their real reference, meaning the text match might be two genuinely
+different classical citations rather than a bug — is left untouched and
+printed for manual review, never auto-resolved.
+
+Results: **Bukhari 7589 → 7286 (303 dropped, 1 group/2 rows left for
+review)**, **Muslim 7563 → 7495 (68 dropped, 2 groups/4 rows left for
+review)**. A false-positive risk surfaced and was closed during
+implementation: Muslim's Introduction section (`chapterId: 0`, ~90 rows)
+has **empty-string Arabic** for every entry — normalizing to the same `""`
+key collapsed all of them into one spurious 99-member "duplicate" group.
+The reference-mismatch fallback correctly refused to auto-drop any of them
+(each has a distinct real `book:0` reference number), but the script was
+additionally hardened to skip any normalized key under 15 characters from
+grouping entirely, so this class of false positive can't reach the
+auto-drop paths on a future run even if the mismatch-fallback weren't
+there.
+
+Tabarani (`tool/fix_tabarani_duplicates.dart`) is **only partially
+fixed**: of 210 duplicate-Arabic groups, only 23 also had byte-identical
+English translation — those were dropped (38 rows). The remaining 187
+groups have matching Arabic but genuinely different English between
+copies (confirmed earlier: no consistent "which side is better" pattern),
+so no automated rule picked a winner — both rows are still present,
+listed pair-by-pair with full English text in
+`TABARANI_DUPLICATE_TRANSLATIONS_REVIEW.md` for a future manual pass.
+Tabarani: 10640 → 10602 (38 dropped).
 
 ## Category 2 — numbering-overlap bug in our own merge script (Malik only)
 
@@ -148,12 +189,18 @@ fawaz already has, re-added under a new `idInBook` because the merge script
 appended by *position* (past `fawazMax`) instead of checking whether the
 content already existed somewhere in 1..1858.
 
-**Fix approach**: before appending any "beyond max" row, diacritic-normalize
-and content-match it against the existing 1..max range; only append if no
-match is found. Not "row-by-row delete" (which would risk deleting the
-wrong side of a pair) — an overlap check gate on the append step itself,
-consistent with how `arabic_match.dart` already does content-matching
-elsewhere in this pipeline. Not yet implemented.
+**Fix, implemented** (`tool/fix_malik_duplicates.dart`): drops any tail row
+(`idInBook` > 1858) whose diacritic-normalized Arabic matches something
+already in 1..1858; the 15 genuinely new tail rows are left exactly as
+they were. Deliberately does **not** renumber `idInBook`/`id` on the
+survivors — this file's `id` field is a legacy sequential value inherited
+from the original AhmedBaset spine for most of its range (used as
+`merge_muallimai_enrichments.dart`'s join key against muallimai's
+grade/reference data, only switching to a clean `bookId * 1000000 +
+idInBook` formula in the last few rows) — renumbering risked quietly
+breaking that join if this file is ever re-merged from muallimai's source
+again. Result: **1998 → 1873 rows (125 dropped)**, tail now `idInBook`
+1888, 1889, 1986–1998 (gaps where duplicates were removed, by design).
 
 ## Category 3 — source-site duplication (Lu'lu' wal-Marjan)
 
@@ -198,11 +245,16 @@ process lists the same combined entry twice under two different item
 numbers on one page. Whatever the ultimate cause upstream, our repo faithfully
 imported it — this is not something `import_hadithunlocked.dart` did wrong.
 
-**Fix approach**: same operational fix as Category 1 (drop one of each
-exact-duplicate pair, keep the other) even though the root cause is
-different — a straightforward same-page/same-citation dedup pass over
-`db/by_book/hadithunlocked/lulu-marjan.json`. No "which side is better"
-ambiguity here since the two copies are identical. Not yet implemented.
+**Fix, implemented** (`tool/fix_lulu_marjan_duplicates.dart`): same
+operational fix as Category 1's decisive cases (drop one of each
+exact-duplicate pair, keep the lowest `idInBook`) even though the root
+cause is different. Unlike Malik, this book's `id` field cleanly follows
+`bookId * 1000000 + idInBook` throughout (it's hadithunlocked-imported, no
+muallimai join), so survivors *were* renumbered sequentially and `id`
+recomputed to match — `reference` (text + url) was left untouched since
+it's derived from the raw item's own `ref`/`number` field at import time,
+not from `idInBook`. Result: **1907 → 1838 rows (69 dropped)**, `idInBook`
+now a clean gapless 1..1838.
 
 ## Category 4 — legitimate classical repetition (leave untouched)
 
@@ -226,6 +278,19 @@ No action planned for this category.
 - Fractional-`hadithnumber` translation-pairing collision
   (`rebuild_from_fawaz.dart`), see `NUMBERING_CORRUPTION_AUDIT.md`.
 
+**Fixed this pass, `build_unified_editions.dart` re-run, isolation verified,
+pending tag/publish** (next section below):
+- Category 1: Bukhari (303 dropped), Muslim (68 dropped) — fully resolved
+  bar 3 groups of legitimately-ambiguous same-text-different-real-citation
+  rows, left for human review. Tabarani (38 dropped) — partially resolved,
+  187 groups need per-pair translation-quality judgment, tracked in
+  `TABARANI_DUPLICATE_TRANSLATIONS_REVIEW.md`.
+- Category 2: Malik (125 dropped).
+- Category 3: Lu'lu' wal-Marjan (69 dropped).
+- `db/unified/catalog.json` hadithCount diffed against the pre-fix git
+  baseline: exactly bukhari/muslim/malik/lulu-marjan/tabarani changed, every
+  other edition (including all Category 4 books) unchanged.
+
 **Fixed in `hapi_app_v2`, uncommitted, awaiting device test**:
 - Position-counting convention (`_hadithChapterPositions()` in
   `reader_page.dart`) changed to count every row including addenda, matching
@@ -234,18 +299,14 @@ No action planned for this category.
 - Addendum badge dead-code bug (showed an internal row id instead of the
   citation position).
 
-**Investigated and classified, fix code not yet written**:
-- Category 1 (Bukhari/Muslim/Tabarani scraper-retry duplicates).
-- Category 2 (Malik numbering-overlap bug).
-- Category 3 (Lu'lu' wal-Marjan source-site duplication — verification
-  complete, including a live hadithunlocked.com page fetch confirming the
-  duplicate is on the source's own rendered page, not introduced by our
-  scrape or merge step).
-
 **Not yet started**:
-- Writing and running the actual dedup/overlap-check fix for Categories 1–3.
-- Re-running `build_unified_editions.dart`, publishing a new tag, updating
-  `hapi_app_v2`'s catalog once the above lands.
+- Tabarani's 187 remaining translation-quality-variance pairs (manual
+  review list generated, not resolved).
+- The 3 Bukhari/Muslim groups with legitimately differing real citations
+  under identical text (may be genuine classical repetition, Category-4
+  style — not auto-resolved, needs a human look).
+- Publishing a new tag and updating `hapi_app_v2`'s catalog (this section's
+  the very next step).
 
 ## Source-quality notes this investigation adds
 
@@ -253,12 +314,17 @@ These extend the "Known sources" table in `sources/README.md` and the
 per-book notes in `README.md`:
 
 - **fawazahmed0/hadith-api**: internally self-duplicates in Bukhari (401
-  confirmed instances), Muslim (93), Nasai (15), Abu Dawud (4), Tirmidhi
-  (92), Ibn Majah (5), Malik (109) — see `FAWAZ_INTERNAL_DUPLICATION.md` for
-  the full per-book breakdown. Caused by upstream scraper retries, not
-  anything in this repo's own pipeline for those rows specifically — but
-  this repo's `rebuild_from_fawaz.dart` did not filter them out, so they
-  passed straight through into `db/unified/`.
+  confirmed instances via the earlier amrayn cross-check, 303 confirmed and
+  fixed via direct raw-reference verification this pass), Muslim (93 /
+  68 fixed), Nasai (15), Abu Dawud (4), Tirmidhi (92), Ibn Majah (5), Malik
+  (109) — see `FAWAZ_INTERNAL_DUPLICATION.md` for the full per-book
+  breakdown from the earlier method. Caused by upstream scraper retries,
+  not anything in this repo's own pipeline for those rows specifically —
+  this repo's `rebuild_from_fawaz.dart` didn't filter them out, so they
+  passed straight through into `db/unified/` until this pass's
+  `fix_fawaz_internal_duplicates.dart`. Nasai/Abu Dawud/Tirmidhi/Ibn Majah's
+  counts from the earlier method are not yet re-verified or fixed with the
+  same rigor — tracked as future work, same pattern expected.
 - **hadithunlocked.com**: two *separate* defects, confirmed by different
   methods:
   - Tabarani has ~338 duplicate rows from a scraper-retry pattern (already

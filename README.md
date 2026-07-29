@@ -100,7 +100,7 @@ record of the superseded approach.
 | Nasa'i | 99.12% (5,717/5,768) | 5,809 | 5,758 (+51 appended) |
 | Ibn Majah | 99.93% (4,342/4,345) | 4,344 | 4,341 (+3 appended) |
 | Darimi | 100% (mhashim6/hadith-islamware swap) | 3,367 | 3,367 (exact) |
-| Malik | fawaz-aligned count independently verified across 6 languages | 1,985 Arabic / 1,858 with any translation | 1,858 is the real, source-backed number (see below); 127 Arabic-only entries beyond that are tagged `untranslated`, not dropped |
+| Malik | fawaz-aligned count independently verified across 6 languages | 1,860 Arabic (125 duplicate rows removed 2026-07-29, see `DUPLICATE_HADITH_INVESTIGATION.md`) / 1,858 with any translation | 1,858 is the real, source-backed number (see below); 15 Arabic-only entries beyond that are tagged `untranslated`, not dropped |
 | Ahmad | al-hadees.com full scrape + 15 numbering gaps individually researched | 27,648 | see Musnad Ahmad section below — 28,199 is not a verifiable target |
 
 Every "extra" (appended) entry above is real old-spine content whose text simply didn't confidently match any of the target numbering's slots (usually a bare cross-reference stub like "narrated similarly, same chain" too short to content-match) — never a fabricated or duplicated record. `DATA_QUALITY_REPORT.md` names every single one, plus every `untranslated`/`noSourceContent` entry, plus every fuzzy (non-anchor) match, so nothing in the above table is opaque.
@@ -128,7 +128,9 @@ Sunnah.com's own about page states Musnad Ahmad "consists of 28199 ahadith organ
 
 ## Muwatta Malik: 1,858, not 1,942
 
-A commonly-cited total for Muwatta Malik (Yahya al-Laythi recension) is 1,942. fawaz's own translation files for Malik — Bengali, English, French, Indonesian, Turkish, Urdu — independently and consistently cap at **1,858** matched rows across every language, a hard content ceiling in fawaz's digitization rather than a counting artifact. 1,858 is treated as the real, source-backed target. The Arabic-only spine (1,985 entries) has 127 entries beyond that ceiling with no matching translation in any of the 6 languages — real Arabic content, tagged `untranslated` rather than removed (see `DATA_QUALITY_REPORT.md`).
+A commonly-cited total for Muwatta Malik (Yahya al-Laythi recension) is 1,942. fawaz's own translation files for Malik — Bengali, English, French, Indonesian, Turkish, Urdu — independently and consistently cap at **1,858** matched rows across every language, a hard content ceiling in fawaz's digitization rather than a counting artifact. 1,858 is treated as the real, source-backed target.
+
+The Arabic-only spine originally had 140 entries beyond that ceiling, believed (as of the original rebuild) to be untranslated-but-real content. **Corrected 2026-07-29**: diacritic-normalized comparison found 125 of those 140 (89%) were actually duplicates of content already in 1..1858, re-added under a fresh `idInBook` because the append step checked position, not content — see `DUPLICATE_HADITH_INVESTIGATION.md`. Those 125 have been removed (`tool/fix_malik_duplicates.dart`); the **15 genuinely new** entries beyond 1,858 remain, tagged `untranslated` (see `DATA_QUALITY_REPORT.md`).
 
 ## Sunan ad-Darimi: 3,367, exact match
 
@@ -199,7 +201,7 @@ duplicates of fawaz's own 1..1858 range under different `idInBook`s.
 ## Known limitations
 
 - **Muslim's Introduction section** (83 entries, `chapterId: 0`) sits outside fawaz's numbered scheme entirely and is preserved by appending past the main 7,563, not discarded.
-- **Malik's 127 Arabic-only entries** (idInBook 1859–1985) have no translation in any of fawaz's 6 languages — tagged `untranslated`, real content.
+- **Malik's 15 Arabic-only entries** (idInBook 1888, 1889, 1986–1998 — non-consecutive, gaps are duplicate rows removed 2026-07-29, see `DUPLICATE_HADITH_INVESTIGATION.md`) have no translation in any of fawaz's 6 languages — tagged `untranslated`, real content.
 - **Musnad Ahmad's #24424 gap** is a confirmed genuine gap in al-hadees.com's own numbering (islamweb's independent text also has nothing there) — nothing to recover, left as a numbering skip.
 - **Musnad Ahmad currently has only Arabic + Urdu** (27,648/27,648 entries have no English/Indonesian translation). It did have both under the old 1,374-hadith AhmedBaset numbering, but those translations were removed rather than kept attached to citations that no longer match — the old English/Indonesian files were joined by position against a spine that's since been fully replaced by the al-hadees.com scrape, so re-attaching them requires the same content-matching treatment the 6 fawaz-derived books got, not yet done for Ahmad. Tracked as future work.
 - **Sunan ad-Darimi has Arabic only** — no English, Indonesian, or any other language exists for any of its 3,367 entries in any upstream source used here (AhmedBaset's own English field was empty for Darimi before this rebuild too; the Arabic-scaffold replacement didn't change that).
