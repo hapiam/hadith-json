@@ -184,6 +184,18 @@ Merge helpers:
 | 13–17 | riyadussalihin, mishkat, adab, shamail, bulugh | Spine + sagad ID drafts |
 | 18 | hisn | From muallimai; ara + eng |
 
+## Duplicate hadith rows (958 rows / 21 books) — investigation in progress
+
+See **[`DUPLICATE_HADITH_INVESTIGATION.md`](DUPLICATE_HADITH_INVESTIGATION.md)**
+for the full writeup: three distinct root causes (scraper-retry duplication
+in Bukhari/Muslim/Tabarani, a numbering-overlap bug in this repo's own
+Malik/Lu'lu' wal-Marjan append logic, and legitimate classical repetition in
+~16 other books that needs no fix), how the first signs of this were found
+and not acted on back on 2026-07-24, and current fix status. **This also
+corrects the "Malik: 127 untranslated entries beyond 1,858" claim below** —
+only ~15 of those 140 appended rows are actually new content; the rest are
+duplicates of fawaz's own 1..1858 range under different `idInBook`s.
+
 ## Known limitations
 
 - **Muslim's Introduction section** (83 entries, `chapterId: 0`) sits outside fawaz's numbered scheme entirely and is preserved by appending past the main 7,563, not discarded.

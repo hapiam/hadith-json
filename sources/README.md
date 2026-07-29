@@ -52,9 +52,21 @@ sources/
 | **fawazahmed0/hadith-api** | ⚠️ `tool/fetch_fawaz_editions.ps1` (PowerShell, predates this convention — not a scrape, fetches a published API/CDN, left in `tool/` rather than migrated here) | ✅ locally cached, used directly by `tool/rebuild_from_fawaz.dart` | Canonical Arabic+English+numbering source for Bukhari/Muslim/Abu Dawud/Tirmidhi/Nasa'i/Ibn Majah (see main `README.md`) |
 | **mhashim6/Open-Hadith-Data** (GitHub) | ➖ not applicable — a raw file pull from a public GitHub repo, not a scrape | ✅ merged into `db/by_book/the_9_books/darimi.json` | Darimi's canonical Arabic scaffold |
 | **al-hadees.com** | ❌ **not preserved** — the original scraping script was written and run in an earlier chat session's scratch space, not saved into this repo, and no longer exists | ✅ merged result only, in `db/by_book/the_9_books/ahmed.json` (27,632 raw records → 27,648 final, see main `README.md`'s Musnad Ahmad section) | Musnad Ahmad's full rebuild, replacing the old 1,374-hadith AhmedBaset stub |
+| **hadithunlocked.com** | ✅ `tool/import_hadithunlocked.dart` (not under `sources/`, predates this convention — imports a browser-downloaded export, not a live scrape) | ⚠️ raw export gitignored (`sources/hadithunlocked.com/original_source/`, 1.8GB, regenerate by re-downloading); merged result in `db/by_book/hadithunlocked/*.json` | 12 books (nasai-kubra, lulu-marjan, ibnrajab50, ibnhibban, bayhaqi, tabarani, hakim, ahmad-zuhd, daraqutni, bazzar, suyuti, ibnkhuzaymah). **Known defect**: Tabarani's raw `item.number` field has ~340 duplicate numbers (already flagged in the import script's own doc comment) that turned out to be real content-level duplicate rows, not just a numbering quirk — see **[`../DUPLICATE_HADITH_INVESTIGATION.md`](../DUPLICATE_HADITH_INVESTIGATION.md)** |
 
-The last two rows are a known gap this convention is meant to prevent going
-forward: if either of those books ever needs re-scraping or a raw-record
-audit, the script would have to be rewritten from scratch since it wasn't
-archived. Every scrape from this point on should land under `sources/` so
-that never happens again.
+The **mhashim6** and **al-hadees.com** rows are a known gap this convention
+is meant to prevent going forward: if either of those books ever needs
+re-scraping or a raw-record audit, the script would have to be rewritten
+from scratch since it wasn't archived. Every scrape from this point on
+should land under `sources/` so that never happens again.
+
+## Known data-quality issues found across sources
+
+See **[`../DUPLICATE_HADITH_INVESTIGATION.md`](../DUPLICATE_HADITH_INVESTIGATION.md)**
+for the full writeup of 958 duplicate hadith rows across 21 books, three
+distinct root causes (fawazahmed0's own internal scraper-retry duplicates,
+hadithunlocked.com's Tabarani duplicates, and a numbering-overlap bug in
+this repo's own Malik/Lu'lu' wal-Marjan merge logic), and how the first
+signs of this were found on 2026-07-24
+(`amrayn.com/FAWAZ_INTERNAL_DUPLICATION.md`) but not converted into a fix
+until 2026-07-29.
