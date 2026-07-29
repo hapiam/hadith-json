@@ -1062,6 +1062,16 @@ class UnifiedBuilder {
   // 2026-07-29). Addenda are excluded the same way the caller's own
   // `addendumCount` already is -- this only meaningfully affects
   // non-addendum rows, but skips `isAddendum` ones defensively anyway.
+  //
+  // Each number in the trailing list may carry a single lettered-variant
+  // suffix (e.g. "Sahih Muslim 1486a, 1487a, 1488a, 1489") -- Bukhari's own
+  // compound citations never mix lettered and plain numbers, but Muslim's
+  // do (see `fix_muslim_compound_citations.dart`). A plain `\d+` pattern
+  // silently undercounted these: it can only match a PURE-digit tail, so
+  // "...1488a, 1489" (letter on the second-to-last number) matched nothing
+  // at all and fell back to counting the whole row as 1 instead of 4
+  // (caught 2026-07-29 -- hadithCount rose by only 1 after fixing 3 known
+  // compound citations, when it should have risen by 5).
   int _citationCount(List<Map<String, dynamic>> hadiths) {
     var total = 0;
     for (final h in hadiths) {
@@ -1069,7 +1079,7 @@ class UnifiedBuilder {
       final ref = (h['reference'] as Map?)?['text'] as String?;
       final m = ref == null
           ? null
-          : RegExp(r'(\d+(?:,\s*\d+)+)\s*$').firstMatch(ref);
+          : RegExp(r'(\d+[a-zA-Z]?(?:,\s*\d+[a-zA-Z]?)+)\s*$').firstMatch(ref);
       total += m == null ? 1 : m.group(1)!.split(',').length;
     }
     return total;

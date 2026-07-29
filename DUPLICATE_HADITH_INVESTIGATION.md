@@ -291,7 +291,8 @@ Imam Malik's own legal rulings mixed into Muwatta) and a
 `reference.text` matching sunnah.com's own label (e.g. `"Sahih Muslim,
 Introduction 33"`). Explicit user choice (given two options): count this
 content toward `hadithCount` rather than excluding it — raising Muslim's
-count from 7,376 to 7,464, which lines up with sunnah.com's own
+count from 7,376 to 7,469 (7,464 rows + 5 recovered from the compound-citation
+fix below), which lines up with sunnah.com's own
 "approximately 7,500 ahadith" framing better than 7,376 did.
 
 Two bugs surfaced and were fixed during this second pass, both caught by
@@ -312,6 +313,50 @@ amrayn.com and hadithunlocked.com's scrapes, then verified directly on
 sunnah.com itself — genuinely missing from the primary source, not a
 scraper failure in either downstream site. Left as absent rows rather than
 fabricated.
+
+**3 of those 16 turned out to be wrong — found only because the user
+supplied direct sunnah.com leads and asked "are they found on any of our
+other resources?" rather than accepting the earlier verdict.** Checked
+each directly (2026-07-29): citations **1489, 1697, and 2293 are NOT
+missing at all** — they're the trailing member of a sunnah.com
+compound-citation page, exactly Bukhari's already-handled "272, 273 merged
+into one page" pattern, just never recognized as such for Muslim:
+`sunnah.com/muslim:1486a` is actually titled "Sahih Muslim 1486a, 1487a,
+1488a, 1489"; `sunnah.com/urn/242090` is "1697/1698a"; `sunnah.com/urn/256840`
+is "2292, 2293". hadithunlocked's own scrape had already merged each
+group's content into a single item (recording only ONE of the numbers as
+its own citation label — 1486a, 1698a, 2292 respectively — never creating
+separate rows for the others), so `tool/fix_muslim_compound_citations.dart`
+just rewrites each existing row's `reference.text` to the full compound
+string, no row-merging needed (unlike Bukhari's fix). Normalized to
+comma-separated form throughout, even for the "1697/1698a" case where
+sunnah.com's own display uses a slash, for consistency with the one
+separator format `_citationCount()` parses.
+
+Not all of the user's leads panned out, and each was checked rather than
+trusted — two suggested URLs (`sunnah.com/muslim:2408a` for the 2483 gap,
+`sunnah.com/muslim:1211g` for the 2931 gap) turned out to be unrelated
+standalone citations with no connection to the gap in question. The other
+6 originally-flagged gaps (1824, 2483, 2503, 2828, 2931, 3007–3014) were
+independently re-verified the same way — direct sunnah.com fetches of the
+citation itself plus both immediate neighbors — and confirmed to still be
+genuinely absent, no compound page, no redirect, nothing. (Neighbor checks
+also surfaced 4 numbers that 404 on sunnah.com but are already correctly
+present in our own data from hadithunlocked — 2502, 2827, 2930, 3006 —
+an unrelated, benign sunnah.com/hadithunlocked coverage discrepancy that
+doesn't affect anything here.)
+
+**A second regex bug found while fixing the first**: `_citationCount()`'s
+compound-citation regex only matched a pure-digit trailing list
+(`\d+(?:,\s*\d+)+`) — correct for Bukhari, whose compound citations never
+mix lettered and plain numbers, but wrong for Muslim's, which do (e.g.
+"1486a, 1487a, 1488a, 1489" has a lettered number second-to-last). The old
+regex silently matched nothing for 2 of the 3 fixes above, undercounting
+by 4: `hadithCount` rose by only 1 (not the correct 5) after the
+compound-citation fix landed. Fixed by allowing an optional single-letter
+suffix per number in the sequence (`\d+[a-zA-Z]?(?:,\s*\d+[a-zA-Z]?)+`).
+Verified: `hadithCount` now correctly reads 7,469 (7,464 + exactly 5 — 3
+from the 1486a group, 1 each from 1698a and 2292).
 
 **Translations.** Muslim's 6 non-English languages (Bengali, French,
 Indonesian, Russian, Tamil, Turkish, Urdu) only ever existed via fawaz,
@@ -379,7 +424,9 @@ uses for the full 96-row Introduction rebuild described above. No
 fix eliminated the false positive rather than documenting around it.
 
 **Final result**: `eng-muslim` (and all 7 other languages) — **7,563 → 7,464
-rows**, `idInBook` 1–7,464 dense with no gaps, Introduction now has 96 rows
+rows** (`hadithCount` **7,469** once the compound-citation fix's folded-in
+numbers are counted — see below), `idInBook` 1–7,464 dense with no gaps,
+Introduction now has 96 rows
 (8 citable citations + 83 non-citable-but-real narrations + 5 prose essays)
 correctly distributed across sunnah.com's own 8 bab sub-chapters, 1,419
 total chapter rows (57 top-level books matching sunnah.com's real book list
