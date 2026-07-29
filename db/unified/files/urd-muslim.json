@@ -6418,7 +6418,7 @@
 		{
 			"id": 2000384,
 			"idInBook": 384,
-			"chapterId": 43,
+			"chapterId": 1,
 			"bookId": 2,
 			"arabic": "",
 			"translation": {
@@ -6486,7 +6486,7 @@
 		{
 			"id": 2000388,
 			"idInBook": 388,
-			"chapterId": 16,
+			"chapterId": 1,
 			"bookId": 2,
 			"arabic": "",
 			"translation": {

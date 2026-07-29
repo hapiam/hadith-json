@@ -205,6 +205,21 @@ this book. This affects more than just the duplicate-row question: any
 future work trusting Muslim's `reference.text` for *any* row should treat
 it as unverified.
 
+**A second, narrower symptom found and fixed** (`tool/
+fix_muslim_empty_row_chapterid.dart`, 2026-07-29, unrelated to numbering):
+2 rows (`idInBook` 384/"151c", 388/"154b") are `noSourceContent: true` —
+completely empty, no Arabic or English text at all — and had a `chapterId`
+matching NEITHER neighbor (landing in chapter 43 "Virtues" and chapter 16
+"Marriage" respectively, when both sit between chapter-1 "Faith" neighbors
+on both sides). Whole-book scan confirmed these are the only 2 such rows
+out of 203 total `noSourceContent` rows (a third apparent case, 5384, is a
+different, already-correct, already-documented situation —
+`chapterId: null`, a genuine content gap with nothing to infer from, left
+untouched). Fixed by setting both to `chapterId: 1`, matching both
+neighbors. Low-risk, isolated fix — touches only `chapterId`, nothing about
+`reference` or numbering, so carries none of the broader numbering risk
+above.
+
 ## Category 1c — Tabarani: site-level duplication (hadithunlocked.com)
 
 Different from Bukhari's pattern — no compound-citation framing exists on
