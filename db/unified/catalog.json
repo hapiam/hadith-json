@@ -311,7 +311,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2638573
+			"mirrorZipBytes": 2638595
 		},
 		{
 			"id": "fra-muslim",
@@ -544,7 +544,7 @@
 				"fawaz",
 				"muallimai"
 			],
-			"mirrorZipBytes": 1556091
+			"mirrorZipBytes": 1556100
 		},
 		{
 			"id": "fra-nasai",
@@ -2229,7 +2229,7 @@
 				"muallimai",
 				"sagad"
 			],
-			"mirrorZipBytes": 528788
+			"mirrorZipBytes": 528777
 		},
 		{
 			"id": "ind-bulugh",
@@ -2340,7 +2340,7 @@
 			"sources": [
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 3959348
+			"mirrorZipBytes": 3959466
 		},
 		{
 			"id": "ara-lulu-marjan",
@@ -2466,7 +2466,7 @@
 			"sources": [
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2869633
+			"mirrorZipBytes": 2869639
 		},
 		{
 			"id": "ara-bayhaqi",
@@ -2508,7 +2508,7 @@
 			"sources": [
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 9552802
+			"mirrorZipBytes": 9552773
 		},
 		{
 			"id": "ara-tabarani",
@@ -2550,7 +2550,7 @@
 			"sources": [
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 4001821
+			"mirrorZipBytes": 4001879
 		},
 		{
 			"id": "ara-hakim",
@@ -2592,7 +2592,7 @@
 			"sources": [
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 4240221
+			"mirrorZipBytes": 4240154
 		},
 		{
 			"id": "ara-ahmad-zuhd",
