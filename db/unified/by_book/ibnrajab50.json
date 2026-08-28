@@ -1083,7 +1083,7 @@
 			"translations": {
 				"en": {
 					"narrator": "Yazīd b. Hārūn > Ḥammād b. Salamah > al-Zubayr Abū ʿAbd al-Salām > Ayyūb b. ʿAbdullāh b. Mikraz > Wābiṣah b. Maʿbad",
-					"text": "I came to the Messenger of Allah ﷺ  with the intention of not leaving anything regarding righteousness and sin without asking him about it. Whenever there was a congregation around him, I would pass by them and they would say, \"Go to him, O Wabisah, and ask him.\" So, I would say, \"I am Wabisah, let me get closer to him, for it is more beloved to me to get closer to him.\" Then he ﷺ  said to me, \"Come closer, O Wabisah, come closer, O Wabisah.\" So, I got closer to him until my knees touched his knees. Then he said, \"O Wabisah, shall I inform you of what you came to ask me about or shall you ask me?\" I said, \"O Messenger of Allah, inform me.\" He said, \"You came to ask me about righteousness and sin?\" I said, \"Yes.\" So, he clasped his three fingers together and tapped them on my chest, and said, \"O Wabisah, consult your heart regarding righteousness, for it is that which the heart finds contentment with, and consult your soul regarding sin, for it is that which causes doubts in the chest. And if the people give you their opinion and you give them yours...\""
+					"text": "I came to the Messenger of Allah ﷺ  with the intention of not leaving anything regarding righteousness and sin without asking him about it. Whenever there was a congregation around him, I would pass by them and they would say, \"Keep away, O Wabisah, from the Messenger of Allah! Keep away, O Wabisah!\" So, I would say, \"I am Wabisah, let me get closer to him, for it is more beloved to me to get closer to him.\" Then he ﷺ  said to me, \"Come closer, O Wabisah, come closer, O Wabisah.\" So, I got closer to him until my knees touched his knees. Then he said, \"O Wabisah, shall I inform you of what you came to ask me about or shall you ask me?\" I said, \"O Messenger of Allah, inform me.\" He said, \"You came to ask me about righteousness and sin?\" I said, \"Yes.\" So, he clasped his three fingers together and tapped them on my chest, and said, \"O Wabisah, consult your own soul. Righteousness is that which the heart finds tranquil and the soul finds at ease with, and sin is that which rankles in the heart and causes uncertainty in the chest, even though people repeatedly give you a ruling in its favor.\""
 				}
 			},
 			"grades": [
@@ -1096,8 +1096,7 @@
 				"text": "Jami al-Ulum wa-al-Hikam 27-2",
 				"url": "https://hadithunlocked.com/ibnrajab50/1/27"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 21000046,
@@ -1323,7 +1322,7 @@
 			"arabic": "أَخْبَرَنَا أَبُو الْحَسَنِ عَلِيُّ بْنُ أَحْمَدَ بْنِ عَبْدَانَ أنبأ أَحْمَدُ بْنُ عُبَيْدٍ الصَّفَّارُ ثنا جَعْفَرُ بْنُ مُحَمَّدٍ الْفِرْيَابِيُّ ثنا الْحَسَنُ بْنُ سَهْلٍ ثنا عَبْدُ اللهِ بْنُ إِدْرِيسَ ثنا ابْنُ جُرَيْجٍ وَعُثْمَانُ بْنُ الْأَسْوَدِ عَنِ ابْنِ أَبِي مُلَيْكَةَ قَالَ\nكُنْتُ قَاضِيًا لِابْنِ الزُّبَيْرِ عَلَى الطَّائِفِ فَذَكَرَ قِصَّةَ الْمَرْأَتَيْنِ قَالَ فَكَتَبْتُ إِلَى ابْنِ عَبَّاسٍ فَكَتَبَ ابْنُ عَبَّاسٍ ؓ أَنَّ رَسُولَ اللهِ ﷺ قَالَ لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ لَادَّعَى رِجَالٌ أَمْوَالَ قَوْمٍ وَدِمَاءَهُمْ وَلَكِنَّ الْبَيِّنَةَ عَلَى الْمُدَّعِي وَالْيَمِينَ عَلَى مَنْ أَنْكَرَ وَذَكَرَ الْحَدِيثَ",
 			"translations": {
 				"en": {
-					"narrator": "Abū al-Ḥasan ʿAlī b. Aḥmad b. ʿAbdān > Aḥmad b. ʿUbayd al-Ṣaffār > Jaʿfar b. Muḥammad al-Firyābī > al-Ḥasan b. Sahl > ʿAbdullāh b. Idrīs > Ibn Jurayj And ʿUthmān b. al-Aswad > Ibn Abū Mulaykah > Kunt",
+					"narrator": "Abū al-Ḥasan ʿAlī b. Aḥmad b. ʿAbdān > Aḥmad b. ʿUbayd al-Ṣaffār > Jaʿfar b. Muḥammad al-Firyābī > al-Ḥasan b. Sahl > ʿAbdullāh b. Idrīs > Ibn Jurayj And ʿUthmān b. al-Aswad > Ibn Abū Mulaykah",
 					"text": "I was a judge for Ibn Zubayr in Taif, and he mentioned the story of the two women. So, I wrote to Ibn Abbas and he wrote back that the Messenger of Allah  ﷺ  said, \"If people were given what they claimed, men would claim the wealth and blood of others. But the burden of proof is upon the claimant, and the oath is upon the one who denies, and he mentioned the hadith.\""
 				}
 			},
@@ -1332,8 +1331,7 @@
 				"text": "Jami al-Ulum wa-al-Hikam 33",
 				"url": "https://hadithunlocked.com/ibnrajab50/1/33"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 21000056,

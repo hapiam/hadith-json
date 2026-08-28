@@ -265,7 +265,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 1278356
+			"mirrorZipBytes": 1279747
 		},
 		{
 			"id": "ben-muslim",
@@ -288,7 +288,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2885198
+			"mirrorZipBytes": 2886079
 		},
 		{
 			"id": "eng-muslim",
@@ -311,7 +311,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2638595
+			"mirrorZipBytes": 2638690
 		},
 		{
 			"id": "fra-muslim",
@@ -334,7 +334,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2316943
+			"mirrorZipBytes": 2317759
 		},
 		{
 			"id": "ind-muslim",
@@ -357,7 +357,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2590511
+			"mirrorZipBytes": 2590920
 		},
 		{
 			"id": "rus-muslim",
@@ -380,7 +380,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 1819076
+			"mirrorZipBytes": 1820316
 		},
 		{
 			"id": "tam-muslim",
@@ -403,7 +403,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2233818
+			"mirrorZipBytes": 2234792
 		},
 		{
 			"id": "tur-muslim",
@@ -426,7 +426,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 3245686
+			"mirrorZipBytes": 3246293
 		},
 		{
 			"id": "urd-muslim",
@@ -449,7 +449,7 @@
 				"fawaz",
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 2736071
+			"mirrorZipBytes": 2737105
 		},
 		{
 			"id": "ara-nasai",
@@ -2424,7 +2424,7 @@
 			"sources": [
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 43115
+			"mirrorZipBytes": 43124
 		},
 		{
 			"id": "ara-ibnhibban",
@@ -2696,7 +2696,7 @@
 			"sources": [
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 1617079
+			"mirrorZipBytes": 1618591
 		},
 		{
 			"id": "ara-suyuti",
@@ -2780,7 +2780,7 @@
 			"sources": [
 				"hadithunlocked.com"
 			],
-			"mirrorZipBytes": 572160
+			"mirrorZipBytes": 572145
 		}
 	],
 	"bookChapters": {

@@ -242,8 +242,8 @@
 			"arabic": "حَدَّثَنَا أَبُو كُرَيْبٍ قَالَ نا مُوسَى بْنُ دَاوُدَ قَالَ نا حُسَامُ بْنُ مِصَكٍّ عَنْ مُحَمَّد بْنِ سِيرِينَ عَنِ ابْنِ عَبَّاسٍ عَن أَبِي بَكْرٍ\nأَنَّ النَّبِيَّ ﷺ أَكَلَ خُبْزًا وَلَحْمًا ثُمَّ صَلَّى وَلَمْ يَتَوَضَّأْ قَالَ أَبُو بَكْرٍ وَهَذَا الْحَدِيثُ قَدْ رَوَاهُ هِشَامُ بْنُ حَسَّانَ وَأَشْعَثُ بْنُ عَبْدِ الْمِلكِ وَغَيْرُهُمَا عَنْ مُحَمَّد بْنِ سِيرِينَ عَنِ ابْنِ عَبَّاسٍ عَن النَّبِيِّ ﷺ وَلَمْ يَقُولُوا عَن أَبِي بَكْرٍ وَإِنَّمَا قَالَهُ حُسَامٌ عَنِ ابْنِ عَبَّاسٍ عَن أَبِي بَكْرٍ وَحُسَامٌ فَلَيْسَ بِالْقَوِيِّ عَلَى أَنَّ مُحَمَّدَ بْنَ سِيرِينَ لَمْ يَسْمَعْ مِنْ ابْنِ عَبَّاسٍ",
 			"translations": {
 				"en": {
-					"narrator": "Abu Kuraysh>Musa b. Daud>Qal>Husaam b. Miska'b>Muhammad b. Sireen>Ibn Abbas>Abi Bakr",
-					"text": "The Prophet ﷺ ate bread and meat, then prayed without washing his hands."
+					"narrator": "Abū Kurayb > Mūsā b. Dāwūd > Ḥusām b. Miṣak > Muḥammad b. Sīrīn > Ibn ʿAbbās > Abī Bakr",
+					"text": "The Prophet ﷺ ate bread and meat, then prayed without performing ablution (wudu). Abu Bakr said: This hadith has been narrated by Hisham b. Hassan and Ash'ath b. Abd al-Malik, and others besides them, from Muhammad b. Sirin, from Ibn Abbas, from the Prophet ﷺ, and they did not say \"from Abu Bakr.\" Rather, it was Husam alone who narrated it as \"from Ibn Abbas, from Abu Bakr.\" And Husam is not a strong narrator — not to mention that Muhammad b. Sirin did not hear from Ibn Abbas."
 				}
 			},
 			"grades": [],
@@ -251,8 +251,7 @@
 				"text": "Musnad al-Bazzar 12",
 				"url": "https://hadithunlocked.com/bazzar/1/5"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000013,
@@ -301,8 +300,8 @@
 			"arabic": "نا عَمْرُو بْنُ عَلِيٍّ قَالَ نا أَبُو نَصْرٍ التَّمَّارُ قَالَ نا كَوْثَرُ بْنُ حَكِيمٍ عَنْ نَافِعٍ عَنِ ابْنِ عُمَرَ عَنْ أَبِي بَكْرٍ\nأَنَّ النَّبِيَّ ﷺ قَالَ مَنِ اغْبَرَّتْ قَدَمَاهُ فِي سَبِيلِ اللَّهِ حَرَّمَهُمَا اللَّهُ عَلَى النَّارِ قَالَ أَبُو بَكْرٍ وَهَذَا الْحَدِيثُ إِنَّمَا يُرْوَى عَنْ أَبِي بَكْرٍ مِنْ هَذَا الْوَجْهِ وَقَدْ رُوِيَ عَنِ النَّبِيِّ ﷺ مِنْ وُجُوهٍ وَكَوْثَرُ بْنُ حَكِيمٍ رَوَى عَنْهُ هُشَيْمٌ وَأَبُو نَصْرٍ التَّمَّارُ وَغَيْرُ وَاحِدٍ وَأَحَادِيثُهُ فَبَعْضُهَا لَمْ يَرْوِهَا غَيْرُهُ وَقَدْ شُورِكَ فِي بَعْضِهَا",
 			"translations": {
 				"en": {
-					"narrator": "NaʿAmru b. ʿAliy> NaʾAbū Nasr al-Tummār> Na'Kauthar b. Hākim> Naafiع> Ibn ʿUmar> Abū Bakr",
-					"text": "The Prophet ﷺ said: 'Whoever takes a step in the way of Allah, Allah will prevent his feet from going into hellfire.' Abu Bakr said: This hadith is only narrated by Abu Bakr. And it has been narrated from the Prophet ﷺ on various occasions and some have narrated it with variations."
+					"narrator": "ʿAmr b. ʿAlī > Abū Naṣr al-Tammār > Kawthar b. Ḥakīm > Nāfiʿ > Ibn ʿUmar > Abū Bakr",
+					"text": "The Prophet ﷺ said: 'Whoever's feet become dusty in the way of Allah, Allah will prevent them from going into hellfire.' Abu Bakr said: This hadith is only narrated from Abu Bakr through this route. And it has been narrated from the Prophet ﷺ through various routes. Kawthar b. Hakim was narrated from by Hushaym, Abu Nasr al-Tammar, and others; some of his hadiths have not been narrated by anyone else, while he has been corroborated in some of them."
 				}
 			},
 			"grades": [],
@@ -310,8 +309,7 @@
 				"text": "Musnad al-Bazzar 15",
 				"url": "https://hadithunlocked.com/bazzar/1/6"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000016,
@@ -341,8 +339,8 @@
 			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ مِسْكِينٍ قَالَ نا عَبْدُ اللَّهِ بْنُ يَزِيدَ قَالَ نا حَيْوَةُ يَعْنِي ابْنَ شُرَيْحٍ قَالَ سَمِعْتُ عَبْدَ الْمَلِكِ بْنُ الْحَارِثِ يُحَدِّثُ عَنْ أَبِي هُرَيْرَةَ قَالَ سَمِعْتُ أَبَا بَكْرٍ يَقُولُ\nسَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ لَمْ تُؤْتَوْا بَعْدَ كَلِمَةِ الْإِخْلَاصِ أَفْضَلَ مِنَ الْعَافِيَةِ فَسَلُوا اللَّهَ الْعَافِيَةَ وَعَبْدُ الْمَلِكِ بْنُ الْحَارِثِ لَا نَعْلَمُ رَوَى عَنْهُ غَيْرُ حَيْوَةَ",
 			"translations": {
 				"en": {
-					"narrator": "Muḥammad b. Miskin>ʿAbdullāh b. Yazīd>Haywāt i.e., Ibn Shuriḥ>ʿAbd al-Malik b. al-Ḥārith>Abu Hurayrah>أَبُ بَكْرٍ",
-					"text": "*\"لَمْ تُؤْتَوْا بَعْدَ كَلِمَةِ الْإِخْلَاصِ أَفْضَلَ مِنَ الْعَافِيَةِ فَسَلُوا اللَّهَ الْعَافِيَةَ\"* ﻭلا نعلم روى عنهو غير حيوة"
+					"narrator": "Muḥammad b. Miskin > ʿAbdullāh b. Yazīd > Ḥaywah i.e., Ibn Shurayḥ > ʿAbd al-Malik b. al-Ḥārith > Abū Hurayrah > Abū Bakr",
+					"text": "The Messenger of Allah ﷺ said: *\"You have not been given, after the word of sincerity, anything better than well-being, so ask Allah for well-being.\"* And we do not know of anyone who narrated from ʿAbd al-Malik b. al-Ḥārith other than Ḥaywah."
 				}
 			},
 			"grades": [],
@@ -350,8 +348,7 @@
 				"text": "Musnad al-Bazzar 17",
 				"url": "https://hadithunlocked.com/bazzar/1/7"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000018,
@@ -399,8 +396,8 @@
 			"arabic": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعِيدٍ قَالَ نا الْحَكَمُ بْنُ نَافِعٍ قَالَ نا الْعَطَّافُ بْنُ خَالِدٍ عَنْ طَلْحَةَ بْنِ عَبْدِ اللَّهِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ أَبِي بَكْرٍ عَنْ أَبِيهِ عَنْ جَدِّهِ\nأَنَّهُ سَمِعَ أَبَا بَكْرٍ الصِّدِّيقَ ؓ يَقُولُ قُلْتُ يَا رَسُولَ اللَّهِ أَنَعْمَلُ فِي أَمْرٍ قَدْ فُرِغَ مِنْهُ أَمْ أَمْرٍ مُؤْتَنَفٍ ؟ قَالَ لَا بَلْ فِي أَمْرٍ قَدْ فُرِغَ مِنْهُ قُلْتُ فَفِيمَ الْعَمَلُ ؟ قَالَ اعْمَلُوا فَكُلٌّ مُيَسَّرٌ لِمَا خُلِقَ لَهُ وَهَذَا الْكَلَامُ لَا نَعْلَمُهُ يُرْوَى عَنْ أَبِي بَكْرٍ إِلَّا مِنْ هَذَا الْوَجْهِ بِهَذَا الْإِسْنَادِ وَالْعَطَّافُ بْنُ خَالِدٍ قَدْ حَدَّثَ عَنْهُ جَمَاعَةٌ وَهُوَ صَالِحُ الْحَدِيثِ وَإِنْ كَانَ قَدْ حَدَّثَ بِأَحَادِيثَ عَنْ نَافِعٍ لَمْ يُتَابَعْ عَلَيْهَا",
 			"translations": {
 				"en": {
-					"narrator": "Ibrahim bin Sa'eed>al-Hakam bin Nafi'>Naafa fi'>ʿAbdullāh bin Abdul Rahman bin Abi Bakr>Abi Bakr as-Siddiq ؓ",
-					"text": "It was narrated from Abu Bakr رضي الله عنه that he said: ‘I said: O Messenger of Allah, shall I work in a matter that has been abandoned? Or in an ongoing one?’ He said: No, but rather in the first. I said: So what should we do? He said: Work and keep working because each person is made easy for his creation.’ This saying is only narrated from Abu Bakr except through this hadith and its chain.'Naafa fi'also had other reporters."
+					"narrator": "Ibrahim bin Sa'eed>al-Hakam bin Nafi'>al-Attaf bin Khalid>Talha bin Abdullah bin Abdul Rahman bin Abi Bakr from his father from his grandfather>Abi Bakr as-Siddiq ؓ",
+					"text": "It was narrated from Abu Bakr رضي الله عنه that he said: 'I said: O Messenger of Allah, are we to act in a matter that has already been decided, or a new matter? He said: No, rather it is a matter that has already been decided. I said: Then what is the use of action? He said: Work, for each is made easy for that which he was created for.' We do not know this saying to be narrated from Abu Bakr except through this route, with this chain. Al-Attaf bin Khalid — a group narrated from him, and he is of sound hadith, though he narrated some hadiths from Nafi' that were not corroborated."
 				}
 			},
 			"grades": [],
@@ -408,8 +405,7 @@
 				"text": "Musnad al-Bazzar 20",
 				"url": "https://hadithunlocked.com/bazzar/1/8"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000021,
@@ -498,8 +494,8 @@
 			"arabic": "حَدَّثَنَا بِهِ مُحَمَّدُ بْنُ الْمُثَنَّى قَالَ نا عُمَرُ بْنُ عَلِيٍّ عَنْ أَبِي حَازِمٍ عَنْ سَهْلِ بْنِ سَعْدٍ\nقَالَ كَانَ أَبُو بَكْرٍ ؓ لَا يَلْتَفِتُ فِي صَلَاتِهِ",
 			"translations": {
 				"en": {
-					"narrator": "Muḥammad b. al-Muṭan’ī > Abū ‘Umar > Umar ibn al-‘Alī>Abū Hāzim>Sahl b. Sa’d",
-					"text": "Abu Bakr was a devout worshipper who would not even move in prayer."
+					"narrator": "Muḥammad b. al-Muthannā > ʿUmar b. ʿAlī > Abū Ḥāzim > Sahl b. Saʿd",
+					"text": "Abu Bakr ᴿᴬ would not turn around during his prayer."
 				}
 			},
 			"grades": [],
@@ -507,8 +503,7 @@
 				"text": "Musnad al-Bazzar 25",
 				"url": "https://hadithunlocked.com/bazzar/1/11"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000026,
@@ -575,8 +570,8 @@
 			"arabic": "أَخبرَنِي عَبْدُ الْقُدُّوسِ بْنُ مُحَمَّدٍ بْنِ عَبْدِ الْكَبِيرِ الْعَطَّارُ قَالَ نا أَمْرُو بْنُ عَاصِمٍ الْكِلَابِيُّ قَالَ نا سُلَيْمَانُ بْنُ الْمُغِيرَةِ عَنْ ثَابِتٍ عَنْ أَنَسٍ\nقَالَ اِنَّ حَدِيثَهُمَا لَا نَعْلَمُ سُبْطَانًا مِنْهُمَا إِلَّا قَوْلاً فِي الْمَوْتِ وَأَنْسٌ قَالَ قَالَ أَبُو بَكْرٍ بَعْدَ وَفَاةِ رَسُولِ اللَّهِ ﷺ انْطَلِقُوا بِنَا نَزُورُ أُمَّ أَيْمَنَ كَمَا كَانَ رَسُولُ اللَّهِ ﷺ يَزُورُهَا وَهَذَا الْحَدِيثُ لَا نَعْلَمُ رَوَاهُ عَنْ سُلَيْمَانَ بْنِ الْمُغِيرَةِ إِلَّا عَمْرُو بْنُ عَاصِمٍ وَلَا يُرْوَى عَنْ أَبِي بَكْرٍ إِلَّا مِنْ هَذَا الْوَجْهِ وَالْإِسْنَادُ إِسْنَادٌ صَحِيحٌ",
 			"translations": {
 				"en": {
-					"narrator": "ʿAbdullāh b. Muḥammad b. ʿAbd al-Kabir the perfumer narrated to me, Amru b. ʿĀsim the dog handler, who said: Salīman b. Al-Muġira, who quoted from Thabīt, who quoted from Anas",
-					"text": "The narrator says that we do not know any tradition of these two except for a saying about death and Anas narrated a saying from Abu Bakr, after the death of Allah's Messenger ﷺ: go to visit Umm Ayman as was the habit of Allah's Messenger ﷺ. This is a sahih narration."
+					"narrator": "ʿAbd al-Quddūs b. Muḥammad b. ʿAbd al-Kabir the perfumer narrated to me, Amru b. ʿĀsim al-Kilābī, who said: Salīman b. Al-Muġira, who quoted from Thabīt, who quoted from Anas",
+					"text": "The narrator says that we do not know any tradition of these two except for a saying about death, and Anas narrated a saying from Abu Bakr, after the death of Allah's Messenger ﷺ: go to visit Umm Ayman as was the habit of Allah's Messenger ﷺ. We do not know this hadith narrated from Sulaymān b. al-Mughīra except by ʿAmr b. ʿĀṣim, nor is it narrated from Abu Bakr except by this route, and the isnad is sahih."
 				}
 			},
 			"grades": [],
@@ -584,8 +579,7 @@
 				"text": "Musnad al-Bazzar 29",
 				"url": "https://hadithunlocked.com/bazzar/1/14"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000030,
@@ -804,8 +798,8 @@
 			"arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ سَعِيدٍ الْكِنْدِيُّ قَالَ نا مُحَمَّدُ بْنُ فُضَيْلٍ قَالَ نا الْوَلِيدُ بْنُ جُمَيْعٍ عَنْ أَبِي الطُّفَيْلِ\nقَالَ أَرْسَلَتْ فَاطِمَةُ رَحْمَةُ اللَّهِ عَلَيْهَا إِلَى أَبِي بَكْرٍ رَحِمَهُ اللَّهُ يَا خَلِيفَةَ رَسُولِ اللَّهِ أَنْتَ وَرِثْتَ رَسُولَ اللَّهِ ﷺ أَمْ أَهْلُهُ ؟ قَالَ بَلْ أَهْلُهُ قَالَتْ فَمَا بَالُ سَهْمِ النَّبِيِّ ﷺ ؟ قَالَ سَمِعْتُ النَّبِيَّ ﷺ يَقُولُ إِذَا أَطْعَمَ اللَّهُ نَبِيًّا طُعْمَةً ثُمَّ قَبَضَهُ فَهُوَ لِلَّذِي يَقُومُ مِنْ بَعْدِهِ فَرَأَيْتُ أَنْ أَرُدَّهُ عَلَى الْمُسْلِمِينَ فَقَالَتْ أَنْتَ وَرَسُولُ اللَّهِ أَعْلَمُ قَالَ أَبُو بَكْرٍ وَهَذَا الْحَدِيثُ لَا نَعْلَمُ أَحَدًا رَوَاهُ بِهَذَا اللَّفْظِ إِلَّا أَبُو بَكْرٍ عَنِ النَّبِيِّ ﷺ وَلَا نَعْلَمُ لَهُ طَرِيقًا عَنْ أَبِي بَكْرٍ إِلَّا هَذَا الطَّرِيقَ وَأَبُو الطُّفَيْلِ قَدْ رَوَى عَنِ النَّبِيِّ ﷺ أَحَادِيثَ وَالْوَلِيدُ بْنُ جُمَيْعٍ رَجُلٌ مِنْ أَهْلِ الْكُوفَةِ قَدْ حَدَّثَ عَنْهُ جَمَاعَةٌ وَاحْتَمَلُوا حَدِيثَهُ",
 			"translations": {
 				"en": {
-					"narrator": "ʿAbdullāh b. Saʿīd al-Kindī>Muhammad b. Fuḍayl>al-Walid b. Jumāʿa>Abu al-Tufiyl",
-					"text": "Fatima, may Allah's mercy be upon her, sent to Abu Bakr, may Allah have mercy on him, saying: O Caliph of the Prophet! Are you or his people his heirs? He said: His people. She said: What about the Prophet’s share? I heard the Prophet say that if God gives a prophet food then takes it back, it is for whoever comes after him. So I thought to myself, let me return this to the Muslims. She said: You are the one who knows best, O Messenger of Allah! Abu Bakr replied and this hadith, we do not know anyone who narrated it except Abu Bakr from the Prophet, and we do not know any way for him except this. And Abu al-Tufiyl has narrated hadiths from the Prophet, and al-Walid b. Jumāʿa is a man from Kufa’s people who has been reported to have narrated from him by many people and they accepted his hadith"
+					"narrator": "ʿAbdullāh b. Saʿīd al-Kindī>Muhammad b. Fuḍayl>al-Walid b. Jumayʿ>Abu al-Tufiyl",
+					"text": "He said: Fatima, may Allah's mercy be upon her, sent to Abu Bakr, may Allah have mercy on him, saying: O Caliph of the Prophet! Are you or his people his heirs? He said: Rather, his people. She said: What about the Prophet's share? He said: I heard the Prophet say that if God gives a prophet food then takes him in death, it is for whoever comes after him. So I thought to myself, let me return this to the Muslims. She said: You and the Messenger of Allah know best. Abu Bakr replied and this hadith, we do not know anyone who narrated it with this wording except Abu Bakr, from the Prophet, and we do not know any route for it from Abu Bakr except this one. And Abu al-Tufiyl has narrated hadiths from the Prophet, and al-Walid b. Jumayʿ is a man from Kufa's people who has been reported to have narrated from him by many people and they accepted his hadith"
 				}
 			},
 			"grades": [],
@@ -813,8 +807,7 @@
 				"text": "Musnad al-Bazzar 41",
 				"url": "https://hadithunlocked.com/bazzar/1/22"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000042,
@@ -824,8 +817,8 @@
 			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ وَعَمْرُو بْنُ عَلِيٍّ قَالَا نا أَبُو أَحْمَدَ قَالَ نا إِسْرَائِيلُ عَنْ جَابِرٍ عَنِ الشَّعْبِيِّ عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبْزَى عَنْ أَبِي بَكْرٍ\n<p>أَنَّ النَّبِيَّ ﷺ رَدَّ مَاعِزًا أَرْبَعَ مَرَّاتٍ ثُمَّ أَمَرَ بِرَجْمِهِ وَلَا نَعْلَمُ رَوَى ابْنُ أَبْزَى عَنْ أَبِي بَكْرٍ إِلَّا هَذَا الْحَدِيثَ وَلَا لَهُ طَرِيقًا عَنْ أَبِي بَكْرٍ إِلَّا هَذَا الطَّرِيقَ</p>",
 			"translations": {
 				"en": {
-					"narrator": "Muhammad b. Bashshar>Amru b. Aliyy>Isrā’īl>Jābir>ash-Shaʻbī‘>ʿAbdu r-Raḥmān b. Abzā>Abu Bakr",
-					"text": "<p>Narrated Abu Bakr: The Prophet ﷺ drove away a goat four times, then ordered it to be stoned.</p>"
+					"narrator": "Muhammad b. Bashshar and Amru b. Aliyy>Abu Ahmad>Isrā'īl>Jābir>ash-Shaʻbī‘>ʿAbdu r-Raḥmān b. Abzā>Abu Bakr",
+					"text": "<p>Narrated Abu Bakr: The Prophet ﷺ drove Ma'iz away four times, then ordered him to be stoned. And we do not know that Ibn Abza narrated from Abu Bakr except this hadith, and he has no route from Abu Bakr except this route.</p>"
 				}
 			},
 			"grades": [],
@@ -833,8 +826,7 @@
 				"text": "Musnad al-Bazzar 42",
 				"url": "https://hadithunlocked.com/bazzar/1/23"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000043,
@@ -845,7 +837,7 @@
 			"translations": {
 				"en": {
 					"narrator": "Al-Fadl ibn Sahl > Ishaq bin Mansur > Husayn bin Umar> Muharriq> Tariq bin Shihab> Abu Bakr",
-					"text": "He said, \"When this verse was revealed, {O you who believe! Do not raise your voices above the voice of the Prophet}, I said, 'O Messenger of Allah, by God, I will not speak to you except as I would my brother in secret.' And this hadith is not known narrating from the Prophet ﷺ continuously except from Abu Bakr. May Allah have mercy on him and Husayn bin Umar has narrated hadiths that are not followed up upon. But those who come after Husayn, Muharriq is well-known, and those above him, their status needs no explanation due to its splendor."
+					"text": "He said, \"When this verse was revealed, {O you who believe! Do not raise your voices above the voice of the Prophet}, I said, 'O Messenger of Allah, by God, I will not speak to you except in a whisper, like one who speaks secretly.'\" And this hadith is not known narrating from the Prophet ﷺ continuously except from Abu Bakr, may Allah have mercy on him. And Husayn bin Umar has narrated hadiths that are not followed up upon. But those above Husayn, Muharriq is well-known, and those above him, their status needs no explanation due to its splendor."
 				}
 			},
 			"grades": [],
@@ -853,8 +845,7 @@
 				"text": "Musnad al-Bazzar 43",
 				"url": "https://hadithunlocked.com/bazzar/1/24"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000044,
@@ -864,8 +855,8 @@
 			"arabic": "حَدَّثَنَا سَلَمَةُ بْنُ شَبِيبٍ قَالَ نا عَبْدُ الرَّزَّاقِ قَالَ أنا مَعْمَرٌ عَنِ الزُّهْرِيِّ عَنْ عُرْوَةَ عَنْ عَائِشَةَ عَنْ أَبِي بَكْرٍ رَحْمَةُ اللَّهِ عَلَيْهِ\nعَن النَّبِيِّ ﷺ أَنَّهُ قَالَ لَا نُورَثُ مَا تَرَكْنَا صَدَقَةٌ. قَالَ أَبُو بَكْرٍ وَهَذَا الْكَلَامُ قَدْ رُوِيَ عَنْ أَبِي بَكْرٍ مِن غَيْرِ وَجْهٍ فَذَكَرْنَاهُ عَن عَائِشَةَ عَنْ أَبِي بَكْرٍ أَيْضًا",
 			"translations": {
 				"en": {
-					"narrator": "Salame b. Shabiq>na ʿAbdur-razzāq>maʿmärع عن الزهريّ عنه عن عروة عن عائشة عن أبي بكر رضي الله عنه",
-					"text": "The Prophet صلّى الله عليه وسلم said, 'We do not inherit what we leave behind but charity.' Abu Bakr said about this, and this statement has been narrated from him without authority, so it was mentioned from Aishah about Abu Bakr as well."
+					"narrator": "Salamah b. Shabib>Abdur-Razzaq>Ma'mar>al-Zuhri>Urwah>Aishah>Abu Bakr, ᴿᴬ",
+					"text": "The Prophet ﷺ said, 'We are not inherited from; what we leave is charity.' Abu Bakr said, and this statement has been narrated from Abu Bakr through more than one route, so we have also mentioned it from Aishah, from Abu Bakr."
 				}
 			},
 			"grades": [],
@@ -873,8 +864,7 @@
 				"text": "Musnad al-Bazzar 44",
 				"url": "https://hadithunlocked.com/bazzar/1/25"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000045,
@@ -884,8 +874,8 @@
 			"arabic": "حَدَّثَنَا الْحَسَنُ بْنُ يَحْيَى الَأَرُزِّيُّ قَالَ نا سُلَيْمَانُ بْنُ حَرْبٍ قَالَ نا حَمَّادُ بْنُ سَلَمَةَ عَنْ عَلِيِّ بْنِ زَيْدٍ عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ عَنْ عَائِشَةَ\nقَالَتْ تَمَثَّلْتُ فِي أَبِي وَأَبْيَضُ يُسْتَسْقَى الْغَمَامُ بِوَجْهِهِ رَبِيعُ الْيَتَامَى عِصْمَةٌ لِلْأَرَامِلِ فَقَالَ أَبِي ذَاكَ رَسُولُ اللَّهِ ﷺ قَالَ أَبُو بَكْرٍ وَهَذَا الْحَدِيثُ يَدْخُلُ فِي صِفَةِ النَّبِيِّ ﷺ وَإِسْنَادُهُ إِسْنَادٌ حَسَنٌ وَلَا نَعْلَمُ رَوَى هَذَا الْحَدِيثَ إِلَّا حَمَّادُ بْنُ سَلَمَةَ بِهَذَا الْإِسْنَادِ",
 			"translations": {
 				"en": {
-					"narrator": "Hasan b. Yahya al-Aruzi>Salim b. Harb>Hammad b. Salama>Ali b. Zayd>al-Qasim b. Muhammad> Aishah, ᴿᴬ",
-					"text": "*\"تَمَثَّلْتُ فِي أَبِي وَأَبْيَضُ يُسْتَسْقَى الْغَمَامُ بِوَجْهِهِ رَبِيعُ الْيَتَامَى عِصْمَةٌ لِلْأَرَامِلِ فَقَالَ أَبِي ذَاكَ رَسُولُ اللَّهِ ﷺ\"* Abu Bakr said, and this hadith is included in the description of the Prophet Muhammad ﷺ. And its chain is good but we do not know anyone who narrated it except Hammad b. Salama with this chain"
+					"narrator": "Hasan b. Yahya al-Aruzi>Sulayman b. Harb>Hammad b. Salama>Ali b. Zayd>al-Qasim b. Muhammad>Aishah, ᴿᴬ",
+					"text": "\"I likened my father to the one described as *\"a radiant one, by whose face the rain clouds are asked for rain, the spring of the orphans, the protection of the widows\"* — so my father said, \"That one is the Messenger of Allah ﷺ.\" Abu Bakr said, and this hadith is included in the description of the Prophet Muhammad ﷺ. And its chain is good but we do not know anyone who narrated it except Hammad b. Salama with this chain."
 				}
 			},
 			"grades": [],
@@ -893,8 +883,7 @@
 				"text": "Musnad al-Bazzar 45",
 				"url": "https://hadithunlocked.com/bazzar/1/25"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000046,
@@ -904,8 +893,8 @@
 			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى قَالَ نا إِبْرَاهِيمُ بْنُ عُمَرَ بْنِ أَبِي الْوَزِيرِ\nقَالَ نا زَنْفَلٌ أَبُو عَبْدِ اللَّهِ الْعَرَفِيُّ كَانَ يَنْزِلُ عَرَفَاتَ قَالَ نا ابْنُ أَبِي مُلَيْكَةَ عَنْ عَائِشَةَ عَنْ أَبِي بَكْرٍ أَنَّ النَّبِيَّ ﷺ كَانَ إِذَا أَرَادَ أَمْرًا قَالَ اللَّهُمَّ خِرْ لِي وَاخْتَرْ لِي وَهَذَا الْحَدِيثُ لَا نَعْلَمُهُ يُرْوَى عَنِ النَّبِيِّ ﷺ إِلَّا مِنْ هَذَا الْوَجْهِ بِهَذَا الْإِسْنَادِ وَزَنْفَلٌ هَذَا قَدْ حَدَّثَ عَنْهُ غَيْرُ إِنْسَانٍ إِلَّا أَنَّهُ لَا نَعْلَمُ أَنَّ أَحَدًا رَوَى هَذَا الْحَدِيثَ غَيْرُهُ فَلِذَلِكَ ذَكَرْنَاهُ",
 			"translations": {
 				"en": {
-					"narrator": "Muhammad b. al-Mathani>Ibrahim b. Umar b. Abi al-Wazir",
-					"text": "*لا نعلم أن أحدا روى هذا الحديث غيرهو رأي ايجابي*"
+					"narrator": "Muhammad b. al-Mathani > Ibrahim b. Umar b. Abi al-Wazir > Zanfal Abu Abdullah al-Arafi (who used to reside at Arafat) > Ibn Abi Mulaykah > Aishah > Abu Bakr",
+					"text": "The Prophet ﷺ, whenever he intended to do something, would say: *اللَّهُمَّ خِرْ لِي وَاخْتَرْ لِي* (Allahumma khir li wakhtar li — O Allah, choose good for me and select for me). And we do not know this hadith to have been narrated from the Prophet ﷺ except through this route, with this chain. This Zanfal has had more than one person narrate from him, but we do not know of anyone else who narrated this particular hadith besides him, so that is why we have mentioned it."
 				}
 			},
 			"grades": [],
@@ -913,8 +902,7 @@
 				"text": "Musnad al-Bazzar 46",
 				"url": "https://hadithunlocked.com/bazzar/1/25"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000047,
@@ -924,8 +912,8 @@
 			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ عُبَيْدٍ قَالَ حَدَّثَنِي جَدِّي عُبَيْدُ بْنُ عَقِيلٍ قَالَ نا عَبْدُ الرَّحْمَنِ بْنُ أَبِي بَكْرٍ عَنِ ابْنِ أَبِي مُلَيْكَةَ عَنْ عَائِشَةَ عَنْ أَبِي بَكْرٍ\nقَالَ سَمِعْتُ النَّبِيَّ ﷺ يَقُولُ مَا قُبِضَ نَبِيٌّ إِلَّا دُفِنَ حَيْثُ يُقْبَضُ وَقَالَ أَبُو بَكْرٍ وَجَدْتُ فِي كِتَابِي عَنْ أَبِي كُرَيْبٍ قَالَ نا أَبُو مُعَاوِيَةَ قَالَ نا عَبْدُ الرَّحْمَنِ بْنُ أَبِي بَكْرٍ عَنِ ابْنِ أَبِي مُلَيْكَةَ عَنْ عَائِشَةَ عَنْ أَبِي بَكْرٍ عَنِ النَّبِيِّ ﷺ بِنَحْوِهِ قَالَ أَبُو بَكْرٍ وَهَذَا الْكَلَامُ لَا نَعْلَمُ رَوَاهُ عَنِ النَّبِيِّ ﷺ إِلَّا أَبُو بَكْرٍ وَرَوَاهُ عَنْ أَبِي بَكْرٍ ابْنُ عَبَّاسٍ وَعَائِشَةُ",
 			"translations": {
 				"en": {
-					"narrator": "Muhammad b. Abdullāh b. Ubayd b. 'Aqil > Abdullah b. Abi Bakr b. Al-Malikah> Aishah > Abu Bakr",
-					"text": "He said: I heard the Prophet ﷺ say: No prophet has ever been buried except where he was captured. And Abu Bakr said: I found in my book from Abi Krayb that he said: I heardAbu Muawiyah, who said: I heard Abdullah b. Abi Bakr b. Al-Malikah> Aishah > Abu Bakr (that) the Prophet ﷺ used to say something like this and I found no report of it except from Abu Bakr, and he said that his father was reported to have said this, as well as Aishah."
+					"narrator": "Muhammad b. Abdullah b. Ubayd > Ubayd b. Aqil > Abdul Rahman b. Abi Bakr > Ibn Abi Mulaykah > Aishah > Abu Bakr",
+					"text": "He said: I heard the Prophet ﷺ say: \"No prophet died except that he was buried where he died.\" And Abu Bakr said: I found in my book, from Abu Kurayb, who said: Abu Mu'awiyah narrated to us, who said: Abdul Rahman b. Abi Bakr narrated to us, from Ibn Abi Mulaykah, from Aishah, from Abu Bakr, from the Prophet ﷺ, with similar wording. Abu Bakr said: And this saying — we do not know of anyone who narrated it from the Prophet ﷺ except Abu Bakr, and it was narrated from Abu Bakr by Ibn Abbas and Aishah."
 				}
 			},
 			"grades": [],
@@ -933,8 +921,7 @@
 				"text": "Musnad al-Bazzar 47",
 				"url": "https://hadithunlocked.com/bazzar/1/25"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000048,
@@ -982,8 +969,8 @@
 			"arabic": "حَدَّثَنَا سَلَمَةُ بْنُ شَبِيبٍ وَالْفَضْلُ بْنُ سَهْلٍ قَالَا نا مُحَمَّدُ بْنُ الْحَسَنِ الْمَدَنِيُّ قَالَ نا سُلَيْمَانُ بْنُ بِلَالٍ عَنْ عَبْدِ الْحَكِيمِ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي فَرْوَةَ عَنْ يَعْقُوبَ بْنُ عُتْبَةَ عَنْ عُرْوَةَ عَنْ عَائِشَةَ ؓ قَالَتْ\nلَمَّا تُوُفِّيَ عَبْدُ اللَّهِ بْنُ أَبِي بَكْرٍ بُكِيَ عَلَيْهِ فَخَرَجَ أَبُو بَكْرٍ ؓ فَقَالَ إِنِّي أَعْتَذِرُ إِلَيْكُمْ مِنْ شَأْنِ أُولَاءِ إِنَّهُنَّ حَدِيثُ عَهْدٍ بِجَاهِلِيَّةٍ إِنِّي سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ الْمَيِّتُ يُنْضَحُ عَلَيْهِ الْحَمِيمُ بِبُكَاءِ الْحَيِّ قَالَ أَبُو بَكْرٍ وَهَذَا الْحَدِيثُ لَا نَعْلَمُهُ يُرْوَى عَنْ أَبِي بَكْرٍ عَنِ النَّبِيِّ ﷺ مِنْ غَيْرِ هَذَا الْوَجْهِ وَعَبْدُ الْحَكِيمِ بْنُ عَبْدِ اللَّهِ رَجُلٌ مِنْ أَهْلِ الْمَدِينَةِ مَشْهُورٌ صَالِحُ الْحَدِيثِ وَيَعْقُوبُ بْنُ عُتْبَةَ مَشْهُورٌ وَمُحَمَّدُ بْنُ الْحَسَنِ هَذَا فَلَيِّنُ الْحَدِيثُ لِأَنَّهُ رَوَى أَحَادِيثَ لَمْ يُتَابَعْ عَلَيْهَا وَقَدْ حَدَّثَ عَنْهُ جَمَاعَةٌ مِنْ أَهْلِ الْعِلْمِ وَهُوَ يُعْرَفَ بِمُحَمَّدِ بْنِ الْحَسَنِ بْنِ زُبَالَةَ الْمَخْزُومِيِّ",
 			"translations": {
 				"en": {
-					"narrator": "Salma b. Shabi' and al-Fadl b. Sahl said, Muhammad b. al-Hasan al-Madani said, Sulaiman b. Bilal said, 'Abdu l-Hakim b. 'Abdullah b. Abi Farwa said, Ya'qub b. 'Utbah said, Urwah said, Aisha reported that when Abdullah b. Abi Bakr died",
-					"text": "when he died, Abu Bakr got up and said, I have an excuse to you about these reports because they are a tradition in the era of ignorance. I heard from the Prophet  ﷺ  that the dead is mourned by the living. It was also reported from this hadith: And 'Abdu l-Hakim b. 'Abdullah is known as Muhammad b. al-Hasan b. Zu'balah al-Ma’khzumi."
+					"narrator": "Salamah b. Shabib and al-Fadl b. Sahl said, Muhammad b. al-Hasan al-Madani said, Sulaiman b. Bilal said, 'Abdu l-Hakim b. 'Abdullah b. Abi Farwa said, Ya'qub b. 'Utbah said, 'Urwah said, 'Aisha said:",
+					"text": "When 'Abdullah b. Abi Bakr died and was wept over, Abu Bakr (may Allah be pleased with him) came out and said: I apologize to you for the behavior of these women; they are not far removed from the days of pre-Islamic ignorance. I heard the Messenger of Allah ﷺ say, 'The deceased is scalded with boiling water because of the weeping of the living.' Abu Bakr [al-Bazzar] said: We do not know this hadith to be narrated from Abu Bakr, from the Prophet ﷺ, by any route other than this one. 'Abdu l-Hakim b. 'Abdullah is a man from the people of Medina, well known and sound in hadith, and Ya'qub b. 'Utbah is well known. As for this Muhammad b. al-Hasan, he is weak (layyin) in hadith because he narrated hadiths in which he was not corroborated, though a group of the people of knowledge did narrate from him. He is known as Muhammad b. al-Hasan b. Zubalah al-Makhzumi."
 				}
 			},
 			"grades": [],
@@ -991,8 +978,7 @@
 				"text": "Musnad al-Bazzar 50",
 				"url": "https://hadithunlocked.com/bazzar/1/25"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000051,
@@ -1022,7 +1008,7 @@
 			"translations": {
 				"en": {
 					"narrator": "The Narrator: Hasan b. Yaḥyà al-Arūzī, said: From Isḥāq b. Idrīs, who said: From Saʿīd b. Zayd, brother of Hammād b. Zayd, said: From Mujālid, from Qays b. Abī Hāzim, from Abū Bakr",
-					"text": "He heard him say (it) :O people! You are reading this verse {A'ûhâz-zulmân yad"
+					"text": "He (Qays b. Abi Hazim) said: I heard him (Abu Bakr) say: \"O people, you recite this verse: {O you who believe, take care of your own selves; he who has strayed cannot harm you if you are rightly guided} [Qur'an 5:105], and indeed I heard the Messenger of Allah (peace and blessings be upon him) say: 'If my nation sees a wrongdoer and does not take him by the hand (i.e. restrain him), it is likely that Allah will envelope them all in a punishment from Him.'\""
 				}
 			},
 			"grades": [],
@@ -1030,8 +1016,7 @@
 				"text": "Musnad al-Bazzar 52",
 				"url": "https://hadithunlocked.com/bazzar/1/26"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000053,
@@ -1041,8 +1026,8 @@
 			"arabic": "حَدَّثَنَا أَبُو كُرَيْبٍ قَالَ نا إِسْحَاقُ بْنُ مَنْصُورٍ قَالَ نا جَعْفَرٌ الْأَحْمَرُ قَالَ نا السَّرِيُّ بْنُ إِسْمَاعِيلَ عَنْ قَيْسِ بْنِ أَبِي حَازِمٍ\nقَالَ قَدِمْتُ عَلَى رَسُولِ اللَّهِ ﷺ فَوَجَدْتُهُ قَدْ قُبِضَ فَسَمِعْتُ أَبَا بَكْرٍ الصِّدِّيقَ ؓ يَقُولُ قَالَ رَسُولُ اللَّهِ ﷺ كُفْرٌ بِاللَّهِ تَبَرُّؤٌ مِنْ نَسَبٍ وَإِنْ دَقَّ وَهَذَا الْكَلَامُ لَا نَعْلَمُهُ يُرْوَى عَنِ النَّبِيِّ ﷺ إِلَّا عَنْ أَبِي بَكْرٍ عَنْهُ وَرَوَاهُ عَنْ أَبِي بَكْرٍ قَيْسُ بْنُ أَبِي حَازِمٍ بِهَذَا الْإِسْنَادِ وَرَوَاهُ أَبُو مَعْمَرٍ عَنْ أَبِي بَكْرٍ وَاخْتَلَفُوا فِي رَفْعِ حَدِيثِ أَبِي مَعْمَرٍ فَرَوَاهُ جَمَاعَةٌ عَنِ الْأَعْمَشِ عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ عَنْ أَبِي مَعْمَرٍ عَنْ أَبِي بَكْرٍ مَوْقُوفًا وَأَسْنَدَهُ بَعْضُهُمْ وَالَّذِي أَسْنَدَهُ فَلَيْسَ بِالْحُجَّةِ فِي الْحَدِيثِ وَالسَّرِيُّ بْنُ إِسْمَاعِيلَ لَيْسَ بِالْقَوِيِّ وَقَدْ حَدَّثَ عَنْهُ الزُّهْرِيُّ وَجَمَاعَةٌ كَثِيرَةٌ وَاحْتَمَلُوا حَدِيثَهُ",
 			"translations": {
 				"en": {
-					"narrator": "Abu Kurrah > Ishaq b. Mansoor > Ja'far al-Ahmar > Nafi', b. Ismail > Qays, b. Abi Hazim",
-					"text": "It was narrated from Abu Sa'id Khudri رضي الله عنه that he said: I came to the Messenger of Allah ﷺ when he was buried and heard Abu Bakr رضي الله عنه say: The Messenger of Allah ﷺ said: 'Kufr is to disown one's lineage for Allah; and this saying (is narrated) from the Prophet ﷺ only on authority from Abi Bakr, and it was narrated by Qays b. Abi Hazim with this chain of narration. And Abu Ma'mar narrated it from Abu Bakr رضي الله عنه, but they disagreed about raising its position. A group of scholars narrated it from al-Amashi b. Murrah عن ابي معمرهو رأي الراجح وبعضهم أسانده وهو لاهو رأي سلبي في الحديث والسر بنسماءهو رأي ضعيف وقد رواه به الزهري والجماعة كثيرون واختمرو بالحديث"
+					"narrator": "Abu Kurayb > Ishaq b. Mansoor > Ja'far al-Ahmar > al-Sariyy b. Isma'il > Qays, b. Abi Hazim",
+					"text": "He said: I came to the Messenger of Allah ﷺ and found that he had already passed away, so I heard Abu Bakr al-Siddiq (may Allah be pleased with him) say: The Messenger of Allah ﷺ said, \"Disowning one's lineage, even if it is a small matter, is disbelief (kufr) against Allah.\" We do not know this saying to be narrated from the Prophet ﷺ except through Abu Bakr, from him, and it was narrated from Abu Bakr by Qays b. Abi Hazim with this chain of narration. Abu Ma'mar also narrated it from Abu Bakr, but they differed concerning the raising of Abu Ma'mar's report to the Prophet: a group narrated it from al-A'mash, from 'Abdullah b. Murrah, from Abu Ma'mar, from Abu Bakr, as a stopped report (mawquf), while some of them narrated it as raised to the Prophet (musnad). But whoever raised it is not an authority in hadith. And al-Sariyy b. Isma'il is not strong; al-Zuhri and many others narrated from him, and they tolerated his hadith."
 				}
 			},
 			"grades": [],
@@ -1050,8 +1035,7 @@
 				"text": "Musnad al-Bazzar 53",
 				"url": "https://hadithunlocked.com/bazzar/1/26"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000054,
@@ -1213,8 +1197,8 @@
 			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى قَالَ نا عَبْدُ اللَّهِ بْنُ دَاوُدَ قَالَ مُحَمَّدُ بْنُ الْمُثَنَّى وَكَانَ صَاحِبَ سُنَّةٍ قَالَ نا ابْنُ أَخِي مُحَمَّدِ بْنِ الْمُنْكَدِرِ عَنْ عَمِّهِ مُحَمَّدِ بْنِ الْمُنْكَدِرِ عَنْ جَابِرٍ\nقَالَ قَالَ عُمَرُ لِأَبِي بَكْرٍ يَا خَيْرَ النَّاسِ فَقَالَ أَبُو بَكْرٍ أَمَا إِذْ قُلْتَ ذَاكَ فَقَدْ سَمِعْتُ رَسُولَ اللَّهَ ﷺ يَقُولُ مَا طَلَعَتِ الشَّمْسُ عَلَى أَحَدٍ خَيْرٍ مِنْ عُمَرَ وَهَذَا الْحَدِيثُ لَا نَعْلَمُهُ يُرْوَى عَنِ النَّبِيِّ ﷺ إِلَّا مِنْ هَذَا الْوَجْهِ وَابْنُ أَخِي مُحَمَّدِ بْنِ الْمُنْكَدِرِ لَا نَعْلَمُ حَدَّثَ عَنْهُ إِلَّا عَبْدُ اللَّهِ بْنُ دَاوُدَ الْوَاسِطِيُّ وَإِنَّمَا احْتَمَلَ هَذَا الْحَدِيثَ عَلَى مَا فِي إِسْنَادِهِ إِذْ كَانَ فَضِيلَةً لِعُمَرَ ؓ",
 			"translations": {
 				"en": {
-					"narrator": "Muhammad b. al-Munkadir>Abdullāh b. Dāwud>Muhammad b. al-Munkadir>,هو رأي ايجابي",
-					"text": "Umar said, 'O Abu Bakr, you are the best of people!' Then he replied, 'I heard the Messenger of Allah ﷺ say that no one ever excelled Umar in virtue since the sun rose.' This hadith was narrated only by this route. And Ibn Akhi Muhammad b. al-Munkadir has not been reported to have narrated anything except from Abdullāh b. Dāwud, the Wāsidī, and he did not accept it but on what is in his chain of narration because there is merit for Umar."
+					"narrator": "Muhammad b. al-Muthannā>Abdullāh b. Dāwud>Ibn Akhi Muhammad b. al-Munkadir>Muhammad b. al-Munkadir>Jābir",
+					"text": "Umar said, 'O Abu Bakr, you are the best of people!' Then he replied, 'Since you have said that, I heard the Messenger of Allah ﷺ say that no one ever excelled Umar in virtue since the sun rose.' This hadith was narrated only by this route. And no one is known to have narrated from Ibn Akhi Muhammad b. al-Munkadir except Abdullāh b. Dāwud al-Wāsiṭī, and he did not accept it but on what is in his chain of narration because there is merit for Umar."
 				}
 			},
 			"grades": [],
@@ -1222,8 +1206,7 @@
 				"text": "Musnad al-Bazzar 63",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000063,
@@ -1234,7 +1217,7 @@
 			"translations": {
 				"en": {
 					"narrator": "ʿAbdu r-rahmān b. al-ghasyil>Shuraḥbīl b. Saʿd>Jābir>Abū Bakr",
-					"text": "The Prophet said: Beware of the Fire, even if it were to be a date pit. And this Hadith is narrated only by someone who was sighted. He had been mentioned in another narration which states that he doesn’t belong to this side at all. So we kept away from mentioning him."
+					"text": "The Prophet said: Beware of the Fire, even if with half a date. And this hadith was narrated only by a man in Basra, from Zayd b. al-Hubab, and he was accused of fabrication regarding it. It is said that it has no basis via this route. So we kept away from mentioning him."
 				}
 			},
 			"grades": [],
@@ -1242,8 +1225,7 @@
 				"text": "Musnad al-Bazzar 64",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000064,
@@ -1405,8 +1387,8 @@
 			"arabic": "حَدَّثَنَا الْفَضْلُ بْنُ سَهْلٍ قَالَ نا خَلَفُ بْنُ تَمِيمٍ قَالَ نا مُوسَى بْنُ مَطِيرٍ الْقُرَشِيُّ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ أَنَّ أَبَا بَكْرٍ ؓ\nقَالَ لِابْنِهِ يَا بَنِي إِنْ حَدَثَ فِي النَّاسِ فَأْتِ الْغَارَ الَّذِي رَأَيْتَنِي اخْتَبَأْتُ فِيهِ أَنَا وَرَسُولُ اللَّهِ ﷺ فَكُنْ فِيهِ فَإِنَّهُ سَيَأْتِيكَ فِيهِ رِزْقُكَ غُدَوَةً وَعَشِيَّةً وَهَذَا الْحَدِيثُ لَا نَعْلَمُ رَوَاهُ إِلَّا خَلَفُ بْنُ تَمِيمٍ",
 			"translations": {
 				"en": {
-					"narrator": "al-Faḍlu b. Sahl>na Khalaf b. Tamīm>na Mūsā b. Matir al-Qurashī>‘an Abihi ‘an Abī Hurayrah ؓ",
-					"text": "He said to his son, 'If you hear about people in the future, tell them I hid in a cave with the Messenger of Allah ﷺ and that is where he will find you. And your livelihood will be provided for you in the morning and evening.' We only know this hadith from Khalaf b. Tamīm."
+					"narrator": "al-Faḍlu b. Sahl>na Khalaf b. Tamīm>na Mūsā b. Matir al-Qurashī>‘an Abihi>‘an Abī Hurayrah that Abū Bakr ؓ",
+					"text": "He said to his son, 'O my son, if something happens among the people, then go to the cave in which you saw me and the Messenger of Allah ﷺ hide, and stay there, for your provision will come to you there, morning and evening.' We do not know this hadith to have been narrated by anyone other than Khalaf b. Tamīm."
 				}
 			},
 			"grades": [],
@@ -1414,8 +1396,7 @@
 				"text": "Musnad al-Bazzar 73",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000073,
@@ -1520,8 +1501,8 @@
 			"arabic": "حَدَّثَنَا أَحْمَدُ بْنُ أَبَانَ الْقُرَشِيُّ قَالَ نا أَنَسُ بْنُ عِيَاضٍ قَالَ نا يُونُسُ بْنُ يَزِيدَ عَنِ الْحَكَمِ بْنِ عَبْدِ اللَّهِ عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ عَنْ عَائِشَةَ\nقَالَتْ قَالَ لِي أَبِي أَلَا أُعَلِّمُكِ دُعَاءً عَلَّمَنِيهِ رَسُولُ اللَّهِ ﷺ وَكَانَ عِيسَى يُعَلِّمُهُ الْحَوَارِيِّينَ لَوْ كَانَ عَلَيْكِ دَيْنٌ مِثْلُ أُحُدٍ قُلْتِيهِ لَقَضَاهُ اللَّهُ عَنْكِ قَالَتْ قُولْتُ بَلَى قَالَ قُولِي اللَّهُمَّ فَارِجَ الْهَمِّ وَكَاشِفَ الْكَرْبِ مُجِيبَ دَعْوَةِ الْمُضْطَرِّ رَحْمَانَ الدُّنْيَا وَالْآخِرَةِ أَنْتَ رَحْمَانِي فَارْحَمْنِي رَحْمَةً تُغْنِينِي بِهَا عَمَّنْ سِوَاكَ وَهَذَا الْحَدِيثُ لَا نَعْلَمُ أَحَدًا رَوَاهُ عَنْ رَسُولِ اللَّهِ ﷺ إِلَّا أَبُو بَكْرٍ ؓ وَلَا نَعْلَمُ لَهُ طَرِيقًا إِلَّا هَذَا الطَّرِيقَ وَلَا نَعْلَمُ أَحَدًا رَوَى هَذَا الْحَدِيثَ عَنْ يُونُسَ بْنِ يَزِيدَ إِلَّا أَنَسَ بْنَ عِيَاضٍ وَسُلَيْمَانَ بْنَ بِلَالٍ وَعَبْدَ اللَّهِ بْنَ عُمَرَ وَالْحَكَمُ بْنُ عَبْدِ اللَّهِ ضَعِفٌ وَإِنَّمَا ذَكَرْنَا هَذَا الْحَدِيثَ لِأَنَّا لَمْ نَحْفَظْهُ عَنْ رَسُولِ اللَّهِ ﷺ إِلَّا مِنْ هَذَا الْوَجْهِ فَلِذَلِكَ كَتَبْنَاهُ",
 			"translations": {
 				"en": {
-					"narrator": "Ahmad b. Aban al-Qurashi > Anas b. Abiya'a > Yunus b. Yazid > Al-Hakam b. ʿAbdullāh > Qasim b. Muhammad > Aisha",
-					"text": "She said, 'Abu,' teach me a supplication that the Prophet taught you.' And he taught her this supplication, and it is one of the things that Isa (Jesus) used to teach his disciples: ‘If your debt were like Mount Uhud, say, “I will pay my debt,” then Allah would forgive you.’ Then she said, 'Yes,' so he taught her a supplication. And he said,"
+					"narrator": "Ahmad b. Aban al-Qurashi > Anas b. 'Iyad > Yunus b. Yazid > Al-Hakam b. ʿAbdullāh > Qasim b. Muhammad > Aisha",
+					"text": "She said, 'My father said to me, \"Shall I not teach you a supplication that the Messenger of Allah taught me, which 'Isa (Jesus) used to teach the disciples: If you had a debt like Mount Uhud and you said it, Allah would settle it for you?\"' She said, 'I said, \"Yes.\"' He said, 'Say: O Allah, Reliever of grief and Remover of hardship, Answerer of the call of the distressed, Most Merciful of this world and the next, You are my Most Merciful, so have mercy on me with a mercy that makes me independent of anyone besides You.' This hadith - we do not know of anyone who narrated it from the Messenger of Allah except Abu Bakr ؓ, nor do we know of any route for it other than this one. And we do not know of anyone who narrated this hadith from Yunus b. Yazid except Anas b. 'Iyad, Sulayman b. Bilal, and 'Abdullah b. 'Umar. Al-Hakam b. 'Abdullah is weak (da'if). We have only mentioned this hadith because we do not know it from the Messenger of Allah except by this route, and so we have written it down."
 				}
 			},
 			"grades": [],
@@ -1529,8 +1510,7 @@
 				"text": "Musnad al-Bazzar 79",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000079,
@@ -1636,8 +1616,8 @@
 			"arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ شَبِيبٍ قَالَ نا هَارُونُ بْنُ يَحْيَى بْنِ عَبْدِ الرَّحْمَنِ بْنِ حَاطِبٍ قَالَ نا سَعِيدُ بْنُ عَبْدِ اللَّهِ بْنِ فُضَيْلٍ الْجَرْمِيُّ عَنْ أَبِي حَازِمٍ عَنْ سَهْلِ بْنِ سَعْدٍ\nقَالَ دَخَلَ عَلَيْنَا أَبُو بَكْرٍ وَنَحْنُ فِي الرَّوْضَةِ فَصَعِدَ الْمِنْبَرَ فَحَمِدَ اللَّهَ وَأَثْنَى عَلَيْهِ ثُمَّ قَالَ أَيُّهَا النَّاسُ إِنِّي سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ عَلَى هَذِهِ الْأَعْوَادِ عَامَ أَوَّلَ مَا أُعْطِيَ عَبْدٌ أَفْضَلَ مِنْ حُسْنِ الْيَقِينِ وَالْعَافِيَةِ فَسَلُوا اللَّهَ حُسْنَ الْيَقِينِ وَالْعَافِيَةَ وَهَذَا الْحَدِيثُ ذَكَرْنَاهُ عَنْ أَبِي بَكْرٍ وَإِنْ كَانَ قَدْ ذَكَرْنَا نَحْوَ مَعْنَاهُ بِغَيْرِ لَفْظِهِ لِعِلَّتَيْنِ أَمَّا أَحَدُهُمَا فَاخْتِلَافُ لَفْظِهِ عَنْ لَفْظِ أَبِي هُرَيْرَةَ وَالْعِلَّةِ الْأُخْرَى أَنَّ سَهْلَ بْنَ سَعْدٍ لَمْ يُسْنِدْ عَنْ أَبِي بَكْرٍ غَيْرَ هَذَا الْحَدِيثِ",
 			"translations": {
 				"en": {
-					"narrator": "Sa'id bin ʿAbdullāh bin Fadil al-Jarmaqi narrates from Abu Haatim from Sahl bin Sa'd",
-					"text": "He said, 'The group was in the garden when Abu Bakr entered. He climbed up to the pulpit and praised Allah and extolled His name. Then he said, 'O people, I heard the Messenger of Allah ﷺ say: On these matters is the first year a man is given nothing better than faith and good health. So ask God for faith and good health.' This hadith was mentioned by Abu Bakr but we have already narrated it with some differences in wording because there are two reasons: One, a difference in wording compared to Abu Hurayrah; and secondly, Sahl bin Sa'd did not narrate anything from Abu Bakr except this hadith."
+					"narrator": "Abdullah bin Shabib > Harun bin Yahya bin Abdul Rahman bin Hatib > Sa'id bin Abdullah bin Fudayl al-Jarmi > Abu Hazim > Sahl bin Sa'd",
+					"text": "He said, 'Abu Bakr came in to us while we were in the garden. He climbed up to the pulpit and praised Allah and extolled His name. Then he said, 'O people, I heard the Messenger of Allah ﷺ say, upon these very planks, last year: No servant has been given anything better than good certainty and well-being. So ask Allah for good certainty and well-being.' We mentioned this hadith on the authority of Abu Bakr, even though we had already mentioned something similar in meaning with different wording, for two reasons: one, a difference in its wording compared to Abu Hurayrah's; and secondly, Sahl bin Sa'd did not narrate anything from Abu Bakr except this hadith."
 				}
 			},
 			"grades": [],
@@ -1645,8 +1625,7 @@
 				"text": "Musnad al-Bazzar 85",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000085,
@@ -1772,7 +1751,7 @@
 			"translations": {
 				"en": {
 					"narrator": "ʿAmru b. ʿAlī>Abu ʿĀsim>Mūsā b. Ubaydhath>Hud b. ʿAtāʾ>Anas>Abū Bakr",
-					"text": "Nuh the Prophet of Allah (may Allah's peace and blessings be upon him) forbade striking the praying people, and this Hadith has been reported by many narrators, and Abu Bakr is the highest authority among them. And we know no other way from Abu Bakr except this one, and Hud b. ʿAtāʾ from whom Musa b. Ubaydhath narrated, and whose sayings are more important than those of others who narrated from him. We have already mentioned Musa b. Ubaydhath before, so we will not mention it again."
+					"text": "The Messenger of Allah ﷺ forbade striking the praying people, and this Hadith has been reported by many narrators, and Abu Bakr is the highest authority among them. And we know no other way from Abu Bakr except this one, and we do not know of anyone who narrated from Hud b. ʿAtāʾ except Musa b. Ubaydhath. We have already mentioned Musa b. Ubaydhath before, so we will not mention it again."
 				}
 			},
 			"grades": [],
@@ -1780,8 +1759,7 @@
 				"text": "Musnad al-Bazzar 92",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000092,
@@ -1792,7 +1770,7 @@
 			"translations": {
 				"en": {
 					"narrator": "Al-Hasan b. Khalaf > Ishaq b. Yusuf > Sufyan > Al-Aamash > Muslim al-Batini > Sa'id b. Jubayr > Ibn Abbas",
-					"text": "When the polytheists exiled the Prophet ﷺ from Mecca, Abu Bakr said: They have exiled their prophet; they will be destroyed. So this verse was revealed to him: 'Permission is given to those who are fighting because they were wronged' and this hadith is authentic and we included it in the hadith of Abu Bakr due to its importance and the strength of its chain, and most people include it in the hadith of Ibn Abbas."
+					"text": "When the polytheists exiled the Prophet ﷺ from Mecca, Abu Bakr said: They have exiled their prophet; they will be destroyed. So this verse was revealed to him: 'Permission is given to those who are fought against because they were wronged' and this hadith's chain is hasan (good), and we included it in the hadith of Abu Bakr due to the scarcity of Abu Bakr's narrations and the strength of its chain, and most people include it in the hadith of Ibn Abbas."
 				}
 			},
 			"grades": [],
@@ -1800,8 +1778,7 @@
 				"text": "Musnad al-Bazzar 93",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000093,
@@ -1811,8 +1788,8 @@
 			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى قَالَ نا عَبْدُ اللَّهِ بْنُ دَاوُدَ التَّمَّارُ\nقَالَ نا أَبُو مُوسَى وَكَانَ صَاحِبَ سُنَّةٍ قَالَ نا ابْنُ أَخِي مُحَمَّدِ بْنِ الْمُنْكَدِرِ عَنْ عَمِّهِ مُحَمَّدِ بْنِ الْمُنْكَدِرِ عَنْ جَابِرٍ قَالَ عُمَرُ لِأَبِي بَكْرٍ يَا خَيْرَ النَّاسِ فَقَالَ أَمَا إِذْ قُلْتَ ذَاكَ فَلَقَدْ سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ مَا طَلَعَتِ الشَّمْسُ عَلَى رَجُلٍ خَيْرٍ مِنْ عُمَرَ وَهَذَا الْحَدِيثُ لَا نَعْلَمُهُ يُرْوَى عَنِ النَّبِيِّ بعدهو رأي ايجابي.هو رأي ايجابي.ﷺ مِنْ وَجْهٍ مِنَ الْوُجُوهِ إِلَّا عَنْ أَبِي بَكْرٍ بِهَذَا الْإِسْنَادِ وَابْنُ أَخِي مُحَمَّدِ بْنِ الْمُنْكَدِرِ لَيْسَ بِالْمَعْرُوفِ وَلَكِنْ ذَكَرْنَاهُ إِذْ كَانَ لَا يُحْفَظُ عَنِ النَّبِيِّ ﷺ إِلَّا مِنْ هَذَا الْوَجْهِ وَقَدْ رَوَاهُ أَهْلُ الْعِلْمِ",
 			"translations": {
 				"en": {
-					"narrator": "Muhammad b. al-Munqidir>Abdullāh b. Dāwud ttammar",
-					"text": "Abu Musa said, and he was a companion of the Sunna. He said, Muhammad b. al-Munqidir from his uncle who heard it from Jabir. Umar said to Abu Bakr, 'You are the best people.' So I heard that the Messenger ﷺ said: 'No one has ever risen before a man better than you,' and this hadith is not known to be narrated by any person except Abu Bakr from this narration. And Muhammad b. al-Munqidir's account of it was given in his absence, but when he had been made acquainted with the meaning, he confirmed that he heard it."
+					"narrator": "Muhammad b. al-Muthanna > Abdullah b. Dawud al-Tammar > Abu Musa > Ibn Akhi Muhammad b. al-Munkadir > Muhammad b. al-Munkadir > Jabir",
+					"text": "Abu Musa was an adherent of the Sunnah. Umar said to Abu Bakr, \"O best of people!\" So he replied, \"Since you have said that, I did indeed hear the Messenger of Allah ﷺ say: The sun has not risen upon a man better than Umar.\" We do not know this hadith to be narrated from the Prophet ﷺ through any route except from Abu Bakr with this chain of narration. Ibn Akhi Muhammad b. al-Munkadir is not well known, but we have mentioned it since it is not preserved from the Prophet ﷺ except through this route, and the people of knowledge have narrated it."
 				}
 			},
 			"grades": [],
@@ -1820,8 +1797,7 @@
 				"text": "Musnad al-Bazzar 94",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000094,
@@ -1850,8 +1826,8 @@
 			"arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى قَالَ نا أَبُو الْوَلِيدِ قَالَ نا اللَّيْثُ عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ عَنْ أَبِي الْخَيْرِ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو\nعَنْ أَبِي بَكْرٍ الصِّدِّيقِ ؓ قَالَ قُلْتُ يَا رَسُولَ اللَّهِ عَلِّمْنِي دُعَاءً أَدْعُو بِهِ قَالَ قُلِ اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِرًا وَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ فَاغْفِرْ لِي وَارْحَمْنِي إِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ وَهَذَا لَا نَعْلَمُهُ يُرْوَى عَنِ النَّبِيِّ ﷺ إِلَّا عَنْ أَبِي بَكْرٍ مِنْ هَذَا الْوَجْهِ وَإِسْنَادُهُ حَسَنٌ وَقَدْ رَوَاهُ غَيْرُ وَاحِدٍ عَنِ اللَّيْثِ بْنِ سَعْدٍ فَاقْتَصَرْنَا عَلَى رِوَايَةِ أَبِي الْوَلِيدِ دُونَ غَيْرِهِ",
 			"translations": {
 				"en": {
-					"narrator": "Muhammad Ibn Al-Muthanna > Abu al-Walid> Na> Liyath> Yazid b. Abi Habib> Abu Khâyr> 'Abdullāh b. 'Amr",
-					"text": "'Umar al-Khattab رضي الله عنه said that he was told by Abu al-Wa'lid who had been told by the narrator Na, whose father is Liyath, who was told by Yazid b. Abi Habib, who was told by Abu Khâyr, who was told by 'Abdullāh b. 'Amr, about a narration from Abu Bakr رضي الله عنه that he said: \"I asked the Messenger of Allah ﷺ to teach me a supplication\", so he said: \"Say: O Allah! I have wronged myself greatly and You are the only One who forgives sins, so forgive me and have mercy on me. Indeed, You are the only One who forgives sins.\" This is narrated from the Prophet Muhammad ﷺ through Abu Bakr رضي الله عنه. It's a good chain, and it was also narrated by many others from Liyath b. Sa'd but we preferred to rely upon Na here."
+					"narrator": "Muhammad Ibn Al-Muthanna > Abu al-Walid > al-Layth > Yazid b. Abi Habib > Abu al-Khayr > 'Abdullāh b. 'Amr > Abu Bakr al-Siddiq",
+					"text": "Abu Bakr al-Siddiq رضي الله عنه said: \"I said, O Messenger of Allah, teach me a supplication that I may say.\" He said: \"Say: O Allah, indeed I have wronged myself greatly, and none forgives sins except You; so forgive me and have mercy on me. Indeed, none forgives sins except You.\" We do not know this to be narrated from the Prophet ﷺ except through Abu Bakr, via this route, and its chain is hasan (good). It has also been narrated by more than one narrator from al-Layth b. Sa'd, but we relied upon the narration of Abu al-Walid alone, to the exclusion of others."
 				}
 			},
 			"grades": [],
@@ -1859,8 +1835,7 @@
 				"text": "Musnad al-Bazzar 96",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000096,
@@ -1870,8 +1845,8 @@
 			"arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ شَبِيبٍ قَالَ نا عَبْدُ الْجَبَّارِ بْنُ سَعِيدٍ الْمَسَاحِقِيُّ قَالَ نا يَحْيَى بْنُ مُحَمَّدِ بْنِ أَبِي حَكِيمٍ عَنْ هِشَامِ بْنِ سَعْدٍ عَنْ سَعِيدِ بْنِ أَبِي هِلَالٍ عَنْ أَبِي قَبِيلٍ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو\nقَالَ كَتَبَ أَبُو بَكْرٍ الصِّدِّيقُ إِلَى عَمْرِو بْنِ الْعَاصٍ ؓ أَمَّا بَعْدُ فَقَدْ عَرَفْتَ وَصِيَّةَ رَسُولِ اللَّهِ ﷺ بِالْأَنْصَارِ عِنْدَ مَوْتِهِ اقْبَلُوا مِنْ مُحْسِنِهِمْ وَتَجَاوَزُوا عَنْ مُسِيئِهِمْ وَهَذَا الْحَدِيثُ لَا نَعْلَمُهُ يُرْوَى عَنْ أَبِي بَكْرٍ إِلَّا مِنْ هَذَا الْوَجْهِ وَإِسْنَادُهُ حَسَنٌ",
 			"translations": {
 				"en": {
-					"narrator": "ʿAbdullāh b. Shabīb>ʿUbayd al-Jabbār b. Saʿid al-Masāhiqī>Yahyā b. Muḥammad b. Abu Ḥakim>Hishām b. Saʿd>Saʿid b. Abu Hālis>Abu Qabīl>ʿAbdullāh b. ʻAmr",
-					"text": "*\"قد عرفت وصية رسول اللهﷺ بالأنصار عند موته: أقبلوا من محسنهُم وتجاوزوا عن مسئهم\"*. وهذا الحديث لا نعلمُهو رأي إلا بهذا الوجه وأسْناده حسنة."
+					"narrator": "ʿAbdullāh b. Shabīb>ʿAbd al-Jabbār b. Saʿid al-Masāhiqī>Yahyā b. Muḥammad b. Abu Ḥakim>Hishām b. Saʿd>Saʿid b. Abu Hilāl>Abu Qabīl>ʿAbdullāh b. ʻAmr",
+					"text": "He [ʿAbdullāh b. ʿAmr] said: Abu Bakr al-Ṣiddīq wrote to ʿAmr b. al-ʿĀṣ (may Allah be pleased with him): \"Now then, you have known the instruction of the Messenger of Allah ﷺ concerning the Anṣār at his death: Accept [the good] from those of them who do good, and overlook [the faults] of those of them who do wrong.\" We do not know this hadith to be narrated from Abu Bakr except through this route, and its isnad is ḥasan (good)."
 				}
 			},
 			"grades": [],
@@ -1879,8 +1854,7 @@
 				"text": "Musnad al-Bazzar 97",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000097,
@@ -2024,7 +1998,7 @@
 			"translations": {
 				"en": {
 					"narrator": "ʿAbdullāh b. Saʿīd>Muḥammad b. Fuḍayl>al-Waleed b. Jumaʿiʾ>Abu at-Tufail",
-					"text": "He said, 'Fatima ؓ sent to Abu Bakr ؓ saying: You are the Caliph of God's Messenger ﷺ; you have inherited the place of God's Messenger. Do we or his family inherit him?' He said: No, it is his family that inherits him. She asked: And what about the share of the Prophet's ﷺ property? He said: I heard the Prophet ﷺ say: Whenever God gives a prophet some food, and then takes it back, it is for whoever comes after him. So, I thought that I should give it to the Muslims.' Then Fatima ؓ asked again, 'Are you not sure?' And this hadith has no one who narrated it except Abu Bakr from the Prophet ﷺ."
+					"text": "He said: Fatima ؓ sent to Abu Bakr ؓ, saying, 'O Caliph of God's Messenger ﷺ, did you inherit God's Messenger, or did his family?' He said: 'No, it is his family that inherits him.' She asked: 'And what about the share of the Prophet's ﷺ property?' He said: 'I heard the Prophet ﷺ say: Whenever God gives a prophet some food, and then takes him, it is for whoever comes after him. So, I thought that I should give it to the Muslims.' Then Fatima ؓ said, 'You and God's Messenger ﷺ know best.' And we do not know of anyone who narrated this hadith with this wording except Abu Bakr from the Prophet ﷺ, nor do we know of a route for it from Abu Bakr other than this one. Abu at-Tufail did narrate hadiths from the Prophet ﷺ, and al-Waleed b. Jumaʿiʾ was a man from the people of Kufah; more than one person narrated from him, and they accepted his hadith."
 				}
 			},
 			"grades": [],
@@ -2032,8 +2006,7 @@
 				"text": "Musnad al-Bazzar 105",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000105,
@@ -2062,8 +2035,8 @@
 			"arabic": "حَدَّثَنَا أَبُو كُرَيْبٍ قَالَ نا مُحَمَّدُ بْنُ إِسْمَاعِيلَ بْنِ أَبِي فُدَيْكٍ قَالَ نا الضَّحَّاكُ بْنُ عُثْمَانَ عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ عَنْ عَبْدِ الرَّحْمَنِ بْنِ يَرْبُوعٍ عَنْ أَبِي بَكْرٍ\nأَنَّ النَّبِيَّ ﷺ سُئِلَ مَا بِرُّ الْحَجِّ ؟ قَالَ الْعَجُّ وَالثَّجُّ وَهَذَا الْحَدِيثُ لَا يُرْوَى عَنِ النَّبِيِّ ﷺ مِنْ وَجْهٍ أَعْلَى مِنْ هَذَا الْوَجْهِ وَقَدْ رَوَاهُ جَمَاعَةٌ عَنِ النَّبِيِّ ﷺ وَأَعْلَى مَنْ رَوَى ذَلِكَ أَبُو بَكْرٍ وَلَا نَعْلَمُ لَهُ طَرِيقًا غَيْرَ هَذَا الطَّرِيقِ وَعَبْدُ الرَّحْمَنِ بْنُ يَرْبُوعٍ مَعْرُوفٌ رَوَى عَنْهُ عَطَاءُ بْنُ يَسَارٍ وَغَيْرُهُ",
 			"translations": {
 				"en": {
-					"narrator": "Abu Kureyba > Muhammad b. Isma`il b. Abi Fudayk > na> ad-Dahhak b. `Uthman > Muhammad b. al-Munkidr> Abdullah b. Rab`i'> Abu Bakr",
-					"text": "It was narrated that the Prophet ﷺ was asked, 'What is the essence of Hajj?' He said: The age and the pilgrimage. This hadith is not narrated from the Prophet ﷺ except in this manner. And it has been narrated by many people from him. It was also narrated through Abu Bakr, and we do not know any other way than this. And Abdullah b. Rab`i' was a reliable narrator. He used to narrate from him, as well as others."
+					"narrator": "Abu Kureyba > Muhammad b. Isma`il b. Abi Fudayk > ad-Dahhak b. `Uthman > Muhammad b. al-Munkidr > Abdur-Rahman b. Yarbu` > Abu Bakr",
+					"text": "It was narrated that the Prophet ﷺ was asked, 'What is the essence of Hajj?' He said: al-'Ajj wa-ath-Thajj (raising the voice in talbiyah, and the flowing of the blood of sacrifice). This hadith is not narrated from the Prophet ﷺ through any chain more elevated than this one. A group of narrators have narrated it from the Prophet ﷺ, and the most elevated of those who narrated it is Abu Bakr; we do not know of any path for it other than this path. Abdur-Rahman b. Yarbu` is well known; `Ata' b. Yasar and others narrated from him."
 				}
 			},
 			"grades": [],
@@ -2071,8 +2044,7 @@
 				"text": "Musnad al-Bazzar 107",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000107,
@@ -2139,8 +2111,8 @@
 			"arabic": "حَدَّثَنَا مُوسَى بْنُ عَبْدِ الرَّحْمَنِ قَالَ نا أَبُو يَحْيَى الْحِمَّانِيُّ قَالَ نا عُثْمَانُ بْنُ وَاقِدٍ عَنْ أَبِي نُصَيْرَةَ عَنْ مَوْلًى لِأَبِي بَكْرٍ عَنْ أَبِي بَكْرٍ\nقَالَ قَالَ رَسُولُ اللَّهِ ﷺ مَا أَصَرَّ مَنِ اسْتَغْفَرَ وَلَوْ عَادَ فِي الْيَوْمِ سَبْعِينَ مَرَّةً وَهَذَا الْحَدِيثُ لَا نَحْفَظُهُ عَنِ النَّبِيِّ ﷺ مِنْ وَجْهٍ مِنَ الْوُجُوهِ إِلَّا عَنْ أَبِي بَكْرٍ بِهَذَا الطَّرِيقِ وَعُثْمَانُ بْنُ وَاقِدٍ مَشْهُورٌ حَدَّثَ عَنْهُ أَبُو مُعَاوِيَةَ وَأَبُو يَحْيَى الْحِمَّانِيُّ وَغَيْرُهُمَا وَأَبُو نُصَيْرَةَ وَمَوْلَى أَبِي بَكْرٍ فَلَا يُعْرَفَانِ وَلَكِنْ لَمَّا كَانَ هَذَا الْحَدِيثُ لَا نَعْرِفُ إِلَّا مِنْ هَذَا الْوَجْهِ لَمْ نَجِدْ بُدًّا مِنْ كِتَابَتِهِ وَتَبْيِينِ عِلَّتِهِ",
 			"translations": {
 				"en": {
-					"narrator": "Musā b. ʿAbdurrahmān>Abu Yaḥyā al-Himmānī>عُثْمَان بنُ واكِدٍ>أبِي نُصَيْرَةٌ>مَوْلًى لِأَبِي بَكْرٍ>أَبِي بَكْرٍ",
-					"text": "The Messenger of Allah ﷺ said: 'No one is more beloved to Allah than those who are most forgiving. He will forgive you, even if you sin seventy times a day and repent every time.' And this Hadith will not be narrated from the Prophet ﷺ except on the authority of Abu Bakr in such a manner as he was taught."
+					"narrator": "Musā b. ʿAbdurrahmān>Abu Yaḥyā al-Himmānī>ʿUthmān b. Wāqid>Abu Nuṣayrah>a mawla of Abu Bakr>Abu Bakr",
+					"text": "The Messenger of Allah ﷺ said: 'One who seeks forgiveness has not persisted [in sin], even if he returns to it seventy times in a day.' We do not know this hadith to be narrated from the Prophet ﷺ through any route except from Abu Bakr with this chain. ʿUthmān b. Wāqid is well known — Abu Muʿāwiyah, Abu Yaḥyā al-Himmānī, and others narrated from him — but Abu Nuṣayrah and the mawla of Abu Bakr are not known. However, since we do not know this hadith except through this route, we found no choice but to record it and point out its defect."
 				}
 			},
 			"grades": [],
@@ -2148,8 +2120,7 @@
 				"text": "Musnad al-Bazzar 111",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000111,
@@ -2235,8 +2206,8 @@
 			"arabic": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعِيدٍ الْجَوْهَرِيُّ قَالَ نا حُسَيْنُ بْنُ مُحَمَّدٍ عَنْ عَبْدِ اللَّهِ بْنِ عَبْدِ الْمَلِكِ الْفِهْرِيِّ عَنِ الْقَاسِمِ بْنِ مُحَمَّدِ بْنِ أَبِي بَكْرٍ عَنْ أَبِيهِ عَنْ جَدِّهِ أَبِي بَكْرٍ\nقَالَ جِئْتُ بِأَبِي قُحَافَةَ إِلَى رَسُولِ اللَّهِ ﷺ فَقَالَ هَلَّا تَرَكْتَ الشَّيْخَ حَتَّى نَأْتِيَهُ ؟ قُلْتُ بَلْ هُوَ أَحَقُّ أَنْ يَأْتِيَكَ قَالَ إِنَّا نَحْفَظُهُ لِأَيَادِي ابْنِهِ عِنْدَنَا وَهَذَا الْحَدِيثُ لَا نَحْفَظُهُ بِهَذَا اللَّفْظِ إِلَّا مِنْ هَذَا الْوَجْهِ عَنْ أَبِي بَكْرٍ رَحِمَهُ اللَّهُ وَقَدْ رُوِيَ نَحْوَ كَلَامِهِ عَنِ النَّبِيِّ ﷺ مِنْ وُجُوهٍ بِغَيْرِ هَذَا اللَّفْظِ وَعَبْدُ اللَّهِ بْنُ عَبْدِ الْمَلِكِ فَلَا نَعْلَمُهُ سَمِعَ مِنَ الْقَاسِمِ بْنِ مُحَمَّدٍ وَمُحَمَّدُ بْنُ أَبِي بَكْرٍ تُوُفِّيَ أَبُو بَكْرٍ ؓ وَهُوَ صَغِيرٌ وَإِنَّمَا ذَكَرْنَا هَذَا الْحَدِيثَ عَلَى مَا فِيهِ مِنْ عِلَّةٍ لِأَنَّ فِيهِ لَفْظًا لَا يُرْوَى عَنِ النَّبِيِّ ﷺ إِلَّا مِنْ هَذَا الْوَجْهِ فَلِذَلِكَ ذَكَرْنَاهُ وَبَيَّنَّا الْعِلَّةَ فِيهِ",
 			"translations": {
 				"en": {
-					"narrator": "Ibrahim b. Sa'id al-Jawhari>Husayn b. Muhammad>Abdullāh b. Abd al-Malik al-Fahri>al-Qaasim b. Muhmmd b. Abi Bakr>Abu Bakr رضي الله عنه>ahlan",
-					"text": "It was said to me, I came with Abu Quhafa's son to the Prophet ﷺ and he said: Why did you not leave your Sheikh until we brought him? I said No, he is more deserving that you come to him. He said We shall preserve his words for his sons. And this hadith should be memorized only in this version as narrated from Abu Bakr رضي الله عنه by the way of al-Qaasim b. Muhammad and Muhmmd b. Abi Bakr."
+					"narrator": "Ibrahim b. Sa'id al-Jawhari > Husayn b. Muhammad > Abdullah b. Abd al-Malik al-Fihri > al-Qasim b. Muhammad b. Abi Bakr > his father > his grandfather Abu Bakr",
+					"text": "He said: I brought Abu Quhafa to the Messenger of Allah ﷺ, so he said: Why did you not leave the old man, that we might come to him? I said: Rather, he is more deserving to come to you. He said: We indeed honor him for the favors of his son towards us. And we do not know this hadith with this wording except through this route, from Abu Bakr, may Allah have mercy on him. The like of his saying has been narrated from the Prophet ﷺ through other routes with different wording. As for Abdullah b. Abd al-Malik, we do not know him to have heard from al-Qasim b. Muhammad. And as for Muhammad b. Abi Bakr, Abu Bakr ؓ died while he was still young. We have only mentioned this hadith despite the defect it contains, because it contains wording that is not narrated from the Prophet ﷺ except through this route; so we mentioned it and made clear its defect."
 				}
 			},
 			"grades": [],
@@ -2244,8 +2215,7 @@
 				"text": "Musnad al-Bazzar 116",
 				"url": "https://hadithunlocked.com/bazzar/1/31"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28000116,
@@ -55182,8 +55152,8 @@
 			"arabic": "وَحَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعِيدٍ قَالَ نا يَحْيَى بْنُ صَالِحٍ قَالَ نا الْحَسَنُ بْنُ أَيُّوبَ قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ بُسْرٍ قَالَ أَبُو بَكْرٍ وَرَأَيْتُهُ فِي كِتَابِي فِي مَوْضِعٍ آخَرَ حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعِيدٍ قَالَ نا يَحْيَى بْنُ صَالِحٍ قَالَ نا مُحَمَّدُ بْنُ الْقَاسِمِ الطَّائِيُّ قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ بُسْرٍ ؓ يَقُولُ\nقَالَ لِي رَسُولُ اللَّهِ ﷺ: *«لَتُدْرِكَنَّ قَرْنًا»*. قَالَ: فَبَلَغَنَا أَنَّهُ أَتَتْ عَلَيْهِ مِائَةُ سَنَةٍ.",
 			"translations": {
 				"en": {
-					"narrator": "Ibrāhīm b. Saʿīd > Yaḥyá b. Ṣāliḥ > al-Ḥasan b. Ayyūb > ʿAbdullāh b. Busr > Abū Bakr > Ibrāhīm b. Saʿīd > Yaḥyá b. Ṣāliḥ > Muḥammad b. al-Qāsim al-Ṭāʾī > ʿAbdullāh b. Busr",
-					"text": "The Messenger of Allah ﷺ said to me: *\"You will surely live to reach a century.\"* He said: It reached us that one hundred years passed over him."
+					"narrator": "Chain 1: Ibrāhīm b. Saʿīd > Yaḥyá b. Ṣāliḥ > al-Ḥasan b. Ayyūb > ʿAbdullāh b. Busr; Chain 2 (per Abū Bakr [al-Bazzār], found elsewhere in his book): Ibrāhīm b. Saʿīd > Yaḥyá b. Ṣāliḥ > Muḥammad b. al-Qāsim al-Ṭāʾī > ʿAbdullāh b. Busr",
+					"text": "Abū Bakr [al-Bazzār] said: I also saw it in my book in another place. The Messenger of Allah ﷺ said to me: *\"You will surely live to reach a century.\"* He said: It then reached us that a hundred years passed over him."
 				}
 			},
 			"grades": [],
@@ -55191,8 +55161,7 @@
 				"text": "Musnad al-Bazzar 2959",
 				"url": "https://hadithunlocked.com/bazzar/57/1"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28002902,
@@ -69358,7 +69327,7 @@
 			"arabic": "وحَدَّثنا مُحَمد بْنُ مَعْمَر قَال حَدَّثنا أَبُو عَاصِم قَال حَدَّثنا عُمَارَةُ الأَحْمَرُ قَالَ أَخْبَرَنِي حَبِيبُ بْنُ يَزِيدَ وَأبُو لَيْلَى مَوْلَى فُلانِ بْنِ سَعِيد وَحَبِيبِ بْنِ يَسَارٍ قَالُوا\nكُنَّا مَعَ زَيْدِ بْنِ أَرْقَمَ جُلُوسًا فَجَاءَهُ رَجُلٌ فَجَلَسَ، فَقَالَ: إِنَّ النَّاسَ قَدْ أَكْثَرُوا فِي هَذَيْنِ الرَّجُلَيْنِ عَلِيٍّ وعُثمَان فَأَخْبِرْنِي عَنْهُمَا. قَالَ: لا أُحَدِّثُكَ إلاَّ بِمَا شَهِدْتُهُ وَوَعَاهُ قَلْبِي. خَرَجَ نَبِيُّ اللَّهِ ﷺ فَاسْتَقْبَلَنَا بِوَجْهِهِ، فَحَمِدَ اللَّهَ وَأَثْنَى عَلَيْهِ بِمَا هُوَ أَهْلُهُ، ثُمَّ قَالَ: *«أَلَسْتُمْ تَعْلَمُونَ أَنِّي أَوْلَى بِالْمُؤْمِنِينَ مِنْ أَنْفُسِهِمْ؟»* فَأَعَادَهَا عَلَيْنَا ثَلاثًا، كُلُّ ذَلِكَ نَقُولُ: بَلَى يَا رَسولَ اللهِ، وَعَلِيٌّ سَاكِتٌ. قَالَ: *«قم ياعلي»*، وَأَخَذَ بِعَضُدِهِ أَوْ بِعَضُدَيْهِ، فَرَفَعَهَا أَوْ رَفَعَهُمَا، فَقَالَ: *«مَنْ كُنْتُ مَوْلاهُ فَعَلِيٌّ مَوْلاهُ»*.",
 			"translations": {
 				"en": {
-					"narrator": "Muḥammad b. Maʿmar > Abū ʿĀṣim > ʿUmārah al-Aḥmar > Ḥabīb b. Yazīd > Abū Laylā, mawlā Fulān b. Saʿīd > Ḥabīb b. Yasār",
+					"narrator": "Muḥammad b. Maʿmar > Abū ʿĀṣim > ʿUmārah al-Aḥmar > Ḥabīb b. Yazīd, Abū Laylā (mawlā Fulān b. Saʿīd), and Ḥabīb b. Yasār > Zayd b. Arqam",
 					"text": "We were sitting with Zayd ibn Arqam when a man came to him and sat down. He said, “The people have spoken at great length about these two men, Ali and Uthman, so inform me about them.” He said, “I will not narrate to you except what I witnessed and what my heart retained.”\n\nThe Prophet of Allah ﷺ came out and faced us. He praised Allah and extolled Him with what He is worthy of, then said: *“Do you not know that I have greater claim over the believers than they have over themselves?”* He repeated it to us three times, and each time we said, “Yes, O Messenger of Allah,” while Ali was silent. He said: *“Stand, O Ali.”* He took him by his upper arm—or by both of his upper arms—and raised it, or raised them, and said: *“Whoever I am his mawla, then Ali is his mawla.”*"
 				}
 			},
@@ -69367,8 +69336,7 @@
 				"text": "Musnad al-Bazzar 3705",
 				"url": "https://hadithunlocked.com/bazzar/81/1"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28003648,
@@ -91232,7 +91200,7 @@
 			"arabic": "حَدَّثَنَا جَعْفَرُ بْنُ مُحَمَّدِ بْنِ الْفُضَيْلِ حَدَّثَنَا مُحَمَّدُ بْنُ عُثْمَانَ الدِّمَشْقِيُّ حَدَّثَنِي الْهَيْثَمُ بْنُ حُمَيْدٍ حَدَّثَنِي حَفْصُ بْنُ غَيْلانَ عَنْ عَطَاءِ بْنِ أَبِي رَبَاحٍ قَالَ كُنَّا مَعَ ابْنِ عُمَرَ بِمِنًى فَجَاءَهُ فَتًى مِنْ أَهْلِ الْبَصْرَةِ فَسَأَلَهُ عَنْ شَيْءٍ فَقَالَ سَأُخْبِرُكَ عَنْ ذَلِكَ\nقَالَ كُنْتُ عِنْدَ رَسُولِ اللهِ ﷺ عَاشِرَ عَشَرَةٍ فِي مَسْجِدِ رَسُولِ اللهِ ﷺ أَبُو بَكْرٍ وَعُمَرُ وَعُثْمَانُ وَعَلِيٌّ وَابْنُ مَسْعُودٍ وَمُعَاذٌ وَحُذَيْفَةُ وَأَبُو سَعِيدٍ الْخُدْرِيُّ وَرَجُلٌ آخَرُ سَمَّاهُ وَأَنَا فَجَاءَ فَتًى مِنَ الأَنْصَارِ فَسَلَّمَ عَلَى رَسُولِ اللهِ ﷺ ثُمَّ جَلَسَ فَقَالَ يَا رَسُولَ اللهِ أَيُّ الْمُؤْمِنِينَ أَفْضَلُ؟ قَالَ أَحْسَنُهُمْ خُلُقًا قَالَ فَأَيُّ الْمُؤْمِنِينَ أَكْيَسُ؟ قَالَ أَكْثَرُهُمْ لِلْمَوْتِ ذِكْرًا وَأَحْسَنُهُمْ لَهُ اسْتِعْدَادًا قَبْلَ أَنْ يَنْزِلَ بِهِمْ أَوْ قَالَ بِهِ أُولَئِكَ الأَكْيَاسُ ثُمَّ سَكَتَ الْفَتَى وَأَقْبَلَ عَلَيْنَا النَّبِيُّ ﷺ فَقَالَ لَمْ تَظْهَرِ الْفَاحِشَةُ فِي قَوْمٍ قَطُّ إِلاَّ ظَهَرَ فِيهِمُ الطَّاعُونُ وَالأَوْجَاعُ الَّتِي لَمْ تَكُنْ مَضَتْ فِي أَسْلافِهِمْ وَلا نَقَصُوا الْمِكْيَالَ وَالْمِيزَانَ إِلاَّ أُخِذُوا بِالسِّنِينَ وَشِدَّةِ الْمُؤْنَةِ وَجَوْرِ السُّلْطَانِ عَلَيْهِمْ وَلَمْ يَمْنَعُوا زَكَاةَ أَمْوَالِهِمْ إِلاَّ مُنِعُوا الْقَطْرَ مِنَ السَّمَاءِ وَلَوْلا الْبَهَائِمُ لَمْ يُمْطَرُوا وَلَمْ يَنْقُضُوا عَهْدَ اللهِ وَعَهْدَ رَسُولِهِ إِلاَّ سَلَّطَ اللَّهُ عَلَيْهِمْ عَدُوَّهُمْ وَأَخَذُوا بَعْضَ مَا كَانَ فِي أَيْدِيهِمْ وَإذا لَمْ يُحْكَمْ أَئِمَّتُهُمْ بِكِتَابِ اللهِ جَعَلَ اللَّهُ بَأْسَهُمْ بَيْنَهُمْ قَالَ ثُمَّ أَمَرَ عَبْدَ الرَّحْمَنِ بْنَ عَوْفٍ أَنْ يَتَجَهَّزَ لِسَرِيَّةٍ أَمَّرَهُ عَلَيْهَا فَأَصْبَحَ قَدِ اعْتَمَّ بِعِمَامَةِ كَرَابِيسَ سَوْدَاءَ فَدَعَاهُ النَّبِيُّ ﷺ فَنَقَضَهَا فَعَمَّمَهُ وَأَرْسَلَ مِنْ خَلْفِهِ أَرْبَعَ أَصَابِعَ ثُمَّ قَالَ هَكَذَا يَابْنَ عَوْفٍ فَاعْتَمَّ فَإِنَّهُ أَعْرَبُ وَأَحْسَنُ ثُمَّ أَمَرَ النَّبِيُّ ﷺ بِلالا أَنْ يَدْفَعَ إِلَيْهِ اللِّوَاءَ فَحَمِدَ اللَّهَ ثُمَّ قَالَ اغْزُوا جَمِيعًا فِي سَبِيلِ اللهِ فَقَاتِلُوا مَنْ كَفَرَ بِاللهِ لا تَغُلُّوا وَلا تَغْدِرُوا وَلا تُمَثِّلُوا وَلا تَقْتُلُوا وَلِيدًا فَهَذَا عَهْدُ رَسُولِ اللهِ ﷺ وَسُنَّتُهُ فِيكُمْ< عَبْدُ اللَّهِ بْنُ مُرَّةَ عَن ابْنِ عُمَرَ",
 			"translations": {
 				"en": {
-					"narrator": "Jaʿfar b. Muḥammad b. al-Fuḍayl > Muḥammad b. ʿUthmān al-Dimashqī > al-Haytham b. Ḥumayd > Ḥafṣ b. Ghaylān > ʿAṭāʾ b. Abī Rabāḥ > ʿAbdullāh b. Murrah > Ibn ʿUmar",
+					"narrator": "Jaʿfar b. Muḥammad b. al-Fuḍayl > Muḥammad b. ʿUthmān al-Dimashqī > al-Haytham b. Ḥumayd > Ḥafṣ b. Ghaylān > ʿAṭāʾ b. Abī Rabāḥ",
 					"text": "We were with Ibn Umar at Mina when a young man from the people of Basrah came to him and asked him about something. He said: I will inform you about that. He said: I was with the Messenger of Allah ﷺ, one of ten, in the mosque of the Messenger of Allah ﷺ: Abu Bakr, Umar, Uthman, Ali, Ibn Masud, Muadh, Hudhayfah, Abu Said al-Khudri, another man whom he named, and me. A young man from the Ansar came, greeted the Messenger of Allah ﷺ, then sat down and said: O Messenger of Allah, which of the believers is best? He said: *\"The best of them in character.\"* He said: Then which of the believers is most astute? He said: *\"Those who remember death most often and are best prepared for it before it descends upon them—or he said, upon him; those are the astute.\"*\n\nThen the young man fell silent, and the Prophet ﷺ turned toward us and said: *\"Never does indecency appear among a people but that plague and illnesses which had not passed among their forefathers appear among them. They do not diminish the measure and the scale but that they are seized by years of drought, severe hardship in provision, and the ruler’s oppression over them. They do not withhold the zakah of their wealth but that rain from the sky is withheld from them, and were it not for the beasts, they would not be given rain. They do not break the covenant of Allah ﷻ and the covenant of His Messenger but that Allah ﷻ empowers their enemy over them, and they take some of what was in their hands. And when their leaders do not rule by the Book of Allah ﷻ, Allah ﷻ causes their violence to be among themselves.\"*\n\nHe said: Then he ordered Abd al-Rahman ibn Awf to prepare for a detachment over which he appointed him. In the morning he had wrapped himself in a black cotton-cloth turban, so the Prophet ﷺ called him, untied it, wrapped the turban on him, and let four fingers’ length hang behind him. Then he said: *\"Like this, O Ibn Awf, wrap the turban, for it is more Arab in style and better.\"*\n\nThen the Prophet ﷺ ordered Bilal to hand the banner to him. He praised Allah ﷻ, then said: *\"Go forth all together in the path of Allah ﷻ, and fight those who disbelieve in Allah ﷻ. Do not steal from the spoils, do not betray, do not mutilate, and do not kill a child. This is the covenant of the Messenger of Allah ﷺ and his Sunnah among you.\"*"
 				}
 			},
@@ -91241,8 +91209,7 @@
 				"text": "Musnad al-Bazzar 5536",
 				"url": "https://hadithunlocked.com/bazzar/87/1"
 			},
-			"isAddendum": false,
-			"isAiTranslated": true
+			"isAddendum": false
 		},
 		{
 			"id": 28004799,
